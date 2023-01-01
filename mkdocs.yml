@@ -6,6 +6,11 @@ repo_url: https://github.com/Hypercubers/hypercubers.github.io
 edit_uri: blob/main/docs/
 nav:
   - Welcome: index.md
+  - FAQ: faq.md
+  - Software: software.md
+  - Puzzles: puzzles.md
+  - Methods: methods.md
+  - Leaderboards: leaderboards.md
 theme:
   name: material
   favicon: assets/images/favicon.png
@@ -14,8 +19,6 @@ theme:
     scheme: slate
     primary: purple
     accent: indigo
-  features:
-    - navigation.tabs
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -23,7 +26,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/3hVSe8rDKa
 markdown_extensions:
-  - markdown.extensions.admonition:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - markdown.extensions.codehilite:
       guess_lang: false
   - markdown.extensions.toc:
