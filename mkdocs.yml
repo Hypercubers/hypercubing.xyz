@@ -10,7 +10,7 @@ theme:
   favicon: assets/images/favicon.png
   palette:
     scheme: slate
-    primary: indigo
+    primary: purple
     accent: indigo
   features:
     - navigation.tabs
