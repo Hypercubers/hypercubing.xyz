@@ -6,3 +6,6 @@
     margin-top: 12px;
 }
 
+.md-footer__inner {
+    display: none !important;
+}
