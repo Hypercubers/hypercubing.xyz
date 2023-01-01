@@ -1,1 +1,3 @@
-# hypercubers.github.io
+# Hypercubing
+
+Website for the Hypercubing community

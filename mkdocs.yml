@@ -1,0 +1,28 @@
+site_name: Hypercubing
+site_url: https://hypercubers.github.io/
+docs_dir: docs/
+repo_name: Hypercubers/hypercubers.github.io
+repo_url: https://github.com/Hypercubers/hypercubers.github.io
+nav:
+  - Welcome: index.md
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hypercubers
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/3hVSe8rDKa
+markdown_extensions:
+  - markdown.extensions.admonition:
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.toc:
+      permalink: true
