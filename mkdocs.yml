@@ -3,6 +3,7 @@ site_url: https://hypercubers.github.io/
 docs_dir: docs/
 repo_name: Hypercubers/hypercubers.github.io
 repo_url: https://github.com/Hypercubers/hypercubers.github.io
+edit_uri: blob/main/docs/
 nav:
   - Welcome: index.md
 theme:
