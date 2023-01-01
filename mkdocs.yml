@@ -1,8 +1,8 @@
 site_name: Hypercubing
-site_url: https://hypercubers.github.io/
+site_url: https://hypercubing.xyz/
 docs_dir: docs/
-repo_name: Hypercubers/hypercubers.github.io
-repo_url: https://github.com/Hypercubers/hypercubers.github.io
+repo_name: Hypercubers/hypercubing.xyz
+repo_url: https://github.com/Hypercubers/hypercubing.xyz
 edit_uri: blob/main/docs/
 nav:
   - Welcome: index.md
