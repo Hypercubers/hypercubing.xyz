@@ -25,6 +25,8 @@ extra:
       link: https://github.com/Hypercubers
     - icon: fontawesome/brands/discord
       link: https://discord.gg/3hVSe8rDKa
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - admonition
   - pymdownx.details
