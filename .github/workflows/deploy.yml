@@ -1,10 +1,6 @@
 name: Deploy Site
 on:
   push:
-    paths:
-    - 'docs/**'
-    - 'mkdocs.yml'
-    - 'theme/**'
     branches:
     - master
   workflow_dispatch:

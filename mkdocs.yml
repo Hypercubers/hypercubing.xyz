@@ -8,6 +8,7 @@ nav:
 theme:
   name: material
   favicon: assets/images/favicon.png
+  logo: assets/images/logo.svg
   palette:
     scheme: slate
     primary: purple
