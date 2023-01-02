@@ -46,7 +46,13 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
+  - tables
   - markdown.extensions.codehilite:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
