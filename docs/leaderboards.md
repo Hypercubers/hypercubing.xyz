@@ -1,6 +1,12 @@
 # Leaderboards
 
-Coming soon ...
+General guidelines:
+
+- Only submissions with videos as evidence will be accepted
+- If using keyboard controls, please have the keybinds reference open
+- Submit using [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8) or with a [pull request to this page](https://github.com/Hypercubers/hypercubing.xyz/edit/main/docs/leaderboards.md)
+
+Happy hypercubing!
 
 === "Virtual n^4"
 
