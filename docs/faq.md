@@ -14,7 +14,8 @@ Hypercubing is a niche branch of cubing that focuses on solving puzzles that exi
 
 ??? question "Where can I interact with other hypercubers?"
 
-    Join the {% include hypercubers_discord.html %} and [Hypercubing Google Group](https://groups.google.com/g/hypercubing). The Discord server is generally more active.
+    Join the [Hypercubers Discord Server](discord.gg/7cdBEm49xQ) and [Hypercubing Google Group](https://groups.google.com/g/hypercubing). The Discord server is generally more active.
+    <aside><iframe src="https://discord.com/widget?id=852389089268858922&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></aside>
 
 ## Physical puzzles
 

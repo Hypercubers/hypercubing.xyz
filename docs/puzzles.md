@@ -2,7 +2,7 @@
 
 While we're waiting for Hyperspeedcube 2.0 to release (which will be able to simulate almost any puzzle), Magic Puzzle Ultimate is a great program to get your feet wet in the world of other puzzles.
 
-Open the location where your **MPUlt** folder is. Next, open the **MPUlt_puzzles.txt** file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate Block. Just save the file, reopen MPUlt, and the puzzle you added will be in there.
+Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate Block. Just save the file, reopen MPUlt, and the puzzle you added will be in there.
 
 
 ## Puzzle Definitions
