@@ -1,8 +1,12 @@
 # Puzzles
 
-While we are waiting for Hyperspeedcube 2.0 to release (which will be able to simulate almost any puzzle), here is a list of puzzle definitions for Magic Puzzle Ultimate. You can even design your own puzzles if you can figure out what the syntax means 💀
+While we're waiting for Hyperspeedcube 2.0 to release (which will be able to simulate almost any puzzle), Magic Puzzle Ultimate is a great program to get your feet wet in the world of other puzzles.
 
-???  "3D puzzles"
+Open the location where your **MPUlt** folder is. Next, open the **MPUlt_puzzles.txt** file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate Block. Just save the file, reopen MPUlt, and the puzzle you added will be in there.
+
+
+## Puzzle Definitions
+??? abstract "3D puzzles"
 
     ``` title="3x3x3"
     Puzzle 3x3x3
@@ -53,9 +57,9 @@ While we are waiting for Hyperspeedcube 2.0 to release (which will be able to si
     ```
     
 
-??? "4D Puzzles"
+??? abstract "4D Puzzles"
 
-    ??? "Tesseract Family"
+    ??? abstract "Tesseract Family"
 
         ``` title="2x2x1x1"
         Puzzle 2x2x1x1
@@ -185,7 +189,7 @@ While we are waiting for Hyperspeedcube 2.0 to release (which will be able to si
         Cuts 0.5 0 -0.5
         ```
 
-    ??? "Other"
+    ??? abstract "Other"
 
         ``` title="{4}x{4} 3"
         Puzzle {4}x{4} 3
@@ -325,9 +329,9 @@ While we are waiting for Hyperspeedcube 2.0 to release (which will be able to si
         ```
 
 
-??? "5D Puzzles"
+??? abstract "5D Puzzles"
 
-    ??? "Penteract Family"
+    ??? abstract "Penteract Family"
 
         ``` title="1x1x1x1x2"
         Puzzle 1x1x1x1x2
@@ -397,9 +401,7 @@ While we are waiting for Hyperspeedcube 2.0 to release (which will be able to si
         ```
 
 
-
-
-    ??? "Other"
+    ??? abstract "Other"
 
         ``` title="Simplex Prism"
         Puzzle Simplex_Prism
@@ -428,3 +430,22 @@ While we are waiting for Hyperspeedcube 2.0 to release (which will be able to si
         Twists 1,1,0,0,0/1,0,-1,0,0 0,0,0,0,1/1,-1,0,0,0
         Cuts 0
         ```
+
+## Making your own puzzles
+
+If you somehow figure out the notation above, you can try using it to define your own twisty puzzles. There is also a general formula for 4D duoprism puzzles, made by Luna.
+
+
+``` title="{p}x{q}"
+Puzzle {p}x{q}
+Dim 4
+NAxis 2
+Faces 1,0,0,0 0,0,1,0
+Group 1,0,0,0/1,tan(pi/p),0,0 0,0,1,0/0,0,1,tan(pi/q)
+Axis 1,0,0,0
+Twists 0,1,0,0/0,0,0,1 0,0,1,0/0,0,1,tan(pi/q)
+Cuts ...
+Axis 0,0,1,0
+Twists 0,0,0,1/0,1,0,0 1,0,0,0/1,tan(pi/p),0,0
+Cuts ...
+```
