@@ -2,8 +2,6 @@
 
 ## What is hypercubing?
 
-Hypercubing is a niche branch of cubing that focuses on solving puzzles that exist in more than 3 dimensions. Many people think of time as "the 4th dimension," but in hypercubing, we are using extra spatial dimensions, as well as time, making for an out-of-this-world solving experience!
-
 ??? question "What is the 4th dimension?"
 
     See <https://www.qfbox.info/4d/4dfaq>
@@ -14,20 +12,21 @@ Hypercubing is a niche branch of cubing that focuses on solving puzzles that exi
 
 ??? question "Where can I interact with other hypercubers?"
 
-    Join the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and [Hypercubing Google Group](https://groups.google.com/g/hypercubing). The Discord server is generally more active.
+    Join the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and [Hypercubing Google Group](https://groups.google.com/g/hypercubing). The Discord server is generally more active. Also join the [r/hypercubers reddit](https://www.reddit.com/r/Hypercubers/).
     
 
 ## Physical puzzles
 
 ??? question "What is a physical 4D puzzle?"
 
+    The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. 
     See the [Physical Puzzle page on the Superliminal wiki](http://wiki.superliminal.com/wiki/Physical_Puzzle) and [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA).
 
 ??? question "How do I get Melinda's Physical 2x2x2x2?"
 
-    All the information can be found on [the Superliminal website](https://superliminal.com/cube/2x2x2x2/), including the history, statistics, and Hall of Fame for this puzzle.
+    All the information can be found on [the Superliminal website](https://superliminal.com/cube/2x2x2x2/), including the history, statistics, and Hall of Fame.
 
-??? question "Can I purchase any of the hypercuboids?"
+??? question "Can I purchase any of Grant's hypercuboids?"
 
     No. Currently, they are one-of-a-kind. You would have to design and 3D print them yourself.
 
@@ -37,7 +36,7 @@ Hypercubing is a niche branch of cubing that focuses on solving puzzles that exi
 
 ??? question "Which 4D shapes can be turned into physical puzzles?"
 
-    While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. It just requires out-of-the-box thinking.
+    While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. It just requires out-of-the-box thinking. We currently have several renderings for physical puzzles that haven't been built in real life yet.
 
 ??? question "Can a physical 5D puzzle exist?"
 
@@ -74,7 +73,7 @@ Hypercubing is a niche branch of cubing that focuses on solving puzzles that exi
     - [3Block](http://wiki.superliminal.com/wiki/3-Block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
     - [Octachoroux](http://wiki.superliminal.com/wiki/3%5E4#Octachoroux_Method) — 4D Roux, but awkward to use and many parity issues
 
-    Alterantively, join others in voice chat on the {% include hypercubers_discord.html %} and someone will teach you!
+    Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
 ??? question "Why not start with the 2x2x2x2?"
 
@@ -84,7 +83,7 @@ Hypercubing is a niche branch of cubing that focuses on solving puzzles that exi
 
 ??? question "What are the speedsolving records for 4D puzzles?"
 
-    See the {% include hypercubing_pb_leaderboard.html %}. To get on the leaderboard, submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
+    See the [leaderboards](leaderboards.md). To get on the leaderboard, submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
 
 ??? question "Why not use speedrun.com?"
 
