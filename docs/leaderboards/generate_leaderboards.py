@@ -79,6 +79,8 @@ class Solve:
 
     def cell_contents(self, header):
         if header == 'rank':
+            if self.rank is None:
+                return ''
             emoji = ''
             # if 1 <= self.rank <= 3:
             #     emoji = [
@@ -230,7 +232,7 @@ def make_solvers_list(*, indent=0) -> str:
 
 
 def make_solver_page(solver: Solver, tab_config) -> str:
-    s = ''
+    s = f'---\ntitle: {solver.name}\n---\n\n'
     s += '## Rankings\n\n'
     solves = [solver.get_best_solve_of(puzzle)
               for puzzle in puzzles.values()]
@@ -245,7 +247,7 @@ def make_solver_page(solver: Solver, tab_config) -> str:
         puzzle = puzzles[tab['puz']]
         exclude = ['solver', 'puzzle'] + tab.get('exclude', [])
         return make_solves_table(
-            solver.solves_by_puzzle[puzzle.puz_id],
+            solver.solves_by_puzzle[puzzle.puz_id][::-1],
             indent=indent,
             exclude=exclude,
         )
