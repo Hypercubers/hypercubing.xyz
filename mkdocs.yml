@@ -57,12 +57,6 @@ markdown_extensions:
       permalink: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-  - pymdownx.superfences:
-      custom_fences:
-      - name: python
-        class: python
-        validator: !!python/name:markdown_exec.validator
-        format: !!python/name:markdown_exec.formatter
   - pymdownx.tabbed:
       alternate_style: true
 extra_javascript:
