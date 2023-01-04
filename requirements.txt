@@ -1,1 +1,2 @@
-mkdocs-material==8.5.11
+mkdocs-material==9.0.0
+mkdocs-gen-files==0.4.0

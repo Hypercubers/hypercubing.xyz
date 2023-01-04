@@ -10,7 +10,9 @@ nav:
   - Software: software.md
   - Puzzles: puzzles.md
   - Methods: methods.md
-  - Leaderboards: leaderboards.md
+  - Leaderboards:
+    - leaderboards/index.md
+    - Solvers: leaderboards/solvers.md
 theme:
   name: material
   favicon: assets/images/favicon.png
@@ -32,6 +34,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  features:
+    - navigation.indexes
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -51,8 +55,21 @@ markdown_extensions:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.superfences:
+      custom_fences:
+      - name: python
+        class: python
+        validator: !!python/name:markdown_exec.validator
+        format: !!python/name:markdown_exec.formatter
   - pymdownx.tabbed:
       alternate_style: true
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+plugins:
+  - search
+  - gen-files:
+      scripts:
+      - docs/leaderboards/generate_leaderboards.py
