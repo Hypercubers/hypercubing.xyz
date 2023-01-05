@@ -76,10 +76,7 @@ There are also fancy new 3-cycle algorithms for a 4D "adjacent U-perms" in both 
 From here, you use RKT to solve the rest of the puzzle like a whole 3^3. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
-    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this.
-    You can use a 3D algorithm that rotates the U center 180 degrees (`R U R' U` 5x, or `L R U2 R' L' U *2`).
-    Harder to memorize, but much lower in movecount, is the optimal 9-mover RKT parity alg:
-    `TU UR TU' TF' UK' TF RF UR RF' UTR`
+    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](rkt.md) for algorithms.
 
 !!! tip "RKT parity avoidance"
     You can avoid RKT parity every single time by using 2-look PLL (if you solve RKTPLC using CFOP [2-look CMLL if you solve with Roux]). When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, you can use an EPLL alg without worrying about whether you'll get RKT parity or not.
