@@ -9,7 +9,8 @@ nav:
   - FAQ: faq.md
   - Software: software.md
   - Puzzles: puzzles.md
-  - Methods: methods.md
+  - Notation: notation.md
+  - Methods: methods/index.md
   - Leaderboards:
     - leaderboards/index.md
     - Solvers: leaderboards/solvers.md
@@ -35,6 +36,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.code.copy
     - navigation.indexes
 extra:
   social:
