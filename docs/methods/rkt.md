@@ -39,6 +39,8 @@ RKT Debt always has to be paid back at some point during the solve. During compl
 
 ## Cancels
 
-![Sune cancel](https://i.imgur.com/DTGDsvE.mp4){ width="30% }
+<video autoplay loop muted>
+<source type="video/mp4" src="https://i.imgur.com/DTGDsvE.mp4">
+</video>
 
 RKT cancelling is a newer technique that reduces the move count of RKT algorithm by abusing symmetries of the tesseract. HactarCE made a program called RocKeT to find cancels for algorithms. Often, it just involves inserting some flipping moves at random points throughout the algorithm.
