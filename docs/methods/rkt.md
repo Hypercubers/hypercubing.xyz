@@ -16,7 +16,7 @@ Let's start by translating the Sune OCLL algorithm ```R U R' U R U2 R'``` into R
 2. ```R U R' U R U2 R'``` becomes ```R z R z' R' z R z' R z R2 z' R'```.
 3. R moves become RO turns.
 4. Any rotations in the algorithm ```x, y, or z```, become their respective I cell rotation ```IR, IU, IF```.
-5. Putting this all together, we have ```RO IF RO IF' RO' IF RO IF' RO IF U2 IF' RO'```
+5. Putting this all together, we have ```RO IF RO IF' RO' IF RO IF' RO IF RO2 IF' RO'```
 
 <iframe width="250" height="380" style="width: 250px; height: 380px; overflow: hidden;" src="https://ruwix.com/widget/3d/?label=RU%20Sune&alg=R%20U%20R'%20U%20R%20U2%20R'&flags=showalg" scrolling="no"></iframe>
 <iframe width="250" height="380" style="width: 250px; height: 380px; overflow: hidden;" src="https://ruwix.com/widget/3d/?label=Rz%20Sune&alg=R%20z%20R%20z'%20R'%20z%20R%20z'%20R%20z%20R2%20z'%20R'&flags=showalg" scrolling="no"></iframe>
