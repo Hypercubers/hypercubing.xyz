@@ -46,19 +46,24 @@ extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - admonition
+  - abbr
   - attr_list
-  - pymdownx.details
-  - pymdownx.superfences
-  - md_in_html
-  - tables
   - markdown.extensions.codehilite:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
+  - md_in_html
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.keys
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js

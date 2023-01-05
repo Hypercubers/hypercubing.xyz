@@ -1,0 +1,60 @@
+<!-- n^4 cell names -->
+*[R]: Right
+*[L]: Left
+*[U]: Up
+*[D]: Down
+*[F]: Front
+*[B]: Back
+*[O]: Outside
+*[I]: Inside
+*[M]: Middle slice (parallel to L)
+*[E]: Equatorial slice (parallel to D)
+*[S]: Standing slice (parallel to F)
+*[P]: Planetary slice (parallel to O)
+
+<!-- n^4 piece types -->
+*[1c]: 1-colored (center)
+*[2c]: 2-colored (ridge)
+*[3c]: 3-colored (edge)
+*[4c]: 4-colored (corner)
+
+<!-- 4D stages and alg sets -->
+*[FC]: First Cell
+*[LC]: Last Cell
+*[F2L-a]: 2c+3c pairs
+*[F2L-b]: 3c+4c pairs
+*[OLC]: Orientation of the Last Cell
+*[PLC]: Permutation of the Last Cell
+*[P4L]: Permutation of 4 Layers
+*[PBLBC]: Permutation of Both Layers of Both Cells
+*[OBC]: Orient Both Cells
+
+<!-- 3D stages and alg sets -->
+*[FL]: First Layer
+*[LL]: Last Layer
+*[F2L]: First 2 Layers
+*[OLL]: Orientation of the Last Layer
+*[PLL]: Permutation of the Last Layer
+*[EOLL]: Edge Orientation of the Last Layer
+*[OCLL]: Corner Orientation of the Last Layer (preserves edge orientation)
+*[PBL]: Permutation of Both Layers
+
+<!-- Software -->
+*[HSC]: Hyperspeedcube
+*[MC3D]: Magic Cube 3D
+*[MC4D]: Magic Cube 4D
+*[MC5D]: Magic Cube 5D
+*[MC7D]: Magic Cube 7D
+*[MPU]: Magic Puzzle Ultimate
+*[MPUlt]: Magic Puzzle Ultimate
+*[MT]: MagicTile
+*[MHT]: Magic Hyperbolic Tile
+
+<!-- Turn metrics -->
+*[ATM]: Axial Turn Metric
+*[ETM]: Execution Turn Metric
+*[STM]: Slice Turn Metric
+*[QSTM]: Quarter Slice Turn Metric
+
+<!-- Misc. -->
+*[BLD]: Blindfolded
