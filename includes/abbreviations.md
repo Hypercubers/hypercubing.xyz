@@ -1,17 +1,3 @@
-<!-- n^4 cell names -->
-*[R]: Right
-*[L]: Left
-*[U]: Up
-*[D]: Down
-*[F]: Front
-*[B]: Back
-*[O]: Outside
-*[I]: Inside
-*[M]: Middle slice (parallel to L)
-*[E]: Equatorial slice (parallel to D)
-*[S]: Standing slice (parallel to F)
-*[P]: Planetary slice (parallel to O)
-
 <!-- n^4 piece types -->
 *[1c]: 1-colored (center)
 *[2c]: 2-colored (ridge)
@@ -35,9 +21,17 @@
 *[F2L]: First 2 Layers
 *[OLL]: Orientation of the Last Layer
 *[PLL]: Permutation of the Last Layer
+*[EO]: Edge Orientation
+*[EP]: Edge Permutation
+*[CO]: Corner Orientation
+*[CP]: Corner Permutation
 *[EOLL]: Edge Orientation of the Last Layer
 *[OCLL]: Corner Orientation of the Last Layer (preserves edge orientation)
 *[PBL]: Permutation of Both Layers
+
+<!-- 3D methods -->
+*[CFOP]: Cross, F2L, OLL, PLL
+*[ZZ]: Zbigniew Zborowski's method
 
 <!-- Software -->
 *[HSC]: Hyperspeedcube
