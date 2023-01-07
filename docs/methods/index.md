@@ -29,7 +29,7 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 
 ## 3x3x3x3 Methods
 
-- [CFOP](cfop.md) (the only real page right now)
+- [CFOP](cfop.md)
 - [3Block](3block.md)
 - [Octochoroux](octochoroux.md)
 

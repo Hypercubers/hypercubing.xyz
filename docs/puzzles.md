@@ -6,7 +6,7 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
 
 
 ## Puzzle Definitions
-??? abstract "3D puzzles"
+??? abstract "3D Puzzles"
 
     ??? info "3x3x3"
         ``` title="3x3x3"
