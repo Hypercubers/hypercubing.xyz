@@ -46,7 +46,7 @@ On bigger n<sup>4</sup> puzzles (n>3), it can look like a single _slice_ layer o
 
 ## Debt
 RKT Debt is when the R cell isn't aligned with the rest of the puzzle. For example, after executing a T perm algorithm with RKT, the R cell will be misaligned by 90°.
-RKT Debt always has to be paid back at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be usead as "ammo". That is, undoing the debt in a useful way to help solve the puzzle.
+RKT Debt always has to be paid back at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle.
 
 ## Cancels
 
