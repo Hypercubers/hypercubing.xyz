@@ -5,7 +5,7 @@ Physical puzzles in the context of hypercubing refers to a `d`-dimensional puzzl
 ## Melinda's 2x2x2x2
 Starting in 2014, [Melinda Green](https://superliminal.com/) (one of the codevelopers of [MC4D](\software\#magic-cube-4d)) began bringing her idea for a physical 2<sup>4</sup> to life.
 
-![A rendering of Melinda's 2x2x2x2](\2_4_transparent.png)
+![A rendering of Melinda's 2x2x2x2](\assets\images\2_4_transparent.png){width="30%"}
 
 ## Grant's 2x2x2x3
 
