@@ -1,11 +1,17 @@
 # Puzzles
 
+## Physical Puzzles
+
+There are a small number of higher dimensional twisty puzzles that actualy physically exist in our 3D world. See the main article [here](physical_puzzles.md)
+
+## Virtual Puzzles
+
 While we're waiting for Hyperspeedcube 2.0 to release (which will be able to simulate almost any puzzle), Magic Puzzle Ultimate is a great program to get your feet wet in the world of other puzzles.
 
 Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate Block. Just save the file, reopen MPUlt, and the puzzle you added will be in there.
 
 
-## Puzzle Definitions
+### Puzzle Definitions
 ??? abstract "3D Puzzles"
 
     ??? info "3x3x3"
@@ -459,7 +465,7 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
             Cuts 0
             ```
 
-## Making your own puzzles
+### Making your own puzzles
 
 If you somehow figure out the notation above, you can try using it to define your own twisty puzzles. There is also a general formula for 4D duoprism puzzles, made by Luna.
 
