@@ -66,20 +66,19 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - tables
+  - pymdownx.arithmatex:
+      generic: true
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
   - gen-files:
       scripts:
       - docs/leaderboards/generate_leaderboards.py
-markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
+  
 
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
