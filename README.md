@@ -9,3 +9,6 @@ Website for the Hypercubing community
 3. Clone this repo and open a terminal in it
 4. `py -m pip install -r requirements.txt --user`
 5. `py -m mkdocs serve`
+6. If you have `git-lfs` installed already, git should automatically download all image files when you clone this repo.
+
+If not, install `git-lfs`, then run `git lfs pull`.
