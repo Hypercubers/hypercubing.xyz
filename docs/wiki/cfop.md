@@ -4,7 +4,7 @@
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
-    - [Notation](../notation.md)
+    - [Notation](notation.md)
     - [RKT](rkt.md)
     - [3D CFOP](https://jperm.net/3x3/cfop) with 2-look OLL & PLL
 

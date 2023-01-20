@@ -1,6 +1,6 @@
 # RKT
 
-!!! warning "Learn [Notation](../notation.md) first"
+!!! warning "Learn [Notation](notation.md) first"
 
 
 ??? question "Where does the name RKT come from?"

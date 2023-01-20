@@ -6,6 +6,7 @@ repo_url: https://github.com/Hypercubers/hypercubing.xyz
 edit_uri: blob/main/docs/
 nav:
   - Welcome: index.md
+  - Tutorial: tutorial.md
   - FAQ: faq.md
   - Wiki: wiki.md
   - Leaderboards:
