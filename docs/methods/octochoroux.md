@@ -1,3 +1,0 @@
-# Octochoroux
-
-(work in progress)
