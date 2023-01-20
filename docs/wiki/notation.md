@@ -53,7 +53,7 @@ There are many different ways to count the number of moves. Listed below are the
     - Whole-puzzle rotations are not counted.
 
 ??? info "ETM"
-    - Twists are counted as they are executed, including whoe-puzzle rotations.
+    - Twists are counted as they are executed, including whole-puzzle rotations.
 
 ??? info "STM"
     - Whole-puzzle rotations are not counted.
