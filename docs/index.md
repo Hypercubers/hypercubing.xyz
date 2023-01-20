@@ -8,7 +8,7 @@ Hypercubing.xyz is a modern website that hosts everything from general informati
 
 ## What to do here
 
-To get started, check out the [FAQ](faq.md), and download some [software](software.md)! You can also join the Hypercubers Discord Server if you get stuck, or have more questions.
+To get started, check out the [FAQ](faq.md), and browse the [wiki](wiki.md)! You can also join the Hypercubers Discord Server if you get stuck, or have more questions.
 
 <iframe src="https://discord.com/widget?id=852389089268858922&theme=dark" inline="true" align="right" width="300" height="500"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 

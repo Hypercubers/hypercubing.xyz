@@ -7,10 +7,7 @@ edit_uri: blob/main/docs/
 nav:
   - Welcome: index.md
   - FAQ: faq.md
-  - Software: software.md
-  - Puzzles: puzzles.md
-  - Notation: notation.md
-  - Methods: methods/index.md
+  - Wiki: wiki.md
   - Leaderboards:
     - leaderboards/index.md
     - Solvers: leaderboards/solvers.md

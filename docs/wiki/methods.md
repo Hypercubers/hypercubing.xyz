@@ -4,7 +4,7 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 
 (This page is still under construction, apologies for any broken links)
 
-!!! warning "Learn [Notation](../notation.md) before trying to learn any of these methods"
+!!! warning "Learn [Notation](notation.md) before trying to learn any of these methods"
 
 ## General Techniques
 
@@ -16,16 +16,16 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 
 ### Virtual
 
-- [4Tega](2x2x2x2/4tega.md)
-- [Cell By Cell](2x2x2x2/cell-by-cell.md)
+- [4Tega](4tega.md)
+- [Cell By Cell](cell-by-cell.md)
 
 ### Physical
 
-- [Luna's Method](physical/luna.md)
-- [Rowan's Method](physical/rowan.md)
-- [Grant's OBC Method](physical/grant.md)
-- [P4L (PBLBC)](physical/p4l.md)
-- [GRCL Method](physical/grcl.md)
+- [Luna's Method](luna.md)
+- [Rowan's Method](rowan.md)
+- [Grant's OBC Method](grant.md)
+- [P4L (PBLBC)](/p4l.md)
+- [GRCL Method](grcl.md)
 
 ## 3x3x3x3 Methods
 
