@@ -62,12 +62,12 @@ There are many different ways to count the number of moves. Listed below are the
 
 ??? info "BTM"
     - Whole-puzzle rotations are not counted.
-    - Noncontiguous slice twists are slip into contiguous slice twists.
+    - Noncontiguous slice twists are split into contiguous slice twists.
     - Consecutive twists of the same axis and layers are combined.
 
 ??? info "OBTM"
     - Whole-puzzle rotations are not counted.
-    - Slice twists are slip into contiguous outer-block twists.
+    - Slice twists are split into contiguous outer-block twists.
     - Consecutive twists of the same axis and layers are combined.
 
 All of these metrics have their own Quarter Turn counterparts, where 180° twists are counted as two 90° twists.
