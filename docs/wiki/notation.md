@@ -70,4 +70,4 @@ There are many different ways to count the number of moves. Listed below are the
     - Slice twists are split into contiguous outer-block twists.
     - Consecutive twists of the same axis and layers are combined.
 
-All of these metrics (besides ETM) have their own Quarter Turn counterparts, where 180° twists are counted as two 90° twists.
+All of these metrics (besides ETM) have their own Quarter Turn counterparts, where twists are broken up into 90° twists. For example, a 180° face twist takes two 90° twists, while a 120° edge twist takes three.
