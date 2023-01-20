@@ -3,11 +3,13 @@
 This is notation specifically for n$^4$ virtual puzzles. Notation pages for other puzzles coming soon™️...
 
 ## Cells
+!!! info inline "Yellow cell rotating"
+    <video autoplay loop muted width="300">
+    <source type="video/mp4" src="/assets/images/yellowcellrotating.mp4">
+    </video>
 The sides of a 4D puzzle are called `cells`, each of which is a cubic grid of n$^3$ stickers. Because each side is cubic, they can be rotated with cubic symmetry. A cube has 24 different possible orientations, meaning that each side of a 4D puzzle can be oriented in 24 different ways.
 
-<video autoplay loop muted width="300">
-<source type="video/mp4" src="/assets/images/yellowcellrotating.mp4">
-</video>
+
 
 
 The cells are notated: Right, Left, Up, Down, Front, Back, Outside, Inside.
