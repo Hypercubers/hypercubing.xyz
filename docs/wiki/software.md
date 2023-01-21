@@ -10,6 +10,8 @@ It depends on what exactly you want to do. If you just want to solve the 3^4, th
 
 [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) is a modern, beginner-friendly 3D and 4D Rubik’s cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving. It’s been used to break numerous speedsolving records.
 
+It's recommended to download Hyperspeedcube, but a [web version](https://hypercubing.xyz/hyperspeedcube/) is available as well.
+
 ![3x3x3x3 with the far cell mid-twist](https://i.imgur.com/rpMgIwp.png){ width="30%" }
 ![3x3x3x3 near the end of F2L-b with many tools and settings windows open](https://i.imgur.com/uDzvYLz.png){ width="30%" }
 ![Solved 2x2x2](https://i.imgur.com/aAVOjsD.png){ width="30%" }
