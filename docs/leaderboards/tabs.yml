@@ -10,6 +10,7 @@
   - puz: 4x4x4x4
   - puz: 5x5x5x5
   - puz: 6x6x6x6
+  - puz: 7x7x7x7
 - name: Physical 4D
   contents:
   - puz: phys_2x2x2x2
