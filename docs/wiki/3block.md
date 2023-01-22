@@ -5,7 +5,7 @@
     - `Move count:` 300-500
 
 
-3-Block is a method designed for quickly speedsolving the 3$^4$. Many speesolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". It is most analogous to the 3$^3$ method [FreeFOP], which omits a single cross piece in order to let you pair pieces easier.
+3-Block is a method designed for quickly speedsolving the 3^4^. Many speesolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". It is most analogous to the 3$^3$ method [FreeFOP], which omits a single cross piece in order to let you pair pieces easier.
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
@@ -102,4 +102,4 @@ This is done in the exact same way as [CFOP](cfop.md#olc).
 
 ## Big cubes
 
-Solve all the centers, then pair up only the pieces you need during the step of 3-block you're on. For example: after solving centers, pair up 4 cross ridges. For last cell, you can either just orient everything, and then do an RKT 4$^4$ solve, or you can pair everything and end up with an RKT 3$^3$ solve.
+Solve all the centers, then pair up only the pieces you need during the step of 3-block you're on. For example: after solving centers, pair up 4 cross ridges. For last cell, you can either just orient everything, and then do an RKT 4$^4$ solve, or you can pair everything and end up with an RKT 3^3^ solve.

@@ -4,7 +4,7 @@ Hypercubing is mostly experienced through the various programs that exist to sim
 
 ## What program should I download?
 
-It depends on what exactly you want to do. If you just want to solve the 3^4, then Hyperspeedcube is the way to go. If you want to explore other puzzles or dimensions, then MC4D, MPU, MC5D, MC7D is next. For Android phones and tablets, you can download MC4D from the Google Play store. If you want to go even further down the rabbit hole, there’s MagicTile, M120C, Nan Ma’s 11-cell, magic simplex 5d, MC3D.
+It depends on what exactly you want to do. If you just want to solve the 3^4^, then Hyperspeedcube is the way to go. If you want to explore other puzzles or dimensions, then MC4D, MPU, MC5D, MC7D is next. For Android phones and tablets, you can download MC4D from the Google Play store. If you want to go even further down the rabbit hole, there’s MagicTile, M120C, Nan Ma’s 11-cell, magic simplex 5d, MC3D.
 
 ### Hyperspeedcube
 
@@ -22,7 +22,7 @@ It's recommended to download Hyperspeedcube, but a [web version](https://hypercu
 
 ### Magic Cube 5D
 
-[Magic Cube 5D](https://www.gravitation3d.com/magiccube5d/) features puzzles from 2^5 through 7^5. It uses a double perspective projection, which can make it confusing to look at. For the 2^5, you have to use the buttons in the bottom right to control the puzzle.
+[Magic Cube 5D](https://www.gravitation3d.com/magiccube5d/) features puzzles from 2^5^ through 7^5^. It uses a double perspective projection, which can make it confusing to look at. For the 2^5^, you have to use the buttons in the bottom right to control the puzzle.
 
 ### Magic Cube 7D
 
@@ -50,7 +50,7 @@ It's recommended to download Hyperspeedcube, but a [web version](https://hypercu
 
 ### Magic Cube 3D
 
-What would it be like for a 2D being to solve a 3D puzzle? [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/) has a special mode that lets you view a 3x3x3 with "1D vision", which really makes you appreciate how we are able to solve 4D puzzles.
+What would it be like for a 2D being to solve a 3D puzzle? [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/) has a special mode that lets you view a 3^3^ with "1D vision", which really makes you appreciate how we are able to solve 4D puzzles.
 
 ### Magic Hyperbolic Tile
 

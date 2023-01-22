@@ -49,9 +49,9 @@
     [MC3D]: https://github.com/rzhao271/MC3D/releases/latest/
 
 ??? question "How do I start learning to solve 4D puzzles?"
-    First, download [Hyperspeedcube] or [MC4D] and start experimenting with the 3^4! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a method to learn.
+    First, download [Hyperspeedcube] or [MC4D] and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a method to learn.
 
-??? question "What methods exist for the 3^4?"
+??? question "What methods exist for the 3^4^?"
     Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
 
     - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
@@ -62,7 +62,7 @@
     Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
 ??? question "Why not start with the 2x2x2x2?"
-    The 2^4 is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4 strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3 is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4 that will help you with other puzzles.
+    The 2^4^ is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4^ strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3^ is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4^ that will help you with other puzzles.
 
 ## Speedsolving
 

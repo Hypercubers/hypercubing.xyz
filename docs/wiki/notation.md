@@ -1,13 +1,13 @@
 # Notation
 
-This is notation specifically for n$^4$ virtual puzzles. Notation pages for other puzzles coming soon™️...
+This is notation specifically for n^4^ virtual puzzles. Notation pages for other puzzles coming soon™️...
 
 ## Cells
 !!! info inline "Yellow cell rotating"
     <video autoplay loop muted width="300">
     <source type="video/mp4" src="/assets/images/yellowcellrotating.mp4">
     </video>
-The sides of a 4D puzzle are called `cells`, each of which is a cubic grid of n$^3$ stickers. Because each side is cubic, they can be rotated with cubic symmetry. A cube has 24 different possible orientations, meaning that each side of a 4D puzzle can be oriented in 24 different ways.
+The sides of a 4D puzzle are called `cells`, each of which is a cubic grid of n^3^ stickers. Because each side is cubic, they can be rotated with cubic symmetry. A cube has 24 different possible orientations, meaning that each side of a 4D puzzle can be oriented in 24 different ways.
 
 
 
@@ -40,7 +40,7 @@ For slice and wide moves, you write the numbers you hold down on the keyboard wh
 
 - `yw`: bring y+ to w+ (rotate U to O)
 
-Note how we don't have to use ' prime symbols because wy is the inverse of yw. This makes it a really nice system because it only ever uses 2 letters. You can also use it on the 3<sup>3</sup>: `xy` means move x+ to y+ (R to U [z rotation]).
+Note how we don't have to use ' prime symbols because wy is the inverse of yw. This makes it a really nice system because it only ever uses 2 letters. You can also use it on the 3^3^: `xy` means move x+ to y+ (R to U [z rotation]).
 
 In reality though, it's easiest to just say use `x`, `y`, and `z` for rotations that don't change the cells on the W axis. For other ones you can just say `recenter (cell)`. 
 
