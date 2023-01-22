@@ -2,19 +2,48 @@
 
 ## What is hypercubing?
 
+??? question "What does hypercubing mean?"
+    Just as cubing is the hobby of solving 3D twisty puzzles, *Hypercubing* is solving 4D+ twisty puzzles.
+
 ??? question "What is the 4th dimension?"
-    See <https://www.qfbox.info/4d/4dfaq>
+    Hypercubing deals with higher dimensions of space. Essentially all this means is just another direction (humans can only percieve 3 orthogonal directions, which is what makes this so challenging).
+    ??? question "Isn't the 4th dimension time?"
+        While time is a dimension, it behaves completely differently from the spatial dimensions. You can't move backward through it, measure shapes in it, etc. Another factor that can lead to confusion is the term spacetime or 4D spacetime. This is why physicists sometimes use the term 3+1 dimensions to describe our world, meaning that hypercubing would take place in 4+1 dimensions (or n+1 where n>3).
+    See <https://www.qfbox.info/4d/4dfaq> for answers to other similar questions.
 
 ??? question "What is a 4-dimensional Rubik's cube? How does that make any sense?"
-    See <https://superliminal.com/cube/faq.html>
+    Read the [MC4D FAQ](https://superliminal.com/cube/faq.html)
+
 
 ??? question "Where can I interact with other hypercubers?"
     Join the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and [Hypercubing Google Group](https://groups.google.com/g/hypercubing). The Discord server is generally more active. Also join the [r/Hypercubers reddit](https://www.reddit.com/r/Hypercubers/).
 
+## Virtual puzzles
+
+??? question "What program should I download?"
+    It depends on what exactly you want to do, but generally [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/), and MC4D will suit your needs. See the [software](software.md) page for links to all the major programs.
+
+??? question "How do I start learning to solve 4D puzzles?"
+    First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](\wiki\methods) to learn.
+
+??? question "Why not start with the 2x2x2x2?"
+    The 2^4^ is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4^ strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3^ is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4^ that will help you with other puzzles.
+
+??? question "What methods exist for the 3^4^?"
+    Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
+
+    - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
+    - [CFOP](\wiki\cfop) — 4D CFOP
+    - [3Block](\wiki\3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
+    - [Octachoroux](\wiki\octachoroux) — 4D Roux, but awkward to use and many parity issues
+
+    Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
+
+
 ## Physical puzzles
 
 ??? question "What is a physical 4D puzzle?"
-    The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See the [Physical Puzzle page on the Superliminal wiki](http://wiki.superliminal.com/wiki/Physical_Puzzle) and [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA).
+    The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See our [puzzles page](\wiki\puzzles), the [Physical Puzzle page on the Superliminal wiki](http://wiki.superliminal.com/wiki/Physical_Puzzle), and [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA).
 
 ??? question "How do I get Melinda's Physical 2x2x2x2?"
     All the information can be found on [the Superliminal website](https://superliminal.com/cube/2x2x2x2/), including the history, statistics, and Hall of Fame.
@@ -29,40 +58,7 @@
     While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. It just requires out-of-the-box thinking. We currently have several renderings for physical puzzles that haven't been built in real life yet.
 
 ??? question "Can a physical 5D puzzle exist?"
-    In 3d space, it's difficult to find a symmetrical design to arrange 5 colors. It's possible using icosahedral symmetry (<https://math.stackexchange.com/q/103005/1115019>), but it would be painful to use. Perhaps some clever design will be invented in the future that allows us to fully implement 5D+ puzzles.
-
-## Virtual puzzles
-
-??? question "What program should I download?"
-    It depends on what exactly you want to do. If you just want to solve the 3^4, then [Hyperspeedcube] is the way to go. If you want to explore other puzzles or dimensions, then [MC4D], [MPU], [MC5D], [MC7D] is next. For Android phones and tablets, you can download [MC4D from the Google Play store][MC4D app]. If you want to go even further down the rabbit hole, there's [MagicTile], [M120C], [Nan Ma's 11-cell][11-cell], [Magic Simplex 5d], [MC3D].
-
-    [Hyperspeedcube]: https://ajfarkas.dev/hyperspeedcube/
-    [MC4D]: https://superliminal.com/cube/
-    [MPU]: https://superliminal.com/andrey/mpu/
-    [MC5D]: http://www.gravitation3d.com/magiccube5d/
-    [MC7D]: https://superliminal.com/andrey/mc7d/
-    [MC4D app]: https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d
-    [MagicTile]: http://roice3.org/magictile/
-    [M120C]: http://www.gravitation3d.com/magic120cell/
-    [11-cell]: https://superliminal.com/cube/ElevenCell.jar
-    [Magic Simplex 5D]: https://superliminal.com/andrey/ms5d/
-    [MC3D]: https://github.com/rzhao271/MC3D/releases/latest/
-
-??? question "How do I start learning to solve 4D puzzles?"
-    First, download [Hyperspeedcube] or [MC4D] and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a method to learn.
-
-??? question "What methods exist for the 3^4^?"
-    Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
-
-    - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
-    - [Sheerin-Zhao Hybrid v2](http://wiki.superliminal.com/wiki/3%5E4#Sheerin-Zhao_Method_.28Hybrid.29_V1) — 4D CFOP
-    - [3Block](http://wiki.superliminal.com/wiki/3-Block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
-    - [Octachoroux](http://wiki.superliminal.com/wiki/3%5E4#Octachoroux_Method) — 4D Roux, but awkward to use and many parity issues
-
-    Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
-
-??? question "Why not start with the 2x2x2x2?"
-    The 2^4^ is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4^ strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3^ is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4^ that will help you with other puzzles.
+    In 3d space, it's difficult to find a symmetrical design to arrange 5 colors. It's possible using [icosahedral symmetry](https://math.stackexchange.com/q/103005/1115019), but it would be painful to use. Perhaps some clever design will be invented in the future that allows us to fully implement 5D+ puzzles.
 
 ## Speedsolving
 
@@ -70,10 +66,10 @@
     See the [leaderboards](leaderboards/index.md). To get on the leaderboard, submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
 
 ??? question "Why not use speedrun.com?"
-    Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and were rejected. If anyone wants to build a hypercubing leaderboard website, please do!
+    Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and were rejected.
 
 ??? question "I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?"
-    Absolutely! Most 4D speed methods are highly intuitive, and world-record times often use just 2-look OLL and PLL.
+    Absolutely! Most 4D speed methods are highly intuitive, and world-record times often use just 2-look OLL and PLL. Executing algorithms is a very negligible part of the solve compared to the massive amounts of pair or block building.
 
 ??? question "Does full OLL/PLL/etc. exist for 4D puzzles? What about 4D algorithm explorers?"
     There's so many cases for each step of the solve that creating a complete algorithm set is basically impossible, and there's so many options for moves that algorithm explorers are infeasible. Almost every algorithm we have is based on an algorithm from 3D, and the only search program we have is a sort of optimizer for one very specific kind of algorithm derived from 3D.
