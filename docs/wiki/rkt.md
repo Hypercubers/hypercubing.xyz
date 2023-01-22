@@ -19,9 +19,7 @@ Let's start by translating the Sune OCLL algorithm ```R U R' U R U2 R'``` into R
 <iframe width="250" height="380" style="width: 250px; height: 380px; overflow: hidden;" src="https://ruwix.com/widget/3d/?label=RU%20Sune&alg=R%20U%20R'%20U%20R%20U2%20R'&flags=showalg" scrolling="no"></iframe>
 <iframe width="250" height="380" style="width: 250px; height: 380px; overflow: hidden;" src="https://ruwix.com/widget/3d/?label=Rz%20Sune&alg=R%20z%20R%20z'%20R'%20z%20R%20z'%20R%20z%20R2%20z'%20R'&flags=showalg" scrolling="no"></iframe>
 
-<video autoplay loop muted>
-<source type="video/mp4" src="https://i.imgur.com/WpAqiCo.mp4">
-</video>
+![Sune with RKT](/assets/images/SuneRKTgif.gif){width="50%"}
 
 !!! note
     Even though this technique is called RKT, it is not limited to those types of turns. Thus, you can use LO and I- moves instead, or rotate your view and use RU and D- instead of RK and I-.
@@ -38,6 +36,8 @@ You can use a 3D algorithm that rotates the U center 180° (`R U R' U`x5, or `L 
 Harder to memorize (but much lower in movecount) is the optimal 9-mover RKT parity alg:
 `IU UR IU' IF' UO' IF RF UR RF' UIR`, found by Tetrian22.
 
+- [PLL + RKT parity algs by Eff](https://docs.google.com/spreadsheets/d/1oHNpWKSnR0p6PMiwQT5IciE2f7Wmw2cC-Kfol0XrzG4/edit)
+
 On 2<sup>4</sup>, the algorithm is shorter because it doesn't have to worry about messing up edges. A commonly used one is ```R2 B2 R2 U R2 B2 R2 U'```<sub>RKT</sub>.
 
 On bigger n<sup>4</sup> puzzles (n>3), it can look like a single _slice_ layer of a cell is off by 180°. An intuitive way to solve this is to do the 2x2x2x2 RKT parity algorithm with wide moves, and then the normal 3<sup>4</sup> RKT parity algorithm. It can also be avoided by just lining up your slice the same way you line up centers in 3D before finishing last 4 edges (when using freeslice).
@@ -50,8 +50,21 @@ RKT Debt always has to be paid back at some point during the solve. During compl
 
 ## Cancels
 
-<video autoplay loop muted>
-<source type="video/mp4" src="https://i.imgur.com/4FThVZx.mp4">
-</video>
+<center>![Sune with RKT](/assets/images/SuneRKTcancel.gif){width="80%"}</center>
 
-RKT cancelling is a newer technique that reduces the move count of RKT algorithm by abusing symmetries of the tesseract. HactarCE made a program called RocKeT to find cancels for algorithms. Often, it just involves inserting some flipping moves at random points throughout the algorithm.
+RKT cancelling is a newer technique that reduces the move count of RKT algorithms by abusing symmetries. HactarCE made a program called RocKeT to find cancels for algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
+
+## Simultaneous RKT
+
+RKT can be done by using 2 opposite sides (e.g. `RO` and `LO` turns) as well as normal I cell turns. This would allow you to execute `<R,U,L>` gen algorithms easier, at the cost of having to fix RKT debt on both layers. Another interesting way to do this is in a method like Belt Method. After solving the belt, orienting opposite sides, and separating the colours, the user is left with solving 2 opposite cells that can be solved simultaneously using RKT. If you turn one of the sides with the belt going through it, it essentially does a twist to both cells. One case that can be annoying is if you want to do a 180 degree turn on one side, and a 90 degree turn on the other (you would have to wait until both cells' debt lined up).
+
+## Double RKT +
+
+The term Double RKT is used to refer to *using* RKT to *do* RKT in 4D+ puzzles. Using RKT on the 3$^5$, you can treat a single 4D cell as a 3$^4$. And if you know how to use RKT to treat a 3$^4$ like a 3$^3$, then you can do Double RKT. This generalizes to any number dimensions, but the movecount doubles each time. Below is a table of the number of moves to do the Sune algorithm `R U R' U R U2 R'` in different numbers of dimensions.
+ 
+|Dimension|Number of twists ([STM](/docs/wiki/notation.md#turn-metrics))|
+| ----------- | ------------------------------------ |
+|`3`|7|
+|`4`|13|
+|`5`|26-28|
+|`5`|52-56|
