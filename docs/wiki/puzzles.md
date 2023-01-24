@@ -15,6 +15,8 @@ For a documentary about the history of physical puzzles as of December 2022, see
 
 ### Grant's 2x2x2x3
 
+[Grant's 2x2x2x3](grant-2223.md) was the second every physical 4D puzzle. The concept design was created by Luna, and the puzzle was printed by Grant.
+
 ### Grant's 2x2x3x3
 
 ### Grant's 2x3x3x3

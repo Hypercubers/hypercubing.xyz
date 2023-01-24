@@ -21,7 +21,7 @@
 ## Virtual puzzles
 
 ??? question "What program should I download?"
-    It depends on what exactly you want to do, but generally [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/), and MC4D will suit your needs. See the [software](software.md) page for links to all the major programs.
+    It depends on what exactly you want to do, but generally [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/), and MC4D will suit your needs. See the [software](\wiki\software) page for links to all the major programs.
 
 ??? question "How do I start learning to solve 4D puzzles?"
     First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](\wiki\methods) to learn.
