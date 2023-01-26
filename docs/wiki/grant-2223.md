@@ -18,7 +18,7 @@ She invented the design for the 3c pieces by dividing the edges of a cube into 1
 
 <center>![Luna's 3c design](/assets/images/3c.png){width="30%"}
 
-<small> Melinda's 2x2x2x3 </small></center>
+<small> Luna's 3c design </small></center>
 
 This is when Grant joined the server, and shared his 3D printed 2x2x2x2. Rowan then challenged him to build Luna's design for the 2x2x2x3. After a lot of time tweaking the designs, printing them, magnetizing them, and assembling them, the 2x2x2x3 was completed on February 3rd 2022.
 
