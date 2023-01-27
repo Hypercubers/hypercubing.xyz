@@ -12,6 +12,8 @@ See the [Hyperspeedcube](\wiki\software-hsc) page for more details.
 
 ### Magic Cube 4D
 
+See the [Magic Cube 4D](\wiki\software-mc4d) page for more details.
+
 [Magic Cube 4D](https://superliminal.com/cube/cube.htm) is the original 4D puzzle program, created in 1988! It has many puzzles, including a way to make your own (although this feature is severely limited). There are a couple puzzles with some small bugs, and changing the colour scheme of a puzzle can be annoying, but this is the classic program.
 
 ### Magic Cube 5D

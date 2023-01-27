@@ -1,0 +1,37 @@
+# Magic Cube 4D
+
+Magic Cube 4D was one of the first ever programs capable of simulating higher dimensional twisty puzzles. It was made starting in 1988 by Melinda Green, Don Hatch, Jay Berkenbilt, and Roice Nelson.
+
+<center>
+![3x3x3x3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
+
+<small> 3^4^ puzzle in Magic Cube 4D </small> </center>
+
+## Download/installation
+
+Magic Cube 4D requires [java](https://www.java.com/en/) to be installed. Then go to <https://superliminal.com/cube/>, and click on the `Click here to download MagicCube4D` button. Save the executable `mc4d-4-3-343.jar` file somewhere you will remember, as this file is how you open the program.
+
+## Alternative versions
+
+Magic Cube 4D has 2 notable variants made by the community that offer different puzzles or options:
+
+### Raynefork
+
+Raynefork is Raymond Zhao's version of MC4D, which has the updated defualt colour scheme (standard 3^3^ colours plus pink/purple), and some more options in the settings menu. It can be found from its GitHub [here](https://github.com/rzhao271/magiccube4d/releases/tag/v4.3.343-raynefork.2.1).
+
+### Don's version
+
+Don's version contains some 2D puzzles, many 3D puzzles, and some interesting 4D puzzles. It also has a menu for 5D and 6D puzzles, however they don't work when you select them. Don's version can be downloaded from its GitHub [here](https://github.com/donhatch/donhatchsw.jar/blob/master/java1.8/donhatchsw.jar).
+
+
+### Troubleshooting
+
+First off, you should read [MC4D's FAQ](https://superliminal.com/cube/faq.html) on the superliminal website.
+
+??? warning "my computer wants to open the `.jar` file with notepad"
+    This means that you haven't installed java properly. Make sure to get the newest from version [here](https://www.java.com/en/). After the installation, right click on the `mc4d-4-3-343.jar` file, and click open with Java(TM) Platform SE Binary.
+
+??? warning "facecolors.txt doesn't change my colors"
+    1. Make sure to close the program. Then reopen it, and reload the puzzle using the menu.
+    2. If you're on windows and you have show file extensions off in settings, then you may have accidentally named the file `facecolors.txt.txt`. Try renaming it to just `facecolors`. (Alternatively, enable showing file extensions in settings)
+
