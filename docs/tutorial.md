@@ -18,4 +18,4 @@ Further reading:
 
 
 
-<center>[Next →](tutorial2.md){ .md-button }</center>
+<center>[Next →](tutorial2.md){ .md-button .md-button--primary }</center>

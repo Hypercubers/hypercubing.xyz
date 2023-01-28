@@ -26,7 +26,7 @@
 ??? question "How do I start learning to solve 4D puzzles?"
     First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](\wiki\methods) to learn.
 
-??? question "Why not start with the 2x2x2x2?"
+??? question "Why not start with the 2^4^?"
     The 2^4^ is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4^ strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3^ is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4^ that will help you with other puzzles.
 
 ??? question "What methods exist for the 3^4^?"
@@ -45,7 +45,7 @@
 ??? question "What is a physical 4D puzzle?"
     The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See our [puzzles page](\wiki\puzzles), the [Physical Puzzle page on the Superliminal wiki](http://wiki.superliminal.com/wiki/Physical_Puzzle), and [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA).
 
-??? question "How do I get Melinda's Physical 2x2x2x2?"
+??? question "How do I get Melinda's Physical 2^4^?"
     All the information can be found on [the Superliminal website](https://superliminal.com/cube/2x2x2x2/), including the history, statistics, and Hall of Fame.
 
 ??? question "Can I purchase any of Grant's hypercuboids?"
