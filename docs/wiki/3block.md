@@ -62,6 +62,57 @@
         - preset_name: End
           visible_pieces: ffffffffffffffffffff
         ```
+    === "Rowan's filters (white cross)"
+        ```yaml
+        - preset_name: 4/6Cross
+          visible_pieces: 000204080a5830004080
+        - preset_name: Middle 1
+          visible_pieces: 00070e080a5830004080
+        - preset_name: Middle 2
+          visible_pieces: 00070e080a583000e0c1
+        - preset_name: Left Block 1
+          visible_pieces: 00478e080a5a3008e0d1
+        - preset_name: Left Block 2
+          visible_pieces: 00478e080e5e3008e0d1
+        - preset_name: Left Block 3
+          visible_pieces: 00c78f080e5e3008e0d1
+        - preset_name: Left Block 4
+          visible_pieces: 00c78f080e5e3008f0f1
+        - preset_name: Left Block 5
+          visible_pieces: 00c78f080f5f3008f0f1
+        - preset_name: Left Block 6
+          visible_pieces: 00e7cf080f5f3008f0f1
+        - preset_name: Left Block 7
+          visible_pieces: 00e7cf080f5f300cf8f1
+        - preset_name: Right Block 1
+          visible_pieces: 00e7df280f5fb00cfaf5
+        - preset_name: Right Block 2
+          visible_pieces: 00e7df280fdfb10cfaf5
+        - preset_name: Right Block 3
+          visible_pieces: 00e7ff680fdfb10cfaf5
+        - preset_name: Right Block 4
+          visible_pieces: 00e7ff680fdfb10cfefd
+        - preset_name: Right Block 5
+          visible_pieces: 00e7ff680ffff10cfefd
+        - preset_name: Right Block 6
+          visible_pieces: 00efff780ffff10cfefd
+        - preset_name: Right Block 7
+          visible_pieces: 00efff780ffff10cffff
+        - preset_name: 2c OLC
+          visible_pieces: 01efff7d5ffff12cffff
+        - preset_name: 3c OLC
+          visible_pieces: abeffffffffff57dffff
+        - preset_name: 4c OLC
+          visible_pieces: 54ffff700ffffb8effff
+        - preset_name: 2c PLC
+          visible_pieces: 01efff7d5ffff12cffff
+        - preset_name: RKT PLC Cross
+          visible_pieces: ab00000d500000204000
+        - preset_name: RKT PLC F2L
+          visible_pieces: ff10008ff00000204000
+        - preset_name: RKT PLC LL
+          visible_pieces: ff10008ff0000ef30000
+        ```
 
 ## Summary
 
