@@ -1,6 +1,6 @@
-# 3Block
+# 3-Block
 
-3-Block is a method designed for quickly speedsolving the 3^4^. Many speesolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". It is most analogous to the 3^3^ method [FreeFOP], which omits a single cross piece in order to pair pieces easier.
+3-Block is a method designed for quickly speedsolving the 3^4^. Many speesolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". 3-Block is most analogous to the 3^3^ method [FreeFOP] (which omits a single cross piece in order to pair pieces easier).
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
@@ -127,6 +127,8 @@
 
 Solve the four 2c cross pieces in a ring in the M slice. Leave the L and R cross pieces unsolved.
 
+<center>![y](/assets/images/4cross_transparent.png){width="50%"}</center>
+
 ### Mid
 
 !!! tip
@@ -134,13 +136,19 @@ Solve the four 2c cross pieces in a ring in the M slice. Leave the L and R cross
 
 Create and insert 4 F2L-a (2c3c) pairs into the 4/6 cross. This will solve 2/3 of the M slice. Because the Left and Right cells don't have their cross pieces, you can use them to aid with building and inserting the pairs.
 
+<center>![y](/assets/images/middle_transparent.png){width="50%"}</center>
+
 ### Left
 
 Solve the Left cell. This is done in 3 blocks, hence the name of the method. The first block consists of the cross edge, followed by two 2c3c F2L-a pairs that are opposite of each other. This solves the middle column of the left cell. The final two blocks consist of a 2c3c pair, and two 3c4c pairs.
 
+<center>![y](/assets/images/LB_transparent.png){width="50%"}</center>
+
 ### Right
 
 Solve the Right cell. This is also done by breaking it up into the 3 blocks, except now you don't have an empty opposite cell to aid you in making pairs. You could just solve the cross edge, and then finish the whole solve using [CFOP](cfop.md) style F2L and Last Cell. You can also do it the 3 blocks way, except having less freedom means that it is slightly trickier to set up the correct cases.
+
+<center>![y](/assets/images/RB_transparent.png){width="50%"}</center>
 
 ### Last Cell
 
