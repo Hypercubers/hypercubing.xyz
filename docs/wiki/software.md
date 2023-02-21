@@ -26,6 +26,7 @@ See the [Magic Cube 4D](\wiki\software-mc4d) page for more details.
 
 ### Magic Puzzle Ultimate
 
+[MPU](\wiki\software-mpu)
 [Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) features a lot of miscellaneous puzzles, including some cuboids, 16-cell and 24-cell puzzles, and more.
 
 ### Magic 120 Cell

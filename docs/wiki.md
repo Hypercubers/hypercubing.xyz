@@ -9,7 +9,7 @@ Hypercubing is a very niche sub-branch within the already niche hobby of cubing.
 Remember that this wiki is still under construction, and it will take a long time before it is "completed". To get started, check out the following pages:
 
 <center>[Software](/wiki/software){.md-button .md-button--primary} 
-[Puzzles](/wiki/puzzles){.md-button .md-button--primary} 
+[Physical Puzzles](/wiki/physical-puzzles){.md-button .md-button--primary} 
 [Methods](/wiki/methods){.md-button .md-button--primary}
 </center>
 

@@ -1,34 +1,22 @@
-# Puzzles
+# Magic Puzzle Ultimate
 
-## Physical Puzzles
+[Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) (MPU) is a program made by [Andrey Astrelin](https://superliminal.com/andrey/) that simulates a lot of different puzzles, as well as letting you define your own.
 
-!!! warning
-    It is highly recommended to learn virtual hypercubing first before trying to understand the physical puzzles.
+[Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary } 
 
-Physical puzzles in the context of hypercubing refers to higher dimensional puzzles that are physically built in real life using only 3 dimensions. This often involves clever designs, strange tricks, and lots and lots of magnets. Often, these puzzles are too impractical to use, defeating their sole purpose.
+![32-cell in MPU](\assets\images\mpu_32cell.png)
 
-For a documentary about the history of physical puzzles as of December 2022, see [Rowan's video](https://www.youtube.com/watch?v=QTc-rG-nunA).
+<center><small> 32-cell puzzle in MPU </small></center>
 
-### Melinda's 2x2x2x2
+## Records
 
-[Melinda's 2x2x2x2](melinda-2222.md) was the first ever physical 4D puzzle. The pieces of it have been mass produced, meaning that you can now buy a puzzle kit, or buy it preassembled.
-
-### Grant's 2x2x2x3
-
-[Grant's 2x2x2x3](grant-2223.md) was the second every physical 4D puzzle. The concept design was created by Luna, and the puzzle was printed by Grant.
-
-### Grant's 2x2x3x3
-
-### Grant's 2x3x3x3
-
-### Grant's 3x3x3x3
-
+Some records for the shortest and first solutions of a puzzle are kept on the [Superliminal Wiki page](http://wiki.superliminal.com/wiki/MPUlt_Records).
 
 ## Virtual Puzzles
 
-While we're waiting for [Hyperspeedcube 2.0](software-hsc.md#future-updates) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other puzzles.
+While we're waiting for [Hyperspeedcube 2.0](software-hsc.md#future-updates) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other 4D puzzles.
 
-Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate Block. Just save the file, reopen MPUlt, and the puzzle you added will be in there.
+Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate ```Block```. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
 
 
 ### Puzzle Definitions
@@ -487,9 +475,9 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
 
 ### Making your own puzzles
 
-If you somehow figure out the notation above, you can try using it to define your own twisty puzzles. There is also a general formula for 4D duoprism puzzles, made by Luna.
+If you figure out the notation, you can try adding your own puzzles. You define the symmetry group, rotational axes, cutting planes, possible twists and puzzle boundary.
 
-
+There is also a general formula for 4D duoprism puzzles, made by Luna:
 ``` title="{p}x{q}"
 Puzzle {p}x{q}
 Dim 4
