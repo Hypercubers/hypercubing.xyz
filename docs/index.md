@@ -1,6 +1,6 @@
 # Hypercubing ![favicon](/assets/images/favicon.png)
 
-Hypercubing is a niche branch of Rubik's Cubing that focuses on solving [higher dimensional twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle). The way that twisty puzzles move are mathematically well defined, and easily generalizabe to higher spatial dimensions. These puzzles can then be visualized by [computer software](\wiki\software).
+Hypercubing is a niche branch of Rubik's Cubing that focuses on solving [higher dimensional twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle). The ways that twisty puzzles move are mathematically well defined, and can be generalized to higher spatial dimensions. These puzzles can then be visualized and simulated using [computer software](\wiki\software).
 
 <center>![3x3x3x3](/assets/images/3_4_transparent.png){width="50%"}</center>
 
