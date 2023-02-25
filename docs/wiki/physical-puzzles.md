@@ -23,8 +23,7 @@ For a documentary about the history of physical puzzles as of December 2022, see
 - AxBxCxD (any hypercuboid)
 - 1xAxBxC series
 - 1x1xAxB series
-- Physical simplex
-- Physical void bandaged simplex
+- Markk's Simplex
 - {5}x{4} duoprism
 - Akkei's 2x2x2x2x2
 
