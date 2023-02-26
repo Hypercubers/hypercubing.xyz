@@ -1,6 +1,6 @@
 # Commutators
 
-A commutator (or comm) is a sequence of moves where you do a sequence A, then a sequence B, then the inverse of A, and finally the inverse of B. After completion only specific pieces are affected, making it easier to solve the puzzle.
+A commutator (or comm) is a sequence of moves where you do a sequence A, then a sequence B, then the inverse of A, and finally the inverse of B. After completion, only specific pieces are affected, making it easier to solve the puzzle.
 
 One of the earliest solutions for the 3x3x3x3 was [The Ultimate Solution to a 3x3x3x3](https://superliminal.com/cube/solution/solution.htm) by Roice Nelson, which made heavy use of intuitive setup moves and commutators. Commutators were also much easier to use in MC4D due to the Macro feature, which could automatically execute any sequence of moves that you defined.
 

@@ -25,7 +25,7 @@ Watch these helpful YouTube video playlists:
 Browse through our [wiki](wiki.md) pages: (work in progress)
 
 [Software](/wiki/software){.md-button .md-button--primary} 
-[Puzzles](/wiki/puzzles){.md-button .md-button--primary} 
+[Physical Puzzles](/wiki/puzzles){.md-button .md-button--primary} 
 [Methods](/wiki/methods){.md-button .md-button--primary}
 
 Join our Discord server:

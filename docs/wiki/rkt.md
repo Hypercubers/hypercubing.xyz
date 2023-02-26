@@ -6,7 +6,7 @@
 ??? question "Where does the name RKT come from?"
     In the old notation, the I/O cells were called T/K (Top and Kata). Typically different move sets are notated like ```<RK,T>```, but the term was shortened to RKT. Using I/O notation, it should be called ROI, but the old name stuck.
 
-RKT is a technique to treat a single side of an n^d^ puzzle like an n^d-1^ puzzle. On 3^4^, this is done by using RO moves to do an R move to the I cell. Then you can rotate the I cell in any direction you want to do moves on it.
+RKT is a technique to treat a single side of an n^d^ puzzle like an n^d-1^ puzzle. On 3^4^, this is done by using RO moves to do an R move to the I cell. Then you can rotate the I cell in any direction you want to do moves on it. It was probably invented independently several times, but popularized by Raymond Zhao in his article [here](https://rayzz.me/articles/hypercubing/rkt.html).
 
 Let's start by translating the Sune OCLL algorithm ```R U R' U R U2 R'``` into RKT.
 

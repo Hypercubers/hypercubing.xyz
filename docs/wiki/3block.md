@@ -156,4 +156,4 @@ This is done in the exact same way as [CFOP](cfop.md#olc).
 
 ## Big cubes
 
-Solve all the centers, then pair up only the pieces you need during the step of 3-block you're on. For example: after solving centers, pair up 4 cross ridges. For last cell, you can either just orient everything, and then do an RKT 4$^4$ solve, or you can pair everything and end up with an RKT 3^3^ solve.
+Solve all the centers, then pair up only the pieces you need during the step of 3-block you're on. For example: after solving centers, pair up 4 cross ridges. For last cell, you can either just orient everything, and then do an RKT 4^4^ solve, or you can pair everything and end up with an RKT 3^3^ solve.
