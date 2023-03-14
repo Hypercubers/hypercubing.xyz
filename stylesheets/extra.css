@@ -1,0 +1,11 @@
+.md-nav__title {
+    box-shadow: none !important;
+}
+
+.md-nav__list {
+    margin-top: 12px;
+}
+
+.md-footer__inner {
+    display: none !important;
+}
