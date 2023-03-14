@@ -24,8 +24,12 @@ For a documentary about the history of physical puzzles as of December 2022, see
 - 1xAxBxC series
 - 1x1xAxB series
 - Markk's Simplex
+- Markk's duoprisms
 - {5}x{4} duoprism
 - Akkei's 2x2x2x2x2
+
+
+
 
 
 
