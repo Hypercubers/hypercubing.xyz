@@ -17,6 +17,9 @@
     exclude: ['program']
   - puz: phys_2x2x2x2_oh
     exclude: ['program']
-- name: Other puzzles
+- name: Other 4D
   contents:
   - puz: 3-layer_simplex
+- name: MagicTile
+  contents:
+  - puz: Hemimegaminx
