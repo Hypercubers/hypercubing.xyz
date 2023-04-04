@@ -13,6 +13,7 @@
   - puz: 7x7x7x7
 - name: Physical 4D
   contents:
+  - puz: virt_phys_3x3x3x3
   - puz: phys_2x2x2x2
     exclude: ['program']
   - puz: phys_2x2x2x2_oh
