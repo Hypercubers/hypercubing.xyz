@@ -8,9 +8,11 @@ The most well known 4D shape is the [hypercube](https://en.wikipedia.org/wiki/Te
 
 ## First Steps
 
-Completely new to hypercubing? Check out our tutorial page and frequently asked questions :
+Completely new to hypercubing? Check out our tutorial page and frequently asked questions:
 
 [Tutorial](tutorial.md){.md-button .md-button--primary} [FAQ](faq.md){.md-button .md-button--primary}
+
+The short article [Abstracting the Rubik's Cube](https://www.maa.org/sites/default/files/pdf/Mathhorizons/pdfs/AbstractingRubiks_MH_25.4.18.pdf) introduces a number of the hypercubing puzzles.
 
 Watch these helpful YouTube video playlists:
 
@@ -20,7 +22,6 @@ Watch these helpful YouTube video playlists:
 - [4D Twisty Puzzles](https://www.youtube.com/playlist?list=PLx1mIVtz33hITKuvUBhswO5Cd4In4ajQr)
 - [Melinda's 2x2x2x2](https://www.youtube.com/playlist?list=PLx1mIVtz33hLPgMQ_5DRG1kq1P5GNeKKC)
 - [hypercubing videos](https://www.youtube.com/playlist?list=PLMfvDuBNaWYOv-KRKEkQHAe8hwVkxwIJG)
-
 
 Browse through our [wiki](wiki.md) pages: (work in progress)
 
