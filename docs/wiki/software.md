@@ -30,3 +30,4 @@ For Android phones and tablets, you can download MC4D from the Google Play Store
 - [4D Blocks](https://www.urticator.net/blocks/)
 - [pCubes](https://twistypuzzles.com/forum/viewtopic.php?t=27054)
 - [Nan Ma's RefleCube](https://www.nan.ma/reflecube/)
+- [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
