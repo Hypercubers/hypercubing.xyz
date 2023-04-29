@@ -26,7 +26,7 @@ The moves are notated based on which piece you click to do the turn in MC4D.
 The first letter determines the cell to click on. The second letter determines the sticker on the cell (usually a 2c piece) to click on. For example:
 
 - `RO'` means to left click the R cell sticker of the RO piece.
-- `IUR` means to click the I sticker of the IUR piece.
+- `IUR` means to right click the I sticker of the IUR piece.
 - `FRUI` means to right click the F sticker of the FRUI piece.
 
 For slice and wide moves, you write the numbers you hold down on the keyboard while clicking. 
