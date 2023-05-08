@@ -2,11 +2,7 @@
 
 !!! warning "Learn [Notation](notation.md) first"
 
-
-??? question "Where does the name RKT come from?"
-    In the old notation, the I/O cells were called T/K (Top and Kata). Typically different move sets are notated like ```<RK,T>```, but the term was shortened to RKT. Using I/O notation, it should be called ROI, but the old name stuck.
-
-RKT is a technique to treat a single side of an n^d^ puzzle like an n^d-1^ puzzle. On 3^4^, this is done by using RO moves to do an R move to the I cell. Then you can rotate the I cell in any direction you want to do moves on it. It was probably invented independently several times, but popularized by Raymond Zhao in his article [here](https://rayzz.me/articles/hypercubing/rkt.html).
+RKT is a technique to treat a single side of an n^d^ puzzle like an n^d-1^ puzzle. On an n^4^, this is done by using RO moves to do an R move on the I cell. Then you can rotate the I cell in any direction you want to get other sides to the RI plane, and then repeat. It was probably invented independently several times, but popularized by Raymond Zhao in his article [here](https://rayzz.me/articles/hypercubing/rkt.html).
 
 Let's start by translating the Sune OCLL algorithm ```R U R' U R U2 R'``` into RKT.
 
@@ -52,7 +48,7 @@ RKT Debt always has to be paid back at some point during the solve. During compl
 
 <center>![Sune with RKT](/assets/images/SuneRKTcancel.gif){width="80%"}</center>
 
-RKT cancelling is a newer technique that reduces the move count of RKT algorithms by abusing symmetries. HactarCE made a program called RocKeT to find cancels for algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
+RKT cancelling is a newer technique that reduces the move count of RKT algorithms by abusing symmetries. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
 
 ## Simultaneous RKT
 
@@ -61,3 +57,20 @@ RKT can be done by using 2 opposite sides (e.g. `RO` and `LO` turns) as well as 
 ## Double RKT +
 
 The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *do* RKT in 5D+ puzzles. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do Double RKT. This generalizes to any number of dimensions, but the movecount doubles each time, making it impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](commutators.md).
+
+## RKT in 3D
+
+If RKT treats a single layer of an n^d^ puzzle like an n^d-1^ puzzle, then technically the last step of the 3^3^ [Roux method](https://www.speedsolving.com/wiki/index.php?title=Roux_method) counts as RKT. The last step of Roux is to permute the M-slice like a 3^2^ (with mirroring moves allowed).
+
+Another thing that "feels like RKT" is solving 3x3xn cuboids where $n>3$. A typical strategy for these is to solve from the innermost layers to the outermost layers, treating it as several nested 3x3x2 puzzles. Doing an R2 on the whole puzzle does an R2 to each of the subpuzzles.
+
+
+## Naming
+
+In the old [notation](notation.md), the Inside and Outside cells were called Top and Kata, respectively. The name RKT is a shortened version of the move set ```<RK,T*>```. Using the most commonly used notation it should be called ROI, but the old name stuck.
+
+Some newer names that were proposed for RKT are:
+
+- SFM (Single Facet Manipulation)
+- FRM (Facet Redution Method)
+
