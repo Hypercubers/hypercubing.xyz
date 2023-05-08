@@ -1,12 +1,15 @@
 2x2x2x2: 2x2x2x2
+2x2x2x2_bld: 2x2x2x2 Blindfolded
 3x3x3x3: 3x3x3x3
 3x3x3x3_ao5: 3x3x3x3 Ao5
+3x3x3x3_bld: 3x3x3x3 Blindfolded
 4x4x4x4: 4x4x4x4
 5x5x5x5: 5x5x5x5
 6x6x6x6: 6x6x6x6
 7x7x7x7: 7x7x7x7
 phys_2x2x2x2: Physical 2x2x2x2
 phys_2x2x2x2_oh: Physical 2x2x2x2 One-Handed
+phys_2x2x2x2_bld: Physical 2x2x2x2 Blindfolded
 3-layer_simplex: 3-Layer Simplex
 Hemimegaminx: Hemimegaminx
 virt_phys_3x3x3x3: Virtual Physical 3x3x3x3

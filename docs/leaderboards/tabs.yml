@@ -1,12 +1,19 @@
 - name: Virtual n^4^
   contents:
   - puz: 2x2x2x2
+    contents:
+    - name: Single
+      puz: 2x2x2x2
+    - name: Blindfolded
+      puz: 2x2x2x2_bld
   - name: 3x3x3x3
     contents:
     - name: Single
       puz: 3x3x3x3
     - name: Ao5
       puz: 3x3x3x3_ao5
+    - name: Blindfolded
+      puz: 3x3x3x3_bld
   - puz: 4x4x4x4
   - puz: 5x5x5x5
   - puz: 6x6x6x6
@@ -17,6 +24,8 @@
   - puz: phys_2x2x2x2
     exclude: ['program']
   - puz: phys_2x2x2x2_oh
+    exclude: ['program']
+  - puz: phys_2x2x2x2_bld
     exclude: ['program']
 - name: Other 4D
   contents:

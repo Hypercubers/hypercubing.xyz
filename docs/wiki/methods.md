@@ -24,7 +24,7 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 - [Luna's Method](luna.md)
 - [Rowan's Method](rowan.md)
 - [Grant's OBC Method](grant.md)
-- [P4L (PBLBC)](/p4l.md)
+- [P4L (PBLBC)](p4l.md)
 - [GRCL Method](grcl.md)
 
 ## 3x3x3x3 Methods
