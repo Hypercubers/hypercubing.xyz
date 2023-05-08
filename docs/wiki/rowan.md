@@ -1,12 +1,12 @@
-# Rowans's OBC Method for 2x2x2x2
+# Rowan's OBC Method for 2x2x2x2
 
-Rowan developed his method for Orienting Both Cells while trying to solve the physical 2x2x2x2 for the first time in a [YouTube video](https://www.youtube.com/watch?v=w7w_Jn5oEwY).
+Rowan developed this method for Orienting Both Cells while trying to solve the physical 2x2x2x2 for the first time in a [YouTube video](https://www.youtube.com/watch?v=w7w_Jn5oEwY).
 
 ## Steps
 
 ### Inspection
 
-Before starting the solve, inspect the puzzle for an opposite colour pair that has 4 or fewer stickers oriented to the Left/Right axis. They can be made of any colour in the colour pair, and can be in any spot on the puzzle.
+Before starting the solve, inspect the puzzle for an opposite colour pair that has 4 or fewer stickers oriented to the Left/Right axis (x-axis). They can be made of any colour in the colour pair, and can be in any spot on the puzzle.
 
 <center>![4 or less on 2x2x2x2](\assets\images\Rowan4orLess.png){width="50%"}
 
@@ -23,7 +23,7 @@ Hold the puzzle vertically, and use block building to orient 8 pieces on a cell 
 
 ### Getting 12 Oriented to Y-axis
 
-Now use RKT to orient a layer of 4 stickers on the other cell. You should now have a "last layer" of 4 unoriented pieces on one of the cells.
+Now use RKT to orient a layer of 4 stickers on the other cell, leaving you with a "last layer" of 4 unoriented pieces on one of the cells.
 
 <center>![8 to y 2x2x2x2](\assets\images\Rowan12UD.png){width="50%"}
 
