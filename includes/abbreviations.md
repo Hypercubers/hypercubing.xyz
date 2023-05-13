@@ -52,3 +52,4 @@
 
 <!-- Misc. -->
 *[BLD]: Blindfolded
+*[FMC]: Fewest Moves Competition
