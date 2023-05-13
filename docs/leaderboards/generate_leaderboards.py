@@ -160,7 +160,7 @@ def parse_time(s):
 # Load solves from CSV
 with open('docs/leaderboards/solves.csv') as file:
     reader = csv.reader(file)
-    headers = next(reader)
+    headers = [str.strip(s) for s in next(reader)]
     all_solves = [Solve(**dict(zip(headers, map(str.strip, line))))
                   for line in reader]
 
