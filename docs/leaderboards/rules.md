@@ -4,8 +4,6 @@ These rules are not written in legalese. Please don't try to exploit them. Ask i
 
 These rules may be flexible, especially for new categories. For example, if you're speedsolving a really big puzzle that no one's done before, it might be reasonable to allow macros for it.
 
-Happy hypercubing!
-
 ## General rules
 
 - [These programs](software#list-of-hypercubing-software) are recommended for speedsolving. If using a program not listed here, you should ask on the Discord first.
