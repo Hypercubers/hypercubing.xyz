@@ -61,7 +61,10 @@ class Solve:
                  solver: str,
                  program: str = '-') -> None:
         self.date = date
-        self.link = link and f'https://youtu.be/{link}'
+        if link and 'http' not in link:
+            self.link = f'https://youtu.be/{link}'
+        else:
+            self.link = link
         self.time = parse_time(time)
         self.puzzle = puzzles[puzzle]
         self.solver = solvers[solver]
