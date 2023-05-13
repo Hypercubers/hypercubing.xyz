@@ -20,6 +20,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 - Macros are **not** allowed.
 - Piece filters are allowed.
 - All speedsolves require video evidence, such as a screen recording.
+    - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
 - If using keyboard controls:
     - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
     - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
