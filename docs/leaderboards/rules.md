@@ -6,7 +6,7 @@ These rules may be flexible, especially for new categories. For example, if you'
 
 ## General rules
 
-- [These programs](software#list-of-hypercubing-software) are recommended for speedsolving. If using a program not listed here, you should ask on the Discord first.
+- [These programs](\wiki\software#list-of-hypercubing-software) are recommended for speedsolving. If using a program not listed here, you should ask on the Discord first.
 - The puzzle must be solved from a full scramble.
 - Spectators may commentate, but must not help the solver.
 - Algorithm reference sheets are strongly discouraged.[^algsheets]
@@ -54,7 +54,7 @@ If you're thinking of writing a new program for speedsolving or suggesting a new
 - If your program has keybinds (especially customizable ones), add some reference that shows what keys are being pressed and what they're doing.
 - New features should hopefully make solving strategy more interesting. Some examples:
     - Macros on the 3^4^ encourage commutator spam, which is very boring compared to layer-by-layer or F2L methods, so they are not allowed for speedsolves.
-    - Piece filters reduce time spent looking for pieces, which is boring to do and boring to watch. There's a trade-off there: piece filters encourage a stricter solving order, which is less interesting in a way, but this also enables [3-Block](3block), a very interesting method.
+    - Piece filters reduce time spent looking for pieces, which is boring to do and boring to watch. There's a trade-off there: piece filters encourage a stricter solving order, which is less interesting in a way, but this also enables [3-Block](\wiki\3block), a very interesting method.
 - New features should ideally have some justification based on 3D speedsolving. For example, multiple keybind sets is analogous to different grips on a 3D puzzle.[^grip]
 
 [^algsheets]: We can't stop you from using an algorithm reference, but it's not in the spirit of the competition and it'll probably slow you down.
