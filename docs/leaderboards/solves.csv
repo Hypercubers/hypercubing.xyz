@@ -1,11 +1,24 @@
 date,       link,                  time, program,   solver,             puzzle
 2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3
 2019-05-19, TPaW0RUJrFk,  1h 12m 07.65s, MC4D,      tetrian,            4x4x4x4
+2019-08-11, oEdrWPEsKPQ,      2m 26.00s, -,         connor,             phys_2x2x2x2
 2021-07-24, z__CuN5CgAY,      1m 43.44s, MC4D,      tetrian,            3-layer_simplex
 2021-07-24, s8Kj2h8YCkY,      1m 00.80s, MC4D,      tetrian,            2x2x2x2
+2021-11-15, mgfhSL2fi7E,      2m 16.54s, -,         rowan,              phys_2x2x2x2
+2021-12-06, tOaBQs34oB0,      2m 05.27s, -,         rowan,              phys_2x2x2x2
+2021-12-09, I9hnsif4ImE,      2m 03.58s, -,         rowan,              phys_2x2x2x2
+2021-12-11, 2SWo0zMlg8I,      2m  0.66s, -,         rowan,              phys_2x2x2x2
+2021-12-11, JJPJ7hgNLJU,      1m 56.75s, -,         rowan,              phys_2x2x2x2
+2022-05-07, RuUc26S5xpw,      1m 46.24s, -,         rowan,              phys_2x2x2x2
+2022-06-20, FSpuv9FJorw,      1m 28.14s, -,         rowan,              phys_2x2x2x2
 2022-07-01, ClqLrac3Ib4,      6m 25.12s, -,         rowan,              phys_2x2x2x2_oh
+2022-08-02, XDW7wi4ryPE,      1m 27.17s, -,         rowan,              phys_2x2x2x2
+2022-08-07, uEnk2yrJN7I,      1m 23.28s, -,         grant,              phys_2x2x2x2
+2022-08-12, X_FY-CUfvUI,      1m 07.57s, -,         grant,              phys_2x2x2x2
 2022-09-17, i8Dkpk6QEpE,      1m 18.24s, -,         rowan,              phys_2x2x2x2
+2022-09-18, _qqXVKOVkAI,      1m 06.04s, -,         grant,              phys_2x2x2x2
 2022-10-01, RU3ca_0Ea3w,      3m 55.62s, -,         grant,              phys_2x2x2x2_oh
+2022-10-03, eIEu38wsjtM,         56.65s, -,         grant,              phys_2x2x2x2
 2022-11-06, U7AgKxkaG0U,      9m 05.82s, HSC,       hactar,             3x3x3x3
 2022-11-08, Ba4fZIL9sWs,         54.84s, -,         grant,              phys_2x2x2x2
 2022-11-15, ehmibXcJnpw,      2m 11.47s, -,         hyperespy,          phys_2x2x2x2
