@@ -12,6 +12,7 @@ nav:
   - Leaderboards:
     - leaderboards/index.md
     - Solvers: leaderboards/solvers.md
+    - Record History: leaderboards/history.md
 theme:
   name: material
   favicon: assets/images/favicon.png

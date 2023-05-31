@@ -103,6 +103,7 @@ class Puzzle:
         self.puz_id = puz_id
         self.name = name
         self.best_solves = []
+        self.record_history = []
         self.has_tab = False
 
     @property
@@ -174,6 +175,12 @@ for puzzle in puzzles.values():
     puzzle.best_solves.sort(key=lambda s: s.time)
     for i, s in enumerate(puzzle.best_solves):
         s.rank = i + 1
+
+for curSolve in all_solves:
+    if len(curSolve.puzzle.record_history) == 0:
+        curSolve.puzzle.record_history.insert(0,curSolve)
+    elif curSolve.puzzle.record_history[0].time > curSolve.time:
+        curSolve.puzzle.record_history.insert(0,curSolve)
 
 
 def make_table(rows, *, indent):
@@ -306,5 +313,24 @@ for solver in solvers.values():
             end='',
         )
 
-# Generate puzzle pages
-# for puzzle in
+def make_history_leaderboard_tab_contents(tab, *, indent=0):
+    puzzle = puzzles[tab['puz']]
+    exclude = ['puzzle'] + tab.get('exclude', [])
+    return make_solves_table(
+        puzzle.record_history,
+        indent=indent,
+        exclude=exclude,
+    )
+
+create_mkdocs_file_from_template(
+    path='leaderboards/history.md',
+    template='history.md',
+    contents=make_tabbed_leaderboards(
+        tab_config, make_history_leaderboard_tab_contents),
+)
+
+create_mkdocs_file_from_template(
+    'leaderboards/records.md',
+    'records.md',
+    ' ',
+)
