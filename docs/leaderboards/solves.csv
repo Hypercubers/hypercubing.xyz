@@ -134,6 +134,7 @@ date,       link,                  time, program,   solver,             puzzle
 2023-03-18, ktjpFhnArHE,      2m 11.57s, MT,        luna,               Hemimegaminx
 2023-03-18, Jry6rXRHgmc,      2m 06.52s, MT,        luna,               Hemimegaminx
 2023-03-19, hKelDJ4rkLI,      1m 51.94s, MT,        grant,              Hemimegaminx
+2023-03-20, 1GfM06GsWp4,      1m 27.39s, MPU,       grant,              1x3x3x3
 2023-03-30, Nty_vtso5Pk,      1m 42.40s, -,         cubedude,           phys_2x2x2x2
 2023-03-29, P8AG5AGeu40,     17m 11.75s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
 2023-04-04, 23dSS3ojZoE,     47m 43.81s, AKKEI-SIM, hyperespy,          virt_phys_3x3x3x3
@@ -179,3 +180,4 @@ date,       link,                  time, program,   solver,             puzzle
 2023-05-29, uHhPlIZ2PGU,     22m 11.78s, HSC,       grant,              5x5x5x5
 2023-05-29, 3aSo8sjhBUs,  1h  0m 31.15s, HSC,       grant,              6x6x6x6
 2023-05-31, b4ChatHg8AM,  2h 11m 41.97s, HSC,       grant,              7x7x7x7
+2023-05-31, 1-W78yF5eHM,      1m 24.34s, MPU,       luna,               1x3x3x3
