@@ -329,8 +329,12 @@ create_mkdocs_file_from_template(
         tab_config, make_history_leaderboard_tab_contents),
 )
 
+WRs = []
+for puzzle in puzzles.values():
+    WRs.append(puzzle.best_solves[0])
+
 create_mkdocs_file_from_template(
     'leaderboards/records.md',
     'records.md',
-    ' ',
+    make_solves_table(WRs,indent=0,exclude=['rank']),
 )
