@@ -31,6 +31,7 @@ date,       link,                  time, program,   solver,             puzzle
 2022-11-21, 26fvxDQPNwE,      7m 02.17s, HSC,       hactar,             3x3x3x3
 2022-11-22, UTISMKUW06I,      6m 46.21s, HSC,       grant,              3x3x3x3
 2022-11-22, p6_hGg7liLg,      6m 38.92s, HSC,       hactar,             3x3x3x3
+2022-11-23, 5SeTzLDTb2g,     44m 40.42s, HSC,       luna,               4x4x4x4
 2022-11-23, aQAGH2g7It8,      6m 36.38s, HSC,       grant,              3x3x3x3
 2022-11-23, Cr9FnV1HOSE,      5m 32.98s, HSC,       hactar,             3x3x3x3
 2022-11-24, m1Itso7nOM8,     12m 13.26s, HSC,       alvin,              3x3x3x3
@@ -47,6 +48,7 @@ date,       link,                  time, program,   solver,             puzzle
 2022-12-02, s8l4jnMz6p4,     24m 46.95s, HSC,       weill,              3x3x3x3
 2022-12-03, xk4IUAtKEo8,      4m 09.19s, HSC,       grant,              3x3x3x3
 2022-12-03, QDabSnE1I4A,      4m 02.60s, HSC,       grant,              3x3x3x3
+2022-12-04, k6nSP8EPU7I,     32m 46.55s, HSC,       grant,              4x4x4x4
 2022-12-04, QWvQvvbNS2c,     29m 54.82s, HSC,       luna,               4x4x4x4
 2022-12-07, 1t2P3CL-glo,  1h 31m 38.50s, HSC,       luna,               5x5x5x5
 2022-12-07, hjn7iu6zs4E,      3m 58.29s, HSC,       grant,              3x3x3x3
@@ -56,12 +58,19 @@ date,       link,                  time, program,   solver,             puzzle
 2022-12-14, QdTa7Be-Iw8,      3m 23.26s, HSC,       grant,              3x3x3x3
 2022-12-15, Al8w9-Xk3n8,      3m 21.52s, HSC,       grant,              3x3x3x3
 2022-12-16, XeRkVqDJ1jk,      3m 52.00s, HSC,       grant,              3x3x3x3_ao5
+2022-12-17, 2k7Gz8avg0E,     23m 50.75s, HSC,       grant,              4x4x4x4
 2022-12-20, peONIUD98wk,      3m 16.44s, HSC,       grant,              3x3x3x3
+2022-12-20, QNjG5DUqn8g,     21m 37.07s, HSC,       grant,              4x4x4x4
 2022-12-21, W0efQkhPSzY,      3m 13.97s, HSC,       grant,              3x3x3x3
 2022-12-21, h2hTGc5Vztk,      3m 06.06s, HSC,       grant,              3x3x3x3
 2022-12-21, 4tqXxtdtXms,         50.95s, HSC,       grant,              2x2x2x2
 2022-12-22, kRBj6ScH8Ng,      2m 59.97s, HSC,       hactar,             3x3x3x3
 2022-12-23, 9lMbBnA0tVE,      2m 59.34s, HSC,       grant,              3x3x3x3
+2022-12-23, B-VdP5h3fKo,     20m 18.48s, HSC,       grant,              4x4x4x4
+2022-12-23, B-VdP5h3fKo,     20m 18.48s, HSC,       grant,              4x4x4x4
+2022-12-24, EPAof7Hwrak,     19m 57.08s, HSC,       grant,              4x4x4x4
+2022-12-28, YRzjvrPVq7Q,     19m 17.70s, HSC,       grant,              4x4x4x4
+2022-12-29, bJndxs7QGyg,     18m 53.84s, HSC,       grant,              4x4x4x4
 2022-12-30, XwBNgjB9ZQI,     57m 43.65s, HSC,       grant,              5x5x5x5
 2022-12-30, pabZjfrsC-8,      2m 42.81s, HSC,       hactar,             3x3x3x3
 2022-12-31, 7M1JZ1-q4HI,      3m 02.78s, HSC,       hactar,             3x3x3x3_ao5
