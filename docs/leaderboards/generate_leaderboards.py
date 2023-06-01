@@ -315,7 +315,7 @@ for solver in solvers.values():
 
 def make_history_leaderboard_tab_contents(tab, *, indent=0):
     puzzle = puzzles[tab['puz']]
-    exclude = ['puzzle'] + tab.get('exclude', [])
+    exclude = ['rank', 'puzzle'] + tab.get('exclude', [])
     return make_solves_table(
         puzzle.record_history,
         indent=indent,
