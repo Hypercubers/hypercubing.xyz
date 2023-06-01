@@ -11,8 +11,10 @@ nav:
   - Wiki: wiki.md
   - Leaderboards:
     - leaderboards/index.md
+    - Leaderboards: leaderboards/index.md
+    - World Records: leaderboards/records.md
+    - Record Histories: leaderboards/history.md
     - Solvers: leaderboards/solvers.md
-    - Record History: leaderboards/history.md
 theme:
   name: material
   favicon: assets/images/favicon.png
