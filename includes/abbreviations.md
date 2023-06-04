@@ -51,5 +51,6 @@
 *[QSTM]: Quarter Slice Turn Metric
 
 <!-- Misc. -->
+*[Ao5]: Average of 5 (excluding best & worst)
 *[BLD]: Blindfolded
 *[FMC]: Fewest Moves Competition
