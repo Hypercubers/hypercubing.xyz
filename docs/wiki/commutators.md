@@ -6,7 +6,7 @@ One of the earliest solutions for the 3x3x3x3 was [The Ultimate Solution to a 3x
 
 ## Notation
 
-Commutators are notated `[A, B]`, which means to do A, B, A', B'.
+Commutators are notated `[A, B]`, which means to do `A B A' B'`.
 
 For example, the commutator `[M', U2]` cycles 3 edges in the M layer of a 3x3x3. Written out, it would be `M' U2 M U2`. 
 
