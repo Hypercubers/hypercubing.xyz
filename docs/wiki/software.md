@@ -15,6 +15,7 @@ For Android phones and tablets, you can download MC4D from the Google Play Store
 ## List of hypercubing software
 - [Hyperspeedcube](\wiki\software-hsc)
 - [Magic Cube 4D](\wiki\software-mc4d)
+- [Magic Cube 4D VR](https://store.steampowered.com/app/2413000/Magic_Cube_4D_VR/)
 - [Magic Cube 5D](https://www.gravitation3d.com/magiccube5d/)
 - [Magic Cube 7D](https://superliminal.com/andrey/mc7d/)
 - [Magic 120 Cell](http://www.gravitation3d.com/magic120cell/index.html)
