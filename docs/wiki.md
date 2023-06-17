@@ -11,7 +11,7 @@ Just found out about hypercubing? Go through our tutorial, and then check out so
 [Tutorial](/tutorial){.md-button .md-button--primary} 
 [YouTube Videos/Playlists](/wiki/video-list){.md-button .md-button--primary} 
 [Webpages](/wiki){.md-button .md-button--primary}
-[Progression](/wiki){.md-button .md-button--primary}
+[Progression](/wiki/progression){.md-button .md-button--primary}
 
 ## Popular Articles
 
