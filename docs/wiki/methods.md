@@ -12,14 +12,8 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 - [Commutators](commutators.md)
 - [Dimensional Reduction](dimensional-reduction.md)
 
-## 2x2x2x2 Methods
 
-### Virtual
-
-- [4Tega](4tega.md)
-- [Cell By Cell](cell-by-cell.md)
-
-### Physical
+## Physical 2x2x2x2 Methods
 
 - [Luna's Method](luna.md)
 - [Rowan's Method](rowan.md)
@@ -27,6 +21,12 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 - [P4L (PBLBC)](p4l.md)
 - [GRCL Method](grcl.md)
 
+## 2x2x2x2 Methods
+
+- [4Tega](4tega.md)
+- [Cell By Cell](cell-by-cell.md)
+
+ 
 ## 3x3x3x3 Methods
 
 - [CFOP](cfop.md)
