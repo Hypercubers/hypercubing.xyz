@@ -4,8 +4,8 @@
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
-    - [Notation](notation.md)
-    - [RKT](rkt.md)
+    - [Notation](/wiki/notation)
+    - [RKT](/wiki/techniques/rkt)
     - [3D CFOP](https://jperm.net/3x3/cfop) with 2-look OLL & PLL
 
 ## Summary
@@ -76,7 +76,7 @@ There are also fancy new 3-cycle algorithms for a 4D "adjacent U-perms" in both 
 From here, you use RKT to solve the rest of the puzzle like a whole 3^3. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
-    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](rkt.md) for algorithms.
+    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/wiki/techniques/rkt) for algorithms.
 
 !!! tip "RKT parity avoidance"
     You can avoid RKT parity every single time by using 2-look PLL (if you solve RKTPLC using CFOP [2-look CMLL if you solve with Roux]). When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, you can use an EPLL alg without worrying about whether you'll get RKT parity or not.

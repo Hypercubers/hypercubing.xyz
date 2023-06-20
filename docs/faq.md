@@ -33,9 +33,9 @@
     Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
 
     - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
-    - [CFOP](\wiki\cfop) — 4D CFOP
-    - [3Block](\wiki\3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
-    - [Octachoroux](\wiki\octachoroux) — 4D Roux, but awkward to use and many parity issues
+    - [CFOP](/wiki/techniques/cfop) — 4D CFOP
+    - [3Block](/wiki/techniques/3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
+    - [Octachoroux](/wiki/techniques/octachoroux) — 4D Roux, but awkward to use and many parity issues
 
     Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
@@ -43,7 +43,7 @@
 ## Physical puzzles
 
 ??? question "What is a physical 4D puzzle?"
-    The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See our [puzzles page](\wiki\puzzles), the [Physical Puzzle page on the Superliminal wiki](http://wiki.superliminal.com/wiki/Physical_Puzzle), and [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA).
+    The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See our [physical puzzles](/wiki/puzzles/physical-puzzles) page, the [Physical Puzzle page on the Superliminal wiki](http://wiki.superliminal.com/wiki/Physical_Puzzle), and [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA).
 
 ??? question "How do I get Melinda's Physical 2^4^?"
     All the information can be found on [the Superliminal website](https://superliminal.com/cube/2x2x2x2/), including the history, statistics, and Hall of Fame.

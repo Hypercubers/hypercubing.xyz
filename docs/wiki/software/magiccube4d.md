@@ -24,7 +24,7 @@ Raynefork is Raymond Zhao's version of MC4D, which has the updated defualt colou
 Don's version contains some 2D puzzles, many 3D puzzles, and some interesting 4D puzzles. It also has a menu for 5D and 6D puzzles, however they don't work when you select them. Don's version can be downloaded from its GitHub [here](https://github.com/donhatch/donhatchsw.jar/blob/master/java1.8/donhatchsw.jar).
 
 
-### Troubleshooting
+## Troubleshooting
 
 First off, you should read [MC4D's FAQ](https://superliminal.com/cube/faq.html) on the superliminal website.
 

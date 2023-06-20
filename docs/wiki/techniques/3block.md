@@ -4,8 +4,8 @@
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
-    - [Notation](notation.md)
-    - [RKT](rkt.md)
+    - [Notation](/wiki/notation)
+    - [RKT](/wiki/techniques/rkt)
     - [3D CFOP](https://jperm.net/3x3/cfop) with 2-look OLL & PLL
 
 [FreeFOP]: https://www.speedsolving.com/wiki/index.php/FreeFOP
@@ -132,7 +132,7 @@ Solve the four 2c cross pieces in a ring in the M slice. Leave the L and R cross
 ### Mid
 
 !!! tip
-    For the entirety of F2L, the last layer is held on the I cell, as opposed to [CFOP](cfop.md) where it is held on the U cell. This allows us to see more information at once.
+    For the entirety of F2L, the last layer is held on the I cell, as opposed to [CFOP](/wiki/techniques/cfop) where it is held on the U cell. This allows us to see more information at once.
 
 Create and insert 4 F2L-a (2c3c) pairs into the 4/6 cross. This will solve 2/3 of the M slice. Because the Left and Right cells don't have their cross pieces, you can use them to aid with building and inserting the pairs.
 
@@ -146,13 +146,13 @@ Solve the Left cell. This is done in 3 blocks, hence the name of the method. The
 
 ### Right
 
-Solve the Right cell. This is also done by breaking it up into the 3 blocks, except now you don't have an empty opposite cell to aid you in making pairs. You could just solve the cross edge, and then finish the whole solve using [CFOP](cfop.md) style F2L and Last Cell. You can also do it the 3 blocks way, except having less freedom means that it is slightly trickier to set up the correct cases.
+Solve the Right cell. This is also done by breaking it up into the 3 blocks, except now you don't have an empty opposite cell to aid you in making pairs. You could just solve the cross edge, and then finish the whole solve using [CFOP](/wiki/techniques/cfop) style F2L and Last Cell. You can also do it the 3 blocks way, except having less freedom means that it is slightly trickier to set up the correct cases.
 
 <center>![y](/assets/images/RB_transparent.png){width="50%"}</center>
 
 ### Last Cell
 
-This is done in the exact same way as [CFOP](cfop.md#olc).
+This is done in the exact same way as [CFOP](/wiki/techniques/cfop/#OLC).
 
 ## Big cubes
 

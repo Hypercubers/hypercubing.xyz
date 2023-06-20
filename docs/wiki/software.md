@@ -13,13 +13,13 @@ If you want to try puzzles in Non-Euclidean geometries, then try Magic Tile and 
 For Android phones and tablets, you can download MC4D from the Google Play Store.
 
 ## List of hypercubing software
-- [Hyperspeedcube](\wiki\software-hsc)
-- [Magic Cube 4D](\wiki\software-mc4d)
+- [Hyperspeedcube](/wiki/software/hyperspeedcube)
+- [Magic Cube 4D](/wiki/software/magiccube4d)
 - [Magic Cube 4D VR](https://store.steampowered.com/app/2413000/Magic_Cube_4D_VR/)
 - [Magic Cube 5D](https://www.gravitation3d.com/magiccube5d/)
 - [Magic Cube 7D](https://superliminal.com/andrey/mc7d/)
 - [Magic 120 Cell](http://www.gravitation3d.com/magic120cell/index.html)
-- [Magic Puzzle Ultimate](\wiki\software-mpu)
+- [Magic Puzzle Ultimate](/wiki/software/magicpuzzleultimate)
 - [Magic Simplex 5D](https://superliminal.com/andrey/ms5d/)
 - [Nan Ma's 11-cell](https://superliminal.com/cube/ElevenCell.jar)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)

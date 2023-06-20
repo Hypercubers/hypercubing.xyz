@@ -26,7 +26,7 @@ flowchart LR
 ```
 
 ## Other 4D Puzzles
-There are many types of 4D puzzles, not just the hypercubes. These include hypercuboids, duoprisms, reqular 4D polytopes, and more. These puzzles require much more knowledge than just the 3x3x3. You'll need to know how to solve 3D cuboids, and generally be able to figure out new puzzles using [commutators](/wiki/commutators).
+There are many types of 4D puzzles, not just the hypercubes. These include hypercuboids, duoprisms, reqular 4D polytopes, and more. These puzzles require much more knowledge than just the 3x3x3. You'll need to know how to solve 3D cuboids, and generally be able to figure out new puzzles using [commutators](/wiki/techniques/commutators).
 
 ```mermaid
 flowchart LR

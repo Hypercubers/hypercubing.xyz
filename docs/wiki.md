@@ -8,7 +8,7 @@ Learn everything hypercubing! History, software, puzzles, methods, tutorials, te
 ## Getting Started
 Just found out about hypercubing? Go through our tutorial, and then check out some of the resources below to deepen your understanding.
 
-[Tutorial](/tutorial){.md-button .md-button--primary} 
+[Tutorial](/wiki/tutorial){.md-button .md-button--primary} 
 [YouTube Videos/Playlists](/wiki/video-list){.md-button .md-button--primary} 
 [Webpages](/wiki){.md-button .md-button--primary}
 [Progression](/wiki/progression){.md-button .md-button--primary}
@@ -17,7 +17,7 @@ Just found out about hypercubing? Go through our tutorial, and then check out so
 
 
 !!! info inline "[Software](/wiki/software)"
-!!! info inline "[Physical Puzzles](/wiki/physical-puzzles)"
+!!! info inline "[Puzzles](/wiki/puzzles)"
 !!! info inline "[Methods](/wiki/methods)"
 
 

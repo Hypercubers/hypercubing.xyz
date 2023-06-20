@@ -10,7 +10,7 @@ The most well known 4D shape is the [hypercube](https://en.wikipedia.org/wiki/Te
 
 Completely new to hypercubing? Check out our tutorial page and frequently asked questions:
 
-[Tutorial](tutorial.md){.md-button .md-button--primary} [FAQ](faq.md){.md-button .md-button--primary}
+[Tutorial](/wiki/tutorial){.md-button .md-button--primary} [FAQ](faq.md){.md-button .md-button--primary}
 
 The short article [Abstracting the Rubik's Cube](https://www.maa.org/sites/default/files/pdf/Mathhorizons/pdfs/AbstractingRubiks_MH_25.4.18.pdf) introduces a number of the hypercubing puzzles.
 
@@ -26,7 +26,7 @@ Watch these helpful YouTube video playlists:
 Browse through our [wiki](wiki.md) pages: (work in progress)
 
 [Software](/wiki/software){.md-button .md-button--primary} 
-[Physical Puzzles](/wiki/puzzles){.md-button .md-button--primary} 
+[Puzzles](/wiki/puzzles){.md-button .md-button--primary} 
 [Methods](/wiki/methods){.md-button .md-button--primary}
 
 Join our Discord server:
