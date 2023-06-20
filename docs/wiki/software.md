@@ -32,3 +32,4 @@ For Android phones and tablets, you can download MC4D from the Google Play Store
 - [pCubes](https://twistypuzzles.com/forum/viewtopic.php?t=27054)
 - [Nan Ma's RefleCube](https://www.nan.ma/reflecube/)
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
+- [gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)](https://zqjxkvby.000webhostapp.com/permuzzle/installer.html) (using [JDK19](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html))
