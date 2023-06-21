@@ -25,14 +25,11 @@ Watch these helpful YouTube video playlists:
 
 Browse through our [wiki](wiki.md) pages: (work in progress)
 
-[Software](/wiki/software){.md-button .md-button--primary} 
-[Puzzles](/wiki/puzzles){.md-button .md-button--primary} 
+[Software](/wiki/software){.md-button .md-button--primary}
+[Puzzles](/wiki/puzzles){.md-button .md-button--primary}
 [Methods](/wiki/methods){.md-button .md-button--primary}
+[Techniques](/wiki/techniques){.md-button .md-button--primary}
 
 Join our Discord server:
 
 <iframe src="https://discord.com/widget?id=852389089268858922&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
-
-
-
