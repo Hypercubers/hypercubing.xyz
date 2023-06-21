@@ -1,4 +1,8 @@
-# List of YouTube Videos & Playlists
+---
+title: Videos
+---
+
+# YouTube Videos & Playlists
 
 List of popular videos and playlists related to hypercubing.
 

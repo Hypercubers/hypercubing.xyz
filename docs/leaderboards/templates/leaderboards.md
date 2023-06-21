@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Leaderboards
 
 To submit a solve:

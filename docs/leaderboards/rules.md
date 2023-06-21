@@ -1,3 +1,7 @@
+---
+title: Rules
+---
+
 # Hypercubing Leaderboard Submission Rules
 
 These rules are not written in legalese. Please don't try to exploit them. Ask in the Hypercubers Discord if you have any questions, comments, or concerns about these rules.

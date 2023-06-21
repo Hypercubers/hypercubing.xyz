@@ -9,9 +9,6 @@ This is notation specifically for n^4^ virtual puzzles. Notation pages for other
     </video>
 The sides of a 4D puzzle are called `cells`, each of which is a cubic grid of n^3^ stickers. Because each side is cubic, they can be rotated with cubic symmetry. A cube has 24 different possible orientations, meaning that each side of a 4D puzzle can be oriented in 24 different ways.
 
-
-
-
 The cells are notated: Right, Left, Up, Down, Front, Back, Outside, Inside.
 
 This means we to use the letters `R` `L` `U` `D` `F` `B` `O` `I`.
@@ -29,10 +26,11 @@ The first letter determines the cell to click on. The second letter determines t
 - `IUR` means to right click the I sticker of the IUR piece.
 - `FRUI` means to right click the F sticker of the FRUI piece.
 
-For slice and wide moves, you write the numbers you hold down on the keyboard while clicking. 
+For slice and wide moves, you write the numbers you hold down on the keyboard while clicking.
 
-- `[2]RO` Means to hold down 2 on the keyboard while doing an RO move (essentially an M move).
-- `[23]UO'` Means to hold down 2 and 3 on the keyboard while doing a UO' move.
+- `{2}RO` means to hold <kbd>2</kbd> while doing an RO move (essentially an M move).
+- `{2-3}UO'` means to hold <kbd>2</kbd> and <kbd>3</kbd> while doing a UO' move.
+- `{2-4}IF` means to hold <kbd>2</kbd>, <kbd>3</kbd>, and <kbd>4</kbd>
 
 ## Rotations
 
@@ -42,7 +40,7 @@ For slice and wide moves, you write the numbers you hold down on the keyboard wh
 
 Note how we don't have to use ' prime symbols because wy is the inverse of yw. This makes it a really nice system because it only ever uses 2 letters. You can also use it on the 3^3^: `xy` means move x+ to y+ (R to U [z rotation]).
 
-In reality though, it's easiest to just say use `x`, `y`, and `z` for rotations that don't change the cells on the W axis. For other ones you can just say `recenter (cell)`. 
+In reality though, it's easiest to just say use `x`, `y`, and `z` for rotations that don't change the cells on the W axis. For other ones you can just say `recenter (cell)`.
 
 ## Turn metrics
 

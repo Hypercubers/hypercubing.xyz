@@ -134,7 +134,7 @@ class Solver:
 
     @property
     def relative_file_path(self):
-        return f'user/{self.user_id}.md'
+        return f'solvers/{self.user_id}.md'
 
 
 # Load solvers from YAML
@@ -241,8 +241,8 @@ def make_solvers_list(*, indent=0) -> str:
     return s + '\n'
 
 
-def make_solver_page(solver: Solver, tab_config) -> str:
-    s = f'---\ntitle: {solver.name}\n---\n\n'
+def make_solver_page_contents(solver: Solver, tab_config) -> str:
+    s = ''
     s += '## Rankings\n\n'
     solves = [solver.get_best_solve_of(puzzle)
               for puzzle in puzzles.values()]
@@ -269,9 +269,9 @@ def make_solver_page(solver: Solver, tab_config) -> str:
     return s
 
 
-def create_mkdocs_file_from_template(path: str, template: str, contents: str):
+def create_mkdocs_file_from_template(path: str, template: str, contents: str, **kwargs):
     with mkdocs_gen_files.open(path, 'w') as out_file:
-        print(get_template(template) + '\n' + contents, file=out_file)
+        print(get_template(template).format(**kwargs) + '\n' + contents, file=out_file)
 
 
 # Load tabs from YAML
@@ -297,21 +297,21 @@ create_mkdocs_file_from_template(
         tab_config, make_main_leaderboard_tab_contents),
 )
 
-# Generate solver list
-create_mkdocs_file_from_template(
-    'leaderboards/solvers.md',
-    'solvers.md',
-    make_solvers_list(),
-)
+# Generate solver list (not necessary because the nav does it automatically)
+# create_mkdocs_file_from_template(
+#     'leaderboards/solvers.md',
+#     'solvers.md',
+#     make_solvers_list(),
+# )
 
 # Generate solver pages
 for solver in solvers.values():
-    with mkdocs_gen_files.open(solver.file_path, 'w') as out_file:
-        print(
-            make_solver_page(solver, tab_config),
-            file=out_file,
-            end='',
-        )
+    create_mkdocs_file_from_template(
+        path=solver.file_path,
+        template='solver.md',
+        contents=make_solver_page_contents(solver, tab_config),
+        name=solver.name,
+    )
 
 def make_history_leaderboard_tab_contents(tab, *, indent=0):
     puzzle = puzzles[tab['puz']]

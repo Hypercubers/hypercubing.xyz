@@ -1,3 +1,7 @@
+---
+title: History
+---
+
 # History of Hypercubing
 
 ## 1988-2002: The Beginning of Hypercubing

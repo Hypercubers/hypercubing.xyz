@@ -4,16 +4,6 @@ docs_dir: docs/
 repo_name: Hypercubers/hypercubing.xyz
 repo_url: https://github.com/Hypercubers/hypercubing.xyz
 edit_uri: blob/main/docs/
-nav:
-  - Welcome: index.md
-  - FAQ: faq.md
-  - Wiki: wiki.md
-  - Leaderboards:
-    - leaderboards/index.md
-    - Leaderboards: leaderboards/index.md
-    - World Records: leaderboards/records.md
-    - Record Histories: leaderboards/history.md
-    - Solvers: leaderboards/solvers.md
 theme:
   name: material
   favicon: assets/images/favicon.png
@@ -38,6 +28,11 @@ theme:
   features:
     - content.code.copy
     - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.integrate
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -74,7 +69,6 @@ markdown_extensions:
   - tables
   - pymdownx.arithmatex:
       generic: true
-
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
@@ -83,6 +77,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
+  - awesome-pages
   - gen-files:
       scripts:
       - docs/leaderboards/generate_leaderboards.py

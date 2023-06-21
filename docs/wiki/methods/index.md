@@ -4,7 +4,7 @@ Many standard 3D methods can be scaled up and immediately used on 4D+ puzzles.
 
 (This page is still under construction, apologies for any broken links)
 
-!!! warning "Learn [Notation](notation.md) before trying to learn any of these methods"
+!!! warning "Learn [Notation](/wiki/notation) before trying to learn any of these methods"
 
 ## [Physical 2x2x2x2](/wiki/puzzles/phys-2x2x2x2) Methods
 
