@@ -24,6 +24,4 @@ This is when Grant joined the server, and shared his 3D printed 2x2x2x2. Rowan t
 
 ## How Does it Work?
 
-It follows the same basic principles as [Melinda's 2x2x2x2](/wiki/puzzles/phys-2x2x2x2), except gyros get more complicated. Grant made a [YouTube video](https://www.youtube.com/watch?v=7on6xk9kq-g) showing off the legal twists, and how it matched the virtual puzzle in MPU exactly.
-
-
+It follows the same basic principles as [Melinda's 2x2x2x2](/puzzles/phys-2x2x2x2), except gyros get more complicated. Grant made a [YouTube video](https://www.youtube.com/watch?v=7on6xk9kq-g) showing off the legal twists, and how it matched the virtual puzzle in MPU exactly.

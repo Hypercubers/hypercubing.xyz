@@ -1,6 +1,6 @@
 # RKT
 
-!!! warning "Learn [Notation](/wiki/notation) first"
+!!! warning "Learn [Notation](/notation) first"
 
 RKT is a technique to treat a single side of an n^d^ puzzle like an n^d-1^ puzzle. On an n^4^, this is done by using RO moves to do an R move on the I cell. Then you can rotate the I cell in any direction you want to get other sides to the RI plane, and then repeat. It was probably invented independently several times, but popularized by Raymond Zhao in his article [here](https://rayzz.me/articles/hypercubing/rkt.html).
 
@@ -74,7 +74,7 @@ RKT can be done by using 2 opposite sides (e.g. `RO` and `LO` turns) as well as 
 
 ## Double RKT +
 
-The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *do* RKT in 5D+ puzzles. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do Double RKT. This generalizes to any number of dimensions, but the movecount doubles each time, making it impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](/wiki/techniques/commutators).
+The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *do* RKT in 5D+ puzzles. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do Double RKT. This generalizes to any number of dimensions, but the movecount doubles each time, making it impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](/techniques/commutators).
 
 ## RKT in 3D
 
@@ -84,10 +84,9 @@ Another thing that "feels like RKT" is solving 3x3xn cuboids where $n>3$. A typi
 
 ## Naming
 
-In the old [notation](/wiki/notation), the Inside and Outside cells were called Top and Kata, respectively. The name RKT is a shortened version of the move set ```<RK,T*>```. Using the most commonly used notation it should be called ROI, but the old name stuck.
+In the old [notation](/notation), the Inside and Outside cells were called Top and Kata, respectively. The name RKT is a shortened version of the move set ```<RK,T*>```. Using the most commonly used notation it should be called ROI, but the old name stuck.
 
 Some newer names that were proposed for RKT are:
 
 - SFM (Single Facet Manipulation)
 - FRM (Facet Redution Method)
-

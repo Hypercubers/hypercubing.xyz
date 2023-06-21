@@ -1,5 +1,6 @@
 nav:
-  - index.md
+  - Wiki:
+    - index.md
+    - ...
   - faq.md
-  - wiki
   - leaderboards

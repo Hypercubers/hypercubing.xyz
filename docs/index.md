@@ -4,7 +4,7 @@ title: Welcome
 
 # Hypercubing ![favicon](/assets/images/favicon.png)
 
-Hypercubing is a niche branch of Rubik's Cubing that focuses on solving [higher dimensional twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle). The ways that twisty puzzles move are mathematically well defined, and can be generalized to higher spatial dimensions. These puzzles can then be visualized and simulated using [computer software](\wiki\software).
+Hypercubing is a niche branch of Rubik's Cubing that focuses on solving [higher dimensional twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle). The ways that twisty puzzles move are mathematically well defined, and can be generalized to higher spatial dimensions. These puzzles can then be visualized and simulated using [computer software](/software).
 
 <center>![3x3x3x3](/assets/images/3_4_transparent.png){width="50%"}</center>
 
@@ -14,7 +14,7 @@ The most well known 4D shape is the [hypercube](https://en.wikipedia.org/wiki/Te
 
 Completely new to hypercubing? Check out our tutorial page and frequently asked questions:
 
-[Tutorial](/wiki/tutorial){.md-button .md-button--primary} [FAQ](faq.md){.md-button .md-button--primary}
+[Tutorial](/tutorial){.md-button .md-button--primary} [FAQ](faq){.md-button .md-button--primary}
 
 The short article [Abstracting the Rubik's Cube](https://www.maa.org/sites/default/files/pdf/Mathhorizons/pdfs/AbstractingRubiks_MH_25.4.18.pdf) introduces a number of the hypercubing puzzles.
 
@@ -27,12 +27,12 @@ Watch these helpful YouTube video playlists:
 - [Melinda's 2x2x2x2](https://www.youtube.com/playlist?list=PLx1mIVtz33hLPgMQ_5DRG1kq1P5GNeKKC)
 - [hypercubing videos](https://www.youtube.com/playlist?list=PLMfvDuBNaWYOv-KRKEkQHAe8hwVkxwIJG)
 
-Browse through our [wiki](/wiki) pages: (work in progress)
+Browse through our [wiki]) pages: (work in progress)
 
-[Software](/wiki/software){.md-button .md-button--primary}
-[Puzzles](/wiki/puzzles){.md-button .md-button--primary}
-[Methods](/wiki/methods){.md-button .md-button--primary}
-[Techniques](/wiki/techniques){.md-button .md-button--primary}
+[Software](/software){.md-button .md-button--primary}
+[Puzzles](/puzzles){.md-button .md-button--primary}
+[Methods](/methods){.md-button .md-button--primary}
+[Techniques](/techniques){.md-button .md-button--primary}
 
 Join our Discord server:
 

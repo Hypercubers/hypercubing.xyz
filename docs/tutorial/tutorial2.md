@@ -27,4 +27,4 @@ Cutting a hypercube into 3 layers along each axis, we get the 3x3x3x3, or 3^4^.
 
 <center><big>Congratulations, you have completed the tutorial!</big></center>
 
-<center> [OK](/wiki){ .md-button .md-button--primary }</center>
+<center> [OK]){ .md-button .md-button--primary }</center>

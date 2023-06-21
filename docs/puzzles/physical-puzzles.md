@@ -12,8 +12,8 @@ Physical puzzles refer to higher dimensional puzzles that are physically built i
 For a documentary about the history of physical puzzles as of December 2022, see [Rowan's video](https://www.youtube.com/watch?v=QTc-rG-nunA).
 
 ## List of Physical Puzzles that were built
-- [Melinda's 2x2x2x2](phys-2x2x2x2.md)
-- [Grant's 2x2x2x3](phys-2x2x2x3.md)
+- [Melinda's 2x2x2x2](phys-2x2x2x2)
+- [Grant's 2x2x2x3](phys-2x2x2x3)
 - Grant's 2x2x3x3
 - Grant's 2x3x3x3
 - Grant's 1x1x1x1
@@ -27,11 +27,3 @@ For a documentary about the history of physical puzzles as of December 2022, see
 - Markk's duoprisms
 - {5}x{4} duoprism
 - Akkei's 2x2x2x2x2
-
-
-
-
-
-
-
-
