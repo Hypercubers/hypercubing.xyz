@@ -25,6 +25,7 @@ This can definitely be very confusing and disorienting to beginners, as you have
 Another popular way to do this is to use -K moves (treating the puzzle like a big 3^3^), and wide O cell turns. This means that you can turn the I cell and make it look like a normal cube, you just have to worry about moving the wide O layer to do the turns. Essentially, this is the same exact thing, we're just looking at it from another angle. Think of how doing ```Lw x'``` is the same thing as doing ```R```.
 
 ## Parity
+
 RKT parity is a state you can get to that appears to rotate a single layer of a cell by 180°. 
 If you try and fix this with RKT, then you will have debt. This means that you must use an algorithm to solve it.
 
@@ -41,6 +42,7 @@ On bigger n^4^ puzzles (where n>3), it can look like a single _slice_ layer of a
 ```[f' r': [[r' U' l': D2], Iy2]]```(swaps UF and UR) 
 
 ## Debt
+
 RKT Debt is when the R cell isn't aligned with the rest of the puzzle. For example, after executing a T perm algorithm with RKT, the R cell will be misaligned by 90°.
 RKT Debt always has to be paid back at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle.
 
@@ -48,7 +50,23 @@ RKT Debt always has to be paid back at some point during the solve. During compl
 
 <center>![Sune with RKT](/assets/images/SuneRKTcancel.gif){width="80%"}</center>
 
-RKT cancelling is a newer technique that reduces the move count of RKT algorithms by abusing symmetries. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
+RKT cancelling is a newer technique that reduces the move count of RKT algorithms by rewriting algorithms as conjugates where one side is a pure rotations. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
+
+Consider `R U R' U'`. Conventional RKT rotates after every move, but we don't have to do that. We can build up multiple moves of RKT debt and then cancel them later:
+- `RO UO` — do `R U` using RKT, building up two moves of RKT debt (`R U`)
+- `IF RO'` — do `R'` using RKT, undoing the debt from `U`
+- `IF2 UO'` — do  `U'` using RKT, undoing the debt from the `R`
+
+But we can do even better!
+- `RO UO` — do `R U` using RKT
+- `IUR` — swap `R` with `U`
+- `UO' RO'` — do `R' U'` using RKT (because we swapped `R` and `U`), undoing the debt from `R U`
+
+If you squint, you might notice that this is a conjugate `[RO UO: IUR]`. This corresponds to the fact that `R U R' U'` can be written as a conjugate where one part is a pure rotation: `[R U: z x2]`. When executing this algorithm, we apply it to `I` _with_ the rotation (so it's equivalent to `R U R' U'`) and to the outer layers _without_ the rotation (so `[RU: _]` expands to `R U U' R'`, which completely cancels out). This is the fundamental theory behind how to do RKT cancels: by rewriting algorithms as conjugates and commutators with pure rotations.
+
+Recall how in 3D you can replace a `U y'` with `Dw`. We can do the same thing here: replace `IUR` with `{1-2}OUR`, which is a rotation of the outer layers instead of the inner layers. Now it just looks like a normal algorithm with a flip thrown in the middle: `RO UO {1-2}OUR RO' UO'`. So we can notate it a little more simply: `R U {1-2}OUR R' U'`
+
+Here's a more complex example, the Sune algorithm: `R U R' {1-2}OUR U R {1-2}OUR U2 R'`. This works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice how if you remove the rotations, the whole thing cancels out. (You don't need to expand the conjugates to see this.)
 
 ## Simultaneous RKT
 
@@ -63,7 +81,6 @@ The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *
 If RKT treats a single layer of an n^d^ puzzle like an n^d-1^ puzzle, then technically the last step of the 3^3^ [Roux method](https://www.speedsolving.com/wiki/index.php?title=Roux_method) counts as RKT. The last step of Roux is to permute the M-slice like a 3^2^ (with mirroring moves allowed).
 
 Another thing that "feels like RKT" is solving 3x3xn cuboids where $n>3$. A typical strategy for these is to solve from the innermost layers to the outermost layers, treating it as several nested 3x3x2 puzzles. Doing an R2 on the whole puzzle does an R2 to each of the subpuzzles.
-
 
 ## Naming
 
