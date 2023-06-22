@@ -3,7 +3,7 @@
 This is notation specifically for n^4^ virtual puzzles. Notation pages for other puzzles coming soon™️...
 
 ## Cells
-!!! info inline "Yellow cell rotating"
+!!! info inline end "Yellow cell rotating"
     <video autoplay loop muted width="300">
     <source type="video/mp4" src="/assets/images/yellowcellrotating.mp4">
     </video>
