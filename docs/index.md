@@ -4,7 +4,7 @@ title: Welcome
 
 # Hypercubing 
 
-<img src="/assets/images/3_4_transparent.png" alt="3x3x3x3 in MC4D" width="150" align="right">
+<a href="/puzzles/3x3x3x3"><img src="/assets/images/3_4_transparent.png" alt="3x3x3x3 in MC4D" width="150" align="right"></a>
 
 Hypercubing is a niche branch of Rubik's Cubing that focuses on solving [higher dimensional twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle). The ways that twisty puzzles move are mathematically well defined, and can be generalized to higher spatial dimensions. These puzzles can then be visualized and simulated using [computer software](/software).
 
