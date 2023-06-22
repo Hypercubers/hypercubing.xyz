@@ -1,6 +1,12 @@
 # Melinda's 2x2x2x2
 
-![A rendering of Melinda's 2x2x2x2](/assets/images/2_4_transparent.png){width="30%"}
+!!! info inline end "Melinda's 2x2x2x2"
+    ![Melinda's 2x2x2x2](/assets/images/2_4_transparent.png)
+    **Shape:** Tesseract
+
+    **Pieces:** 16 4c
+
+    **Permutations:** $3.3*10^{27}$
 
 See [Melinda's 2x2x2x2 website](https://superliminal.com/cube/2x2x2x2/) for her project overview.
 
