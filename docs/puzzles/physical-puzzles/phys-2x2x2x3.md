@@ -16,11 +16,14 @@ In December of 2021, Melinda green posted this image to the Hypercubers Discord 
 
 After Melinda posted that, Luna started sketching out some ideas of possible layouts for an actual 2x2x2x3.
 
-<img src="/assets/images/3c.png" alt="3x3x3x3 in MC4D" width="150" align="right">
+<img src="/assets/images/3c.png" alt="Physical 3C piece rendering" width="150" align="right">
 
 She invented the design for the 3c pieces by dividing the edges of a cube into 12 sections like this, grouping 4 sets of 3 together symmetrically.
 
 This is when Grant joined the server, and shared his 3D printed 2x2x2x2. Rowan then challenged him to build Luna's design for the 2x2x2x3. After a lot of time tweaking the designs, printing them, magnetizing them, and assembling them, the 2x2x2x3 was completed on February 3rd 2022.
+
+
+<img src="/assets/images/phys2x2x2x3finished.jpg" alt="Grant's physical 2x2x2x3 shortly after finishing assembly" width="200">
 
 ## How Does it Work?
 
