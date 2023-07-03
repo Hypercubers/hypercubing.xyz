@@ -39,3 +39,6 @@
 - name: MagicTile
   contents:
   - puz: Hemimegaminx
+- name: Misc
+  contents:
+  - puz: 3x3x3_1d

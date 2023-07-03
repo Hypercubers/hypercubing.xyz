@@ -14,3 +14,4 @@ phys_2x2x2x2_bld: Physical 2x2x2x2 Blindfolded
 Hemimegaminx: Hemimegaminx
 virt_phys_3x3x3x3: Virtual Physical 3x3x3x3
 1x3x3x3: 1x3x3x3
+3x3x3_1d: 3x3x3 in 2D projection with 1D Vision
