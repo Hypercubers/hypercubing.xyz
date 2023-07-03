@@ -201,9 +201,9 @@ date,       link,                  time, program,   solver,             puzzle
 2023-04-10, uczWb9zmwq4,      2m 28.05s, HSC,       grant,              3x3x3x3_ao5
 2023-04-12, RbxinDf2wv8,     44m 41.49s, AKKEI-SIM, hyperespy,          virt_phys_3x3x3x3
 2023-04-12, zLmOY8gM1zs,     11m 30.66s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-18, OXPmZOEf9IE,     10m 58.78s, AKKEI-SIM, grant,              virt_phys_3x3x3x3 
-2023-04-20, R15N-WjDwU4,     10m 54.21s, AKKEI-SIM, grant,              virt_phys_3x3x3x3 
-2023-04-20, oDCqOAPATgA,     10m 30.07s, AKKEI-SIM, grant,              virt_phys_3x3x3x3 
+2023-04-18, OXPmZOEf9IE,     10m 58.78s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
+2023-04-20, R15N-WjDwU4,     10m 54.21s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
+2023-04-20, oDCqOAPATgA,     10m 30.07s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
 2023-04-21, -uFD_WwX4po,      2m 03.83s, HSC,       grant,              3x3x3x3
 2023-04-22, k15vLZCIilU,      2m 26.16s, HSC,       hactar,             3x3x3x3_ao5
 2023-04-22, PtXvGfoezWs,      2m 05.30s, HSC,       hactar,             3x3x3x3
@@ -212,8 +212,8 @@ date,       link,                  time, program,   solver,             puzzle
 2023-04-25, fmCI0vlKTrU,      8m 55.68s, HSC,       grant,              4x4x4x4
 2023-04-26, iWuBfNMeoWE,      8m 52.97s, HSC,       grant,              4x4x4x4
 2023-04-27, oyYFe5GSEUE,     27m 08.97s, HSC,       grant,              5x5x5x5
-2023-05-03, oDCqOAPATgA,      9m 58.95s, AKKEI-SIM, grant,              virt_phys_3x3x3x3 
-2023-05-05, https://www.loom.com/share/a0e16bba46eb49b097ffe8657595eed4, 55m 06.00s, AKKEI-SIM, kevin, virt_phys_3x3x3x3 
+2023-05-03, oDCqOAPATgA,      9m 58.95s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
+2023-05-05, https://www.loom.com/share/a0e16bba46eb49b097ffe8657595eed4, 55m 06.00s, AKKEI-SIM, kevin, virt_phys_3x3x3x3
 2023-05-06, ejbcyheNJiU,     25m 11.08s, HSC,       grant,              5x5x5x5
 2022-08-08, lBssOimXaFE,     47m 14.00s, -,         asa,                phys_2x2x2x2_bld
 2022-03-17, zJS5bn7Hmto,  1h 21m 17.68s, MC4D,      yuste,              3x3x3x3_bld
@@ -251,5 +251,6 @@ date,       link,                  time, program,   solver,             puzzle
 2023-06-11, wpXmJrI48R8,     20m 12.92s, HSC,       void,               3x3x3x3
 2023-06-12, CvX6ozCVKys,      7m 55.60s, HSC,       olaf,               3x3x3x3
 2023-06-20, mYZH2FgADiY,      8m 40.21s, HSC,       grant,              4x4x4x4
+2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3
 2022-12-02, TPbJAP82Fno,     15m 45.39s, HSC,       markk,              3x3x3_1d
 2023-07-03, XeRAYpf8Tqw,      7m 34.18s, HSC,       markk,              3x3x3_1d
