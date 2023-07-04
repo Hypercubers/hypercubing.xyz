@@ -21,10 +21,10 @@
 ## Virtual puzzles
 
 ??? question "What program should I download?"
-    It depends on what exactly you want to do, but generally [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/), and MC4D will suit your needs. See the [software](\wiki\software) page for links to all the major programs.
+    It depends on what exactly you want to do, but generally [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/), and MC4D will suit your needs. See the [software](/software) page for links to all the major programs.
 
 ??? question "How do I start learning to solve 4D puzzles?"
-    First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](\wiki\methods) to learn.
+    First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](/methods) to learn.
 
 ??? question "Why not start with the 2^4^?"
     The 2^4^ is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4^ strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3^ is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4^ that will help you with other puzzles.
@@ -33,9 +33,9 @@
     Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
 
     - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
-    - [CFOP](/techniques/cfop) — 4D CFOP
-    - [3Block](/techniques/3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
-    - [Octachoroux](/techniques/octachoroux) — 4D Roux, but awkward to use and many parity issues
+    - [CFOP](/methods/cfop) — 4D CFOP
+    - [3Block](/methods/3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
+    - [Octachoroux](/methods/octachoroux) — 4D Roux, but awkward to use and many parity issues
 
     Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
@@ -63,7 +63,7 @@
 ## Speedsolving
 
 ??? question "What are the speedsolving records for 4D puzzles?"
-    See the [leaderboards](leaderboards). To get on the leaderboard, submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
+    See the [leaderboards](/leaderboards). To get on the leaderboard, submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
 
 ??? question "Why not use speedrun.com?"
     Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and were rejected.
