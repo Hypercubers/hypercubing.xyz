@@ -1,0 +1,35 @@
+# Grant's 3x3x3x3
+
+!!! info inline end "Physical 3x3x3x3"
+    ![physical 3x3x3x3](\assets\images\physical3333.png){width="100%"}
+
+    **4D Shape:** Tesseract
+
+    **Physical Shape:** Rectangular prism with 8 pieces sticking out
+
+    **Pieces:** 8 1c, 24 2c, 32 3c, 16 4c
+
+    **Magnets:** 3,840
+
+    **Completed:** 2022 July 22
+
+    **Permutations:** $1.7*10^{120}$
+
+## History
+
+With the expansion of Melinda’s 2x2x2x2 through the hypercuboid series, only 1 puzzle remained unmade: the physical 3x3x3x3. A true 4-dimensional analog of the classic 3x3x3 Rubik’s Cube.
+
+!!! quote "Melinda Green"
+    I can't believe progress is being made towards the holy grail. The cost and effort doesn't matter since one will have to be made if it's at all possible. (The main reason to be sure it's right) It also doesn't matter how clumsy it is to operate, though of course to get it into multiple people's hands, you'll want to explore every possible way to improve it.
+
+At first, it was not clear how to expand the physical 2x3x3x3 into the 3x3x3x3, as it would need extra pieces that would no longer make it a nice cuboid shape. This is because we have one more slice layer than the number of dimensions we're trying to simulate. For example a 3x3x3 has 3 slice layers, so to represent it in 2D space, some of the pieces have to stick out like this.
+
+![yy](https://media.discordapp.net/attachments/852394258228183040/1065167048671498260/2d5.png?width=433&height=292)
+
+After months and months of effort, Grant completed assembling the puzzle on July 22nd, 2022. To this day, Grant has not scrambled or solved the physical 3x3x3x3 due to it being extremely big, heavy, and awkward to use. The most that was done on it was a checkerboard algorithm, but he did make a video showing off all of the [hypercuboids and their legal twists](https://www.youtube.com/watch?v=geFPbJAfLF4).
+
+![s](\assets\images\grant_phys3333.jpg){width="70%"}
+
+In April 2023, Akkei made a new program that simulated the physical 3^4^, and then Hyperespy became the first person to ever fully solve the physical 3^4^. The actual gyros are pretty painful to do, but luckily the program does them for you :)
+
+In just under 6 months, the community went from having 1 physical 4d puzzle, to having 5!

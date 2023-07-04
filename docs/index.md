@@ -14,11 +14,9 @@ The most well known 4D shape is the [hypercube](https://en.wikipedia.org/wiki/Te
 
 Completely new to hypercubing? Check out the pages below to get started:
 
-[Tutorial](/tutorial){.md-button .md-button--primary} [FAQ](faq){.md-button .md-button--primary} [Progression](progression){.md-button .md-button--primary}
+[Tutorial](/tutorial){.md-button .md-button--primary} [FAQ](/faq){.md-button .md-button--primary} [Progression](/progression){.md-button .md-button--primary}
 
 The short article [Abstracting the Rubik's Cube](https://www.maa.org/sites/default/files/pdf/Mathhorizons/pdfs/AbstractingRubiks_MH_25.4.18.pdf) introduces a number of the hypercubing puzzles.
 
 Join the official Hypercubers Discord:
 <iframe src="https://discord.com/widget?id=852389089268858922&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" align="left"></iframe>
-
-

@@ -3,7 +3,7 @@ site_url: https://hypercubing.xyz/
 docs_dir: docs/
 repo_name: Hypercubers/hypercubing.xyz
 repo_url: https://github.com/Hypercubers/hypercubing.xyz
-edit_uri: blob/main/docs/
+edit_uri: edit/main/docs/
 theme:
   name: material
   favicon: assets/images/favicon.png
@@ -26,6 +26,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.action.edit
     - content.code.copy
     - navigation.indexes
     - navigation.instant
@@ -33,6 +34,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - toc.integrate
+  icon:
+    edit: material/pencil
 extra:
   social:
     - icon: fontawesome/brands/github
