@@ -37,7 +37,7 @@ Hyperspeedcube, or HSC, is the brainchild of Andrew Farkas (AKA HactarCE). Initi
 ![first mention](https://media.discordapp.net/attachments/871460012390748241/902389507997966346/unknown.png){width="45%"}
 ![Early build](https://media.discordapp.net/attachments/871460012390748241/904606317430317086/face_focus.gif){width="45%"}
 
-The program was renamed to Hyperspeedcube, and many community requested features were added. For a complete list of all releases and changes, see the [releases](https://github.com/HactarCE/Hyperspeedcube/releases?page=3) on HSC's GitHub page.
+The program was renamed to Hyperspeedcube, and many community requested features were added. For a complete list of all releases and changes, see the [changelog](https://github.com/HactarCE/Hyperspeedcube/blob/main/CHANGELOG.md) on HSC's GitHub page.
 
 ## Future updates
 
