@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "python3",
+			"args": ["-m", "mkdocs", "serve"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "mkdocs serve"
+		}
+	]
+}
