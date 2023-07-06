@@ -4,13 +4,14 @@ title: Canonical Moves
 
 # Physical 2x2x2x2 Canonical Moves & Notation
 
-The Canonical Moveset is a set of moves agreed upon by the community for solving the physical 2^4^. You are only allowed to do these moves for Hall of Fame submissions, so make sure to stick to this moveset carefully!
+!!! info
+    Watch [Melinda Green's video](https://www.youtube.com/watch/DzRH8BOJL8Q) for a quick overview of the canonical moves
 
-Because this puzzle is physically in 3-dimensional space, we can easily adapt x y z rotations to make notation.
+The Canonical Moveset is a set of moves agreed upon by the community for solving the physical 2^4^. To get accepted into the official [Hall of Fame](https://superliminal.com/cube/2x2x2x2/#solutions) for solving the puzzle, you **must** follow the canonical moves exactly.
 
-Melinda's video about the canonical moves:
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/DzRH8BOJL8Q" title="Melinda&#39;s 2x2x2x2 - Canonical Moves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+!!! info inline end "XYZ notation"
+    ![XYZ notation diagram](/assets/images/xyzNotation.png)
+    Because this puzzle is physically in 3-dimensional space, we can easily adapt the tandard x y z rotations for our notation.
 
 ## Cell Twists
 
@@ -22,26 +23,31 @@ Each move here either starts with an L or an R, followed by the rotations (separ
 
 Left cell twists: Ly, Ly', Ly2, Lx2, Lz2, Lx2,y, Lx2,y', Lx, Lx,y, Lx,y', Lx,y2, Lx', Lx',y, Lx',y', Lx',y2, Lz, Lz,y, Lz,y', Lz,y2, Lz', Lz',y, Lz',y', Lz',y2
 
-Right cell twists = Ry, Ry', Ry2, Rx2, Rz2, Rx2,y, Rx2,y', Rx, Rx,y, Rx,y', Rx,y2, Rx', Rx',y, Rx',y', Rx',y2, Rz, Rz,y, Rz,y', Rz,y2, Rz', Rz',y, Rz',y', Rz',y2
+Right cell twists: Ry, Ry', Ry2, Rx2, Rz2, Rx2,y, Rx2,y', Rx, Rx,y, Rx,y', Rx,y2, Rx', Rx',y, Rx',y', Rx',y2, Rz, Rz,y, Rz,y', Rz,y2, Rz', Rz',y, Rz',y', Rz',y2
 
 
+## Inside/Outside Twists
 
+The inside cell is the side with the next most turning freedom after L and R. This was referred to as an "axial twist" in Melinda's video. The only canonical move for the inside cell is Ix* (Ix, Ix', and Ix2). This is kind of difficult to fingertrick, so most people split it up into 2 illegal twists (if it were a 2x2x4, then it would be 2 90 degree twists like L R').
 
+You can also turn the Outside cell in the exact same way.
 
-Because this is a physical puzzle, . The puzzle is held horizontally throughout most of the solve, so the L and R cells can do any x, y, & z rotations freely. The I and O cells can do any x rotation, as well as only y2 or z2 rotations. The other sides have restricted turning due to the projection, and can only do 180 degree twists, so they will just be referred to as U2, D2, F2, B2. 
+- future image goes here
 
+## Slab Twists
 
+The remaining canonical twists involve picking up a 2x2x4 "slab" off the puzzle, and rotating it 180 degrees in the same plane. These slabs you can pick up are the U, F, D, and B cells. Because the slabs can only be turned 180 degrees those moves will just be referred to as U2, F2, D2, and B2. 
 
 
 ## Gyro
 
 If you try to scramble the puzzle with all the moves above, you will quickly notice that the 2 colours on the x-axis aren't mixing with the other colours.
 
-The gyro is a loose term that refers to special 4D puzzle rotations that change a certain axis so that you can use different moves. Without using a gyro, there's nothing you can do to change what stickers are on the x-axis
+The gyro is a loose term that refers to special 4D puzzle rotations that change a certain axis so that you can use different moves. Without using a gyro, there's nothing you can do to change what stickers are on the x-axis.
 
 ![Rowan performing the Gyro algorithm](/assets/images/GyroGif.gif)
 
-There are several different algorithms to gyro, some of which "gyro" different axes. Melinda has several videos about different gyro algorithms, the shortest known of which being 6 snaps.
+There are several different algorithms for this, some of which gyro different axes. Melinda has several videos about different gyro algorithms, the shortest known one being 6 snaps. Below is a common gyro algorithm that several people in the community use.
 
 - Take the left endcap off and put it on the right so it becomes the right endcap (this brings the puzzle into the inverted state)
 - Ly Ry'
@@ -54,4 +60,10 @@ There are several different algorithms to gyro, some of which "gyro" different a
 
 # Expanded Canonical Moveset
 
-The expanded moveset is what is accepted for the leaderboards.
+The expanded moveset is what is accepted for the Hypercubing.xyz leaderboards. These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2), but weren't allowed in the canonical moveset because people agreed not to for some reason.
+
+## Extra slab twists
+
+## Extra I/O cell twists
+
+Iz2, Iy2, Oz2, and Oy2 are added (although they are very hard to fingertrick and perform quickly).
