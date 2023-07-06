@@ -1,3 +1,7 @@
+---
+title: Rowan's OBC Method
+---
+
 # Rowan's OBC Method for 2x2x2x2
 
 Rowan developed this method for Orienting Both Cells while trying to solve the physical 2x2x2x2 for the first time in a [YouTube video](https://www.youtube.com/watch?v=w7w_Jn5oEwY).

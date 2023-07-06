@@ -8,11 +8,11 @@ This page lists solving methods by puzzle.
 
 While you can use virtual 2^4^ methods on the physical 2^4^, it isn't recommended because you may have to use an excessive amount of gyros. These methods are specifically designed for the unique restrictive turning of the physical 2^4^ in mind.
 
-- [Luna's Method](/methods/phys-2x2x2x2/luna)
-- [Rowan's Method](/methods/phys-2x2x2x2/rowan)
-- [Grant's OBC Method](/methods/phys-2x2x2x2/grant)
-- [P4L (PBLBC)](/methods/phys-2x2x2x2/p4l)
-- [GRCL Method](/methods/phys-2x2x2x2/grcl)
+- [Luna's Method](/methods/2x2x2x2-physical/luna)
+- [Rowan's Method](/methods/2x2x2x2-physical/rowan)
+- [Grant's OBC Method](/methods/2x2x2x2-physical/grant)
+- [P4L (PBLBC)](/methods/2x2x2x2-physical/p4l)
+- [GRCL Method](/methods/2x2x2x2-physical/grcl)
 
 ## [2x2x2x2](/puzzles/2x2x2x2)
 
