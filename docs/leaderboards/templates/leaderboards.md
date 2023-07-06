@@ -3,6 +3,12 @@ search:
   exclude: true
 ---
 
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hypercubing Leaderboards" />
+<meta property="og:description" content="World record database for higher dimensional twisty puzzles." />
+<meta property="og:url" content="https://hypercubing.xyz/" />
+<meta property="og:image" content="/assets/images/3_4_transparent.png" />
+
 # Leaderboards
 
 To submit a solve:

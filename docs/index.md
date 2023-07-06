@@ -3,8 +3,8 @@ title: Welcome
 ---
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hypercubing" />
-<meta property="og:description" content="Website for the Hypercubing community" />
+<meta property="og:title" content="Hypercubing Wiki" />
+<meta property="og:description" content="Learn everything about higher dimensional twisty puzzle solving, including history, records, puzzles, tutorials, resources, and more." />
 <meta property="og:url" content="https://hypercubing.xyz/" />
 <meta property="og:image" content="/assets/images/3_4_transparent.png" />
 
