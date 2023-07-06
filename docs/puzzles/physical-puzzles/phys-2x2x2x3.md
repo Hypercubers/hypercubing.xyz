@@ -2,9 +2,18 @@
 
 !!! info inline end "Grant's 2x2x2x3"
     ![Grant's 2x2x2x3](/assets/images/grantsPhys2223.png)
-    **Shape:** Tesseract
+
+    **4D Shape:** Hypercuboid
+
+    **Physical Shape:** Rectangular prism
 
     **Pieces:** 16 4c, 8 3c
+
+    **Magnets:** 1152
+
+    **Completed:** 2022 Feb 3
+
+    
 
 Grant's 2x2x2x3 is a physical 4D twisty puzzle that was designed and 3D printed by [Grant S](/leaderboards/solvers/grant/). It works almost the same to its virtual counterpart, with the restrictions of only certain moves being canonical, plus the extra gyro algorithms needed to rotate the puzzle 4 dimensionally.
 

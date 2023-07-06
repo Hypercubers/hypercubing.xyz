@@ -1,0 +1,27 @@
+# Grant's 2x3x3x3
+
+!!! info inline end "Grant's 2x3x3x3"
+    ![Grant's 2x3x3x3](/assets/images/2333.png)
+
+    **4D Shape:** Hypercuboid
+
+    **Physical Shape:** Rectangular prism
+
+    **Pieces:** 16 4c, 24 3c, 12 2c, 2 1c
+
+    **Magnets:** 2496
+
+    **Completed:** 2022 Jul 6
+
+    
+
+
+The next logical step to take after Grant built his 2x2x3x3 was the 2x3x3x3, which once again requires a new piece type: the 1c. But this was no big deal because a 1-colored piece only has 1 color.
+
+The production went pretty smoothly, and after printing 8 more 3c and 2c pieces, and 2 of the new 1c pieces, the puzzle was completed on July 6th, 2022.
+
+Now given what we’ve seen before with the previous gyro algorithms, you’d think that the 2x3x3x3 needs an extremely long complicated recursive gyro, and although the design of the puzzle has at least 15 different possible types of gyros, it turns out that it actually doesn’t need one at all! All the moves are accessible from this state, which makes for a really nice solving experience.
+
+The 4th ever physical 4D puzzle was constructed, bringing us closer and closer to our ultimate goal: the physical 3x3x3x3.
+
+

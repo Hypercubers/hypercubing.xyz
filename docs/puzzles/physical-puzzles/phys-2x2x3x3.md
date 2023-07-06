@@ -1,0 +1,30 @@
+# Grant's 2x2x3x3
+
+!!! info inline end "Grant's 2x2x3x3"
+    ![Grant's 2x3x2x3](/assets/images/grant2233render_noline.png)
+
+    **4D Shape:** Hypercuboid
+
+    **Physical Shape:** Rectangular prism
+
+    **Pieces:** 16 4c, 16 3c, 4 2c
+
+    **Magnets:** 1728
+
+    **Completed:** 2022 May 14
+
+    
+
+## History
+
+After the invention of grant's 2x2x2x3, hypercubers were already thinking about what was next. The 2x2x3x3 has an extra middle layer that the 2x2x2x3 doesn't have, which introduces the 2c piece to the design. Hactar designed the new 2c piece, and then Grant made the first rendering of what a physical 2x2x3x3 would look like.
+
+![Grant's 2x3x2x3](/assets/images/grant2233render_noline.png){width="50%"}
+
+It took a while to get the designs just right, but after printing and assembling 4 of the new 2c pieces and 8 more 3c pieces, the puzzle was completed on May 14th, 2022. 
+
+## Functionality
+
+In order to prove that it was fully functional, it had to be shown that moves matched the virtual puzzle, and that it was possible to gyro the puzzle into different orientations. 
+
+The gyro starts by removing the middle layer, and then gyroing just like the 2x2x2x3, which involves separating that middle layer and then gyroing like a 2x2x2x2. Next, the middle layer has some 4 dimensional black magic done to it, and then finally the puzzle is reassembled into the gyroed state. After doing this, Grant realized that some of the 2x2x3 cell moves aren’t accessible, meaning that we actually need a 2nd type of gyro! This secondary gyro involves centering a 2x2x3 cell, and then making the middle layer stick out. Now the puzzle was fully functional.

@@ -2,9 +2,14 @@
 
 !!! info inline end "Melinda's 2x2x2x2"
     ![Melinda's 2x2x2x2](/assets/images/2_4_transparent.png)
-    **Shape:** Tesseract
+    
+    **4D Shape:** Tesseract
+
+    **Physical Shape:** Rectangular prism
 
     **Pieces:** 16 4c
+
+    **Magnets:** 384
 
     **Permutations:** $3.3*10^{27}$
 
