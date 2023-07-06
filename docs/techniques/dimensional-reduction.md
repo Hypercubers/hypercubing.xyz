@@ -1,6 +1,6 @@
 # Dimensional Reduction
 
-!!! info "Not to be confused with [Big Cube Reduction](/techniques/big-cube-reduction)"
+!!! info "Not to be confused with [Big Cube Reduction](/methods/big-cube-reduction)"
 
 Dimensional reduction is a technique to reduce an n^d^ puzzle into an n^d-1^ puzzle. It does this by pairing up n-piece long bars (e.g. to reduce 3^4^ into 3^3^, pair up 3-piece long bars).
 
