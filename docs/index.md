@@ -2,6 +2,12 @@
 title: Welcome
 ---
 
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hypercubing" />
+<meta property="og:description" content="Website for the Hypercubing community" />
+<meta property="og:url" content="https://hypercubing.xyz/" />
+<meta property="og:image" content="/assets/images/3_4_transparent.png" />
+
 # Hypercubing 
 
 <a href="/puzzles/3x3x3x3"><img src="/assets/images/3_4_transparent.png" alt="3x3x3x3 in MC4D" width="150" align="right"></a>
