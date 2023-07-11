@@ -14,13 +14,13 @@ For a documentary about the history of physical puzzles as of December 2022, see
 ## List of Physical Puzzles that were built
 - [Melinda's 2x2x2x2](phys-2x2x2x2)
 - [Grant's 2x2x2x3](phys-2x2x2x3)
-- Grant's 2x2x3x3
-- Grant's 2x3x3x3
+- [Grant's 2x2x3x3](phys-2x2x3x3)
+- [Grant's 2x3x3x3](phys-2x3x3x3)
 - Grant's 1x1x1x1
 - [Grant's 3x3x3x3](phys-3x3x3x3)
 
 ## Designs that haven't been built yet
-- AxBxCxD (any hypercuboid)
+- AxBxCxD (any hypercube or hypercuboid with layers bigger than 1)
 - 1xAxBxC series
 - 1x1xAxB series
 - Markk's Simplex
