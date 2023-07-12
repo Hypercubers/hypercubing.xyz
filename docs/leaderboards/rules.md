@@ -43,7 +43,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 ### Physical rules
 
 !!! info
-    See [Canonical Moves](/canonical-moves) for more details.
+    See [Canonical Moves](/puzzles/physical-puzzles/Melinda's-2x2x2x2/canonical-moves) for more details.
 
 - All physical solves require physical evidence that shows the puzzle fully in frame throughout the solve and shows the entire scrambling and solving process as well as the timer.
 - Allowed moves for physical 2x2x2x2 events are limited to 2 categories, the canonical moveset originally made by the hypercubing mailing list as well as a few additional moves:
