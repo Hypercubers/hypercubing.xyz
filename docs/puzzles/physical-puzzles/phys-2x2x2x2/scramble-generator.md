@@ -2,13 +2,33 @@
 
 <p>Scrambles: <span id="demo2">5</span></p>
 <input type="range" min="1" max="20" value="5" class="slider" id="myRange">
-<br>
+<br><br>
 <button onclick="myFunction()" style="background-color: #e7e7e7; color: black; padding: 8px 8px; border-radius: 12px;">Generate Scrambles</button>
 !!! Scrambles
     <p id="demo"></p>
-    <img id="imgShow" src="#">
+    <img id="imgShow" hidden="hidden" src="#">
 <canvas id="myCanvas" hidden="hidden" width="350" height="125" style="border:1px solid #000000;">
 </canvas>
+<style>
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 15px;
+  background: #d3d3d3;
+  opacity: 1;
+  border-radius:8px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius:8px;
+  background: #AB47BD; 
+  cursor: pointer;
+}
+</style>
 
 <script>
 
@@ -267,6 +287,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = message_text;
     var imagedata = canvas.toDataURL("image/png");
     document.getElementById("imgShow").src = imagedata;
+    document.getElementById("imgShow").hidden = "";
 }
 document.getElementById("myRange").oninput = function() {
     document.getElementById("demo2").innerHTML = this.value;
