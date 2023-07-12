@@ -1,7 +1,3 @@
-–––
-Title: Melinda's 2x2x2x2
-–––
-
 # Melinda's 2x2x2x2
 
 !!! info inline end "Melinda's 2x2x2x2"
