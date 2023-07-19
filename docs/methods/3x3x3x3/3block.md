@@ -1,6 +1,6 @@
 # 3-Block
 
-3-Block is a method designed for quickly speedsolving the 3^4^. Many speesolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". 3-Block is most analogous to the 3^3^ method [FreeFOP] (which omits a single cross piece in order to pair pieces easier).
+3-Block is a method designed for quickly speedsolving the 3^4^. Many speedsolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". 3-Block is most analogous to the 3^3^ method [FreeFOP] (which omits a single cross piece in order to pair pieces easier).
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
