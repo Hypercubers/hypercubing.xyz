@@ -18,10 +18,11 @@ found_broken = False
 def warn(filename, link_target, msg):
     global found_broken
     found_broken = True
-    warning = f"In file {filename}, the link to {link_target!r}"
+    warning = f"In file {filename}, the link to {link_target!r} {msg}"
+    print(warning)
 
 
-for filename in glob("docs/**.md", recursive=True):
+for filename in glob("docs/**/*.md", recursive=True):
     with open(filename, 'r') as f:
         for m in LINK_PATTERN.finditer(f.read()):
             link_target = m.group(1)
