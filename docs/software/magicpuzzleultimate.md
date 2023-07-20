@@ -2,9 +2,9 @@
 
 [Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) (MPU) is a program made by [Andrey Astrelin](https://superliminal.com/andrey/) that simulates a lot of different puzzles, as well as letting you define your own.
 
-[Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary } 
+[Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary }
 
-![32-cell in MPU](\assets\images\mpu_32cell.png)
+![32-cell in MPU](/assets/images/MPU_32cell.png)
 
 <center><small> 32-cell puzzle in MPU </small></center>
 

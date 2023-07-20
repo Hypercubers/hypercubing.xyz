@@ -4,7 +4,7 @@ from glob import glob
 from os import path
 import re
 
-LINK_PATTERN = re.compile(r'\]\(([^()]*)\)')
+LINK_PATTERN = re.compile(r'\]\(([^()#]*)\)')
 
 IGNORE_PREFIXES = [
     'http',  # don't try to validate external links
@@ -37,8 +37,12 @@ for filename in glob("docs/**/*.md", recursive=True):
             elif link_target.endswith('.md'):
                 warn(filename, link_target, "doesn't need to end with `.md`")
             else:
-                dir_exists = path.isfile(f'docs{link_target}/index.md')
-                file_exists = path.isfile(f'docs{link_target}.md')
+                if link_target.startswith('/assets/'):
+                    dir_exists = False
+                    file_exists = path.isfile(link_target[1:])
+                else:
+                    dir_exists = path.isfile(f'docs{link_target}/index.md')
+                    file_exists = path.isfile(f'docs{link_target}.md')
                 if not dir_exists and not file_exists:
                     warn(filename, link_target, "is broken")
 

@@ -6,8 +6,7 @@ Dimensional reduction is a technique to reduce an n^d^ puzzle into an n^d-1^ puz
 
 To get to the dimensionally reduced state from a solved 3^4^, do only turns that don't change the colours of the I/O axis (moves that look like big 3^3^ moves).
 
-
-Below is Andrey's log file of a 3x3x3x3 solve done with dimensional reduction. It's essentially a [CFOP](/techniques/cfop) solve, but with some advanced pseudo-slotting and commutators. It's sort of like doing Pseudo F2L (where the pairs can be in any slot), and then doing OLC/PLC, except solving the PLC into the scrambled reduced state of the rest of the puzzle.
+Below is Andrey's log file of a 3x3x3x3 solve done with dimensional reduction. It's essentially a [CFOP](/methods/3x3x3x3/cfop) solve, but with some advanced pseudo-slotting and commutators. It's sort of like doing Pseudo F2L (where the pairs can be in any slot), and then doing OLC/PLC, except solving the PLC into the scrambled reduced state of the rest of the puzzle.
 
 ??? abstract "Andrey_34.log"
     ``` title="Andrey_34.log"

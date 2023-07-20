@@ -18,12 +18,12 @@ Throughout 2013 and 2014, Melinda Green got in contact with Oskar van Deventer t
 
 In late 2021, some speculation began as to if you could expand the physical 2^4^ into a physical 2x2x2x3 hypercuboid. After Rowan learned that Grant had 3D printed his own physical 2^4^, he challenged him to build a physical 2x2x2x3. Grant completed the challenge, and began designing and printing many more physical puzzles, all the way up to the physical 3x3x3x3. Many physical puzzle designs have still yet to be built...
 
-[Physical puzzles page](/puzzles/physical-puzzles)
+[Physical puzzles page](/puzzles/physical)
 
 - **2013-2015:** Brainstorming ideas to make the [2x2x2x2](/puzzles/2x2x2x2) in 3D space
 - **2017 Feb 08:** First puzzle made with magnetic dice mechanism
 - **2017 Apr 26:** 2nd 2^4^ made using 3D printing from Shapeways
-- **2022 Feb 03:** Grant finishes the [2x2x2x3](/puzzles/physical-puzzles/phys-2x2x2x3)
+- **2022 Feb 03:** Grant finishes the [2x2x2x3](/puzzles/physical/2x2x2x3)
 - **2023 May:** First brainstorming of floppyhypercubes
 - **2022 May 14:** Grant finishes the 2x2x3x3
 - **2022 Jul 06:** Grant finishes the 2x3x3x3
@@ -45,10 +45,5 @@ In late 2021 [Hactar](/leaderboards/solvers/hactar) began working on the [Hypers
 - **2022 Dec 07:** First 3^4^ sub-4:00 by Grant
 - **2022 Dec 22:** First 3^4^ sub-3:00 by Hactar
 - **2023 May 13:** First 3^4^ sub-2:00 by Hactar
-
-
-
-
-
 
 [^1]: Read Andrey's biography [here](https://superliminal.com/andrey/biography.html)
