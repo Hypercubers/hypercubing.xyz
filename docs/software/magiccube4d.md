@@ -9,15 +9,13 @@ Magic Cube 4D was one of the first ever programs capable of simulating higher di
 
 ## Download/installation
 
-Magic Cube 4D requires [java](https://www.java.com/en/) to be installed. Then go to <https://superliminal.com/cube/>, and click on the `Click here to download MagicCube4D` button. Save the executable `mc4d-4-3-343.jar` file somewhere you will remember, as this file is how you open the program.
+Magic Cube 4D requires [java](https://www.java.com/en/) to be installed. Then go to the [Superliminal website](https://superliminal.com/cube/), and click on the `Click here to download MagicCube4D` button. Save the executable `mc4d-4-3-343.jar` file somewhere you will remember, as this file is how you open the program.
 
 ## Alternative versions
 
-Magic Cube 4D has 2 notable variants made by the community that offer different puzzles or options:
-
 ### Raynefork
 
-Raynefork is Raymond Zhao's version of MC4D, which has the updated defualt colour scheme (standard 3^3^ colours plus pink/purple), and some more options in the settings menu. It can be found from its GitHub [here](https://github.com/rzhao271/magiccube4d/releases/tag/v4.3.343-raynefork.2.1).
+Raynefork is Raymond Zhao's version of MC4D, which has the updated default colour scheme (standard 3^3^ colours plus pink/purple), and some more options in the settings menu. It can be found from its GitHub [here](https://github.com/rzhao271/magiccube4d/releases/tag/v4.3.343-raynefork.2.1).
 
 ### Don's version
 
@@ -29,9 +27,9 @@ Don's version contains some 2D puzzles, many 3D puzzles, and some interesting 4D
 First off, you should read [MC4D's FAQ](https://superliminal.com/cube/faq.html) on the superliminal website.
 
 ??? warning "my computer wants to open the `.jar` file with notepad"
-    This means that you haven't installed java properly. Make sure to get the newest from version [here](https://www.java.com/en/). After the installation, right click on the `mc4d-4-3-343.jar` file, and click open with Java(TM) Platform SE Binary.
+    This means that you haven't installed java properly. Make sure to get the newest version from [Java's website](https://www.java.com/en/). After the installation, right click on the `mc4d-4-3-343.jar` file, and click `open with Java(TM) Platform SE Binary`.
 
 ??? warning "facecolors.txt doesn't change my colors"
-    1. Make sure to close the program. Then reopen it, and reload the puzzle using the menu.
-    2. If you're on windows and you have show file extensions off in settings, then you may have accidentally named the file `facecolors.txt.txt`. Try renaming it to just `facecolors`. (Alternatively, enable showing file extensions in settings)
+    1. Try closing and reopening the program, and then reloading the puzzle using the menu.
+    2. If you're on windows and you have show file extensions off in settings, then you may have accidentally named the file `facecolors.txt.txt`. Try renaming it to just `facecolors`. (Alternatively, enable show file extensions in settings)
 
