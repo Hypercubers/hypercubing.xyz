@@ -2,7 +2,7 @@
 
 This is an outline of how to make your way through the world of hypercubing. Learning puzzles in the wrong order can often lead to confusion, or hindering your understanding in the long run.
 
-!!! quote "Quote from Hactar"
+!!! quote "Hactar"
     It's very difficult to understand what's really going on in a physical puzzle without first understanding virtual puzzles. We recommend starting with virtual 3^4 for the same reason that 3D cubers typically recommend starting with 3x3x3.
 
 ## NxNxNxN's
