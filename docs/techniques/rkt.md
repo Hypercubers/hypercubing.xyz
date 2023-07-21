@@ -26,7 +26,7 @@ RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's
     
     ![Sune with RKT](/assets/images/SuneRKTgif.gif){width="100%"}
 1. Rewrite the algorithm to only use cube rotations and R moves
-2. Rewrite cube rotations in this new algorithm (```x, y, or z```) to their respective I cell rotation (```IR, IU, IF```)
+2. Rewrite cube rotations in this new algorithm (`x`, `y`, or `z`) to their respective I cell rotation (`IR`, `IU`, `IF`)
 3. Replace all R moves with their RO counterpart
 
 This can definitely be very confusing and disorienting to beginners, as you have to think about 3x3x3 moves with only R moves and rotations. It takes a lot of practice to get comfortable with RKT, but it is an **extremely** powerful technique.
