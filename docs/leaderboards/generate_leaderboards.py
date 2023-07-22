@@ -93,6 +93,10 @@ class Solve:
             #     ][self.rank-1]
             if self.rank == 1:
                 emoji = ':trophy: '
+            elif self.rank == 2:
+                emoji = ':second_place: '
+            elif self.rank == 3:
+                emoji = ':third_place: '
             return emoji + str(self.rank)
         else:
             return self._cell_contents[header]
