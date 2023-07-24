@@ -11,9 +11,8 @@ search:
 
 # Leaderboards
 
-To submit a solve:
+Unofficial world record database for higher dimensional twisty puzzle speedsolving!
 
-1. Read the [leaderboard submission rules](/leaderboards/rules)
-2. Submit using [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8) or with a [pull request adding a line to this file](https://github.com/Hypercubers/hypercubing.xyz/blob/main/docs/leaderboards/solves.csv).
+[Leaderboard submission rules](/leaderboards/rules){{.md-button .md-button--primary}} [Submit a solve](https://forms.gle/Y7Vpi3pb8989Ay8W8){{.md-button .md-button--primary}}
 
 Happy hypercubing!
