@@ -7,6 +7,7 @@ Generate an image of a physical 2x2x2x2 by inputting moves using [canonical move
 
 
 
+
 !!! note "Generate by move input" 
     **Moves that the generator will accept:**
     `zy`  `yz`  `xz`  `zx`  `yx`  `xy`  `yw`  `wy`  `xw`  `wx`  `zw`  `wz` `Ly`  `Ly'`  `Ly2`  `Lx2`  `Lz2`  `Lx2,y`  `Lx2,y'` `Lx` `Lx,y` `Lx,y'` `Lx,y2` `Lx'` `Lx',y` `Lx',y'` `Lx',y2` `Lz` `Lz,y` `Lz,y'` `Lz,y2` `Lz'` `Lz',y` `Lz',y'` `Lz',y2` `Ry` `Ry'` `Ry2` `Rx2` `Rz2` `Rx2,y` `Rx2,y'` `Rx` `Rx,y` `Rx,y'` `Rx,y2` `Rx'` `Rx',y` `Rx',y'` `Rx',y2` `Rz` `Rz,y` `Rz,y'` `Rz,y2` `Rz'` `Rz',y` `Rz',y'` `Rz',y2` `Ix` `Ix'` `Ix2` `Ox` `Ox'` `Ox2` `U2` `F2` `B2` `D2` `#`
@@ -533,4 +534,5 @@ function movesGenerate() {
     cube(0,10,puzzleState);
 
 }
+movesGenerate();
 </script>
