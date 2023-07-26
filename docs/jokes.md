@@ -64,7 +64,7 @@ Once Hactar finally realized what was happening, Jedi changed their nickname on 
 
 ## Cactus
 
-On 2023-02-19, several members were brainstorming possible shapes for the [physical 2^5^](/puzzles/physical/2x2x2x2x2) and named one of them "Cactus."
+On 2023-02-19, several members were brainstorming possible shapes for physical 5D puzzle pieces and named one of them "Cactus."
 
 > **Banderson:** then yeah I think (compound of four cubes)-generated tetragonal icositetrahedron is good; C4CTi or something  
 > **Banderson:** C4QTi ?  
