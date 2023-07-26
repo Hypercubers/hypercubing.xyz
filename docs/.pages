@@ -2,5 +2,6 @@ nav:
   - Wiki:
     - index.md
     - ...
+    - jokes.md
   - faq.md
   - leaderboards
