@@ -1,13 +1,11 @@
 # Physical 2x2x2x2 Image Generator
 
-Generate an image of a physical 2x2x2x2 in a certain state. Below is a list of all the moves that the generator recognizes:
-```
-Rotations = "zy", "yz", "xz", "zx", "yx", "xy", "yw", "wy", "xw", "wx", "zw", "wz"
-Slab moves = "U2", "F2", "B2", "D2"
-I/O moves = "Ix", "Ix'", "Ix2", "Ox", "Ox'", "Ox2"
-Left moves = "Ly", "Ly'", "Ly2", "Lx2", "Lz2", "Lx2,y", "Lx2,y'", "Lx", "Lx,y", "Lx,y'", "Lx,y2", "Lx'", "Lx',y", "Lx',y'", "Lx',y2", "Lz", "Lz,y", "Lz,y'", "Lz,y2", "Lz'", "Lz',y", "Lz',y'", "Lz',y2"
-Right moves = "Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y", "Rx,y'", "Rx,y2", "Rx'", "Rx',y", "Rx',y'", "Rx',y2", "Rz", "Rz,y", "Rz,y'", "Rz,y2", "Rz'", "Rz',y", "Rz',y'", "Rz',y2"
-```
+Generate an image of a physical 2x2x2x2 by inputting moves using [canonical moves notation](/puzzles/physical/2x2x2x2/canonical-moves).
+
+
+**Moves that the generator will accept:**
+
+`zy`  `yz`  `xz`  `zx`  `yx`  `xy`  `yw`  `wy`  `xw`  `wx`  `zw`  `wz` `Ly`  `Ly'`  `Ly2`  `Lx2`  `Lz2`  `Lx2,y`  `Lx2,y'` `Lx` `Lx,y` `Lx,y'` `Lx,y2` `Lx'` `Lx',y` `Lx',y'` `Lx',y2` `Lz` `Lz,y` `Lz,y'` `Lz,y2` `Lz'` `Lz',y` `Lz',y'` `Lz',y2` `Ry` `Ry'` `Ry2` `Rx2` `Rz2` `Rx2,y` `Rx2,y'` `Rx` `Rx,y` `Rx,y'` `Rx,y2` `Rx'` `Rx',y` `Rx',y'` `Rx',y2` `Rz` `Rz,y` `Rz,y'` `Rz,y2` `Rz'` `Rz',y` `Rz',y'` `Rz',y2` `Ix` `Ix'` `Ix2` `Ox` `Ox'` `Ox2` `U2` `F2` `B2` `D2`
 
 
 <label for="textinput">Input moves: (separated by spaces)</label>
@@ -17,6 +15,8 @@ Right moves = "Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y",
 
 
 <button onclick="myFunction()" style="background-color: #e7e7e7; color: black; padding: 8px 8px; border-radius: 12px;" id="buttin">Generate Image</button>
+
+<p id="errormsg" markdown="block"></p>
 
 <p id="demo"></p>
 <img id="imgShow" hidden="hidden" src="#">
@@ -452,12 +452,14 @@ function myFunction() {
             numHashes++;
         }
     }
-
+    document.getElementById("errormsg").innerHTML = "";
     for (var i = 0; i < movestodo.length; ++i) {
         //for each item in the list of moves to do:
         if (numHashes > 0 && numHashes %2 == 1) {
             // if the number of # is odd, set color to gray and break
             puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+            var message_text = "⚠️ <b>Warning:</b> There must be an <i>even</i> number of # in the input";
+            document.getElementById("errormsg").innerHTML = message_text;
             break;
         }
         if (slabmoves.includes(movestodo[i])) {
@@ -474,7 +476,8 @@ function myFunction() {
             puzzleState = rotatings(puzzleState, rotations.indexOf(movestodo[i]));
         } else {
             puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
-            // also could change some text to give a warning message if I wanted to
+            var message_text = "⚠️ <b>Warning:</b> Unknown input detected. Check canonical moves carefully";
+            document.getElementById("errormsg").innerHTML = message_text;
         }
     }
 
