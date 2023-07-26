@@ -1,9 +1,16 @@
 # Physical 2x2x2x2 Image Generator
 
-Generate an image of a physical 2x2x2x2 in a certain state. (input must use standard physical 2^4 notation and have an **even** number of #'s)
+Generate an image of a physical 2x2x2x2 in a certain state. Below is a list of all the moves that the generator recognizes:
+```
+Rotations = "zy", "yz", "xz", "zx", "yx", "xy", "yw", "wy", "xw", "wx", "zw", "wz"
+Slab moves = "U2", "F2", "B2", "D2"
+I/O moves = "Ix", "Ix'", "Ix2", "Ox", "Ox'", "Ox2"
+Left moves = "Ly", "Ly'", "Ly2", "Lx2", "Lz2", "Lx2,y", "Lx2,y'", "Lx", "Lx,y", "Lx,y'", "Lx,y2", "Lx'", "Lx',y", "Lx',y'", "Lx',y2", "Lz", "Lz,y", "Lz,y'", "Lz,y2", "Lz'", "Lz',y", "Lz',y'", "Lz',y2"
+Right moves = "Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y", "Rx,y'", "Rx,y2", "Rx'", "Rx',y", "Rx',y'", "Rx',y2", "Rz", "Rz,y", "Rz,y'", "Rz,y2", "Rz'", "Rz',y", "Rz',y'", "Rz',y2"
+```
+var colors = ["orange","red","blue","green","purple","pink","yellow","white","gray"];
 
-
-<label for="textinput">Input moves:</label>
+<label for="textinput">Input moves: (separated by spaces)</label>
 <textarea id="textinput" name="textinput" rows="4" cols="50">
 </textarea>
 
@@ -147,7 +154,7 @@ function hashtagInv(input)
 function U2(input)
 {
     input = [[input[1][2],input[1][3],input[1][0],input[1][1],input[0][4],input[0][5],input[0][6],input[0][7]],[input[0][2],input[0][3],input[0][0],input[0][1],input[1][4],input[1][5],input[1][6],input[1][7]]];
-    return input
+    return input;
 }
 
 function D2(input)
@@ -157,7 +164,7 @@ function D2(input)
     input = U2(input);
     input[0] = turn(input[0],3);
     input[1] = turn(input[1],3);
-    return input
+    return input;
 }
 
 function F2(input)
@@ -167,111 +174,115 @@ function F2(input)
     input = U2(input);
     input[0] = turn(input[0],11);
     input[1] = turn(input[1],11);
-    return input
+    return input;
+}
+
+function B2(input)
+{
+    input[0] = turn(input[0],11);
+    input[1] = turn(input[1],11);
+    input = U2(input);
+    input[0] = turn(input[0],7);
+    input[1] = turn(input[1],7);
+    return input;
 }
 
 // end slab twist functions
 
 
-function turn(input,turnNum)
-// input = L or R
-// turn num is just what turn it does
 
+// start IO twist functions
+
+function Ix(input) {
+    // input = x(input[0[1]], input[0[2]], input[0[5], input[0[6]]], input[1[0]], input[1[3]], input[1[4], input[1[6]]]);
+    // return input;
+    // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
+    var temp = input[0[1]]; // save LUBI
+    input[0[1]] = input[0[2]]; // LUBI = LUFI
+    input[0[2]] = input[0[6]]; // LUFI = LDFI
+    input[0[6]] = input[0[5]]; // LDFI = LDBI
+    input[0[5]] = temp; // LDBI = LUBI
+    return input;
+}
+
+
+// end IO twist functions
+
+
+function turn(input,turnNum)
+// input = just L or R
+// turn num is just what turn it does
 {
-    if(turnNum == 0)
-    {
+    if(turnNum == 0){
         return y(input);
     }
-    else if(turnNum == 1)
-    {
+    else if(turnNum == 1){
         return y(y(y(input)));
     }
-    else if(turnNum == 2)
-    {
+    else if(turnNum == 2){
         return y(y(input));
     }
-    else if(turnNum == 3)
-    {
+    else if(turnNum == 3) {
         return x(x(input));
     }
-    else if(turnNum == 4)
-    {
+    else if(turnNum == 4) {
         return z(z(input));
     }
-    else if(turnNum == 5)
-    {
+    else if(turnNum == 5) {
         return y(x(x(input)));
     }
-    else if(turnNum == 6)
-    {
+    else if(turnNum == 6) {
         return y(y(y(x(x(input)))));
     }
-    else if(turnNum == 7)
-    {
+    else if(turnNum == 7){
         return x(input);
     }
-    else if(turnNum == 8)
-    {
+    else if(turnNum == 8) {
         return y(x(input));
     }
-    else if(turnNum == 9)
-    {
+    else if(turnNum == 9) {
         return y(y(y(x(input))));
     }
-    else if(turnNum == 10)
-    {
+    else if(turnNum == 10) {
         return y(y(x(input)));
     }
-    else if(turnNum == 11)
-    {
+    else if(turnNum == 11){
         return x(x(x(input)));
     }
-    else if(turnNum == 12)
-    {
+    else if(turnNum == 12){
         return y(x(x(x(input))));
     }
-    else if(turnNum == 13)
-    {
+    else if(turnNum == 13){
         return y(y(y(x(x(x(input))))));
     }
-    else if(turnNum == 14)
-    {
+    else if(turnNum == 14){
         return y(y(x(x(x(input)))));
     }
-    else if(turnNum == 15)
-    {
+    else if(turnNum == 15){
         return z(input);
     }
-    else if(turnNum == 16)
-    {
+    else if(turnNum == 16){
         return y(z(input));
     }
-    else if(turnNum == 17)
-    {
+    else if(turnNum == 17){
         return y(y(y(z(input))));
     }
-    else if(turnNum == 18)
-    {
+    else if(turnNum == 18){
         return y(y(z(input)));
     }
-    else if(turnNum == 19)
-    {
+    else if(turnNum == 19){
         return z(z(z(input)));
     }
-    else if(turnNum == 20)
-    {
+    else if(turnNum == 20){
         return y(z(z(z(input))));
     }
-    else if(turnNum == 21)
-    {
+    else if(turnNum == 21){
         return y(y(y(z(z(z(input))))));
     }
-    else if(turnNum == 22)
-    {
+    else if(turnNum == 22){
         return y(y(z(z(z(input)))));
     }
-    else
-    {
+    else{
         return input;
     }
 }
@@ -288,17 +299,37 @@ function slabTurns(input, turnNum) {
     }
 }
 
+function IOTurns(input, turnNum) {
+    if (turnNum == 0) {
+        return Ix(input);
+    }
+}
+
+function rotatings(input, turnNum) {
+    if (turnNum == 0) {
+        input[0] = turn(input[0],7);
+        input[1] = turn(input[1],7);
+        return input;
+    } else if (turnNum == 1) {
+        input[0] = turn(input[0],11);
+        input[1] = turn(input[1],11);
+        return input;
+    }
+}
+
 
 
 function myFunction() {
-    var slabmoves = ["U2", "F2", "B2", "D2"]
-    var IOmoves = ["Ix", "Ix'", "Ix2", "Ox", "Ox'", "Ox2"]
+    var rotations = ["zy", "yz", "xz", "zx", "yx", "xy", "yw", "wy", "xw", "wx", "zw", "wz"];
+    var slabmoves = ["U2", "F2", "B2", "D2"];
+    var IOmoves = ["Ix", "Ix'", "Ix2", "Ox", "Ox'", "Ox2"];
     var Lphysmoves = ["Ly", "Ly'", "Ly2", "Lx2", "Lz2", "Lx2,y", "Lx2,y'", "Lx", "Lx,y", "Lx,y'", "Lx,y2", "Lx'", "Lx',y", "Lx',y'", "Lx',y2", "Lz", "Lz,y", "Lz,y'", "Lz,y2", "Lz'", "Lz',y", "Lz',y'", "Lz',y2", ""];
     var Rphysmoves = ["Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y", "Rx,y'", "Rx,y2", "Rx'", "Rx',y", "Rx',y'", "Rx',y2", "Rz", "Rz,y", "Rz,y'", "Rz,y2", "Rz'", "Rz',y", "Rz',y'", "Rz',y2", ""];
     canvas.height = 150;
 
     var puzzleState = [[[0,7,2,5],[0,7,2,4],[0,7,3,4],[0,7,3,5],[0,6,2,5],[0,6,2,4],[0,6,3,4],[0,6,3,5]],[[1,7,2,4],[1,7,2,5],[1,7,3,5],[1,7,3,4],[1,6,2,4],[1,6,2,5],[1,6,3,5],[1,6,3,4]]];
     // set puzzle to the solved state
+    // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
 
     var userinput = document.getElementById("textinput").value;
     // getting what the user typed from the text box
@@ -306,28 +337,42 @@ function myFunction() {
     console.log(movestodo);
     // everything the user typed split into an array by spaces
     
-    if (slabmoves.includes(movestodo[0])) {
-        slabTurns(puzzleState, slabmoves.indexOf(movestodo[0]));
-    } else if (Lphysmoves.includes(movestodo[0])) {
-        turn(puzzleState[0], Lphysmoves.indexOf(movestodo[0]));
-    } else if (Rphysmoves.includes(movestodo[0])) {
-        turn(puzzleState[1], Rphysmoves.indexOf(movestodo[0]));
-    } else {
-        puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
-        // TURNS THE WHOLE PUZZLE RED IF USER TYPED SOMETHING OTHER THAN A MOVE
-        //var element = document.getElementById("buttin");
-        //element.value = "ERROR: BAD SYNTAX";
+    // counting hashes
+    var numHashes = 0;
+    for (var i = 0; i < movestodo.length; ++i) {
+        if (movestodo[i] == "#") {
+            numHashes++;
+        }
     }
-    console.log(movestodo);
 
-    // for (var i = 0; i < movestodo.length; ++j) 
-    // {
-    // }
+    for (var i = 0; i < movestodo.length; ++i) {
+        // for each item in the list of moves to do:
+        if (numHashes > 0 && numHashes %2 == 1) {
+            // if the number of # is odd, set color to gray and break
+            puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+            break;
+        }
+        if (slabmoves.includes(movestodo[i])) {
+            puzzleState = slabTurns(puzzleState, slabmoves.indexOf(movestodo[i]));
+        } else if (movestodo[i] == "#") {
+            puzzleState = hashtag(puzzleState);
+        } else if (Lphysmoves.includes(movestodo[i])) {
+            puzzleState[0] = turn(puzzleState[0], Lphysmoves.indexOf(movestodo[i]));
+        } else if (Rphysmoves.includes(movestodo[i])) {
+            puzzleState[1] = turn(puzzleState[1], Rphysmoves.indexOf(movestodo[i]));
+        } else if (IOmoves.includes(movestodo[i])) {
+            puzzleState = IOTurns(puzzleState, IOmoves.indexOf(movestodo[i]));
+        } else if (rotations.includes(movestodo[i])) {
+            puzzleState = rotatings(puzzleState, rotations.indexOf(movestodo[i]));
+        } else {
+            puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+            // also could change some text to give a warning message if I wanted to
+        }
+    }
 
 
     
-    //puzzleState[0] = turn(puzzleState[0],2);
-    //puzzleState = F2(puzzleState);
+   
 
     cube(0,10,puzzleState);
 
