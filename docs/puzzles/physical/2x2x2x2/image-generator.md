@@ -350,44 +350,74 @@ function IOTurns(input, turnNum) {
 
 function rotatings(input, turnNum) {
     if (turnNum == 0) {
+        // zy rotation
         input[0] = turn(input[0],7);
         input[1] = turn(input[1],7);
         return input;
     } else if (turnNum == 1) {
+        // yz rotation
         input[0] = turn(input[0],11);
         input[1] = turn(input[1],11);
         return input;
     } else if (turnNum == 2) {
         // xz gyro
+        input = rotatings(input, 0);
+        input = rotatings(input, 5);
+        input = rotatings(input, 1);
         return input;
     } else if (turnNum == 3) {
         // zx gyro
+        input = rotatings(input, 2);
+        input = rotatings(input, 2);
+        input = rotatings(input, 2);
         return input;
     } else if (turnNum == 4) {
         // yx gyro
+        input = rotatings(input, 5);
+        input = rotatings(input, 5);
+        input = rotatings(input, 5);
         return input;
     } else if (turnNum == 5) {
         // xy gyro
+        // # wz # Rx2 F2 D2 Rz2
+        input = hashtag(input);
+        input = rotatings(input, 11);
+        input = hashtag(input);
+        input[1] = turn(input[1], 3);
+        input = F2(input);
+        input = D2(input);
+        input[1] = turn(input[1], 4);
         return input;
     } else if (turnNum == 6) {
+        // yw rotation
         input[0] = turn(input[0],19);
         input[1] = turn(input[1],15);
         return input;
     } else if (turnNum == 7) {
+        // wy rotation
         input[0] = turn(input[0],15);
         input[1] = turn(input[1],19);
         return input;
     } else if (turnNum == 8) {
         // xw gyro
+        input = rotatings(input, 9);
+        input = rotatings(input, 9);
+        input = rotatings(input, 9);
         return input;
     } else if (turnNum == 9) {
         // wx gyro
+        // wy yx yw
+        input = rotatings(input, 7);
+        input = rotatings(input, 4);
+        input = rotatings(input, 6);
         return input;
     } else if (turnNum == 10) {
+        // zw rotation
         input[0] = turn(input[0],0);
         input[1] = turn(input[1],1);
         return input;
     } else if (turnNum == 11) {
+        // wz rotation
         input[0] = turn(input[0],1);
         input[1] = turn(input[1],0);
         return input;
@@ -425,11 +455,11 @@ function myFunction() {
 
     for (var i = 0; i < movestodo.length; ++i) {
         // for each item in the list of moves to do:
-        if (numHashes > 0 && numHashes %2 == 1) {
-            // if the number of # is odd, set color to gray and break
-            puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
-            break;
-        }
+        // if (numHashes > 0 && numHashes %2 == 1) {
+        //     // if the number of # is odd, set color to gray and break
+        //     puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+        //     break;
+        // }
         if (slabmoves.includes(movestodo[i])) {
             puzzleState = slabTurns(puzzleState, slabmoves.indexOf(movestodo[i]));
         } else if (movestodo[i] == "#") {
