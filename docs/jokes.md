@@ -1,5 +1,5 @@
 ---
-title: Memes
+title: Jokes
 ---
 
 # Hypercubing community in-jokes
