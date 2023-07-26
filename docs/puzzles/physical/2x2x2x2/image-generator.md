@@ -194,15 +194,30 @@ function B2(input)
 // start IO twist functions
 
 function Ix(input) {
-    // ???????????????????????????????????????????
-    // input = x(input[0[1]], input[0[2]], input[0[5], input[0[6]]], input[1[0]], input[1[3]], input[1[4], input[1[6]]]);
-    // return input;
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
-    var temp = input[0][1][0,2,1,3]; // save LUBI
-    input[0][1] = input[0][2][0,2,1,3]; // LUBI = LUFI
-    input[0][2] = input[0][6][0,2,1,3]; // LUFI = LDFI
-    input[0][6] = input[0][5][0,2,1,3]; // LDFI = LDBI
+    // "orange","red","blue","green","purple","pink","yellow","white","gray"
+    var temp = input[0][1]; // save LUBI
+    input[0][1] = input[0][2]; // LUBI = LUFI
+    input[0][2] = input[0][6]; // LUFI = LDFI
+    input[0][6] = input[0][5]; // LDFI = LDBI
     input[0][5] = temp; // LDBI = LUBI
+    // reorienting those pieces
+    [input[0][1][1], input[0][1][2]] = [input[0][1][2], input[0][1][1]];
+    [input[0][2][1], input[0][2][2]] = [input[0][2][2], input[0][2][1]];
+    [input[0][5][1], input[0][5][2]] = [input[0][5][2], input[0][5][1]];
+    [input[0][6][1], input[0][6][2]] = [input[0][6][2], input[0][6][1]];
+    // now for the RI pieces:
+    var temp = input[1][0]; // save RUBI
+    input[1][0] = input[1][3]; // RUBI = RUFI
+    input[1][3] = input[1][7]; // RUFI = RDFI
+    input[1][7] = input[1][4]; // RDFI = RDBI
+    input[1][4] = temp; // RDBI = RUBI
+    // reorienting those pieces
+    [input[1][0][1], input[1][0][2]] = [input[1][0][2], input[1][0][1]];
+    [input[1][3][1], input[1][3][2]] = [input[1][3][2], input[1][3][1]];
+    [input[1][7][1], input[1][7][2]] = [input[1][7][2], input[1][7][1]];
+    [input[1][4][1], input[1][4][2]] = [input[1][4][2], input[1][4][1]];
+    
     return input;
 }
 
@@ -316,9 +331,19 @@ function IOTurns(input, turnNum) {
         input = rotatings(input, 10);
         return input;
     } else if (turnNum == 4) {
-        return  zw(zw(Ix(zw(zw(input)))));
+        input = rotatings(input, 10);
+        input = rotatings(input, 10);
+        input = (Ix(input));
+        input = rotatings(input, 10);
+        input = rotatings(input, 10);
+        return input;
     } else if (turnNum == 5) {
-        return  zw(zw(Ix(Ix(zw(zw(input))))));
+        input = rotatings(input, 10);
+        input = rotatings(input, 10);
+        input = (Ix(Ix(input)));
+        input = rotatings(input, 10);
+        input = rotatings(input, 10);
+        return input;
     }
     // rotatings(input, 10)
 }
@@ -380,6 +405,7 @@ function myFunction() {
     canvas.height = 150;
 
     var puzzleState = [[[0,7,2,5],[0,7,2,4],[0,7,3,4],[0,7,3,5],[0,6,2,5],[0,6,2,4],[0,6,3,4],[0,6,3,5]],[[1,7,2,4],[1,7,2,5],[1,7,3,5],[1,7,3,4],[1,6,2,4],[1,6,2,5],[1,6,3,5],[1,6,3,4]]];
+    // "orange","red","blue","green","purple","pink","yellow","white","gray"
     // set puzzle to the solved state
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
 
