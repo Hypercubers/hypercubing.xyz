@@ -454,7 +454,7 @@ function myFunction() {
     }
 
     for (var i = 0; i < movestodo.length; ++i) {
-        for each item in the list of moves to do:
+        //for each item in the list of moves to do:
         if (numHashes > 0 && numHashes %2 == 1) {
             // if the number of # is odd, set color to gray and break
             puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
