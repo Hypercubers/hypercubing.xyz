@@ -88,4 +88,4 @@ On the night of 2023-06-25, Kitcen lay awake, unable to sleep, their mind plague
 
 30 minutes later, Akkei responded wordlessly with this image:
 
-![Exactly the exact image described above](/assets/images/silence_derivative.png)
+![Exactly the exact image described above](/assets/images/silence_derivative.jpg)
