@@ -8,7 +8,7 @@ I/O moves = "Ix", "Ix'", "Ix2", "Ox", "Ox'", "Ox2"
 Left moves = "Ly", "Ly'", "Ly2", "Lx2", "Lz2", "Lx2,y", "Lx2,y'", "Lx", "Lx,y", "Lx,y'", "Lx,y2", "Lx'", "Lx',y", "Lx',y'", "Lx',y2", "Lz", "Lz,y", "Lz,y'", "Lz,y2", "Lz'", "Lz',y", "Lz',y'", "Lz',y2"
 Right moves = "Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y", "Rx,y'", "Rx,y2", "Rx'", "Rx',y", "Rx',y'", "Rx',y2", "Rz", "Rz,y", "Rz,y'", "Rz,y2", "Rz'", "Rz',y", "Rz',y'", "Rz',y2"
 ```
-var colors = ["orange","red","blue","green","purple","pink","yellow","white","gray"];
+
 
 <label for="textinput">Input moves: (separated by spaces)</label>
 <textarea id="textinput" name="textinput" rows="4" cols="50">
@@ -194,14 +194,15 @@ function B2(input)
 // start IO twist functions
 
 function Ix(input) {
+    // ???????????????????????????????????????????
     // input = x(input[0[1]], input[0[2]], input[0[5], input[0[6]]], input[1[0]], input[1[3]], input[1[4], input[1[6]]]);
     // return input;
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
-    var temp = input[0[1]]; // save LUBI
-    input[0[1]] = input[0[2]]; // LUBI = LUFI
-    input[0[2]] = input[0[6]]; // LUFI = LDFI
-    input[0[6]] = input[0[5]]; // LDFI = LDBI
-    input[0[5]] = temp; // LDBI = LUBI
+    var temp = input[0][1][0,2,1,3]; // save LUBI
+    input[0][1] = input[0][2][0,2,1,3]; // LUBI = LUFI
+    input[0][2] = input[0][6][0,2,1,3]; // LUFI = LDFI
+    input[0][6] = input[0][5][0,2,1,3]; // LDFI = LDBI
+    input[0][5] = temp; // LDBI = LUBI
     return input;
 }
 
@@ -302,7 +303,24 @@ function slabTurns(input, turnNum) {
 function IOTurns(input, turnNum) {
     if (turnNum == 0) {
         return Ix(input);
+    } else if (turnNum == 1) {
+        return Ix(Ix(Ix(input)));
     }
+    else if (turnNum == 2) {
+        return Ix(Ix(input));
+    } else if (turnNum == 3) {
+        input = rotatings(input, 10);
+        input = rotatings(input, 10);
+        input = (Ix(Ix(Ix(input))));
+        input = rotatings(input, 10);
+        input = rotatings(input, 10);
+        return input;
+    } else if (turnNum == 4) {
+        return  zw(zw(Ix(zw(zw(input)))));
+    } else if (turnNum == 5) {
+        return  zw(zw(Ix(Ix(zw(zw(input))))));
+    }
+    // rotatings(input, 10)
 }
 
 function rotatings(input, turnNum) {
@@ -313,6 +331,40 @@ function rotatings(input, turnNum) {
     } else if (turnNum == 1) {
         input[0] = turn(input[0],11);
         input[1] = turn(input[1],11);
+        return input;
+    } else if (turnNum == 2) {
+        // xz gyro
+        return input;
+    } else if (turnNum == 3) {
+        // zx gyro
+        return input;
+    } else if (turnNum == 4) {
+        // yx gyro
+        return input;
+    } else if (turnNum == 5) {
+        // xy gyro
+        return input;
+    } else if (turnNum == 6) {
+        input[0] = turn(input[0],19);
+        input[1] = turn(input[1],15);
+        return input;
+    } else if (turnNum == 7) {
+        input[0] = turn(input[0],15);
+        input[1] = turn(input[1],19);
+        return input;
+    } else if (turnNum == 8) {
+        // xw gyro
+        return input;
+    } else if (turnNum == 9) {
+        // wx gyro
+        return input;
+    } else if (turnNum == 10) {
+        input[0] = turn(input[0],0);
+        input[1] = turn(input[1],1);
+        return input;
+    } else if (turnNum == 11) {
+        input[0] = turn(input[0],1);
+        input[1] = turn(input[1],0);
         return input;
     }
 }
