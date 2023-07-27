@@ -514,43 +514,55 @@ function movesGenerate() {
 
 
 function stickerGenerate() {
-    var puzzleState = [[[0,7,2,5],[0,7,2,4],[0,7,3,4],[0,7,3,5],[0,6,2,5],[0,6,2,4],[0,6,3,4],[0,6,3,5]],[[1,7,2,4],[1,7,2,5],[1,7,3,5],[1,7,3,4],[1,6,2,4],[1,6,2,5],[1,6,3,5],[1,6,3,4]]];
+    puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
     // "orange","red","blue","green","purple","pink","yellow","white","gray"
     // set puzzle to the solved state
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
 
     var userinput = document.getElementById("stickerinput").value;
     // getting what the user typed from the text box
-    var stickerstodo = userinput.split("\n");
+    var stickerstodo = userinput.split(" ");
     console.log(stickerstodo);
     // everything the user typed split into an array by line breaks
 
     document.getElementById("errormsg2").innerHTML = "";
 
-    if (stickerstodo.length < 16) {
-        var message_text = "⚠️ <b>Warning:</b> Make sure that there are exactly 16 lines";
-        document.getElementById("errormsg2").innerHTML = message_text;
-    } else {
-        for (var i = 0; i < 2; ++i) {
-            for (var j = 0; j < 8; ++j) {
-                for (var k = 0; k < 4; ++k) {
-                    puzzleState[i][j][k] = convert(stickerstodo[((i+1)*(j+1))-1].charAt(k));
-                }
+    // if (stickerstodo.length < 16) {
+    //     var message_text = "⚠️ <b>Warning:</b> Make sure that there are exactly 16 groups";
+    //     document.getElementById("errormsg2").innerHTML = message_text;
+    // } else {
+    //     for (var i = 0; i < 2; ++i) {
+    //         for (var j = 0; j < 8; ++j) {
+    //             for (var k = 0; k < 4; ++k) {
+    //                 puzzleState[i][j][k] = convert(stickerstodo[i*8+j].charAt(k));
+    //             }
+    //         }
+    //     }
+    // console.log(puzzleState);
+    //}
+
+    for (var i = 0; i < stickerstodo.length; ++i) {
+        for (var k = 0; k < 4; ++k) {
+            if (i < 8) {
+                puzzleState[0][i%8][k] = convert(stickerstodo[i].charAt(k));
+            }
+            if (i > 7) {
+                puzzleState[1][i%8][k] = convert(stickerstodo[i].charAt(k));
             }
         }
-    console.log(puzzleState);
-}
+    }
 
     function convert(letter) {
         if (letter == "O") return 0;
         if (letter == "R") return 1;
         if (letter == "B") return 2;
         if (letter == "G") return 3;
-        if (letter == "V") return 4;
+        if (letter == "M") return 4;
         if (letter == "P") return 5;
         if (letter == "Y") return 6;
         if (letter == "W") return 7;
         if (letter == "S") return 8;
+        else return 8;
     }
     cube(0,10,puzzleState);
 }
