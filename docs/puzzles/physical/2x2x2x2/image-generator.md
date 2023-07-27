@@ -8,7 +8,7 @@ Generate an image of a physical 2x2x2x2 by inputting moves using [canonical move
 
 
 
-!!! note "Generate by move input" 
+??? note "Generate by move input" 
     **Moves that the generator will accept:**
     `zy`  `yz`  `xz`  `zx`  `yx`  `xy`  `yw`  `wy`  `xw`  `wx`  `zw`  `wz` `Ly`  `Ly'`  `Ly2`  `Lx2`  `Lz2`  `Lx2,y`  `Lx2,y'` `Lx` `Lx,y` `Lx,y'` `Lx,y2` `Lx'` `Lx',y` `Lx',y'` `Lx',y2` `Lz` `Lz,y` `Lz,y'` `Lz,y2` `Lz'` `Lz',y` `Lz',y'` `Lz',y2` `Ry` `Ry'` `Ry2` `Rx2` `Rz2` `Rx2,y` `Rx2,y'` `Rx` `Rx,y` `Rx,y'` `Rx,y2` `Rx'` `Rx',y` `Rx',y'` `Rx',y2` `Rz` `Rz,y` `Rz,y'` `Rz,y2` `Rz'` `Rz',y` `Rz',y'` `Rz',y2` `Ix` `Ix'` `Ix2` `Ox` `Ox'` `Ox2` `U2` `F2` `B2` `D2` `#`
     <label for="textinput"><br>Input moves: (separated by spaces)<br></label>
@@ -21,10 +21,9 @@ Generate an image of a physical 2x2x2x2 by inputting moves using [canonical move
 
     <p id="demo"></p>
     <img id="imgShow" hidden="hidden" src="#">
-    <canvas id="myCanvas"  width="350" height="125" style="border:0px solid #000000;">
-    </canvas>
+   
 
-!!! note "Generate by sticker input" 
+??? note "Generate by sticker input" 
     Colors:
     ```
     W = white
@@ -38,38 +37,19 @@ Generate an image of a physical 2x2x2x2 by inputting moves using [canonical move
     S = silver (gray)
     ```
     Piece/Sticker order:
-    ```
-    LUBO 
-    LUBI 
-    LUFI 
-    LUFO 
-    LDBO 
-    LDBI 
-    LDFI 
-    LDFO
-    RUBI 
-    RUBO 
-    RUFO 
-    RUFI 
-    RDBI 
-    RDBO 
-    RDFI 
-    RDFO
-    ```
+    `LUBO` `LUBI` `LUFO` `LDBO` `LDBI` `LDFI` `LDFO` `RUBI` `RUBO` `RUFO` `RUFI` `RDBI` `RDBO` `RDFI` `RDFO`
+    
     <label for="stickerinput">Input stickers by piece: (separated by line breaks)<br></label>
     <textarea id="stickerinput" name="stickerinput" rows="4" cols="50">
     </textarea>
 
     <button onclick="stickerGenerate()" style="background-color: #e7e7e7; color: black; padding: 8px 8px; border-radius: 12px;" id="buttin">Generate Image</button>
 
-    <p id="errormsg" markdown="block"></p>
+    <p id="errormsg2" markdown="block"></p>
 
-    <p id="demo"></p>
-    <img id="imgShow" hidden="hidden" src="#">
-    <canvas id="myCanvas"  width="350" height="125" style="border:0px solid #000000;">
+
+ <canvas id="myCanvas"  width="350" height="125" style="border:0px solid #000000;">
     </canvas>
-
-
 
 <script>
 
@@ -526,13 +506,55 @@ function movesGenerate() {
             document.getElementById("errormsg").innerHTML = message_text;
         }
     }
-
-
-    
-   
-
     cube(0,10,puzzleState);
-
 }
+
+
+
+
+
+function stickerGenerate() {
+    var puzzleState = [[[0,7,2,5],[0,7,2,4],[0,7,3,4],[0,7,3,5],[0,6,2,5],[0,6,2,4],[0,6,3,4],[0,6,3,5]],[[1,7,2,4],[1,7,2,5],[1,7,3,5],[1,7,3,4],[1,6,2,4],[1,6,2,5],[1,6,3,5],[1,6,3,4]]];
+    // "orange","red","blue","green","purple","pink","yellow","white","gray"
+    // set puzzle to the solved state
+    // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
+
+    var userinput = document.getElementById("stickerinput").value;
+    // getting what the user typed from the text box
+    var stickerstodo = userinput.split("\n");
+    console.log(stickerstodo);
+    // everything the user typed split into an array by line breaks
+
+    document.getElementById("errormsg2").innerHTML = "";
+
+    if (stickerstodo.length < 16) {
+        var message_text = "⚠️ <b>Warning:</b> Make sure that there are exactly 16 lines";
+        document.getElementById("errormsg2").innerHTML = message_text;
+    } else {
+        for (var i = 0; i < 2; ++i) {
+            for (var j = 0; j < 8; ++j) {
+                for (var k = 0; k < 4; ++k) {
+                    puzzleState[i][j][k] = convert(stickerstodo[((i+1)*(j+1))-1].charAt(k));
+                }
+            }
+        }
+    console.log(puzzleState);
+}
+
+    function convert(letter) {
+        if (letter == "O") return 0;
+        if (letter == "R") return 1;
+        if (letter == "B") return 2;
+        if (letter == "G") return 3;
+        if (letter == "V") return 4;
+        if (letter == "P") return 5;
+        if (letter == "Y") return 6;
+        if (letter == "W") return 7;
+        if (letter == "S") return 8;
+    }
+    cube(0,10,puzzleState);
+}
+
 movesGenerate();
+// calling the functions so that images of the solved puzzle appear as soon as you load the page :)
 </script>
