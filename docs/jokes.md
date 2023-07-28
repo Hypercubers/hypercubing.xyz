@@ -58,7 +58,7 @@ On 2023-01-03, in Hypercubers voice chat, a very sleepy Hactar mispronounced the
 
 ## Fake Anderson
 
-On 2023-01-12, in Hypercubers voice chat, Hactar and Luna were conversing with Anderson Taurence. During that time, a user named Jedi Cabanna Boy (Andreas Thompson) joined and continued the conversation, and Anderson left. But their voices were similar enough that Hactar, who was distracted speedsolving 5^, didn't notice the switch, and repeatedly addressed Jedi as Anderson. Luna noticed and did not correct him.
+On 2023-01-12, in Hypercubers voice chat, Hactar and Luna were conversing with Anderson Taurence. During that time, a user named Jedi Cabanna Boy (Andreas Thompson) joined and continued the conversation, and Anderson left. But their voices were similar enough that Hactar, who was distracted speedsolving 5^4^, didn't notice the switch, and repeatedly addressed Jedi as Anderson. Luna noticed and did not correct him.
 
 Once Hactar finally realized what was happening, Jedi changed their nickname on the server to **Anderson (Beta)**, and later **🅱a n d e r s o n**.
 
