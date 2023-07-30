@@ -18,7 +18,6 @@
 <!-- 3D stages and alg sets -->
 *[FL]: First Layer
 *[LL]: Last Layer
-*[F2L]: First 2 Layers
 *[OLL]: Orientation of the Last Layer
 *[PLL]: Permutation of the Last Layer
 *[EO]: Edge Orientation
