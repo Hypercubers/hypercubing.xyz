@@ -2,7 +2,7 @@
 *[1c]: 1-colored (center)
 *[2c]: 2-colored (ridge)
 *[3c]: 3-colored (edge)
-*[4c]: 4-colored (corner)
+*[4c]: 4-colored (peak)
 
 <!-- 4D stages and alg sets -->
 *[FC]: First Cell
