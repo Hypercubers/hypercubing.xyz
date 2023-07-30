@@ -1,6 +1,6 @@
 # Glossary
 
-This is a glossary of terms used in the hypercubing community. We take a mostly prescriptivist[^1] approach: terminology has a great effect on how we think about puzzles, and we try to be mindful when naming concepts to ensure that they encourage better understanding of puzzles and are useful in as many contexts as possible.
+This is a glossary of terms used in the hypercubing community. We take a mostly prescriptivist[^1] approach: terminology has a great effect on how we think about puzzles, and we try to be mindful when naming concepts and inventing notation to ensure that they encourage better understanding of puzzles and are useful in as many contexts as possible.
 
 [^1]: Go ahead, run us over with the [descriptivist bus](https://www.youtube.com/watch?v=46ehrFk-gLk&t=200s).
 
@@ -96,7 +96,7 @@ The **base sticker** of a head is the sticker which will be facing the base axis
     - On the 3^4^, an F2L-a pair consists of an edge (the head) and a ridge (the body).
 
 - **paired** = fully assembled
-- **pseudopaired** = one move away from paired (usually intentionally, so that it can be paired as part of the insertion)
+- **split pair** = one move away from paired, or can be paired as part of inserting the block
 
 #### F2L action terminology
 
