@@ -16,14 +16,14 @@ There are 8 cells, six of them using the same letters as that in the 3^3^: `U` (
 
 ## Pieces
 
-Cell-turning hypercubes have 4 different types of pieces (with some slight variations for big hypercubes). These are the 1-colored (1c) edges, 2c ridges, 3c edges, and 4c corners. You can label each piece based on which cells it is on. The 3c piece that has stickers on the `I`nside, `R`ight, and `U`p cells would be called the `IUR` piece.
+Cell-turning hypercubes have 4 different types of pieces (with some slight variations for big hypercubes). These are the 1c (1-colored) centers, 2c ridges, 3c edges, and 4c corners. You can label each piece based on which cells it is on. The 3c piece that has stickers on the `I`nside, `R`ight, and `U`p cells would be called the `IUR` piece.
 
 ## Twists
 
-Twists are notated based on which piece you click on to do the turn, with the first letter determining which sticker of that piece to click on.  For example:
+Twists are notated based on which piece you click on to do the turn, with the first letter determining which sticker of that piece to click on. For example:
 
 - `RO'` means to left click the R cell sticker of the RO piece.
-- `IUR` means to click the I sticker of the IUR piece (edge twists are symmetrical, so it doesn't matter if you left or right click).
+- `IUR` means to left click the I sticker of the IUR piece (edge twists are symmetrical, so it doesn't matter if you left or right click).
 - `FRUI` means to right click the F sticker of the FRUI piece.
 
 For the slice layers, we use `M` `E` `S` `P`, where P is the slice parallel to I/O (although with notation for n^5^ puzzles beginning to be fleshed out, P may end up being used by the new 5D sides of Posterior/Anterior). Wide moves are tricky, as we are now using the letter `w` for the 4th dimension axis. One way to get around this is to write the numbers you hold down on the keyboard (in MC4D/MPU etc) while clicking on a piece. On a 3-layered puzzle, holding down 2 does a slice move, and holding down 1 and 2 will do a wide move.
@@ -49,7 +49,7 @@ This makes it a really nice system because it only ever uses 2 letters, no matte
 
 ## Turn metrics
 
-There are many different ways to count the number of twists performed during a solve. All of these metrics (besides ETM) have their own Quarter Turn counterparts, where twists are broken up into 90° twists. For example, a 180° face twist takes two 90° twists, while a 120° edge twist takes three. Listed below are the metrics used by HSC.
+There are many different ways to count the number of twists performed during a solve. All of these metrics (besides ETM) have their own Quarter Turn counterparts, where twists are broken up into 90° twists. For example, a 180° face twist takes two 90° twists, while a 120° edge twist takes three. Listed below are the metrics used by HSC. STM is used the most, but others are sometimes relevant.
 
 ??? info "ATM"
     - Consecutive twists of the same axis are combined, even with different layers.
