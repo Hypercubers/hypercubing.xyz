@@ -14,6 +14,8 @@
       puz: 3x3x3x3_ao5
     - name: Blindfolded
       puz: 3x3x3x3_bld
+    - name: No Filters
+      puz: 3x3x3x3_nf
   - puz: 4x4x4x4
   - puz: 5x5x5x5
   - puz: 6x6x6x6

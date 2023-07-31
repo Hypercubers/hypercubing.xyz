@@ -1,5 +1,6 @@
 date,       link,                  time, program,   solver,             puzzle
 2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3
+2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3_nf
 2019-05-19, TPaW0RUJrFk,  1h 12m 07.65s, MC4D,      tetrian,            4x4x4x4
 2019-08-11, oEdrWPEsKPQ,      2m 26.00s, -,         connor,             phys_2x2x2x2
 2021-07-24, z__CuN5CgAY,      1m 43.44s, MC4D,      tetrian,            3-layer_simplex
@@ -250,10 +251,12 @@ date,       link,                  time, program,   solver,             puzzle
 2023-06-11, 06FYcnJ2_6g,      8m 38.36s, HSC,       olaf,               3x3x3x3
 2023-06-11, wpXmJrI48R8,     20m 12.92s, HSC,       void,               3x3x3x3
 2023-06-12, CvX6ozCVKys,      7m 55.60s, HSC,       olaf,               3x3x3x3
-2023-06-20, mYZH2FgADiY,      8m 40.21s, HSC,       grant,              4x4x4x4
+2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3
 2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3
 2022-12-02, TPbJAP82Fno,     15m 45.39s, HSC,       markk,              3x3x3_1d
 2023-07-03, XeRAYpf8Tqw,      7m 34.18s, HSC,       grant,              3x3x3_1d
+2023-07-03, RCO9Fawp7Y4,      5m 33.39s, HSC,       grant,              3x3x3x3_nf
+2023-07-03, 35VjKjeWSCg,      5m 16.01s, HSC,       grant,              3x3x3x3_nf
 2023-07-04, ULlDZxWC7mk,      6m 24.39s, HSC,       grant,              3x3x3_1d
 2023-07-04, txgOhBHjKaY,      5m 10.71s, HSC,       grant,              3x3x3_1d
 2023-07-04, dwYodrQgKHg,      4m 20.21s, HSC,       grant,              3x3x3_1d
