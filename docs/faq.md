@@ -69,10 +69,7 @@
     2x2x2x2, 2x2x2x3, 2x2x3x3, 2x3x3x3, and 3x3x3x3
 
 ??? question "Which 4D shapes can be turned into physical puzzles?"
-    While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. It just requires out-of-the-box thinking. We currently have several renderings for physical puzzles that haven't been built in real life yet.
-
-??? question "Can a physical 5D puzzle exist?"
-    In 3d space, it's difficult to find a symmetrical design to arrange 5 colors. It's possible using [icosahedral symmetry](https://math.stackexchange.com/q/103005/1115019), but it would be painful to use. Perhaps some clever design will be invented in the future that allows us to fully implement 5D+ puzzles.
+    While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. It just requires out-of-the-box thinking. We currently have several renderings for physical puzzles that haven't been built in real life yet; see the [Physical Puzzles](/puzzles/physical/index) page for a complete list.
 
 ## Speedsolving
 
@@ -101,3 +98,11 @@
 
 ??? question "3D Rubik's Clock"
     Instead of rotating circles in 2D, you can rotate spheres in 3D. This is a more interesting puzzle than the traditional Rubik's Clock because moves don't commute. No one's written a program yet to simulate it but you totally could!
+
+??? question "How do I make a 4D \[thing]?"
+    **:sparkles: Generalising Things to 4D: A Handy Guide :sparkles:**
+
+    1. Understand and define the thing you're generalising
+    2. Find where your definitions reference or assume something dimension-specific
+    3. Rewrite your definitions to avoid dimension-specificity
+    4. Find 4D object that fits your new definitions (there may be one, several, or none)
