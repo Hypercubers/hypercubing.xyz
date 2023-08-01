@@ -39,6 +39,18 @@
 
     Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
+??? question "What's [God's number][cube20] for \[puzzle]?"
+    God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to scan $\sim 4.3 \times 10^{19}$ states. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
+
+    There are three strategies we can use to estimate it:
+
+    1. We can set a **lower bound** using the branching factor of move sequences. Let's take the 2^4^, for example. There are 92 possibilities for the first move and 69 possibilities for each subsequent move.[^24moves] To even have a chance of reaching $4.3 \times 10^{19}$ states, we need at least that many move sequences. $log_69(\frac{4.3 \times 10^{19}}{92}) \approx 9.6$, so **God's number for 2^4^ is at least 10**.
+    2. We can set an **upper bound** by analyzing the worst-case solution of every stage in a given method. [Here is an example calculation for 3^4^.](https://discord.com/channels/852389089268858922/867087791342223430/1118646417091743746)
+    3. We can get an **estimate** by measuring move counts produced by a near-optimal solver. For example, Anderson Taurence wrote a [3-stage 2^4^ solver](https://github.com/ajtaurence/Hypersolve) which typically produces solutions in the range of 20-30 STM. Note that **this solver does not produce optimal solutions**, and **we cannot measure _every_ scramble** so it's impossible to use this to put a hard bound on God's number, but **God's number for 2^4^ is probably not higher than 20-30**. The only thing this solver tells us is that _one particular scramble_ can be solved in _at most_ some number of moves -- there may be a shorter solution, and there may be other states that cannot be solved in that many moves.
+
+[cube20]: http://cube20.org/
+
+[^24moves]: Only one cell on each axis matters. Each face has 24 orientations, but one of those is the identity and so doesn't matter. $23 \times 4 = 92$. For subsequent moves, must turn a different axis. $23 \times 3 = 69$ (nice)
 
 ## Physical puzzles
 
