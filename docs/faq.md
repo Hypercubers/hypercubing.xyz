@@ -45,7 +45,7 @@
     There are three strategies we can use to estimate it:
 
     1. We can set a **lower bound** using the branching factor of move sequences. Let's take the 2^4^, for example. There are 92 possibilities for the first move and 69 possibilities for each subsequent move.[^24moves] To even have a chance of reaching $4.3 \times 10^{19}$ states, we need at least that many move sequences. $log_{69}(\frac{4.3 \times 10^{19}}{92}) \approx 9.6$, so **God's number for 2^4^ is at least 10**.
-    2. We can set an **upper bound** by analyzing the worst-case solution of every stage in a given method. [Here is an example calculation for 3^4^].(https://discord.com/channels/852389089268858922/867087791342223430/1118646417091743746)
+    2. We can set an **upper bound** by analyzing the worst-case solution of every stage in a given method. [Here is an example calculation for 3^4^.](https://discord.com/channels/852389089268858922/867087791342223430/1118646417091743746)
     3. We can get an **estimate** by measuring move counts produced by a near-optimal solver. For example, Anderson Taurence wrote a [3-stage 2^4^ solver](https://github.com/ajtaurence/Hypersolve) which typically produces solutions in the range of 20-30 STM. Note that **this solver does not produce optimal solutions**, and **we cannot measure _every_ scramble** so it's impossible to use this to put a hard bound on God's number, but **God's number for 2^4^ is probably not higher than 20-30**. The only thing this solver tells us is that _one particular scramble_ can be solved in _at most_ some number of moves -- there may be a shorter solution, and there may be other states that cannot be solved in that many moves.
 
 [cube20]: http://cube20.org/
