@@ -40,10 +40,21 @@ For Android phones and tablets, you can download MC4D from the Google Play Store
 
 - [4D Blocks](https://www.urticator.net/blocks/)
 
-## Other recommended cubing software
+## Recommended cubing software
 
 - [pCubes](https://twistypuzzles.com/forum/viewtopic.php?t=27054)
 - [Nan Ma's RefleCube](https://www.nan.ma/reflecube/)
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
 - [gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)](https://github.com/Hypercubers/gelatinbrain/)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
+
+## Recommended cubing-adjacent puzzle software
+
+- [Loopover](https://loopover.xyz/)
+  - [Complex loopover](https://milojacquet.com/loopover/complex)
+- [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
+
+## Recommended hypercubing tools
+
+- [Orb](https://milojacquet.com/twisty/orb)
+- [RocKeT](https://github.com/HactarCE/rocket)
