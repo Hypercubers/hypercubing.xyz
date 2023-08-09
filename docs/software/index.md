@@ -52,6 +52,7 @@ For Android phones and tablets, you can download MC4D from the Google Play Store
 
 - [Loopover](https://loopover.xyz/)
   - [Complex loopover](https://milojacquet.com/loopover/complex)
+- [Slidysim](https://www.slidysim.com/)
 - [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
 
 ## Recommended hypercubing tools
