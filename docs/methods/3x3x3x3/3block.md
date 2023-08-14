@@ -113,6 +113,63 @@
         - preset_name: RKT PLC LL
           visible_pieces: ff10008ff0000ef30000
         ```
+    === "Rowan's new filters (pink cross)"
+        ```yaml
+        - preset_name: 4-cross
+          visible_pieces: 000200080a5010284280
+        - preset_name: odM
+          visible_pieces: 000200094a5014294280
+        - preset_name: ouM
+          visible_pieces: 000200094a5294294294
+        - preset_name: OLES
+          visible_pieces: 000200094a5294296294
+        - preset_name: oLS
+          visible_pieces: 0002000d4a5a943962d4
+        - preset_name: oBLE
+          visible_pieces: 0002000d4a7a943963d4
+        - preset_name: oDBL
+          visible_pieces: 0002000d6a7a94b963d4
+        - preset_name: oUBL
+          visible_pieces: 0002000d6a7ad4b963d6
+        - preset_name: oFLE
+          visible_pieces: 0002000d6b7ad4bd63d6
+        - preset_name: oDFL
+          visible_pieces: 0002008d6b7ad6bd63d6
+        - preset_name: oUFL
+          visible_pieces: 0002008d6b7bd6bd6bd6
+        - preset_name: ORES
+          visible_pieces: 0002008d6b7bd6bdebd6
+        - preset_name: oRS
+          visible_pieces: 0002008d7b7bf6fdebd7
+        - preset_name: oBRE
+          visible_pieces: 0002008d7bfbf6fdefd7
+        - preset_name: oDBR
+          visible_pieces: 0002008dfbfbf6ffefd7
+        - preset_name: oUBR
+          visible_pieces: 0002008dfbfbf7ffefdf
+        - preset_name: oFRE
+          visible_pieces: 0002008dfffbf7ffffdf
+        - preset_name: oDFR
+          visible_pieces: 0002008ffffbffffffdf
+        - preset_name: oUFR
+          visible_pieces: 0002008fffffffffffff
+        - preset_name: OLC 2c
+          visible_pieces: "01471400000000000000"
+        - preset_name: OLC 3c
+          visible_pieces: aaa8aa20000000000000
+        - preset_name: OLC 4c
+          visible_pieces: "54104150000000000000"
+        - preset_name: PLC 2c
+          visible_pieces: 014714080a5010004000
+        - preset_name: PLC cross
+          visible_pieces: "01479e20000000000000"
+        - preset_name: PLC F2L
+          visible_pieces: 01efff70000000000000
+        - preset_name: PLC
+          visible_pieces: ffffff70000000000000
+        - preset_name: End
+          visible_pieces: ffffffffffffffffffff
+        ```
 
 ## Summary
 
