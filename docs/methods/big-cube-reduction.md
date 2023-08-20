@@ -4,4 +4,7 @@ title: Reduction (Big Cube)
 
 # Big Cube Reduction
 
-Just like 3D reduction of big cubes, higher dimensional reduction works by pairing up groups of pieces with more and more colors. For example if you were reducing 4^6^ to 3^6^, you would pair in the order 1c, 2c, 3c, 4c, and then 5c.
+!!! example inline end "4^4^ with paired 1c centers"
+    ![4x4x4x4 with centers paired](/assets/images/4444centers.png)
+
+Just like 3D reduction of big cubes, higher dimensional reduction works by pairing up groups of pieces with more and more colors until the *n*^d^ is reduced into an (*n-1*)^d^. Pairing up pieces is done in a very similar way to the 3D method; If you can solve 3^3^, 4^3^, and 3^4^, then you can solve 4^4^.
