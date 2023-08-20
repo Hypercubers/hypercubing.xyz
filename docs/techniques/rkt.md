@@ -90,6 +90,8 @@ Recall how in 3D you can replace a `U y'` with `Dw`. We can do the same thing he
 
 Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-2}OUR UO2 RO'`. This works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice how if you remove the rotations, the whole thing cancels out. (You don't need to expand the conjugates to see this.)
 
+- For a list of algs, see the [RKT Cancel Algs](/rkt_cancel_algs) page
+
 ## Simultaneous RKT
 
 RKT can be done by using 2 opposite sides (e.g. `RO` and `LO` turns) as well as normal I cell turns. This would allow you to execute `<R,U,L>` gen algorithms easier, at the cost of having to fix RKT debt on both layers. Another interesting way to do this is in a method like Belt Method. After solving the belt, orienting opposite sides, and separating the colours, the user is left with solving 2 opposite cells that can be solved simultaneously using RKT. If you turn one of the sides with the belt going through it, it essentially does a twist to both cells. One case that can be annoying is if you want to do a 180° turn on one side, and a 90° turn on the other (you would have to wait until both cells' debt lined up).
