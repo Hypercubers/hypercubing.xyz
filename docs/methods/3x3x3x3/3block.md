@@ -3,7 +3,7 @@
 3-Block is a method designed for quickly speedsolving the 3^4^. Many speedsolving world records have been set using this method. It was primarily invented by Luna and HactarCE, and has been described as "ZZ without EO". 3-Block is most analogous to the 3^3^ method [FreeFOP] (which omits a single cross piece in order to pair pieces easier).
 
 !!! warning "Prerequisites"
-    - Knowledge of how the 4D puzzle moves
+    - Knowledge of how the 3^4^ moves
     - [Notation](/notation)
     - [RKT](/techniques/rkt)
     - [3D CFOP](https://jperm.net/3x3/cfop) with 2-look OLL & PLL
@@ -173,10 +173,12 @@
 
 ## Summary
 
-1. `4-Cross` — Solve 4 out of the 6 cross pieces.
-2. `Mid` — Solve 4 2c3c pairs betwen the 4 cross pieces.
-3. `Left` — Blockbuild or pair pieces to solve the Left Cell.
-4. `Right` — Blockbuild or pair pieces to solve the Right Cell.
+1. **4-Cross** — Solve 4 out of the 6 cross pieces
+2. **Middle Block** — Solve 4 2c3c pairs betwen the 4 cross pieces
+3. **Left Block** — Blockbuild or pair pieces to solve the Left Cell
+4. **Right Block** — Blockbuild or pair pieces to solve the Right Cell
+5. **OLC** - Orient LC 2c, 3c, and 4c pieces using 3D algorithms
+6. **PLC** - Permute LC 2c, 3c, and 4c pieces using 3D techniques
 
 ## Steps
 
@@ -186,7 +188,7 @@ Solve the four 2c cross pieces in a ring in the M slice. Leave the L and R cross
 
 <center>![y](/assets/images/4cross_transparent.png){width="50%"}</center>
 
-### Mid
+### Middle Block
 
 !!! tip
     For the entirety of F2L, the last layer is held on the I cell, as opposed to [CFOP](/methods/3x3x3x3/cfop) where it is held on the U cell. This allows us to see more information at once.
@@ -195,13 +197,13 @@ Create and insert 4 F2L-a (2c3c) pairs into the 4/6 cross. This will solve 2/3 o
 
 <center>![y](/assets/images/middle_transparent.png){width="50%"}</center>
 
-### Left
+### Left Block
 
 Solve the Left cell. This is done in 3 blocks, hence the name of the method. The first block consists of the cross edge, followed by two 2c3c F2L-a pairs that are opposite of each other. This solves the middle column of the left cell. The final two blocks consist of a 2c3c pair, and two 3c4c pairs.
 
 <center>![y](/assets/images/LB_transparent.png){width="50%"}</center>
 
-### Right
+### Right Block
 
 Solve the Right cell. This is also done by breaking it up into the 3 blocks, except now you don't have an empty opposite cell to aid you in making pairs. You could just solve the cross edge, and then finish the whole solve using [CFOP](/methods/3x3x3x3/cfop) style F2L and Last Cell. You can also do it the 3 blocks way, except having less freedom means that it is slightly trickier to set up the correct cases.
 
