@@ -3,5 +3,6 @@ nav:
     - index.md
     - ...
     - jokes.md
+    - rkt_cancel_algs.md
   - faq.md
   - leaderboards
