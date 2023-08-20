@@ -14,7 +14,7 @@
 2. **F2L-a** — Join 2c+3c pairs together and insert them into the first two layers
 3. **F2L-b** — Join 3c+4c pairs together and insert them into the first two layers
 4. **OLC** — Orient LC 2c, 3c, and 4c pieces using 3D EOLL and OCLL
-5. **PLC** — Permute LC 2c pieces of the LL using EPLL, then solve 3c and 4c like a 3^3 using RKT
+5. **PLC** — Permute LC 2c pieces of the LL using EPLL, then solve 3c and 4c like a 3^3^ using RKT
 
 ## Steps
 
@@ -73,7 +73,7 @@ There are also fancy new 3-cycle algorithms for a 4D "adjacent U-perms" in both 
 
 #### RKT PLC
 
-From here, you use RKT to solve the rest of the puzzle like a whole 3^3. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a First Block. Finding 4 cross pieces is pretty easy inspectionless.
+From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
     If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/techniques/rkt) for algorithms.
