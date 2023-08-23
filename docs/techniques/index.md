@@ -5,5 +5,4 @@ Hypercubing methods typically rely on a few fundamental techniques. By mastering
 !!! warning "Learn [Notation](/notation) before trying to learn any of these techniques"
 
 - [Commutators](/techniques/commutators)
-- [Dimensional Reduction](/techniques/dimensional-reduction)
 - [RKT](/techniques/rkt)
