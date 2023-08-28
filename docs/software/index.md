@@ -10,7 +10,7 @@ If you want to level up to higher dimensions, then try MC5D, MC7D, MPU, and MS5D
 
 If you want to try puzzles in Non-Euclidean geometries, then try Magic Tile and Magic Hyperbolic Tile.
 
-For Android phones and tablets, you can download MC4D from the Google Play Store.
+For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from the Google Play Store.
 
 ## Recommended hypercubing software
 
@@ -33,6 +33,7 @@ For Android phones and tablets, you can download MC4D from the Google Play Store
 ## Hypercubing software for mobile (not recommended)
 
 - [Magic Cube 4D](https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d)
+- [Magic Cube 4D (Raynefork)](https://play.google.com/store/apps/details?id=me.rayzz.magiccube4d)
 - [The Tesseract Puzzle](https://play.google.com/store/apps/details?id=com.MadMagics.OpenGL_Shaders)
 - [4D Hypercube Puzzle](https://play.google.com/store/apps/details?id=com.tesseract_game&hl=en_US&gl=US)
 
