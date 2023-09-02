@@ -55,6 +55,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
   - [Complex loopover](https://milojacquet.com/loopover/complex)
 - [Slidysim](https://www.slidysim.com/)
 - [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
+- [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
 
 ## Recommended hypercubing tools
 
