@@ -75,7 +75,7 @@ On 2023-02-19, several members were brainstorming possible shapes for physical 5
 > **Rowan:** squeez cheezahedron  
 > **Grant:** Your shape, your name akkei  
 > **Akkei:** i still like the  
-> **Akkie:** [we Do Not Have A Scheme for the cactus](https://discord.com/channels/852389089268858922/903095477568938035/1076983534528499753)  
+> **Akkei:** [we Do Not Have A Scheme for the cactus](https://discord.com/channels/852389089268858922/903095477568938035/1076983534528499753)  
 > **Grant:** Cactus LOL  
 > ...  
 > **Grant:** I don't care what actual name we end up giving it, I'm calling it cactus in this channel
