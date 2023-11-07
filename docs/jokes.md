@@ -89,3 +89,7 @@ On the night of 2023-06-25, Kitcen lay awake, unable to sleep, their mind plague
 30 minutes later, Akkei responded wordlessly with this image:
 
 ![Exactly the exact image described above](/assets/images/silence_derivative.jpg)
+
+## Mimcaf and Celse pign
+
+Many hypercubers play Minecraft and Celeste, and have adopted common misspellings of those games. [Akkei was the first to use "mimcaf"](https://discord.com/channels/852389089268858922/852389089872576525/1048776457444397136) on 2022-12-03, and [Rowan was the first to use the phrase "celse pign" on 2023-09-30](https://discord.com/channels/852389089268858922/861019555210723348/1157842745398923324) as a misspelling of "Celeste ping."
