@@ -90,6 +90,12 @@ On the night of 2023-06-25, Kitcen lay awake, unable to sleep, their mind plague
 
 ![Exactly the exact image described above](/assets/images/silence_derivative.jpg)
 
+## Grant Standingslice
+
+In earlier versions of hypercubing.xyz, individual letters such as R, F, etc. showed tooltips indicating their use in common notation. On 2023-01-06, [Hactar posted a screenshot of the leaderboards page](https://discord.com/channels/852389089268858922/1060662671856373830/1060787711264428072) in which the "S" in "Grant S." had a tooltip that said "Standing slice (parallel to F)."
+
+> **Hactar:** Fun fact: the "S" in Grant's name stands for "Standing slice"
+
 ## Mimcaf and Celse pign
 
 Many hypercubers play Minecraft and Celeste, and have adopted common misspellings of those games. [Akkei was the first to use "mimcaf"](https://discord.com/channels/852389089268858922/852389089872576525/1048776457444397136) on 2022-12-03, and [Rowan was the first to use the phrase "celse pign" on 2023-09-30](https://discord.com/channels/852389089268858922/861019555210723348/1157842745398923324) as a misspelling of "Celeste ping."
