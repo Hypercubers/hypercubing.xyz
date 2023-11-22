@@ -26,7 +26,7 @@ On 2022-10-31, Grant did a one-handed solve of the physical 2^4^ on a whim and i
 
 ![A graph of Rowan's carrerr, which starts by sloping upward and then curves downward. It ends in an arrow, implying that Rowan's carrerr will continue to decline.](/assets/images/carrerr.webp)
 
-## Sticker soup (2022-11-03)
+## Sticker soup
 
 > **Hactar:** You can always just make a [soup of flat stickers](https://discord.com/channels/852389089268858922/903095477568938035/1037851650578194474) with rules about how to move them around. It just becomes less and less usable. Physical 2^4^ is special because the rules are fairly straightforward.
 
