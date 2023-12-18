@@ -2,7 +2,7 @@ nav:
   - Wiki:
     - index.md
     - ...
-    - jokes
+    - jokes.md
     - rkt_cancel_algs.md
   - faq.md
   - leaderboards
