@@ -50,6 +50,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
 - [gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)](https://github.com/Hypercubers/gelatinbrain/)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
+- [Milo's laminated puzzles](https://github.com/milojacquet/laminated)
 
 ## Recommended cubing-adjacent puzzle software
 
@@ -63,3 +64,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 
 - [Orb](https://milojacquet.com/twisty/orb)
 - [RocKeT](https://github.com/HactarCE/rocket)
+
+## Visualizations
+
+- [IMAC2 Rubik4D by Oradimi, melokye, and MMeche](https://github.com/melokye/IMAC2_Rubik4D)
