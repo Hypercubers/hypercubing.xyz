@@ -170,6 +170,55 @@
         - preset_name: End
           visible_pieces: ffffffffffffffffffff
         ```
+    === "Triplets instead of pairs"
+        ```yaml
+        - preset_name: 4-cross
+          visible_pieces: 000200080a5010284280
+        - preset_name: odM
+          visible_pieces: 000200094a5014294280
+        - preset_name: ouM
+          visible_pieces: 000200094a5294294294
+        - preset_name: OLES
+          visible_pieces: 000200094a5294296294
+        - preset_name: oLS
+          visible_pieces: 0002000d4a5a943962d4
+        - preset_name: triplet 1
+          visible_pieces: 0002000d6a7ad43962d4
+        - preset_name: triplet 2
+          visible_pieces: 0002000d6a7ad4b963d6
+        - preset_name: triplet 3
+          visible_pieces: 0002008d6b7bd4b963d6
+        - preset_name: triplet 4
+          visible_pieces: 0002008d6b7bd6bd6bd6
+        - preset_name: ORES
+          visible_pieces: 0002008d6b7bd6bdebd6
+        - preset_name: oRS
+          visible_pieces: 0002008d7b7bf6fdebd7
+        - preset_name: triplet 5
+          visible_pieces: 0002008dfbfbf7fdebd7
+        - preset_name: triplet 6
+          visible_pieces: 0002008dfbfbf7ffefdf
+        - preset_name: triplet 7
+          visible_pieces: 0002008ffffff7ffefdf
+        - preset_name: triplet 8
+          visible_pieces: 0002008fffffffffffff
+        - preset_name: OLC 2c
+          visible_pieces: "01471400000000000000"
+        - preset_name: OLC 3c
+          visible_pieces: aaa8aa20000000000000
+        - preset_name: OLC 4c
+          visible_pieces: "54104150000000000000"
+        - preset_name: PLC 2c
+          visible_pieces: 014714080a5010004000
+        - preset_name: PLC cross
+          visible_pieces: "01479e20000000000000"
+        - preset_name: PLC F2L
+          visible_pieces: 01efff70000000000000
+        - preset_name: PLC
+          visible_pieces: ffffff70000000000000
+        - preset_name: End
+          visible_pieces: ffffffffffffffffffff
+        ```
 
 ## Summary
 
