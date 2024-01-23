@@ -66,7 +66,8 @@
     No. Currently, they are one-of-a-kind. You would have to design and 3D print them yourself.
 
 ??? question "What physical 4D puzzles exist?"
-    2x2x2x2, 2x2x2x3, 2x2x3x3, 2x3x3x3, and 3x3x3x3
+    2x2x2x1, 2x2x2x2, 2x2x2x3, 2x2x3x3, 2x3x3x3, 3x3x3x3, and simplex.
+
 
 ??? question "Which 4D shapes can be turned into physical puzzles?"
     While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. It just requires out-of-the-box thinking. We currently have several renderings for physical puzzles that haven't been built in real life yet; see the [Physical Puzzles](/puzzles/physical/index) page for a complete list.

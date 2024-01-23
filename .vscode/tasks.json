@@ -4,12 +4,17 @@
 		{
 			"type": "shell",
 			"command": "python3",
-			"args": ["-m", "mkdocs", "serve"],
+			"args": [
+				"-m",
+				"mkdocs",
+				"serve"
+			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "mkdocs serve"
+			"label": "mkdocs serve",
+			"problemMatcher": []
 		}
 	]
 }
