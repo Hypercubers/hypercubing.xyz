@@ -59,7 +59,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 - [Slidysim](https://www.slidysim.com/)
 - [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
 - [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
-  [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
+- [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
 
 ## Recommended hypercubing tools
 
