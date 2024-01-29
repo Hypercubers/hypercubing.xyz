@@ -79,7 +79,7 @@ flowchart TD
     
     subgraph 5D
     direction LR
-    A[4D NxNxNxN's]
+    A["n⁴"]
     B["3⁵"]
     C["2⁵"]
     D["4⁵"]
@@ -92,13 +92,13 @@ flowchart TD
     subgraph 6D
     direction LR
     G["3⁶"]
-    H["Other N⁶"]
+    H["Other n⁶"]
     G --> H
     end
     subgraph 7D
     direction LR
     V["3⁷"]
-    Q["Other N⁷"]
+    Q["Other n⁷"]
     V --> Q
     end
     5D --> 6D --> 7D
