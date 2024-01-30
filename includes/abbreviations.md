@@ -48,6 +48,7 @@
 *[ETM]: Execution Turn Metric
 *[STM]: Slice Turn Metric
 *[QSTM]: Quarter Slice Turn Metric
+*[MC4DTM]: MC4D's Turn Metric
 
 <!-- Misc. -->
 *[Ao5]: Average of 5 (excluding best & worst)
