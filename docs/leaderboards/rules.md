@@ -14,7 +14,6 @@ These rules may be flexible, especially for new categories. For example, if you'
 - The puzzle must be solved from a full scramble.
 - Spectators may commentate, but must not help the solver.
 - Algorithm reference sheets are strongly discouraged.[^algsheets]
-- Using software to compute a solution to the puzzle state is not allowed (except for computer-assisted FMC).
 - Reversing the scramble is not allowed; the solution must be novel.
 
 ## Speedsolving rules
@@ -24,12 +23,13 @@ These rules apply generally to speedsolving submissions unless the category has 
 - Macros are **not** allowed.
 - Piece filters are allowed.
 - All speedsolves require video evidence, such as a screen recording.
-    - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
-    - Inspection time must not exceed 60 seconds.
+    - A timer with precision of 0.01 seconds or better must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
+    - Inspection time must not exceed 60 seconds. In other words, the solve timer must be started within 60 seconds of the puzzle being completely scrambled.
 - If using keyboard controls:
     - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
     - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
 - Log file is not required, but you should still save your PBs!
+- Using software to compute a solution to the puzzle state is not allowed.
 
 ### Blindsolving rules
 
@@ -37,6 +37,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 - Piece filters are allowed during memorization but not during solving.
 - All blindsolves require video evidence of the solver that clearly shows the screen and that they are not cheating by using some external reference.
 - The solver does not need to be blindfolded, but the colors on the puzzle must be invisible during the solve.
+- Using software to compute a solution to the puzzle state is not allowed.
 - Besides those rules, typical blindsolving rules apply:
     - Final time = memorization time + solving time.
     - Writing anything down isn't allowed.
@@ -67,10 +68,8 @@ See [Canonical Moves](/puzzles/physical/2x2x2x2/canonical-moves) for more detail
 - Log files are required for submission.
 - Video evidence is not required.
 - Collaboration is allowed; each collaborator must be given the option to be credited for the solve, and should be credited if their contributions were significant.
-
-### Computer-assisted fewest-moves solving rules
-
-- Fewest-moves solving rules apply, except that using software to compute a partial or full solution is allowed.
+- Moves are counted using [STM][stm].
+- Use of computer software to generate a partial or full solution is allowed, but must be noted in the submission.
 
 ## Principles when writing new speedsolving software
 
@@ -82,6 +81,8 @@ If you're thinking of writing a new program for speedsolving or suggesting a new
     - Macros on the 3^4^ encourage commutator spam, which is very boring compared to layer-by-layer or F2L methods, so they are not allowed for speedsolves.
     - Piece filters reduce time spent looking for pieces, which is boring to do and boring to watch. There's a trade-off there: piece filters encourage a stricter solving order, which is less interesting in a way, but this also enables [3-Block](/methods/3x3x3x3/3block), a very interesting method.
 - New features should ideally have some justification based on 3D speedsolving. For example, multiple keybind sets is analogous to different grips on a 3D puzzle.[^grip]
+
+[stm]: https://hypercubing.xyz/notation/#turn-metrics
 
 [^algsheets]: We can't stop you from using an algorithm reference, but it's not in the spirit of the competition and it'll probably slow you down.
 [^keybinds-ref]: If the program doesn't have a built-in keybinds reference (such as akkei's physical 3^4^ simulator) then you probably don't need one.
