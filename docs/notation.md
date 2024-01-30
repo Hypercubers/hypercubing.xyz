@@ -72,3 +72,13 @@ There are many different ways to count the number of twists performed during a s
     - Whole-puzzle rotations are not counted.
     - Slice twists are split into contiguous outer-block twists.
     - Consecutive twists of the same axis and layers are combined.
+
+??? info "MC4DTM"
+    A.K.A. "whatever MC4D says."
+    
+    - Twists are counted as they are executed.
+    - Whole-puzzle rotations counted only if they are executed as moves.
+    - Double rotations and certain reorientations are impossible to execute as one move.
+    - Any move that counts as 1 STM is possible with 1 or 2 MC4DTM moves.[^2ct]
+
+[^2ct]: This is due to the 2-click theorem.^\[citation needed]^
