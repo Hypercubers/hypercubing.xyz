@@ -4,6 +4,11 @@
 <p>CFOP on: 3<sup><span id="sliderDisplay">5</span></sup></p>
 <input type="range" min="3" max="10" value="3" class="slider" id="myRange">
 
+
+## Cross
+
+<p id="cross"></p> can be characterized by
+
 <p id="text"></p>
 
 
@@ -19,10 +24,18 @@
 
 
     function myFunction(dim) {
+        // displays cross-n
         message_text = "Cross-" + dim + "<br>";
-        
+        // displays F2L-(dim)(letter), n times
+        for(var i = 1; i<(dim-1); i++) {
+            message_text = message_text + "F2L-"+dim+String.fromCharCode('A'.charCodeAt() + i-1)+"<br>";
+        }
+        message_text += "OLL-" + dim + "<br>";
+        message_text += "PLL-" + dim + "<br>";
+
         //updates the text at the very end
         document.getElementById("text").innerHTML = message_text;
+        document.getElementById("cross").innerHTML = "Cross-" + dim;
     }
 
 myFunction(3);
