@@ -117,6 +117,16 @@ The **base sticker** of a head is the sticker which will be facing the base axis
 !!! question "Open question"
     What should we call a move like `RT` on 3^4^, which doesn't change the set of pieces on `T` and might or might not unsolve some pieces?
 
+### Methods in higher dimensions
+
+In higher and higher dimensions, it gets annoying to have to say stuff like "permuting the last cell of the last cell of the..." etc. To avoid this, we simply add a hyphen and the rank of the thing you're solving at the end. Examples:
+
+- PLL-4 is the PLL step on a rank-4 object, which permutes a rank-3 object. With CFOP on 3^4^, it consists of permuting the 2c's, then permuting the rest like a 3^3^.
+- For F2L, you put the number before the letter at the end e.g. F2L-5a, F2L-6d, etc. 
+- If you were solving a 3^6^ with pure CFOP and you were solving the F2L of the final cube with triple RKT, that would be F2L-3 of PLL-4 of PLL-5 of PLL-6.
+
+
+
 ## Puzzle descriptors
 
 !!! warning "This section is a work-in-progress."
