@@ -49,7 +49,8 @@
             [1,20,180,960,3360,8064,13440,15360,11520,5120,1024]
         ];
 
-        total_pieces = (3**dim)-1;
+        total_cubies = (3**dim)-1;
+        total_pieces = (3**dim)-1 - ((pieces[dim][1])-2);
 
         // cross text
         cross_text = "Solve all " + ((pieces[dim][1])-2) + " of the 2c pieces around one of the centers.";
@@ -69,8 +70,21 @@
 
         //OLL text
 
+        oll_text = "Orient the remaining " + ((3**(dim-1))-1) + " pieces on the Last Layer:<br>";
+        for(var o = 1; o<dim; o++) {
+            oll_text = oll_text + pieces[dim-1][o] + " " + (o+1) + "c pieces<br>";
+        }
+        document.getElementById("oll_text").innerHTML = oll_text;
+
         //PLL text
-        
+
+        pll_text = "First, permute the " + ((pieces[dim][1])-2) + " 2c pieces using EPLL algorithms.<br>";
+        if (dim==3) {
+            pll_text = pll_text + "Next, use the correct algorithm from the PLL algset (21 algs) to solve the rest of the puzzle."
+        } else {
+            pll_text = pll_text + "Next, use RKT to permute the rest of the puzzle like a " + (dim-1) + "-dimensional cube.";
+        }
+        document.getElementById("pll_text").innerHTML = pll_text;
 
         
 
