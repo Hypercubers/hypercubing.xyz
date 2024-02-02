@@ -77,13 +77,15 @@
         document.getElementById("oll_text").innerHTML = oll_text;
 
         //PLL text
-
-        pll_text = "First, permute the " + ((pieces[dim][1])-2) + " 2c pieces using EPLL algorithms.<br>";
+        pll_text = "";
         if (dim==3) {
-            pll_text = pll_text + "Next, use the correct algorithm from the PLL algset (21 algs) to solve the rest of the puzzle."
-        } else {
+            pll_text = pll_text + "Use the correct algorithm from the PLL algset (21 algs) to solve the rest of the puzzle."
+        }
+        else {
+            pll_text = pll_text + "First, permute the " + ((pieces[dim][1])-2) + " 2c pieces using EPLL algorithms.<br>";
             pll_text = pll_text + "Next, use RKT to permute the rest of the puzzle like a " + (dim-1) + "-dimensional cube.";
         }
+        
         document.getElementById("pll_text").innerHTML = pll_text;
 
         
