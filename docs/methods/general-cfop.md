@@ -1,4 +1,4 @@
-# Steps of CFOP on 3^d
+# Generalized CFOP
 
 
 <p>CFOP on: 3<sup><span id="sliderDisplay">5</span></sup></p>
