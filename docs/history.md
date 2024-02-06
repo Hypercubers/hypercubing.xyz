@@ -9,7 +9,7 @@ title: History
 !!! info inline end "MagicCube4D in 2001"
     ![Old MagicCube4D screenshot](https://web.archive.org/web/20060510192810/http://www.superliminal.com/cube/1twist.gif)
 
-Shortly after the Rubik's Cube was invented in 1974, people began thinking about different versions of the puzzle. The idea of higher dimensional analogues was intriguing to many people. [This article](https://udel.edu/~tomkeane/RubikTesseract.pdf) from 1982 is one of the earliest known documents theorizing properties of the 4D Rubik's Cube. In 1988 Melinda Green and Don Hatch wrote [MagicCube4D](/software/magiccube4d), and the first solutions to the 3^4^ puzzle came shortly thereafter. The Superliminal website was created some time around 2001, and Charles Doan has an excellent video about an [old version of MC4D](https://www.youtube.com/watch?v=Iade8n4ItPU). Communication was very difficult because of how extremely niche hypercubing was.
+Shortly after the Rubik's Cube was invented in 1974, people began thinking about different versions of the puzzle. The idea of higher dimensional analogues was intriguing to many people. [This article](https://udel.edu/~tomkeane/RubikTesseract.pdf) from 1982 is one of the earliest known documents theorizing properties of the 4D Rubik's Cube. In 1988 Melinda Green and Don Hatch wrote [MagicCube4D](/software/magiccube4d), and the first solutions to the 3^4^ puzzle came shortly thereafter. The [Superliminal website](https://superliminal.com/) was created some time around 2001, and Charles Doan has an excellent video about an [old version of MC4D](https://www.youtube.com/watch?v=Iade8n4ItPU). Communication was very difficult because of how extremely niche hypercubing was.
 
 ## 2002-Present: Mailing List Years
 
