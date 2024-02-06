@@ -2,8 +2,8 @@
 
 There are a few ways to project a 5-cell into 3d space. In a vertex-first projection the "hidden" cell is on the "outside" of the others while in a cell-first projection it is on the "inside". My design for the 4D pyraminx represents the latter way. In a solved state we have 4 colors on the outside and one on the inside of the puzzle.
 
-Pyraminx Pyraminx Pyraminx
-(pictures: projections (Source), vertex first pyraminx, cell first pyraminx (Source)
+![Projections](https://jimdo-storage.freetls.fastly.net/image/439495539/fccef95a-09fd-41a9-8931-2d565339e4d9.png?quality=80,90&auto=webp&disable=upscale&width=724&height=760) ![VertexFirst](https://jimdo-storage.freetls.fastly.net/image/439487284/cc59ec54-4aad-48a6-8606-47d50d1698d9.png?quality=80,90&auto=webp&disable=upscale&width=298&height=296) ![CellFirst](https://jimdo-storage.freetls.fastly.net/image/439487283/9f17e459-bf93-4e28-9652-73571216bbf3.png?quality=80,90&auto=webp&disable=upscale&width=299&height=293)
+(pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html)
 
 ## The Pieces
 
