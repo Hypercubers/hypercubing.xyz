@@ -9,9 +9,11 @@ title: History
 !!! info inline end "MagicCube4D in 2001"
     ![Old MagicCube4D screenshot](https://web.archive.org/web/20060510192810/http://www.superliminal.com/cube/1twist.gif)
 
-Shortly after the Rubik's Cube was invented in 1974, people began thinking about different versions of the puzzle. The idea of higher dimensional analogues was intriguing to many people. 1988 is when Melinda Green and Don Hatch wrote [MagicCube4D](/software/magiccube4d), and the first solutions to the 3^4^ puzzle came shortly thereafter. The Superliminal website was created some time around 2001, and Charles Doan has an excellent video about an [old version of MC4D](https://www.youtube.com/watch?v=Iade8n4ItPU). Communication was very difficult because of how extremely niche hypercubing was.
+Shortly after the Rubik's Cube was invented in 1974, people began thinking about different versions of the puzzle. The idea of higher dimensional analogues was intriguing to many people. [This article](https://udel.edu/~tomkeane/RubikTesseract.pdf) from 1982 is one of the earliest known documents theorizing properties of the 4D Rubik's Cube. In 1988 Melinda Green and Don Hatch wrote [MagicCube4D](/software/magiccube4d), and the first solutions to the 3^4^ puzzle came shortly thereafter. The Superliminal website was created some time around 2001, and Charles Doan has an excellent video about an [old version of MC4D](https://www.youtube.com/watch?v=Iade8n4ItPU). Communication was very difficult because of how extremely niche hypercubing was.
 
-## 2002-2010: Early Mailing List Years
+## 2002-Present: Mailing List Years
+
+In August 2003, the Hypercubing Yahoo Groups mailing list was created. Anyone could subscribe to the list and join the discussion via email. This greatly improved the speed of sharing knowledge. Many new people joined and discussed methods, puzzles, and even had some speedsolving competitions! It was moderately active, up until Yahoo groups began removing past content in 2019. Click [here](https://hypercubing-archive.gitlab.io/) to view an archive of all the past messages. After that, the Hypercubing Google Groups mailing list was created, with pretty much the same members and type of discussions as before. It wasn't until 2021 that a Discord server was created to speed up communication even more.
 
 ## 2010-2017: Andrey's Influence
 
