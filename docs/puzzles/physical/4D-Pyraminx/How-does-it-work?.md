@@ -126,6 +126,9 @@ That’s all there is to the gyro and here we have all in one movement.
 
 ![Gyro](https://jimdo-storage.freetls.fastly.net/image/439487856/af455204-87d9-40cd-80d5-515cd86fda4e.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
+...
+
+
 ## Comparison of Moves with MC4D
 
 | Dominik's Pyraminx | MagicCube 4D |
