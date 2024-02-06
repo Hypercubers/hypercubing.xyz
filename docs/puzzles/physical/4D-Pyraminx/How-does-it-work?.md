@@ -129,6 +129,7 @@ That’s all there is to the gyro and here we have all in one movement.
 ## Comparison of Moves with MC4D
 
 | Dominik's Pyraminx | MagicCube 4D |
+| ---------------------------- | ------------------------------------ |
 | ![Move1](https://jimdo-storage.freetls.fastly.net/image/439487489/bdb767ed-56fb-4179-b334-742a2f42011d.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DMove1](https://jimdo-storage.freetls.fastly.net/image/439485424/c0d4447b-8cf3-42a6-a5a1-d649922cccfb.gif?quality=80,90&auto=webp&disable=upscale&width=239&height=288) |
 | ![Move2](https://jimdo-storage.freetls.fastly.net/image/439487533/176cf069-4d39-48e4-95be-1c837baeed90.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DMove2](https://jimdo-storage.freetls.fastly.net/image/439485423/1f1df09d-612f-4982-ab2c-c9f491120a9d.gif?quality=80,90&auto=webp&disable=upscale&width=236&height=286) |
 | ![Move3](https://jimdo-storage.freetls.fastly.net/image/439487488/f29cc53a-fd63-425c-b417-16d63801ff0e.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DMove3](https://jimdo-storage.freetls.fastly.net/image/439485422/24c5d3de-a539-4b5e-a956-0f32e4fc51ad.gif?quality=80,90&auto=webp&disable=upscale&width=236&height=285) |
