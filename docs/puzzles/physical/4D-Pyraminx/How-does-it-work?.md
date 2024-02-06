@@ -19,7 +19,7 @@ Then there are five octahedron-shaped 4-colored center pieces where four of the 
 
 The five 4-colored trivial tips can also be represented by tetrahedrons but with the current design they would need to be a separate arrangement. So this puzzle without the trivial tips represents just the truncated pyramnix.
 
-![TrivialTips]https://jimdo-storage.freetls.fastly.net/image/439487834/7efb5dd9-ad7c-4c0e-a86e-c3fd4c8b2736.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600
+![TrivialTips](https://jimdo-storage.freetls.fastly.net/image/439487834/7efb5dd9-ad7c-4c0e-a86e-c3fd4c8b2736.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
 ## Chirality
 
@@ -59,6 +59,7 @@ If you perform such a move on each of the four sides of the tetrahedron you get 
 After the rotation you have can move the edges back.
 
 ![Unequip](https://jimdo-storage.freetls.fastly.net/image/439487754/1415fecf-34b2-449d-a786-c5df77e9318c.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
+...
 
 This is not necessary for a solve, though, since you have access to all the edge pieces through the 16 other moves.
 
