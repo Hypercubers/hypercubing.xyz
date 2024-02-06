@@ -25,10 +25,12 @@ In late 2021, some speculation began as to if you could expand the physical 2^4^
 - **2017 Apr 26:** 2nd 2^4^ made using 3D printing from Shapeways
 - **2022 Feb 03:** Grant finishes the [2x2x2x3](/puzzles/physical/2x2x2x3)
 - **2023 May:** First brainstorming of floppyhypercubes
-- **2022 May 14:** Grant finishes the 2x2x3x3
-- **2022 Jul 06:** Grant finishes the 2x3x3x3
-- **2022 Jul 22:** Grant finishes the 3x3x3x3
-- **2022 Aug:** Markk designs a physical simplex
+- **2022 May 14:** Grant finishes the [2x2x3x3](/puzzles/physical/2x2x3x3)
+- **2022 Jul 06:** Grant finishes the [2x3x3x3](/puzzles/physical/2x3x3x3)
+- **2022 Jul 22:** Grant finishes the [3x3x3x3](/puzzles/physical/3x3x3x3)
+- **2022 Aug:** Markceluna designs a physical simplex
+- **2024 Jan:** Tymon finishes making [2x2x2x1](/puzzles/physical/2x2x2x1) through 3x3x3x1 hypercuboids
+- **2024 Jan:** Dietl builds a physical simplex based on a completely different design than Markkceluna's
 
 ## 2022-Present: The Hyperspeedsolving Revolution
 
