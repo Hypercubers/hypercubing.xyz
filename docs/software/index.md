@@ -46,7 +46,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 - [pCubes](https://twistypuzzles.com/forum/viewtopic.php?t=27054)
 - [Complex Cube](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=22353)
 - [Luna's Complex Puzzles](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html)
-- [Nan Ma's RefleCube](https://www.nan.ma/reflecube/)
+- [Nan Ma's puzzles](https://www.nan.ma/) (Reflecube, Lollipop, Clockwork Cube, and more)
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
 - [gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)](https://github.com/Hypercubers/gelatinbrain/)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
