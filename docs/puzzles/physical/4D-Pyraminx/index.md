@@ -21,4 +21,4 @@ Based on some ideas for the 4D pyraminx Dominik first created a paper model in m
 
 ## How does it work?
 
-The puzzle can be moved like a pyraminx but with some additional legal moves. The edges that are in the position of the trivial tips can't legally be twisted. For more details go [here](/puzzles/physical/4D-Pyraminx/How-does-it-work?).
+The puzzle can be moved like a pyraminx but with some additional legal moves. The edges that are in the position of the trivial tips can't legally be twisted. For more details go [here](/puzzles/physical/4D-Pyraminx/How-does-it-work).
