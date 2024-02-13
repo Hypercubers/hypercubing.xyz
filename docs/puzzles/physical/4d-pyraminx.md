@@ -1,13 +1,37 @@
-# How does it work?
+# Dominik's 4D Pyraminx
+
+!!! info inline end "Dominik's 4D Pyraminx"
+    ![Dominik's 4D Pyraminx](https://jimdo-storage.freetls.fastly.net/image/439487778/8e46e773-ba4b-48d5-8bcd-5c7936c8dfd4.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1920&height=1437)
+
+    **4D Shape:** 5-cell
+
+    **Physical Shape:** Tetrahedron + small Octahedron
+
+    **Pieces:** 5 4c, 10 3c
+
+    **Magnets:** 60 (better version needs 180)
+
+    **Completed:** 2023 Dec 28
+
+## History
+
+Based on some ideas for the 4D pyraminx, Dominik first created a paper model in mid-December of 2023. After some suggestions from Melinda Green he created the current prototype with magnets which was the first functioning version of this design.
+
+## How does it work?
+
+The puzzle can be moved like a pyraminx but with some additional legal moves. The edges that are in the position of the trivial tips can't legally be twisted.
 
 There are a few ways to project a 5-cell into 3d space. In a vertex-first projection the "hidden" cell is on the "outside" of the others while in a cell-first projection it is on the "inside". My design for the 4D pyraminx represents the latter way. In a solved state we have 4 colors on the outside and one on the inside of the puzzle.
 
-![Projections](https://jimdo-storage.freetls.fastly.net/image/439495539/fccef95a-09fd-41a9-8931-2d565339e4d9.png?quality=80,90&auto=webp&disable=upscale&width=724&height=760) ![VertexFirst](https://jimdo-storage.freetls.fastly.net/image/439487284/cc59ec54-4aad-48a6-8606-47d50d1698d9.png?quality=80,90&auto=webp&disable=upscale&width=298&height=296) ![CellFirst](https://jimdo-storage.freetls.fastly.net/image/439487283/9f17e459-bf93-4e28-9652-73571216bbf3.png?quality=80,90&auto=webp&disable=upscale&width=299&height=293)
+![Projections](https://jimdo-storage.freetls.fastly.net/image/439495539/fccef95a-09fd-41a9-8931-2d565339e4d9.png?quality=80,90&auto=webp&disable=upscale&width=724&height=760)
 
-(pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html)
+2D visualizations of 3D perspective projections of the first iteration of a pentatope-based fractal: a) vertex-first, b) cell-first, c) face-first, d) edge-first.
 
-## The Pieces
+![VertexFirst](https://jimdo-storage.freetls.fastly.net/image/439487284/cc59ec54-4aad-48a6-8606-47d50d1698d9.png?quality=80,90&auto=webp&disable=upscale&width=298&height=296) ![CellFirst](https://jimdo-storage.freetls.fastly.net/image/439487283/9f17e459-bf93-4e28-9652-73571216bbf3.png?quality=80,90&auto=webp&disable=upscale&width=299&height=293)
 
+(pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html))
+
+### The Pieces
 
 There are ten tetrahedron-shaped 3-colored edge pieces where the fourth face is split into three colors.
 
@@ -21,24 +45,21 @@ The five 4-colored trivial tips can also be represented by tetrahedrons but with
 
 ![TrivialTips](https://jimdo-storage.freetls.fastly.net/image/439487834/7efb5dd9-ad7c-4c0e-a86e-c3fd4c8b2736.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-## Chirality
-
+### Chirality
 
 For the pieces to fit together in the correct color arrangement they need to have the same chirality. There is a left-handed and a right-handed version of the pieces and the centers and trivial tips need to have the same order of colors. Since the edges are allowed to be in more states the chirality doesn't matter as much but if the chiralities don't line up one color will be "favored" in a certain orientation.
 
-## Moves:
+### Moves
 
 There are some legal moves that don't represent a movement in the 4D puzzle.
 
-### Edge Migration
-
+#### Edge Migration
 
 You can move edges to a corresponding position on the "free center" and back.
 
 ![EdgeMigration](https://jimdo-storage.freetls.fastly.net/image/439487756/f8bc9fa5-c176-4a8b-a4ea-be84bca4fe4d.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) ![EdgeMigrationBack](https://jimdo-storage.freetls.fastly.net/image/439487601/9b2205b4-cb11-4df4-9c71-d868eb66d64c.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-### Reorient Edges
-
+#### Reorient Edges
 
 Edges can be in two states in relation to a center. They can align with the split face towards the center which will be call a "correct" state or the split face can be away from the center which will be called an "incorrect" state. In the latter case the edge can legally be oriented in three different ways.
 
@@ -63,8 +84,7 @@ After the rotation you have can move the edges back.
 
 This is not necessary for a solve, though, since you have access to all the edge pieces through the 16 other moves.
 
-## Legal States
-
+### Legal States
 
 To keep the puzzle in a legal state sometimes after certain rotations we need to make edge reorientations. When performing a non-standard slice move an edge that isn't in a correct state regarding the center that has rotated can after a turn show a split face.
 
@@ -90,34 +110,29 @@ As a rule you can now rotate the edge in the "down" direction in regards to the 
 
 This way we can simulate a 3-cycle of the faces A, B and C with the 4-sided shape of the tetrahedron.
 
-## Gyro
-
+### Gyro
 
 While it isn't necessary for a solve it is possible to reorient the whole puzzle by what's usually called a gyro. There might be better ways to do it but here is one way that can be done in four steps.
 
-### Step 1
-
+#### Step 1
 
 First you have to align the free octahedron with one of the “outer” edges. Regarding the colors it’s best to look at the colors of the adjacent octahedron. In this step you have two cases. Either the edge is already correct the you don’t have to do anything or the edge is incorrect then you have to reorient it towards the free octahedron.
 
 ![Align](https://jimdo-storage.freetls.fastly.net/image/439487931/614a6656-f464-4bdf-acc3-4c2b1d0be979.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1920&height=2560) ![OrientTipEdge](https://jimdo-storage.freetls.fastly.net/image/439487939/4d757d4c-5196-47e9-be52-efbe2cd6aef1.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-### Step 2
-
+#### Step 2
 
 Now you have to separate one 2-layered pyramid next to the aligned free octahedron. Here you have to watch out for the three edges facing you. In case they are “incorrect” you have to reorient them towards you. Then you can move it together towards the free octahedron.
 
 ![Separate](https://jimdo-storage.freetls.fastly.net/image/439487391/5fe4d03c-4562-4b66-a030-1c8031f23e53.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) ![Orient1](https://jimdo-storage.freetls.fastly.net/image/439487495/6c75741c-6e75-4f21-9dd0-d737c4b2088d.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) ![MoveTogether](https://jimdo-storage.freetls.fastly.net/image/439487395/410ce111-99fc-4b7d-ba4b-639fa721856b.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-### Step 3
-
+#### Step 3
 
 Here you have to look at what’s left of the “upper pyramid”. The topmost piece and the “inner” piece have to be reoriented in case they are incorrect. This time the direction you have to reorient them towards is “down”, which means it’s just like you would do in a normal slice move. One handy thing is that for the “inner” piece you simply have to look on the inside by only taking these three pieces off and if you see a whole face you can just leave the piece there. If the face is 3 colored you can just take it and rotate it together with the other pieces and it will be correct.
 
 ![HighlightedPieces](https://jimdo-storage.freetls.fastly.net/image/439487855/131a93f1-e3ce-4acf-b277-d2b8ccb12460.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1920&height=2560) ![Orient2](https://jimdo-storage.freetls.fastly.net/image/439487590/9974f2a3-cad6-4594-989c-6161f3542a9c.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) ![Flip1](https://jimdo-storage.freetls.fastly.net/image/439487538/ed1e00ff-68dd-4788-9f10-2ddfd0545338.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) ![Flip2](https://jimdo-storage.freetls.fastly.net/image/439487663/e804072d-9e9b-4aa4-8930-153612503a36.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-### Step 4
-
+#### Step 4
 
 The last step only involves the last edge. Again, if it’s incorrect you first have to reorient it, this time towards the “down” direction. And then you take the piece and move it “over the Pyraminx”, like this, and simply put it in the right spot.
 
@@ -129,8 +144,7 @@ That’s all there is to the gyro and here we have all in one movement.
 
 ...
 
-
-## Comparison of Moves with MC4D
+### Comparison of Moves with MC4D
 
 | Dominik's Pyraminx | MagicCube 4D |
 | ---------------------------- | ------------------------------------ |
@@ -144,14 +158,11 @@ That’s all there is to the gyro and here we have all in one movement.
 | ![Move8](https://jimdo-storage.freetls.fastly.net/image/439487496/fa790eab-d3c3-415e-ad81-ff761e4a93b3.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DMove8](https://jimdo-storage.freetls.fastly.net/image/439485426/c1fe2a21-b798-43e7-b52f-d1f344975bc2.gif?quality=80,90&auto=webp&disable=upscale&width=234&height=286) |
 | ![Gyro](https://jimdo-storage.freetls.fastly.net/image/439487856/af455204-87d9-40cd-80d5-515cd86fda4e.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DGyro](https://jimdo-storage.freetls.fastly.net/image/439487319/d3521c35-3cb6-4172-82d8-983cc02857b1.gif?quality=80,90&auto=webp&disable=upscale&width=237&height=286) |
 
-
 ## Example solve
 
-
-Here is a link to a video of an example scamble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto?si=wD7nbHjl6S_ivAWQ).
+Here is a link to a video of an example scamble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto).
 
 ## Notes for a solve
-
 
 The 4D pyraminx can end up with a single edge flipped incorrectly unlike the 3D pyraminx. This state can be solved with an algorithm that flips two edges, the right slice move and an additional two edges flip. But if a piece was moved in a wrong way accidentally it can also end up in a state that’s not solvable like this. The reason for this is that there are three states that flipping an edge moves between: (a) solved state, (b) one edge correct and the other two flipped and (c) all edges incorrect.
 
