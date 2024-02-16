@@ -1,6 +1,6 @@
 # Physical 2x2x2x2 Image Generator
 
-Generate an image of a physical 2x2x2x2 by inputting moves using [canonical moves notation](/puzzles/physical/2x2x2x2/canonical-moves).
+Generate an image of a physical 2x2x2x2 by inputting moves using [canonical moves notation](/puzzles/physical/2x2x2x2/canonical-moves), or by specifying the color per sticker. You can also do this directly from the URL by adding `?&moves=` or `?&stickers=` at the end, and using - to separate (and `H` instead of `#` for gyro).
 
 
 
@@ -53,9 +53,15 @@ Generate an image of a physical 2x2x2x2 by inputting moves using [canonical move
 
 <script>
 
+
+
+
 var colors = ["orange","red","blue","green","purple","pink","yellow","white","gray"];
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
+
+const searchParams = new URLSearchParams(window.location.search);
+
 
 
 function triangle(x,y,height,width,color)
@@ -465,16 +471,25 @@ function movesGenerate() {
     // set puzzle to the solved state
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
 
-    var userinput = document.getElementById("textinput").value;
+    if (searchParams.has('moves')) {
+        var userinput = searchParams.get('moves');
+        var movestodo = userinput.split("-");
+        var hashyhash = "H";
+    } else {
+        var userinput = document.getElementById("textinput").value;
+        var movestodo = userinput.split(" ");
+        var hashyhash = "#";
+    }
+    
     // getting what the user typed from the text box
-    var movestodo = userinput.split(" ");
+    
     console.log(movestodo);
     // everything the user typed split into an array by spaces
     
     // counting hashes
     var numHashes = 0;
     for (var i = 0; i < movestodo.length; ++i) {
-        if (movestodo[i] == "#") {
+        if (movestodo[i] == hashyhash) {
             numHashes++;
         }
     }
@@ -490,7 +505,7 @@ function movesGenerate() {
         }
         if (slabmoves.includes(movestodo[i])) {
             puzzleState = slabTurns(puzzleState, slabmoves.indexOf(movestodo[i]));
-        } else if (movestodo[i] == "#") {
+        } else if (movestodo[i] == hashyhash) {
             puzzleState = hashtag(puzzleState);
         } else if (Lphysmoves.includes(movestodo[i])) {
             puzzleState[0] = turn(puzzleState[0], Lphysmoves.indexOf(movestodo[i]));
@@ -519,9 +534,17 @@ function stickerGenerate() {
     // set puzzle to the solved state
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
 
-    var userinput = document.getElementById("stickerinput").value;
+    if (searchParams.has('stickers')) {
+        var userinput = searchParams.get('stickers');
+        var stickerstodo = userinput.split("-");
+    } else {
+        var userinput = document.getElementById("stickerinput").value;
+        var stickerstodo = userinput.split(" ");
+    }
+
+    
     // getting what the user typed from the text box
-    var stickerstodo = userinput.split(" ");
+    
     console.log(stickerstodo);
     // everything the user typed split into an array by line breaks
 
@@ -567,6 +590,14 @@ function stickerGenerate() {
     cube(0,10,puzzleState);
 }
 
-movesGenerate();
+if (searchParams.has('stickers')) {
+    stickerGenerate();
+} else if (searchParams.has('moves')) {
+    movesGenerate();
+} else {
+    movesGenerate();
+}
+
+
 // calling the functions so that images of the solved puzzle appear as soon as you load the page :)
 </script>
