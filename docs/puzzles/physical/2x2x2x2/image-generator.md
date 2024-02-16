@@ -530,6 +530,7 @@ function movesGenerate() {
 
 function stickerGenerate() {
     puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+    canvas.height = 150;
     // "orange","red","blue","green","purple","pink","yellow","white","gray"
     // set puzzle to the solved state
     // [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]

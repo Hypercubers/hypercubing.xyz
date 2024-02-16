@@ -1,0 +1,79 @@
+<svg version="1.1"
+     width="500" height="1500"
+     xmlns="http://www.w3.org/2000/svg">
+     
+     <!-- LOB stickers -->
+     <polygon points="0,300 100,300, 100,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,400, 0,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,300, 100,200" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,200, 0,200" class="LUFO" style="stroke:black;stroke-width:3"/>
+    <!-- LOF stickers -->
+     <polygon points="100,200 200,200, 200,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="100,300 100,200, 200,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="100,300 100,400, 200,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="100,400 200,300, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
+
+     <!-- LFO stickers -->
+     <polygon points="200,300 300,300, 300,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,300 300,400, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,300 300,300, 300,200" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,300 300,200, 200,200" style="fill:gray;stroke:black;stroke-width:3"/>
+    <!-- LFI stickers -->
+     <polygon points="300,200 400,200, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,300 300,200, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,300 300,400, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,400 400,300, 400,400" style="fill:gray;stroke:black;stroke-width:3"/>
+
+
+     <!-- LDO stickers -->
+     <polygon points="200,500 300,500, 300,600" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,600, 200,600" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,500, 300,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,400, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
+    <!-- LDI stickers -->
+     <polygon points="300,400 400,400, 400,500" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,500 300,400, 400,500" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,500 300,600, 400,500" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,600 400,500, 400,600" style="fill:gray;stroke:black;stroke-width:3"/>
+     
+  
+    <script>
+        <!-- "orange","red","blue","green","purple","pink","yellow","white","gray" --> 
+        <!--     0      1      2       3       4       5       6       7       8-->
+        puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+        const searchParams = new URLSearchParams(window.location.search);
+
+        var state = searchParams.get('state');
+        var stickerstodo = state.split("-");
+
+        for (var i = 0;  stickerstodo.length > i; ++i) {
+            for (var k = 0; 4 > k; ++k) {
+                if (i < 8) {
+                    puzzleState[0][i%8][k] = convert(stickerstodo[i].charAt(k));
+                }
+                if (i > 7) {
+                    puzzleState[1][i%8][k] = convert(stickerstodo[i].charAt(k));
+                }
+            }
+        }
+
+        function convert(letter) {
+            if (letter == "O") return "orange";
+            if (letter == "R") return "red";
+            if (letter == "B") return "blue";
+            if (letter == "G") return "blue";
+            if (letter == "M") return "magenta";
+            if (letter == "P") return "pink";
+            if (letter == "Y") return "yellow";
+            if (letter == "W") return "white";
+            if (letter == "S") return "grey";
+            else return "grey";
+        }
+
+
+        document.querySelector('.LUFO').style.fill = puzzleState[0][0][4];
+     
+
+    </script>
+
+</svg>
