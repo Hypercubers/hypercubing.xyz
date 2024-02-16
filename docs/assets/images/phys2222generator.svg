@@ -3,21 +3,21 @@
      xmlns="http://www.w3.org/2000/svg">
      
      <!-- LOB stickers -->
-     <polygon points="0,300 100,300, 100,400" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="0,300 100,400, 0,400" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="0,300 100,300, 100,200" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="0,300 100,200, 0,200" class="LUFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,300, 100,400" class="OLDB" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,400, 0,400" class="LDBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,300, 100,200" class="OLUB" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,300 100,200, 0,200" class="LUBO" style="stroke:black;stroke-width:3"/>
     <!-- LOF stickers -->
-     <polygon points="100,200 200,200, 200,300" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="100,300 100,200, 200,300" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="100,300 100,400, 200,300" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="100,200 200,200, 200,300" class="LUFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="100,300 100,200, 200,300" class="OFUL" style="stroke:black;stroke-width:3"/>
+     <polygon points="100,300 100,400, 200,300" class="OFDL" style="stroke:black;stroke-width:3"/>
      <polygon points="100,400 200,300, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
 
      <!-- LFO stickers -->
      <polygon points="200,300 300,300, 300,400" style="fill:gray;stroke:black;stroke-width:3"/>
      <polygon points="200,300 300,400, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
      <polygon points="200,300 300,300, 300,200" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="200,300 300,200, 200,200" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,300 300,200, 200,200" class="LUFO2" style="stroke:black;stroke-width:3"/>
     <!-- LFI stickers -->
      <polygon points="300,200 400,200, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
      <polygon points="300,300 300,200, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
@@ -40,21 +40,38 @@
     <script>
         <!-- "orange","red","blue","green","purple","pink","yellow","white","gray" --> 
         <!--     0      1      2       3       4       5       6       7       8-->
+        <!-- [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO] -->
         puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
         const searchParams = new URLSearchParams(window.location.search);
 
-        var state = searchParams.get('state');
+        if (searchParams.has('state')) {
+            var state = searchParams.get('state');  
+        } else {
+            var state = "OWBP-OWBM-OWGP-OWGM-OYBP-OYBM-OYGP-OYGM-RWBM-RWBP-RWGM-RWGP-RYBM-RYBP-RYGM-RYGP"
+        }
+        
         var stickerstodo = state.split("-");
+        console.log(stickerstodo);
 
-        for (var i = 0;  stickerstodo.length > i; ++i) {
-            for (var k = 0; 4 > k; ++k) {
-                if (i < 8) {
+        function max (a,b) {
+            <!-- console.log(a);
+            console.log(b);
+            console.log(0.5*(a+b+(Math.sqrt((a-b)*(a-b))))); -->
+            return 0.5*(a+b+(Math.sqrt((a-b)*(a-b)))) == a;
+            <!-- return true if a is bigger -->
+        }
+
+        <!-- for (var i = 0;  stickerstodo.length > i; ++i) { -->
+        for (var i = 0;  Math.min(stickerstodo.length, i) - stickerstodo.length; i++) {
+            for (var k = 0; Math.min(4, k) - 4; k++) { <!-- was 4,k -->
+                if (Math.min(8, i) - 8) {
                     puzzleState[0][i%8][k] = convert(stickerstodo[i].charAt(k));
                 }
-                if (i > 7) {
+                if (Math.min(i, 7) - i) {
                     puzzleState[1][i%8][k] = convert(stickerstodo[i].charAt(k));
                 }
             }
+            console.log(puzzleState);
         }
 
         function convert(letter) {
@@ -71,7 +88,20 @@
         }
 
 
-        document.querySelector('.LUFO').style.fill = puzzleState[0][0][4];
+        
+        document.querySelector('.LUBO').style.fill = puzzleState[0][0][0];
+        document.querySelector('.OLUB').style.fill = puzzleState[0][0][3];
+
+        document.querySelector('.LUFO').style.fill = puzzleState[0][3][0];
+        document.querySelector('.LUFO2').style.fill = puzzleState[0][3][0];
+        document.querySelector('.OFUL').style.fill = puzzleState[0][3][3];
+
+        document.querySelector('.OLDB').style.fill = puzzleState[0][4][3];
+        document.querySelector('.LDBO').style.fill = puzzleState[0][4][0];
+
+        
+        document.querySelector('.OFDL').style.fill = puzzleState[0][7][3];
+        
      
 
     </script>
