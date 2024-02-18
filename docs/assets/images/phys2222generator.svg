@@ -1,5 +1,5 @@
 <svg version="1.1"
-     width="500" height="1500"
+     width="1500" height="603"
      xmlns="http://www.w3.org/2000/svg">
      
      <!-- LOB stickers -->
@@ -11,76 +11,92 @@
      <polygon points="100,200 200,200, 200,300" class="LUFO" style="stroke:black;stroke-width:3"/>
      <polygon points="100,300 100,200, 200,300" class="OFUL" style="stroke:black;stroke-width:3"/>
      <polygon points="100,300 100,400, 200,300" class="OFDL" style="stroke:black;stroke-width:3"/>
-     <polygon points="100,400 200,300, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="100,400 200,300, 200,400" class="LDFO" style="stroke:black;stroke-width:3"/>
 
-     <!-- LFO stickers -->
-     <polygon points="200,300 300,300, 300,400" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="200,300 300,400, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="200,300 300,300, 300,200" style="fill:gray;stroke:black;stroke-width:3"/>
+     <!-- FLO stickers -->
+     <polygon points="200,300 300,300, 300,400" class="FLDO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,300 300,400, 200,400" class="LDFO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,300 300,300, 300,200" class="FLUO" style="stroke:black;stroke-width:3"/>
      <polygon points="200,300 300,200, 200,200" class="LUFO2" style="stroke:black;stroke-width:3"/>
-    <!-- LFI stickers -->
-     <polygon points="300,200 400,200, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="300,300 300,200, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="300,300 300,400, 400,300" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="300,400 400,300, 400,400" style="fill:gray;stroke:black;stroke-width:3"/>
+    <!-- FLI stickers -->
+     <polygon points="300,200 400,200, 400,300" class="LUFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,300 300,200, 400,300" class="FULI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,300 300,400, 400,300" class="FDLI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,400 400,300, 400,400" class="LDFI" style="stroke:black;stroke-width:3"/>
 
 
      <!-- LDO stickers -->
-     <polygon points="200,500 300,500, 300,600" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="200,500 300,600, 200,600" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="200,500 300,500, 300,400" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="200,500 300,400, 200,400" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,500, 300,600" class="DLBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,600, 200,600" class="LDBO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,500, 300,400" class="DLFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,500 300,400, 200,400" class="LDFO3" style="stroke:black;stroke-width:3"/>
     <!-- LDI stickers -->
-     <polygon points="300,400 400,400, 400,500" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="300,500 300,400, 400,500" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="300,500 300,600, 400,500" style="fill:gray;stroke:black;stroke-width:3"/>
-     <polygon points="300,600 400,500, 400,600" style="fill:gray;stroke:black;stroke-width:3"/>
+     <polygon points="300,400 400,400, 400,500" class="LDFI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,500 300,400, 400,500" class="DLFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,500 300,600, 400,500" class="DLBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,600 400,500, 400,600" class="LDBI" style="stroke:black;stroke-width:3"/>
      
+     <!-- ILF stickers (slanted) -->
+     <polygon points="400,300 400,200, 450,150" class="LIFU" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,300 450,250, 450,150" class="ILFU" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,300 450,250, 450,350" class="ILFD" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,400 400,300, 450,350" class="LFID" style="stroke:black;stroke-width:3"/>
+     
+     <!-- ILB stickers (slanted) -->
+     <polygon points="500,200 450,250, 450,150" class="ILUB" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,200 500,100, 450,150" class="LUBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,200 450,350, 450,250" class="ILDB" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,200 450,350, 500,300" class="LDBI2" style="stroke:black;stroke-width:3"/>
   
+    <!-- ULO stickers (slanted) -->
+    <polygon points="250,150 300,200, 200,200" style="fill:gray;stroke:black;stroke-width:3"/>
+    <polygon points="250,150 300,200, 350,150" style="fill:gray;stroke:black;stroke-width:3"/>
+    <polygon points="250,150 400,100, 350,150" style="fill:gray;stroke:black;stroke-width:3"/>
+    <polygon points="250,150 400,100, 300,100" style="fill:gray;stroke:black;stroke-width:3"/>
+    
+
+
+
     <script>
-        <!-- "orange","red","blue","green","purple","pink","yellow","white","gray" --> 
-        <!--     0      1      2       3       4       5       6       7       8-->
-        <!-- [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO] -->
-        puzzleState = [[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]],[[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8],[8,8,8,8]]];
+    // <![CDATA[
+        // array piece order: [LUBO LUBI LUFI LUFO LDBO LDBI LDFI LDFO], [RUBI RUBO RUFO RUFI RDBI RDBO RDFI RDFO]
+        // solved piece order: [OWBP-OWBM-OWGM-OWGP-OYBP-OYBM-OYGM-OYGP-RWBM-RWBP-RWGM-RWGP-RYBM-RYBP-RYGM-RYGP]
+        puzzleState = [[["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"]],[["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"],["grey","grey","grey","grey"]]];
         const searchParams = new URLSearchParams(window.location.search);
 
+        // gets the puzzle state from the URL, or the solved state if the URL is plain
         if (searchParams.has('state')) {
             var state = searchParams.get('state');  
         } else {
-            var state = "OWBP-OWBM-OWGP-OWGM-OYBP-OYBM-OYGP-OYGM-RWBM-RWBP-RWGM-RWGP-RYBM-RYBP-RYGM-RYGP"
+            var state = "OWBP-OWBM-OWGM-OWGP-OYBP-OYBM-OYGM-OYGP-RWBM-RWBP-RWGM-RWGP-RYBM-RYBP-RYGM-RYGP"
         }
         
         var stickerstodo = state.split("-");
         console.log(stickerstodo);
 
-        function max (a,b) {
-            <!-- console.log(a);
-            console.log(b);
-            console.log(0.5*(a+b+(Math.sqrt((a-b)*(a-b))))); -->
-            return 0.5*(a+b+(Math.sqrt((a-b)*(a-b)))) == a;
-            <!-- return true if a is bigger -->
-        }
+        
 
-        <!-- for (var i = 0;  stickerstodo.length > i; ++i) { -->
-        for (var i = 0;  Math.min(stickerstodo.length, i) - stickerstodo.length; i++) {
-            for (var k = 0; Math.min(4, k) - 4; k++) { <!-- was 4,k -->
-                if (Math.min(8, i) - 8) {
+        for (var i = 0;  stickerstodo.length > i; i++) {
+            for (var k = 0; k < 4; k++) { 
+                if (i < 8) {
+                    //console.log(stickerstodo[i].charAt(k));
                     puzzleState[0][i%8][k] = convert(stickerstodo[i].charAt(k));
+                    
                 }
-                if (Math.min(i, 7) - i) {
+                if (i > 7) {
                     puzzleState[1][i%8][k] = convert(stickerstodo[i].charAt(k));
                 }
             }
-            console.log(puzzleState);
+            //console.log("puzzleState:"+puzzleState);
         }
 
         function convert(letter) {
             if (letter == "O") return "orange";
             if (letter == "R") return "red";
             if (letter == "B") return "blue";
-            if (letter == "G") return "blue";
-            if (letter == "M") return "magenta";
-            if (letter == "P") return "pink";
+            if (letter == "G") return "green";
+            if (letter == "M") return "purple";
+            if (letter == "P") return "magenta";
             if (letter == "Y") return "yellow";
             if (letter == "W") return "white";
             if (letter == "S") return "grey";
@@ -88,22 +104,75 @@
         }
 
 
-        
+        // LUBO
         document.querySelector('.LUBO').style.fill = puzzleState[0][0][0];
         document.querySelector('.OLUB').style.fill = puzzleState[0][0][3];
 
+        //LUBI
+        document.querySelector('.ILUB').style.fill = puzzleState[0][1][3];
+        document.querySelector('.LUBI').style.fill = puzzleState[0][1][0];
+
+        //LUFI
+        document.querySelector('.LUFI').style.fill = puzzleState[0][2][0];
+        document.querySelector('.FULI').style.fill = puzzleState[0][2][2];
+        document.querySelector('.LIFU').style.fill = puzzleState[0][2][0];
+        document.querySelector('.ILFU').style.fill = puzzleState[0][2][3];
+
+        // LUFO
         document.querySelector('.LUFO').style.fill = puzzleState[0][3][0];
         document.querySelector('.LUFO2').style.fill = puzzleState[0][3][0];
+        document.querySelector('.FLUO').style.fill = puzzleState[0][3][2];
         document.querySelector('.OFUL').style.fill = puzzleState[0][3][3];
 
+        //LDBO
         document.querySelector('.OLDB').style.fill = puzzleState[0][4][3];
         document.querySelector('.LDBO').style.fill = puzzleState[0][4][0];
+        document.querySelector('.LDBO2').style.fill = puzzleState[0][4][0];
+        document.querySelector('.DLBO').style.fill = puzzleState[0][4][1];
+
+        //LDBI
+        document.querySelector('.DLBI').style.fill = puzzleState[0][5][1];
+        document.querySelector('.LDBI').style.fill = puzzleState[0][5][0];
+        document.querySelector('.LDBI2').style.fill = puzzleState[0][5][0];
+        document.querySelector('.ILDB').style.fill = puzzleState[0][5][3];
+
+        //LDFI
+        document.querySelector('.FDLI').style.fill = puzzleState[0][6][2];
+        document.querySelector('.LDFI').style.fill = puzzleState[0][6][0];
+        document.querySelector('.LDFI2').style.fill = puzzleState[0][6][0];
+        document.querySelector('.LFID').style.fill = puzzleState[0][6][0];
+        document.querySelector('.DLFI').style.fill = puzzleState[0][6][1];
+        document.querySelector('.ILFD').style.fill = puzzleState[0][6][3];
+
+        //LDFO
+        document.querySelector('.LDFO').style.fill = puzzleState[0][7][0];
+        document.querySelector('.LDFO2').style.fill = puzzleState[0][7][0];
+        document.querySelector('.LDFO3').style.fill = puzzleState[0][7][0];
+        document.querySelector('.FLDO').style.fill = puzzleState[0][7][2];
+        document.querySelector('.OFDL').style.fill = puzzleState[0][7][3];
+        document.querySelector('.DLFO').style.fill = puzzleState[0][7][1];
+        
 
         
-        document.querySelector('.OFDL').style.fill = puzzleState[0][7][3];
+
+        
+
+        
+
+        
+        
+
+        
+
+        
+
+        
+        
+
+        
         
      
-
+    // ]]>
     </script>
 
 </svg>
