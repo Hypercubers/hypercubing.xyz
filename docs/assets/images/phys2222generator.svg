@@ -26,7 +26,7 @@
 
 
      <!-- LDO stickers -->
-     <polygon points="200,600 300,600, 300,700" class="DLBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,600 300,600, 300,700" class="DLBO test" style="stroke:black;stroke-width:3"/>
      <polygon points="200,600 300,700, 200,700" class="LDBO2" style="stroke:black;stroke-width:3"/>
      <polygon points="200,600 300,600, 300,500" class="DLFO" style="stroke:black;stroke-width:3"/>
      <polygon points="200,600 300,500, 200,500" class="LDFO3" style="stroke:black;stroke-width:3"/>
@@ -140,8 +140,17 @@
      <polygon points="600,200 600,100 700,100" class="BORU" style="stroke:black;stroke-width:3"/>
      <polygon points="600,200 700,200 700,100" class="ROBU" style="stroke:black;stroke-width:3"/>
 
-     
+     <!-- URI stickers (slanted) -->
+     <polygon points="500,200 600,200 550,250" class="RUBI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,200 550,250 650,250" class="URIB" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,300 550,250 600,300" class="RUFI3" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,300 550,250 650,250" class="URIF" style="stroke:black;stroke-width:3"/>
     
+    <!-- URO stickers (slanted) -->
+    <polygon points="600,200 700,200 750,250" class="RUBO2" style="stroke:black;stroke-width:3"/>
+    <polygon points="600,200 650,250 750,250" class="URBO" style="stroke:black;stroke-width:3"/>
+    <polygon points="650,250 750,250 700,300" class="URFO" style="stroke:black;stroke-width:3"/>
+    <polygon points="700,300 800,300 750,250" class="RUFO3" style="stroke:black;stroke-width:3"/>
 
 
     <script>
@@ -268,15 +277,19 @@
 
         //RUBI
         document.querySelector('.RUBI').style.fill = puzzleState[1][0][0];
+        document.querySelector('.RUBI2').style.fill = puzzleState[1][0][0];
         document.querySelector('.IRUB').style.fill = puzzleState[1][0][3];
         document.querySelector('.BIRU').style.fill = puzzleState[1][0][2];
         document.querySelector('.RIBU').style.fill = puzzleState[1][0][0];
+        document.querySelector('.URIB').style.fill = puzzleState[1][0][1];
 
         //RUBO
         document.querySelector('.ORUB').style.fill = puzzleState[1][1][3];
         document.querySelector('.RUBO').style.fill = puzzleState[1][1][0];
+        document.querySelector('.RUBO2').style.fill = puzzleState[1][1][0];
         document.querySelector('.BORU').style.fill = puzzleState[1][1][2];
         document.querySelector('.ROBU').style.fill = puzzleState[1][1][0];
+        document.querySelector('.URBO').style.fill = puzzleState[1][1][1];
 
         //RDBI
         document.querySelector('.RDBI').style.fill = puzzleState[1][4][0];
@@ -290,13 +303,17 @@
         document.querySelector('.IRUF').style.fill = puzzleState[1][3][3];
         document.querySelector('.RUFI').style.fill = puzzleState[1][3][0];
         document.querySelector('.RUFI2').style.fill = puzzleState[1][3][0];
+        document.querySelector('.RUFI3').style.fill = puzzleState[1][3][0];
         document.querySelector('.FURI').style.fill = puzzleState[1][3][2];
+        document.querySelector('.URIF').style.fill = puzzleState[1][3][1];
 
         //RUFO
         document.querySelector('.RUFO').style.fill = puzzleState[1][2][0];
         document.querySelector('.RUFO2').style.fill = puzzleState[1][2][0];
+        document.querySelector('.RUFO3').style.fill = puzzleState[1][2][0];
         document.querySelector('.FURO').style.fill = puzzleState[1][2][2];
         document.querySelector('.ORUF').style.fill = puzzleState[1][2][3];
+        document.querySelector('.URFO').style.fill = puzzleState[1][2][1];
 
         //RDFI
         document.querySelector('.IRDF').style.fill = puzzleState[1][6][3];
@@ -321,6 +338,8 @@
         document.querySelector('.DBRO').style.fill = puzzleState[1][5][1];
         document.querySelector('.ORDB').style.fill = puzzleState[1][5][3];
         document.querySelector('.BORD').style.fill = puzzleState[1][5][2];
+
+        //document.querySelector('.test').style['stroke-width'] = 10;
 
 
         
