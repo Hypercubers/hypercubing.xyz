@@ -1,76 +1,77 @@
 <svg version="1.1"
+     viewbox="-3,-3, 1003, 7003"
      width="1000" height="703"
      xmlns="http://www.w3.org/2000/svg">
      
      <!-- LOB stickers --> 
-     <polygon points="0,400 100,400, 100,500" class="OLDB" style="stroke:black;stroke-width:3"/>
-     <polygon points="0,400 100,500, 0,500" class="LDBO" style="stroke:black;stroke-width:3"/>
-     <polygon points="0,400 100,400, 100,300" class="OLUB" style="stroke:black;stroke-width:3"/>
-     <polygon points="0,400 100,300, 0,300" class="LUBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,400 100,400, 100,500" class="all OLDB" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,400 100,500, 0,500" class="all LDBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,400 100,400, 100,300" class="all OLUB" style="stroke:black;stroke-width:3"/>
+     <polygon points="0,400 100,300, 0,300" class="all LUBO" style="stroke:black;stroke-width:3"/>
      <!-- LOF stickers -->
-     <polygon points="100,300 200,300, 200,400" class="LUFO" style="stroke:black;stroke-width:3"/>
-     <polygon points="100,400 100,300, 200,400" class="OFUL" style="stroke:black;stroke-width:3"/>
-     <polygon points="100,400 100,500, 200,400" class="OFDL" style="stroke:black;stroke-width:3"/>
-     <polygon points="100,500 200,400, 200,500" class="LDFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="100,300 200,300, 200,400" class="all LUFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="100,400 100,300, 200,400" class="all OFUL" style="stroke:black;stroke-width:3"/>
+     <polygon points="100,400 100,500, 200,400" class="all OFDL" style="stroke:black;stroke-width:3"/>
+     <polygon points="100,500 200,400, 200,500" class="all LDFO" style="stroke:black;stroke-width:3"/>
 
      <!-- FLO stickers -->
-     <polygon points="200,400 300,400, 300,500" class="FLDO" style="stroke:black;stroke-width:3"/>
-     <polygon points="200,400 300,500, 200,500" class="LDFO2" style="stroke:black;stroke-width:3"/>
-     <polygon points="200,400 300,400, 300,300" class="FLUO" style="stroke:black;stroke-width:3"/>
-     <polygon points="200,400 300,300, 200,300" class="LUFO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,400 300,400, 300,500" class="all FLDO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,400 300,500, 200,500" class="all LDFO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,400 300,400, 300,300" class="all FLUO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,400 300,300, 200,300" class="all LUFO2" style="stroke:black;stroke-width:3"/>
      <!-- FLI stickers -->
-     <polygon points="300,300 400,300, 400,400" class="LUFI" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,400 300,300, 400,400" class="FULI" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,400 300,500, 400,400" class="FDLI" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,500 400,400, 400,500" class="LDFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,300 400,300, 400,400" class="all LUFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,400 300,300, 400,400" class="all FULI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,400 300,500, 400,400" class="all FDLI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,500 400,400, 400,500" class="all LDFI" style="stroke:black;stroke-width:3"/>
 
 
      <!-- LDO stickers -->
-     <polygon points="200,600 300,600, 300,700" class="DLBO test" style="stroke:black;stroke-width:3"/>
-     <polygon points="200,600 300,700, 200,700" class="LDBO2" style="stroke:black;stroke-width:3"/>
-     <polygon points="200,600 300,600, 300,500" class="DLFO" style="stroke:black;stroke-width:3"/>
-     <polygon points="200,600 300,500, 200,500" class="LDFO3" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,600 300,600, 300,700" class="all DLBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,600 300,700, 200,700" class="all LDBO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,600 300,600, 300,500" class="all DLFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="200,600 300,500, 200,500" class="all LDFO3" style="stroke:black;stroke-width:3"/>
      <!-- LDI stickers -->
-     <polygon points="300,500 400,500, 400,600" class="LDFI2" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,600 300,500, 400,600" class="DLFI" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,600 300,700, 400,600" class="DLBI" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,700 400,600, 400,700" class="LDBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,500 400,500, 400,600" class="all LDFI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,600 300,500, 400,600" class="all DLFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,600 300,700, 400,600" class="all DLBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,700 400,600, 400,700" class="all LDBI" style="stroke:black;stroke-width:3"/>
      
      <!-- ILF stickers (slanted) -->
-     <polygon points="400,400 400,300, 450,250" class="LIFU" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,400 450,350, 450,250" class="ILFU" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,400 450,350, 450,450" class="ILFD" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,500 400,400, 450,450" class="LFID" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,400 400,300, 450,250" class="all LIFU" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,400 450,350, 450,250" class="all ILFU" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,400 450,350, 450,450" class="all ILFD" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,500 400,400, 450,450" class="all LFID" style="stroke:black;stroke-width:3"/>
      
      <!-- ILB stickers (slanted) -->
-     <polygon points="500,300 450,350, 450,250" class="ILUB" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,300 500,200, 450,250" class="LUBI" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,300 450,450, 450,350" class="ILDB" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,300 450,450, 500,400" class="LDBI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 450,350, 450,250" class="all ILUB" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 500,200, 450,250" class="all LUBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 450,450, 450,350" class="all ILDB" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 450,450, 500,400" class="all LDBI2" style="stroke:black;stroke-width:3"/>
   
      <!-- ULO stickers (slanted) -->
-     <polygon points="250,250 300,300, 200,300" class="LUFO3" style="stroke:black;stroke-width:3"/>
-     <polygon points="250,250 300,300, 350,250" class="UFOL" style="stroke:black;stroke-width:3"/>
-     <polygon points="250,250 400,200, 350,250" class="UBOL" style="stroke:black;stroke-width:3"/>
-     <polygon points="250,250 400,200, 300,200" class="LUBO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="250,250 300,300, 200,300" class="all LUFO3" style="stroke:black;stroke-width:3"/>
+     <polygon points="250,250 300,300, 350,250" class="all UFOL" style="stroke:black;stroke-width:3"/>
+     <polygon points="250,250 400,200, 350,250" class="all UBOL" style="stroke:black;stroke-width:3"/>
+     <polygon points="250,250 400,200, 300,200" class="all LUBO2" style="stroke:black;stroke-width:3"/>
     
      <!-- ULI stickers (slanted) -->
-     <polygon points="300,300 400,300 450,250"  class="LUFI2" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,300 350,250 450,250"  class="ULFI" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,200 350,250 450,250"  class="ULBI" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,200 500,200 450,250"  class="LUBI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,300 400,300 450,250"  class="all LUFI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,300 350,250 450,250"  class="all ULFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,200 350,250 450,250"  class="all ULBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,200 500,200 450,250"  class="all LUBI2" style="stroke:black;stroke-width:3"/>
 
      <!-- BLO stickers -->
-     <polygon points="300,100 400,100, 400,200"  class="BLUO" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,100 400,200, 300,200"  class="LUBO3" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,100 400,100, 400,0"    class="BLDO" style="stroke:black;stroke-width:3"/>
-     <polygon points="300,100 400,0,   300,0"    class="LDBO3" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,100 400,100, 400,200"  class="all BLUO" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,100 400,200, 300,200"  class="all LUBO3" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,100 400,100, 400,0"    class="all BLDO" style="stroke:black;stroke-width:3"/>
+     <polygon points="300,100 400,0,   300,0"    class="all LDBO3" style="stroke:black;stroke-width:3"/>
      
      <!-- BLI stickers-->
-     <polygon points="400,0 500,0, 500,100"      class="LDBI3" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,100 400,0, 500,100"    class="BLDI" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,100 400,200, 500,100"  class="BLUI" style="stroke:black;stroke-width:3"/>
-     <polygon points="400,200 500,100, 500,200"  class="LUBI3" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,0 500,0, 500,100"      class="all LDBI3" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,100 400,0, 500,100"    class="all BLDI" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,100 400,200, 500,100"  class="all BLUI" style="stroke:black;stroke-width:3"/>
+     <polygon points="400,200 500,100, 500,200"  class="all LUBI3" style="stroke:black;stroke-width:3"/>
 
 
 
@@ -81,76 +82,76 @@
 
 
      <!-- RIB stickers -->
-     <polygon points="500,300 500,200 550,250" class="RUBI" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,300 550,350 550,250" class="IRUB" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,300 550,450 500,400" class="RDBI" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,300 550,450 550,350" class="IRDB" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 500,200 550,250" class="all RUBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 550,350 550,250" class="all IRUB" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 550,450 500,400" class="all RDBI" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,300 550,450 550,350" class="all IRDB" style="stroke:black;stroke-width:3"/>
 
      <!-- RIF stickers -->
-     <polygon points="600,400 550,350 550,250"  class="IRUF" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,400 600 300 550 250"  class="RUFI" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,400 550,450 550,350"  class="IRDF" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,500 550,450 600,400"  class="RDFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,400 550,350 550,250"  class="all IRUF" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,400 600 300 550 250"  class="all RUFI" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,400 550,450 550,350"  class="all IRDF" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,500 550,450 600,400"  class="all RDFI" style="stroke:black;stroke-width:3"/>
 
      <!-- RFI stickers -->
-     <polygon points="600,300 600,400 700,300" class="RUFI2" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,400 600,400 700,300" class="FURI" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,400 600,400 700,500" class="FDRI" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,500 600,400 700,500" class="RDFI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,300 600,400 700,300" class="all RUFI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,400 600,400 700,300" class="all FURI" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,400 600,400 700,500" class="all FDRI" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,500 600,400 700,500" class="all RDFI2" style="stroke:black;stroke-width:3"/>
 
      <!-- RFO stickers -->
-     <polygon points="700,300 700,400 800,400" class="FURO" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,300 800,300 800,400" class="RUFO" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,500 700,400 800,400" class="FDRO" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,500 800,500 800,400" class="RDFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,300 700,400 800,400" class="all FURO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,300 800,300 800,400" class="all RUFO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,500 700,400 800,400" class="all FDRO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,500 800,500 800,400" class="all RDFO" style="stroke:black;stroke-width:3"/>
 
      <!-- DFI stickers -->
-     <polygon points="600,500 600,600 700,500"  class="RDFI3" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,600 600,600 700,500"  class="DFRI" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,600 600,600 700,700"  class="DBRI" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,700 600,600 700,700"  class="RDBI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,500 600,600 700,500"  class="all RDFI3" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,600 600,600 700,500"  class="all DFRI" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,600 600,600 700,700"  class="all DBRI" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,700 600,600 700,700"  class="all RDBI2" style="stroke:black;stroke-width:3"/>
 
      <!-- DFO stickers -->
-     <polygon points="700,500 700,600 800,600"  class="DFRO" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,500 800,500 800,600"  class="RDFO2" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,700 700,600 800,600"  class="DBRO" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,700 800,700 800,600"  class="RDBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,500 700,600 800,600"  class="all DFRO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,500 800,500 800,600"  class="all RDFO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,700 700,600 800,600"  class="all DBRO" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,700 800,700 800,600"  class="all RDBO" style="stroke:black;stroke-width:3"/>
 
      <!-- ROF stickers -->
-     <polygon points="800,300 800,400 900,300" class="RUFO2" style="stroke:black;stroke-width:3"/>
-     <polygon points="900,400 800,400 900,300" class="ORUF" style="stroke:black;stroke-width:3"/>
-     <polygon points="900,400 800,400 900,500" class="ORDF" style="stroke:black;stroke-width:3"/>
-     <polygon points="800,500 800,400 900,500" class="RDFO3" style="stroke:black;stroke-width:3"/>
+     <polygon points="800,300 800,400 900,300" class="all RUFO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="900,400 800,400 900,300" class="all ORUF" style="stroke:black;stroke-width:3"/>
+     <polygon points="900,400 800,400 900,500" class="all ORDF" style="stroke:black;stroke-width:3"/>
+     <polygon points="800,500 800,400 900,500" class="all RDFO3" style="stroke:black;stroke-width:3"/>
 
      <!-- ROB stickers -->
-     <polygon points="900,300 900,400 1000,400"  class="ORUB" style="stroke:black;stroke-width:3"/>
-     <polygon points="900,300 1000,300 1000,400" class="RUBO" style="stroke:black;stroke-width:3"/>
-     <polygon points="900,500 900,400 1000,400"  class="ORDB" style=";stroke:black;stroke-width:3"/>
-     <polygon points="900,500 1000,500 1000,400" class="RDBO2" style="stroke:black;stroke-width:3"/>
+     <polygon points="900,300 900,400 1000,400"  class="all ORUB" style="stroke:black;stroke-width:3"/>
+     <polygon points="900,300 1000,300 1000,400" class="all RUBO" style="stroke:black;stroke-width:3"/>
+     <polygon points="900,500 900,400 1000,400"  class="all ORDB" style=";stroke:black;stroke-width:3"/>
+     <polygon points="900,500 1000,500 1000,400" class="all RDBO2" style="stroke:black;stroke-width:3"/>
 
      <!-- BRI stickers -->
-     <polygon points="500,0 500,100 600,0"     class="RIBD" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,100 500,100 600,0"   class="BIRD" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,100 500,100 600,200" class="BIRU" style="stroke:black;stroke-width:3"/>
-     <polygon points="500,200 500,100 600,200" class="RIBU" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,0 500,100 600,0"     class="all RIBD" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,100 500,100 600,0"   class="all BIRD" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,100 500,100 600,200" class="all BIRU" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,200 500,100 600,200" class="all RIBU" style="stroke:black;stroke-width:3"/>
 
      <!-- BRO stickers -->
-     <polygon points="600,0 600,100 700,100"   class="BORD" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,0 700,0 700,100"     class="ROBD" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,200 600,100 700,100" class="BORU" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,200 700,200 700,100" class="ROBU" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,0 600,100 700,100"   class="all BORD" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,0 700,0 700,100"     class="all ROBD" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,200 600,100 700,100" class="all BORU" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,200 700,200 700,100" class="all ROBU" style="stroke:black;stroke-width:3"/>
 
      <!-- URI stickers (slanted) -->
-     <polygon points="500,200 600,200 550,250" class="RUBI2" style="stroke:black;stroke-width:3"/>
-     <polygon points="600,200 550,250 650,250" class="URIB" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,300 550,250 600,300" class="RUFI3" style="stroke:black;stroke-width:3"/>
-     <polygon points="700,300 550,250 650,250" class="URIF" style="stroke:black;stroke-width:3"/>
+     <polygon points="500,200 600,200 550,250" class="all RUBI2" style="stroke:black;stroke-width:3"/>
+     <polygon points="600,200 550,250 650,250" class="all URIB" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,300 550,250 600,300" class="all RUFI3" style="stroke:black;stroke-width:3"/>
+     <polygon points="700,300 550,250 650,250" class="all URIF" style="stroke:black;stroke-width:3"/>
     
     <!-- URO stickers (slanted) -->
-    <polygon points="600,200 700,200 750,250" class="RUBO2" style="stroke:black;stroke-width:3"/>
-    <polygon points="600,200 650,250 750,250" class="URBO" style="stroke:black;stroke-width:3"/>
-    <polygon points="650,250 750,250 700,300" class="URFO" style="stroke:black;stroke-width:3"/>
-    <polygon points="700,300 800,300 750,250" class="RUFO3" style="stroke:black;stroke-width:3"/>
+    <polygon points="600,200 700,200 750,250" class="all RUBO2" style="stroke:black;stroke-width:3"/>
+    <polygon points="600,200 650,250 750,250" class="all URBO" style="stroke:black;stroke-width:3"/>
+    <polygon points="650,250 750,250 700,300" class="all URFO" style="stroke:black;stroke-width:3"/>
+    <polygon points="700,300 800,300 750,250" class="all RUFO3" style="stroke:black"/>
 
 
     <script>
@@ -339,7 +340,33 @@
         document.querySelector('.ORDB').style.fill = puzzleState[1][5][3];
         document.querySelector('.BORD').style.fill = puzzleState[1][5][2];
 
-        //document.querySelector('.test').style['stroke-width'] = 10;
+
+
+
+
+
+
+        // additional customisation:
+
+
+        var outlineWidth = 3;
+        if (searchParams.has('outlineWidth')) {
+            var outlineWidth = searchParams.get('outlineWidth');  
+        }
+        var outlineColor = "black";
+        if (searchParams.has('outlineColor')) {
+            var outlineColor = searchParams.get('outlineColor');  
+        }
+
+
+
+        const allList = document.querySelectorAll('.all');
+        for (var m = 0; m < allList.length; m++) {
+            allList[m].style['stroke-width'] = outlineWidth;
+            allList[m].style['stroke-linejoin'] = "bevel";
+            allList[m].style['stroke'] = outlineColor;
+        };
+       
 
 
         
