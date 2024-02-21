@@ -12,9 +12,8 @@ Grant's OBC Method uses only 3 gyros, making it much faster than Rowan's OBC Met
 
 Before starting the solve, inspect the puzzle for an opposite colour pair that you can easily get *exactly* 8 stickers from that pair to be on the y-axis. They can be in any spot, as long as they are pointing up or down.
 
-<center>![Exactly 8 4c oriented to y-axis](/assets/images/Grant8UD.png){width="50%"}
+<object alt="Exactly 8 4c oriented to y-axis" data="https://hypercubing.xyz/assets/images/phys2222generator.svg?state=-SO----SR-SO--SR-SO-SO--SR--SR" height="300"></object>
 
-<small> Exactly 8 4c oriented to y-axis </small> </center>
 
 ### Getting 8 Oriented to Y-axis, then gyro
 
@@ -24,9 +23,7 @@ This is done in just a few simple moves, and should be fully planned during insp
 
 Now that 8 corners have been oriented, you can do any moves (besides a gyro), and not affect their orientation. Pair up the remaining 8 so that they are all on the same cell, and oriented to the y-axis.
 
-<center>![8 to y 2x2x2x2](/assets/images/Grant8L8R.png){width="50%"}
-
-<small> One cell oriented on x-axis, the other on y-axis </small> </center>
+<object alt="One cell oriented on x-axis, the other on y-axis" data="https://hypercubing.xyz/assets/images/phys2222generator.svg?state=O-O-O-R-R-R-O-R-SO-SR-SO-SO-SR-SR-SR-SO" height="300"></object>
 
 ### Finish orientation
 
