@@ -11,10 +11,10 @@
 ## Summary
 
 1. **Cross** — Build a cross by solving six 2c pieces on the O or D cell
-2. **F2L-a** — Join 2c+3c pairs together and insert them into the first two layers
-3. **F2L-b** — Join 3c+4c pairs together and insert them into the first two layers
-4. **OLC** — Orient LC 2c, 3c, and 4c pieces using 3D EOLL and OCLL
-5. **PLC** — Permute LC 2c pieces of the LL using EPLL, then solve 3c and 4c like a 3^3^ using RKT
+2. **F2L-a** — Join 12 2c+3c pairs together and insert them into the first two layers
+3. **F2L-b** — Join 8 3c+4c pairs together and insert them into the first two layers
+4. **OLL-4** — Orient LC 2c, 3c, and 4c pieces using 3D EOLL and OCLL
+5. **PLL-4** — Permute 2c pieces of the LL using EPLL, then solve the rest like a 3^3^
 
 ## Steps
 
@@ -43,40 +43,40 @@ Find its respective 4C piece.
 
 Repeat for all 8 3c4c pairs of F2L-b.
 
-### OLC
+### OLL-4
 
-#### 2c OLC
+#### 2c OLL-4
 
 Use EOLL algorithms from 2-look OLL to orient the 2C pieces. This can always be done in 2 EOLL algorithms (or less).
 
-#### 3c OLC
+#### 3c OLL-4
 
 Use RKT to set up the slice layers of the Last Cell into configurations that look like possible OCLL cases. Then use the OCLL algorithms to solve that case. This can always be done in 3 OCLL algorithms (or less)
 
 !!! warning "3c monotwist"
     It's possible to have just 1 3c piece twisted in place. To avoid this, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have 5 left, you can't set it up into an H OCLL case, because that will solve 4/5, leaving you with 1 left. Instead, you can set it up into a Sune case, which would then leave you with 2 (which you can solve using a T or U case OCLL algorithm).
 
-#### 4c OLC
+#### 4c OLL-4
 
 Use RKT on the Last Cell to set up the 4c pieces into possible OCLL cases. Rotate the Last Cell to U, such that your OCLL case is in the IU plane, then execute that algorithm **with RKT**.
 
 !!! warning "4c monoflip"
     It's possible to have just 1 4c piece flipped in place. To avoid this, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have 5 left, you can't set it up into an H OCLL case, because that will solve 4/5, leaving you with 1 left. Instead, you can set it up into a Sune case, which would then leave you with 2 (which you can solve using a T or U case OCLL algorithm).
 
-### PLC
+### PLL-4
 
-#### 2c PLC
+#### 2c PLL-4
 
 Match as many 2c pieces as possible (ideally, you get 2 solved that are opposite of each other). Then use EPLL algorithms to permute the rest of them. If you don't have 2 that are opposite of each other, you can do an initial U perm to solve 2 opposite.
 
 There are also fancy new 3-cycle algorithms for a 4D "adjacent U-perms" in both directions. (Cycles the 2cs around a corner)
 
-#### RKT PLC
+#### PLL-3
 
-From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a First Block. Finding 4 cross pieces is pretty easy inspectionless.
+From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a Roux First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
     If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/techniques/rkt) for algorithms.
 
 !!! tip "RKT parity avoidance"
-    You can avoid RKT parity every single time by using 2-look PLL (if you solve RKTPLC using CFOP [2-look CMLL if you solve with Roux]). When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, you can use an EPLL alg without worrying about whether you'll get RKT parity or not.
+    You can avoid RKT parity by using 2-look PLL. When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, just solve the 3c with EPLL algorithms.

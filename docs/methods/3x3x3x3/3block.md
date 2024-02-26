@@ -226,8 +226,8 @@
 2. **Middle Block** — Solve 4 2c3c pairs betwen the 4 cross pieces
 3. **Left Block** — Blockbuild or pair pieces to solve the Left Cell
 4. **Right Block** — Blockbuild or pair pieces to solve the Right Cell
-5. **OLC** - Orient LC 2c, 3c, and 4c pieces using 3D algorithms
-6. **PLC** - Permute LC 2c, 3c, and 4c pieces using 3D techniques
+5. **OLL-4** - Orient LC 2c, 3c, and 4c pieces using 3D algorithms
+6. **PLL-4** - Permute LC 2c, 3c, and 4c pieces using 3D techniques
 
 ## Steps
 
@@ -258,9 +258,9 @@ Solve the Right cell. This is also done by breaking it up into the 3 blocks, exc
 
 <center>![y](/assets/images/RB_transparent.png){width="50%"}</center>
 
-### Last Cell
+### Last Layer
 
-This is done in the exact same way as [CFOP](/methods/3x3x3x3/cfop/#OLC).
+This is done in the exact same way as [CFOP](/methods/3x3x3x3/cfop/#oll-4).
 
 ## Big cubes
 
