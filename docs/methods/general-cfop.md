@@ -83,7 +83,7 @@
         }
         else {
             pll_text = pll_text + "First, permute the " + ((pieces[dim][1])-2) + " 2c pieces using EPLL algorithms.<br>";
-            pll_text = pll_text + "Next, use RKT to permute the rest of the puzzle like a " + (dim-1) + "-dimensional cube.";
+            pll_text = pll_text + "Next, use RKT to permute the rest of the puzzle like a 3<sup>" + (dim-1) + "</sup>.";
         }
         
         document.getElementById("pll_text").innerHTML = pll_text;
