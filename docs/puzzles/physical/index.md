@@ -19,8 +19,10 @@ For a documentary about the history of physical puzzles as of December 2022, see
 - Grant's 1x1x1x1
 - [Grant's 3x3x3x3](/puzzles/physical/3x3x3x3)
 - [Dominik's 4D Pyraminx](/puzzles/physical/4d-pyraminx)
-- [Tymon's 2x2x2x1](/puzzles/physical/2x2x2x1)
-    - Tymon's 2x2x3x1, 2x3x3x1, and 3x3x3x1
+- [Tymon's 2x2x2x1](/puzzles/physical/1x2x2x2)
+- [Tymon's 3x2x2x1](/puzzles/physical/1x2x2x3)
+- [Tymon's 3x3x2x1](/puzzles/physical/1x2x3x3)
+- [Tymon's 3x3x3x1](/puzzles/physical/1x3x3x3)
 
 ## Designs that haven't been built yet
 
