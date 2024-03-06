@@ -54,6 +54,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 
 ## Recommended cubing-adjacent puzzle software
 
+- [k-Card Game](https://masonhorne.github.io/k-Card-Game/)
 - [Loopover](https://loopover.xyz/)
   - [Complex loopover](https://milojacquet.com/loopover/complex)
 - [Slidysim](https://www.slidysim.com/)
