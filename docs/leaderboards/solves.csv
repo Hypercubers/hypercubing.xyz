@@ -290,31 +290,31 @@ date,       link,                  time, program,   solver,             puzzle
 2023-08-22, x-aMzC9gHqQ,      4m 33.15s, HSC,       tymofro,            3x3x3x3
 2023-08-30, uZpmCn9iGJE?t=1h13m30s, 2h 51m 54s, HSC, hactar,            6x6x6x6
 2023-09-17, RJ7e1_PxeW0,       1m 26.10s, -,        tymofro,            phys_2x2x2x2
-2023-09-20, D7sZl_bAtMU,       4m 54.39s, HSC,         edan,            3x3x3x3
-2023-09-23, rTgxBHHt0Ak,          26.49s, HSC,         adam,            2x2x2x2
+2023-09-20, D7sZl_bAtMU,       4m 54.39s, HSC,      edan,               3x3x3x3
+2023-09-23, rTgxBHHt0Ak,          26.49s, HSC,      adam,               2x2x2x2
 2023-10-01, evhr87J66zo,   1h 27m 10.78s, HSC,      tymofro,            5x5x5x5
 2023-10-08, IZlEa0YBTBA,       2m 56.98s, -,        tymofro,            phys_2x2x2x2_oh
-2023-10-12, 71EeEOsXyVo,       3m 53.23s, HSC,         edan,            3x3x3x3
-2023-10-25, T1MVA03HSBw,       9m 52.04s, HSC,     myigiter,            3x3x3x3_ao5
-2023-10-25, T1MVA03HSBw?t=1346s, 9m 32.68s, HSC,   myigiter,            3x3x3x3
-2023-10-29, Pu-wDjYdz5U,       9m 54.04s, HSC,    battistin,            3x3x3x3
-2023-10-31, _nGfPD-YGnk,       8m 38.99s, HSC,    battistin,            3x3x3x3
-2023-11-02, kzRoWZc2j9Q,       8m 18.63s, HSC,    battistin,            3x3x3x3
-2023-11-04, hNWsKQmArkM,       7m 54.79s, HSC,    battistin,            3x3x3x3
-2023-11-04, gOdrzT-7MAk,       1m 19.64s, MPU,    tymofro,              1x3x3x3
-2023-11-05, l-wY_SiH2Og,       7m 24.84s, HSC,    battistin,            3x3x3x3
-2023-11-06, bs6oIkKCQeE,       6m 19.69s, HSC,    battistin,            3x3x3x3
-2023-11-10, 2YDTJ6pPwi0,       1m 06.71s, MPU,    tymofro,              1x3x3x3
-2023-11-07, lvTLmdc1YQM,       1m 19.68s, -,      tymofro,              phys_2x2x2x2
-2023-11-11, q3nDUfcsmAk,          57.46s, MPU,    tymofro,              1x3x3x3
-2023-11-10, ZIgGori6nFM,      59m 55.81s, HSC,    battistin,            4x4x4x4
-2024-01-21, UrGPHa6K4Kk,       1m 31.46s, HSC,    danielcohen,          phys_2x2x2x2
-2024-01-22, NzdnhFx4fuc,       4m 02.37s, HSC,    rowan,                3x3x3x3
-2024-01-24, aNKQOBKEPUM,       3m 55.65s, HSC,    rowan,                3x3x3x3
-2024-01-25, RkuC2oPCKdE,       4m 08.70s, HSC,    tymofro,              3x3x3x3
-2024-01-27, _UzbQ9PNDz8,      14m 39.68s, HSC,    ethandavis,           3x3x3x3
-2024-01-28, MqDiqdas_0I,       3m 45.38s, HSC,    rowan,                3x3x3x3
-2024-01-30, Cc89UGu-ha4,       8m 31.14s, HSC,    pkearth,              3x3x3x3
-2024-02-12, GqGpEgfqIRk,       3m 53.45s, HSC,    tymofro,              3x3x3x3
-2024-02-13, u-gcnW_ZQmU,       3m 22.80s, HSC,    edan,                 3x3x3x3
-2024-03-06, 6Tez6T6YJqE,       1m 47.69s, MT,     milojacquet,          Hemimegaminx
+2023-10-12, 71EeEOsXyVo,       3m 53.23s, HSC,      edan,               3x3x3x3
+2023-10-25, T1MVA03HSBw,       9m 52.04s, HSC,      myigiter,           3x3x3x3_ao5
+2023-10-25, T1MVA03HSBw?t=1346s, 9m 32.68s, HSC,    myigiter,           3x3x3x3
+2023-10-29, Pu-wDjYdz5U,       9m 54.04s, HSC,      battistin,          3x3x3x3
+2023-10-31, _nGfPD-YGnk,       8m 38.99s, HSC,      battistin,          3x3x3x3
+2023-11-02, kzRoWZc2j9Q,       8m 18.63s, HSC,      battistin,          3x3x3x3
+2023-11-04, hNWsKQmArkM,       7m 54.79s, HSC,      battistin,          3x3x3x3
+2023-11-04, gOdrzT-7MAk,       1m 19.64s, MPU,      tymofro,            1x3x3x3
+2023-11-05, l-wY_SiH2Og,       7m 24.84s, HSC,      battistin,          3x3x3x3
+2023-11-06, bs6oIkKCQeE,       6m 19.69s, HSC,      battistin,          3x3x3x3
+2023-11-10, 2YDTJ6pPwi0,       1m 06.71s, MPU,      tymofro,            1x3x3x3
+2023-11-07, lvTLmdc1YQM,       1m 19.68s, -,        tymofro,            phys_2x2x2x2
+2023-11-11, q3nDUfcsmAk,          57.46s, MPU,      tymofro,            1x3x3x3
+2023-11-10, ZIgGori6nFM,      59m 55.81s, HSC,      battistin,          4x4x4x4
+2024-01-21, UrGPHa6K4Kk,       1m 31.46s, HSC,      danielcohen,        phys_2x2x2x2
+2024-01-22, NzdnhFx4fuc,       4m 02.37s, HSC,      rowan,              3x3x3x3
+2024-01-24, aNKQOBKEPUM,       3m 55.65s, HSC,      rowan,              3x3x3x3
+2024-01-25, RkuC2oPCKdE,       4m 08.70s, HSC,      tymofro,            3x3x3x3
+2024-01-27, _UzbQ9PNDz8,      14m 39.68s, HSC,      ethandavis,         3x3x3x3
+2024-01-28, MqDiqdas_0I,       3m 45.38s, HSC,      rowan,              3x3x3x3
+2024-01-30, Cc89UGu-ha4,       8m 31.14s, HSC,      pkearth,            3x3x3x3
+2024-02-12, GqGpEgfqIRk,       3m 53.45s, HSC,      tymofro,            3x3x3x3
+2024-02-13, u-gcnW_ZQmU,       3m 22.80s, HSC,      edan,               3x3x3x3
+2024-03-06, 6Tez6T6YJqE,       1m 47.69s, MT,       milojacquet,        Hemimegaminx
