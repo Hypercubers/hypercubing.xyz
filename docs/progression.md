@@ -31,7 +31,6 @@ There are many types of 4D puzzles, not just the hypercubes. These include hyper
 ```mermaid
 flowchart LR
     Hypercuboids --> Duoprisms --> Polytopes
-    
 
     subgraph Polytopes
     direction LR
@@ -51,13 +50,12 @@ flowchart LR
 
     subgraph Hypercuboids
     direction LR
-    D[3x3x3x1]
-    E[3x3x3x2]
+    D[1x3x3x3]
+    E[2x3x3x3]
     F[2x2x2x3]
     G[2x2x3x3]
     end
 
-    
 ```
 
 ## Non-Euclidean Puzzles

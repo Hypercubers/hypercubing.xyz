@@ -2,7 +2,7 @@
 
 !!! info inline end "Melinda's 2x2x2x2"
     ![Melinda's 2x2x2x2](/assets/images/2_4_transparent.png)
-    
+
     **4D Shape:** Tesseract
 
     **Physical Shape:** Rectangular prism
@@ -43,12 +43,11 @@ Because of all this recognition, many new people bought the puzzle, but it was s
 !!! example "Animations showing how the virtual and physical 2^4^ transform into each other"
     <center>
     ![physical to virtual 2x2x2x2 transformation 1](/assets/images/2222Phys_Virt.gif){width="40%"}
-    ![physical to virtual 2x2x2x2 transformatio 2](/assets/images/wip_physical_virtual_24_animation_v2.gif){width="40%"} </center>
+    ![physical to virtual 2x2x2x2 transformatio 2](/assets/images/wip_physical_virtual_24_animation_v2.gif){width="40%"}
+    </center>
 
 Each twist and rotation on the virtual 2^4^ is possible to do on the physical puzzle, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves) page for a more detailed explanation.
 
 Also see Melinda's [video](https://www.youtube.com/watch?v=DzRH8BOJL8Q) on the official canonical moves.
 
 In December of 2017, Melinda made a [video](https://www.youtube.com/watch?v=_D4m1Kit3TI) fully explaining the puzzle, including its canonical moves, scrambling, and more.
-
-
