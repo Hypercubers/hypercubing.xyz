@@ -69,19 +69,19 @@ Edges can be in two states in relation to a center. They can align with the spli
 
 Next we have moves which do represent a movement in the 4D puzzle. Unlike the normal 3D pyraminx the tips can't legally be twisted. Other than that the four different moves of turning two layers of the pyraminx is legal. In the 4D version of the puzzle we have 20 different of such slice moves. Here are the four axes of rotations that are allowed for each 2-layered pyramid.
 
-![Move1](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o1.gif)
-![Move2](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o2.gif)
-![Move3](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o3.gif)
-![Move4](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o4.gif)
+![Move1](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u1.gif)
+![Move2](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u2.gif)
+![Move3](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u3.gif)
+![Move4](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u4.gif)
 
 If you perform such a move on each of the four sides of the tetrahedron you get a total of 16 moves. For the missing four moves we can "equip" the free octahedron with the edges by swapping them onto it and perform the rest of the rotations that way.
 
 ![Equip](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_prepare_edges.gif) 
 
-![Move5](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u1.gif)
-![Move6](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u2.gif)
-![Move7](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u3.gif)
-![Move8](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u4.gif) 
+![Move5](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o1.gif)
+![Move6](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o2.gif)
+![Move7](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o3.gif)
+![Move8](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o4.gif) 
 
 After the rotation you have can move the edges back.
 
@@ -162,14 +162,14 @@ That’s all there is to the gyro and here we have all in one movement.
 
 | Dominik's Pyraminx | MagicCube 4D |
 | ---------------------------- | ------------------------------------ |
-| ![Move1](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o1.gif) | ![MC4DMove1](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_1.gif) |
-| ![Move2](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o2.gif) | ![MC4DMove2](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_2.gif) |
-| ![Move3](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o3.gif) | ![MC4DMove3](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_3.gif) |
-| ![Move4](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o4.gif) | ![MC4DMove4](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_4.gif) |
-| ![Move5](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u1.gif)| ![MC4DMove5](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_5.gif) |
-| ![Move6](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u2.gif)| ![MC4DMove6](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_6.gif) |
-| ![Move7](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u3.gif)| ![MC4DMove7](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_7.gif) |
-| ![Move8](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u4.gif) | ![MC4DMove8](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_8.gif) |
+| ![Move1](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u1.gif) | ![MC4DMove1](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_1.gif) |
+| ![Move2](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u2.gif) | ![MC4DMove2](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_2.gif) |
+| ![Move3](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u3.gif) | ![MC4DMove3](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_3.gif) |
+| ![Move4](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_u4.gif) | ![MC4DMove4](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_4.gif) |
+| ![Move5](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o1.gif)| ![MC4DMove5](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_5.gif) |
+| ![Move6](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o2.gif)| ![MC4DMove6](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_6.gif) |
+| ![Move7](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o3.gif)| ![MC4DMove7](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_7.gif) |
+| ![Move8](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o4.gif) | ![MC4DMove8](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_8.gif) |
 | ![Gyro](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_gyro.gif) | ![MC4DGyro](https://cloud.hypercubing.xyz/assets/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_9.gif) |
 
 ## Example solve
