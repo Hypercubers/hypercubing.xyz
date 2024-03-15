@@ -26,7 +26,7 @@ A few months later, Melinda built a 2nd prototype using 3D printing from a compa
 
 ### Popularization
 !!! tip inline "Professor Erno Rubik inspecting a physical 2^4^ at G4G 2018"
-    ![Erno Rubik inspecting Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_erno_inspects.jpeg)
+    ![Erno Rubik inspecting Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_erno_inspects.jpg)
 
 At the Gathering For Gardner conference of 2018, Roice Nelson got to show his physical 2^4^ to Erno Rubik. It was reported that his only comment was something along the lines of “none of the derivative puzzles matter and that only his original invention is important”.
 

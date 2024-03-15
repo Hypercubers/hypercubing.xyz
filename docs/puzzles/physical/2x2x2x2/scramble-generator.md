@@ -25,7 +25,7 @@
   width: 15px;
   height: 15px;
   border-radius:8px;
-  background: #AB47BD; 
+  background: #AB47BD;
   cursor: pointer;
 }
 </style>
@@ -262,7 +262,7 @@ function myFunction() {
     var Rphysmoves = ["Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y", "Rx,y'", "Rx,y2", "Rx'", "Rx',y", "Rx',y'", "Rx',y2", "Rz", "Rz,y", "Rz,y'", "Rz,y2", "Rz'", "Rz',y", "Rz',y'", "Rz',y2", ""];
     var message_text = "";
     canvas.height = 150 * document.getElementById("myRange").value;
-    for (var j = 0; j < document.getElementById("myRange").value; ++j) 
+    for (var j = 0; j < document.getElementById("myRange").value; ++j)
     {
         var puzzleState = [[[0,7,2,5],[0,7,2,4],[0,7,3,4],[0,7,3,5],[0,6,2,5],[0,6,2,4],[0,6,3,4],[0,6,3,5]],[[1,7,2,4],[1,7,2,5],[1,7,3,5],[1,7,3,4],[1,6,2,4],[1,6,2,5],[1,6,3,5],[1,6,3,4]]];
         var tempmsg =  "<br>" + (j+1) + ". ";

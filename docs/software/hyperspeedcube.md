@@ -13,7 +13,7 @@
 
 It's recommended to download the Hyperspeedcube program (which is available on Windows, MacOS, and Linux), although a [web version](https://hypercubing.xyz/hyperspeedcube/) is available as well. The latest version is [![Release badge]][Release link] and can be downloaded from the website here:
 
-[Download Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/){ .md-button .md-button--primary } 
+[Download Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/){ .md-button .md-button--primary }
 
 On Windows, it will download as a `.zip` file. After extracting the files and saving them to the destination of your choice, simply launch the `hyperspeedcube.exe` file. This *is* the program, so make sure you save it somewhere you can remember!
 
@@ -32,7 +32,7 @@ If you’re having other trouble with Hyperspeedcube, join the Hypercubers Disco
 
 ## History/Development
 
-Hyperspeedcube, or HSC, is the brainchild of Andrew Farkas (AKA HactarCE). Initially called Keyboard Speedcube and only supporting 3D Rubik's Cubes, the first screenshot was shared with the Hypercubers Discord on October 25th, 2021. A month later, Rowan Fortier asked Hactar if he could receive an early version of the program, and showcased it in a [YouTube video](https://www.youtube.com/watch?v=Wn1y-3EMREQ). 
+Hyperspeedcube, or HSC, is the brainchild of Andrew Farkas (AKA HactarCE). Initially called Keyboard Speedcube and only supporting 3D Rubik's Cubes, the first screenshot was shared with the Hypercubers Discord on October 25th, 2021. A month later, Rowan Fortier asked Hactar if he could receive an early version of the program, and showcased it in a [YouTube video](https://www.youtube.com/watch?v=Wn1y-3EMREQ).
 
 ![first mention](https://media.discordapp.net/attachments/871460012390748241/902389507997966346/unknown.png){width="45%"}
 ![Early build](https://media.discordapp.net/attachments/871460012390748241/904606317430317086/face_focus.gif){width="45%"}

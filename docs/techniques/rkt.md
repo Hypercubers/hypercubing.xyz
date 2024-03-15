@@ -22,9 +22,9 @@ The name RKT comes from the move set ```<RK,T*>``` on n^4^ puzzles (in the old n
 RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's way to learn this is by "translating" 3D algorithms into RKT (although this is not the best way to think about how RKT works beacuse you can really perform any sequence of moves). Below is a simple 3 step guide to translate your algorithms into RKT.
 
 !!! example inline end "Example: Sune algorithm with RKT"
-    Say you want to do the Sune algorithm ```R U R' U R U2 R'``` with RKT. The first step is to try and think of how you can execute the algorithm using only R moves and cube rotations. ```R U R' U R U2 R'``` becomes ```R z R z' R' z R z' R z R2 z' R'```. Now we replace R with RO, and cube rotations with I cell rotations: ```RO IF RO IF' RO' IF RO IF' RO IF RO2 IF' RO'``` 
-    
-    ![Sune with RKT](/assets/images/SuneRKTgif.gif){width="100%"}
+    Say you want to do the Sune algorithm ```R U R' U R U2 R'``` with RKT. The first step is to try and think of how you can execute the algorithm using only R moves and cube rotations. ```R U R' U R U2 R'``` becomes ```R z R z' R' z R z' R z R2 z' R'```. Now we replace R with RO, and cube rotations with I cell rotations: ```RO IF RO IF' RO' IF RO IF' RO IF RO2 IF' RO'```
+
+    ![Sune with RKT](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_sune.gif){width="100%"}
 1. Rewrite the algorithm to only use cube rotations and R moves
 2. Rewrite cube rotations in this new algorithm (`x`, `y`, or `z`) to their respective I cell rotation (`IR`, `IU`, `IF`)
 3. Replace all R moves with their RO counterpart
@@ -42,9 +42,9 @@ Another popular way to do RKT is to use wide O cell turns (instead of normal I c
 ## Parity
 
 !!! warning inline end "RKT Parity"
-    ![RKT parity on the last layer of the last cell of a 3x3x3x3](/assets/images/RKT_parity_3333.png)
+    ![RKT parity on the last layer of the last cell of a 3x3x3x3](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_parity.png)
 
-RKT parity is a state you can get to that appears to rotate a single layer of a cell by 180°. 
+RKT parity is a state you can get to that appears to rotate a single layer of a cell by 180°.
 If you try and fix this with RKT, then the outer layers will be off by 180°. This means that you must use an algorithm (or intuition) to solve it.
 
 You can use a 3D supercube algorithm that rotates the U center 180° (`5x(R U R' U)`, or `2x(L R U2 R' L' U)`).
@@ -59,16 +59,16 @@ On 2^4^, the algorithm is shorter because it doesn't have to worry about messing
 
 On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of a cell is off by 180°. An intuitive way to solve this is to do the 2^4^ RKT parity algorithm with wide moves, and then the normal 3^4^ RKT parity algorithm. It can also be avoided by just lining up your slice the same way you line up centers in 3D before finishing last 4 edges (when using freeslice).
 
-```[f' r': [[r' U' l': D2], Iy2]]```(swaps UF and UR) 
+```[f' r': [[r' U' l': D2], Iy2]]``` (swaps UF and UR)
 
 ## Debt
 
-RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/CFOP) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
+RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/cfop) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
 
 ## Cancels
 
 !!! example "Sune with RKT: left = normal RKT, right = RKT cancel"
-    ![Sune with RKT](/assets/images/SuneRKTcancel.gif){width="100%"}
+    ![Sune with RKT](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_cancel_sune.gif){width="100%"}
 
 RKT cancelling is a technique that reduces the move count of certain RKT algorithms and triggers by abusing symmetry of rotations. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for 3^4^ algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
 
@@ -76,7 +76,7 @@ Consider `R U R' U'`. Conventional RKT rotates after every move, but we don't ha
 
 - `RO UO` — do `R U` using RKT, building up two moves of RKT debt (`R U`)
 - `IF RO'` — do `R'` using RKT, undoing the debt from `U`
-- `IF2 UO'` — do  `U'` using RKT, undoing the debt from the `R`
+- `IF2 UO'` — do `U'` using RKT, undoing the debt from the `R`
 
 But we can do even better!
 
@@ -105,7 +105,3 @@ The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *
 If RKT treats a single layer of an n^d^ puzzle like an n^d-1^ puzzle, then technically the last step of the 3^3^ [Roux method](https://www.speedsolving.com/wiki/index.php?title=Roux_method) counts as RKT. The last step of Roux is to permute the M-slice like a 3^2^ (with mirroring moves allowed).
 
 Another thing that "feels like RKT" is solving 3x3xn cuboids where $n>3$. A typical strategy for these is to solve from the innermost layers to the outermost layers, treating it as several nested 3x3x2 puzzles. Doing an R2 on the whole puzzle does an R2 to each of the subpuzzles.
-
-
-
-

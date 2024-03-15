@@ -14,7 +14,7 @@ The Canonical Moveset is a set of moves agreed upon by the community for solving
 ### Simple Rotations
 
 !!! example inline end "Simple Rotations"
-    ![Simple puzzle rotations on Melinda's 2x2x2x2](/assets/images/2222rotating.png)
+    ![Simple puzzle rotations on Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_rotations.png)
 
 A lot of the whole puzzle reorientations can be reached without the need for the [gyro algorithm](#gyro). These are called simple rotations, and consist of rotaing the L and R cells together in opposing directions (as to not change the state of the puzzle, only its orientation).
 
@@ -24,7 +24,7 @@ A lot of the whole puzzle reorientations can be reached without the need for the
 
 The left and right cells of the puzzle can be twisted into any reorientation of a cube. In other words, there are 23 different twists of the L/R cells:
 
-Left cell twists: `Ly`  `Ly'`  `Ly2`  `Lx2`  `Lz2`  `Lx2,y`  `Lx2,y'` `Lx` `Lx,y` `Lx,y'` `Lx,y2` `Lx'` `Lx',y` `Lx',y'` `Lx',y2` `Lz` `Lz,y` `Lz,y'` `Lz,y2` `Lz'` `Lz',y` `Lz',y'` `Lz',y2` 
+Left cell twists: `Ly` `Ly'` `Ly2` `Lx2` `Lz2` `Lx2,y` `Lx2,y'` `Lx` `Lx,y` `Lx,y'` `Lx,y2` `Lx'` `Lx',y` `Lx',y'` `Lx',y2` `Lz` `Lz,y` `Lz,y'` `Lz,y2` `Lz'` `Lz',y` `Lz',y'` `Lz',y2`
 
 Right cell twists: `Ry` `Ry'` `Ry2` `Rx2` `Rz2` `Rx2,y` `Rx2,y'` `Rx` `Rx,y` `Rx,y'` `Rx,y2` `Rx'` `Rx',y` `Rx',y'` `Rx',y2` `Rz` `Rz,y` `Rz,y'` `Rz,y2` `Rz'` `Rz',y` `Rz',y'` `Rz',y2`
 
@@ -33,7 +33,7 @@ Each move here either starts with an L or an R, followed by the rotations (separ
 ### Inside/Outside Twists
 
 !!! example inline end "Ix2 twist"
-    ![Ix2 move on physical 2x2x2x2](/assets/images/canonical-Ix2.png)
+    ![Ix2 move on physical 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_canonical_Ix2.png)
 
 The I and O cells are the sides with the next most turning freedom after L and R. This was referred to as an "axial twist" in Melinda's video. The canonical moves for the I/IO cells are `Ix` `Ix'` `Ix2` `Ox` `Ox'` `Ox2`
 
@@ -43,16 +43,16 @@ These twists can be difficult to perform for speedsolving, so most people tend t
 ### Slab Twists
 
 !!! example inline end "U2 twist"
-    ![U2 move on physical 2x2x2x2](/assets/images/canonical-U2.png)
+    ![U2 move on physical 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_canonical_U2.png)
 
-The remaining canonical twists involve picking up a 2x2x4 "slab" off the puzzle, and rotating it 180 degrees in the same plane. These slabs you can pick up are the U, F, D, and B cells. Because the slabs can only be turned 180 degrees those moves will just be referred to as `U2` `F2` `D2` `B2` 
+The remaining canonical twists involve picking up a 2x2x4 "slab" off the puzzle, and rotating it 180 degrees in the same plane. These slabs you can pick up are the U, F, D, and B cells. Because the slabs can only be turned 180 degrees those moves will just be referred to as `U2` `F2` `D2` `B2`
 
 
 ### Gyro
 
-If you try to scramble the puzzle with all the moves above, you will quickly notice that the 2 colours on the x-axis aren't mixing with the other colours. This is because the simple rotations and slab twists are restricting what we can do because of the symmetry of the physical puzzle. To fix this, we need a series of illegal moves that rotate the puzzle 4-dimensionally in a way that changes the x-axis. This is called the Gyro, and will allow us to access all the rest of the puzzle rotations (`xz`  `zx`  `yx`  `xy`   `xw`  `wx`)
+If you try to scramble the puzzle with all the moves above, you will quickly notice that the 2 colours on the x-axis aren't mixing with the other colours. This is because the simple rotations and slab twists are restricting what we can do because of the symmetry of the physical puzzle. To fix this, we need a series of illegal moves that rotate the puzzle 4-dimensionally in a way that changes the x-axis. This is called the Gyro, and will allow us to access all the rest of the puzzle rotations (`xz` `zx` `yx` `xy` `xw` `wx`)
 
-![Rowan performing the Gyro algorithm](/assets/images/GyroGif.gif)
+![Rowan performing the Gyro algorithm](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_gyro.gif)
 
 There are several different algorithms for this, some of which gyro different axes. Melinda has several videos about different gyro algorithms, the shortest known one being 6 snaps. Below is a common gyro algorithm that several people in the community use.
 

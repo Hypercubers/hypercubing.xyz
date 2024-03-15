@@ -5,7 +5,7 @@ title: Reduction (Dimensional)
 # Dimensional Reduction
 
 !!! example inline end "Dimensional reduced 3^4^"
-    ![3x3x3x3 dimensionally reduced into 3x3x3](/assets/images/DimensionalReduction.png)
+    ![3x3x3x3 dimensionally reduced into 3x3x3](https://cloud.hypercubing.xyz/assets/img/virt/reduction/dimensional_reduction.png)
 
 Dimensional reduction is a technique to reduce an n^d^ puzzle into an n^d-1^ puzzle. It does this by pairing up n-piece long bars (e.g. to reduce 3^4^ into 3^3^, pair up 3-piece long bars).
 

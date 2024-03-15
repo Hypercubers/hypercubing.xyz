@@ -4,7 +4,7 @@
 
 [Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary }
 
-![32-cell in MPU](/assets/images/MPU_32cell.png)
+![32-cell in MPU](https://cloud.hypercubing.xyz/assets/img/virt/mpu_32cell.png)
 
 <center><small> 32-cell puzzle in MPU </small></center>
 
@@ -73,7 +73,6 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
         Twists 1,-1,0/1,0,-1
         Cuts 0.5 -0.5
         ```
-    
 
 ??? abstract "4D Puzzles"
 
@@ -357,7 +356,7 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
             NAxis 1
             Faces 1,0,0,0
             Group 1,0,0,0/0.5,0.866025404,0,0 0,0.577350269,0.816496581,0/0,0,0.612372436,0.790569415
-            #1,0,0,0/0.5,sqrt(3)/2,0,0 0,1/sqrt(3),sqrt(2/3),0/0,0,1/sqrt(6),sqrt(5/6) 
+            #1,0,0,0/0.5,sqrt(3)/2,0,0 0,1/sqrt(3),sqrt(2/3),0/0,0,1/sqrt(6),sqrt(5/6)
             Axis 1,0,0,0
             Twists 0,0.577350269,0.816496581,0/0,0,0.612372436,0.790569415 0,0.790569,-0.559017,0.25/0,0.57735,1.22474,0.912871
             Cuts 0.75 -0.75

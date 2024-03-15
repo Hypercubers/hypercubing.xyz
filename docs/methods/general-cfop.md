@@ -7,19 +7,19 @@
 
 ## Cross
 
-<p id="cross_text"></p> 
+<p id="cross_text"></p>
 
 ## F2L
 
-<p id="f2l_text"></p> 
+<p id="f2l_text"></p>
 
 ## OLL
 
-<p id="oll_text"></p> 
+<p id="oll_text"></p>
 
 ## PLL
 
-<p id="pll_text"></p> 
+<p id="pll_text"></p>
 
 
 <script>
@@ -63,8 +63,8 @@
             if (i==dim) { // the last pair with nc pieces and n-1c pieces
                 f2l_text = f2l_text + ((pieces[dim][i])/2) + " F2L-"+dim+String.fromCharCode('a'.charCodeAt() + i-3)+" pairs (" + dim + "c & " + (dim-1) +"c pieces)<br>";
                 break;
-            } 
-            f2l_text = f2l_text + ((pieces[dim][i]-pieces[dim-1][i])/2) + " F2L-"+dim+String.fromCharCode('a'.charCodeAt() + i-3)+" pairs (" + (i) + "c & " + (i-1) +"c pieces)<br>"; 
+            }
+            f2l_text = f2l_text + ((pieces[dim][i]-pieces[dim-1][i])/2) + " F2L-"+dim+String.fromCharCode('a'.charCodeAt() + i-3)+" pairs (" + (i) + "c & " + (i-1) +"c pieces)<br>";
         }
         document.getElementById("f2l_text").innerHTML = f2l_text;
 
@@ -85,10 +85,8 @@
             pll_text = pll_text + "First, permute the " + ((pieces[dim][1])-2) + " 2c pieces using EPLL algorithms.<br>";
             pll_text = pll_text + "Next, use RKT to permute the rest of the puzzle like a 3<sup>" + (dim-1) + "</sup>.";
         }
-        
-        document.getElementById("pll_text").innerHTML = pll_text;
 
-        
+        document.getElementById("pll_text").innerHTML = pll_text;
 
         // temporary OLL and PLL text
         // message_text += "OLL-" + dim + "<br>";
