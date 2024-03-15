@@ -55,7 +55,6 @@ flowchart LR
     F[2x2x2x3]
     G[2x2x3x3]
     end
-
 ```
 
 ## Non-Euclidean Puzzles
@@ -74,7 +73,6 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    
     subgraph 5D
     direction LR
     A["n⁴"]
