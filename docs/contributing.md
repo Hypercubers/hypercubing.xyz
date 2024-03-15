@@ -46,16 +46,18 @@ The $n$th Fibonacci number is given by $F_n = F_{n-1} + F_{n-2}$.
 
 ## Adding images
 
-Right now, we don't have a good solution for hosting images. You have a few options:
-
-- For small images, add them in `docs/assets/images/`.
-- For videos or larger images, use an external host or [GitHub's CDN](https://gist.github.com/NawalJAhmed/2168f7659c08b6a033e7f6daf8db69a6).
-
-When including any image, be sure to include a brief text description of the image for screen readers. For example:
+We are hosting images using a [private Nextcloud instance](https://cloud.hypercubing.xyz/) hosted on DigitalOcean. Contact HactarCE on Discord to get access to add images to be hosted there. Once you have an image somewhere in the `assets` folder, you can embed it in a page. When including any image, be sure to include a brief text description of the image for screen readers. For example:
 
 ```md
-![Erno Rubik inspecting Melinda's 2x2x2x2](/assets/images/ErnoInspects2222.jpg)
+![Erno Rubik inspecting Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_erno_inspects.jpg)
 ```
+
+### Naming images
+
+- Organize images into folders when possible. If you're adding many related images, consider making a new folder for them.
+- Use underscores when naming.
+- Use only lowercase, except when the filename includes twist notation.
+- Try to stay consistent with existing filenames.
 
 ## Abbreviations
 
