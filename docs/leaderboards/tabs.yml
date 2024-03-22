@@ -1,43 +1,48 @@
-- name: Virtual n^4^
+- name: 4D
   contents:
-  - puz: 2x2x2x2
+  - name: Virtual n^4^
     contents:
-    - name: Single
-      puz: 2x2x2x2
-    - name: Blindfolded
-      puz: 2x2x2x2_bld
-  - name: 3x3x3x3
+    - puz: 2x2x2x2
+      contents:
+      - name: Single
+        puz: 2x2x2x2
+      - name: Blindfolded
+        puz: 2x2x2x2_bld
+    - name: 3x3x3x3
+      contents:
+      - name: Single
+        puz: 3x3x3x3
+      - name: Ao5
+        puz: 3x3x3x3_ao5
+      - name: Blindfolded
+        puz: 3x3x3x3_bld
+      - name: No Filters
+        puz: 3x3x3x3_nf
+    - puz: 4x4x4x4
+    - puz: 5x5x5x5
+    - puz: 6x6x6x6
+    - puz: 7x7x7x7
+  - name: Physical
     contents:
-    - name: Single
-      puz: 3x3x3x3
-    - name: Ao5
-      puz: 3x3x3x3_ao5
-    - name: Blindfolded
-      puz: 3x3x3x3_bld
-    - name: No Filters
-      puz: 3x3x3x3_nf
-  - puz: 4x4x4x4
-  - puz: 5x5x5x5
-  - puz: 6x6x6x6
-  - puz: 7x7x7x7
-- name: Physical 4D
+    - name: Physical 2x2x2x2
+      contents:
+      - name: Single
+        puz: phys_2x2x2x2
+        exclude: ['program']
+      - name: One Handed
+        puz: phys_2x2x2x2_oh
+        exclude: ['program']
+      - name: Blindfolded
+        puz: phys_2x2x2x2_bld
+        exclude: ['program']
+    - puz: virt_phys_3x3x3x3
+  - name: Other
+    contents:
+    - puz: 3-layer_simplex
+    - puz: 1x3x3x3
+- name: 5D
   contents:
-  - name: Physical 2x2x2x2
-    contents:
-    - name: Single
-      puz: phys_2x2x2x2
-      exclude: ['program']
-    - name: One Handed
-      puz: phys_2x2x2x2_oh
-      exclude: ['program']
-    - name: Blindfolded
-      puz: phys_2x2x2x2_bld
-      exclude: ['program']
-  - puz: virt_phys_3x3x3x3
-- name: Other 4D
-  contents:
-  - puz: 3-layer_simplex
-  - puz: 1x3x3x3
+  - puz: 3x3x3x3x3
 - name: MagicTile
   contents:
   - puz: Hemimegaminx
