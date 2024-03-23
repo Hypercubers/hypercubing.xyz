@@ -29,8 +29,6 @@ By rectifying the hypercube, the trivial tip cuts on the cut patterns of the cel
 
 On the cube, the vertices can be separated into two tetrahedral subsets (the orbits of the skewb's corners). Each cut corresponds to one corner in the tetrahedron. On the hypercube, a similar partitioning of the vertices results in two sets of 8, each at the vertices of the 16-cell, or dually, the facets of a differently-oriented hypercube. If you only cut along vertex axes corresponding to these cuts, you will get a puzzle with only 4 cuts, half as many as the vertex turning hypercube. This puzzle has 8 corners and 8 centers. Unlike on the skewb, only half of the vertices of the hypercube have a corner piece, and all the corner pieces are in one orbit.
 
-Because the axes are arranged like a hypercube, this puzzle is actually a shape mod of a [2x2x2x2](/puzzles/2x2x2x2). As such, it has an additional shapeshifting move in which you turn one layer by 90°. There is no analogous move on the skewb.
-
 ### Demi skewb lookalike
 
 !!! example inline end "Demi skewb lookalike"
@@ -39,6 +37,11 @@ Because the axes are arranged like a hypercube, this puzzle is actually a shape 
 If you only use the axes along half the vertices as above, but you use the cut depths of the skewb lookalike, it results in a puzzle that still has three layers per axis, but only half as many axes. The cut pattern on the cells of this puzzle also resembles a 3D skewb, but with only 4 trivial tips per cell. The puzzle has 8 corner pieces, 8 dual corner pieces of a different shape, 32 Y-celters, and 24 ridge pieces.
 
 As before, the hypercube can be rectified, which removes the trivial tips from the cut patterns of the cells.
+
+??? info "Extra turns"
+    In the two demi puzzles, the 8 vertices are arranged like the cells of a hypercube. This means they are actually shapemods of hypercubic puzzles. As such, they have an additional shapeshifting move in which you turn one layer by 90°. There is no analogous move on the skewb. In particular, the [demi vertex turning hypercube](### Demi vertex turning hypercube) is a shapemod of a [2x2x2x2](/puzzles/2x2x2x2), and the [demi skewb lookalike](### Demi skewb lookalike) is a shapemod of a [3x3x3x3](/puzzles/3x3x3x3), but with the 8 corner pieces that would be at the center of the cells missing.
+
+    Because the 16-cell axis system, or the vertex turning hypercube system, is composed of two disjoint hypercube axis systems, these puzzles also have additional shapeshifting moves in which you turn a layer 90°. Unlike those in the previous section, though, performing one of these turns would bandage the puzzle. If you unbandaged these puzzles, you would get additional cuts parallel to the cells, resulting in the axis system of a 24-cell.
 
 ## Simplex-like
 
@@ -60,7 +63,7 @@ Like in 3d, you can put a hyperplane perpendicular to the symmetry axis of each 
 
 You can also put hyperplanes perpendicular to the symmetry axis of both the 2g and 3g pieces. This gives the puzzle a 20-celled shape called the [bijungato-10-cell](https://polytope.miraheze.org/wiki/Bijungatodecachoron). On this puzzle, the 1g and 4g pieces are both 4c at tetrahedral vertices, and the 2g and 3g pieces are both 1c at the cell centers. Unlike the previous shape but like the skewb, full symmetry of the puzzle is reflected in the shape.
 
-Each cell of the puzzle either has two 1g and one 2g pieces, or two 4g and one 3g pieces. These two orbits of cells are only adjacent across the 2g-3g boundary. Because of this, this puzzle has multiple solves states, where each cell is a solid color, but the color schemes of the two orbits are rotated relative to each other.
+Each cell of the puzzle either has two 1g and one 2g pieces, or two 4g and one 3g pieces. These two orbits of cells are only adjacent across the 2g-3g boundary. Because of this, this puzzle has multiple solved states, where each cell is a solid color, but the color schemes of the two orbits are rotated relative to each other.
 
 ### 2g-3g carved simplex, hemi colors
 
@@ -72,14 +75,14 @@ The puzzle can be recolored with 10 colors by giving opposite cells the same col
 !!! example inline end "2g-3g ridge carved simplex"
     ![2g-3g ridge carved simplex](https://cloud.hypercubing.xyz/assets/img/virt/4d_skewb/ridge_carved.png)
 
-There are 30 square ridges between the 2g and 3g pieces. By constructing a shape bounded by the hyperplanes perpendicular to the symmetry axes of these ridges, you get a 30-cell shape with disphenoidal cells called the [bi-10-cell](https://polytope.miraheze.org/wiki/Tetragonal_disphenoid). The 1g and 4g pieces are 12c at triakis-tetrahedral vertices, and the 2g and 3g pieces are 3c at triangular ridges. This shape of the puzzle also reflects the symmetry that swaps 1g and 4g and swaps 2g and 3g.
+There are 30 square ridges between the 2g and 3g pieces. By constructing a shape bounded by the hyperplanes perpendicular to the symmetry axes of these ridges, you get a 30-cell shape with disphenoidal cells called the [bi-10-cell](https://polytope.miraheze.org/wiki/Bidecachoron). The 1g and 4g pieces are 12c at triakis-tetrahedral vertices, and the 2g and 3g pieces are 3c at triangular ridges. This shape of the puzzle also reflects the symmetry that swaps 1g and 4g and swaps 2g and 3g.
 
 ## Prism
 
 !!! example inline end "Prism"
     ![Prism](https://cloud.hypercubing.xyz/assets/img/virt/4d_skewb/prism.png)
 
-By starting with a skewb, you can extend it into the fourth dimension by taking the cartesian product of it with a line segment. This extends the cube to a cubic prism, and the skewb cut planes to hyperplanes all perpendicular to the original cube. This creates a skewb prism, which has exactly the same pieces as the skewb but with shapes that are the prisms of the originals. It allows all the moves of the skewb, and an additional set of moves that involve flipping the new dimension, which appears as a reflection move on the original skewb. By adding more cuts parallel to the original skewb, you can create multi-layer skewb prisms.
+By starting with a skewb, you can extend it into the fourth dimension by taking the cartesian product of it with a line segment. This extends the cube to a cubic prism, and the skewb cut planes to hyperplanes all perpendicular to the original cube. This creates a skewb prism, which has exactly the same pieces as the skewb but with shapes that are the prisms of the originals. It allows all the moves of the skewb, and an additional set of moves that involve flipping the new dimension, which appear as reflection moves on the original skewb. By adding more cuts parallel to the original skewb, you can create multi-layer skewb prisms.
 
 ## 24-cell-like
 
