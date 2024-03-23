@@ -2,9 +2,9 @@
 
 [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) is a modern, beginner-friendly 3D and 4D Rubik’s cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving. It’s been used to break numerous speedsolving records.
 
-![3x3x3x3 with the far cell mid-twist](https://i.imgur.com/rpMgIwp.png){ width="30%" }
-![3x3x3x3 near the end of F2L-b with many tools and settings windows open](https://i.imgur.com/uDzvYLz.png){ width="30%" }
-![Solved 2x2x2](https://i.imgur.com/aAVOjsD.png){ width="30%" }
+![3x3x3x3 with the far cell mid-twist](https://cloud.hypercubing.xyz/assets/img/virt/hsc/mid_twist.png){ width="30%" }
+![3x3x3x3 near the end of F2L-b with many tools and settings windows open](https://cloud.hypercubing.xyz/assets/img/virt/hsc/tools.png){ width="30%" }
+![Solved 2x2x2](https://cloud.hypercubing.xyz/assets/img/virt/hsc/solved_2x2x2.png){ width="30%" }
 
 ## Download/installation
 
@@ -34,8 +34,8 @@ If you’re having other trouble with Hyperspeedcube, join the Hypercubers Disco
 
 Hyperspeedcube, or HSC, is the brainchild of Andrew Farkas (AKA HactarCE). Initially called Keyboard Speedcube and only supporting 3D Rubik's Cubes, the first screenshot was shared with the Hypercubers Discord on October 25th, 2021. A month later, Rowan Fortier asked Hactar if he could receive an early version of the program, and showcased it in a [YouTube video](https://www.youtube.com/watch?v=Wn1y-3EMREQ).
 
-![first mention](https://media.discordapp.net/attachments/871460012390748241/902389507997966346/unknown.png){width="45%"}
-![Early build](https://media.discordapp.net/attachments/871460012390748241/904606317430317086/face_focus.gif){width="45%"}
+![first mention](https://cloud.hypercubing.xyz/assets/img/virt/hsc/keyboard_speedcube.png){width="45%"}
+![Early build](https://cloud.hypercubing.xyz/assets/img/virt/hsc/face_focus.gif){width="45%"}
 
 The program was renamed to Hyperspeedcube, and many community requested features were added. For a complete list of all releases and changes, see the [changelog](https://github.com/HactarCE/Hyperspeedcube/blob/main/CHANGELOG.md) on HSC's GitHub page.
 
@@ -49,10 +49,10 @@ HSC 2.0 is the next major update in the works, with no set release date as of ye
 - Timeline of progress during solve
 - More piece filter customization
 
-![Hypercuboid midway through turn](https://media.discordapp.net/attachments/871460012390748241/1029967613830381568/unknown.png?width=817&height=671){width="45%"}
-![3D Jing's pyraminx puzzle in HSC 2.0](https://media.discordapp.net/attachments/852994025094512680/1030000241140826132/unknown.png){width="45%"}
+![Hypercuboid midway through turn](https://cloud.hypercubing.xyz/assets/img/virt/hsc/janky_cuboid.png?width=817&height=671){width="45%"}
+![3D Jing's pyraminx puzzle in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/jing_crash.png){width="45%"}
 
-![{3}x{5} duoprism in HSC 2.0](https://media.discordapp.net/attachments/871460012390748241/1043307655516655746/image.png){width="45%"}
-![120-cell in HSC 2.0](https://media.discordapp.net/attachments/871460012390748241/1043295541313933352/image.png){width="45%"}
+![{3}x{5} duoprism in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/duoprism.png){width="45%"}
+![120-cell in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/120_cell.png){width="45%"}
 
 <center><small> Development screenshots by Hactar </small> </center>
