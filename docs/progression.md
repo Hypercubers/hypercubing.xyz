@@ -65,8 +65,9 @@ flowchart LR
     A[Torus Rubik]
     B[Klein Bottle Rubik]
     C[Hyperbolic Rubik]
+    E[Hemi-Megaminx]
     D[Other]
-    A --> B --> C --> D
+    A --> B --> C --> E --> D
 ```
 
 ## 5D+ puzzles
