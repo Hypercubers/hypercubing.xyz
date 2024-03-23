@@ -67,7 +67,8 @@ flowchart LR
     C[Hyperbolic Rubik]
     E[Hemi-Megaminx]
     D[Other]
-    A --> B --> C --> E --> D
+    A --> B --> C
+    B --> E --> D
 ```
 
 ## 5D+ puzzles
