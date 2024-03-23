@@ -34,7 +34,7 @@ On the cube, the vertices can be separated into two tetrahedral subsets (the orb
 !!! example inline end "Demi skewb lookalike"
     ![Demi skewb lookalike](https://cloud.hypercubing.xyz/assets/img/virt/4d_skewb/demi_skewb_lookalike.png)
 
-If you only use the axes along half the vertices as above, but you use the cut depths of the skewb lookalike, it results in a puzzle that still has three layers per axis, but only half as many axes. The cut pattern on the cells of this puzzle also resembles a 3D skewb, but with only 4 trivial tips per cell. The puzzle has 8 corner pieces, 8 dual corner pieces of a different shape, 32 Y-celters, and 24 ridge pieces.
+If you only use the axes along half the vertices as above, but you use the cut depths of the skewb lookalike, it results in a puzzle that still has three layers per axis, but only half as many axes. The cut pattern on the cells of this puzzle also resembles a 3D skewb, but with only 4 trivial tips per cell. The puzzle has 8 corner pieces, 8 dual corner pieces of a different shape, 32 Y-centers, and 24 ridge pieces.
 
 As before, the hypercube can be rectified, which removes the trivial tips from the cut patterns of the cells.
 
@@ -54,7 +54,7 @@ Constructing the skewb like this, we can describe how to construct its cubic sha
 !!! example inline end "2g carved simplex"
     ![2g carved simplex](https://cloud.hypercubing.xyz/assets/img/virt/4d_skewb/2g_carved.png)
 
-Like in 3d, you can put a hyperplane perpendicular to the symmetry axis of each 2g piece. Since there are 10 2g pieces, this creates a polychoron with 10 triangular-bipyramidal cells called the [joined 5-cell](https://polytope.miraheze.org/wiki/Joined_pentachoron). On this puzzle, the 1g pieces are 4c at the tetrahedral vertices, the 2g pieces are 1c at the cell centers, the 3g pieces are 3c at the triangular edges, and the 4g pieces are 6c at the triangular-bipyramidal vertices. Unlike on the skewb, where the 1g and 3g pieces look alike, here, the 1g and 4g pieces are distinguishable by their number of colors, and so are the 2g and 3g pieces.
+Like in 3D, you can put a hyperplane perpendicular to the symmetry axis of each 2g piece. Since there are 10 2g pieces, this creates a polychoron with 10 triangular-bipyramidal cells called the [joined 5-cell](https://polytope.miraheze.org/wiki/Joined_pentachoron). On this puzzle, the 1g pieces are 4c at the tetrahedral vertices, the 2g pieces are 1c at the cell centers, the 3g pieces are 3c at the triangular edges, and the 4g pieces are 6c at the triangular-bipyramidal vertices. Unlike on the skewb, where the 1g and 3g pieces look alike, here, the 1g and 4g pieces are distinguishable by their number of colors, and so are the 2g and 3g pieces.
 
 ### 2g-3g carved simplex
 
