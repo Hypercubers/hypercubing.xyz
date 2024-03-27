@@ -49,7 +49,12 @@ def format_time(duration: timedelta) -> str:
         return f"{minutes}{unit('m')} {seconds_str} {millis_str}"
     minutes_str = f"{minutes:02}{unit('m')}"
 
-    return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+    days, hours = divmod(int(hours), 24)
+    if days == 0:
+        return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+    hours_str = f"{minutes:02}{unit('h')}"
+
+    return f"{days}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}"
 
 
 class Solve:
@@ -154,11 +159,12 @@ with open('docs/leaderboards/puzzles.yml') as file:
 
 
 def parse_time(s):
-    m = re.match(r'(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
+    m = re.match(r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
     return timedelta(
-        hours=int(m[1] or '0'),
-        minutes=int(m[2] or '0'),
-        seconds=float(m[3]),
+        days=int(m[1] or '0'),
+        hours=int(m[2] or '0'),
+        minutes=int(m[3] or '0'),
+        seconds=float(m[4]),
     )
 
 
