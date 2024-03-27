@@ -75,7 +75,7 @@
 ## Speedsolving
 
 ??? question "What are the speedsolving records for 4D puzzles?"
-    See the [leaderboards](/leaderboards). To get on the leaderboard, submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
+    See the [leaderboards](/leaderboards). To get on the leaderboard, read the [submission guidelines](/leaderboards/rules) and submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
 
 ??? question "Why not use speedrun.com?"
     Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and were rejected.
