@@ -3,6 +3,7 @@
 *[2c]: 2-colored (ridge)
 *[3c]: 3-colored (edge)
 *[4c]: 4-colored
+*[5c]: 5-colored
 
 <!-- 4D stages and alg sets -->
 *[FC]: First Cell
