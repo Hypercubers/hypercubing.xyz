@@ -1,7 +1,7 @@
 <!-- n^4 piece types -->
-*[1c]: 1-colored (center)
-*[2c]: 2-colored (ridge)
-*[3c]: 3-colored (edge)
+*[1c]: 1-colored
+*[2c]: 2-colored
+*[3c]: 3-colored
 *[4c]: 4-colored
 *[5c]: 5-colored
 
