@@ -95,7 +95,7 @@
     Again, there's lots of ways to generalize a skewb. If you just want cuts that look like a skewb, there's a few different puzzles that emulate that. If you want a half-cut vertex-turning hypercube, that's a thing too! It just doesn't "look like" a traditional skewb. For more 4D skewbs, including pictures, see [here](/puzzles/4d-skewb).
 
 ??? question "8-dimensional and higher"
-    There's just no point. After 5D, it's not difficult or interesting, just more tedious and computationally expensive.
+    Above 5 dimensions, cube puzzles aren't more difficult or interesting, just more tedious and computationally expensive. But there might be some wild hyperpuzzles yet to be discovered up there, say one based on the very special geometry of the [E8 Lattice](https://en.wikipedia.org/wiki/E8_lattice)!
 
 ??? question "3D Rubik's Clock"
     Instead of rotating circles in 2D, you can rotate spheres in 3D. This is a more interesting puzzle than the traditional Rubik's Clock because moves don't commute. No one's written a program yet to simulate it but you totally could!
