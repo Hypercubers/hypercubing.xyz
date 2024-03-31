@@ -20,7 +20,7 @@ The first known restricted 2^5^ was made by [Grant Staten](/leaderboards/solvers
 
 ## Pieces and Twists
 
-There are 32 5c pieces, but each piece can only be oriented in 12 ways instead of 60 because of the axis restriction. And just like [Melinda's physical 2^4^](/puzzles/physical/2x2x2x2/), this puzzle has certain legal moves that a solver must follow. 8 buffer pieces are often used to separate the 2 sides on the reduced axis to make it more obvious if you were to do an illegal move.
+There are 32 5c pieces, but each piece can only be oriented in 12 ways instead of 60 because of the axis restriction. And just like [Melinda's physical 2^4^](/puzzles/physical/2x2x2x2/), this puzzle has certain legal moves that a solver must follow. Each twist of this puzzle is like rotating a tesseract. You can take off half of it and do any reorientation like you would on the physical 2^4^. This includes simple rotations and gyros. The only thing you can't do is a 90 degree twist of the square layers (this results in a legal puzzle state, but is not analogous to any move on the virtual 2^5^). See [Hyperespy's video](https://www.youtube.com/watch?v=31ubrqerKqA) for a full overview of the canonical moves and a way to scramble the puzzle quickly.
 
 
 
@@ -30,9 +30,9 @@ There are 32 5c pieces, but each piece can only be oriented in 12 ways instead o
 !!! info inline end "Buffer pieces magnet layout"
     ![A drawing of the magnet layout for the buffer pieces of a restricted 2x2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/restricted_22222_buffer_magnets.png)
 
-[Order a 2^4^](https://superliminal.com/cube/2x2x2x2/ordering.html) DIY kit from Melinda Green. Then assemble it with a mirrored colour scheme from your current 2^4^, but with the same magnet layout. For the 5D stickers 192 are needed in total, with half (96) of them being black and the other half grey. This means that each normal physical 2^4^ piece gets 6 stickers on it. If you have good vinyl sticker paper to use, that's a great choice. Another good option is to order a couple of custom sticker sets online such as [these](https://www.thecubicle.com/products/gan330-keychain-sticker-set).
+[Order a 2^4^](https://superliminal.com/cube/2x2x2x2/ordering.html) DIY kit from Melinda Green. Then assemble it with a mirrored colour scheme from your current 2^4^, but with the same magnet layout. For the 5D stickers 192 are needed in total, with half (96) of them being black and the other half grey. This means that each normal physical 2^4^ piece gets 6 stickers on it. A good option is to order a couple of custom sticker sets online such as [these](https://www.thecubicle.com/products/gan330-keychain-sticker-set).
 
-If you want to add buffer pieces, you need 8 monocolored hypercubies with a custom magnet layout.
+Grant used buffer pieces when making his version in order to make it obvious to avoid doing illegal twists. If you want to add buffer pieces, you need 8 monocolored hypercubies with a custom magnet layout. Although there's only a few different illegal twists that are even possible so it's not too tricky to avoid altogether.
 
 
 
