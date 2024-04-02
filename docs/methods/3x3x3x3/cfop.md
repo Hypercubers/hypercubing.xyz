@@ -74,8 +74,8 @@ It is always possible to solve 2c permutation using just U-perms, but many cases
 - **Opposite swap** - Do a 90-degree twist of I to turn this case into a pair of adjacent swaps, then use a 3D Z-perm algorithm to solve it, such as `M2 U M2 U M' U2 M2 U2 M'` (9 STM) to swap IF ↔ IR and IB ↔ IL.
 - **Adjacent 3-cycle (clockwise)** - Use `[[RD, ID], {1-2}LO]` = `(RD ID RU IU) RO (IF RF IB RB) (RI)` (9 STM + 1 move RKT debt) to cycle IF → IU → IR.
 - **Adjacent 3-cycle (counterclockwise)** - Use `[[RF, IF], {1-2}LI]` = `(RF IF RB IB) RI (ID RD IU RU) (RO)` (9 STM + 1 move RKT debt) to cycle IR → IU → IF.
-- **Double adjacent swap (right-handed)** - Use `[[[RU, IU] IFR RU], IDR]` = `(RU IU RD IFR RU) IDR (RD IFR RU ID RD) (IUR)` (11 STM + 1 move offset) to swap IF ↔ IU and IR ↔ IB.
-- **Double adjacent swap (left-handed)** - Use `[[[RU: IU] IR2 RU], IUR]` = `(RU IU RD IFR RU) IUR (RD IFR RU ID RD) (IDR)` (11 STM + 1 move offset) to swap IF ↔ ID and IR ↔ IB.
+- **Double adjacent swap (right-handed)** - Use `[[[RU, IU] IR2 RU], IDR]` = `(RU IU RD IFR RU) IDR (RD IFR RU ID RD) (IUR)` (11 STM + 1 move offset) to swap IF ↔ IU and IR ↔ IB.
+- **Double adjacent swap (left-handed)** - Use `[[[RU, IU] IR2 RU], IUR]` = `(RU IU RD IFR RU) IUR (RD IFR RU ID RD) (IDR)` (11 STM + 1 move offset) to swap IF ↔ ID and IR ↔ IB.
 
 This is currently no known reliable way to recognize which case you have.
 
