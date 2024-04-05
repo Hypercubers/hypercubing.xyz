@@ -183,13 +183,13 @@ date,       link,                  time, program,   solver,             puzzle
 2023-03-15, fFJVEfFA-uo,      1m 17.70s, MC4D,      grant,              3-layer_simplex
 2023-03-16, SCkKA-ua2AQ,      2m 11.33s, HSC,       grant,              3x3x3x3
 2023-03-17, QkFR1WzMCzc,     28m 14.31s, HSC,       grant,              5x5x5x5
-2023-03-18, nFOb5ueM6sQ,      4m 30.57s, MT,        luna,               Hemimegaminx
-2023-03-18, uk_I82NLuwY,      2m 54.05s, MT,        luna,               Hemimegaminx
-2023-03-18, 8ldHKvKunyw,      3m 35.86s, MT,        grant,              Hemimegaminx
-2023-03-18, o5Xa6v0y9J8,      2m 19.99s, MT,        grant,              Hemimegaminx
-2023-03-18, ktjpFhnArHE,      2m 11.57s, MT,        luna,               Hemimegaminx
-2023-03-18, Jry6rXRHgmc,      2m 06.52s, MT,        luna,               Hemimegaminx
-2023-03-19, hKelDJ4rkLI,      1m 51.94s, MT,        grant,              Hemimegaminx
+2023-03-18, nFOb5ueM6sQ,      4m 30.57s, MT,        luna,               hemimegaminx
+2023-03-18, uk_I82NLuwY,      2m 54.05s, MT,        luna,               hemimegaminx
+2023-03-18, 8ldHKvKunyw,      3m 35.86s, MT,        grant,              hemimegaminx
+2023-03-18, o5Xa6v0y9J8,      2m 19.99s, MT,        grant,              hemimegaminx
+2023-03-18, ktjpFhnArHE,      2m 11.57s, MT,        luna,               hemimegaminx
+2023-03-18, Jry6rXRHgmc,      2m 06.52s, MT,        luna,               hemimegaminx
+2023-03-19, hKelDJ4rkLI,      1m 51.94s, MT,        grant,              hemimegaminx
 2023-03-20, 1GfM06GsWp4,      1m 27.39s, MPU,       grant,              1x3x3x3
 2023-03-30, Nty_vtso5Pk,      1m 42.40s, -,         cubedude,           phys_2x2x2x2
 2023-03-29, P8AG5AGeu40,     17m 11.75s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
@@ -317,7 +317,7 @@ date,       link,                  time, program,   solver,             puzzle
 2024-01-30, Cc89UGu-ha4,       8m 31.14s, HSC,      pkearth,            3x3x3x3
 2024-02-12, GqGpEgfqIRk,       3m 53.45s, HSC,      tymofro,            3x3x3x3
 2024-02-13, u-gcnW_ZQmU,       3m 22.80s, HSC,      edan,               3x3x3x3
-2024-03-06, 6Tez6T6YJqE,       1m 47.69s, MT,       milojacquet,        Hemimegaminx
+2024-03-06, 6Tez6T6YJqE,       1m 47.69s, MT,       milojacquet,        hemimegaminx
 2024-03-11, aUTQ8tLEZoA,      11m 12.84s, HSC,      hactar,             4x4x4x4
 2024-03-15, MCBQJOjkBpg,      10m 05.47s, HSC,      hactar,             4x4x4x4
 2024-03-17, 2laArWGh5tY,       9m 44.50s, HSC,      hactar,             4x4x4x4
@@ -325,11 +325,11 @@ date,       link,                  time, program,   solver,             puzzle
 2024-03-19, j4OZFwm2cGc,      23m 21.81s, HSC,      tymofro,            4x4x4x4
 2024-03-20, su6L9XZ5aWE,       8m 45.21s, HSC,      hactar,             4x4x4x4
 2024-03-21, YAiat68eqpY,      17m 52.81s, HSC,      tymofro,            4x4x4x4
-2024-03-21, bxekDe2pWH8,      18m 47.12s, -,        akkei,              Hemimegaminx
+2024-03-21, bxekDe2pWH8,      18m 47.12s, -,        akkei,              hemimegaminx
 2024-03-22, Byl0Wz6gdf4,   3h 39m 01.24s, MC7D,     luna,               3x3x3x3x3
 2024-03-23, Eqgq2g6fZy8,   1h 48m 43.50s, MPU,      luna,               2x2x2x2x2
 2024-03-24, 8q2ppxqzzYg,       7m 42.36s, HSC,      battistin,          3x3x3x3_ao5
-2024-03-26, lipNaShkSd4,       5m 22.97s, MT,       battistin,          Hemimegaminx
+2024-03-26, lipNaShkSd4,       5m 22.97s, MT,       battistin,          hemimegaminx
 2024-03-29, 4akee0AGdoA,       5m 50.99s, HSC,      battistin,          3x3x3x3
-2024-03-31, m4Cu4xVmWhU,       1m 31.67s, MT,       milojacquet,        Hemimegaminx
+2024-03-31, m4Cu4xVmWhU,       1m 31.67s, MT,       milojacquet,        hemimegaminx
 2024-04-01, 3WXFnsGD8oM,   1h 13m 07.26s, MPU,      tymofro,            2x2x2x2x2
