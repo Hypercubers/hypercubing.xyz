@@ -16,18 +16,18 @@
 
 
 ??? question "Where can I interact with other hypercubers?"
-    Join the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and [Hypercubing Google Group](https://groups.google.com/g/hypercubing). The Discord server is generally more active. Also join the [r/Hypercubers reddit](https://www.reddit.com/r/Hypercubers/).
+    The [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) has the most active community of hypercubers and contains the latest updates on developing projects and speedsolving strategies. The [Hypercubing Google Group](https://groups.google.com/g/hypercubing) is a good option for those who prefer mailing lists or less frequent updates. Also check out the [r/Hypercubers subreddit](https://www.reddit.com/r/Hypercubers/).
 
 ## Virtual puzzles
 
 ??? question "What program should I download?"
-    It depends on what exactly you want to do, but generally [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/), and MC4D will suit your needs. See the [software](/software) page for links to all the major programs.
+    It depends on what exactly you want to do, but generally, [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) and MC4D will suit your needs. See the [software](/software) page for links to all the major programs.
 
 ??? question "How do I start learning to solve 4D puzzles?"
     First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](/methods) to learn.
 
 ??? question "Why not start with the 2^4^?"
-    The 2^4^ is particularly confusing for beginners because half the puzzle turns at once so it's very easy to lose your bearings. While the 2^4^ strategy is technically simpler, it's much much more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like the 3^3^ is a better starting puzzle in 3D, you learn lots of important concepts from the 3^4^ that will help you with other puzzles.
+    The 2^4^ is particularly disorienting for beginners because half of the puzzle turns at once. As a result, while the 2^4^ strategy is technically simpler, it's actually more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like how the 3^3^ is a better starting puzzle in 3D, you can learn lots of important concepts from the 3^4^ that will help you with other 4D puzzles.
 
 ??? question "What methods exist for the 3^4^?"
     Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
@@ -35,9 +35,9 @@
     - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
     - [CFOP](/methods/3x3x3x3/cfop) — 4D CFOP
     - [3Block](/methods/3x3x3x3/3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
-    - [Octachoroux](/methods/3x3x3x3/octachoroux) — 4D Roux, but awkward to use and many parity issues
+    - [Octachoroux](/methods/3x3x3x3/octachoroux) — 4D Roux, but awkward to use and contains many parity issues
 
-    Alterantively, join others in voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
+    Alternatively, join a voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
 ??? question "What's [God's number][cube20] for \[puzzle]?"
     God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to scan $\sim 4.3 \times 10^{19}$ states. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
@@ -105,5 +105,5 @@
 
     1. Understand and define the thing you're generalising
     2. Find where your definitions reference or assume something dimension-specific
-    3. Rewrite your definitions to avoid dimension-specificity
-    4. Find 4D object that fits your new definitions (there may be one, several, or none)
+    3. Rewrite your definitions to avoid dimension-specific references or assumptions
+    4. Find what 4D object fits your new definitions (there may be one, several, or none)
