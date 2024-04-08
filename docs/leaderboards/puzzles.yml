@@ -14,8 +14,8 @@ phys_2x2x2x2: Physical 2x2x2x2
 phys_2x2x2x2_oh: Physical 2x2x2x2 One-Handed
 phys_2x2x2x2_bld: Physical 2x2x2x2 Blindfolded
 3-layer_simplex: 3-Layer Simplex
-Hemimegaminx: Hemimegaminx
+hemimegaminx: Hemimegaminx
 virt_phys_3x3x3x3: Virtual Physical 3x3x3x3
 1x3x3x3: 1x3x3x3
 3x3x3_1d: 3x3x3 in 2D projection with 1D Vision
-
+klein_quartic: Canon-Cut Klein Quartic

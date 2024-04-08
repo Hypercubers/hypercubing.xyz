@@ -46,7 +46,8 @@
   - puz: 3x3x3x3x3
 - name: MagicTile
   contents:
-  - puz: Hemimegaminx
+  - puz: hemimegaminx
+  - puz: klein_quartic
 - name: Misc
   contents:
   - puz: 3x3x3_1d

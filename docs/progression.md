@@ -1,12 +1,12 @@
 # Progression
 
-This is an outline of how to make your way through the world of hypercubing. Learning puzzles in the wrong order can often lead to confusion, or hindering your understanding in the long run.
+This is an outline of how to make your way through the world of hypercubing. Learning puzzles in another order could lead to confusion or an incomplete understanding in the long run.
 
 !!! quote "Hactar"
     It's very difficult to understand what's really going on in a physical puzzle without first understanding virtual puzzles. We recommend starting with virtual 3^4 for the same reason that 3D cubers typically recommend starting with 3x3x3.
 
 ## NxNxNxN's
-First, make sure you have good knowledge of the 3x3x3 Rubik's Cube. At the very minimum, how to solve it using a beginner's method, but preferably a more advanced method like CFOP or Roux, and some knowledge of blockbuilding or pairing pieces intuitively.
+First, make sure you know how to solve a 3x3x3 Rubik's Cube. At the very minimum, knowing a beginner's method is enough, but knowing more advanced methods, such as CFOP or Roux, or more advanced techniques, such as blockbuilding or intuitive F2L, could make getting into hypercubing easier.
 
 ```mermaid
 flowchart LR
@@ -19,7 +19,7 @@ flowchart LR
     G[Virtual Physical 3x3x3x3]
     A --> B
     B --> C
-    C --> D
+    B --> D
     C --> F
     D --> E
     F --> G
@@ -67,7 +67,8 @@ flowchart LR
     C[Hyperbolic Rubik]
     E[Hemi-Megaminx]
     D[Other]
-    A --> B --> C
+    A --> B
+    A --> C
     B --> E --> D
 ```
 
