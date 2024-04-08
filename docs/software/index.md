@@ -29,6 +29,7 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 - [Nan Ma's 11-cell](https://superliminal.com/cube/ElevenCell.jar)
 - [Magic Hyperbolic Tile](https://superliminal.com/andrey/mht633/)
 - [akkei's physical 3^4^ program](https://discord.com/channels/852389089268858922/903095477568938035/1048694090839101581)
+- [Flat Hypercube](https://github.com/milojacquet/flat-hypercube)
 
 ## Hypercubing software for mobile (not recommended)
 
