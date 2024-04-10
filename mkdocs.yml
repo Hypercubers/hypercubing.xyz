@@ -95,4 +95,4 @@ plugins:
       scripts:
       - docs/leaderboards/generate_leaderboards.py
 hooks:
-  - symbol_hooks.py
+  - hooks/symbol_hooks.py
