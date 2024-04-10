@@ -63,11 +63,11 @@ Before the Google Group or Discord server, there was a Yahoo Groups mailing list
 
 ### What program should I download?
 
-It depends on what exactly you want to do, but generally, [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) and [MC4D](https://superliminal.com/cube/) will suit your needs. See the [software](/software) page for links to all the major programs.
+It depends on what exactly you want to do, but generally, [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) and [MC4D](https://superliminal.com/cube/) will suit your needs. See the [software](/software/index.md) page for links to all the major programs.
 
 ### How do I start learning to solve 4D puzzles?
 
-First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](/methods) to learn.
+First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](/methods/index.md) to learn.
 
 ### Why not start with the 2×2×2×2?
 
@@ -78,15 +78,15 @@ The 2^4^ is particularly disorienting for beginners because half of the puzzle t
 Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
 
 - [Layer-by-layer](https://youtu.be/h4n_QdZGXf8)
-- [CFOP](/methods/3x3x3x3/cfop) — 4D CFOP
-- [3Block](/methods/3x3x3x3/3block) — 4D FreeFOP, ~20% fewer moves compared to CFOP
-- [Octachoroux](/methods/3x3x3x3/octachoroux) — 4D Roux, but awkward to use and contains many parity issues
+- [CFOP](/methods/3x3x3x3/cfop.md) — 4D CFOP
+- [3Block](/methods/3x3x3x3/3block.md) — 4D FreeFOP, ~20% fewer moves compared to CFOP
+- [Octachoroux](/methods/3x3x3x3/octachoroux.md) — 4D Roux, but awkward to use and contains many parity issues
 
 Alternatively, join a voice chat on the [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) and someone will teach you!
 
 ### What is God's number for \[puzzle\]?
 
-See [God's Number](/theory/gods-number).
+See [God's Number](/theory/gods-number.md).
 
 ## Physical puzzles
 
@@ -94,7 +94,7 @@ See [God's Number](/theory/gods-number).
 
 The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See these links:
 
-- [Physical Puzzles](/puzzles/physical) on this site
+- [Physical Puzzles](/puzzles/physical/index.md) on this site
 - [Physical Puzzle](http://wiki.superliminal.com/wiki/Physical_Puzzle) on the Superliminal Wiki
 - [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA)
 
@@ -108,17 +108,17 @@ Melinda's 2^4^ is currently the only physical puzzle for sale. The physical 3^4^
 
 ### What physical 4D puzzles have been built?
 
-See [Physical Puzzles](/puzzles/physical) for a comprehensive list.
+See [Physical Puzzles](/puzzles/physical/index.md) for a comprehensive list.
 
 ### What physical 4D puzzles are possible?
 
-While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. This requires some out-of-the-box thinking and, in extreme cases, application of group theory. We currently have several renderings for physical puzzles that haven't been built in real life yet; see the [Physical Puzzles](/puzzles/physical) page for an incomplete list.
+While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. This requires some out-of-the-box thinking and, in extreme cases, application of group theory. We currently have several renderings for physical puzzles that haven't been built in real life yet; see the [Physical Puzzles](/puzzles/physical/index.md) page for an incomplete list.
 
 ## Speedsolving
 
 ### What are the speedsolving records for 4D puzzles?
 
-See the [leaderboards](/leaderboards). To get on the leaderboard, read the [submission guidelines](/leaderboards/rules) and submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
+See the [leaderboards](/leaderboards/index.md). To get on the leaderboard, read the [submission guidelines](/leaderboards/rules.md) and submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
 
 ### Why not use speedrun.com?
 
@@ -140,7 +140,7 @@ Square-1 is fundamentally a bandaged dodecagonal prism. There are so many ways t
 
 ### 4D Skewb
 
-Again, there's lots of ways to generalize a skewb. If you just want cuts that look like a skewb, there's a few different puzzles that emulate that. If you want a half-cut vertex-turning hypercube, that's a thing too! It just doesn't "look like" a traditional skewb. For more 4D skewbs, including pictures, see [here](/puzzles/4d-skewb).
+Again, there's lots of ways to generalize a skewb. If you just want cuts that look like a skewb, there's a few different puzzles that emulate that. If you want a half-cut vertex-turning hypercube, that's a thing too! It just doesn't "look like" a traditional skewb. For more 4D skewbs, including pictures, see [here](/puzzles/4d-skewb.md).
 
 ### 8-dimensional and higher
 

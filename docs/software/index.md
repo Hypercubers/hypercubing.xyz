@@ -14,13 +14,13 @@ For Android phones and tablets, you can download MC4D or MC4D (Raynefork) from t
 
 ## Recommended hypercubing software
 
-- [Hyperspeedcube](/software/hyperspeedcube)
-- [Magic Cube 4D](/software/magiccube4d)
+- [Hyperspeedcube](/software/hyperspeedcube.md)
+- [Magic Cube 4D](/software/magiccube4d.md)
 - [Magic Tile](http://roice3.org/magictile/)
 
 ## Other hypercubing software
 
-- [Magic Puzzle Ultimate](/software/magicpuzzleultimate)
+- [Magic Puzzle Ultimate](/software/magicpuzzleultimate.md)
 - [Magic Cube 5D](http://www.gravitation3d.com/magiccube5d/)
 - [Magic Cube 7D](https://superliminal.com/andrey/mc7d/)
 - [Magic 120 Cell](http://www.gravitation3d.com/magic120cell/index.html)

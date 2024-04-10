@@ -7,7 +7,7 @@ title: Canonical Moves
 !!! info
     Watch [Melinda Green's video](https://www.youtube.com/watch/DzRH8BOJL8Q) for a quick overview of the canonical moves
 
-The Canonical Moveset is a set of moves agreed upon by the community for solving the physical 2^4^. To get accepted into the official [Hall of Fame](https://superliminal.com/cube/2x2x2x2/#solutions), you **must** follow the canonical moves exactly. Make sure that you have already solved a [virtual 2^4^](/puzzles/2x2x2x2), and are familiar with how the pieces of the [physical 2^4^](/puzzles/physical/2x2x2x2) correspond. Also make sure that you know your 3D rotations (`x` `y` `z`) very well.
+The Canonical Moveset is a set of moves agreed upon by the community for solving the physical 2^4^. To get accepted into the official [Hall of Fame](https://superliminal.com/cube/2x2x2x2/#solutions), you **must** follow the canonical moves exactly. Make sure that you have already solved a [virtual 2^4^](/puzzles/2x2x2x2.md), and are familiar with how the pieces of the [physical 2^4^](/puzzles/physical/2x2x2x2/index.md) correspond. Also make sure that you know your 3D rotations (`x` `y` `z`) very well.
 
 ## Canonical Moves
 
@@ -63,7 +63,7 @@ There are several different algorithms for this, some of which gyro different ax
 
 ## Expanded Canonical Moveset
 
-The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](/leaderboards). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2), but weren't allowed in the canonical moveset because people agreed not to for some reason.
+The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](/leaderboards/index.md). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2.md), but weren't allowed in the canonical moveset because people agreed not to for some reason.
 
 ### Extra slab twists
 

@@ -1,6 +1,6 @@
 # RKT
 
-!!! warning "You must know 3^4^ [notation](/notation) in order for this page to make sense!"
+!!! warning "You must know 3^4^ [notation](/notation.md) in order for this page to make sense!"
 
 RKT is a technique that lets you treat a single cell of a (cell-turning) higher dimensional puzzle as if it were a lower dimensional puzzle. This is very useful to do moves that damage fewer pieces. For example: RKT lets you treat a side of a 3^4^ just like a 3^3^ cube, meaning that you can use all the 3D algorithms you already know to solve the full 4D puzzle.
 
@@ -31,7 +31,7 @@ RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's
 
 This can definitely be very confusing and disorienting to beginners, as you have to think about 3×3×3 moves with only R moves and rotations. It takes a lot of practice to get comfortable with RKT, but it is an **extremely** powerful technique.
 
-The best way to learn RKT before doing your first 3^4^ solve is by manually scrambling the last cell using any RO moves and random I cell rotations until it looks scrambled. Then practice doing [PLC](/methods/3x3x3x3/cfop#rkt-plc) by solving it with RKT.
+The best way to learn RKT before doing your first 3^4^ solve is by manually scrambling the last cell using any RO moves and random I cell rotations until it looks scrambled. Then practice doing [PLC](/methods/3x3x3x3/cfop.md#rkt-plc) by solving it with RKT.
 
 
 !!! tip
@@ -63,7 +63,7 @@ On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of
 
 ## Debt
 
-RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/cfop) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
+RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/cfop.md) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
 
 ## Cancels
 
@@ -124,7 +124,7 @@ RKT can be done by using 2 opposite sides (e.g. `RO` and `LO` turns) as well as 
 
 ## Higher Dimensional RKT
 
-The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *do* RKT in 5D+ puzzles. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do Double RKT. This generalizes to any number of dimensions, but the movecount doubles each time, making it impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](/techniques/commutators).
+The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *do* RKT in 5D+ puzzles. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do Double RKT. This generalizes to any number of dimensions, but the movecount doubles each time, making it impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](/techniques/commutators.md).
 
 ## RKT in 3D
 

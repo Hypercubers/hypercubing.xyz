@@ -1,6 +1,6 @@
 # Physical 2×2×2×2 Image Generator
 
-Generate an image of a physical 2×2×2×2 by inputting moves using [canonical moves notation](/puzzles/physical/2x2x2x2/canonical-moves), or by specifying the color per sticker. You can also do this directly from the URL by adding `?&moves=` or `?&stickers=` at the end, and using - to separate (and `H` instead of `#` for gyro).
+Generate an image of a physical 2×2×2×2 by inputting moves using [canonical moves notation](/puzzles/physical/2x2x2x2/canonical-moves.md), or by specifying the color per sticker. You can also do this directly from the URL by adding `?&moves=` or `?&stickers=` at the end, and using - to separate (and `H` instead of `#` for gyro).
 
 ??? note "Generate by move input"
     **Moves that the generator will accept:**

@@ -94,6 +94,6 @@ plugins:
       strict: false
   - gen-files:
       scripts:
-      - docs/leaderboards/generate_leaderboards.py
+      - leaderboards/generate_leaderboards.py
 hooks:
   - hooks/symbol_hooks.py

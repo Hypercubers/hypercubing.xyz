@@ -12,9 +12,7 @@ search:
 
 # Leaderboards
 
-World record database for higher dimensional twisty puzzle speedsolving! Verification is done by the moderator team of the Hypercubers Discord. Please read the [submission rules](/leaderboards/rules) carefully before submitting a request to add your time.
-
-
+World record database for higher dimensional twisty puzzle speedsolving! Verification is done by the moderator team of the Hypercubers Discord. Please read the [submission rules](rules.md) carefully before submitting a request to add your time.
 
 ??? abstract "Other places that various records are kept:"
     - [Magic Cube 4D Hall of Fame](https://superliminal.com/cube/halloffame.htm)

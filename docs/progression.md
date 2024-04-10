@@ -9,7 +9,6 @@ This is an outline of how to make your way through the world of hypercubing. Lea
 
 First, make sure you know how to solve a 3×3×3 Rubik's Cube. At the very minimum, knowing a beginner's method is enough, but knowing more advanced methods, such as CFOP or Roux, or more advanced techniques, such as blockbuilding or intuitive F2L, could make getting into hypercubing easier.
 
-<!-- I can't get × or & times; to work here -->
 ```mermaid
 flowchart LR
     A[3×3×3]
@@ -29,7 +28,7 @@ flowchart LR
 
 ## Other 4D Puzzles
 
-There are many types of 4D puzzles, not just the hypercubes. These include hypercuboids, duoprisms, reqular 4D polytopes, and more. These puzzles require much more knowledge than just the 3×3×3. You'll need to know how to solve 3D cuboids, and generally be able to figure out new puzzles using [commutators](/techniques/commutators).
+There are many types of 4D puzzles, not just the hypercubes. These include hypercuboids, duoprisms, reqular 4D polytopes, and more. These puzzles require much more knowledge than just the 3×3×3. You'll need to know how to solve 3D cuboids, and generally be able to figure out new puzzles using [commutators](/techniques/commutators.md).
 
 ```mermaid
 flowchart LR

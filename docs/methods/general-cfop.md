@@ -1,7 +1,7 @@
 # Generalized CFOP
 
 !!! info
-    This article is a generator for the steps of a dimension-generalized CFOP method. for CFOP on 3^4^, see [CFOP](/methods/3x3x3x3/cfop/).
+    This article is a generator for the steps of a dimension-generalized CFOP method. for CFOP on 3^4^, see [CFOP](/methods/3x3x3x3/cfop.md).
 
 <p>CFOP on: 3<sup><span id="sliderDisplay">5</span></sup></p>
 <input type="range" min="3" max="10" value="3" class="slider" id="myRange">

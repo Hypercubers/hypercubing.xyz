@@ -46,7 +46,7 @@ Because of all this recognition, many new people bought the puzzle, but it was s
     ![Physical to virtual 2×2×2×2 transformation 2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_anim2.gif){width="40%"}
     </center>
 
-Each twist and rotation on the virtual 2^4^ is possible to do on the physical puzzle, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves) page for a more detailed explanation.
+Each twist and rotation on the virtual 2^4^ is possible to do on the physical puzzle, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves.md) page for a more detailed explanation.
 
 Also see Melinda's [video](https://www.youtube.com/watch?v=DzRH8BOJL8Q) on the official canonical moves.
 

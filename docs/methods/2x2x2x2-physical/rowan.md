@@ -18,7 +18,7 @@ Before starting the solve, inspect the puzzle for an opposite colour pair that h
 
 ### Getting 8 Oriented to Y-axis
 
-Hold the puzzle vertically, and use block building to orient 8 pieces on a cell to the y-axis using the same colour pair that has 4 or less from inspection. This step is intuitive and does not require any [RKT](/techniques/rkt).
+Hold the puzzle vertically, and use block building to orient 8 pieces on a cell to the y-axis using the same colour pair that has 4 or less from inspection. This step is intuitive and does not require any [RKT](/techniques/rkt.md).
 
 <center>![8 to y on 2×2×2×2](https://cloud.hypercubing.xyz/assets/img/phys/rowans_method/2x2x2x2_rowan_8_ud.png){width="50%"}
 

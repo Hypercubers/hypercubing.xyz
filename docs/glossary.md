@@ -50,7 +50,7 @@ We prefer words rather than 1c, 2c, etc. because the words generalize better to 
 
 ### Actions
 
-An **action** is sequence of moves that preserves invariants of the stage. Usually, an action keeps certain pieces solved. For example, when a 4^n^ has been reduced to a 3^n^ using [big cube reduction](/methods/big-cube-reduction), outer layer moves are the only actions. In this case, the actions are **reduced** moves. Another common set of actions is [RKT](/techniques/rkt).
+An **action** is sequence of moves that preserves invariants of the stage. Usually, an action keeps certain pieces solved. For example, when a 4^n^ has been reduced to a 3^n^ using [big cube reduction](/methods/big-cube-reduction.md), outer layer moves are the only actions. In this case, the actions are **reduced** moves. Another common set of actions is [RKT](/techniques/rkt.md).
 
 ### Parity
 
@@ -61,7 +61,7 @@ There is no community consensus on the definitions of **parity**. Below are some
     - Melinda's definition: a local maximum, where the puzzle is largely solved but requires many moves to fix
     - Hactar's definition: a case which cannot be solved using the [actions](#actions) expected at this stage in the solve
 
-None of these definitions are satisfactory. According to most of these definitions, [RKT parity](/techniques/rkt#parity) is not parity at all, but is more accurately called "RKT error." According to Melinda's definition, most [PLL](https://www.speedsolving.com/wiki/index.php/PLL) cases are parity. The first definition given for "cuber parity" is highly subjective, but is the only one that captures its current use.
+None of these definitions are satisfactory. According to most of these definitions, [RKT parity](/techniques/rkt.md#parity) is not parity at all, but is more accurately called "RKT error." According to Melinda's definition, most [PLL](https://www.speedsolving.com/wiki/index.php/PLL) cases are parity. The first definition given for "cuber parity" is highly subjective, but is the only one that captures its current use.
 
 !!! question "Open questions"
     - Is there a definition for "cuber parity" that captures the way it's naturally used?
