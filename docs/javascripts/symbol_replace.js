@@ -5,7 +5,6 @@ function replaceSymbols(event){
         });
 }
 
-// do it twice, once when the script loads and once when the document loads
-// so it always replaces the symbols properly
-replaceSymbols();
-document.addEventListener('load', replaceSymbols);
+document$.subscribe(() => { 
+    replaceSymbols();
+});

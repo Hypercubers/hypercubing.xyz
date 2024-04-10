@@ -29,7 +29,7 @@ RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's
 2. Rewrite cube rotations in this new algorithm (`x`, `y`, or `z`) to their respective I cell rotation (`IR`, `IU`, `IF`)
 3. Replace all R moves with their RO counterpart
 
-This can definitely be very confusing and disorienting to beginners, as you have to think about 3x3x3 moves with only R moves and rotations. It takes a lot of practice to get comfortable with RKT, but it is an **extremely** powerful technique.
+This can definitely be very confusing and disorienting to beginners, as you have to think about 3×3×3 moves with only R moves and rotations. It takes a lot of practice to get comfortable with RKT, but it is an **extremely** powerful technique.
 
 The best way to learn RKT before doing your first 3^4^ solve is by manually scrambling the last cell using any RO moves and random I cell rotations until it looks scrambled. Then practice doing [PLC](/methods/3x3x3x3/cfop#rkt-plc) by solving it with RKT.
 
@@ -42,12 +42,12 @@ Another popular way to do RKT is to use wide O cell turns (instead of normal I c
 ## Parity
 
 !!! warning inline end "RKT Parity"
-    ![RKT parity on the last layer of the last cell of a 3x3x3x3](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_parity.png)
+    ![RKT parity on the last layer of the last cell of a 3×3×3×3](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_parity.png)
 
 RKT parity is a state you can get to that appears to rotate a single layer of a cell by 180°.
 If you try and fix this with RKT, then the outer layers will be off by 180°. This means that you must use an algorithm (or intuition) to solve it.
 
-You can use a 3D supercube algorithm that rotates the U center 180° (`5x(R U R' U)`, or `2x(L R U2 R' L' U)`).
+You can use a 3D supercube algorithm that rotates the U center 180° (`(R U R' U)5`, or `(L R U2 R' L' U)2`).
 
 Harder to memorize (but much lower in movecount) is this 9-mover RKT parity alg:
 `IU UR IU' IF' UO' IF RF UR RF' UIR`, found by Tetrian22.
@@ -130,4 +130,4 @@ The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *
 
 If RKT treats a single layer of an n^d^ puzzle like an n^d-1^ puzzle, then technically the last step of the 3^3^ [Roux method](https://www.speedsolving.com/wiki/index.php?title=Roux_method) counts as RKT. The last step of Roux is to permute the M-slice like a 3^2^ (with mirroring moves allowed).
 
-Another thing that "feels like RKT" is solving 3x3xn cuboids where $n>3$. A typical strategy for these is to solve from the innermost layers to the outermost layers, treating it as several nested 3x3x2 puzzles. Doing an R2 on the whole puzzle does an R2 to each of the subpuzzles.
+Another thing that "feels like RKT" is solving 3×3×n cuboids where $n>3$. A typical strategy for these is to solve from the innermost layers to the outermost layers, treating it as several nested 3×3×2 puzzles. Doing an R2 on the whole puzzle does an R2 to each of the subpuzzles.

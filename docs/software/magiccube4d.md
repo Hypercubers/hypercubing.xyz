@@ -3,7 +3,7 @@
 Magic Cube 4D was one of the first ever programs capable of simulating higher dimensional twisty puzzles. It was made starting in 1988 by Melinda Green, Don Hatch, Jay Berkenbilt, and Roice Nelson.
 
 <center>
-![3x3x3x3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
+![3×3×3×3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
 
 <small> 3^4^ puzzle in Magic Cube 4D </small> </center>
 

@@ -2,7 +2,7 @@
 title: Grant's OBC Method
 ---
 
-# Grant's OBC Method for physical 2x2x2x2
+# Grant's OBC Method for physical 2×2×2×2
 
 Grant's OBC Method uses only 3 gyros, making it much faster than Rowan's OBC Method. It works by secretly setting up to an H OCLL case while orienting both cells.
 

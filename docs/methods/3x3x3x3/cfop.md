@@ -24,12 +24,12 @@ Using the same techniques from 3D, intuitively place the cross 2c pieces such th
 
 ### F2L-a
 
-Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitve setups. Now, you should be able to pair them up using "normal" looking 3x3x3 moves.
+Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitve setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
 
 Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
 !!! warning "Misoriented pairs"
-    It is possible to insert a pair into its slot, but rotated in place. Make sure to line it up so that it looks like a normal 3x3x3 case before inserting the pair. Oftentimes, this just means doing a Ux2 or Uz2 move beforehand.
+    It is possible to insert a pair into its slot, but rotated in place. Make sure to line it up so that it looks like a normal 3×3×3 case before inserting the pair. Oftentimes, this just means doing a Ux2 or Uz2 move beforehand.
 
 ### F2L-b
 
