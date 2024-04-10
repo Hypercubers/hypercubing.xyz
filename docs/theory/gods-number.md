@@ -1,6 +1,6 @@
 # God's Number
 
-**God's number** is the minimum number of moves that is sufficient to solve a twisty puzzle from any starting position. For 3x3x3, this has [been been proven][cube20] to be 20 HTM (or 26 QTM).
+**God's number** is the minimum number of moves that is sufficient to solve a twisty puzzle from any starting position. For 3×3×3, this has [been been proven][cube20] to be 20 HTM (or 26 QTM).
 
 God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to scan $\sim 4.3 \times 10^{19}$ states. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
 
@@ -12,7 +12,7 @@ There are three strategies we can use to estimate it:
 
 [cube20]: http://cube20.org/
 
-## 2x2x2x2
+## 2×2×2×2
 
 ### Lower bound
 
@@ -41,7 +41,7 @@ God's number for 2^4^ is definitely between 10 and 39 inclusive, and probably $\
 
     If you're an expert in quantum computing then perhaps you can devise some clever quantum algorithm to help, but as of 2023 quantum computers haven't solved a single real-world problem faster than a classical computer so we remain skeptical.
 
-## 3x3x3x3
+## 3×3×3×3
 
 ### Lower bound
 
@@ -81,7 +81,7 @@ HactarCE computed a generous upper bound of 570 STM using CFOP.
             - arrange the cases so that the 3 unsolved corners left will form a sune
         - 13 STM to solve each OLL case on U/D using RKT cancels (worst case is double antisune)
         - 9 STM to solve the remaining sune case
-    - ridge PLC: **14 STM** (2x U perm in the worst case)
+    - ridge PLC: **14 STM** (2× U perm in the worst case)
     - PLC: **42 STM**
         - solve a 3^3 using Dod's algorithm in 20 moves
         - adjust I cell to solve
