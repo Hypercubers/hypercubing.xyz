@@ -62,3 +62,7 @@ We are hosting images using a [private Nextcloud instance](https://cloud.hypercu
 ## Abbreviations
 
 Abbreviations are listed in `includes/abbreviations.md`. Be careful adding new ones, lest you create another [Grant Standingslice incident](/jokes#grant-standingslice).
+
+## Style
+
+When naming a puzzle with a product in its name, prefer the cross symbol `×` over `x` (e.g. `3×3×3×3` vs. `3x3x3x3`). By using the unicode `×` in the source file, the site will automatically make it searchable using `x`. In an environment where you cannot use unicode `×`, use the HTML escape `&times;`.

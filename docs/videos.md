@@ -15,8 +15,8 @@ List of popular videos and playlists related to hypercubing.
 ### YouTube Playlists
 - [Introduction to Hypercubing](https://www.youtube.com/playlist?list=PLKwXjCUFqOBFC9sjYtijVALmZSJK8Djo1)
 - [Hypercubing Crash Course](https://www.youtube.com/playlist?list=PLBQ7ltR88PRv9Rmrv7iRhupGaazEPWZi5)
-- [Melinda's 2x2x2x2 UWRs in order](https://www.youtube.com/playlist?list=PLKwXjCUFqOBEIcUtV46HcaWR7epO8wkVC)
-- [3x3x3x3 UWRs](https://www.youtube.com/playlist?list=PLKwXjCUFqOBHB2I6ZS3lLnsbAtyTZSJPh)
+- [Melinda's 2×2×2×2 UWRs in order](https://www.youtube.com/playlist?list=PLKwXjCUFqOBEIcUtV46HcaWR7epO8wkVC)
+- [3×3×3×3 UWRs](https://www.youtube.com/playlist?list=PLKwXjCUFqOBHB2I6ZS3lLnsbAtyTZSJPh)
 - [4D Twisty Puzzles](https://www.youtube.com/playlist?list=PLx1mIVtz33hITKuvUBhswO5Cd4In4ajQr)
-- [Melinda's 2x2x2x2](https://www.youtube.com/playlist?list=PLx1mIVtz33hLPgMQ_5DRG1kq1P5GNeKKC)
+- [Melinda's 2×2×2×2](https://www.youtube.com/playlist?list=PLx1mIVtz33hLPgMQ_5DRG1kq1P5GNeKKC)
 - [Grant's hypercubing videos](https://www.youtube.com/playlist?list=PLMfvDuBNaWYOv-KRKEkQHAe8hwVkxwIJG)

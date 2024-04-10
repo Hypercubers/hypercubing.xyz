@@ -18,12 +18,12 @@ hide: [navigation, toc]
 - [Virtual puzzles](#virtual-puzzles)
     - [What program should I download?](#what-program-should-i-download)
     - [How do I start learning to solve 4D puzzles?](#how-do-i-start-learning-to-solve-4d-puzzles)
-    - [Why not start with the 2x2x2x2?](#why-not-start-with-the-2x2x2x2)
-    - [What methods exist for the 3x3x3x3?](#what-methods-exist-for-the-3x3x3x3)
+    - [Why not start with the 2×2×2×2?](#why-not-start-with-the-2x2x2x2)
+    - [What methods exist for the 3×3×3×3?](#what-methods-exist-for-the-3x3x3x3)
     - [What is God's number for \[puzzle\]?](#what-is-gods-number-for-puzzle)
 - [Physical puzzles](#physical-puzzles)
     - [What is a physical 4D puzzle](#what-is-a-physical-4d-puzzle)
-    - [How do I buy a physical 2x2x2x2?](#how-do-i-buy-a-physical-2x2x2x2)
+    - [How do I buy a physical 2×2×2×2?](#how-do-i-buy-a-physical-2x2x2x2)
     - [How do I buy another physical puzzle?](#how-do-i-buy-another-physical-puzzle)
     - [What physical 4D puzzles have been built?](#what-physical-4d-puzzles-have-been-built)
     - [What physical 4D puzzles are possible?](#what-physical-4d-puzzles-are-possible)
@@ -69,11 +69,11 @@ It depends on what exactly you want to do, but generally, [Hyperspeedcube](https
 
 First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](/methods) to learn.
 
-### Why not start with the 2x2x2x2?
+### Why not start with the 2×2×2×2?
 
 The 2^4^ is particularly disorienting for beginners because half of the puzzle turns at once. As a result, while the 2^4^ strategy is technically simpler, it's actually more challenging to wrap your head around, especially when you're new to 4D puzzles. Just like how the 3^3^ is a better starting puzzle in 3D, you can learn lots of important concepts from the 3^4^ that will help you with other 4D puzzles.
 
-### What methods exist for the 3x3x3x3?
+### What methods exist for the 3×3×3×3?
 
 Many 3D methods can just be scaled up and used on the 4D cube. Some notable methods are:
 
@@ -98,9 +98,9 @@ The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 
 - [Physical Puzzle](http://wiki.superliminal.com/wiki/Physical_Puzzle) on the Superliminal Wiki
 - [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA)
 
-### How do I buy a physical 2x2x2x2?
+### How do I buy a physical 2×2×2×2?
 
-See the [Ordering Melinda's 2x2x2x2](https://superliminal.com/cube/2x2x2x2/ordering.html) on the Superliminal website. Also see [Melinda's 2x2x2x2](https://superliminal.com/cube/2x2x2x2/) on the Superliminal site, which includes the history, statistics, and Hall of Fame.
+See the [Ordering Melinda's 2×2×2×2](https://superliminal.com/cube/2x2x2x2/ordering.html) on the Superliminal website. Also see [Melinda's 2×2×2×2](https://superliminal.com/cube/2x2x2x2/) on the Superliminal site, which includes the history, statistics, and Hall of Fame.
 
 ### How do I buy another physical puzzle?
 

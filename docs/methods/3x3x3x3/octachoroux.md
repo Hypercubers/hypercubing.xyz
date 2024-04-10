@@ -4,12 +4,12 @@
     - `Algorithms:` 3D Roux + [RKT Parity](/techniques/rkt/#parity)
     - `Move count:` way too many
 
-This method is Rowan Fortier's attempt to bring the [Roux method](https://www.speedsolving.com/wiki/index.php/Roux_method) to the 3x3x3x3.
+This method is Rowan Fortier's attempt to bring the [Roux method](https://www.speedsolving.com/wiki/index.php/Roux_method) to the 3×3×3×3.
 
 ## Summary
 
-1. `1st Block` — Solve a 1x2x3x3 block using blockbuilding techniques.
-2. `2nd Block` — Solve a 1x2x3x3 block on the other side of the puzzle.
+1. `1st Block` — Solve a 1×2×3×3 block using blockbuilding techniques.
+2. `2nd Block` — Solve a 1×2×3×3 block on the other side of the puzzle.
 3. `CMLC` — Orient and permute the corners of the U cell.
 4. `L/R` — Solve the Left and Right cells.
 5. `M slice` - Permute the M slice.
@@ -18,10 +18,10 @@ This method is Rowan Fortier's attempt to bring the [Roux method](https://www.sp
 
 ### 1st Block
 
-Start with the "cross piece" of the 1st block. Then build four 2c3c and four 3c4c pairs around it, to complete the 1x2x3x3 block. No RKT is needed for this, as none of the other pieces have been solved yet.
+Start with the "cross piece" of the 1st block. Then build four 2c3c and four 3c4c pairs around it, to complete the 1×2×3×3 block. No RKT is needed for this, as none of the other pieces have been solved yet.
 
 ### 2nd Block
-Use the free M slice to help you build the pairs to make the 2nd 1x2x3x3 block on the opposite side of the puzzle from the 1st block.
+Use the free M slice to help you build the pairs to make the 2nd 1×2×3×3 block on the opposite side of the puzzle from the 1st block.
 
 ### CMLC
 Use the same strategies from [CFOP](/methods/3x3x3x3/cfop#4c-olc), but only for the 4C pieces. This step feels like solving the last cell of a 2^4^, except you have to use 3^4^ algorithms so that you don't mess up other pieces.

@@ -2,9 +2,9 @@
 
 [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) is a modern, beginner-friendly 3D and 4D Rubik’s cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving. It’s been used to break numerous speedsolving records.
 
-![3x3x3x3 with the far cell mid-twist](https://cloud.hypercubing.xyz/assets/img/virt/hsc/mid_twist.png){ width="30%" }
-![3x3x3x3 near the end of F2L-b with many tools and settings windows open](https://cloud.hypercubing.xyz/assets/img/virt/hsc/tools.png){ width="30%" }
-![Solved 2x2x2](https://cloud.hypercubing.xyz/assets/img/virt/hsc/solved_2x2x2.png){ width="30%" }
+![3×3×3×3 with the far cell mid-twist](https://cloud.hypercubing.xyz/assets/img/virt/hsc/mid_twist.png){ width="30%" }
+![3×3×3×3 near the end of F2L-b with many tools and settings windows open](https://cloud.hypercubing.xyz/assets/img/virt/hsc/tools.png){ width="30%" }
+![Solved 2×2×2](https://cloud.hypercubing.xyz/assets/img/virt/hsc/solved_2x2x2.png){ width="30%" }
 
 ## Download/installation
 
@@ -52,7 +52,7 @@ HSC 2.0 is the next major update in the works, with no set release date as of ye
 ![Hypercuboid midway through turn](https://cloud.hypercubing.xyz/assets/img/virt/hsc/janky_cuboid.png?width=817&height=671){width="45%"}
 ![3D Jing's pyraminx puzzle in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/jing_crash.png){width="45%"}
 
-![{3}x{5} duoprism in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/duoprism.png){width="45%"}
+![{3}×{5} duoprism in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/duoprism.png){width="45%"}
 ![120-cell in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/120_cell.png){width="45%"}
 
 <center><small> Development screenshots by Hactar </small> </center>
