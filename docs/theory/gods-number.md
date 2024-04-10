@@ -83,7 +83,7 @@ HactarCE computed a generous upper bound of 570 STM using CFOP.
         - 9 STM to solve the remaining sune case
     - ridge PLC: **14 STM** (2x U perm in the worst case)
     - PLC: **42 STM**
-        - solve a 3^3 using Dod's algorithm in 20 moves
+        - solve a 3^3 using God's algorithm in 20 moves
         - adjust I cell to solve
 
 [OCLL]: https://www.speedsolving.com/wiki/index.php?title=OLL#All_edges_flipped_correctly
