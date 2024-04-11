@@ -1,7 +1,7 @@
 # Physical Puzzles
 
 !!! warning
-    It is highly recommended to learn how [virtual puzzles](/puzzles/index.md) work first before trying to understand the physical puzzles.
+    It is highly recommended to learn how [virtual puzzles](/puzzles/index.md) work first before trying to understand the physical puzzles. See [Why not start with the physical 2×2×2×2?](/faq.md#why-not-start-with-the-physical-2222).
 
 !!! info inline end "Physical 3×3×3×3"
     ![Grant's physical 3×3×3×3](https://cloud.hypercubing.xyz/assets/img/phys/grant_3x3x3x3_render.png){width="100%"}
