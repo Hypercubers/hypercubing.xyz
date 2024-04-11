@@ -1,6 +1,6 @@
 # Magic Puzzle Ultimate
 
-[Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) (MPU) is a program made by [Andrey Astrelin](https://superliminal.com/andrey/) that simulates a lot of different puzzles, as well as letting you define your own.
+[Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) (MPU or MPUlt) is a higher-dimensional puzzle simulator developed by [Andrey Astrelin](https://superliminal.com/andrey/) that can simulate nearly any symmetric doctrinaire puzzle and supports, including user-defined ones.
 
 [Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary }
 

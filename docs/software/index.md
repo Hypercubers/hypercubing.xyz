@@ -1,21 +1,25 @@
 # Software
 
-Hypercubing is mostly experienced through the various programs that exist to simulate higher dimensional puzzles. Below is a list of the programs.
+Since building [physical representations](/puzzles/physical/index.md) of higher-dimensional puzzles is challenging, we use computer software to simulate them.
 
 ## What program should I download?
 
-It depends on what exactly you want to do. If you want the best experience for solving the n^4^, then Hyperspeedcube is the way to go.
+We recommend [Hyperspeedcube][hsc] to get started.
 
-If you want to level up to higher dimensions, then try MC5D, MC7D, MPU, and MS5D.
+If you want macro support (recorded sequences of moves) or other 4D puzzles, [Magic Cube 4D][mc4d] is a good option.
 
-If you want to try puzzles in Non-Euclidean geometries, then try MagicTile and Magic Hyperbolic Tile.
+- For 5D+ puzzles: [Magic Cube 5D][mc5d], [Magic Cube 7D][mc7d], and [Magic Puzzle Ultimate][mpu]
+- For puzzles in non-Euclidean geometries: [MagicTile][mt]
+- For 3D puzzles: [pCubes][pcubes]
 
-For Android phones and tablets, you can download MC4D (Raynefork) from the Google Play Store.
+For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS apps](#ios-apps).
+
+## General cubing & hypercubing
 
 <!-- %features{mksftMTcpv} -->
 <!-- %platforms{wlab} -->
 
-??? info "Feature matrix icon legend"
+??? question "What do the icons mean?"
     - :material-mouse: Mouse controls
     - :material-keyboard: Keyboard controls
     - :material-keyboard-settings: Customizable keyboard controls
@@ -28,8 +32,6 @@ For Android phones and tablets, you can download MC4D (Raynefork) from the Googl
     - :material-pencil-plus: Custom puzzles
     - :material-virtual-reality: VR support
 
-## General hypercubing software
-
 | Program                                     |                                                 Platforms | Features              | Puzzles                |
 | ------------------------------------------- | --------------------------------------------------------: | --------------------- | ---------------------- |
 | [Hyperspeedcube][hsc]                       |    [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsf___c__} | {1-9}^{3-4}^           |
@@ -41,6 +43,7 @@ For Android phones and tablets, you can download MC4D (Raynefork) from the Googl
 | [Magic Cube 4D VR][mc4d-vr]                 |                       :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                   |
 | [Flat Hypercube][flat]                      |   [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_k________} | {1-19}^{1-8}^          |
 | [Gelatinbrain][gelatinbrain][^gelatinbrain] |               :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things     |
+| [pCubes][pCubes]                            |                                          %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
@@ -58,6 +61,7 @@ For Android phones and tablets, you can download MC4D (Raynefork) from the Googl
 [flat]: https://github.com/milojacquet/flat-hypercube
 [flat-src]: https://github.com/milojacquet/flat-hypercube
 [gelatinbrain]: https://github.com/Hypercubers/gelatinbrain/
+[pCubes]: https://twistypuzzles.com/forum/viewtopic.php?t=27054
 
 [^gelatinbrain]: Full name: gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)
 
@@ -77,50 +81,59 @@ For Android phones and tablets, you can download MC4D (Raynefork) from the Googl
 [11cell]: https://superliminal.com/cube/ElevenCell.jar
 [mht633]: https://superliminal.com/andrey/mht633/
 
+### 1D and 2D puzzles
+
+- [k-Card Game](https://masonhorne.github.io/k-Card-Game/)
+- [Loopover](https://loopover.xyz/)
+- [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
+
+### Complex & laminated puzzles
+
+- [Complex Cube](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=22353)
+- [Luna's Complex Puzzles](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html)
+- [Milo's laminated puzzles](https://github.com/milojacquet/laminated)
+- [Complex loopover](https://milojacquet.com/loopover/complex)
+- [Slidysim](https://www.slidysim.com/)
+- [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
+
+### Other
+
+- [Nan Ma's puzzles](https://www.nan.ma/) (Reflecube, Lollipop, Clockwork Cube, and more)
 - [Akkei's physical 3^4^ program][akkei-phys]
+- [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
+- [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
+- [MagmaMcFry's Quaternion Cube](https://magmamcfry.github.io/QuaternionCube/)
+- [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
 
 [akkei-phys]: https://drive.google.com/drive/folders/1xBEKkGYIFKSAcIgJjPCIx_W0vdJawuZ0
 
-## Hypercubing software for mobile (not recommended)
+## Android apps
 
-These apps are available for Android:
+Hypercubing on mobile devices is not recommended; however, if this is your only option, these apps are available for Android:
 
-- [Magic Cube 4D (Raynefork)](https://play.google.com/store/apps/details?id=me.rayzz.magiccube4d)
+- [Magic Cube 4D (Raynefork)](https://play.google.com/store/apps/details?id=me.rayzz.magiccube4d) (recommended)
 - <strike>[Magic Cube 4D](https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d)</strike> (superceded by Raynefork)
 - [The Tesseract Puzzle](https://play.google.com/store/apps/details?id=com.MadMagics.OpenGL_Shaders)
 - [4D Hypercube Puzzle](https://play.google.com/store/apps/details?id=com.tesseract_game&hl=en_US&gl=US)
 
+## iOS apps
+
 There are no known apps for hypercubing on iOS.
 
-## Other recommended 4D software
+If you're able to connect an external mouse & keyboard, the [web version of Hyperspeedcube][hsc-web] may work on mobile devices but it's not officially supported.
+
+[hsc-web]: https://hypercubing.xyz/hyperspeedcube/
+
+## Tools
+
+- [Orb](https://milojacquet.com/twisty/orb), for planning puzzle cut depths
+- [RocKeT](https://github.com/HactarCE/rocket), for finding RKT cancels for 3D algorithms
+
+## Games
+
+This is not a complete list of 4D games. This is specifically 4D software that hypercubers often recommend for understanding 4D geometry better.
 
 - [4D Blocks](https://www.urticator.net/blocks/)
-
-## Recommended cubing software
-
-- [pCubes](https://twistypuzzles.com/forum/viewtopic.php?t=27054)
-- [Complex Cube](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=22353)
-- [Luna's Complex Puzzles](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html)
-- [Nan Ma's puzzles](https://www.nan.ma/) (Reflecube, Lollipop, Clockwork Cube, and more)
-- [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
-- [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
-- [Milo's laminated puzzles](https://github.com/milojacquet/laminated)
-- [MagmaMcFry's Quaternion Cube](https://magmamcfry.github.io/QuaternionCube/)
-
-## Recommended cubing-adjacent puzzle software
-
-- [k-Card Game](https://masonhorne.github.io/k-Card-Game/)
-- [Loopover](https://loopover.xyz/)
-    - [Complex loopover](https://milojacquet.com/loopover/complex)
-- [Slidysim](https://www.slidysim.com/)
-- [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
-- [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
-- [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
-
-## Recommended hypercubing tools
-
-- [Orb](https://milojacquet.com/twisty/orb)
-- [RocKeT](https://github.com/HactarCE/rocket)
 
 ## Visualizations
 
