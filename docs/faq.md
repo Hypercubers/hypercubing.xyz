@@ -17,7 +17,7 @@ hide: [navigation, toc]
     - [Where can I interact with other hypercubers?](#where-can-i-interact-with-other-hypercubers)
 - [Virtual puzzles](#virtual-puzzles)
     - [What program should I download?](#what-program-should-i-download)
-    - [How can I learn to solve 3×3×3×3?](#how-can-i-learn-to-solve-the-3333)
+    - [How do I learn to solve 3×3×3×3?](#how-do-i-learn-to-solve-the-3333)
     - [What methods exist for the 3×3×3×3?](#what-methods-exist-for-the-3333)
     - [Why not start with the physical 2×2×2×2?](#why-not-start-with-the-physical-2222)
     - [Why not start with the virtual 2×2×2×2?](#why-not-start-with-the-virtual-2222)
@@ -28,6 +28,9 @@ hide: [navigation, toc]
     - [How can I buy other physical puzzles?](#how-can-i-buy-other-physical-puzzles)
     - [What physical 4D puzzles have been built?](#what-physical-4d-puzzles-have-been-built)
     - [What physical 4D puzzles are possible?](#what-physical-4d-puzzles-are-possible)
+- [Hyperspeedcube](#hyperspeedcube)
+    - [Does Hyperspeedcube run on my OS?](#does-hyperspeedcube-run-on-my-os)
+    - [I get an error when I try to run Hyperspeedcube](#i-get-an-error-when-i-try-to-run-hyperspeedcube)
     - [How do I use keybinds in Hyperspeedcube?](#how-do-i-use-keybinds-in-hyperspeedcube)
     - [How do I use piece filters in Hyperspeedcube?](#how-do-i-use-piece-filters-in-hyperspeedcube)
 - [Speedsolving](#speedsolving)
@@ -66,9 +69,9 @@ Before the Google Group or Discord server, there was a Yahoo Groups mailing list
 
 ### What program should I download?
 
-It depends on what exactly you want to do, but generally, [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) and [MC4D](https://superliminal.com/cube/) will suit your needs. See the [software](/software/index.md) page for links to all the major programs.
+See the [software](/software/index.md) page for a list of hypercubing software and feature comparisons.
 
-### How can I learn to solve the 3×3×3×3?
+### How do I learn to solve the 3×3×3×3?
 
 We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It's a fantastic puzzle and you'll learn a lot!
 
@@ -151,6 +154,24 @@ See [Physical Puzzles](/puzzles/physical/index.md) for a comprehensive list.
 
 While it's always possible to just arrange the stickers on a table, the real challenge is in finding a design that is piece-based instead of sticker-based and fits in a compact shape that isn't too horrendous to turn. This requires some out-of-the-box thinking and, in extreme cases, application of group theory. We currently have several renderings for physical puzzles that haven't been built in real life yet; see the [Physical Puzzles](/puzzles/physical/index.md) page for an incomplete list.
 
+## Hyperspeedcube
+
+### Does Hyperspeedcube run on my OS?
+
+Hyperspeedcube runs natively on Windows, macOS, and Linux. There is also a [web version](https://hypercubing.xyz/hyperspeedcube/), which runs on Chromebooks or other devices where the downloaded version does not work. See []
+
+### I get an error when I try to run Hyperspeedcube
+
+See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooting).
+
+### How do I use keybinds in Hyperspeedcube?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yRt5DVqjnEo?si=UF-_6gf6VgM41Nnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### How do I use piece filters in Hyperspeedcube?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Speedsolving
 
 ### What are the speedsolving records for 4D puzzles?
@@ -168,14 +189,6 @@ Absolutely! Most 4D speed methods are highly intuitive, and world-record times o
 ### What 4D algorithms are there?
 
 There's so many cases for each step of the solve that creating a complete algorithm set is basically impossible, and there's so many options for moves that algorithm explorers are infeasible. Almost every algorithm we have is based on an algorithm from 3D, and the only search program we have is a sort of optimizer for one very specific kind of algorithm derived from 3D.
-
-### How do I use keybinds in Hyperspeedcube?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yRt5DVqjnEo?si=UF-_6gf6VgM41Nnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### How do I use piece filters in Hyperspeedcube?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Does this puzzle exist?
 
