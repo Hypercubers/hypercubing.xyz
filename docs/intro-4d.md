@@ -1,4 +1,4 @@
-# Tutorial
+# Introduction to 4D
 
 This page aims to teach you the fundamentals of understanding higher dimensional space, some of the shapes that exist in them, and how we can turn them into twisty puzzles to play with.
 
@@ -10,7 +10,6 @@ The [4th dimension](https://en.wikipedia.org/wiki/Four-dimensional_space) is a s
 
 !!! example "Dimension Levels (by NerdBoy1392 - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=5514315))"
     ![Dimensions](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dimension_levels.svg/1920px-Dimension_levels.svg.png)
-
 
 ## Understanding 4D shapes
 

@@ -1,5 +1,6 @@
 nav:
   - Wiki:
+    - intro-4d.md
     - ...
     - jokes.md
   - faq.md
