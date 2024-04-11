@@ -42,7 +42,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Hypercubers
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/3hVSe8rDKa
+      link: https://discord.gg/xxFvfyx89p
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
@@ -76,6 +76,8 @@ markdown_extensions:
         format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - sane_lists
+  - smarty
   - tables
   - pymdownx.arithmatex:
       generic: true

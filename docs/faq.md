@@ -56,7 +56,7 @@ Our eyes see only a 2D projection of the 3D world, and we're able to reconstruct
 
 ### Where can I interact with other hypercubers?
 
-- The [Hypercubers Discord Server](https://discord.gg/7cdBEm49xQ) has the most active community of hypercubers and contains the latest updates on developing projects and speedsolving strategies.
+- The [Hypercubers Discord Server](https://discord.gg/xxFvfyx89p) has the most active community of hypercubers and contains the latest updates on developing projects and speedsolving strategies.
 - The [Hypercubing Google Group](https://groups.google.com/g/hypercubing) is a good option for those who prefer mailing lists or less frequent updates.
 - The [r/Hypercubers subreddit](https://www.reddit.com/r/Hypercubers/) is mostly inactive.
 
@@ -78,7 +78,7 @@ We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server](https://discord.gg/7cdBEm49xQ).
+Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server](https://discord.gg/xxFvfyx89p).
 
 
 ### What methods exist for the 3×3×3×3?
