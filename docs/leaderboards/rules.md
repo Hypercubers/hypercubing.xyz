@@ -59,7 +59,7 @@ See [Canonical Moves](/puzzles/physical/2x2x2x2/canonical-moves.md) for more det
         - All R and L cell rotations
         - U/D y2
         - F/B z2
-        - I/O x* (aka axial twist)
+        - I/O x* (a.k.a. axial twist)
         - Any of many equivalent gyro algorithms
     - Additional moves:
         - U/D x2/z2
