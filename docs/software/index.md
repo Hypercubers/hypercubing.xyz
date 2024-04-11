@@ -86,15 +86,15 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [k-Card Game](https://masonhorne.github.io/k-Card-Game/)
 - [Loopover](https://loopover.xyz/)
 - [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
+- [Slidysim](https://www.slidysim.com/)
+- [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
 
 ### Complex & laminated puzzles
 
+- [Complex Loopover](https://milojacquet.com/loopover/complex)
 - [Complex Cube](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=22353)
 - [Luna's Complex Puzzles](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html)
 - [Milo's laminated puzzles](https://github.com/milojacquet/laminated)
-- [Complex loopover](https://milojacquet.com/loopover/complex)
-- [Slidysim](https://www.slidysim.com/)
-- [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
 
 ### Other
 
