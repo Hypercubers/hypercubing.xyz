@@ -97,6 +97,9 @@ plugins:
   - gen-files:
       scripts:
       - leaderboards/generate_leaderboards.py
+  - redirects:
+      redirect_maps:
+        'discord.md': 'https://discord.gg/xxFvfyx89p'
 hooks:
   - hooks/feature_matrix.py
   - hooks/symbol_hooks.py

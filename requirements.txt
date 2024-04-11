@@ -1,6 +1,7 @@
 mkdocs==1.5.3
 mkdocs-abs-rel-plugin==0.2.4
 mkdocs-awesome-pages-plugin==2.9.2
-mkdocs-material==9.5.17
 mkdocs-gen-files==0.5.0
 mkdocs-glightbox==0.3.7
+mkdocs-material==9.5.17
+mkdocs-redirects==1.2.1
