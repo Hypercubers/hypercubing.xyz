@@ -79,7 +79,7 @@ For Android phones and tablets, you can download MC4D (Raynefork) from the Googl
 
 - [Akkei's physical 3^4^ program][akkei-phys]
 
-[akkei-phys]: https://discord.com/channels/852389089268858922/903095477568938035/1048694090839101581
+[akkei-phys]: https://drive.google.com/drive/folders/1xBEKkGYIFKSAcIgJjPCIx_W0vdJawuZ0
 
 ## Hypercubing software for mobile (not recommended)
 
