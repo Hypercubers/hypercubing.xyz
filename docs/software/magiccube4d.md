@@ -1,9 +1,9 @@
 # Magic Cube 4D
 
-Magic Cube 4D was one of the first ever programs capable of simulating higher dimensional twisty puzzles. It was made starting in 1988 by Melinda Green, Don Hatch, Jay Berkenbilt, and Roice Nelson.
+Magic Cube 4D (MC4D) was one of the first ever programs capable of simulating higher dimensional twisty puzzles. It was first released in 1988 and was developed by Melinda Green, Don Hatch, Jay Berkenbilt, and Roice Nelson.
 
 <center>
-![3x3x3x3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
+![3×3×3×3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
 
 <small> 3^4^ puzzle in Magic Cube 4D </small> </center>
 
@@ -32,4 +32,3 @@ Try reading [MC4D's FAQ](https://superliminal.com/cube/faq.html) on the superlim
 ??? warning "facecolors.txt doesn't change my colors"
     1. Try closing and reopening the program, and then reloading the puzzle using the menu.
     2. If you're on windows and you have show file extensions off in settings, then you may have accidentally named the file `facecolors.txt.txt`. Try renaming it to just `facecolors`. (Alternatively, enable show file extensions in settings)
-

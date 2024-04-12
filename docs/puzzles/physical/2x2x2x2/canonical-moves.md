@@ -2,19 +2,19 @@
 title: Canonical Moves
 ---
 
-# Physical 2x2x2x2 Canonical Moves & Notation
+# Physical 2×2×2×2 Canonical Moves & Notation
 
 !!! info
     Watch [Melinda Green's video](https://www.youtube.com/watch/DzRH8BOJL8Q) for a quick overview of the canonical moves
 
-The Canonical Moveset is a set of moves agreed upon by the community for solving the physical 2^4^. To get accepted into the official [Hall of Fame](https://superliminal.com/cube/2x2x2x2/#solutions), you **must** follow the canonical moves exactly. Make sure that you have already solved a [virtual 2^4^](/puzzles/2x2x2x2), and are familiar with how the pieces of the [physical 2^4^](/puzzles/physical/2x2x2x2) correspond. Also make sure that you know your 3D rotations (`x` `y` `z`) very well.
+The Canonical Moveset is a set of moves agreed upon by the community for solving the physical 2^4^. To get accepted into the official [Hall of Fame](https://superliminal.com/cube/2x2x2x2/#solutions), you **must** follow the canonical moves exactly. Make sure that you have already solved a [virtual 2^4^](/puzzles/2x2x2x2.md), and are familiar with how the pieces of the [physical 2^4^](/puzzles/physical/2x2x2x2/index.md) correspond. Also make sure that you know your 3D rotations (`x` `y` `z`) very well.
 
 ## Canonical Moves
 
 ### Simple Rotations
 
 !!! example inline end "Simple Rotations"
-    ![Simple puzzle rotations on Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_rotations.png)
+    ![Simple puzzle rotations on Melinda's 2×2×2×2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_rotations.png)
 
 A lot of the whole puzzle reorientations can be reached without the need for the [gyro algorithm](#gyro). These are called simple rotations, and consist of rotaing the L and R cells together in opposing directions (as to not change the state of the puzzle, only its orientation).
 
@@ -33,7 +33,7 @@ Each move here either starts with an L or an R, followed by the rotations (separ
 ### Inside/Outside Twists
 
 !!! example inline end "Ix2 twist"
-    ![Ix2 move on physical 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_canonical_Ix2.png)
+    ![Ix2 move on physical 2×2×2×2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_canonical_Ix2.png)
 
 The I and O cells are the sides with the next most turning freedom after L and R. This was referred to as an "axial twist" in Melinda's video. The canonical moves for the I/IO cells are `Ix` `Ix'` `Ix2` `Ox` `Ox'` `Ox2`
 
@@ -43,7 +43,7 @@ These twists can be difficult to perform for speedsolving, so most people tend t
 ### Slab Twists
 
 !!! example inline end "U2 twist"
-    ![U2 move on physical 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_canonical_U2.png)
+    ![U2 move on physical 2×2×2×2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_canonical_U2.png)
 
 The remaining canonical twists involve picking up a 2x2x4 "slab" off the puzzle, and rotating it 180 degrees in the same plane. These slabs you can pick up are the U, F, D, and B cells. Because the slabs can only be turned 180 degrees those moves will just be referred to as `U2` `F2` `D2` `B2`
 
@@ -63,7 +63,7 @@ There are several different algorithms for this, some of which gyro different ax
 
 ## Expanded Canonical Moveset
 
-The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](/leaderboards). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2), but weren't allowed in the canonical moveset because people agreed not to for some reason.
+The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](/leaderboards/index.md). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2.md), but weren't allowed in the canonical moveset because people agreed not to for some reason.
 
 ### Extra slab twists
 

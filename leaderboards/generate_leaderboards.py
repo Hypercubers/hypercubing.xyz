@@ -27,7 +27,7 @@ COLUMNS_INFO = {
 
 
 def get_template(filename):
-    with open(f'docs/leaderboards/templates/{filename}') as f:
+    with open(f'leaderboards/templates/{filename}') as f:
         return f.read()
 
 
@@ -147,19 +147,20 @@ class Solver:
 
 
 # Load solvers from YAML
-with open('docs/leaderboards/solvers.yml') as file:
+with open('leaderboards/solvers.yml') as file:
     solvers = {user_id: Solver(user_id, name)
                for user_id, name in yaml.load(file.read(), Loader=yaml.Loader).items()}
 
 
 # Load puzzles from YAML
-with open('docs/leaderboards/puzzles.yml') as file:
+with open('leaderboards/puzzles.yml') as file:
     puzzles = {puz_id: Puzzle(puz_id, name)
                for puz_id, name in yaml.load(file.read(), Loader=yaml.Loader).items()}
 
 
 def parse_time(s):
-    m = re.match(r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
+    m = re.match(
+        r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
     return timedelta(
         days=int(m[1] or '0'),
         hours=int(m[2] or '0'),
@@ -169,7 +170,7 @@ def parse_time(s):
 
 
 # Load solves from CSV
-with open('docs/leaderboards/solves.csv') as file:
+with open('leaderboards/solves.csv') as file:
     reader = csv.reader(file)
     headers = [str.strip(s) for s in next(reader)]
     all_solves = [Solve(**dict(zip(headers, map(str.strip, line))))
@@ -188,9 +189,9 @@ for puzzle in puzzles.values():
 
 for curSolve in all_solves:
     if len(curSolve.puzzle.record_history) == 0:
-        curSolve.puzzle.record_history.insert(0,curSolve)
+        curSolve.puzzle.record_history.insert(0, curSolve)
     elif curSolve.puzzle.record_history[0].time > curSolve.time:
-        curSolve.puzzle.record_history.insert(0,curSolve)
+        curSolve.puzzle.record_history.insert(0, curSolve)
 
 
 def make_table(rows, *, indent):
@@ -281,11 +282,12 @@ def make_solver_page_contents(solver: Solver, tab_config) -> str:
 
 def create_mkdocs_file_from_template(path: str, template: str, contents: str, **kwargs):
     with mkdocs_gen_files.open(path, 'w') as out_file:
-        print(get_template(template).format(**kwargs) + '\n' + contents, file=out_file)
+        print(get_template(template).format(
+            **kwargs) + '\n' + contents, file=out_file)
 
 
 # Load tabs from YAML
-with open('docs/leaderboards/tabs.yml') as tabs_file:
+with open('leaderboards/tabs.yml') as tabs_file:
     tab_config = yaml.load(tabs_file.read(), Loader=yaml.Loader)
 
 
@@ -323,6 +325,7 @@ for solver in solvers.values():
         name=solver.name,
     )
 
+
 def make_history_leaderboard_tab_contents(tab, *, indent=0):
     puzzle = puzzles[tab['puz']]
     exclude = ['rank', 'puzzle'] + tab.get('exclude', [])
@@ -331,6 +334,7 @@ def make_history_leaderboard_tab_contents(tab, *, indent=0):
         indent=indent,
         exclude=exclude,
     )
+
 
 create_mkdocs_file_from_template(
     path='leaderboards/history.md',
@@ -346,5 +350,5 @@ for puzzle in puzzles.values():
 create_mkdocs_file_from_template(
     'leaderboards/records.md',
     'records.md',
-    make_solves_table(WRs,indent=0,exclude=['rank']),
+    make_solves_table(WRs, indent=0, exclude=['rank']),
 )

@@ -4,8 +4,8 @@
 
 !!! warning "Prerequisites"
     - Knowledge of how the 4D puzzle moves
-    - [Notation](/notation)
-    - [RKT](/techniques/rkt)
+    - [Notation](/notation.md)
+    - [RKT](/techniques/rkt.md)
     - [3D CFOP](https://jperm.net/3x3/cfop) with 2-look OLL & PLL
 
 ## Summary
@@ -24,12 +24,12 @@ Using the same techniques from 3D, intuitively place the cross 2c pieces such th
 
 ### F2L-a
 
-Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitve setups. Now, you should be able to pair them up using "normal" looking 3x3x3 moves.
+Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitve setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
 
 Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
 !!! warning "Misoriented pairs"
-    It is possible to insert a pair into its slot, but rotated in place. Make sure to line it up so that it looks like a normal 3x3x3 case before inserting the pair. Oftentimes, this just means doing a Ux2 or Uz2 move beforehand.
+    It is possible to insert a pair into its slot, but rotated in place. Make sure to line it up so that it looks like a normal 3×3×3 case before inserting the pair. Oftentimes, this just means doing a Ux2 or Uz2 move beforehand.
 
 ### F2L-b
 
@@ -84,7 +84,7 @@ This is currently no known reliable way to recognize which case you have.
 From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a Roux First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
-    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/techniques/rkt) for algorithms.
+    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/techniques/rkt.md) for algorithms.
 
 !!! tip "RKT parity avoidance"
     You can avoid RKT parity by using 2-look PLL. When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, just solve the 3c with EPLL algorithms.

@@ -1,13 +1,13 @@
-# NxNxNxN
+# N×N×N×N
 
-!!! info inline end "4x4x4x4"
-    ![3x3x3x3 in Hyperspeedcube](https://cloud.hypercubing.xyz/assets/img/virt/hsc_4x4x4x4.png)
+!!! info inline end "4×4×4×4"
+    ![3×3×3×3 in Hyperspeedcube](https://cloud.hypercubing.xyz/assets/img/virt/hsc_4x4x4x4.png)
 
     **Shape:** Tesseract
 
-NxNxNxN, or N^4^ is a generic term for a 4-dimensional twisty puzzle in the shape of a hypercube with N layers per axis. It is a direct higher dimensional analogy of the NxNxN Rubik's Cube.
+N×N×N×N, or N^4^ is a generic term for a 4-dimensional twisty puzzle in the shape of a hypercube with N layers per axis. It is a direct higher dimensional analogy of the N×N×N Rubik's Cube.
 
-This page is concerned with the case where N is greater than 3. The [2x2x2x2](/puzzles/2x2x2x2) and [3x3x3x3](/puzzles/3x3x3x3) have their own pages.
+This page is concerned with the case where N is greater than 3. The [2×2×2×2](/puzzles/2x2x2x2.md) and [3×3×3×3](/puzzles/3x3x3x3.md) have their own pages.
 
 ## Pieces
 

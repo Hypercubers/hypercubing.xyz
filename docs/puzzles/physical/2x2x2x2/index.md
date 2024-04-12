@@ -1,7 +1,7 @@
-# Melinda's 2x2x2x2
+# Melinda's 2×2×2×2
 
-!!! info inline end "Melinda's 2x2x2x2"
-    ![Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_render.png)
+!!! info inline end "Melinda's 2×2×2×2"
+    ![Melinda's 2×2×2×2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_render.png)
 
     **4D Shape:** Tesseract
 
@@ -13,7 +13,7 @@
 
     **Permutations:** $3.3*10^{27}$
 
-See [Melinda's 2x2x2x2 website](https://superliminal.com/cube/2x2x2x2/) for her project overview.
+See [Melinda's 2×2×2×2 website](https://superliminal.com/cube/2x2x2x2/) for her project overview.
 
 ## History
 
@@ -26,7 +26,7 @@ A few months later, Melinda built a 2nd prototype using 3D printing from a compa
 
 ### Popularization
 !!! tip inline "Professor Erno Rubik inspecting a physical 2^4^ at G4G 2018"
-    ![Erno Rubik inspecting Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_erno_inspects.jpg)
+    ![Erno Rubik inspecting Melinda's 2×2×2×2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_erno_inspects.jpg)
 
 At the Gathering For Gardner conference of 2018, Roice Nelson got to show his physical 2^4^ to Erno Rubik. It was reported that his only comment was something along the lines of “none of the derivative puzzles matter and that only his original invention is important”.
 
@@ -42,11 +42,11 @@ Because of all this recognition, many new people bought the puzzle, but it was s
 
 !!! example "Animations showing how the virtual and physical 2^4^ transform into each other"
     <center>
-    ![Physical to virtual 2x2x2x2 transformation 1](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_anim1.gif){width="40%"}
-    ![Physical to virtual 2x2x2x2 transformation 2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_anim2.gif){width="40%"}
+    ![Physical to virtual 2×2×2×2 transformation 1](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_anim1.gif){width="40%"}
+    ![Physical to virtual 2×2×2×2 transformation 2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_anim2.gif){width="40%"}
     </center>
 
-Each twist and rotation on the virtual 2^4^ is possible to do on the physical puzzle, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves) page for a more detailed explanation.
+Each twist and rotation on the virtual 2^4^ is possible to do on the physical puzzle, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves.md) page for a more detailed explanation.
 
 Also see Melinda's [video](https://www.youtube.com/watch?v=DzRH8BOJL8Q) on the official canonical moves.
 

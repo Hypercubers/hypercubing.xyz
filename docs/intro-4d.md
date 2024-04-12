@@ -1,4 +1,4 @@
-# Tutorial
+# Introduction to 4D
 
 This page aims to teach you the fundamentals of understanding higher dimensional space, some of the shapes that exist in them, and how we can turn them into twisty puzzles to play with.
 
@@ -11,13 +11,12 @@ The [4th dimension](https://en.wikipedia.org/wiki/Four-dimensional_space) is a s
 !!! example "Dimension Levels (by NerdBoy1392 - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=5514315))"
     ![Dimensions](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dimension_levels.svg/1920px-Dimension_levels.svg.png)
 
-
 ## Understanding 4D shapes
 
 !!! example inline end "Hypercube rotating"
     ![tesseract](https://upload.wikimedia.org/wikipedia/commons/d/d7/8-cell.gif){width="300"}
 
-Puzzles are (usually) based on physical geometric shapes, so you have to understand what 4D shapes there are. 4D shapes have sides, or cells, that take the form of 3D shapes, and enclose some amount of "hypervolume". As the most popular 4D puzzles are the [hypercubes](/puzzles), so it's important to at least understand its geometry.
+Puzzles are (usually) based on physical geometric shapes, so you have to understand what 4D shapes there are. 4D shapes have sides, or cells, that take the form of 3D shapes, and enclose some amount of "hypervolume". As the most popular 4D puzzles are the [hypercubes](/puzzles/index.md), so it's important to at least understand its geometry.
 
 A hypercube (also known as a tesseract, 8-cell, octachoron, or 4-cube) is a shape with 8 cubic sides. 3 sides meet at each edge, giving it the [Schläfli symbol](https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol) {$4,3,3$}. Watch the animation below, as the tesseract unfolds itself into its 3-dimensional net.
 
@@ -31,8 +30,8 @@ But of course, there are many other shapes besides the tesseract. Check out thes
 
 ## Making puzzles out of shapes
 
-To make [twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle) out of higher dimensional shapes, you have to slice it up! Adding 2 evenly spaced planar cuts along each dimension, we get the 3x3x3x3, or 3^4^.
+To make [twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle) out of higher dimensional shapes, you have to slice it up! Adding 2 evenly spaced planar cuts along each dimension, we get the 3×3×3×3, or 3^4^.
 
-<center>![3x3x3x3 in Magic Cube 4D](https://cloud.hypercubing.xyz/assets/img/virt/mc4d_3x3x3x3.png){width="50%"}</center>
+<center>![3×3×3×3 in Magic Cube 4D](https://cloud.hypercubing.xyz/assets/img/virt/mc4d_3x3x3x3.png){width="50%"}</center>
 
 <center><big>Congratulations, you have completed the tutorial!</big></center>

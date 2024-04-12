@@ -41,7 +41,7 @@ As before, the hypercube can be rectified, which removes the trivial tips from t
 <br>
 
 ??? info "Extra turns"
-    In the two demi puzzles, the 8 vertices are arranged like the cells of a hypercube. This means they are actually shapemods of hypercubic puzzles. As such, they have an additional shapeshifting move in which you turn one layer by 90°. There is no analogous move on the skewb. In particular, the demi vertex turning hypercube is a shapemod of a [2x2x2x2](/puzzles/2x2x2x2), and the demi skewb lookalike is a shapemod of a [3x3x3x3](/puzzles/3x3x3x3), but with the 8 corner pieces that would be at the center of the cells missing.
+    In the two demi puzzles, the 8 vertices are arranged like the cells of a hypercube. This means they are actually shapemods of hypercubic puzzles. As such, they have an additional shapeshifting move in which you turn one layer by 90°. There is no analogous move on the skewb. In particular, the demi vertex turning hypercube is a shapemod of a [2×2×2×2](/puzzles/2x2x2x2.md), and the demi skewb lookalike is a shapemod of a [3×3×3×3](/puzzles/3x3x3x3.md), but with the 8 corner pieces that would be at the center of the cells missing.
 
     Because the 16-cell axis system, or the vertex turning hypercube system, is composed of two disjoint hypercube axis systems, these puzzles also have additional shapeshifting moves in which you turn a layer 90°. Unlike those in the previous section, though, performing one of these turns would bandage the puzzle. If you unbandaged these puzzles, you would get additional cuts parallel to the cells, resulting in the axis system of a 24-cell.
 
@@ -93,7 +93,7 @@ By starting with a skewb, you can extend it into the fourth dimension by taking 
 !!! example inline end "24-cell skewb diamond lookalike"
     ![24-cell skewb diamond lookalike](https://cloud.hypercubing.xyz/assets/img/virt/4d_skewb/24_diamond_lookalike.png)
 
-The 24-cell's cells are octahedra, which have the same symmetry as the skewb, and its dual the skewb diamond. Construct cutting planes parallel to the cells which pass through the centers of the adjacent cells. This creates a puzzle with 24 vertex pieces, 96 ridge pieces, and 144 X-centers. This puzzle is not half-cut, but each cell's cut pattern looks like a skewb diamond with trivial tips. It is possible to apply [RKT](/techniques/rkt) to a cell of this puzzle, in which case it acts like a skewb diamond.
+The 24-cell's cells are octahedra, which have the same symmetry as the skewb, and its dual the skewb diamond. Construct cutting planes parallel to the cells which pass through the centers of the adjacent cells. This creates a puzzle with 24 vertex pieces, 96 ridge pieces, and 144 X-centers. This puzzle is not half-cut, but each cell's cut pattern looks like a skewb diamond with trivial tips. It is possible to apply [RKT](/techniques/rkt.md) to a cell of this puzzle, in which case it acts like a skewb diamond.
 
 By rectifying the 24-cell, the trivial tip cuts on the cut patterns of the cells are removed, meaning the cells look like cuboctahedral skewbs.
 
@@ -113,4 +113,4 @@ The 24-cell has a subset of cells that correspond to the cells of the 16-cell. I
 !!! example inline end "24-cell skewb diamond lookalike, 8-cell cuts"
     ![24-cell skewb diamond lookalike, 8-cell cuts](https://cloud.hypercubing.xyz/assets/img/virt/4d_skewb/24_diamond_8.png)
 
-The 24-cell also has a subset of cells that correspond to the cells of the 8-cell, or hypercube. If you only keep those cuts, you get another puzzle similar to the one above, but where 16 of the cells do not appear to have trivial tips in their cut patterns, and 8 of the cells appear to have only the trivial tip cuts. This puzzle has 8 large corner pieces, 16 small corner pieces, 32 ridge pieces, and 8 center pieces. Unlike before, RKT cannot be applied to the skewb diamond cells. This puzzle is a shapemod of the [3x3x3x3](/puzzles/3x3x3x3) without corner pieces.
+The 24-cell also has a subset of cells that correspond to the cells of the 8-cell, or hypercube. If you only keep those cuts, you get another puzzle similar to the one above, but where 16 of the cells do not appear to have trivial tips in their cut patterns, and 8 of the cells appear to have only the trivial tip cuts. This puzzle has 8 large corner pieces, 16 small corner pieces, 32 ridge pieces, and 8 center pieces. Unlike before, RKT cannot be applied to the skewb diamond cells. This puzzle is a shapemod of the [3×3×3×3](/puzzles/3x3x3x3.md) without corner pieces.

@@ -1,4 +1,4 @@
-# Physical 2x2x2x2 Scramble Generator
+# Physical 2×2×2×2 Scramble Generator
 
 <p>Scrambles: <span id="demo2">5</span></p>
 <input type="range" min="1" max="20" value="5" class="slider" id="myRange">

@@ -82,7 +82,7 @@ On 2023-02-19, several members were brainstorming possible shapes for physical 5
 
 ## Silence, derivative
 
-In early 2018, at the 13th [Gathering for Gardner](https://www.gathering4gardner.org/), Melinda's physical 2x2x2x2 was shown to Ernő Rubik himself. It was reported that his only comment was that none of the derivative puzzles matter and that only his original invention is important.
+In early 2018, at the 13th [Gathering for Gardner](https://www.gathering4gardner.org/), Melinda's physical 2×2×2×2 was shown to Ernő Rubik himself. It was reported that his only comment was that none of the derivative puzzles matter and that only his original invention is important.
 
 On the night of 2023-06-25, Kitcen lay awake, unable to sleep, their mind plagued with the thought of Ernő Rubik with lasers coming out of his eyes to blow up a physical 2^4^ while denouncing it and calling it "derivative."
 

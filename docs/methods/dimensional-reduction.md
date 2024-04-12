@@ -5,16 +5,16 @@ title: Reduction (Dimensional)
 # Dimensional Reduction
 
 !!! example inline end "Dimensional reduced 3^4^"
-    ![3x3x3x3 dimensionally reduced into 3x3x3](https://cloud.hypercubing.xyz/assets/img/virt/reduction/dimensional_reduction.png)
+    ![3×3×3×3 dimensionally reduced into 3×3×3](https://cloud.hypercubing.xyz/assets/img/virt/reduction/dimensional_reduction.png)
 
 Dimensional reduction is a technique to reduce an n^d^ puzzle into an n^d-1^ puzzle. It does this by pairing up n-piece long bars (e.g. to reduce 3^4^ into 3^3^, pair up 3-piece long bars).
 
 To get to the dimensionally reduced state from a solved 3^4^, do only turns that don't change the colours of the I/O axis (moves that look like big 3^3^ moves).
 
-??? question "Does [RKT PLC](/methods/3x3x3x3/cfop/#rkt-plc) count as Dimensional Reduction?"
+??? question "Does [RKT PLC](/methods/3x3x3x3/cfop.md#rkt-plc) count as Dimensional Reduction?"
     RKT PLC does not count as dimensional reduction because certain states of the last cell are not reachable without incurring some form of RKT debt.
 
-Below is Andrey's log file of a 3^4^ solve done with dimensional reduction. It's essentially a [CFOP](/methods/3x3x3x3/cfop) solve, but with some advanced pseudo-slotting and commutators. The solve is similar to doing Pseudo F2L (where the pairs can be in any slot), and then doing OLC/PLC (except solving the PLC into the scrambled state of the rest of the puzzle) and then finishing by solving the reduced puzzle that remains.
+Below is Andrey's log file of a 3^4^ solve done with dimensional reduction. It's essentially a [CFOP](/methods/3x3x3x3/cfop.md) solve, but with some advanced pseudo-slotting and commutators. The solve is similar to doing Pseudo F2L (where the pairs can be in any slot), and then doing OLC/PLC (except solving the PLC into the scrambled state of the rest of the puzzle) and then finishing by solving the reduced puzzle that remains.
 
 ??? abstract "Andrey_34.log"
     ``` title="Andrey_34.log"

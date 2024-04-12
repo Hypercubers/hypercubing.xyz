@@ -33,7 +33,7 @@ This site uses [Markdown](https://www.markdownguide.org/basic-syntax/).
 For linking between files within the site, use an absolute link like this with no trailing `.md`:
 
 ```md
-[Melinda's physical 2^4^](/puzzles/physical/2x2x2x2) was the first 4D puzzle to have a 3D physical design.
+[Melinda's physical 2^4^](/puzzles/physical/2x2x2x2/index.md) was the first 4D puzzle to have a 3D physical design.
 ```
 
 This site uses the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme; in particular, this gives us [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/), [tables](https://squidfunk.github.io/mkdocs-material/reference/data-tables/), [footnotes](https://squidfunk.github.io/mkdocs-material/reference/footnotes/), and [subscripts & superscripts](https://squidfunk.github.io/mkdocs-material/reference/formatting/#sub-and-superscripts). We also have MathJax, which uses `$` symbols:
@@ -61,4 +61,8 @@ We are hosting images using a [private Nextcloud instance](https://cloud.hypercu
 
 ## Abbreviations
 
-Abbreviations are listed in `includes/abbreviations.md`. Be careful adding new ones, lest you create another [Grant Standingslice incident](/jokes#grant-standingslice).
+Abbreviations are listed in `includes/abbreviations.md`. Be careful adding new ones, lest you create another [Grant Standingslice incident](/jokes.md#grant-standingslice).
+
+## Style
+
+When naming a puzzle with a product in its name, prefer the cross symbol `×` over `x` (e.g. `3×3×3×3` vs. `3x3x3x3`). By using the unicode `×` in the source file, the site will automatically make it searchable using `x`. In an environment where you cannot use unicode `×`, use the HTML escape `&times;`.

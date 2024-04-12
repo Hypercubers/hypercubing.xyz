@@ -3,20 +3,21 @@
 This is an outline of how to make your way through the world of hypercubing. Learning puzzles in another order could lead to confusion or an incomplete understanding in the long run.
 
 !!! quote "Hactar"
-    It's very difficult to understand what's really going on in a physical puzzle without first understanding virtual puzzles. We recommend starting with virtual 3^4 for the same reason that 3D cubers typically recommend starting with 3x3x3.
+    It's very difficult to understand what's really going on in a physical puzzle without first understanding virtual puzzles. We recommend starting with virtual 3^4 for the same reason that 3D cubers typically recommend starting with 3×3×3.
 
-## NxNxNxN's
-First, make sure you know how to solve a 3x3x3 Rubik's Cube. At the very minimum, knowing a beginner's method is enough, but knowing more advanced methods, such as CFOP or Roux, or more advanced techniques, such as blockbuilding or intuitive F2L, could make getting into hypercubing easier.
+## N×N×N×N's
+
+First, make sure you know how to solve a 3×3×3 Rubik's Cube. At the very minimum, knowing a beginner's method is enough, but knowing more advanced methods, such as CFOP or Roux, or more advanced techniques, such as blockbuilding or intuitive F2L, could make getting into hypercubing easier.
 
 ```mermaid
 flowchart LR
-    A[3x3x3]
-    B[3x3x3x3]
-    C[2x2x2x2]
-    D[4x4x4x4]
-    E[5x5x5x5+]
-    F[Physical 2x2x2x2]
-    G[Virtual Physical 3x3x3x3]
+    A[3×3×3]
+    B[3×3×3×3]
+    C[2×2×2×2]
+    D[4×4×4×4]
+    E[5×5×5×5+]
+    F[Physical 2×2×2×2]
+    G[Virtual Physical 3×3×3×3]
     A --> B
     B --> C
     B --> D
@@ -26,7 +27,8 @@ flowchart LR
 ```
 
 ## Other 4D Puzzles
-There are many types of 4D puzzles, not just the hypercubes. These include hypercuboids, duoprisms, reqular 4D polytopes, and more. These puzzles require much more knowledge than just the 3x3x3. You'll need to know how to solve 3D cuboids, and generally be able to figure out new puzzles using [commutators](/techniques/commutators).
+
+There are many types of 4D puzzles, not just the hypercubes. These include hypercuboids, duoprisms, reqular 4D polytopes, and more. These puzzles require much more knowledge than just the 3×3×3. You'll need to know how to solve 3D cuboids, and generally be able to figure out new puzzles using [commutators](/techniques/commutators.md).
 
 ```mermaid
 flowchart LR
@@ -43,21 +45,22 @@ flowchart LR
 
     subgraph Duoprisms
     direction LR
-    Z["{5}x{4}"]
-    Y["{5}x{3}"]
-    X["{5}x{5}"]
+    Z["{5}×{4}"]
+    Y["{5}×{3}"]
+    X["{5}×{5}"]
     end
 
     subgraph Hypercuboids
     direction LR
-    D[1x3x3x3]
-    E[2x3x3x3]
-    F[2x2x2x3]
-    G[2x2x3x3]
+    D[1×3×3×3]
+    E[2×3×3×3]
+    F[2×2×2×3]
+    G[2×2×3×3]
     end
 ```
 
 ## Non-Euclidean Puzzles
+
 While most puzzles in MagicTile aren't 4D, they do share some similar concepts due to their strange geometries.
 
 ```mermaid

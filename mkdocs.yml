@@ -42,7 +42,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Hypercubers
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/3hVSe8rDKa
+      link: https://discord.gg/xxFvfyx89p
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
@@ -60,8 +60,8 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
@@ -76,6 +76,8 @@ markdown_extensions:
         format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - sane_lists
+  - smarty
   - tables
   - pymdownx.arithmatex:
       generic: true
@@ -83,13 +85,21 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
   - javascripts/mathjax.js
+  - javascripts/symbol_replace.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
   - glightbox
+  - abs-to-rel
   - awesome-pages:
       strict: false
   - gen-files:
       scripts:
-      - docs/leaderboards/generate_leaderboards.py
+      - leaderboards/generate_leaderboards.py
+  - redirects:
+      redirect_maps:
+        'discord.md': 'https://discord.gg/xxFvfyx89p'
+hooks:
+  - hooks/feature_matrix.py
+  - hooks/symbol_hooks.py

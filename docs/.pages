@@ -1,9 +1,9 @@
 nav:
-  - Wiki:
-    - index.md
-    - ...
-    - rkt_cancel_algs.md
-    - jokes.md
-    - contributing.md
-  - faq.md
-  - leaderboards
+- Wiki:
+  - index.md
+  - intro-4d.md
+  - ...
+  - jokes.md
+- faq.md
+- leaderboards
+- discord.md

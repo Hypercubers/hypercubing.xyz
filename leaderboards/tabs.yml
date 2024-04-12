@@ -8,7 +8,7 @@
         puz: 2x2x2x2
       - name: Blindfolded
         puz: 2x2x2x2_bld
-    - name: 3x3x3x3
+    - name: 3&times;3&times;3&times;3
       contents:
       - name: Single
         puz: 3x3x3x3
@@ -24,7 +24,7 @@
     - puz: 7x7x7x7
   - name: Physical
     contents:
-    - name: Physical 2x2x2x2
+    - name: Physical 2&times;2&times;2&times;2
       contents:
       - name: Single
         puz: phys_2x2x2x2

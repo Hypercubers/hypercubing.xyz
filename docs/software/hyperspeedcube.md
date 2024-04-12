@@ -1,43 +1,101 @@
 # Hyperspeedcube
 
-[Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) is a modern, beginner-friendly 3D and 4D Rubik’s cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving. It’s been used to break numerous speedsolving records.
+[Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) (HSC) is a modern, beginner-friendly 3D and 4D Rubik’s cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving. It’s been used to break numerous speedsolving records and runs on all major operating systems plus the web. Hyperspeedcube was first released in early 2022 and is developed by Andrew Farkas (a.k.a. HactarCE).
 
-![3x3x3x3 with the far cell mid-twist](https://cloud.hypercubing.xyz/assets/img/virt/hsc/mid_twist.png){ width="30%" }
-![3x3x3x3 near the end of F2L-b with many tools and settings windows open](https://cloud.hypercubing.xyz/assets/img/virt/hsc/tools.png){ width="30%" }
-![Solved 2x2x2](https://cloud.hypercubing.xyz/assets/img/virt/hsc/solved_2x2x2.png){ width="30%" }
+![3×3×3×3 with the far cell mid-twist](https://cloud.hypercubing.xyz/assets/img/virt/hsc/mid_twist.png){ width="30%" }
+![3×3×3×3 near the end of F2L-b with many tools and settings windows open](https://cloud.hypercubing.xyz/assets/img/virt/hsc/tools.png){ width="30%" }
+![Solved 2×2×2](https://cloud.hypercubing.xyz/assets/img/virt/hsc/solved_2x2x2.png){ width="30%" }
 
-## Download/installation
+## Download/installation [![Release badge]][Release link]
+
+<div class="grid cards" markdown>
+
+-   [:material-microsoft-windows:{.lg .middle}:material-linux:{.lg .middle}:material-apple:{.lg .middle} **Download Hyperspeedcube**][hsc-download]
+
+-   [:material-web:{.lg .middle} **Use Hyperspeedcube online**][hsc-web]
+
+</div>
 
 [Release badge]: https://img.shields.io/github/v/release/HactarCE/Hyperspeedcube
 [Release link]: https://github.com/HactarCE/Hyperspeedcube/releases/latest
+[hsc-download]: https://ajfarkas.dev/hyperspeedcube/
+[hsc-web]: https://hypercubing.xyz/hyperspeedcube/
 
-It's recommended to download the Hyperspeedcube program (which is available on Windows, MacOS, and Linux), although a [web version](https://hypercubing.xyz/hyperspeedcube/) is available as well. The latest version is [![Release badge]][Release link] and can be downloaded from the website here:
+HSC does not have an installer. On Windows, open `hyperspeedcube_win64.zip` and move `hyperspeedcube.exe` out of  to a folder on your computer.
 
-[Download Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/){ .md-button .md-button--primary }
+!!! warning "Features missing from the web version"
 
-On Windows, it will download as a `.zip` file. After extracting the files and saving them to the destination of your choice, simply launch the `hyperspeedcube.exe` file. This *is* the program, so make sure you save it somewhere you can remember!
+    - Saving & loading logs to file (can still save/load via clipboard)
+    - Awareness of alternate keyboard layouts
+    - Antialiasing
 
 ### Troubleshooting
 
-??? warning "Windows: `download failed - virus detected`"
-    If it immediately says `failed - virus detected` just after downloading, then your antivirus software thinks it is a virus. Try opening the Windows Security app, and digging around in the settings there to disable it, then try the download again.
+If none of the instructions below help, join the [Hypercubers Discord server][discord] and start a thread in the `#❓help` forum. Mention in your post that you've read the FAQ.
 
-??? warning "Windows: `Windows protected your PC`"
-    If you get a message that says `Windows protected your PC` and it `prevented an unrecognized app from starting` after trying to run the `hyperspeedcube.exe` file for the first time, then click on the `more info` button, and then click `run anyway`.
+[discord]: https://discord.gg/xxFvfyx89p
 
-??? warning "MacOS: `unidentified developer`"
-    On MacOS, it might say: `"Hyperspeedcube" can not be opened because it is from an unidentified developer`. Try going to System Preferences > Security & Privacy > then click Allow next to where it says Hyperspeedcube is from an unidentified developer.
+#### Windows
 
-If you’re having other trouble with Hyperspeedcube, join the Hypercubers Discord server and ping @HactarCE or @Hyperspeedcube Developer.
+??? failure "My antivirus thinks Hyperspeedcube is malicious"
+
+    Try opening the Windows Security app, and digging around in the settings there to disable it, then try the download again.
+
+??? failure ""Windows protected your PC""
+
+    > Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.
+
+    Click **More info** and then **Run anyway**.
+
+    In order to prevent that message from appearing, Hactar would have to spend a lot of money to buy a Microsoft developer license and go through a lot of hassle every time there is a new release of HSC. You'll only have to click through the warnings once.
+
+??? failure ""The program can't start because VCRUNTIME140.dll is missing from your computer.""
+
+    You need to install the [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist). Here is a [direct download](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+
+??? failure ""Hyperspeedcube crashed. A crash report has been saved to ...""
+
+    First, make sure your graphics drivers are up-to-date! This is the most common cause of Hyperespeedcube crashes. Here is a [video tutorial](https://www.youtube.com/watch?v=rkZvrzr5yKM) if you don't know how to do that.
+
+    If you still get an error message, then follow these steps:
+
+    1. Press <kbd>:material-microsoft-windows:</kbd>+<kbd>R</kbd>, type `%LocalAppData%`, and press <kbd>Enter</kbd>
+    2. Open the `Temp` folder
+    3. Find the file named in the error message and send it to Hactar either in a [GitHub issue](https://github.com/HactarCE/Hyperspeedcube/issues/new) or a new thread in the `#❓help` forum on [Discord][discord]
+
+#### macOS
+
+??? failure ""'Hyperspeedcube.app' cannot be opened because the developer cannot be verified.""
+
+    > macOS cannot verify that this app is free from malware.
+
+    Go to **System Settings** → **Privacy & Security**, then scroll down to **Security**. Select **App Store and identified developers**, then click **Open Anyway**.
+
+    In order to prevent that message from appearing, Hactar would have to spend a lot of money to buy an Apple developer license and go through a lot of hassle every time there is a new release of HSC.
+
+#### Linux
+
+Check that you have up-to-date graphics drivers installed. If that doesn't help, you're on your own.
+
+If there's any changes you make to the Hyperspeedcube source code to get it working, [please open an issue or PR on GitHub](https://github.com/HactarCE/Hyperspeedcube). If you're able to make an package for HSC for your package manager, please let me know either on Discord or GitHub Issues.
 
 ## History/Development
 
-Hyperspeedcube, or HSC, is the brainchild of Andrew Farkas (AKA HactarCE). Initially called Keyboard Speedcube and only supporting 3D Rubik's Cubes, the first screenshot was shared with the Hypercubers Discord on October 25th, 2021. A month later, Rowan Fortier asked Hactar if he could receive an early version of the program, and showcased it in a [YouTube video](https://www.youtube.com/watch?v=Wn1y-3EMREQ).
+On April 24th, 2020, Hactar wrote a small program called Keyboard Speedcube that simulated a 3^3^ using keybinds inspired by [Ryan Heise's Rubik's Cube Simulator](https://www.ryanheise.com/cube/speed.html). In October 2021, rudimentary 4D support was added and [a screenshot was posted on the Hypercubers Discord server](https://discord.com/channels/852389089268858922/871460012390748241/902389508262228008). A month later, Rowan Fortier asked Hactar if he could receive an early version of the program, and showcased it in a [YouTube video](https://www.youtube.com/watch?v=Wn1y-3EMREQ). Shortly before the video's release, the project was renamed to Hyperspeedcube.
 
 ![first mention](https://cloud.hypercubing.xyz/assets/img/virt/hsc/keyboard_speedcube.png){width="45%"}
 ![Early build](https://cloud.hypercubing.xyz/assets/img/virt/hsc/face_focus.gif){width="45%"}
 
-The program was renamed to Hyperspeedcube, and many community requested features were added. For a complete list of all releases and changes, see the [changelog](https://github.com/HactarCE/Hyperspeedcube/blob/main/CHANGELOG.md) on HSC's GitHub page.
+The first official release was v0.1.0 in January 2022, featuring customizable keybinds and support for the 3^3^ and 3^4^. Over the next year, many community-requested features were added, including mouse controls and more n^3^ and n^4^ puzzles. (See the [changelog](https://github.com/HactarCE/Hyperspeedcube/blob/main/CHANGELOG.md) for a complete list of releases and changes.)
+
+Hyperspeedcube began to see widespread use after the addition of mouse controls and more advanced piece filters in August 2022, kickstarting the [hyperspeedsolving revolution](/history.md#2022-present-the-hyperspeedsolving-revolution). The web version was released in January 2023.
+
+Shortly after the web version was released, Hactar and Luna began reading the [MPU](/software/magicpuzzleultimate.md) source code, intending to make a tool to ease the process of writing MPU puzzle definitions. Instead, they were able to replicate MPU's puzzle generation algorithms, and Hactar set to work on a new puzzle simulator using this backend. Over the next year, they ported the algorithm to [Conformal Geometric Algebra][cga] in the hopes of supporting curved cuts. Puzzles would be defined using [Lua][lua], since it is a well-known programming language with a simple type system that is easy to embed, sandbox, and extend with custom types.
+
+[cga]: https://en.wikipedia.org/wiki/Conformal_geometric_algebra
+[lua]: https://en.wikipedia.org/wiki/Lua_(programming_language)
+
+The first dev build of the new version, Hyperspeedcube v2.0.0-pre.1, was released on July 16th, 2023, and supported Lua shape definitions but not twists. As of early 2024, HSC 2.0 is still in development.
 
 ## Future updates
 
@@ -45,14 +103,16 @@ HSC 2.0 is the next major update in the works, with no set release date as of ye
 
 - Build nearly any puzzle in 3D to 7D space
 - Complete overhaul of the graphics engine
-- Built in timer for speedsolves, including an autosplitter for the most common method(s?)
+- Built-in timer for speedsolves, including a configurable autosplitter
 - Timeline of progress during solve
 - More piece filter customization
+
+See [Hactar's website](https://ajfarkas.dev/hyperspeedcube/#future-plans) for more details.
 
 ![Hypercuboid midway through turn](https://cloud.hypercubing.xyz/assets/img/virt/hsc/janky_cuboid.png?width=817&height=671){width="45%"}
 ![3D Jing's pyraminx puzzle in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/jing_crash.png){width="45%"}
 
-![{3}x{5} duoprism in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/duoprism.png){width="45%"}
+![{3}×{5} duoprism in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/duoprism.png){width="45%"}
 ![120-cell in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/120_cell.png){width="45%"}
 
 <center><small> Development screenshots by Hactar </small> </center>

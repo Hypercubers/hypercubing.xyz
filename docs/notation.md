@@ -74,7 +74,7 @@ There are many different ways to count the number of twists performed during a s
     - Consecutive twists of the same axis and layers are combined.
 
 ??? info "MC4DTM"
-    A.K.A. "whatever MC4D says"
+    a.k.a. "whatever MC4D says"
 
     - Twists are counted as they are executed.
     - Whole-puzzle rotations counted only if they are executed as moves.

@@ -2,7 +2,7 @@
 title: Luna's Method
 ---
 
-# Luna's Method for 2x2x2x2
+# Luna's Method for 2×2×2×2
 
 A method that Luna developed in 2017-18 making heavy use of an IU move sequence.
 

@@ -1,6 +1,6 @@
 # Magic Puzzle Ultimate
 
-[Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) (MPU) is a program made by [Andrey Astrelin](https://superliminal.com/andrey/) that simulates a lot of different puzzles, as well as letting you define your own.
+[Magic Puzzle Ultimate](https://superliminal.com/andrey/mpu/) (MPU or MPUlt) is a higher-dimensional puzzle simulator developed by [Andrey Astrelin](https://superliminal.com/andrey/) that can simulate nearly any symmetric doctrinaire puzzle and supports, including user-defined ones.
 
 [Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary }
 
@@ -14,7 +14,7 @@ Some records for the shortest and first solutions of a puzzle are kept on the [S
 
 ## Virtual Puzzles
 
-While we're waiting for [Hyperspeedcube 2.0](/software/hyperspeedcube/#future-updates) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other 4D puzzles.
+While we're waiting for [Hyperspeedcube 2.0](/software/hyperspeedcube.md#future-updates) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other 4D puzzles.
 
 Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate ```Block```. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
 
