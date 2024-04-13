@@ -32,7 +32,7 @@ Anderson's solver typically produces solutions in the range of 20-30 STM. Note t
 
 ### Conclusion
 
-God's number for 2^4^ is definitely between 10 and 39 inclusive, and probably $\sim 15 \pm 5$*
+God's number for 2^4^ is definitely between 10 and 39 inclusive, and probably $\sim 15 \pm 5$.
 
 !!! question "Could this be improved?"
 
@@ -51,7 +51,7 @@ Note that we can get a slightly better-than-naïve estimate by accounting for co
 
 ### Upper bound
 
-HactarCE computed a generous upper bound of 570 STM using CFOP.
+Hactar computed a generous upper bound of 570 STM using CFOP.
 
 ??? abstract "Step-by-step breakdown"
 
