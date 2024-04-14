@@ -7,7 +7,7 @@
 
 !!! info inline end "Yellow cell rotating"
     <video autoplay loop muted width="300">
-    <source type="video/mp4" src="https://cloud.hypercubing.xyz/assets/vid/yellow_cell_rotating.mp4">
+    <source type="video/mp4" src="https://assets.hypercubing.xyz/vid/yellow_cell_rotating.mp4">
     </video>
 
 Each side of an n^4^ hypercube is called a *cell*, and consists of a cubic grid of n^3^ stickers. Because each side is cubic, they can be rotated with cubic symmetry. A cube has 24 different possible orientations, meaning that each side of a 4D puzzle can be oriented in 24 different ways.

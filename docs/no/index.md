@@ -6,7 +6,7 @@ hide: [navigation, toc]
 <meta property="og:title" content="hypercubing.xyz" />
 <meta property="og:description" content="NO" />
 <meta property="og:url" content="https://hypercubing.xyz/no/" />
-<meta property="og:image" content="https://cloud.hypercubing.xyz/assets/img/meme/no.png" />
+<meta property="og:image" content="https://assets.hypercubing.xyz/img/meme/no.png" />
 
 #
 

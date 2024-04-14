@@ -24,7 +24,7 @@ RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's
 !!! example inline end "Example: Sune algorithm with RKT"
     Say you want to do the Sune algorithm ```R U R' U R U2 R'``` with RKT. The first step is to try and think of how you can execute the algorithm using only R moves and cube rotations. ```R U R' U R U2 R'``` becomes ```R z R z' R' z R z' R z R2 z' R'```. Now we replace R with RO, and cube rotations with I cell rotations: ```RO IF RO IF' RO' IF RO IF' RO IF RO2 IF' RO'```
 
-    ![Sune with RKT](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_sune.gif){width="100%"}
+    ![Sune with RKT](https://assets.hypercubing.xyz/img/virt/hsc_3x3x3x3_rkt_sune.gif){width="100%"}
 1. Rewrite the algorithm to only use cube rotations and R moves
 2. Rewrite cube rotations in this new algorithm (`x`, `y`, or `z`) to their respective I cell rotation (`IR`, `IU`, `IF`)
 3. Replace all R moves with their RO counterpart
@@ -42,7 +42,7 @@ Another popular way to do RKT is to use wide O cell turns (instead of normal I c
 ## Parity
 
 !!! warning inline end "RKT Parity"
-    ![RKT parity on the last layer of the last cell of a 3×3×3×3](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_parity.png)
+    ![RKT parity on the last layer of the last cell of a 3×3×3×3](https://assets.hypercubing.xyz/img/virt/hsc_3x3x3x3_rkt_parity.png)
 
 RKT parity is a state you can get to that appears to rotate a single layer of a cell by 180°.
 If you try and fix this with RKT, then the outer layers will be off by 180°. This means that you must use an algorithm (or intuition) to solve it.
@@ -68,7 +68,7 @@ RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering p
 ## Cancels
 
 !!! example "Sune with RKT: left = normal RKT, right = RKT cancel"
-    ![Sune with RKT](https://cloud.hypercubing.xyz/assets/img/virt/hsc_3x3x3x3_rkt_cancel_sune.gif){width="100%"}
+    ![Sune with RKT](https://assets.hypercubing.xyz/img/virt/hsc_3x3x3x3_rkt_cancel_sune.gif){width="100%"}
 
 RKT cancelling is a technique that reduces the move count of certain RKT algorithms and triggers by abusing symmetry of rotations. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for 3^4^ algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
 

@@ -1,7 +1,7 @@
 # Hemimegaminx
 
 !!! info inline end "Hemimegaminx"
-    ![Hemimegaminx in MagicTile](https://cloud.hypercubing.xyz/assets/img/virt/mt_hemimega.png)
+    ![Hemimegaminx in MagicTile](https://assets.hypercubing.xyz/img/virt/mt_hemimega.png)
 
     **Shape:** [Hemi-dodecahedron](https://polytope.miraheze.org/wiki/Hemidodecahedron)
 
@@ -18,6 +18,6 @@ $\left[\frac{10!}{2} \cdot 3!^{9} \cdot 3\right] \cdot \left[\frac{15!}{2} \cdot
 
 ## Physical version
 
-![Akkei's hemimegaminx](https://cloud.hypercubing.xyz/assets/img/phys/akkei_hemimega.png){width="40%"}
+![Akkei's hemimegaminx](https://assets.hypercubing.xyz/img/phys/akkei_hemimega.png){width="40%"}
 
 In 2019, after several prototypes, Oskar van Deventer built the [first working hemimegaminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=7856). In 2024, Akkei created another physical hemimegaminx and did the first known timed solve on it.

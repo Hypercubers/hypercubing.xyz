@@ -49,7 +49,7 @@ The $n$th Fibonacci number is given by $F_n = F_{n-1} + F_{n-2}$.
 We are hosting images using a [private Nextcloud instance](https://cloud.hypercubing.xyz/) hosted on DigitalOcean. Contact HactarCE on Discord to get access to add images to be hosted there. Once you have an image somewhere in the `assets` folder, you can embed it in a page. When including any image, be sure to include a brief text description of the image for screen readers. For example:
 
 ```md
-![Erno Rubik inspecting Melinda's 2x2x2x2](https://cloud.hypercubing.xyz/assets/img/phys/melinda_2x2x2x2_erno_inspects.jpg)
+![Erno Rubik inspecting Melinda's 2x2x2x2](https://assets.hypercubing.xyz/img/phys/melinda_2x2x2x2_erno_inspects.jpg)
 ```
 
 ### Naming images

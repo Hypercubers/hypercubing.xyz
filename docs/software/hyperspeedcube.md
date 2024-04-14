@@ -2,9 +2,9 @@
 
 [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) (HSC) is a modern, beginner-friendly 3D and 4D Rubik’s cube simulator with customizable mouse and keyboard controls and advanced features for speedsolving. It’s been used to break numerous speedsolving records and runs on all major operating systems plus the web. Hyperspeedcube was first released in early 2022 and is developed by Andrew Farkas (a.k.a. HactarCE).
 
-![3×3×3×3 with the far cell mid-twist](https://cloud.hypercubing.xyz/assets/img/virt/hsc/mid_twist.png){ width="30%" }
-![3×3×3×3 near the end of F2L-b with many tools and settings windows open](https://cloud.hypercubing.xyz/assets/img/virt/hsc/tools.png){ width="30%" }
-![Solved 2×2×2](https://cloud.hypercubing.xyz/assets/img/virt/hsc/solved_2x2x2.png){ width="30%" }
+![3×3×3×3 with the far cell mid-twist](https://assets.hypercubing.xyz/img/virt/hsc/mid_twist.png){ width="30%" }
+![3×3×3×3 near the end of F2L-b with many tools and settings windows open](https://assets.hypercubing.xyz/img/virt/hsc/tools.png){ width="30%" }
+![Solved 2×2×2](https://assets.hypercubing.xyz/img/virt/hsc/solved_2x2x2.png){ width="30%" }
 
 ## Download/installation [![Release badge]][Release link]
 
@@ -83,8 +83,8 @@ If there's any changes you make to the Hyperspeedcube source code to get it work
 
 On April 24th, 2020, Hactar wrote a small program called Keyboard Speedcube that simulated a 3^3^ using keybinds inspired by [Ryan Heise's Rubik's Cube Simulator](https://www.ryanheise.com/cube/speed.html). In October 2021, rudimentary 4D support was added and [a screenshot was posted on the Hypercubers Discord server](https://discord.com/channels/852389089268858922/871460012390748241/902389508262228008). A month later, Rowan Fortier asked Hactar if he could receive an early version of the program, and showcased it in a [YouTube video](https://www.youtube.com/watch?v=Wn1y-3EMREQ). Shortly before the video's release, the project was renamed to Hyperspeedcube.
 
-![first mention](https://cloud.hypercubing.xyz/assets/img/virt/hsc/keyboard_speedcube.png){width="45%"}
-![Early build](https://cloud.hypercubing.xyz/assets/img/virt/hsc/face_focus.gif){width="45%"}
+![first mention](https://assets.hypercubing.xyz/img/virt/hsc/keyboard_speedcube.png){width="45%"}
+![Early build](https://assets.hypercubing.xyz/img/virt/hsc/face_focus.gif){width="45%"}
 
 The first official release was v0.1.0 in January 2022, featuring customizable keybinds and support for the 3^3^ and 3^4^. Over the next year, many community-requested features were added, including mouse controls and more n^3^ and n^4^ puzzles. (See the [changelog](https://github.com/HactarCE/Hyperspeedcube/blob/main/CHANGELOG.md) for a complete list of releases and changes.)
 
@@ -109,10 +109,10 @@ HSC 2.0 is the next major update in the works, with no set release date as of ye
 
 See [Hactar's website](https://ajfarkas.dev/hyperspeedcube/#future-plans) for more details.
 
-![Hypercuboid midway through turn](https://cloud.hypercubing.xyz/assets/img/virt/hsc/janky_cuboid.png?width=817&height=671){width="45%"}
-![3D Jing's pyraminx puzzle in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/jing_crash.png){width="45%"}
+![Hypercuboid midway through turn](https://assets.hypercubing.xyz/img/virt/hsc/janky_cuboid.png?width=817&height=671){width="45%"}
+![3D Jing's pyraminx puzzle in HSC 2.0](https://assets.hypercubing.xyz/img/virt/hsc/jing_crash.png){width="45%"}
 
-![{3}×{5} duoprism in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/duoprism.png){width="45%"}
-![120-cell in HSC 2.0](https://cloud.hypercubing.xyz/assets/img/virt/hsc/120_cell.png){width="45%"}
+![{3}×{5} duoprism in HSC 2.0](https://assets.hypercubing.xyz/img/virt/hsc/duoprism.png){width="45%"}
+![120-cell in HSC 2.0](https://assets.hypercubing.xyz/img/virt/hsc/120_cell.png){width="45%"}
 
 <center><small> Development screenshots by Hactar </small> </center>

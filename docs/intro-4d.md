@@ -32,6 +32,6 @@ But of course, there are many other shapes besides the tesseract. Check out thes
 
 To make [twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle) out of higher dimensional shapes, you have to slice it up! Adding 2 evenly spaced planar cuts along each dimension, we get the 3×3×3×3, or 3^4^.
 
-<center>![3×3×3×3 in Magic Cube 4D](https://cloud.hypercubing.xyz/assets/img/virt/mc4d_3x3x3x3.png){width="50%"}</center>
+<center>![3×3×3×3 in Magic Cube 4D](https://assets.hypercubing.xyz/img/virt/mc4d_3x3x3x3.png){width="50%"}</center>
 
 <center><big>Congratulations, you have completed the tutorial!</big></center>

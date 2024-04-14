@@ -4,7 +4,7 @@
     It is highly recommended to learn how [virtual puzzles](/puzzles/index.md) work first before trying to understand the physical puzzles. See [Why not start with the physical 2×2×2×2?](/faq.md#why-not-start-with-the-physical-2222).
 
 !!! info inline end "Physical 3×3×3×3"
-    ![Grant's physical 3×3×3×3](https://cloud.hypercubing.xyz/assets/img/phys/grant_3x3x3x3_render.png){width="100%"}
+    ![Grant's physical 3×3×3×3](https://assets.hypercubing.xyz/img/phys/grant_3x3x3x3_render.png){width="100%"}
 
 Physical puzzles refer to higher dimensional puzzles that are physically built in real life (using only 3 dimensions). This involves clever designs, strange symmetry-abusing tricks, and lots and lots of magnets. Often, these puzzles are too impractical to use, defeating their sole purpose.
 

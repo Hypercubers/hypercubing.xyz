@@ -1,7 +1,7 @@
 # N×N×N×N
 
 !!! info inline end "4×4×4×4"
-    ![3×3×3×3 in Hyperspeedcube](https://cloud.hypercubing.xyz/assets/img/virt/hsc_4x4x4x4.png)
+    ![3×3×3×3 in Hyperspeedcube](https://assets.hypercubing.xyz/img/virt/hsc_4x4x4x4.png)
 
     **Shape:** Tesseract
 

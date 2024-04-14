@@ -6,11 +6,11 @@ title: Welcome
 <meta property="og:title" content="Hypercubing Wiki" />
 <meta property="og:description" content="Learn everything about higher dimensional twisty puzzle solving, including history, records, puzzles, tutorials, resources, and more." />
 <meta property="og:url" content="https://hypercubing.xyz/" />
-<meta property="og:image" content="https://cloud.hypercubing.xyz/assets/img/virt/mc4d_3x3x3x3.png" />
+<meta property="og:image" content="https://assets.hypercubing.xyz/img/virt/mc4d_3x3x3x3.png" />
 
 # Hypercubing
 
-<a href="/puzzles/3x3x3x3"><img src="https://cloud.hypercubing.xyz/assets/img/virt/mc4d_3x3x3x3.png" alt="3&times;3&times;3&times;3 in Magic Cube 4D" width="150" align="right"></a>
+<a href="/puzzles/3x3x3x3"><img src="https://assets.hypercubing.xyz/img/virt/mc4d_3x3x3x3.png" alt="3&times;3&times;3&times;3 in Magic Cube 4D" width="150" align="right"></a>
 
 Hypercubing is a niche branch of Rubik's Cubing that focuses on solving [higher dimensional twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle). The ways that twisty puzzles move are mathematically well defined, and can be generalized to higher spatial dimensions. These puzzles can then be visualized and simulated using [computer software](/software/index.md).
 

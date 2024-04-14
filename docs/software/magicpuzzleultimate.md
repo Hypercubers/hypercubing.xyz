@@ -4,7 +4,7 @@
 
 [Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary }
 
-![32-cell in MPU](https://cloud.hypercubing.xyz/assets/img/virt/mpu_32cell.png)
+![32-cell in MPU](https://assets.hypercubing.xyz/img/virt/mpu_32cell.png)
 
 <center><small> 32-cell puzzle in MPU </small></center>
 
