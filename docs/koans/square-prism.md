@@ -12,7 +12,7 @@ Master Nazir was working on a new puzzle, a novel cut of a square-pentagon duopr
 
 "Are these cells not cubes? They appear to be cubes."
 
-Master Nazir stood up from his work and gestured around. The puzzle workshop extended quite far in all directions, and several monks from other temples were working on other designs throughout the room.
+Master Nazir stood up from his work and led the neophyte around the room. The puzzle workshop extended quite far in all directions, and several monks from other temples were working on other designs throughout.
 
 He asked, "Is this room a cube?"
 
@@ -26,6 +26,6 @@ He asked, "Is this room a cube?"
 
 "I cannot walk on the wall."
 
-"And yet you stand on the floor."
+"And yet you walk on the floor."
 
 _At that moment, Sama was enlightened._
