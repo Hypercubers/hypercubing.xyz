@@ -1,5 +1,7 @@
 # Adaptability
 
+_Hactar & Luna, 2024-04-15_
+
 Neophyte Grigor had been learning under Master Yuwi for several months, strengthening his skills with the 3x3x3. Over time, he grew frustrated; he had come to the Temple of Intuition to learn to solve more exciting puzzles.
 
 "Master Yuwi, thank you for your mentorship. You have taught me many new methods of solving a 3x3x3, but are these useful? I had already learned the method CFOP from the Temple of the Swift Solve, and could solve the cube in just 20 seconds. These new methods are slower and more confusing; what is their use?"
