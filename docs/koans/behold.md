@@ -1,6 +1,6 @@
 # Behold!
 
-_Hactar, 2024-03-15_
+_Hactar, 2024-04-15_
 
 Neophyte Horatio had been studying hyperbolic tilings under Master Nikolai for nearly a month, and was learning well the ways of the petal, the fourfold corner, and orientability. He woke up to find an envelope outside his door containing a message from his mentor, Master Nikolai:
 

@@ -1,6 +1,6 @@
 # Twice Spun
 
-_Hactar, 2024-03-15_
+_Hactar, 2024-04-15_
 
 One day Acolyte Quenta found herself wandering the gardens, as she often did, and upon crossed a small bridge she came upon [a curious puzzle](https://magmamcfry.github.io/QuaternionCube/). It appeared in the form of an ordinary 3x3x3, but with an odd coating on the stickers that presented a gradient over each piece that tilted strangely as she observed it from different angles. She took the cube and scrambled it, intending to return it once she had solved it.
 

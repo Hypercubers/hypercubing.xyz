@@ -1,6 +1,6 @@
 # Applications of Algorithms
 
-_Hactar, 2024-03-15_
+_Hactar, 2024-04-15_
 
 Neophyte Cherto toiled into the late hours of the night, eager to complete their latest assignment: producing a written guide to their own solution to Rubik's Puzzle of Four Dimensions. They had solved the puzzle once before, but Master Nazir had suggested that they solve it again before beginning their writing, for there was a case they had not yet encountered.
 
