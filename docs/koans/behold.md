@@ -6,8 +6,8 @@ Neophyte Horatio had been studying hyperbolic tilings under Master Nikolai for n
 
 <img src="https://assets.hypercubing.xyz/img/mt/behold.png" alt="Hyperbolic {8,6} 6-color tiling, face-turning" width="150" align="right">
 
-> Neophyte Horatio,
-> I have fallen ill and cannot attend your instruction today. Enclosed is a hyperbolic tiling which I am sure you have solved before. I expect you will have it solved by tomorrow.
+> Neophyte Horatio,  
+> I have fallen ill and cannot attend your instruction today. Enclosed is a hyperbolic tiling which I am sure you have solved before. I expect you will have it solved by tomorrow.  
 > \- Master Nikolai
 
 The neophyte unfolded the puzzle and gasped in horror. The polygons of this tiling were _eight-sided_, and six met at each vertex! He had learned by now that each additional polygon at a vertex immensely increased the complexity of the cut interactions, so surely this puzzle would require some extensive sequences to isolate pieces. But he had no room! The puzzle had only six colors, and often the same face met multiple times at one vertex! Nonetheless, he began building an edge, a petal, another edge, another petal, ... but as he inserted the second petal, the first petal popped out. Try as he might, he could not remove the second petal without replacing the first as well.
