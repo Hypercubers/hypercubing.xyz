@@ -1,5 +1,7 @@
 # Soup
 
+_Hactar, Luna, Banderson, et al., 2024-04-15_
+
 One autumn day, Neophyte Cherto approached their mentor, Master Nazir, with a new design for a puzzle. Cherto had heard of the Shrine of Manifestation, where the Priests of High Symmetry imbue 4-dimensional or even 5-dimensional symmetry unto ordinary 3-dimensional shapes, and decided to try their hand at designing such a spell. They had counted the stickers and the pieces of a 4D puzzle, and had constructed a 3D shape with the same stickers.
 
 Master Nazir, having been presented with the neophyte's design, sighed deeply and gently shook his head as they walked through the garden together.
