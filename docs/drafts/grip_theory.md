@@ -28,7 +28,7 @@ We can also take 8 grips, `R`, `U`, `F`, `O`, `L`, `D`, `B`, and `I`, with the g
 
 ### More layers
 
-More layers can be added to a puzzle by adding more grips. For instance, to build a 5×5×5, we need two grips for every grip of the 3×3×3, which we can call `R` and `2R`, and similarly for the others. The grip group will act identically on the normal grips and the layer-2 grips, but will not swap them. In this way, either layer of a face of the 5×5×5 can be selected by choosing which grip on that face to use. The complex 5×5×5 can be constructed out of this grip system.
+More layers can be added to a puzzle by adding more grips. For instance, to build a 5×5×5, we need two grips for every grip of the 3×3×3, which we can call `1R` and `2R`, and similarly for the others. The grip group will act identically on the layer-1 grips and the layer-2 grips, but will not swap them. In this way, either layer of a face of the 5×5×5 can be selected by choosing which grip on that face to use. The complex 5×5×5 can be constructed out of this grip system.
 
 Odd-layered puzzles can be constructed like this, but even-layered puzzles are less clear. They can be constructed like the odd-layered puzzles with one more layer, but this results in identical grip systems and complex variants. Alternatively, we can use stored grips, but this results in less symmetrical puzzles.
 
@@ -73,11 +73,13 @@ TODO THIS NEEDS DEVELOPMENT
 Lamination is a restriction and generalization of grip theory. It allows fewer types of pieces than are described by grip theory, but the pieces it describes are closer to those of actual puzzles. It has multiple related interpretations.
 
 ### Group action interpretation
+
 Suppose, as above, there is a grip group that acts on the set of grips. We now select a block system of this action, and each block is called an *axis*. Now, instead of a piece having a selection of active grips, a piece will have a *layer* on each axis, where a layer is an assignment of a symbol (WLOG element of $\mathbb{Z}$) to each grip in that axis. Then, a twist still has an axis, but now it has a selected layer within that axis, as well as a transformation, an element of the grip group, that pointwise stabilizes the axis. A *laminated* puzzle is one that, given a selection of axes an selection of layers on each axis, contains a piece for every combination of layers. In this way, it is similar to complex puzzles.
 
 For instance, to construct a 3×3×3, first start with the 6 grips `R`, `U`, `F`, `L`, `D`, and `B`. Then, let the axes be `x` = {`R`, `L`}, `y` = {`U`, `D`}, and `z` = {`F`, `B`}. We can choose a set of layers for each axis: the layers of `x` will be the assignments {`R`↦0, `L`↦0}, {`R`↦1, `L`↦0}, and {`R`↦0, `L`↦1}, and similary for `y` and `z`. Since there are 3 layers per axis and 3 axes, the laminated 3×3×3 has $3^3 = 27$ pieces, exactly as many as a 3×3×3. In fact, the laminated 3×3×3 is exactly the super 3×3×3.
 
 ### Representation interpretation
+
 Now, we still have a grip group, but instead of acting on a set of grips, it acts linearly on a vector space $V$. The axes are a set of linearly independent subspaces that span $V$ (which implies the $V$ is the direct sum of the axes), and this set should be setwise stabilized by the grip group. A layer is a point in a subspace. A piece as before has one layer per axis, but now, since layers are points in orthogonal subspaces, we can also identify a piece with a point in $V$ whose projections onto the subspaces are its layers. Thus, a twist, being a selection of axis $a$, layer $\lambda$, and transformation $g$, has the effect of selecting all pieces in an affine space passing through $\lambda$ parallel to the direct sum of all axes that are not $a$, and applying $g$ to them.
 
 Constructing the 3×3×3 is even more geometrically intuitive than before. Now, we have three axes `x`, `y`, `z`, which correspond to the three coordinate axes of $\mathbb{R}^3$. The grip group acts on $\mathbb{R}^3$ as the rotational symmetries of the cube, and the layers of `x` will be the surfaces $x=0$, $x=-1$, and $x=1$, and similarly for `y` and `z`. Like this, the 27 pieces of the laminated 3×3×3 form an arrangement just like that of the actual 3×3×3. However, this approach is not limited to 3 dimensions, and can be used to construct all the puzzles of doctrinaire grip theory.
