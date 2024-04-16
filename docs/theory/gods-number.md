@@ -84,7 +84,7 @@ We can compute a lower bound of 56 in the OBTM. This begins by showing that algo
 	
 	\[
 	\begin{array}{c c}
-	l_{1}=69+46\sqrt{3}, & l_{2}=69-46\sqrt{3}, \\
+	\lambda_{1}=69+46\sqrt{3}, & \lambda_{2}=69-46\sqrt{3}, \\
 	C=\displaystyle \frac{1}{4}\left(-22+13\sqrt{3}\right), & D=\displaystyle \frac{1}{4}\left(-22-13\sqrt{3}\right). \\
 	\end{array}
 	\]
