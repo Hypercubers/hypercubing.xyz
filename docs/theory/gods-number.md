@@ -45,10 +45,62 @@ God's number for 2^4^ is definitely between 10 and 39 inclusive, and probably $\
 
 ### Lower bound
 
-We have not yet formally computed a lower bound on God's number for 3^4^ in STM or OBTM. It's somewhere around 55 moves.^\[citation\ needed]^
+We can compute a lower bound of 56 in the OBTM. This begins by showing that algorithms of limited length can generate, at most, only a subset of the possible positions on the 3^4^. We then optimize the argument by showing that some positions were over counted.
 
-Note that we can get a slightly better-than-naïve estimate by accounting for commuting moves.
+??? abstract "Lower Bound, Winning Ways Method"
 
+	Moves here will be measured using something equivalent (as far as this discussion is concerned) to OBTM. Our focus here is on positions that can be reached by algorithms of a certain length. Wide moves contribute to algorithm length in the same way that single cell turns do (wide move = single cell move + cube rotation, where cube rotations count as 0 moves), so we will make a simplification by restricting to single cell turns. There are 23 moves on each of the 8 cells, so 184 one-move algorithms are possible at any given time.
+	
+	We know the 3^4^ can be scrambled in over 1.7 novemtrigintillion ways. When solving, we have 184 choices for the first turn, and 161 (non cancelling) choices for the following turns. The number of positions reachable by 54 turns or fewer is at most
+	
+	\[1 + 184 \times \sum_{n=0}^{53} 161^n \approx 1.695 \times 10^{119} < 1.757 \times 10^{120}.\]
+	
+	This shows that there exist positions on the 3^4^ that require 55 or more turns to solve.
+
+	In the book _Winning Ways for Your Mathematical Plays Vol. 4_, the authors optimize this argument (as it applies to the Rubik's Cube in the half turn metric) by accounting for relations like \(LR = RL\). We can apply a similar optimization for the 3^4^.
+	
+	We will refer to the number of possible 3^4^ positions after \(n\) moves as \(u_n\). It is not too hard to convince ourselves that \(u_1 = 184\). After turning one cell, moving the same cell again is what we might call a "cancelling move", since the two moves could have been measured as a single move. So, we have \(161\) non cancelling choices for a second move. We should be able to reduce that \(161\) further by avoiding double counting positions reachable by two algorithms which differ only by the order of commuting elements.
+	
+	There are different ways that a pair of moves can commute on 3^4^. One is by the cell turns affecting completely distinct subsets of pieces, which happens when turning _opposite_ cells, like \(OL\ IL = IL\ OL\). This is analogous to the commuting cases on the Rubik's Cube as addressed in _Winning Ways_. There is at least one more way, which can involve certain adjacent cell moves. \(OL\ LO = LO\ OL\) is one example. We have not yet reached a description of all commuting cases of this kind. Accounting for these may allow us to further improve the lower bound. For now, we will factor out the commutativities that we _can_ describe, which we will call "opposite-commuting" moves.
+
+	First, there are \(161-23 = 138\) possible non-cancelling, _non-opposite-commuting_ choices for the second move. We'll add the opposite-commuting cases separately.
+	
+	There are four "flavors" of opposite-commuting cases: I cell moves with O cell moves, R moves with L moves, U moves with D moves, and B moves with F moves. In any of these, choose any one of the 23 moves possible on each cell (order doesn't matter), so there are \(23 \times 23 = 529\) opposite-commuting cases of each flavor. Then across the four flavors, we have \(529\times 4 = 2,116\) distinct cases after the second move, when it opposite-commuted with the first. So we have that the number of \(3^4\) positions after \(n\) moves is _at most_  \(138u_1 + 2,116 = 27,508\). That is, we can say \(u_2 \leq 27,508\).
+	
+	As a sanity check, we could note at this point the \(27,508\) positions after two turns is better than the \(184\times 161 = 29,624\) positions we would have estimated without accounting for opposite-commutativity of two successive turns here.
+	
+	To complete the argument, we can derive a recurrence relation (more accurately a recurrence _estimate_) that gives us an upper bound on the size of \(u_{n+2}\) in terms of \(u_n\) and \(u_{n+1}\)
+	
+	In the case where the \(n+2\)th move will _not_ opposite-commute (or cancel) with the \(n+1\)th move, we have \(138u_{n+1}\) possible puzzle states. If the \(n+2\)th move _is_ going to opposite-commute with the \(n+1\)th move, we might have \(529\times 4 = 2,116\) cases to follow up the \(n\)th move. However, one of those four flavors of opposite commuting cases would have cancelled with the \(n\)th move, so this time we only have \(529 \times 3 = 1,587\) cases to follow the \(n\)th move. This gives us the recurrence estimate \(u_{n+2} \leq 138u_{n+1} + 1,587u_{n}\).
+	
+	Note that as we have defined it, \(u_n\) is the number of positions accessible by _exactly_ \(n\) moves. If we _sum_ the \(u_n\)s from 1 to \(N\), that will gives us (an upper bound on) the number of positions accessible by \(n\) moves _or fewer_.
+	
+	In this case, our recurrence estimate is an order 2 linear recurrence with constant coefficients. There exists a method to derive a general formula for \(u_n\). In the end, we find 
+	
+	\[u_n = C\lambda_1^n + D\lambda_2^n,\]
+	
+	where
+	
+	
+	\[
+	\begin{array}{c c}
+	l_{1}=69+46\sqrt{3}, & l_{2}=69-46\sqrt{3}, \\
+	C=\displaystyle \frac{1}{4}\left(-22+13\sqrt{3}\right), & D=\displaystyle \frac{1}{4}\left(-22-13\sqrt{3}\right). \\
+	\end{array}
+	\]
+	
+	Finally, the number of positions reachable by 55 turns or fewer is at most
+
+	\[1\ +\ \sum_{n=1}^{55}u_n \approx 3.865 \times 10^{118} < 1.757 \times 10^{120}.\] 
+
+	This shows that there exist positions on the \(3^4\) that require 56 or more turns to solve.
+	
+	We should address the other side of the inequality,
+
+	\[1.757 \times 10^{120} <1\ +\ \sum_{n=1}^{56}u_n \approx 5.746 \times 10^{120}.\]
+
+	So, the argument as applied here can't necessarily show that there are positions requiring 57 or more turns to solve.
+	
 ### Upper bound
 
 Hactar computed a generous upper bound of 570 STM using CFOP.
