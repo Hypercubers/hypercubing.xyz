@@ -43,6 +43,8 @@ In late 2021, some speculation began as to if you could expand the physical 2^4^
 
 In late 2021 [Hactar](/leaderboards/solvers/hactar.md) began working on the [Hyperspeedcube](/software/hyperspeedcube.md) program, which was a massive upgrade over older programs like MC4D. Features like piece filters and customizable keybinds were instrumental to lowering solving times. November 2022 saw the beginning of the race for the 3^4^ world record. The record was traded almost exclusively by Grant and Hactar, smashing all the barriers from sub-10 minutes all the way down to sub-2! There were also a few smaller record races for bigger layered n^4^s.
 
+In early 2024, the first speedsolves of the 3^5^ were done. A lot of hypercubers were waiting for HSC 2 to come out so they could use keybinds and better piece filters to solve in 5D, but using MC7D or MPU isn't that bad at all.
+
 - **2022 Jan:** HSC v0.1 includes 3^3^ and 3^4^, filtering by piece type (not color), and customizable keybinds.
 - **2022 Aug:** HSC v0.8 adds modern piece filters. HSC v0.9 adds multiple keybind sets.
 - **2022 Nov 06:** First 3^4^ sub-10:00 by Hactar
