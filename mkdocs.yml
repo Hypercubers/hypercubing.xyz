@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: overrides
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.ico
   logo: assets/images/logo.svg
   palette:
     # Palette toggle for light mode
