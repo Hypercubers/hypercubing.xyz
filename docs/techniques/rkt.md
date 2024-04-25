@@ -59,7 +59,7 @@ On 2^4^, the algorithm is shorter because it doesn't have to worry about messing
 
 On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of a cell is off by 180°. An intuitive way to solve this is to do the 2^4^ RKT parity algorithm with wide moves, and then the normal 3^4^ RKT parity algorithm. It can also be avoided by just lining up your slice the same way you line up centers in 3D before finishing last 4 edges (when using freeslice).
 
-```[f' r': [[r' U' l': D2], Iy2]]``` (swaps UF and UR)
+```[f' l': [[r' U' l': D2], Iy2]]``` (swaps UF and UR)
 
 ## Debt
 
