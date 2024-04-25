@@ -62,9 +62,9 @@ In all previous examples, the action on the grip group has been [faithful](https
 
 ### Multiplex puzzles
 
-Rather than simply assigning pieces a set of active grips, it is possible to create a set of grips combined with endomorphisms of the transforms associated with each grip. This allows for a puzzle like the 3x3x3 where some pieces perform an `R` while others perform `R2` or `R'`. A full *multiplex* puzzle can be built by including a piece for every combination of these grip-endomorphism pairs for a given set of endomorphisms. A simple example is the Triplex Tetrahedron on [this page](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html).
+Rather than simply assigning pieces a set of active grips, it is possible to create a set of grips combined with endomorphisms of the transforms associated with each grip. This allows for a puzzle like the 3×3×3 where some pieces perform an `R` while others perform `R2` or `R'`. A full *multiplex* puzzle can be built by including a piece for every combination of these grip-endomorphism pairs for a given set of endomorphisms. A simple example is the Triplex Tetrahedron on [this page](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html).
 
-Of particular note are puzzles using automorphisms of the transforms, as these preserve symmetry between different versions of the same grip. These include combination puzzles like [Entangled 3x3x3s](https://www.youtube.com/watch?v=Gfe_ZTWlSYA).
+Of particular note are puzzles using automorphisms of the transforms, as these preserve symmetry between different versions of the same grip. These include combination puzzles like [Entangled 3×3×3s](https://www.youtube.com/watch?v=Gfe_ZTWlSYA).
 
 ## Lamination
 
