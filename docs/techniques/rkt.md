@@ -88,36 +88,53 @@ Recall how in 3D you can replace a `U y'` with `Dw`. We can do the same thing he
 
 Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-2}OUR UO2 RO'`. This works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice how if you remove the rotations, the whole thing cancels out. (You don't need to expand the conjugates to see this.)
 
-!!! warning
+### RKT Cancel Algorithms
+
+!!! warning "These won't help you solve a puzzle for the first time"
+
     You do not need to learn RKT cancel algs to solve any puzzle. RKT can and should be done completely intuitively unless you are already speedsolving at a high level and wish to improve this step.
 
-??? info "RKT Cancel Algs"
-    ## Notation
+- See [Commutator notation](https://hypercubing.xyz/techniques/commutators/) first.
+- Single letter moves are the "big 3d" moves. (`R` = `RO`, `U` = `UO`, etc.)
 
-    - Single letter moves are the "big 3d" moves. (R = RO, U = UO, etc)
+- TODO: explain xyz notation and `{1-2}O` notation in [notation](/notation.md) page. put a big caveat that its purpose is for execution, and it's totally arbitrary as far as what's actually going on with the puzzle.
+- TODO: standardize notation here?
 
-    ### 4^4 parity
+??? info "4^4^ edge swap parity"
 
-    ```[f' l': [[r' U' l': D2], Iy2]]``` (swaps UF and UR)
+    | Image                                                                                                                                      | Description             | RKT Cancel Algorithm             |
+    | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | -------------------------------- |
+    | ![4^4 edge swap parity](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&pzl=4&view=plan&bg=t&fc=yyyyyyyyyyyyyyyyrbbrrrrrrrrrrrrrbrrb) | UF and UR edges swapped | `[f' l': [[r' U' l': D2], IU2]]` |
 
-    ## OCLL
-    | OCLL Case      | RKT Cancel Algorithm                          |
-    | ----------- | ------------------------------------ |
-    | Sune<br>![Sune OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=lmlmmmmmlllmllllllllmllllllllllllllllllllllllllm)       | `R U R' ORUw U R ORUw U2 R'` |
-    | Antisune<br>![Antisune OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=lmmmmmlmlmllllllllmlllllllllllllllllmlllllllllll)       | `R U2 ORUw R' U' ORUw R U' R'` |
-    | H<br>![H OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=lmlmmmlmllllllllllmlmllllllllllllllllllllllllmlm)  | `R U2 R' U' ORUw R U R' U' ORUw R U' R'` |
-    | U<br>![U OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=mmmmmmlmllllllllllmlmlllllllllllllllllllllllllll)       | `(R U R' U R U2 R') IU (R U2 R' U' R U' R') IU'`  |
-    | T<br>![T OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=lmmmmmlmmlllllllllmllllllllllllllllllllllllllllm) | `(R U R' U R U2 R') IU' (R U2 R' U' R U' R') IU` |
-    | L<br>![L OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=mmlmmmlmmllmllllllmlllllllllllllllllllllllllllll) | `(R U R' U R U2 R') IU2 (R U2 R' U' R U' R') IU2` |
-    | Pi<br>![Pi OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&fc=lmlmmmlmllllllllllllmlllllllllllllllmlmllllllmll) | `R U2 ORUw R2 U' R2 U' R2 ORUw U2 R` |
+??? info "OCLL"
 
-    ## EPLL
-    | EPLL Case | RKT Cancel Algorithm |
-    | ----------- | ------------------------------------ |
-    | Ub<br>![Ub EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&alg=RU'RURURU'R'U'R2) | `R2 U R U ORUw R' U' R' U' R' ORUw U R'` |
-    | Ua<br>![Ua EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&alg=R2URUR%27U%27R%27U%27R%27UR%27) | `R U' ORUw R U R U R ORUw U' R' U' R2` |
-    | Z<br>![Z EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&alg=M2U%27M2U%27M%27U2M2U2M%27) | `(R U' R U R U R U' R' U' R2) IU2 (R2 U R U R' U' R' U' R' U R') IU2` <br> `M2 U' M U2 M' Iy2 M U2 M' U M2` |
-    | H<br> ![H EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=100&view=plan&bg=t&alg=M2UM2U2M2UM2) | `M2 U' M2 U2 M IU2 M' U2 M IU2 M U M2` |
+    | Image                                                                                                                                     | Name     | RKT Cancel Algorithm                              |
+    | ----------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------- |
+    | ![Sune OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=lmlmmmmmlllmllllllllmllllllllllllllllllllllllllm)     | Sune     | `R U R' ORUw U R ORUw U2 R'`                      |
+    | ![Antisune OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=lmmmmmlmlmllllllllmlllllllllllllllllmlllllllllll) | Antisune | `R U2 ORUw R' U' ORUw R U' R'`                    |
+    | ![H OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=lmlmmmlmllllllllllmlmllllllllllllllllllllllllmlm)        | H        | `R U2 R' U' ORUw R U R' U' ORUw R U' R'`          |
+    | ![U OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=mmmmmmlmllllllllllmlmlllllllllllllllllllllllllll)        | U        | `(R U R' U R U2 R') IU (R U2 R' U' R U' R') IU'`  |
+    | ![T OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=lmmmmmlmmlllllllllmllllllllllllllllllllllllllllm)        | T        | `(R U R' U R U2 R') IU' (R U2 R' U' R U' R') IU`  |
+    | ![L OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=mmlmmmlmmllmllllllmlllllllllllllllllllllllllllll)        | L        | `(R U R' U R U2 R') IU2 (R U2 R' U' R U' R') IU2` |
+    | ![Pi OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&fc=lmlmmmlmllllllllllllmlllllllllllllllmlmllllllmll)       | Pi       | `R U2 ORUw R2 U' R2 U' R2 ORUw U2 R`              |
+
+??? info "CPLL"
+
+    | Image                                                                                                | Name | RKT Cancel Algorithm                                                 |
+    | ---------------------------------------------------------------------------------------------------- | ---- | -------------------------------------------------------------------- |
+    | ![Aa CPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&alg=RU'RURURU'R'U'R2) | Aa   | `(Ix) R' U {1-2}Oz R' D2 R {1-2}Oz' U' R' D2 {1-2}Oz' R2` ({1-2}Oz)` |
+    | TODO                                                                                                 | Ab   |                                                                      |
+    | TODO                                                                                                 | Na   |                                                                      |
+    | TODO                                                                                                 | Nb   |                                                                      |
+
+??? info "EPLL"
+
+    | Image                                                                                                              | Name | RKT Cancel Algorithm                                                                                        |
+    | ------------------------------------------------------------------------------------------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------- |
+    | ![Ub EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&alg=RU'RURURU'R'U'R2)               | Ub   | `R2 U R U ORUw R' U' R' U' R' ORUw U R'`                                                                    |
+    | ![Ua EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&alg=R2URUR%27U%27R%27U%27R%27UR%27) | Ua   | `R U' ORUw R U R U R ORUw U' R' U' R2`                                                                      |
+    | ![Z EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&alg=M2U%27M2U%27M%27U2M2U2M%27)      | Z    | `(R U' R U R U R U' R' U' R2) IU2 (R2 U R U R' U' R' U' R' U R') IU2`<br>alternate: `M2 U' M U2 M' Iy2 M U2 M' U M2` |
+    | ![H EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=50&view=plan&bg=t&alg=M2UM2U2M2UM2)                    | H    | `M2 U' M2 U2 M IU2 M' U2 M IU2 M U M2`                                                                      |
 
 ## Simultaneous RKT
 
