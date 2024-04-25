@@ -59,8 +59,6 @@ On 2^4^, the algorithm is shorter because it doesn't have to worry about messing
 
 On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of a cell is off by 180°. An intuitive way to solve this is to do the 2^4^ RKT parity algorithm with wide moves, and then the normal 3^4^ RKT parity algorithm. It can also be avoided by just lining up your slice the same way you line up centers in 3D before finishing last 4 edges (when using freeslice).
 
-```[f' l': [[r' U' l': D2], Iy2]]``` (swaps UF and UR)
-
 ## Debt
 
 RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/cfop.md) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
@@ -96,8 +94,11 @@ Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-
 ??? info "RKT Cancel Algs"
     ## Notation
 
-    - single letter moves are the "big 3d" moves. (R = RO, U = UO, etc)
+    - Single letter moves are the "big 3d" moves. (R = RO, U = UO, etc)
 
+    ### 4^4 parity
+
+    ```[f' l': [[r' U' l': D2], Iy2]]``` (swaps UF and UR)
 
     ## OCLL
     | OCLL Case      | RKT Cancel Algorithm                          |
