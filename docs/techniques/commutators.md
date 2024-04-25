@@ -12,6 +12,7 @@ Commutator notation extends traditional twisty puzzle notation by adding the fol
 - Conjugates are notated `[A: B]`, which expands to `A B A'`.
 
 Here are some example commutators that can be executed on a 3×3×3:
+
 - `[R, U]` expands to `R U R' U'`.
 - `[M', U2]` expands to `M' U2 M U2`, which cycles 3 edges on the M slice.
 - `[D: [M', U2]]` expands to `D (M' U2 M U2) D'`, which cycles 3 slightly different edges. Conjugates are often combined with commutators to influence different sets of pieces.
