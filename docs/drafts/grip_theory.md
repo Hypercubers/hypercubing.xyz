@@ -1,6 +1,6 @@
 # Grip theory
 
-Grip theory is a framework for analyzing many different kinds of twisty puzzles in a geometry-independent way. It was first developed on the TwistyPuzzles Forum in about 2010 ADD LINK. Grip theory was originally used to describe doctrinaire puzzles in 3D, but it can be extended to describe bandaged puzzles, jumbling puzzles, higher-dimensional puzzles, and more.
+Grip theory is a framework for analyzing many different kinds of twisty puzzles in a geometry-independent way. It was first developed on the TwistyPuzzles forum in 2009 in [this thread](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=15667). Grip theory was originally used to describe doctrinaire puzzles in 3D, but it can be extended to describe bandaged puzzles, jumbling puzzles, higher-dimensional puzzles, and more.
 
 ## Basic grip theory
 
@@ -73,9 +73,6 @@ TODO THIS NEEDS DEVELOPMENT
 Rather than simply assigning pieces a set of active grips, it is possible to create a set of grips combined with endomorphisms of the transforms associated with each grip. This allows for a puzzle like the 3x3x3 where some pieces perform an `R` while others perform `R2` or `R'`. A full *multiplex* puzzle can be built by including a piece for every combination of these grip-endomorphism pairs for a given set of endomorphisms. A simple example is the Triplex Tetrahedron on [this page](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html).
 
 Of particular note are puzzles using automorphisms of the transforms, as these preserve symmetry between different versions of the same grip. These include combination puzzles like [Entangled 3x3x3s](https://www.youtube.com/watch?v=Gfe_ZTWlSYA).
-
-TODO THIS ALSO NEEDS DEVELOPMENT
-
 
 ## Lamination
 
