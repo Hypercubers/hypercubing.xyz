@@ -60,7 +60,7 @@ We can combine these two notions. Consider the [curvy copter](https://twistypuzz
 
 In all previous examples, the action on the grip group has been [faithful](https://groupprops.subwiki.org/wiki/Faithful_group_action). However, this does not have to be the case. Consider the rotational symmetry of the cube, the octahedral group. This group is a quotient of the binary octahedral group of order 48, so the binary octahedral group can act on 6 grips via its quotient. The resulting puzzle has the same pieces as the complex 3×3×3, but each piece can have twice as many additudes, and thus twice as many orientations in a given position. Because the binary octahedral group can be interpreted as a group of spinors, the puzzle with the 3×3×3's pieces but the binary octahedral grip group is the [quaternion cube](https://magmamcfry.github.io/QuaternionCube/).
 
-### Multiplex Puzzles
+### Multiplex puzzles
 
 Rather than simply assigning pieces a set of active grips, it is possible to create a set of grips combined with endomorphisms of the transforms associated with each grip. This allows for a puzzle like the 3x3x3 where some pieces perform an `R` while others perform `R2` or `R'`. A full *multiplex* puzzle can be built by including a piece for every combination of these grip-endomorphism pairs for a given set of endomorphisms. A simple example is the Triplex Tetrahedron on [this page](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html).
 
