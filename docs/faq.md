@@ -158,7 +158,7 @@ While it's always possible to just arrange the stickers on a table, the real cha
 
 ### Does Hyperspeedcube run on my OS?
 
-Hyperspeedcube runs natively on Windows, macOS, and Linux. There is also a [web version](https://hypercubing.xyz/hyperspeedcube/), which runs on Chromebooks or other devices where the downloaded version does not work. See []
+[Hyperspeedcube](https://hypercubing.xyz/software/hyperspeedcube/) runs natively on Windows, macOS, and Linux. There is also a [web version](https://hypercubing.xyz/hyperspeedcube/), which runs on Chromebooks or other devices where the downloaded version does not work. For mobile phones, it is possible to run Hyperspeedcube in a browser but not recommended. See [Software](https://hypercubing.xyz/software/#android-apps) for alternatives.
 
 ### I get an error when I try to run Hyperspeedcube
 
