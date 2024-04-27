@@ -44,6 +44,7 @@
   contents:
   - puz: 2x2x2x2x2
   - puz: 3x3x3x3x3
+  - puz: 4x4x4x4x4
 - name: MagicTile
   contents:
   - puz: hemimegaminx
