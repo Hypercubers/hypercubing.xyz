@@ -31,9 +31,13 @@ def get_template(filename):
         return f.read()
 
 
-def format_time(duration: timedelta) -> str:
+def format_time(duration: timedelta | int) -> str:
+    # duration can be timedelta (time) or int (movecount for fmc)
     def unit(s):
         return f'<small>{s}</small>'
+
+    if isinstance(duration, int):
+        return f"{duration}"
 
     millis = int(duration.total_seconds() * 1000)
     seconds, millis = divmod(millis, 1000)
@@ -159,6 +163,8 @@ with open('leaderboards/puzzles.yml') as file:
 
 
 def parse_time(s):
+    if m := re.match(r'(\d+)', s):
+        return int(m[1])
     m = re.match(
         r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
     return timedelta(
