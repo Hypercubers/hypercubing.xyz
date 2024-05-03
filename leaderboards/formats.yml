@@ -1,0 +1,18 @@
+single:
+  name: Single
+  header: Time
+ao5:
+  name: Ao5
+  header: Time
+oh:
+  name: One-Handed
+  header: Time
+bld:
+  name: Blindfolded
+  header: Time
+nf:
+  name: No Filters
+  header: Time
+fmc:
+  name: Fewest Moves
+  header: Moves (STM)

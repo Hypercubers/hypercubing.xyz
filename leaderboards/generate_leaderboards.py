@@ -9,22 +9,25 @@ import re
 import yaml
 
 COLUMNS_ORDER = [
-    'puzzle',
+    'event',
     'rank',
     'solver',
     'time',
     'date',
     'program',
 ]
-COLUMNS_INFO = {
-    'puzzle': ("Puzzle", ':---'),
+COLUMNS_INFO = lambda event: {
+    'event': ("Event", ':---'),
     'rank': ("Rank", '---:'),
     'solver': ("Name", ':--:'),
-    'time': ("Time", '---:'),
+    'time': (formats[event.format]['header'], '---:'),
     'date': ("Date", ':--:'),
     'program': ("Program", ':--:'),
 }
 
+# it does some funny business
+def recode(s):
+    return s.encode('cp1252').decode('utf8')
 
 def get_template(filename):
     with open(f'leaderboards/templates/{filename}') as f:
@@ -67,6 +70,7 @@ class Solve:
                  link: str,
                  time: str,
                  puzzle: str,
+                 format: str,
                  solver: str,
                  program: str = '-') -> None:
         self.date = date
@@ -75,16 +79,18 @@ class Solve:
         else:
             self.link = link
         self.time = parse_time(time)
-        self.puzzle = puzzles[puzzle]
+        #self.puzzle = puzzles[puzzle]
+        #self.format = formats[format]
+        self.event = puzzles[puzzle]['events'][format]
         self.solver = solvers[solver]
         self.program = program
-        self.solver.solves_by_puzzle[self.puzzle.puz_id].append(self)
+        self.solver.solves_by_event[self.event.id].append(self)
         self.rank = None
         formatted_time = format_time(self.time)
         self._cell_contents = {
             'date': self.date,
             'time': f'[{formatted_time}]({self.link})' if link else formatted_time,
-            'puzzle': self.puzzle.name,
+            'event': self.event.name,
             'program': self.program,
             'solver': f'[{self.solver.name}]({self.solver.relative_file_path})',
         }
@@ -111,9 +117,10 @@ class Solve:
             return self._cell_contents[header]
 
 
-class Puzzle:
-    def __init__(self, puz_id: str, name: str) -> None:
-        self.puz_id = puz_id
+class Event:
+    def __init__(self, puzzle: str, format: str, name: str) -> None:
+        self.puzzle = puzzle
+        self.format = format
         self.name = name
         self.best_solves = []
         self.record_history = []
@@ -125,19 +132,23 @@ class Puzzle:
 
     @property
     def relative_file_path(self):
-        return f'puzzle/{self.puz_id}.md'
+        return f'puzzle/{self.puz_id}/{self.format}.md'
+
+    @property
+    def id(self):
+        return (self.puzzle, self.format)
 
 
 class Solver:
     def __init__(self, user_id: str, name: str):
         self.user_id = user_id
-        self.name = name
-        self.solves_by_puzzle = defaultdict(list)
+        self.name = recode(name)
+        self.solves_by_event = defaultdict(list)
 
-    def get_best_solve_of(self, puzzle: Puzzle) -> Optional[Solve]:
-        solves_list = self.solves_by_puzzle[puzzle.puz_id]
+    def get_best_solve_of(self, event: Event) -> Optional[Solve]:
+        solves_list = self.solves_by_event[event.id]
         if solves_list:
-            return min(self.solves_by_puzzle[puzzle.puz_id], key=lambda s: s.time)
+            return min(self.solves_by_event[event.id], key=lambda s: s.time)
         else:
             return None
 
@@ -155,15 +166,32 @@ with open('leaderboards/solvers.yml') as file:
     solvers = {user_id: Solver(user_id, name)
                for user_id, name in yaml.load(file.read(), Loader=yaml.Loader).items()}
 
+# Load formats from YAML
+with open('leaderboards/formats.yml') as file:
+    formats = yaml.load(file.read(), Loader=yaml.Loader)
 
-# Load puzzles from YAML
-with open('leaderboards/puzzles.yml') as file:
-    puzzles = {puz_id: Puzzle(puz_id, name)
-               for puz_id, name in yaml.load(file.read(), Loader=yaml.Loader).items()}
+def populate_puzzles(tab):
+    if 'name' not in tab:
+        raise Exception(f'tab {tab} has no name')
+    if 'contents' in tab:
+        for subtab in tab['contents']:
+            populate_puzzles(subtab)
+    elif 'puz' in tab:
+        puzzles[tab['puz']] = {'name':recode(tab['name'])}
+    else:
+        raise Exception(f"missing 'contents' or 'puz' in tab {tab['name']}")
 
+# Load tabs and puzzles from YAML and create events
+with open('leaderboards/tabs.yml') as tabs_file:
+    tab_config = yaml.load(tabs_file.read(), Loader=yaml.Loader)
+    puzzles = {}
+    for tab in tab_config:
+        populate_puzzles(tab)
+    for puzzle in puzzles:
+        puzzles[puzzle]['events'] = {format: Event(puzzle, format, f'{puzzles[puzzle]['name']} {formats[format]['name']}') for format,data in formats.items()}
 
 def parse_time(s):
-    if m := re.match(r'(\d+)', s):
+    if m := re.match(r'(\d+)mv', s):
         return int(m[1])
     m = re.match(
         r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
@@ -185,19 +213,20 @@ with open('leaderboards/solves.csv') as file:
 
 # For each puzzle, get the best solve from each solver and compute ranks.
 for puzzle in puzzles.values():
-    for solver in solvers.values():
-        s = solver.get_best_solve_of(puzzle)
-        if s:
-            puzzle.best_solves.append(s)
-    puzzle.best_solves.sort(key=lambda s: s.time)
-    for i, s in enumerate(puzzle.best_solves):
-        s.rank = i + 1
+    for event in puzzle['events'].values():
+        for solver in solvers.values():
+            s = solver.get_best_solve_of(event)
+            if s:
+                event.best_solves.append(s)
+        event.best_solves.sort(key=lambda s: s.time)
+        for i, s in enumerate(event.best_solves):
+            s.rank = i + 1
 
 for curSolve in all_solves:
-    if len(curSolve.puzzle.record_history) == 0:
-        curSolve.puzzle.record_history.insert(0, curSolve)
-    elif curSolve.puzzle.record_history[0].time > curSolve.time:
-        curSolve.puzzle.record_history.insert(0, curSolve)
+    if len(curSolve.event.record_history) == 0:
+        curSolve.event.record_history.insert(0, curSolve)
+    elif curSolve.event.record_history[0].time > curSolve.time:
+        curSolve.event.record_history.insert(0, curSolve)
 
 
 def make_table(rows, *, indent):
@@ -209,12 +238,13 @@ def make_solves_table(solves, *, indent, exclude=None):
         return ''
 
     columns = COLUMNS_ORDER.copy()
+    columns_info = COLUMNS_INFO(solves[0].event)
     if exclude:
         for col in exclude:
             columns.remove(col)
     header_rows = [
-        [COLUMNS_INFO[col][0] for col in columns],
-        [COLUMNS_INFO[col][1] for col in columns],
+        [columns_info[col][0] for col in columns],
+        [columns_info[col][1] for col in columns],
     ]
     content_rows = [
         [solve.cell_contents(col) for col in columns]
@@ -228,25 +258,33 @@ def make_tabbed_leaderboards(tab_config, make_tab_contents, *, indent=0) -> str:
     indent += 4
     s = ''
     for tab in tab_config:
-        tab_name = tab.get('name') or puzzles[tab['puz']].name
+        tab_name = tab.get('name')
         if 'contents' in tab:
             tab_contents = make_tabbed_leaderboards(
                 tab['contents'],
                 make_tab_contents,
                 indent=indent,
             )
-        elif 'puz' in tab:
+        elif 'format' in tab:
             tab_contents = make_tab_contents(tab, indent=indent)
+        elif 'puz' in tab:
+            subtabs = [tab | {'format':f} | format for f,format in formats.items()]
+            tab_contents = make_tabbed_leaderboards(
+                subtabs,
+                make_tab_contents,
+                indent=indent,
+            )
         else:
-            raise Exception("missing 'contents' or 'puz' in tab "
-                            + repr(tab['name']))
+            raise Exception(f'not a valid tab {tab}')
+
 
         if not tab_contents:
             continue
 
         # If a puzzle name has any special characters, we might have to escape it
         # better here. For now just surrounding it with double quotes is fine.
-        s += f'{pre}=== "{tab_name}"\n\n{tab_contents}'
+        # gotta escape!
+        s += f'{pre}=== "{recode(tab_name)}"\n\n{tab_contents}'
     return s
 
 
@@ -258,23 +296,23 @@ def make_solvers_list(*, indent=0) -> str:
     return s + '\n'
 
 
-def make_solver_page_contents(solver: Solver, tab_config) -> str:
+def make_solver_page_contents(solver: Solver, tab_config, *, indent=0) -> str:
     s = ''
     s += '## Rankings\n\n'
-    solves = [solver.get_best_solve_of(puzzle)
-              for puzzle in puzzles.values()]
+    solves = [solver.get_best_solve_of(event) for puzzle in puzzles.values()
+              for event in puzzle['events'].values()]
     s += make_solves_table(
         [s for s in solves if s],
-        indent=0,
+        indent=indent,
         exclude=['solver'],
     )
     s += '## History\n\n'
 
     def make_solver_tab_contents(tab, *, indent=0):
-        puzzle = puzzles[tab['puz']]
-        exclude = ['solver', 'puzzle'] + tab.get('exclude', [])
+        event = puzzles[tab['puz']]['events'][tab['format']]
+        exclude = ['solver', 'event'] + tab.get('exclude', [])
         return make_solves_table(
-            solver.solves_by_puzzle[puzzle.puz_id][::-1],
+            solver.solves_by_event[event.id][::-1],
             indent=indent,
             exclude=exclude,
         )
@@ -292,16 +330,11 @@ def create_mkdocs_file_from_template(path: str, template: str, contents: str, **
             **kwargs) + '\n' + contents, file=out_file)
 
 
-# Load tabs from YAML
-with open('leaderboards/tabs.yml') as tabs_file:
-    tab_config = yaml.load(tabs_file.read(), Loader=yaml.Loader)
-
-
 def make_main_leaderboard_tab_contents(tab, *, indent=0):
-    puzzle = puzzles[tab['puz']]
-    exclude = ['puzzle'] + tab.get('exclude', [])
+    event = puzzles[tab['puz']]['events'][tab['format']]
+    exclude = ['event'] + tab.get('exclude', [])
     return make_solves_table(
-        puzzle.best_solves,
+        event.best_solves,
         indent=indent,
         exclude=exclude,
     )
@@ -333,10 +366,10 @@ for solver in solvers.values():
 
 
 def make_history_leaderboard_tab_contents(tab, *, indent=0):
-    puzzle = puzzles[tab['puz']]
-    exclude = ['rank', 'puzzle'] + tab.get('exclude', [])
+    event = puzzles[tab['puz']]['events'][tab['format']]
+    exclude = ['rank', 'event'] + tab.get('exclude', [])
     return make_solves_table(
-        puzzle.record_history,
+        event.record_history,
         indent=indent,
         exclude=exclude,
     )
@@ -350,8 +383,11 @@ create_mkdocs_file_from_template(
 )
 
 WRs = []
-for puzzle in puzzles.values():
-    WRs.append(puzzle.best_solves[0])
+for puzzle in puzzles:
+    for format in formats:
+        event = puzzles[puzzle]['events'][format]
+        if event.best_solves:
+            WRs.append(event.best_solves[0])
 
 create_mkdocs_file_from_template(
     'leaderboards/records.md',

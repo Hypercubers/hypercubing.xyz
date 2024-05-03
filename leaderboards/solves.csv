@@ -1,353 +1,353 @@
-date,       link,                  time, program,   solver,             puzzle
-2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3
-2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3_nf
-2019-05-19, TPaW0RUJrFk,  1h 12m 07.65s, MC4D,      tetrian,            4x4x4x4
-2019-08-11, aZ6GQOmgYD8,      2m 26.00s, -,         connor,             phys_2x2x2x2
-2021-07-24, z__CuN5CgAY,      1m 43.44s, MC4D,      tetrian,            3-layer_simplex
-2021-07-24, s8Kj2h8YCkY,      1m 00.80s, MC4D,      tetrian,            2x2x2x2
-2021-11-15, mgfhSL2fi7E,      2m 16.54s, -,         rowan,              phys_2x2x2x2
-2021-12-06, tOaBQs34oB0,      2m 05.27s, -,         rowan,              phys_2x2x2x2
-2021-12-09, I9hnsif4ImE,      2m 03.58s, -,         rowan,              phys_2x2x2x2
-2021-12-11, 2SWo0zMlg8I,      2m  0.66s, -,         rowan,              phys_2x2x2x2
-2021-12-11, JJPJ7hgNLJU,      1m 56.75s, -,         rowan,              phys_2x2x2x2
-2022-05-07, RuUc26S5xpw,      1m 46.24s, -,         rowan,              phys_2x2x2x2
-2022-06-20, FSpuv9FJorw,      1m 28.14s, -,         rowan,              phys_2x2x2x2
-2022-07-01, ClqLrac3Ib4,      6m 25.12s, -,         rowan,              phys_2x2x2x2_oh
-2022-08-02, XDW7wi4ryPE,      1m 27.17s, -,         rowan,              phys_2x2x2x2
-2022-08-07, uEnk2yrJN7I,      1m 23.28s, -,         grant,              phys_2x2x2x2
-2022-08-12, X_FY-CUfvUI,      1m 07.57s, -,         grant,              phys_2x2x2x2
-2022-09-17, i8Dkpk6QEpE,      1m 18.24s, -,         rowan,              phys_2x2x2x2
-2022-09-18, _qqXVKOVkAI,      1m 06.04s, -,         grant,              phys_2x2x2x2
-2022-10-01, RU3ca_0Ea3w,      3m 55.62s, -,         grant,              phys_2x2x2x2_oh
-2022-10-03, eIEu38wsjtM,         56.65s, -,         grant,              phys_2x2x2x2
-2022-11-06, U7AgKxkaG0U,      9m 05.82s, HSC,       hactar,             3x3x3x3
-2022-11-08, Ba4fZIL9sWs,         54.84s, -,         grant,              phys_2x2x2x2
-2022-11-15, ehmibXcJnpw,      2m 11.47s, -,         hyperespy,          phys_2x2x2x2
-2022-11-18, FCvn9-JvXgY,      8m 58.82s, HSC,       rowan,              3x3x3x3
-2022-11-18, j8rhsXzyP78,      8m 23.59s, HSC,       hactar,             3x3x3x3
-2022-11-19, L43wlyaoyAM,      8m 15.35s, HSC,       hactar,             3x3x3x3
-2022-11-19, otPqH-m22Xg,      8m 02.53s, HSC,       hactar,             3x3x3x3
-2022-11-19, gRWemTTFSik,      7m 43.33s, HSC,       hactar,             3x3x3x3
-2022-11-21, NwRLRdkJBF8,      7m 36.32s, HSC,       grant,              3x3x3x3
-2022-11-21, 26fvxDQPNwE,      7m 02.17s, HSC,       hactar,             3x3x3x3
-2022-11-22, UTISMKUW06I,      6m 46.21s, HSC,       grant,              3x3x3x3
-2022-11-22, p6_hGg7liLg,      6m 38.92s, HSC,       hactar,             3x3x3x3
-2022-11-23, 5SeTzLDTb2g,     44m 40.42s, HSC,       luna,               4x4x4x4
-2022-11-23, aQAGH2g7It8,      6m 36.38s, HSC,       grant,              3x3x3x3
-2022-11-23, Cr9FnV1HOSE,      5m 32.98s, HSC,       hactar,             3x3x3x3
-2022-11-24, m1Itso7nOM8,     12m 13.26s, HSC,       alvin,              3x3x3x3
-2022-11-25, licHhb2R_EE,      5m 25.14s, HSC,       grant,              3x3x3x3
-2022-11-25, st7bV8y_vUY,      5m 23.82s, HSC,       grant,              3x3x3x3
-2022-11-26, nzpLgx_x3bs,      5m 01.92s, HSC,       grant,              3x3x3x3
-2022-11-26, 8NamawdeMXU,      4m 58.14s, HSC,       hactar,             3x3x3x3
-2022-11-27, GEr2keT4cB8,      4m 52.94s, HSC,       grant,              3x3x3x3
-2022-11-29, 4_8RjkUkv-g,      4m 50.73s, HSC,       hactar,             3x3x3x3
-2022-11-30, gFkfXyHy-QA,      4m 43.86s, HSC,       grant,              3x3x3x3
-2022-12-01, FmJYI0IImyI,      4m 30.88s, HSC,       hactar,             3x3x3x3
-2022-12-01, JSH4FH5cv-w,      6m 31.02s, HSC,       rowan,              3x3x3x3
-2022-12-02, S6mFXj9HnXA,      4m 10.84s, HSC,       grant,              3x3x3x3
-2022-12-02, s8l4jnMz6p4,     24m 46.95s, HSC,       weill,              3x3x3x3
-2022-12-03, xk4IUAtKEo8,      4m 09.19s, HSC,       grant,              3x3x3x3
-2022-12-03, QDabSnE1I4A,      4m 02.60s, HSC,       grant,              3x3x3x3
-2022-12-04, k6nSP8EPU7I,     32m 46.55s, HSC,       grant,              4x4x4x4
-2022-12-04, QWvQvvbNS2c,     29m 54.82s, HSC,       luna,               4x4x4x4
-2022-12-07, 1t2P3CL-glo,  1h 31m 38.50s, HSC,       luna,               5x5x5x5
-2022-12-07, hjn7iu6zs4E,      3m 58.29s, HSC,       grant,              3x3x3x3
-2022-12-10, VlGilGp8SCg,      3m 55.32s, HSC,       grant,              3x3x3x3
-2022-12-13, w_-06L6oCdE,      3m 45.69s, HSC,       grant,              3x3x3x3
-2022-12-14, MkhTQHIlDcQ,      3m 34.43s, HSC,       grant,              3x3x3x3
-2022-12-14, QdTa7Be-Iw8,      3m 23.26s, HSC,       grant,              3x3x3x3
-2022-12-15, Al8w9-Xk3n8,      3m 21.52s, HSC,       grant,              3x3x3x3
-2022-12-16, XeRkVqDJ1jk,      3m 52.00s, HSC,       grant,              3x3x3x3_ao5
-2022-12-17, 2k7Gz8avg0E,     23m 50.75s, HSC,       grant,              4x4x4x4
-2022-12-20, peONIUD98wk,      3m 16.44s, HSC,       grant,              3x3x3x3
-2022-12-20, QNjG5DUqn8g,     21m 37.07s, HSC,       grant,              4x4x4x4
-2022-12-21, W0efQkhPSzY,      3m 13.97s, HSC,       grant,              3x3x3x3
-2022-12-21, h2hTGc5Vztk,      3m 06.06s, HSC,       grant,              3x3x3x3
-2022-12-21, 4tqXxtdtXms,         50.95s, HSC,       grant,              2x2x2x2
-2022-12-22, kRBj6ScH8Ng,      2m 59.97s, HSC,       hactar,             3x3x3x3
-2022-12-23, 9lMbBnA0tVE,      2m 59.34s, HSC,       grant,              3x3x3x3
-2022-12-23, B-VdP5h3fKo,     20m 18.48s, HSC,       grant,              4x4x4x4
-2022-12-23, B-VdP5h3fKo,     20m 18.48s, HSC,       grant,              4x4x4x4
-2022-12-24, EPAof7Hwrak,     19m 57.08s, HSC,       grant,              4x4x4x4
-2022-12-28, YRzjvrPVq7Q,     19m 17.70s, HSC,       grant,              4x4x4x4
-2022-12-29, bJndxs7QGyg,     18m 53.84s, HSC,       grant,              4x4x4x4
-2022-12-30, XwBNgjB9ZQI,     57m 43.65s, HSC,       grant,              5x5x5x5
-2022-12-30, pabZjfrsC-8,      2m 42.81s, HSC,       hactar,             3x3x3x3
-2022-12-31, 7M1JZ1-q4HI,      3m 02.78s, HSC,       hactar,             3x3x3x3_ao5
-2022-12-31, Pf0RPEprHDQ,  3h 15m 46.11s, HSC,       luna,               6x6x6x6
-2022-12-31, 4pjy5EwFSJg,     17m 21.34s, HSC,       grant,              4x4x4x4
-2023-01-01, KsRoTcOQ-IY,     23m 26.72s, HSC,       hactar,             4x4x4x4
-2023-01-01, n3R2qIP2yPU,         49.98s, HSC,       grant,              2x2x2x2
-2023-01-01, BJh_CMfkMtI,         48.52s, HSC,       grant,              2x2x2x2
-2023-01-02, d1beXWPKQaI,         44.75s, HSC,       grant,              2x2x2x2
-2023-01-03, H9oFcK3paz0,      2m 41.22s, HSC,       hactar,             3x3x3x3
-2023-01-03, EEapFcWRnU8,     17m 14.76s, HSC,       hactar,             4x4x4x4
-2023-01-03, 6PPG-ewLYfM,  1h 04m 03.18s, HSC,       hactar,             5x5x5x5
-2023-01-03, ksJ9v262T5w,     15m 59.75s, HSC,       grant,              4x4x4x4
-2023-01-03, mLV8gsbr84A,     15m 44.92s, HSC,       grant,              4x4x4x4
-2023-01-04, olpjEnRlBbw,     55m 13.04s, HSC,       hactar,             5x5x5x5
-2023-01-04, 2Tp8HZw2GZw,     16m 47.07s, HSC,       hactar,             4x4x4x4
-2023-01-04, 1WFIZHuxhYE,     15m 28.21s, HSC,       hactar,             4x4x4x4
-2023-01-04, b4zOy7xk4uA,     49m 52.50s, HSC,       grant,              5x5x5x5
-2023-01-04, FwZUAQaqdnM,     15m 18.84s, HSC,       grant,              4x4x4x4
-2023-01-04, UF02k5xkEPU,     14m 39.13s, HSC,       grant,              4x4x4x4
-2023-01-04, mXQj55mNyA4,      6m 25.04s, HSC,       rowan,              3x3x3x3
-2023-01-04, bEffS6BZ6Wo,      5m 58.30s, HSC,       rowan,              3x3x3x3
-2023-01-05, f1KrsWIvMYc,     14m 38.91s, HSC,       hactar,             4x4x4x4
-2023-01-05, UF02k5xkEPU,     14m 39.13s, HSC,       grant,              4x4x4x4
-2023-01-05, Oqu6DjCHZbo,     14m 10.44s, HSC,       grant,              4x4x4x4
-2023-01-05, 4ehj0gmGoV8,     14m 00.76s, HSC,       grant,              4x4x4x4
-2023-01-05, cukrSjxYWTk,      5m 51.33s, HSC,       rowan,              3x3x3x3
-2023-01-05, FQ036hBDQR4,      5m 48.12s, HSC,       rowan,              3x3x3x3
-2023-01-05, Bs4p1E3hZRQ,      5m 45.18s, HSC,       rowan,              3x3x3x3
-2023-01-05, LU89AsL2pow,      5m 27.17s, HSC,       rowan,              3x3x3x3
-2023-01-05, xTt-x6Jz8j4,     41m 59.32s, HSC,       grant,              5x5x5x5
-2023-01-06, ojT5uEyHYns,      5m 48.73s, HSC,       luna,               3x3x3x3
-2023-01-06, i8EMQ8okio4,     13m 21.36s, HSC,       grant,              4x4x4x4
-2023-01-06, 99_DW8wPMzg,      5m 21.88s, HSC,       rowan,              3x3x3x3
-2023-01-06, XJBWLuSSv_I,      5m 02.29s, HSC,       rowan,              3x3x3x3
-2023-01-08, zWNz4V2bbpQ,     13m 58.65s, HSC,       hactar,             4x4x4x4
-2023-01-08, q9G5S3d6DFI,      2m 39.47s, HSC,       hactar,             3x3x3x3
-2023-01-08, B4x2dvRQrlw,     13m 17.78s, HSC,       grant,              4x4x4x4
-2023-01-09, ic-dY64zG_I,      6m 58.67s, HSC,       adam,               3x3x3x3
-2023-01-09, 0cDdBok5cIw,      5m 44.86s, HSC,       adam,               3x3x3x3
-2023-01-09, 9iROTxt2dN8,      4m 55.27s, HSC,       rowan,              3x3x3x3
-2023-01-09, QiOto9BDpig,      4m 50.97s, HSC,       rowan,              3x3x3x3
-2023-01-11, 52O0SrN1XOQ,      4m 42.19s, HSC,       rowan,              3x3x3x3
-2023-01-10, g6za1EUXxE0,      4m 34.62s, HSC,       adam,               3x3x3x3
-2023-01-09, AyDDKsxcZqg,     22m 25.49s, HSC,       koen,               3x3x3x3
-2023-01-11, nozw5QzImrA,      2m 29.73s, HSC,       hactar,             3x3x3x3
-2023-01-12, GOCw_7XFYk4,     13m 34.55s, HSC,       hactar,             4x4x4x4
-2023-01-12, KbK1WwdBysk,     13m 13.65s, HSC,       hactar,             4x4x4x4
-2023-01-12, swLbg8NAx3Q,      4m 38.75s, HSC,       rowan,              3x3x3x3
-2023-01-12, O4OIobwI5oY,  2h 16m 26.54s, HSC,       grant,              6x6x6x6
-2023-01-12, H_PjS1kTLmg,     12m 33.75s, HSC,       grant,              4x4x4x4
-2023-01-12, -ONUyJeTFSg,     44m 25.04s, HSC,       hactar,             5x5x5x5
-2023-01-12, ZFRuk_oSjKM,     39m 03.51s, HSC,       grant,              5x5x5x5
-2023-01-12, QSCIGmSABVY,      3m 49.30s, HSC,       adam,               3x3x3x3
-2023-01-13, _bMkaHA4ZFs,     12m 28.14s, HSC,       hactar,             4x4x4x4
-2023-01-13, eHDN2TicLcE,     12m 25.22s, HSC,       hactar,             4x4x4x4
-2023-01-13, rqbR5I43G4M,     11m 42.85s, HSC,       hactar,             4x4x4x4
-2023-01-13, -L43UAoGNmk,     11m 39.60s, HSC,       hactar,             4x4x4x4
-2023-01-13, 7CTL0pjRG4w,     11m 22.35s, HSC,       hactar,             4x4x4x4
-2023-01-13, xUU8CC7xmGY,     43m 15.78s, HSC,       hactar,             5x5x5x5
-2023-01-14, AJh3AOKyX1E,     11m 54.53s, HSC,       grant,              4x4x4x4
-2023-01-14, GCybCB9PC8o,     11m 44.56s, HSC,       grant,              4x4x4x4
-2023-01-16, llaOZYJ4cUw,         43.54s, HSC,       adam,               2x2x2x2
-2023-01-16, RiQJhLsLo6Q,         39.40s, HSC,       adam,               2x2x2x2
-2023-01-12, brIlUqm8StQ,      4m 27.70s, HSC,       rowan,              3x3x3x3
-2023-01-12, 3U3wqyxmBM4,      4m 20.02s, HSC,       rowan,              3x3x3x3
-2023-01-17, 62HWyvdgTEA,     11m 16.71s, HSC,       grant,              4x4x4x4
-2023-01-17, rxnMhbPmf-E,     34m 33.54s, HSC,       grant,              5x5x5x5
-2023-01-18, i92ywhxPUW4,     40m 04.76s, HSC,       hactar,             5x5x5x5
-2023-01-18, UDj1Z8f6GkQ,  1h 38m 45.28s, HSC,       grant,              6x6x6x6
-2023-01-19, yh_VfAj0JZM,      8m 15.42s, MC4D,      grant,              3-layer_simplex
-2023-01-20, EnTw_0gIjAM,     33m 47.21s, HSC,       grant,              5x5x5x5
-2023-01-21, JRBA1wgwrGE,  4h 39m 59.94s, HSC,       hactar,             7x7x7x7
-2023-01-22, x46AeM3WZt0,  3h 27m 17.51s, HSC,       grant,              7x7x7x7
-2023-01-23, LgQn5VwOOTE,     31m 06.98s, HSC,       grant,              5x5x5x5
-2023-01-23, yWhzox9UowA,      2m 14.04s, MC4D,      rowan,              3-layer_simplex
-2023-01-24, LD5QMmJ59ZA,      6m 11.01s, MC4D,      grant,              3-layer_simplex
-2023-01-25, pj9wdn2N2-k,      1m 43.45s, MC4D,      rowan,              3-layer_simplex
-2023-01-26, 6bK_JCjptKA,      1m 30.46s, MC4D,      rowan,              3-layer_simplex
-2023-01-29, DiKVlWnkLMA,     11m 13.68s, HSC,       grant,              4x4x4x4
-2023-01-30, fUQDZrJc7fA,     10m 44.23s, HSC,       grant,              4x4x4x4
-2023-02-01, 5qKbs4vMg5s,     29m 58.51s, HSC,       grant,              5x5x5x5
-2023-02-02, 070wpxcYv8Q,  1h 29m 29.90s, HSC,       grant,              6x6x6x6
-2023-02-16, G36FdhIFykE,     10m 33.21s, HSC,       grant,              4x4x4x4
-2023-02-18, hQA0LWWAZPI,      2m 26.46s, HSC,       hactar,             3x3x3x3
-2023-02-18, YWN_76EBUow,      2m 39.64s, HSC,       hactar,             3x3x3x3_ao5
-2023-02-18, Q_N8O_hAOlY,     10m 03.55s, HSC,       grant,              4x4x4x4
-2023-02-21, l6aL7oAFOLk,      4m 12.92s, HSC,       rowan,              3x3x3x3
-2023-02-21, vPiTyP2ZMtk,     28m 58.95s, HSC,       grant,              5x5x5x5
-2023-02-23, BmqDHmlsGec,      9m 50.70s, HSC,       grant,              4x4x4x4
-2023-02-24, 6xT1PNnTNEI,      2m 41.26s, HSC,       grant,              3x3x3x3
-2023-02-24, CMqS46aXcuI,      3m 01.41s, HSC,       grant,              3x3x3x3_ao5
-2023-02-25, z1rYqGrCvyQ,      2m 37.88s, HSC,       grant,              3x3x3x3
-2023-02-25, 7nFmTgpqsxo,      2m 30.68s, HSC,       grant,              3x3x3x3
-2023-03-03, 1EJOe_MSHbI,  1h 23m 25.52s, HSC,       grant,              6x6x6x6
-2023-03-08, NErcg6OBdyE,      2m 21.01s, HSC,       grant,              3x3x3x3
-2023-03-08, SXp8wnUnKYM,         36.23s, HSC,       grant,              2x2x2x2
-2023-03-09, kf1ARFimzDY,      3m 29.74s, MC4D,      grant,              3-layer_simplex
-2023-03-10, m0uM4FMZO7Q,      2m 35.94s, HSC,       grant,              3x3x3x3_ao5
-2023-03-10, qn4XTJHJoR8,      2m 36.42s, MC4D,      grant,              3-layer_simplex
-2023-03-11, AWJ5TOo9-w8,      2m 17.97s, HSC,       hactar,             3x3x3x3
-2023-03-12, ao8KbJuMhDs,      6m 14.88s, -,         rowan,              phys_2x2x2x2_oh
-2023-03-12, ITiIO6J5mbQ,      5m 35.29s, -,         rowan,              phys_2x2x2x2_oh
-2023-03-14, IX03Z-FtdnE,      2m 16.37s, MC4D,      grant,              3-layer_simplex
-2023-03-14, d39sWJ7yAfM,      1m 48.76s, MC4D,      grant,              3-layer_simplex
-2023-03-15, OrwPbHLGLO0,      1m 43.19s, MC4D,      grant,              3-layer_simplex
-2023-03-15, RTyC-Gmm-9s,      1m 34.16s, MC4D,      grant,              3-layer_simplex
-2023-03-15, MD18ru7nAVI,      1m 31.11s, MC4D,      grant,              3-layer_simplex
-2023-03-15, fFJVEfFA-uo,      1m 17.70s, MC4D,      grant,              3-layer_simplex
-2023-03-16, SCkKA-ua2AQ,      2m 11.33s, HSC,       grant,              3x3x3x3
-2023-03-17, QkFR1WzMCzc,     28m 14.31s, HSC,       grant,              5x5x5x5
-2023-03-18, nFOb5ueM6sQ,      4m 30.57s, MT,        luna,               hemimegaminx
-2023-03-18, uk_I82NLuwY,      2m 54.05s, MT,        luna,               hemimegaminx
-2023-03-18, 8ldHKvKunyw,      3m 35.86s, MT,        grant,              hemimegaminx
-2023-03-18, o5Xa6v0y9J8,      2m 19.99s, MT,        grant,              hemimegaminx
-2023-03-18, ktjpFhnArHE,      2m 11.57s, MT,        luna,               hemimegaminx
-2023-03-18, Jry6rXRHgmc,      2m 06.52s, MT,        luna,               hemimegaminx
-2023-03-19, hKelDJ4rkLI,      1m 51.94s, MT,        grant,              hemimegaminx
-2023-03-20, 1GfM06GsWp4,      1m 27.39s, MPU,       grant,              1x3x3x3
-2023-03-30, Nty_vtso5Pk,      1m 42.40s, -,         cubedude,           phys_2x2x2x2
-2023-03-29, P8AG5AGeu40,     17m 11.75s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-04, 23dSS3ojZoE,     47m 43.81s, AKKEI-SIM, hyperespy,          virt_phys_3x3x3x3
-2023-04-04, M6Jb5v-xAuE,     14m 33.06s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-08, RAiktXK9q8g,      2m 35.29s, HSC,       hactar,             3x3x3x3_ao5
-2023-04-08, 4Ai_cuY6XSs,      2m 07.30s, HSC,       hactar,             3x3x3x3
-2023-04-08, EpM23Rxmt1Y,      2m 33.10s, HSC,       hactar,             3x3x3x3_ao5
-2023-04-09, lOsFAVkSxKc,     12m 05.25s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-10, uczWb9zmwq4,      2m 28.05s, HSC,       grant,              3x3x3x3_ao5
-2023-04-12, RbxinDf2wv8,     44m 41.49s, AKKEI-SIM, hyperespy,          virt_phys_3x3x3x3
-2023-04-12, zLmOY8gM1zs,     11m 30.66s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-18, OXPmZOEf9IE,     10m 58.78s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-20, R15N-WjDwU4,     10m 54.21s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-20, oDCqOAPATgA,     10m 30.07s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-04-21, -uFD_WwX4po,      2m 03.83s, HSC,       grant,              3x3x3x3
-2023-04-22, k15vLZCIilU,      2m 26.16s, HSC,       hactar,             3x3x3x3_ao5
-2023-04-22, PtXvGfoezWs,      2m 05.30s, HSC,       hactar,             3x3x3x3
-2023-04-22, 4JMCN548LV4,      2m 20.19s, HSC,       hactar,             3x3x3x3_ao5
-2023-04-25, 64fP1z2m6Jc,      9m 47.42s, HSC,       grant,              4x4x4x4
-2023-04-25, fmCI0vlKTrU,      8m 55.68s, HSC,       grant,              4x4x4x4
-2023-04-26, iWuBfNMeoWE,      8m 52.97s, HSC,       grant,              4x4x4x4
-2023-04-27, oyYFe5GSEUE,     27m 08.97s, HSC,       grant,              5x5x5x5
-2023-05-03, c4vTxQZcmDk,      9m 58.95s, AKKEI-SIM, grant,              virt_phys_3x3x3x3
-2023-05-05, https://www.loom.com/share/a0e16bba46eb49b097ffe8657595eed4, 55m 06.00s, AKKEI-SIM, kevin, virt_phys_3x3x3x3
-2023-05-06, ejbcyheNJiU,     25m 11.08s, HSC,       grant,              5x5x5x5
-2022-08-08, lBssOimXaFE,     47m 14.00s, -,         asa,                phys_2x2x2x2_bld
-2022-03-17, zJS5bn7Hmto,  1h 21m 17.68s, MC4D,      yuste,              3x3x3x3_bld
-2019-10-12, b1r6sBgTIoE,     14m 41.55s, MC4D,      gray,               2x2x2x2_bld
-2023-05-09, JCRQsKqWL-o,  1h 19m 30.89s, HSC,       grant,              6x6x6x6
-2023-05-10, AejkKnh2ut4,  1h 12m 22.58s, HSC,       grant,              6x6x6x6
-2023-05-11, ahKlBFZmkYk,         34.95s, HSC,       grant,              2x2x2x2
-2023-05-12, yg86g4-10I0,      2m 18.18s, HSC,       hactar,             3x3x3x3_ao5
-2023-05-13, SrrmSdtOt14,      1m 56.42s, HSC,       hactar,             3x3x3x3
-2023-05-13, rq448vFu1dM,     23m 42.58s, HSC,       grant,              5x5x5x5
-2023-05-15, BTBhZZSYFpY,  1h  4m 57.88s, HSC,       grant,              6x6x6x6
-2023-05-16, ED-CxpM76yU,         34.59s, HSC,       grant,              2x2x2x2
-2023-05-20, ecIo0eD7BxU,         34.17s, HSC,       grant,              2x2x2x2
-2023-05-20, lg4Rm_Wh9Qw,         33.34s, HSC,       grant,              2x2x2x2
-2023-05-23, bPVrqBQmRQk,  1h  3m 23.50s, HSC,       grant,              6x6x6x6
-2023-05-23, RDFJSIQ8uJ0,         31.64s, HSC,       grant,              2x2x2x2
-2023-05-24, KhEzYs9vwuo,         28.51s, HSC,       grant,              2x2x2x2
-2023-05-27, sL20osNa5I8,     23m 19.10s, HSC,       grant,              5x5x5x5
-2023-05-29, uHhPlIZ2PGU,     22m 11.78s, HSC,       grant,              5x5x5x5
-2023-05-29, 3aSo8sjhBUs,  1h  0m 31.15s, HSC,       grant,              6x6x6x6
-2023-05-31, b4ChatHg8AM,  2h 11m 41.97s, HSC,       grant,              7x7x7x7
-2023-05-31, 1-W78yF5eHM,      1m 24.34s, MPU,       luna,               1x3x3x3
-2023-05-31, bfXTiTIip-k,      1m 02.91s, MPU,       luna,               1x3x3x3
-2023-05-31, RKoZfNSLCGs,      1m 00.93s, MPU,       hactar,             1x3x3x3
-2023-05-31, iwFQTZnhqhk,      1m 15.58s, MPU,       rowan,              1x3x3x3
-2023-06-02, fljQSZgPTUg,     21m 44.12s, HSC,       grant,              5x5x5x5
-2023-06-02, Ri0eBwzbRJE,     56m 03.94s, HSC,       grant,              6x6x6x6
-2023-06-06, ADe3-T-hkmo,     20m 13.86s, HSC,       olaf,               3x3x3x3
-2023-06-06, cL5RmBX-XQg,     17m 46.64s, HSC,       olaf,               3x3x3x3
-2023-06-07, UjJEtBTvR9E,     13m 56.31s, HSC,       olaf,               3x3x3x3
-2023-06-08, YRNwPoReYz0,     11m 10.75s, HSC,       olaf,               3x3x3x3
-2023-06-09, PxqEWMKzHSw,     10m 33.56s, HSC,       olaf,               3x3x3x3
-2023-06-10, HAU44_mZPn8,      9m 44.25s, HSC,       olaf,               3x3x3x3
-2023-06-11, 06FYcnJ2_6g,      8m 38.36s, HSC,       olaf,               3x3x3x3
-2023-06-11, wpXmJrI48R8,     20m 12.92s, HSC,       void,               3x3x3x3
-2023-06-12, CvX6ozCVKys,      7m 55.60s, HSC,       olaf,               3x3x3x3
-2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3
-2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3
-2022-12-02, TPbJAP82Fno,     15m 45.39s, MC3D,      markk,              3x3x3_1d
-2023-07-03, XeRAYpf8Tqw,      7m 34.18s, MC3D,      grant,              3x3x3_1d
-2023-07-03, RCO9Fawp7Y4,      5m 33.39s, HSC,       grant,              3x3x3x3_nf
-2023-07-03, 35VjKjeWSCg,      5m 16.01s, HSC,       grant,              3x3x3x3_nf
-2023-07-04, ULlDZxWC7mk,      6m 24.39s, MC3D,      grant,              3x3x3_1d
-2023-07-04, txgOhBHjKaY,      5m 10.71s, MC3D,      grant,              3x3x3_1d
-2023-07-04, dwYodrQgKHg,      4m 20.21s, MC3D,      grant,              3x3x3_1d
-2023-07-05, lsCk5keMWLU,      3m 22.20s, MC3D,      grant,              3x3x3_1d
-2023-07-06, roZdgUpJfvY,      4m 10.39s, HSC,       rowan,              3x3x3x3
-2023-07-08, _Z8qO2i1FlE,      1m 40.30s, -,         origamist,          phys_2x2x2x2
-2023-07-17, 4L-gCZlWAaU,     15m 22.62s, HSC,       tymofro,            3x3x3x3
-2023-07-18, WJf4uhtQEMI,  1h 58m 21.23s, HSC,       grant,              7x7x7x7
-2023-07-13, R2ngXs9dVLQ,      4m 07.83s, HSC,       rowan,              3x3x3x3
-2023-07-20, oGPEnVKT9-c,     21m 40.87s, HSC,       grant,              5x5x5x5
-2023-07-21, Zyyt7J1eVDs,     12m 48.46s, HSC,       tymofro,            3x3x3x3
-2023-07-22, bjILjlmZoio,     10m 41.57s, HSC,       tymofro,            3x3x3x3
-2023-07-22, zaTLgeDAOFw,      9m 08.77s, HSC,       tymofro,            3x3x3x3
-2023-07-22, tvVuZFT3jU8,     20m 48.93s, HSC,       grant,              5x5x5x5
-2023-07-25, xhS16iej5Ok,     34m 00.12s, HSC,       tymofro,            4x4x4x4
-2023-07-26, F9i6o3k5ABA,     20m 17.28s, HSC,       grant,              5x5x5x5
-2023-07-27, wlWdlq_a05U,      7m 19.72s, HSC,       tymofro,            3x3x3x3
-2023-07-27, gaBJShR4u8w,     19m 57.61s, HSC,       grant,              5x5x5x5
-2023-07-27, CDrpyEjgrOg,      8m 32.56s, HSC,       grant,              4x4x4x4
-2023-07-31, TU5S5TPDbog,      6m 54.54s, HSC,       tymofro,            3x3x3x3
-2023-07-31, Py-piV263Mg,      8m 30.66s, HSC,       grant,              4x4x4x4
-2023-08-01, Bc3gRz48i5c,      7m 55.77s, HSC,       grant,              4x4x4x4
-2023-08-02, 8O0YmAdJstg,     26m 09.96s, HSC,       tymofro,            4x4x4x4
-2023-08-12, OfmH62is4Dc,      4m 02.82s, HSC,       rowan,              3x3x3x3
-2023-08-15, VZl_iApw7W0,      3m 28.22s, HSC,       adam,               3x3x3x3
-2023-08-15, VZl_iApw7W0,      3m 58.96s, HSC,       adam,               3x3x3x3_ao5
-2023-08-16, c3L8RSbqnnI,      6m 22.38s, HSC,       tymofro,            3x3x3x3
-2023-08-16, ABPm1N1F_Vk,      2m 01.93s, -,         tymofro,            phys_2x2x2x2
-2023-08-17, s_yGYpFB8R4,         54.52s, HSC,       tymofro,            2x2x2x2
-2023-08-21, LyAuoZqpGfY,      5m 41.88s, HSC,       tymofro,            3x3x3x3
-2023-08-22, x-aMzC9gHqQ,      4m 33.15s, HSC,       tymofro,            3x3x3x3
-2023-08-30, uZpmCn9iGJE?t=1h13m30s, 2h 51m 54s, HSC, hactar,            6x6x6x6
-2023-09-17, RJ7e1_PxeW0,       1m 26.10s, -,        tymofro,            phys_2x2x2x2
-2023-09-20, D7sZl_bAtMU,       4m 54.39s, HSC,      edan,               3x3x3x3
-2023-09-23, rTgxBHHt0Ak,          26.49s, HSC,      adam,               2x2x2x2
-2023-10-01, evhr87J66zo,   1h 27m 10.78s, HSC,      tymofro,            5x5x5x5
-2023-10-08, IZlEa0YBTBA,       2m 56.98s, -,        tymofro,            phys_2x2x2x2_oh
-2023-10-12, 71EeEOsXyVo,       3m 53.23s, HSC,      edan,               3x3x3x3
-2023-10-25, T1MVA03HSBw,       9m 52.04s, HSC,      myigiter,           3x3x3x3_ao5
-2023-10-25, T1MVA03HSBw?t=1346s, 9m 32.68s, HSC,    myigiter,           3x3x3x3
-2023-10-29, Pu-wDjYdz5U,       9m 54.04s, HSC,      battistin,          3x3x3x3
-2023-10-31, _nGfPD-YGnk,       8m 38.99s, HSC,      battistin,          3x3x3x3
-2023-11-02, kzRoWZc2j9Q,       8m 18.63s, HSC,      battistin,          3x3x3x3
-2023-11-04, hNWsKQmArkM,       7m 54.79s, HSC,      battistin,          3x3x3x3
-2023-11-04, gOdrzT-7MAk,       1m 19.64s, MPU,      tymofro,            1x3x3x3
-2023-11-05, l-wY_SiH2Og,       7m 24.84s, HSC,      battistin,          3x3x3x3
-2023-11-06, bs6oIkKCQeE,       6m 19.69s, HSC,      battistin,          3x3x3x3
-2023-11-10, 2YDTJ6pPwi0,       1m 06.71s, MPU,      tymofro,            1x3x3x3
-2023-11-07, lvTLmdc1YQM,       1m 19.68s, -,        tymofro,            phys_2x2x2x2
-2023-11-11, q3nDUfcsmAk,          57.46s, MPU,      tymofro,            1x3x3x3
-2023-11-10, ZIgGori6nFM,      59m 55.81s, HSC,      battistin,          4x4x4x4
-2024-01-21, UrGPHa6K4Kk,       1m 31.46s, HSC,      danielcohen,        phys_2x2x2x2
-2024-01-22, NzdnhFx4fuc,       4m 02.37s, HSC,      rowan,              3x3x3x3
-2024-01-24, aNKQOBKEPUM,       3m 55.65s, HSC,      rowan,              3x3x3x3
-2024-01-25, RkuC2oPCKdE,       4m 08.70s, HSC,      tymofro,            3x3x3x3
-2024-01-27, _UzbQ9PNDz8,      14m 39.68s, HSC,      ethandavis,         3x3x3x3
-2024-01-28, MqDiqdas_0I,       3m 45.38s, HSC,      rowan,              3x3x3x3
-2024-01-30, Cc89UGu-ha4,       8m 31.14s, HSC,      pkearth,            3x3x3x3
-2024-02-12, GqGpEgfqIRk,       3m 53.45s, HSC,      tymofro,            3x3x3x3
-2024-02-13, u-gcnW_ZQmU,       3m 22.80s, HSC,      edan,               3x3x3x3
-2024-03-06, 6Tez6T6YJqE,       1m 47.69s, MT,       milojacquet,        hemimegaminx
-2024-03-11, aUTQ8tLEZoA,      11m 12.84s, HSC,      hactar,             4x4x4x4
-2024-03-15, MCBQJOjkBpg,      10m 05.47s, HSC,      hactar,             4x4x4x4
-2024-03-17, 2laArWGh5tY,       9m 44.50s, HSC,      hactar,             4x4x4x4
-2024-03-19, bf__m479QjY,          45.37s, HSC,      tymofro,            2x2x2x2
-2024-03-19, j4OZFwm2cGc,      23m 21.81s, HSC,      tymofro,            4x4x4x4
-2024-03-20, su6L9XZ5aWE,       8m 45.21s, HSC,      hactar,             4x4x4x4
-2024-03-21, YAiat68eqpY,      17m 52.81s, HSC,      tymofro,            4x4x4x4
-2024-03-21, bxekDe2pWH8,      18m 47.12s, -,        akkei,              hemimegaminx
-2024-03-22, Byl0Wz6gdf4,   3h 39m 01.24s, MC7D,     luna,               3x3x3x3x3
-2024-03-23, Eqgq2g6fZy8,   1h 48m 43.50s, MPU,      luna,               2x2x2x2x2
-2024-03-24, 8q2ppxqzzYg,       7m 42.36s, HSC,      battistin,          3x3x3x3_ao5
-2024-03-26, lipNaShkSd4,       5m 22.97s, MT,       battistin,          hemimegaminx
-2024-03-29, 4akee0AGdoA,       5m 50.99s, HSC,      battistin,          3x3x3x3
-2024-03-31, m4Cu4xVmWhU,       1m 31.67s, MT,       milojacquet,        hemimegaminx
-2024-04-01, 3WXFnsGD8oM,   1h 13m 07.26s, MPU,      tymofro,            2x2x2x2x2
-2024-04-04, 0CUggoK9i3g,      24m 14.41s, MT,       milojacquet,        klein_quartic
-2024-04-06, w7WkA3RaAok,       5m 29.78s, HSC,      battistin,          3x3x3x3
-2024-04-07, Ai0P58dWNLY,   3h 17m 59.66s, MC7D,     luna,               3x3x3x3x3
-2024-04-06, GqojR2pRlOM,       8m 12.82s, HSC,      hactar,             4x4x4x4
-2024-03-31, 76to6wms_04,       1m 13.35s, MPU,      rowan,              1x3x3x3
-2024-04-06, z9WT6wnmdDM,   7h 54m 19.60s, MC7D,     rowan,              3x3x3x3x3
-2024-04-08, b6a2QIcrZg8,       3m 34.44s, HSC,      rowan,              3x3x3x3
-2024-04-17, uCpi3Fbje0s,       1m 11.99s, -,        cubedude,           phys_2x2x2x2
-2024-04-18, hW6bVavOc-I,          58.14s, -,        cubedude,           phys_2x2x2x2
-2024-04-15, DOCuJsuOmSw,       2m 18.18s, HSC,      hactar,             3x3x3x3_ao5
-2024-04-22, pMOW7a2U6SE,       7m 55.18s, HSC,      hactar,             4x4x4x4
-2024-04-24, xmOiIFoLQ_I,      24m 15.12s, HSC,      luna,               4x4x4x4
-2024-04-24, bgWOYE3e7pM,       7m 52.61s, HSC,      hactar,             4x4x4x4
-2024-04-24, NJHYnPmOq3c,      46m 19.15s, HSC,      rowan,              4x4x4x4
-2024-04-24, dIphYAbQ3BU,      33m 42.90s, HSC,      rowan,              4x4x4x4
-2024-04-26, GGKOSVbxZlA,      29m 07.38s, HSC,      hactar,             5x5x5x5
-2024-04-26, GlBOvjiA028,  15h 20m 24.49s, MPU,      luna,               4x4x4x4x4
-2024-04-29, iJXl5mew5YU,      26m 11.51s, HSC,      hactar,             5x5x5x5
+date,       link,                  time, program,   solver,             puzzle, format
+2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3, single
+2019-05-04, qyaYU6AV5Sg,     10m 11.87s, MC4D,      tetrian,            3x3x3x3, nf
+2019-05-19, TPaW0RUJrFk,  1h 12m 07.65s, MC4D,      tetrian,            4x4x4x4, single
+2019-08-11, aZ6GQOmgYD8,      2m 26.00s, -,         connor,             phys_2x2x2x2, single
+2021-07-24, z__CuN5CgAY,      1m 43.44s, MC4D,      tetrian,            3-layer_simplex, single
+2021-07-24, s8Kj2h8YCkY,      1m 00.80s, MC4D,      tetrian,            2x2x2x2, single
+2021-11-15, mgfhSL2fi7E,      2m 16.54s, -,         rowan,              phys_2x2x2x2, single
+2021-12-06, tOaBQs34oB0,      2m 05.27s, -,         rowan,              phys_2x2x2x2, single
+2021-12-09, I9hnsif4ImE,      2m 03.58s, -,         rowan,              phys_2x2x2x2, single
+2021-12-11, 2SWo0zMlg8I,      2m  0.66s, -,         rowan,              phys_2x2x2x2, single
+2021-12-11, JJPJ7hgNLJU,      1m 56.75s, -,         rowan,              phys_2x2x2x2, single
+2022-05-07, RuUc26S5xpw,      1m 46.24s, -,         rowan,              phys_2x2x2x2, single
+2022-06-20, FSpuv9FJorw,      1m 28.14s, -,         rowan,              phys_2x2x2x2, single
+2022-07-01, ClqLrac3Ib4,      6m 25.12s, -,         rowan,              phys_2x2x2x2, oh
+2022-08-02, XDW7wi4ryPE,      1m 27.17s, -,         rowan,              phys_2x2x2x2, single
+2022-08-07, uEnk2yrJN7I,      1m 23.28s, -,         grant,              phys_2x2x2x2, single
+2022-08-12, X_FY-CUfvUI,      1m 07.57s, -,         grant,              phys_2x2x2x2, single
+2022-09-17, i8Dkpk6QEpE,      1m 18.24s, -,         rowan,              phys_2x2x2x2, single
+2022-09-18, _qqXVKOVkAI,      1m 06.04s, -,         grant,              phys_2x2x2x2, single
+2022-10-01, RU3ca_0Ea3w,      3m 55.62s, -,         grant,              phys_2x2x2x2, oh
+2022-10-03, eIEu38wsjtM,         56.65s, -,         grant,              phys_2x2x2x2, single
+2022-11-06, U7AgKxkaG0U,      9m 05.82s, HSC,       hactar,             3x3x3x3, single
+2022-11-08, Ba4fZIL9sWs,         54.84s, -,         grant,              phys_2x2x2x2, single
+2022-11-15, ehmibXcJnpw,      2m 11.47s, -,         hyperespy,          phys_2x2x2x2, single
+2022-11-18, FCvn9-JvXgY,      8m 58.82s, HSC,       rowan,              3x3x3x3, single
+2022-11-18, j8rhsXzyP78,      8m 23.59s, HSC,       hactar,             3x3x3x3, single
+2022-11-19, L43wlyaoyAM,      8m 15.35s, HSC,       hactar,             3x3x3x3, single
+2022-11-19, otPqH-m22Xg,      8m 02.53s, HSC,       hactar,             3x3x3x3, single
+2022-11-19, gRWemTTFSik,      7m 43.33s, HSC,       hactar,             3x3x3x3, single
+2022-11-21, NwRLRdkJBF8,      7m 36.32s, HSC,       grant,              3x3x3x3, single
+2022-11-21, 26fvxDQPNwE,      7m 02.17s, HSC,       hactar,             3x3x3x3, single
+2022-11-22, UTISMKUW06I,      6m 46.21s, HSC,       grant,              3x3x3x3, single
+2022-11-22, p6_hGg7liLg,      6m 38.92s, HSC,       hactar,             3x3x3x3, single
+2022-11-23, 5SeTzLDTb2g,     44m 40.42s, HSC,       luna,               4x4x4x4, single
+2022-11-23, aQAGH2g7It8,      6m 36.38s, HSC,       grant,              3x3x3x3, single
+2022-11-23, Cr9FnV1HOSE,      5m 32.98s, HSC,       hactar,             3x3x3x3, single
+2022-11-24, m1Itso7nOM8,     12m 13.26s, HSC,       alvin,              3x3x3x3, single
+2022-11-25, licHhb2R_EE,      5m 25.14s, HSC,       grant,              3x3x3x3, single
+2022-11-25, st7bV8y_vUY,      5m 23.82s, HSC,       grant,              3x3x3x3, single
+2022-11-26, nzpLgx_x3bs,      5m 01.92s, HSC,       grant,              3x3x3x3, single
+2022-11-26, 8NamawdeMXU,      4m 58.14s, HSC,       hactar,             3x3x3x3, single
+2022-11-27, GEr2keT4cB8,      4m 52.94s, HSC,       grant,              3x3x3x3, single
+2022-11-29, 4_8RjkUkv-g,      4m 50.73s, HSC,       hactar,             3x3x3x3, single
+2022-11-30, gFkfXyHy-QA,      4m 43.86s, HSC,       grant,              3x3x3x3, single
+2022-12-01, FmJYI0IImyI,      4m 30.88s, HSC,       hactar,             3x3x3x3, single
+2022-12-01, JSH4FH5cv-w,      6m 31.02s, HSC,       rowan,              3x3x3x3, single
+2022-12-02, S6mFXj9HnXA,      4m 10.84s, HSC,       grant,              3x3x3x3, single
+2022-12-02, s8l4jnMz6p4,     24m 46.95s, HSC,       weill,              3x3x3x3, single
+2022-12-03, xk4IUAtKEo8,      4m 09.19s, HSC,       grant,              3x3x3x3, single
+2022-12-03, QDabSnE1I4A,      4m 02.60s, HSC,       grant,              3x3x3x3, single
+2022-12-04, k6nSP8EPU7I,     32m 46.55s, HSC,       grant,              4x4x4x4, single
+2022-12-04, QWvQvvbNS2c,     29m 54.82s, HSC,       luna,               4x4x4x4, single
+2022-12-07, 1t2P3CL-glo,  1h 31m 38.50s, HSC,       luna,               5x5x5x5, single
+2022-12-07, hjn7iu6zs4E,      3m 58.29s, HSC,       grant,              3x3x3x3, single
+2022-12-10, VlGilGp8SCg,      3m 55.32s, HSC,       grant,              3x3x3x3, single
+2022-12-13, w_-06L6oCdE,      3m 45.69s, HSC,       grant,              3x3x3x3, single
+2022-12-14, MkhTQHIlDcQ,      3m 34.43s, HSC,       grant,              3x3x3x3, single
+2022-12-14, QdTa7Be-Iw8,      3m 23.26s, HSC,       grant,              3x3x3x3, single
+2022-12-15, Al8w9-Xk3n8,      3m 21.52s, HSC,       grant,              3x3x3x3, single
+2022-12-16, XeRkVqDJ1jk,      3m 52.00s, HSC,       grant,              3x3x3x3, ao5
+2022-12-17, 2k7Gz8avg0E,     23m 50.75s, HSC,       grant,              4x4x4x4, single
+2022-12-20, peONIUD98wk,      3m 16.44s, HSC,       grant,              3x3x3x3, single
+2022-12-20, QNjG5DUqn8g,     21m 37.07s, HSC,       grant,              4x4x4x4, single
+2022-12-21, W0efQkhPSzY,      3m 13.97s, HSC,       grant,              3x3x3x3, single
+2022-12-21, h2hTGc5Vztk,      3m 06.06s, HSC,       grant,              3x3x3x3, single
+2022-12-21, 4tqXxtdtXms,         50.95s, HSC,       grant,              2x2x2x2, single
+2022-12-22, kRBj6ScH8Ng,      2m 59.97s, HSC,       hactar,             3x3x3x3, single
+2022-12-23, 9lMbBnA0tVE,      2m 59.34s, HSC,       grant,              3x3x3x3, single
+2022-12-23, B-VdP5h3fKo,     20m 18.48s, HSC,       grant,              4x4x4x4, single
+2022-12-23, B-VdP5h3fKo,     20m 18.48s, HSC,       grant,              4x4x4x4, single
+2022-12-24, EPAof7Hwrak,     19m 57.08s, HSC,       grant,              4x4x4x4, single
+2022-12-28, YRzjvrPVq7Q,     19m 17.70s, HSC,       grant,              4x4x4x4, single
+2022-12-29, bJndxs7QGyg,     18m 53.84s, HSC,       grant,              4x4x4x4, single
+2022-12-30, XwBNgjB9ZQI,     57m 43.65s, HSC,       grant,              5x5x5x5, single
+2022-12-30, pabZjfrsC-8,      2m 42.81s, HSC,       hactar,             3x3x3x3, single
+2022-12-31, 7M1JZ1-q4HI,      3m 02.78s, HSC,       hactar,             3x3x3x3, ao5
+2022-12-31, Pf0RPEprHDQ,  3h 15m 46.11s, HSC,       luna,               6x6x6x6, single
+2022-12-31, 4pjy5EwFSJg,     17m 21.34s, HSC,       grant,              4x4x4x4, single
+2023-01-01, KsRoTcOQ-IY,     23m 26.72s, HSC,       hactar,             4x4x4x4, single
+2023-01-01, n3R2qIP2yPU,         49.98s, HSC,       grant,              2x2x2x2, single
+2023-01-01, BJh_CMfkMtI,         48.52s, HSC,       grant,              2x2x2x2, single
+2023-01-02, d1beXWPKQaI,         44.75s, HSC,       grant,              2x2x2x2, single
+2023-01-03, H9oFcK3paz0,      2m 41.22s, HSC,       hactar,             3x3x3x3, single
+2023-01-03, EEapFcWRnU8,     17m 14.76s, HSC,       hactar,             4x4x4x4, single
+2023-01-03, 6PPG-ewLYfM,  1h 04m 03.18s, HSC,       hactar,             5x5x5x5, single
+2023-01-03, ksJ9v262T5w,     15m 59.75s, HSC,       grant,              4x4x4x4, single
+2023-01-03, mLV8gsbr84A,     15m 44.92s, HSC,       grant,              4x4x4x4, single
+2023-01-04, olpjEnRlBbw,     55m 13.04s, HSC,       hactar,             5x5x5x5, single
+2023-01-04, 2Tp8HZw2GZw,     16m 47.07s, HSC,       hactar,             4x4x4x4, single
+2023-01-04, 1WFIZHuxhYE,     15m 28.21s, HSC,       hactar,             4x4x4x4, single
+2023-01-04, b4zOy7xk4uA,     49m 52.50s, HSC,       grant,              5x5x5x5, single
+2023-01-04, FwZUAQaqdnM,     15m 18.84s, HSC,       grant,              4x4x4x4, single
+2023-01-04, UF02k5xkEPU,     14m 39.13s, HSC,       grant,              4x4x4x4, single
+2023-01-04, mXQj55mNyA4,      6m 25.04s, HSC,       rowan,              3x3x3x3, single
+2023-01-04, bEffS6BZ6Wo,      5m 58.30s, HSC,       rowan,              3x3x3x3, single
+2023-01-05, f1KrsWIvMYc,     14m 38.91s, HSC,       hactar,             4x4x4x4, single
+2023-01-05, UF02k5xkEPU,     14m 39.13s, HSC,       grant,              4x4x4x4, single
+2023-01-05, Oqu6DjCHZbo,     14m 10.44s, HSC,       grant,              4x4x4x4, single
+2023-01-05, 4ehj0gmGoV8,     14m 00.76s, HSC,       grant,              4x4x4x4, single
+2023-01-05, cukrSjxYWTk,      5m 51.33s, HSC,       rowan,              3x3x3x3, single
+2023-01-05, FQ036hBDQR4,      5m 48.12s, HSC,       rowan,              3x3x3x3, single
+2023-01-05, Bs4p1E3hZRQ,      5m 45.18s, HSC,       rowan,              3x3x3x3, single
+2023-01-05, LU89AsL2pow,      5m 27.17s, HSC,       rowan,              3x3x3x3, single
+2023-01-05, xTt-x6Jz8j4,     41m 59.32s, HSC,       grant,              5x5x5x5, single
+2023-01-06, ojT5uEyHYns,      5m 48.73s, HSC,       luna,               3x3x3x3, single
+2023-01-06, i8EMQ8okio4,     13m 21.36s, HSC,       grant,              4x4x4x4, single
+2023-01-06, 99_DW8wPMzg,      5m 21.88s, HSC,       rowan,              3x3x3x3, single
+2023-01-06, XJBWLuSSv_I,      5m 02.29s, HSC,       rowan,              3x3x3x3, single
+2023-01-08, zWNz4V2bbpQ,     13m 58.65s, HSC,       hactar,             4x4x4x4, single
+2023-01-08, q9G5S3d6DFI,      2m 39.47s, HSC,       hactar,             3x3x3x3, single
+2023-01-08, B4x2dvRQrlw,     13m 17.78s, HSC,       grant,              4x4x4x4, single
+2023-01-09, ic-dY64zG_I,      6m 58.67s, HSC,       adam,               3x3x3x3, single
+2023-01-09, 0cDdBok5cIw,      5m 44.86s, HSC,       adam,               3x3x3x3, single
+2023-01-09, 9iROTxt2dN8,      4m 55.27s, HSC,       rowan,              3x3x3x3, single
+2023-01-09, QiOto9BDpig,      4m 50.97s, HSC,       rowan,              3x3x3x3, single
+2023-01-11, 52O0SrN1XOQ,      4m 42.19s, HSC,       rowan,              3x3x3x3, single
+2023-01-10, g6za1EUXxE0,      4m 34.62s, HSC,       adam,               3x3x3x3, single
+2023-01-09, AyDDKsxcZqg,     22m 25.49s, HSC,       koen,               3x3x3x3, single
+2023-01-11, nozw5QzImrA,      2m 29.73s, HSC,       hactar,             3x3x3x3, single
+2023-01-12, GOCw_7XFYk4,     13m 34.55s, HSC,       hactar,             4x4x4x4, single
+2023-01-12, KbK1WwdBysk,     13m 13.65s, HSC,       hactar,             4x4x4x4, single
+2023-01-12, swLbg8NAx3Q,      4m 38.75s, HSC,       rowan,              3x3x3x3, single
+2023-01-12, O4OIobwI5oY,  2h 16m 26.54s, HSC,       grant,              6x6x6x6, single
+2023-01-12, H_PjS1kTLmg,     12m 33.75s, HSC,       grant,              4x4x4x4, single
+2023-01-12, -ONUyJeTFSg,     44m 25.04s, HSC,       hactar,             5x5x5x5, single
+2023-01-12, ZFRuk_oSjKM,     39m 03.51s, HSC,       grant,              5x5x5x5, single
+2023-01-12, QSCIGmSABVY,      3m 49.30s, HSC,       adam,               3x3x3x3, single
+2023-01-13, _bMkaHA4ZFs,     12m 28.14s, HSC,       hactar,             4x4x4x4, single
+2023-01-13, eHDN2TicLcE,     12m 25.22s, HSC,       hactar,             4x4x4x4, single
+2023-01-13, rqbR5I43G4M,     11m 42.85s, HSC,       hactar,             4x4x4x4, single
+2023-01-13, -L43UAoGNmk,     11m 39.60s, HSC,       hactar,             4x4x4x4, single
+2023-01-13, 7CTL0pjRG4w,     11m 22.35s, HSC,       hactar,             4x4x4x4, single
+2023-01-13, xUU8CC7xmGY,     43m 15.78s, HSC,       hactar,             5x5x5x5, single
+2023-01-14, AJh3AOKyX1E,     11m 54.53s, HSC,       grant,              4x4x4x4, single
+2023-01-14, GCybCB9PC8o,     11m 44.56s, HSC,       grant,              4x4x4x4, single
+2023-01-16, llaOZYJ4cUw,         43.54s, HSC,       adam,               2x2x2x2, single
+2023-01-16, RiQJhLsLo6Q,         39.40s, HSC,       adam,               2x2x2x2, single
+2023-01-12, brIlUqm8StQ,      4m 27.70s, HSC,       rowan,              3x3x3x3, single
+2023-01-12, 3U3wqyxmBM4,      4m 20.02s, HSC,       rowan,              3x3x3x3, single
+2023-01-17, 62HWyvdgTEA,     11m 16.71s, HSC,       grant,              4x4x4x4, single
+2023-01-17, rxnMhbPmf-E,     34m 33.54s, HSC,       grant,              5x5x5x5, single
+2023-01-18, i92ywhxPUW4,     40m 04.76s, HSC,       hactar,             5x5x5x5, single
+2023-01-18, UDj1Z8f6GkQ,  1h 38m 45.28s, HSC,       grant,              6x6x6x6, single
+2023-01-19, yh_VfAj0JZM,      8m 15.42s, MC4D,      grant,              3-layer_simplex, single
+2023-01-20, EnTw_0gIjAM,     33m 47.21s, HSC,       grant,              5x5x5x5, single
+2023-01-21, JRBA1wgwrGE,  4h 39m 59.94s, HSC,       hactar,             7x7x7x7, single
+2023-01-22, x46AeM3WZt0,  3h 27m 17.51s, HSC,       grant,              7x7x7x7, single
+2023-01-23, LgQn5VwOOTE,     31m 06.98s, HSC,       grant,              5x5x5x5, single
+2023-01-23, yWhzox9UowA,      2m 14.04s, MC4D,      rowan,              3-layer_simplex, single
+2023-01-24, LD5QMmJ59ZA,      6m 11.01s, MC4D,      grant,              3-layer_simplex, single
+2023-01-25, pj9wdn2N2-k,      1m 43.45s, MC4D,      rowan,              3-layer_simplex, single
+2023-01-26, 6bK_JCjptKA,      1m 30.46s, MC4D,      rowan,              3-layer_simplex, single
+2023-01-29, DiKVlWnkLMA,     11m 13.68s, HSC,       grant,              4x4x4x4, single
+2023-01-30, fUQDZrJc7fA,     10m 44.23s, HSC,       grant,              4x4x4x4, single
+2023-02-01, 5qKbs4vMg5s,     29m 58.51s, HSC,       grant,              5x5x5x5, single
+2023-02-02, 070wpxcYv8Q,  1h 29m 29.90s, HSC,       grant,              6x6x6x6, single
+2023-02-16, G36FdhIFykE,     10m 33.21s, HSC,       grant,              4x4x4x4, single
+2023-02-18, hQA0LWWAZPI,      2m 26.46s, HSC,       hactar,             3x3x3x3, single
+2023-02-18, YWN_76EBUow,      2m 39.64s, HSC,       hactar,             3x3x3x3, ao5
+2023-02-18, Q_N8O_hAOlY,     10m 03.55s, HSC,       grant,              4x4x4x4, single
+2023-02-21, l6aL7oAFOLk,      4m 12.92s, HSC,       rowan,              3x3x3x3, single
+2023-02-21, vPiTyP2ZMtk,     28m 58.95s, HSC,       grant,              5x5x5x5, single
+2023-02-23, BmqDHmlsGec,      9m 50.70s, HSC,       grant,              4x4x4x4, single
+2023-02-24, 6xT1PNnTNEI,      2m 41.26s, HSC,       grant,              3x3x3x3, single
+2023-02-24, CMqS46aXcuI,      3m 01.41s, HSC,       grant,              3x3x3x3, ao5
+2023-02-25, z1rYqGrCvyQ,      2m 37.88s, HSC,       grant,              3x3x3x3, single
+2023-02-25, 7nFmTgpqsxo,      2m 30.68s, HSC,       grant,              3x3x3x3, single
+2023-03-03, 1EJOe_MSHbI,  1h 23m 25.52s, HSC,       grant,              6x6x6x6, single
+2023-03-08, NErcg6OBdyE,      2m 21.01s, HSC,       grant,              3x3x3x3, single
+2023-03-08, SXp8wnUnKYM,         36.23s, HSC,       grant,              2x2x2x2, single
+2023-03-09, kf1ARFimzDY,      3m 29.74s, MC4D,      grant,              3-layer_simplex, single
+2023-03-10, m0uM4FMZO7Q,      2m 35.94s, HSC,       grant,              3x3x3x3, ao5
+2023-03-10, qn4XTJHJoR8,      2m 36.42s, MC4D,      grant,              3-layer_simplex, single
+2023-03-11, AWJ5TOo9-w8,      2m 17.97s, HSC,       hactar,             3x3x3x3, single
+2023-03-12, ao8KbJuMhDs,      6m 14.88s, -,         rowan,              phys_2x2x2x2, oh
+2023-03-12, ITiIO6J5mbQ,      5m 35.29s, -,         rowan,              phys_2x2x2x2, oh
+2023-03-14, IX03Z-FtdnE,      2m 16.37s, MC4D,      grant,              3-layer_simplex, single
+2023-03-14, d39sWJ7yAfM,      1m 48.76s, MC4D,      grant,              3-layer_simplex, single
+2023-03-15, OrwPbHLGLO0,      1m 43.19s, MC4D,      grant,              3-layer_simplex, single
+2023-03-15, RTyC-Gmm-9s,      1m 34.16s, MC4D,      grant,              3-layer_simplex, single
+2023-03-15, MD18ru7nAVI,      1m 31.11s, MC4D,      grant,              3-layer_simplex, single
+2023-03-15, fFJVEfFA-uo,      1m 17.70s, MC4D,      grant,              3-layer_simplex, single
+2023-03-16, SCkKA-ua2AQ,      2m 11.33s, HSC,       grant,              3x3x3x3, single
+2023-03-17, QkFR1WzMCzc,     28m 14.31s, HSC,       grant,              5x5x5x5, single
+2023-03-18, nFOb5ueM6sQ,      4m 30.57s, MT,        luna,               hemimegaminx, single
+2023-03-18, uk_I82NLuwY,      2m 54.05s, MT,        luna,               hemimegaminx, single
+2023-03-18, 8ldHKvKunyw,      3m 35.86s, MT,        grant,              hemimegaminx, single
+2023-03-18, o5Xa6v0y9J8,      2m 19.99s, MT,        grant,              hemimegaminx, single
+2023-03-18, ktjpFhnArHE,      2m 11.57s, MT,        luna,               hemimegaminx, single
+2023-03-18, Jry6rXRHgmc,      2m 06.52s, MT,        luna,               hemimegaminx, single
+2023-03-19, hKelDJ4rkLI,      1m 51.94s, MT,        grant,              hemimegaminx, single
+2023-03-20, 1GfM06GsWp4,      1m 27.39s, MPU,       grant,              1x3x3x3, single
+2023-03-30, Nty_vtso5Pk,      1m 42.40s, -,         cubedude,           phys_2x2x2x2, single
+2023-03-29, P8AG5AGeu40,     17m 11.75s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-04, 23dSS3ojZoE,     47m 43.81s, AKKEI-SIM, hyperespy,          virt_phys_3x3x3x3, single
+2023-04-04, M6Jb5v-xAuE,     14m 33.06s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-08, RAiktXK9q8g,      2m 35.29s, HSC,       hactar,             3x3x3x3, ao5
+2023-04-08, 4Ai_cuY6XSs,      2m 07.30s, HSC,       hactar,             3x3x3x3, single
+2023-04-08, EpM23Rxmt1Y,      2m 33.10s, HSC,       hactar,             3x3x3x3, ao5
+2023-04-09, lOsFAVkSxKc,     12m 05.25s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-10, uczWb9zmwq4,      2m 28.05s, HSC,       grant,              3x3x3x3, ao5
+2023-04-12, RbxinDf2wv8,     44m 41.49s, AKKEI-SIM, hyperespy,          virt_phys_3x3x3x3, single
+2023-04-12, zLmOY8gM1zs,     11m 30.66s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-18, OXPmZOEf9IE,     10m 58.78s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-20, R15N-WjDwU4,     10m 54.21s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-20, oDCqOAPATgA,     10m 30.07s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-04-21, -uFD_WwX4po,      2m 03.83s, HSC,       grant,              3x3x3x3, single
+2023-04-22, k15vLZCIilU,      2m 26.16s, HSC,       hactar,             3x3x3x3, ao5
+2023-04-22, PtXvGfoezWs,      2m 05.30s, HSC,       hactar,             3x3x3x3, single
+2023-04-22, 4JMCN548LV4,      2m 20.19s, HSC,       hactar,             3x3x3x3, ao5
+2023-04-25, 64fP1z2m6Jc,      9m 47.42s, HSC,       grant,              4x4x4x4, single
+2023-04-25, fmCI0vlKTrU,      8m 55.68s, HSC,       grant,              4x4x4x4, single
+2023-04-26, iWuBfNMeoWE,      8m 52.97s, HSC,       grant,              4x4x4x4, single
+2023-04-27, oyYFe5GSEUE,     27m 08.97s, HSC,       grant,              5x5x5x5, single
+2023-05-03, c4vTxQZcmDk,      9m 58.95s, AKKEI-SIM, grant,              virt_phys_3x3x3x3, single
+2023-05-05, https://www.loom.com/share/a0e16bba46eb49b097ffe8657595eed4, 55m 06.00s, AKKEI-SIM, kevin, virt_phys_3x3x3x3, single
+2023-05-06, ejbcyheNJiU,     25m 11.08s, HSC,       grant,              5x5x5x5, single
+2022-08-08, lBssOimXaFE,     47m 14.00s, -,         asa,                phys_2x2x2x2, bld
+2022-03-17, zJS5bn7Hmto,  1h 21m 17.68s, MC4D,      yuste,              3x3x3x3, bld
+2019-10-12, b1r6sBgTIoE,     14m 41.55s, MC4D,      gray,               2x2x2x2, bld
+2023-05-09, JCRQsKqWL-o,  1h 19m 30.89s, HSC,       grant,              6x6x6x6, single
+2023-05-10, AejkKnh2ut4,  1h 12m 22.58s, HSC,       grant,              6x6x6x6, single
+2023-05-11, ahKlBFZmkYk,         34.95s, HSC,       grant,              2x2x2x2, single
+2023-05-12, yg86g4-10I0,      2m 18.18s, HSC,       hactar,             3x3x3x3, ao5
+2023-05-13, SrrmSdtOt14,      1m 56.42s, HSC,       hactar,             3x3x3x3, single
+2023-05-13, rq448vFu1dM,     23m 42.58s, HSC,       grant,              5x5x5x5, single
+2023-05-15, BTBhZZSYFpY,  1h  4m 57.88s, HSC,       grant,              6x6x6x6, single
+2023-05-16, ED-CxpM76yU,         34.59s, HSC,       grant,              2x2x2x2, single
+2023-05-20, ecIo0eD7BxU,         34.17s, HSC,       grant,              2x2x2x2, single
+2023-05-20, lg4Rm_Wh9Qw,         33.34s, HSC,       grant,              2x2x2x2, single
+2023-05-23, bPVrqBQmRQk,  1h  3m 23.50s, HSC,       grant,              6x6x6x6, single
+2023-05-23, RDFJSIQ8uJ0,         31.64s, HSC,       grant,              2x2x2x2, single
+2023-05-24, KhEzYs9vwuo,         28.51s, HSC,       grant,              2x2x2x2, single
+2023-05-27, sL20osNa5I8,     23m 19.10s, HSC,       grant,              5x5x5x5, single
+2023-05-29, uHhPlIZ2PGU,     22m 11.78s, HSC,       grant,              5x5x5x5, single
+2023-05-29, 3aSo8sjhBUs,  1h  0m 31.15s, HSC,       grant,              6x6x6x6, single
+2023-05-31, b4ChatHg8AM,  2h 11m 41.97s, HSC,       grant,              7x7x7x7, single
+2023-05-31, 1-W78yF5eHM,      1m 24.34s, MPU,       luna,               1x3x3x3, single
+2023-05-31, bfXTiTIip-k,      1m 02.91s, MPU,       luna,               1x3x3x3, single
+2023-05-31, RKoZfNSLCGs,      1m 00.93s, MPU,       hactar,             1x3x3x3, single
+2023-05-31, iwFQTZnhqhk,      1m 15.58s, MPU,       rowan,              1x3x3x3, single
+2023-06-02, fljQSZgPTUg,     21m 44.12s, HSC,       grant,              5x5x5x5, single
+2023-06-02, Ri0eBwzbRJE,     56m 03.94s, HSC,       grant,              6x6x6x6, single
+2023-06-06, ADe3-T-hkmo,     20m 13.86s, HSC,       olaf,               3x3x3x3, single
+2023-06-06, cL5RmBX-XQg,     17m 46.64s, HSC,       olaf,               3x3x3x3, single
+2023-06-07, UjJEtBTvR9E,     13m 56.31s, HSC,       olaf,               3x3x3x3, single
+2023-06-08, YRNwPoReYz0,     11m 10.75s, HSC,       olaf,               3x3x3x3, single
+2023-06-09, PxqEWMKzHSw,     10m 33.56s, HSC,       olaf,               3x3x3x3, single
+2023-06-10, HAU44_mZPn8,      9m 44.25s, HSC,       olaf,               3x3x3x3, single
+2023-06-11, 06FYcnJ2_6g,      8m 38.36s, HSC,       olaf,               3x3x3x3, single
+2023-06-11, wpXmJrI48R8,     20m 12.92s, HSC,       void,               3x3x3x3, single
+2023-06-12, CvX6ozCVKys,      7m 55.60s, HSC,       olaf,               3x3x3x3, single
+2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3, single
+2023-06-28, t2sK39vuSmk,     17m 19.92s, HSC,       void,               3x3x3x3, single
+2022-12-02, TPbJAP82Fno,     15m 45.39s, MC3D,      markk,              3x3x3_1d, single
+2023-07-03, XeRAYpf8Tqw,      7m 34.18s, MC3D,      grant,              3x3x3_1d, single
+2023-07-03, RCO9Fawp7Y4,      5m 33.39s, HSC,       grant,              3x3x3x3, nf
+2023-07-03, 35VjKjeWSCg,      5m 16.01s, HSC,       grant,              3x3x3x3, nf
+2023-07-04, ULlDZxWC7mk,      6m 24.39s, MC3D,      grant,              3x3x3_1d, single
+2023-07-04, txgOhBHjKaY,      5m 10.71s, MC3D,      grant,              3x3x3_1d, single
+2023-07-04, dwYodrQgKHg,      4m 20.21s, MC3D,      grant,              3x3x3_1d, single
+2023-07-05, lsCk5keMWLU,      3m 22.20s, MC3D,      grant,              3x3x3_1d, single
+2023-07-06, roZdgUpJfvY,      4m 10.39s, HSC,       rowan,              3x3x3x3, single
+2023-07-08, _Z8qO2i1FlE,      1m 40.30s, -,         origamist,          phys_2x2x2x2, single
+2023-07-17, 4L-gCZlWAaU,     15m 22.62s, HSC,       tymofro,            3x3x3x3, single
+2023-07-18, WJf4uhtQEMI,  1h 58m 21.23s, HSC,       grant,              7x7x7x7, single
+2023-07-13, R2ngXs9dVLQ,      4m 07.83s, HSC,       rowan,              3x3x3x3, single
+2023-07-20, oGPEnVKT9-c,     21m 40.87s, HSC,       grant,              5x5x5x5, single
+2023-07-21, Zyyt7J1eVDs,     12m 48.46s, HSC,       tymofro,            3x3x3x3, single
+2023-07-22, bjILjlmZoio,     10m 41.57s, HSC,       tymofro,            3x3x3x3, single
+2023-07-22, zaTLgeDAOFw,      9m 08.77s, HSC,       tymofro,            3x3x3x3, single
+2023-07-22, tvVuZFT3jU8,     20m 48.93s, HSC,       grant,              5x5x5x5, single
+2023-07-25, xhS16iej5Ok,     34m 00.12s, HSC,       tymofro,            4x4x4x4, single
+2023-07-26, F9i6o3k5ABA,     20m 17.28s, HSC,       grant,              5x5x5x5, single
+2023-07-27, wlWdlq_a05U,      7m 19.72s, HSC,       tymofro,            3x3x3x3, single
+2023-07-27, gaBJShR4u8w,     19m 57.61s, HSC,       grant,              5x5x5x5, single
+2023-07-27, CDrpyEjgrOg,      8m 32.56s, HSC,       grant,              4x4x4x4, single
+2023-07-31, TU5S5TPDbog,      6m 54.54s, HSC,       tymofro,            3x3x3x3, single
+2023-07-31, Py-piV263Mg,      8m 30.66s, HSC,       grant,              4x4x4x4, single
+2023-08-01, Bc3gRz48i5c,      7m 55.77s, HSC,       grant,              4x4x4x4, single
+2023-08-02, 8O0YmAdJstg,     26m 09.96s, HSC,       tymofro,            4x4x4x4, single
+2023-08-12, OfmH62is4Dc,      4m 02.82s, HSC,       rowan,              3x3x3x3, single
+2023-08-15, VZl_iApw7W0,      3m 28.22s, HSC,       adam,               3x3x3x3, single
+2023-08-15, VZl_iApw7W0,      3m 58.96s, HSC,       adam,               3x3x3x3, ao5
+2023-08-16, c3L8RSbqnnI,      6m 22.38s, HSC,       tymofro,            3x3x3x3, single
+2023-08-16, ABPm1N1F_Vk,      2m 01.93s, -,         tymofro,            phys_2x2x2x2, single
+2023-08-17, s_yGYpFB8R4,         54.52s, HSC,       tymofro,            2x2x2x2, single
+2023-08-21, LyAuoZqpGfY,      5m 41.88s, HSC,       tymofro,            3x3x3x3, single
+2023-08-22, x-aMzC9gHqQ,      4m 33.15s, HSC,       tymofro,            3x3x3x3, single
+2023-08-30, uZpmCn9iGJE?t=1h13m30s, 2h 51m 54s, HSC, hactar,            6x6x6x6, single
+2023-09-17, RJ7e1_PxeW0,       1m 26.10s, -,        tymofro,            phys_2x2x2x2, single
+2023-09-20, D7sZl_bAtMU,       4m 54.39s, HSC,      edan,               3x3x3x3, single
+2023-09-23, rTgxBHHt0Ak,          26.49s, HSC,      adam,               2x2x2x2, single
+2023-10-01, evhr87J66zo,   1h 27m 10.78s, HSC,      tymofro,            5x5x5x5, single
+2023-10-08, IZlEa0YBTBA,       2m 56.98s, -,        tymofro,            phys_2x2x2x2, oh
+2023-10-12, 71EeEOsXyVo,       3m 53.23s, HSC,      edan,               3x3x3x3, single
+2023-10-25, T1MVA03HSBw,       9m 52.04s, HSC,      myigiter,           3x3x3x3, ao5
+2023-10-25, T1MVA03HSBw?t=1346s, 9m 32.68s, HSC,    myigiter,           3x3x3x3, single
+2023-10-29, Pu-wDjYdz5U,       9m 54.04s, HSC,      battistin,          3x3x3x3, single
+2023-10-31, _nGfPD-YGnk,       8m 38.99s, HSC,      battistin,          3x3x3x3, single
+2023-11-02, kzRoWZc2j9Q,       8m 18.63s, HSC,      battistin,          3x3x3x3, single
+2023-11-04, hNWsKQmArkM,       7m 54.79s, HSC,      battistin,          3x3x3x3, single
+2023-11-04, gOdrzT-7MAk,       1m 19.64s, MPU,      tymofro,            1x3x3x3, single
+2023-11-05, l-wY_SiH2Og,       7m 24.84s, HSC,      battistin,          3x3x3x3, single
+2023-11-06, bs6oIkKCQeE,       6m 19.69s, HSC,      battistin,          3x3x3x3, single
+2023-11-10, 2YDTJ6pPwi0,       1m 06.71s, MPU,      tymofro,            1x3x3x3, single
+2023-11-07, lvTLmdc1YQM,       1m 19.68s, -,        tymofro,            phys_2x2x2x2, single
+2023-11-11, q3nDUfcsmAk,          57.46s, MPU,      tymofro,            1x3x3x3, single
+2023-11-10, ZIgGori6nFM,      59m 55.81s, HSC,      battistin,          4x4x4x4, single
+2024-01-21, UrGPHa6K4Kk,       1m 31.46s, HSC,      danielcohen,        phys_2x2x2x2, single
+2024-01-22, NzdnhFx4fuc,       4m 02.37s, HSC,      rowan,              3x3x3x3, single
+2024-01-24, aNKQOBKEPUM,       3m 55.65s, HSC,      rowan,              3x3x3x3, single
+2024-01-25, RkuC2oPCKdE,       4m 08.70s, HSC,      tymofro,            3x3x3x3, single
+2024-01-27, _UzbQ9PNDz8,      14m 39.68s, HSC,      ethandavis,         3x3x3x3, single
+2024-01-28, MqDiqdas_0I,       3m 45.38s, HSC,      rowan,              3x3x3x3, single
+2024-01-30, Cc89UGu-ha4,       8m 31.14s, HSC,      pkearth,            3x3x3x3, single
+2024-02-12, GqGpEgfqIRk,       3m 53.45s, HSC,      tymofro,            3x3x3x3, single
+2024-02-13, u-gcnW_ZQmU,       3m 22.80s, HSC,      edan,               3x3x3x3, single
+2024-03-06, 6Tez6T6YJqE,       1m 47.69s, MT,       milojacquet,        hemimegaminx, single
+2024-03-11, aUTQ8tLEZoA,      11m 12.84s, HSC,      hactar,             4x4x4x4, single
+2024-03-15, MCBQJOjkBpg,      10m 05.47s, HSC,      hactar,             4x4x4x4, single
+2024-03-17, 2laArWGh5tY,       9m 44.50s, HSC,      hactar,             4x4x4x4, single
+2024-03-19, bf__m479QjY,          45.37s, HSC,      tymofro,            2x2x2x2, single
+2024-03-19, j4OZFwm2cGc,      23m 21.81s, HSC,      tymofro,            4x4x4x4, single
+2024-03-20, su6L9XZ5aWE,       8m 45.21s, HSC,      hactar,             4x4x4x4, single
+2024-03-21, YAiat68eqpY,      17m 52.81s, HSC,      tymofro,            4x4x4x4, single
+2024-03-21, bxekDe2pWH8,      18m 47.12s, -,        akkei,              hemimegaminx, single
+2024-03-22, Byl0Wz6gdf4,   3h 39m 01.24s, MC7D,     luna,               3x3x3x3x3, single
+2024-03-23, Eqgq2g6fZy8,   1h 48m 43.50s, MPU,      luna,               2x2x2x2x2, single
+2024-03-24, 8q2ppxqzzYg,       7m 42.36s, HSC,      battistin,          3x3x3x3, ao5
+2024-03-26, lipNaShkSd4,       5m 22.97s, MT,       battistin,          hemimegaminx, single
+2024-03-29, 4akee0AGdoA,       5m 50.99s, HSC,      battistin,          3x3x3x3, single
+2024-03-31, m4Cu4xVmWhU,       1m 31.67s, MT,       milojacquet,        hemimegaminx, single
+2024-04-01, 3WXFnsGD8oM,   1h 13m 07.26s, MPU,      tymofro,            2x2x2x2x2, single
+2024-04-04, 0CUggoK9i3g,      24m 14.41s, MT,       milojacquet,        klein_quartic, single
+2024-04-06, w7WkA3RaAok,       5m 29.78s, HSC,      battistin,          3x3x3x3, single
+2024-04-07, Ai0P58dWNLY,   3h 17m 59.66s, MC7D,     luna,               3x3x3x3x3, single
+2024-04-06, GqojR2pRlOM,       8m 12.82s, HSC,      hactar,             4x4x4x4, single
+2024-03-31, 76to6wms_04,       1m 13.35s, MPU,      rowan,              1x3x3x3, single
+2024-04-06, z9WT6wnmdDM,   7h 54m 19.60s, MC7D,     rowan,              3x3x3x3x3, single
+2024-04-08, b6a2QIcrZg8,       3m 34.44s, HSC,      rowan,              3x3x3x3, single
+2024-04-17, uCpi3Fbje0s,       1m 11.99s, -,        cubedude,           phys_2x2x2x2, single
+2024-04-18, hW6bVavOc-I,          58.14s, -,        cubedude,           phys_2x2x2x2, single
+2024-04-15, DOCuJsuOmSw,       2m 18.18s, HSC,      hactar,             3x3x3x3, ao5
+2024-04-22, pMOW7a2U6SE,       7m 55.18s, HSC,      hactar,             4x4x4x4, single
+2024-04-24, xmOiIFoLQ_I,      24m 15.12s, HSC,      luna,               4x4x4x4, single
+2024-04-24, bgWOYE3e7pM,       7m 52.61s, HSC,      hactar,             4x4x4x4, single
+2024-04-24, NJHYnPmOq3c,      46m 19.15s, HSC,      rowan,              4x4x4x4, single
+2024-04-24, dIphYAbQ3BU,      33m 42.90s, HSC,      rowan,              4x4x4x4, single
+2024-04-26, GGKOSVbxZlA,      29m 07.38s, HSC,      hactar,             5x5x5x5, single
+2024-04-26, GlBOvjiA028,  15h 20m 24.49s, MPU,      luna,               4x4x4x4x4, single
+2024-04-29, iJXl5mew5YU,      26m 11.51s, HSC,      hactar,             5x5x5x5, single
