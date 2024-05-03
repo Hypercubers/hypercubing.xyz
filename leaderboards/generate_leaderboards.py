@@ -27,7 +27,8 @@ COLUMNS_INFO = lambda event: {
 
 # it does some funny business
 def recode(s):
-    return s.encode('cp1252').decode('utf8')
+    #return s.encode('cp1252').decode('utf8') # it worked on my machine :'
+    return s
 
 def get_template(filename):
     with open(f'leaderboards/templates/{filename}') as f:
