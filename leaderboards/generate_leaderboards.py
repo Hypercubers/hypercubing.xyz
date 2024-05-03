@@ -34,7 +34,7 @@ def get_template(filename):
         return f.read()
 
 
-def format_time(duration: timedelta | int) -> str:
+def format_time(duration) -> str: # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
     def unit(s):
         return f'<small>{s}</small>'
@@ -268,7 +268,7 @@ def make_tabbed_leaderboards(tab_config, make_tab_contents, *, indent=0) -> str:
         elif 'format' in tab:
             tab_contents = make_tab_contents(tab, indent=indent)
         elif 'puz' in tab:
-            subtabs = [tab | {'format':f} | format for f,format in formats.items()]
+            subtabs = [{**tab, 'format':f, **format} for f,format in formats.items()]
             tab_contents = make_tabbed_leaderboards(
                 subtabs,
                 make_tab_contents,
