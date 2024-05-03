@@ -3,7 +3,7 @@
 !!! info inline end "Restricted 2×2×2×2×2"
     ![Grant holding his restricted 2×2×2×2×2](https://assets.hypercubing.xyz/img/phys/restricted_22222_grant.png)
 
-    **4D Shape:** Penteract
+    **5D Shape:** Penteract
 
     **Physical Shape:** Rectangular prism
 
