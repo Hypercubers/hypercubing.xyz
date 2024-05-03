@@ -41,7 +41,7 @@ def format_time(duration) -> str: # duration: timedelta | int
         return f'<small>{s}</small>'
 
     if isinstance(duration, int):
-        return f"{duration}"
+        return f"{duration:,}".replace(',','\u2009')
 
     millis = int(duration.total_seconds() * 1000)
     seconds, millis = divmod(millis, 1000)
@@ -62,7 +62,7 @@ def format_time(duration) -> str: # duration: timedelta | int
         return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
     hours_str = f"{minutes:02}{unit('h')}"
 
-    return f"{days}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}"
+    return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',','\u2009')
 
 
 class Solve:
