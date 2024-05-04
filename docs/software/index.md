@@ -95,6 +95,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [Complex Cube](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=22353)
 - [Luna's Complex Puzzles](https://sonicpineapple.github.io/Complex-Puzzles/Complex.html)
 - [Milo's laminated puzzles](https://github.com/milojacquet/laminated)
+- [Ema's Complex Hemicube Puzzle](https://github.com/OneTrickPoro/Complex-Hemicube-Puzzle)
 
 ### Other
 
