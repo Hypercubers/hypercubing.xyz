@@ -129,6 +129,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 
 - [Orb](https://milojacquet.com/twisty/orb), for planning puzzle cut depths
 - [RocKeT](https://github.com/HactarCE/rocket), for finding RKT cancels for 3D algorithms
+- [Hypersolve](https://github.com/ajtaurence/Hypersolve), for generating short 2^4^ solutions and scrambles
 
 ## Games
 
