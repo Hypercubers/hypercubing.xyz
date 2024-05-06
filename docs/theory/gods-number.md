@@ -2,7 +2,7 @@
 
 **God's number** is the minimum number of moves that is sufficient to solve a twisty puzzle from any starting position. For 3×3×3, this has [been been proven][cube20] to be 20 HTM (or 26 QTM).
 
-God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to scan $\sim 4.3 \times 10^{19}$ states. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
+God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to prove $\sim 4.3 \times 10^{19}$ states reachable in 20 moves or less. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
 
 There are three strategies we can use to estimate it:
 
@@ -12,34 +12,54 @@ There are three strategies we can use to estimate it:
 
 [cube20]: http://cube20.org/
 
+## Known Bounds Summary
+| Puzzle | Lower Bound | Upper Bound |
+| ------ | ----------- | ----------- | 
+| 2^4^ | 15 STM | 37 STM |
+| 3^4^ | 56 OBTM | 570 STM |
+
 ## 2×2×2×2
 
 ### Lower bound
 
-There are 92 possibilities for the first move and 69 possibilities for each subsequent move.[^24moves] To even have a chance of reaching $4.3 \times 10^{19}$ states, we need at least that many move sequences. $log_{69}(\frac{4.3 \times 10^{19}}{92}) \approx 9.6$, so God's number for 2^4^ is at least 10.
+We can compute a lower bound of 15 in the STM by computing a bound on the number of positions reachable by algorithms of a certain length.
 
-[^24moves]: Only one cell on each axis matters. Each face has 24 orientations, but one of those is the identity and so doesn't matter. $23 \times 4 = 92$. For subsequent moves, must turn a different axis. $23 \times 3 = 69$ (nice)
+??? abstract "Derivation"
+
+	Moves here will be measured using STM. Our focus here is on positions that can be reached by algorithms of a certain length. Note that on the 2^4^, we consider one piece fixed when counting permutations. There are $\sim 3.4 \times 10^{27}$ positions on the 2^4^.
+    
+    One position, the solved position, is reachable without making any moves. There are 23 moves on each of the 4 cells that do not affect the fixed piece, so at most 92 one-move positions are reachable by 1 move. For subsequent moves, there are only 69 non-canceling moves since any move on the same axis as the previous move will cancel. Therefore there are at most $92 \times 69^{k-1}$ reachable by exactly $k$ moves (where $k\ge 1$). Let $P_n$ denote the number of positions reachable in $n$ moves or less. Based on the previous analysis,
+
+    \[P_n \le 1+\sum_{k=1}^n 92 \times 69^{k-1} = \frac{23}{17} (69^n-1)+1.\]
+
+    Let $n_G$ be God's number. By definition, $P_{n_G}$ must be equal to the total number of positions. Combining this with the bound on $P_n$, we find
+
+    \[P_{n_G} = 3.4\times 10^{27} \le \frac{23}{17} (69^{n_G}-1)+1,\]
+
+    which implies $n_G \ge 15$.
 
 ### Upper bound
 
-Anderson Taurence wrote a [3-stage 2^4^ solver](https://github.com/ajtaurence/Hypersolve) using a method that has a worst case of 39 STM, so God's number for 2^4^ is at most 39.
+We can compute an upper bound of 37 in the STM by computing the worst-case move count of a known method.
+
+??? abstract "Derivation"
+
+    [Hypersolve](https://github.com/ajtaurence/Hypersolve) uses a method that has a worst-case of 39 STM. Furthermore, it has been shown that all cases with move counts more than 37 STM are avoidable. Therefore God's number is at most 37 STM.
 
 ### Estimate
 
-Anderson's solver typically produces solutions in the range of 20-30 STM. Note that this solver does not produce optimal solutions[^optimal], and we cannot measure _every_ scramble so it's impossible to use this to put a hard bound on God's number, but God's number for 2^4^ is probably not higher than 20-30.
+[Hypersolve](https://github.com/ajtaurence/Hypersolve) typically produces solutions in the range of 20-30 STM. Note that this solver does not produce optimal solutions[^optimal], but based on this, God's number for 2^4^ is probably not higher than 20-30.
 
-[^optimal]: It does converge on optimal solutions when run for a very long time, but this is impractical for all but the simplest scrambles.
+[^optimal]: It does eventually converge on optimal solutions when run for a sufficient amount of time, but this amount of time is impractical for all but the simplest scrambles.
 
 ### Conclusion
 
-God's number for 2^4^ is definitely between 10 and 39 inclusive, and probably $\sim 15 \pm 5$.
+God's number for 2^4^ is definitely between 15 and 37 inclusive, and probably around $\sim 20 \pm 5$.
 
 !!! question "Could this be improved?"
 
-    - A better method or lots of compute time might improve slightly on the upper bound
-    - Unless there is some fundamental breakthrough in our understanding of computation, there's basically no way to improve on the lower bound or estimate.
-
-    If you're an expert in quantum computing then perhaps you can devise some clever quantum algorithm to help, but as of 2023 quantum computers haven't solved a single real-world problem faster than a classical computer so we remain skeptical.
+    - A better method or lots of compute time might improve slightly on the upper bound. More worst-case scenarios can be checked for avoidability.
+    - Unless there is some fundamental breakthrough in our understanding of computation, there's likely no way to improve on the lower bound. If you're an expert in quantum computing then perhaps you can devise some clever quantum algorithm to help, but as of 2023 quantum computers haven't solved a single real-world problem faster than a classical computer so we remain skeptical.
 
 ## 3×3×3×3
 
@@ -146,7 +166,7 @@ We do not have a near-optimal 3^4^ solver. Good FMC speedsolves average 200 STM,
 
 ## Conclusion
 
-God's number for 3^4^ is definitely between 55 and 570 inclusive, and probably $\sim 125 \pm 50$^\[citation\ needed]^.
+God's number for 3^4^ is definitely between 56 and 570 inclusive, and probably $\sim 125 \pm 50$^\[citation\ needed]^.
 
 !!! question "Could this be improved?"
 
