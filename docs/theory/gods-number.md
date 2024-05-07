@@ -16,7 +16,7 @@ There are three strategies we can use to estimate it:
 | Puzzle | Lower Bound | Upper Bound |
 | ------ | ----------- | ----------- | 
 | 2^4^ | 15 STM | 37 STM |
-| 3^4^ | 56 OBTM | 570 STM |
+| 3^4^ | 51 STM | 570 STM |
 
 ## 2×2×2×2
 
@@ -65,9 +65,68 @@ God's number for 2^4^ is definitely between 15 and 37 inclusive, and probably ar
 
 ### Lower bound
 
-We can compute a lower bound of 56 in the OBTM. This begins by showing that algorithms of limited length can generate, at most, only a subset of the possible positions on the 3^4^. We then optimize the argument by showing that some positions were over counted.
+We can compute a lower bound of 51 in the STM. This works by showing that algorithms of limited length can generate, at most, only a subset of the possible positions on the 3^4^. We will also demonstrate some known optimizations (often useful for other puzzles), although they do not immediately improve the lower bound in the case of 3^4^. 
 
-??? abstract "Lower Bound, Winning Ways Method"
+??? abstract "Lower Bound, _Winning_ _Ways_ Method"
+
+	Turns here are measured in the Slice Turn Metric (STM).
+	
+	We can describe turns on the \(3^4\) as happening on one of four axes, and with one of three layers. Each layer can be turned in 23 ways, so we have \(4 \times 3 \times 23 = 276\) turns measured as one move in the STM. After turning a layer, we want subsequent turns to be **noncancelling** (turning the same layer twice can be written as a single move), so we have \(276-23=253\) choices for subsequent turns.
+	
+	From here, we can proceed without the Winning Ways improvement, where we find the number of positions reachable by 50 turns or fewer is at most
+	
+	\[1 + 276 \times \sum_{k=0}^{49}253^k \approx 1.57 \times 10^{120} < \frac{\left(24!\times 2^{24}\right) \times \left(32! \times 6^{32}\right) \times (16! \times 12^{16})}{48} \approx 1.78 \times 10^{120}.\]
+	
+	This shows there are positions on the \(3^4\) which require 51 turns or more to solve.
+	In the book _Winning_ _Ways_ _for_ _Your_ _Mathematical_ _Plays_ _Vol._ _4_, the authors optimize this argument (as it applies to the Rubik's Cube in the half turn metric) by accounting for relations like \(LR = RL\). We can apply a similar optimization for the \(3^4\).	
+	
+	We will refer to the set of possible _new_ positions reachable after _exactly_ \(n\) turns as \(T_n\). "New" here means that \(T_n\) does not include positions that were in \(T_{n-1}\). "Exactly" means that positions reachable in more than \(n\) turns are not in \(T_n\). The number of elements in \(T_n\) is \(|T_n|\).
+	
+	By the computation from before, there are 276 distinct puzzle states after a single turn. So \(|T_1|=276\). Finding \(|T_2|\) is more complicated. First, we need to setup a more detailed way of describing turning axes.
+	
+	A **primary** axis is a line through the core of a puzzle in any of the four cardinal directions. Primary axes have three **layers**, which we might label \(-1,\ 0,\) and \(1\). The white-yellow primary axis' three primary layers would correspond to the yellow cell (\(-y\)), white cell (\(y\)), and the slice between the white and yellow cells. A \textbf{secondary} axis is a line through the center of a facet and any of the pieces in that facet. Importantly, the secondary axis can be described using a single cardinal direction when it is through a ridge piece (the \(90^\circ\) degree cell turns and their doubles). A primary axis, secondary axis, and an angle which we turn by is enough to describe any turn in the STM.
+	
+	We have just 253 noncancelling chocies for a second turn. Some of these second turns **commute** with a first turn, which means we will overcount postions reachable by two algorithms differing by the order of commuting turns. Noncancelling commuting pairs of turns can happen in two ways:
+
+	1. The first and second turns happen in the same primary axis and on different layers (for example, \(UO\ \ \{2\}UO' = \{2\}UO'\ \ UO\).\\
+	
+	2. The first turn has primary and secondary axes \(a\) and \(b\), while the second turn has primary and secondary axes \(b\) and \(a\)  (for example, \(OL\ LO= LO\ OL\)).
+	
+	In describing commuting cases of the first kind, the second turn is one that happens on the same primary axis as the first and on a different layer. There are two other layers, and we can make one of \(23\) turns on that layer. This means that after a single turn is made, \(2\times 23 = 46\) of the following turns may lead to commuting cases of the first kind. However, two of these actually lead to single turn puzzle states (like \(UO\ \{2\}UO = DO\)) which were counted in \(T_1\) and should not be part of \(T_2\). So, only 44 of these turns lead to distinct new puzzle states. This means there are \(\frac{44\times 276}{2}\) distinct new puzzle states reachable by two commuting moves of this first kind.
+	
+	Commuting cases of the second kind can only happen if the first turn's secondary axis goes through a ridge piece. There are \(108\) turns like this. The second turn's primary/secondary axes are determined by transposing the first turn's primary/secondary axes, and then can happen in one of three ways on one of three layers. So, we have \(\frac{9\times 108}{2}\) distinct new puzzle states reachable by two commuting moves of this second kind. NOTE: If the first turn is one of the \(276-108= 168\) other turns that cannot be followed by a commuting turn of the second kind, those nine second turns happen on a different primary axis and will neither cancel nor commute. 
+	
+	Now we can compute an upper bound on \(|T_2|\). There are \(\frac{44\times 276}{2}\) distinct new puzzle states reachable by two commuting moves of the first kind, and \(\frac{9\times 108}{2}\) distinct new puzzle states reachable by two commuting moves of the second kind. There are \(276-23-44-9=200\) noncancelling, noncommuting second turns. In total, we have \(|T_2| \leq \frac{44\times 276}{2} + \frac{9\times 108}{2} + 9\times 168 + 200\times 276 = 63,270\). As mentioned in the "NOTE", following one of the other 168 first moves (with secondary axis \textit{not} through a ridge peice) with one of those nine turns suggested by commuting case of the second kind will never cancel or commute, so we add \(9\times 168\) to complement the "leftovers" that were ignored in the \(\frac{9\times 108}{2}\) term.
+	
+	To complete the argument, we can derive a recurrence relation (more accurately a recurrence estimate) that gives an upper bound on the size of \(|T_{n+2}|\) in terms of \(|T_n|\) and \(|T_{n+1}|\).
+	
+	In the case where the \(n+2\)th turn will not commute or cancel with the \(n+1\)th turn, we have at most \(9\times 168|T_{n}| + 200\times |T_{n+1}|\) possible puzzle states. In the case where the \(n+2\)th turn \textit{will} commute (but still not cancel) with the \(n+1\)th turn, we have at most \(\left(\frac{44\times 253}{2} + \frac{9\times 108}{2}\right)|T_n|\) possible puzzles states. This gives us the estimate \(|T_{n+2}| \leq 200|T_{n+1}| + 7,582|T_n|.\)
+	
+	This is an order 2 linear recurrence estimate with constant coefficients. We can show that
+	
+	\[|T_n| \leq A\lambda_1^n + B\lambda_2^n,\]
+	
+	where
+	
+	\[
+	\begin{array}{c c}
+	\lambda_{1}=100+\sqrt{17,582}, & \lambda_{2}=100-\sqrt{17,582}, \\
+	A=\displaystyle \frac{4,035}{7,582}+\frac{160,704}{3,791}\sqrt{\frac{2}{8,791}}, &
+	B=\displaystyle \frac{4,035}{7,582}-\frac{160,704}{3,791}\sqrt{\frac{2}{8,791}}. \\
+	\end{array}
+	\]
+	
+	Finally, the number of turns reachable by 50 turns or fewer is at most
+	
+	\[1+\sum_{n=1}^{50}|T_n| \leq 2.52\times 10^{118} < \frac{\left(24!\times 2^{24}\right) \times \left(32! \times 6^{32}\right) \times (16! \times 12^{16})}{48} \approx 1.78 \times 10^{120}.\]
+	
+	This shows there are positions on the \(3^4\) which require 51 turns or more to solve.
+	
+	Unfortunately, we did not improve the lower bound here. It is worth noting that in the estimate from the beginning (with few optimizations), the actual value of the sum on the LHS is quite close to the number of scrambles possible on the \(3^4\) (within the same order of magnitude). Compare this to our new estimate, where the sum is bounded above by a number two orders of magnitude smaller than the number of scrambles possible on the \(3^4\). So as we would have expected, our improvements do reduce the size of the estimate, just not quite enough to bring down the number of turns derived.
+	
+	
+	
+??? abstract "OLD OBTM Lower Bound, Winning Ways Method"
 
 	Moves here will be measured using something equivalent (as far as this discussion is concerned) to OBTM. Our focus here is on positions that can be reached by algorithms of a certain length. Wide moves contribute to algorithm length in the same way that single cell turns do (wide move = single cell move + cube rotation, where cube rotations count as 0 moves), so we will make a simplification by restricting to single cell turns. There are 23 moves on each of the 8 cells, so 184 one-move algorithms are possible at any given time.
 	
