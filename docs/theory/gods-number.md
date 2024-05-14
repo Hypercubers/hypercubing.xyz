@@ -15,8 +15,8 @@ There are three strategies we can use to estimate it:
 ## Known Bounds Summary
 | Puzzle | Lower Bound | Upper Bound |
 | ------ | ----------- | ----------- |
-| 2^4^ | 15 STM | 37 STM |
-| 3^4^ | 51 STM | 570 STM |
+| 2^4^   | 15 STM      | 37 STM      |
+| 3^4^   | 51 STM      | 570 STM     |
 
 ## 2×2×2×2
 
