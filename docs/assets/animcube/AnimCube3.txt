@@ -1,0 +1,2 @@
+buttonbar=0
+scramble=1
