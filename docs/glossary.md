@@ -56,7 +56,8 @@ An **action** is sequence of moves that preserves invariants of the stage. Usual
 
 There is no community consensus on the definitions of **parity**. Below are some proposed definitions:
 
-- **group theory parity** = a case where the puzzle is in an unexpected [coset](https://en.wikipedia.org/wiki/Coset)
+- **group theory parity** = a case where the puzzle is in an unexpected [coset](https://en.wikipedia.org/wiki/Coset) of a subgroup of index 2
+    - It is often more broady applied to a case where the puzzle is in an unexpected coset of a subgroup of any index.
 - **cuber parity** = a case that is difficult to solve that the solver didn't expect
     - Melinda's definition: a local maximum, where the puzzle is largely solved but requires many moves to fix
     - Hactar's definition: a case which cannot be solved using the [actions](#actions) expected at this stage in the solve
