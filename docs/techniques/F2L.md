@@ -11,9 +11,15 @@ First 2 Layers (F2L) is a solving technique for cubes and some other puzzles tha
 !!! warning ""
     The goal of this page is to give you a generalized understanding of higher dimensional F2L, not to hand out algorithms for certain cases. There are so many cases for higher dimensional F2L that it would be nearly impossible to list out all the cases. It's recommended to have a fairly strong intuitive understanding of 3D F2L before reading this page.
 
-In 3D when you twist the side axis only a single F2L slot goes to the top. In 4D however, 3 slots come to the top, that being an F2L-a slot and 2 F2L-b slots. This pattern extends to higher dimensions.
+**Dimensional Analogy**
 
-## Terminology
+In 3D F2L, whenever you twist a side axis to expose a slot, only that one single slot goes to the top layer. In reality it's a line of 2 corners and an edge, but one of the corners will stay on top, so it doesn't matter. The important thing to note is that it brings up that 1D line of pieces to the top layer because in 3D, the intersection of 2 adjacent sides is a 1D line.
+
+In 4 dimensions, 2 adjacent sides intersect at a 2D plane. So when you do a twist you're bringing **3** slots to the top, that being two F2L-b slots and an F2L-a slot. This makes inserting a single pair trickier, because now you need to use more moves to not disturb the other two subslots.
+
+Continuing this analogy into 5D, you bring a whole 3D cube's worth of F2L slots to the top that you mustn't distrub while inserting a single pair. This pattern continues for higher and higher dimensions, meaning that it gets trickier to insert a single pair. Pro solvers of higher dimensional puzzles will wait until they have 3 (or multiples of 3) pairs, then pairs all those pairs into a gigapair, and then insert that gigapair like inserting a lower dimensional pair.
+
+**Terminology**
 
 To talk about F2L in a dimensionally neutral way, we need some more terms. Most importantly, the following:
 
@@ -23,35 +29,52 @@ To talk about F2L in a dimensionally neutral way, we need some more terms. Most 
 For more terms, see [the glossary](https://hypercubing.xyz/glossary/).
 
 
-## 4D F2L
+Regardless of dimension and type of pair, they are broken down into the following categories:
 
-For 4D CFOP, you always have to be careful of breaking the cross, so the ways you can build F2L pairs are limited. However if using the 3-block method, you have much more freedom while building the first half of the pairs.
-
-### F2L-a
-
-
-
-
-![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_3.png){width=256}
-
-Normal F2L insert: `IU RU IU' RU'`
-
-![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_1.png){width=256}
-
-- Notice: same color on top
-- Push head to hide it
-- Move body next to where head will be
-- Reveal head to pair
+1. both in top, head facing side axes
+2. both in top, head facing top axis
+3. body in slot, head in top facing side axis
+4. body in slot, head in top facing top axis
+5. head in slot facing side axis, body in top
+6. head in slot facing base axis, body in top
+7. both stuck in slot
 
 
-![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_4.png){width=256}
-3-move insert. Still works if the body is at IU, IF, or ID except you'll just need an extra RKT move.
+
+## F2L-4a
+
+F2L-a pairs consist of a 2c and a 3c, exactly the same as in 3D. The solutions feel very similar to 3D cases, but there are a few extra tricks that are possible.
 
 
-![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_2.png){width=256}
+???+ example "Insert"
+    ![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_3.png){width=256 align=left}
 
-- Body stuck in slot, solved
-- Head has base color on top
-- Cap head on top of body
-- Push, rotate pair, pull
-- Solution: `IU2 IF RU IR2 RU'`
+    Normal F2L insert: `IU RU IU' RU'`
+
+???+ example "Hide and reveal"
+    ![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_1.png){width=256 align=left}
+
+    Notice: same color on top. 
+    
+    Can either use RKT on the I cell to pair it or use hide and reveal (preferred).
+
+    ```
+    RU IU RU' //pair
+    IU2 RU IU' RU' //insert
+    ```
+
+???+ example "3-mover"
+    ![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_4.png){width=256 align=left}
+    3-move insert. Still works if the body is at IU, IF, or ID except you'll just need an extra RKT move.
+
+    Notice how the F sticker of the pair matches the F cell colour. (If it doesn't, then the pair will be flipped after inserting!)
+
+???+ example "Capping"
+    ![F2L-4a hide reveal pair](https://assets.hypercubing.xyz/img/virt/F2L/F2L-4a_2.png){width=256 align=left}
+
+    - Body stuck in slot, solved
+    - Head has base color on top
+    - Cap head on top of body
+    - Push, rotate pair, pull
+    
+    Solution: `IU2 IF RU IR2 RU'`
