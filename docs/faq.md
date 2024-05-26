@@ -23,9 +23,10 @@ hide: [navigation, toc]
     - [Why not start with the virtual 2×2×2×2?](#why-not-start-with-the-virtual-2222)
     - [What is God's number for \[puzzle\]?](#what-is-gods-number-for-puzzle)
 - [Physical puzzles](#physical-puzzles)
-    - [What is a physical 4D puzzle](#what-is-a-physical-4d-puzzle)
+    - [What is a physical 4D puzzle?](#what-is-a-physical-4d-puzzle)
     - [How can I buy a physical 2×2×2×2?](#how-can-i-buy-a-physical-2222)
     - [How can I buy other physical puzzles?](#how-can-i-buy-other-physical-puzzles)
+    - [Can I download 3D files for the physical 2×2×2×2?](#can-i-download-3d-files-for-the-physical-2222)
     - [What physical 4D puzzles have been built?](#what-physical-4d-puzzles-have-been-built)
     - [What physical 4D puzzles are possible?](#what-physical-4d-puzzles-are-possible)
 - [Hyperspeedcube](#hyperspeedcube)
@@ -130,7 +131,7 @@ See [God's Number](/theory/gods-number.md).
 
 ## Physical puzzles
 
-### What is a physical 4D puzzle
+### What is a physical 4D puzzle?
 
 The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See these links:
 
@@ -145,6 +146,10 @@ See the [Ordering Melinda's 2×2×2×2](https://superliminal.com/cube/2x2x2x2/or
 ### How can I buy other physical puzzles?
 
 Melinda's 2^4^ is the only physical puzzle for sale. The physical 3^4^ and hypercuboids are currently one-of-a-kind. If you want one, you need to design and 3D print it yourself.
+
+### Can I download 3D files for the physical 2×2×2×2?
+
+No. We do not make those files public so Melinda is able to retain control of her invention. If you want to create your own files for the 2^4^ and 3D print them, that is fine, but we ask that you do not make them avaliable for download until Melinda is OK with it.
 
 ### What physical 4D puzzles have been built?
 
