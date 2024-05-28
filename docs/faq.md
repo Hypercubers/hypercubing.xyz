@@ -48,7 +48,7 @@ hide: [navigation, toc]
 
 ## What is hypercubing?
 
-Hypercubing is the hobby of solving 4D+ puzzles in higher dimensions and exotic geometries.
+Hypercubing is the hobby of twisty puzzles (like the Rubik's cube) in higher dimensions and exotic geometries.
 
 ### Isn't the 4th dimension time?
 
