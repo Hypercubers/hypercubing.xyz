@@ -8,6 +8,9 @@
     - {puz: 5x5x5x5, name: 5×5×5×5}
     - {puz: 6x6x6x6, name: 6×6×6×6}
     - {puz: 7x7x7x7, name: 7×7×7×7}
+  - name: Virtual Hypercuboids
+    contents:
+    - {puz: 2x2x2x3, name: 2×2×2×3}
   - name: Physical
     contents:
     - {puz: phys_2x2x2x2, name: Physical 2×2×2×2, exclude: [program]}
