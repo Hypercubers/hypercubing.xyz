@@ -9,13 +9,16 @@
 
     **Pieces:** 5 4c, 10 3c
 
-    **Magnets:** 60 (better version needs 180)
-
+    **Magnets:** 180
     **Completed:** 2023 Dec 28
+
+## Introduction
+
+[![Introduction Video](http://img.youtube.com/vi/hp935ysUNyI&t=1s/0.jpg)](http://www.youtube.com/watch?v=hp935ysUNyI&t=1s "4d Pyraminx Introduction")
 
 ## History
 
-Based on some ideas for the 4D pyraminx, Dominik first created a paper model in mid-December of 2023. After some suggestions from Melinda Green he created the current prototype with magnets which was the first functioning version of this design.
+Based on some ideas for the 4D pyraminx, Dominik first created a paper model in mid-December of 2023. After some suggestions from Melinda Green he created the prototype with magnets which was the first functioning version of this design. In April 2024 he finished an improved 3d printed version of the puzzle. 
 
 ## How does it work?
 
@@ -172,9 +175,12 @@ That’s all there is to the gyro and here we have all in one movement.
 | ![Move8](https://assets.hypercubing.xyz/img/phys/4dpyraminx/dominik_4dpyraminx_slice_move_o4.gif) | ![MC4DMove8](https://assets.hypercubing.xyz/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_8.gif) |
 | ![Gyro](https://assets.hypercubing.xyz/img/phys/4dpyraminx/dominik_4dpyraminx_gyro.gif) | ![MC4DGyro](https://assets.hypercubing.xyz/img/phys/4dpyraminx/dominik_4dpyraminx_virtual_9.gif) |
 
+
+
 ## Example solve
 
-Here is a link to a video of an example scamble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto).
+Here is a link to a video of an example scramble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto).
+Also you can watch a tutorial of how to solve it here: [Link](https://youtu.be/L4foSEUS0Go?si=lR-hk2-PvmjujoJd).
 
 ## Notes for a solve
 
