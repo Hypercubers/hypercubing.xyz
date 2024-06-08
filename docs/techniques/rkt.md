@@ -31,7 +31,7 @@ RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's
 
 This can definitely be very confusing and disorienting to beginners, as you have to think about 3×3×3 moves with only R moves and rotations. It takes a lot of practice to get comfortable with RKT, but it is an **extremely** powerful technique.
 
-The best way to learn RKT before doing your first 3^4^ solve is by manually scrambling the last cell using any RO moves and random I cell rotations until it looks scrambled. Then practice doing [PLC](/methods/3x3x3x3/cfop.md#rkt-plc) by solving it with RKT.
+The best way to learn RKT before doing your first 3^4^ solve is by manually scrambling the last cell using any RO moves and random I cell rotations until it looks scrambled. Then practice doing [PLC](/methods/3x3x3x3/cfop.md#pll-3) by solving it with RKT.
 
 
 !!! tip

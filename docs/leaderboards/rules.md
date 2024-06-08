@@ -10,7 +10,7 @@ These rules may be flexible, especially for new categories. For example, if you'
 
 ## General rules
 
-- [These programs](/software/index.md#recommended-hypercubing-software) are recommended for speedsolving. If using a program not listed here, you should ask on the Discord first.
+- [These programs](/software/index.md#what-program-should-i-download) are recommended for speedsolving. If using a program not listed here, you should ask on the Discord first.
 - The puzzle must be solved from a full scramble.
 - Spectators may commentate, but must not help the solver.
 - Algorithm reference sheets are strongly discouraged.[^algsheets]
