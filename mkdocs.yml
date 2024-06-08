@@ -91,7 +91,6 @@ extra_javascript:
 plugins:
   - search
   - glightbox
-  - abs-to-rel
   - awesome-pages:
       strict: false
   - gen-files:
@@ -103,3 +102,7 @@ plugins:
 hooks:
   - hooks/feature_matrix.py
   - hooks/symbol_hooks.py
+validation:
+  absolute_links: relative_to_docs
+  anchors: warn
+  unrecognized_links: warn
