@@ -1,6 +1,6 @@
 - name: 4D
   contents:
-  - name: Virtual n^4^
+  - name: Hypercubes
     contents:
     - {puz: 2x2x2x2, name: 2×2×2×2}
     - {puz: 3x3x3x3, name: 3×3×3×3}
@@ -8,8 +8,9 @@
     - {puz: 5x5x5x5, name: 5×5×5×5}
     - {puz: 6x6x6x6, name: 6×6×6×6}
     - {puz: 7x7x7x7, name: 7×7×7×7}
-  - name: Virtual Hypercuboids
+  - name: Hypercuboids
     contents:
+    - {puz: 1x3x3x3, name: 1×3×3×3}
     - {puz: 2x2x2x3, name: 2×2×2×3}
   - name: Physical
     contents:
@@ -18,7 +19,6 @@
   - name: Other
     contents:
     - {puz: 3-layer_simplex, name: 3-Layer Simplex}
-    - {puz: 1x3x3x3, name: 1×3×3×3}
 - name: 5D
   contents:
     - {puz: 2x2x2x2x2, name: 2×2×2×2×2}
