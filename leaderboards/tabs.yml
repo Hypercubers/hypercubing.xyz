@@ -12,6 +12,7 @@
     contents:
     - {puz: 1x3x3x3, name: 1×3×3×3}
     - {puz: 2x2x2x3, name: 2×2×2×3}
+    - {puz: 2x2x3x3, name: 2×2×3×3}
   - name: Physical
     contents:
     - {puz: phys_2x2x2x2, name: Physical 2×2×2×2, exclude: [program]}
