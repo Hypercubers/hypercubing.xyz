@@ -2,7 +2,7 @@
 
 _Hactar, 2024-04-15_
 
-One day Acolyte Quenta found herself wandering the gardens, as she often did, and upon crossed a small bridge she came upon [a curious puzzle](https://magmamcfry.github.io/QuaternionCube/). It appeared in the form of an ordinary 3x3x3, but with an odd coating on the stickers that presented a gradient over each piece that tilted strangely as she observed it from different angles. She took the cube and scrambled it, intending to return it once she had solved it.
+One day Acolyte Quenta found herself wandering the gardens, as she often did, and upon crossing a small bridge she came upon [a curious puzzle](https://magmamcfry.github.io/QuaternionCube/). It appeared in the form of an ordinary 3x3x3, but with an odd coating on the stickers that presented a gradient over each piece that tilted strangely as she observed it from different angles. She took the cube and scrambled it, intending to return it once she had solved it.
 
 As she twisted the puzzle, she became sure that it was playing tricks on her. Even whole-puzzle rotations seemed to behave oddly. She had placed a blue piece next to an orange piece, but upon spinning the puzzle in her hands, the blue piece became orange and the orange piece had become blue! After struggling for a half-hour, managing only to pair a handful of pieces, she resolved to find Master Eiji, who was an expert in variations of the 3x3x3.
 
