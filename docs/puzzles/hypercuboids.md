@@ -1,4 +1,3 @@
-
 # Hypercuboids
 
 ## Introduction
@@ -248,11 +247,6 @@ Axis 1,0,0,0
 Twists 0,1,0,0/0,1,1,0 0,1,-1,0/0,0,0,1 0,2,-1,-1/0,1,1,-2
 Cuts CUT-A
 ```
-
-
-## 5D+ Hypercuboids
-This hypercuboids are not studied yet, except for some "simpler" versions with a lots of $1$- s.
-
 
 
 ## 5D+ Hypercuboids
