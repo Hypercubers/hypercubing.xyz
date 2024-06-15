@@ -5,7 +5,7 @@ A hypercuboid is the multi-dimensional version of a cuboid.
 In a general context, we define a hypercuboid as an $n$-dimensional puzzle denoted by $a_1 \times a_2 \times \dots \times a_n$.  
  For the sake of clarity and consistency, we will use $a_1,a_2, \dots a_n$ as non-decreasing values.  
  
-## Structure
+### Structure
 A hypercuboid, as defined, is composed of $2n$ cells, each of which is $(n-1)$-dimensional.
 
 For a general element $a_i$, we will define  $\bar{a_i}= \max (0, a_i-2)$.
@@ -72,11 +72,11 @@ In some cases an idea of a possible solution method provided by [Ema](/leaderboa
 |:---:|:---:|:---:|:---:|:---:| 
 | 1×1×3×3 | 16 | 24 | 12 | 2 |
 
-<details>
-  <summary>Solve idea (click to reveal)</summary>
-- Orient both cubic cells.<br>  
-- Solve 3^3 cube, paying attention to corner orientation.<br> 
-</details>
+??? note "Solve idea (click to reveal)"
+
+    - Orient both cubic cells. 
+    - Solve 3^3 cube, paying attention to corner orientation.
+
 
 #### 2×2×2×3
 
@@ -85,40 +85,40 @@ In some cases an idea of a possible solution method provided by [Ema](/leaderboa
 |:---:|:---:|:---:|:---:|:---:| 
 | 2×2×2×3 | 16 | 8 | 0 | 0 |
 
-<details>
-  <summary>Solve idea (click to reveal)</summary>
-- Solve the middle 3-colored pieces of a tower cell (similar to solving a $1 \times 2 \times 2 \times 2$ ).<br>
-- Orient both $2$-cubic cells at the same time, slicing the solved part for exchanging pieces,being careful to use an even number of slice moves.  <br>   
-- Use RKT to solve the cubic cells, using the same tower cells as R.    <br>
-- Fix tower cell middle layer.  <br>
-</details>
+??? note "Solve idea (click to reveal)"
+
+    - Solve the middle 3-colored pieces of a tower cell (similar to solving a $1 \times 2 \times 2 \times 2$ ).
+    - Orient both $2$-cubic cells at the same time, slicing the solved part for exchanging pieces,being careful to use an even number of slice moves.     
+    - Use RKT to solve the cubic cells, using the same tower cells as R.   
+    - Fix tower cell middle layer.  
 
 #### 2×2×3×3
 
 | Puzzle | 4c pieces | 3c pieces | 2c pieces | 1c pieces | 
 |:---:|:---:|:---:|:---:|:---:| 
 | 2×2×3×3 | 16 | 16 | 4 | 0 |
-  
 
-<details>
-  <summary>Solve idea (click to reveal)</summary>
-- Solve a domino cell.  <br>   
-- Orient the opposite domino cell, potentially re-solving the first cell.  <br>   
-- Move pieces on the correct layers of the last cell.  <br>   
-- Solve last domino cell using 3-dimensional cuboid algorithms an even number of times and conjugating between them.  <br>   
-</details>
+??? note "Solve idea (click to reveal)"
+
+
+    - Solve a domino cell.     
+    - Orient the opposite domino cell, potentially re-solving the first cell.     
+    - Move pieces on the correct layers of the last cell.     
+    - Solve last domino cell using 3-dimensional cuboid algorithms an even number of times and conjugating between them.   
+
 
 #### 2×3×3×3
 | Puzzle | 4c pieces | 3c pieces | 2c pieces | 1c pieces | 
 |:---:|:---:|:---:|:---:|:---:| 
 | 2×3×3×3 | 16 | 24 | 12 | 2 |
 
-<details>
-  <summary>Solve idea (click to reveal)</summary>
-- Orient both 3-cubic cells at the same time.   <br>   
-- Solve first cubic cell.   <br>   
-- Solve the second cubic cell using RKT. <br>   
-</details>
+??? note "Solve idea (click to reveal)"
+
+
+    - Orient both 3-cubic cells at the same time.      
+    - Solve first cubic cell.     
+    - Solve the second cubic cell using RKT.    
+
 
 #### 2×2×2×4
 | Puzzle | 4c pieces | 3c pieces | 2c pieces | 1c pieces | 
@@ -132,7 +132,7 @@ In some cases an idea of a possible solution method provided by [Ema](/leaderboa
 
 The smallest 4-dimensional "brick" hypercuboid.  
 
-## Create your 4D hypercuboids in MPUlt
+### 4D hypercuboids in MPUlt
 Here is a way to create your own  4D hypercuboid in MPUlt.  
 The result would not be isometric, but still working.
 
@@ -142,7 +142,7 @@ Step 1: Recognize the form of your hypercuboid in one of the following
 - $a \times a \times b \times c$,
 - $a \times a \times b \times b$,
 - $a \times b \times b \times b$,
-- $a \times a \times a \times a$ (hypercubes).
+- $a \times a \times a \times a$.
 
 Step 2: Recognize the values of the letters, then substitute the letter with the corresponding string from the following table:
 
@@ -161,7 +161,7 @@ So if $a=3$, you need to change "CUT-A" with "0.333 -0.333" in the general puzzl
 
 Step 3: Insert the created code in "MPUlt_puzzles.txt" file, save and enjoy your puzzle.
 
-### Case a×b×c×d
+#### Case a×b×c×d
 
 General code:  
 ```
@@ -184,7 +184,7 @@ Twists 1,0,0,0/0,1,0,0 1,0,0,0/0,0,1,0 0,0,1,0/0,1,0,0
 Cuts CUT-D
 ```
 
-### Case a×a×b×c
+#### Case a×a×b×c
 
 General code: 
 ```
@@ -204,7 +204,7 @@ Twists 1,0,0,0/1,1,0,0 1,0,0,0/0,0,1,0 0,0,1,0/0,1,0,0
 Cuts CUT-A
 ```
 
-### Case a×a×b×b
+#### Case a×a×b×b
 General code: 
 ```
 Puzzle NAME_AXAXBXB
@@ -219,7 +219,7 @@ Axis 0,0,1,0
 Twists 1,0,0,0/1,1,0,0 0,0,0,1/1,0,0,0 0,0,0,1/1,1,0,0
 Cuts CUT-B
 ```
-### Case a×b×b×b
+#### Case a×b×b×b
 General code: 
 ```
 Puzzle NAME_AXBXBXB
@@ -235,7 +235,7 @@ Twists 1,0,0,0/1,1,0,0 1,0,0,0/1,0,1,0
 Cuts CUT-A
 ```
 
-### Case a×a×a×a
+#### Case a×a×a×a
 General code: 
 ```
 Puzzle NAME_AXAXAXA
