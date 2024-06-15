@@ -100,7 +100,6 @@ In some cases an idea of a possible solution method provided by [Ema](/leaderboa
 
 ??? note "Solve idea (click to reveal)"
 
-
     - Solve a domino cell.     
     - Orient the opposite domino cell, potentially re-solving the first cell.     
     - Move pieces on the correct layers of the last cell.     
@@ -113,7 +112,6 @@ In some cases an idea of a possible solution method provided by [Ema](/leaderboa
 | 2×3×3×3 | 16 | 24 | 12 | 2 |
 
 ??? note "Solve idea (click to reveal)"
-
 
     - Orient both 3-cubic cells at the same time.      
     - Solve first cubic cell.     
