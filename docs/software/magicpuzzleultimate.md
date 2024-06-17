@@ -476,6 +476,8 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
 
 If you figure out the notation, you can try adding your own puzzles. You define the symmetry group, rotational axes, cutting planes, possible twists and puzzle boundary.
 
+For some definitions of various hypercuboids, see [hypercuboids](https://hypercubing.xyz/puzzles/hypercuboids/).
+
 There is also a general formula for 4D duoprism puzzles, made by Luna:
 ``` title="{p}x{q}"
 Puzzle {p}x{q}
