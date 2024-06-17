@@ -248,4 +248,4 @@ Cuts CUT-A
 
 
 ## 5D+ Hypercuboids
-This hypercuboids are not studied yet, except for some "simpler" versions with a lots of $1$- s.
+These hypercuboids haven't been studied yet, except for some "simpler" versions with lots of $1$'s.
