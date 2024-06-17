@@ -219,7 +219,110 @@
         - preset_name: End
           visible_pieces: ffffffffffffffffffff
         ```
-
+    === "Hactar's 4^4^ filters (Pink cross)"
+        ```yaml
+        - preset_name: U center
+          visible_pieces: "000000000000000000000000000660000000000006600000000000000000"
+        - preset_name: D center
+          visible_pieces: "000000000000000006600000000660066000000006600000000000000000"
+        - preset_name: B center
+          visible_pieces: "000000000000000006600060060660066000600606600000000000000000"
+        - preset_name: F center
+          visible_pieces: "000000000000000006606066060660066060660606600000000000000000"
+        - preset_name: First 5 centers
+          visible_pieces: "000000000000000006606066060660066060660606600000066006600000"
+        - preset_name: D cross ridge
+          visible_pieces: "000000000000000006606066060660066060660606600660066006600000"
+        - preset_name: B cross ridge
+          visible_pieces: "000000000000000006606066060660066060660606600660066606660000"
+        - preset_name: U cross ridge
+          visible_pieces: "000000000000000006606066060660066060660606600660066606660660"
+        - preset_name: 4-cross
+          visible_pieces: "000000000000000006606066060660066060660606600660666666660660"
+        - preset_name: Belt 1/4
+          visible_pieces: "000000000000000006666066060660066660660606600666666666660660"
+        - preset_name: Belt 2/4
+          visible_pieces: "000000000000000006666066060666066660660606660666666666660666"
+        - preset_name: Belt 3/4
+          visible_pieces: "000000000000000066666066060666666660660606666666666666660666"
+        - preset_name: Belt
+          visible_pieces: "000000000000000066666066066666666660660666666666666666666666"
+        - preset_name: L center
+          visible_pieces: "000000000000000066666566566666666665665666666666666666666666"
+        - preset_name: L 1/3
+          visible_pieces: "000000000000000066666566566666666665665666666666677667766666"
+        - preset_name: L 2/3
+          visible_pieces: "000000000000000067766566566666677665665666666776677667766666"
+        - preset_name: L 3/3
+          visible_pieces: "000000000000000067766566566776677665665667766776677667766776"
+        - preset_name: BL 1/3
+          visible_pieces: "000000000000000067766576576776677665765767766776677767776776"
+        - preset_name: BL 2/3
+          visible_pieces: "000000000000000067776576576776677765765767766777677767776776"
+        - preset_name: BL 3/3
+          visible_pieces: "000000000000000067776576576777677765765767776777677767776777"
+        - preset_name: FL 1/3
+          visible_pieces: "000000000000000067777577576777677775775767776777777777776777"
+        - preset_name: FL 2/3
+          visible_pieces: "000000000000000077777577576777777775775767777777777777776777"
+        - preset_name: FL 3/3
+          visible_pieces: "000000000000000077777577577777777775775777777777777777777777"
+        - preset_name: R center
+          visible_pieces: 000000000000000077777f77f7777777777f77f777777777777777777777
+        - preset_name: R 1/3
+          visible_pieces: 000000000000000077777f77f7777777777f77f7777777777ff77ff77777
+        - preset_name: R 2/3
+          visible_pieces: 00000000000000007ff77f77f777777ff77f77f777777ff77ff77ff77777
+        - preset_name: R 3/3
+          visible_pieces: 00000000000000007ff77f77f77ff77ff77f77f77ff77ff77ff77ff77ff7
+        - preset_name: BR 1/3
+          visible_pieces: 00000000000000007ff77ff7ff7ff77ff77ff7ff7ff77ff77fff7fff7ff7
+        - preset_name: BR 2/3
+          visible_pieces: 00000000000000007fff7ff7ff7ff77fff7ff7ff7ff77fff7fff7fff7ff7
+        - preset_name: BR 3/3
+          visible_pieces: 00000000000000007fff7ff7ff7fff7fff7ff7ff7fff7fff7fff7fff7fff
+        - preset_name: FR 1/3
+          visible_pieces: 00000000000000007fffffffff7fff7fffffffff7fff7fffffffffff7fff
+        - preset_name: FR 2/3
+          visible_pieces: 0000000000000000ffffffffff7fffffffffffff7fffffffffffffff7fff
+        - preset_name: FR 3/3
+          visible_pieces: 0000000000000000ffffffffffffffffffffffffffffffffffffffffffff
+        - preset_name: RLC 1/6
+          visible_pieces: "000006600660066000000000000000000000000000000000000000000000"
+        - preset_name: RLC 2/6
+          visible_pieces: "000006660666066000000000000000000000000000000000000000000000"
+        - preset_name: RLC 3/6
+          visible_pieces: "066006660666066000000000000000000000000000000000000000000000"
+        - preset_name: RLC 4/6
+          visible_pieces: "066007760776066000000000000000000000000000000000000000000000"
+        - preset_name: RLC 6/6
+          visible_pieces: 06606ff66ff6066000000000000000000000000000000000000000000000
+        - preset_name: ELC 2/12
+          visible_pieces: "000600000000000600000000000000000000000000000000000000000000"
+        - preset_name: ELC 4/12
+          visible_pieces: "600600000000600600000000000000000000000000000000000000000000"
+        - preset_name: ELC 6/12
+          visible_pieces: "611600000000611600000000000000000000000000000000000000000000"
+        - preset_name: ELC 8/12
+          visible_pieces: "611610011001611600000000000000000000000000000000000000000000"
+        - preset_name: ELC 10/12
+          visible_pieces: "699610011001699600000000000000000000000000000000000000000000"
+        - preset_name: ELC 12/12
+          visible_pieces: "699690099009699600000000000000000000000000000000000000000000"
+        - preset_name: OLC
+          visible_pieces: ffffffffffffffff00000000000000000000000000000000000000000000
+        - preset_name: PLC 2c
+          visible_pieces: 06606ff66ff6066006606f66f6066006606f66f606600000066006600000
+        - preset_name: PLC cross
+          visible_pieces: 06606ff66ff66ff600000000000000000000000000000000000000000000
+        - preset_name: PLC F2L
+          visible_pieces: 0660ffffffffffff00000000000000000000000000000000000000000000
+        - preset_name: PLC
+          visible_pieces: ffffffffffffffff00000000000000000000000000000000000000000000
+        - preset_name: Done
+          visible_pieces: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        ```
+        
 ## Summary
 
 1. **4-Cross** — Solve 4 out of the 6 cross pieces
