@@ -14,7 +14,7 @@
 
 ## Introduction
 
-[![Introduction Video](http://img.youtube.com/vi/hp935ysUNyI&t=1s/0.jpg)](http://www.youtube.com/watch?v=hp935ysUNyI&t=1s "4d Pyraminx Introduction")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hp935ysUNyI?si=gydPsJYiO3JNTK-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## History
 
@@ -179,8 +179,13 @@ That’s all there is to the gyro and here we have all in one movement.
 
 ## Example solve
 
-Here is a link to a video of an example scramble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto).
-Also you can watch a tutorial of how to solve it here: [Link](https://youtu.be/L4foSEUS0Go?si=lR-hk2-PvmjujoJd).
+Here is a link to a video of an example scramble and solve of the puzzle: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ouciU8p1Wto?si=a87n2elL-uVbK-Ih" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Also you can watch a tutorial of how to solve it here: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L4foSEUS0Go?si=6jUiO6Myl26xW2I9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Notes for a solve
 
