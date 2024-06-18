@@ -22,6 +22,9 @@ World record database for higher dimensional twisty puzzle speedsolving! Verific
     - [MagicTile Klein Bottle challenge](http://roice3.org/magictile/mathologer/)
     - [Speedsolving Wiki List of Unofficial World Records](https://www.speedsolving.com/wiki/index.php?title=List_of_Unofficial_World_Records#High_Dimensional_Puzzles)
 
-[Submit a solve](https://forms.gle/Y7Vpi3pb8989Ay8W8){{.md-button .md-button--primary}}
+[:material-format-list-numbered: Rules](https://hypercubing.xyz/leaderboards/rules/){{.md-button .md-button--primary}}
+[:material-plus-circle: Submit](https://forms.gle/Y7Vpi3pb8989Ay8W8){{.md-button .md-button--primary}}
+
+
 
 Happy hypercubing!
