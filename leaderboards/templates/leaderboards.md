@@ -18,6 +18,7 @@ World record database for higher dimensional twisty puzzle speedsolving! Verific
     - [Magic Cube 4D Hall of Fame](https://superliminal.com/cube/halloffame.htm)
     - [Magic Cube 4D Extended Records](http://wiki.superliminal.com/wiki/MC4D_Records)
     - [Magic Cube 5D Hall of Insanity](http://www.gravitation3d.com/magiccube5d/hallofinsanity.html)
+    - [Magic Cube 7D Solvers](https://superliminal.com/andrey/mc7d/)
     - [Magic 120 Cell Solvers](http://www.gravitation3d.com/magic120cell/index.html)
     - [MagicTile Klein Bottle challenge](http://roice3.org/magictile/mathologer/)
     - [Speedsolving Wiki List of Unofficial World Records](https://www.speedsolving.com/wiki/index.php?title=List_of_Unofficial_World_Records#High_Dimensional_Puzzles)
