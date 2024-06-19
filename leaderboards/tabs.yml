@@ -15,8 +15,8 @@
     - {puz: 2x2x3x3, name: 2×2×3×3}
   - name: Physical
     contents:
-    - {puz: phys_2x2x2x2, name: 2×2×2×2, exclude: [program]}
-    - {puz: virt_phys_3x3x3x3, name: Virtual 3×3×3×3}
+    - {puz: phys_2x2x2x2, name: Physical 2×2×2×2, exclude: [program]}
+    - {puz: virt_phys_3x3x3x3, name: Physical Virtual 3×3×3×3}
   - name: Other
     contents:
     - {puz: 3-layer_simplex, name: 3-Layer Simplex}

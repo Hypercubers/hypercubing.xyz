@@ -4,4 +4,4 @@ search:
   boost: -1
 ---
 
-# Current World Records
+# Current World Records :trophy-gold-hypercube:
