@@ -2,6 +2,8 @@
 hide: [navigation, toc]
 ---
 
+[Hypercubers Discord Server]: https://discord.gg/xxFvfyx89p
+
 # FAQ
 
 ## Other FAQs
@@ -34,6 +36,13 @@ hide: [navigation, toc]
     - [I get an error when I try to run Hyperspeedcube](#i-get-an-error-when-i-try-to-run-hyperspeedcube)
     - [How do I use keybinds in Hyperspeedcube?](#how-do-i-use-keybinds-in-hyperspeedcube)
     - [How do I use piece filters in Hyperspeedcube?](#how-do-i-use-piece-filters-in-hyperspeedcube)
+- [Hyperspeedcube 2](#hyperspeedcube-2)
+    - [When will Hyperspeedcube 2 be ready?](#when-will-hyperspeedcube-2-be-ready)
+    - [What features are planned for Hyperspeedcube 2?](#what-features-are-planned-for-hyperspeedcube-2)
+    - [Does Hyperspeedcube 2 have \[feature\] yet?](#does-hyperspeedcube-2-have-feature-yet)
+    - [Can I download the latest development build?](#can-i-download-the-latest-development-build)
+    - [I'm having troubling with Hyperspeedcube 2?](#im-having-troubling-with-hyperspeedcube-2)
+    - [Where can I follow the latest development updates?](#where-can-i-follow-the-latest-development-updates)
 - [Speedsolving](#speedsolving)
     - [What are the speedsolving records for 4D puzzles?](#what-are-the-speedsolving-records-for-4d-puzzles)
     - [Why not use speedrun.com?](#why-not-use-speedruncom)
@@ -60,7 +69,7 @@ Our eyes see only a 2D projection of the 3D world, and we're able to reconstruct
 
 ### Where can I interact with other hypercubers?
 
-- The [Hypercubers Discord Server](https://discord.gg/xxFvfyx89p) has the most active community of hypercubers and contains the latest updates on developing projects and speedsolving strategies.
+- The [Hypercubers Discord Server] has the most active community of hypercubers and contains the latest updates on developing projects and speedsolving strategies.
 - The [Hypercubing Google Group](https://groups.google.com/g/hypercubing) is a good option for those who prefer mailing lists or less frequent updates.
 - The [r/Hypercubers subreddit](https://www.reddit.com/r/Hypercubers/) is mostly inactive.
 
@@ -82,7 +91,7 @@ We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server](https://discord.gg/xxFvfyx89p).
+Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server].
 
 
 ### What methods exist for the 3×3×3×3?
@@ -176,6 +185,36 @@ See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooti
 ### How do I use piece filters in Hyperspeedcube?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Hyperspeedcube 2
+
+[ajfarkas-hsc2]: https://ajfarkas.dev/hyperspeedcube/#future-plans
+
+### When will Hyperspeedcube 2 be ready?
+
+When it's done.
+
+### What features are planned for Hyperspeedcube 2?
+
+See [Hactar's website][ajfarkas-hsc2].
+
+### Does Hyperspeedcube 2 have \[feature\] yet?
+
+See [Hactar's website][ajfarkas-hsc2].
+
+### Can I download the latest development build?
+
+You can access the latest development builds either by [donating to Hactar on Ko-fi](https://ko-fi.com/ajfarkas) (any amount one time should work) or [building it yourself from the source code](https://github.com/HactarCE/Hyperspeedcube/blob/main/BUILDING.md), which takes some time to set up but generally isn't too hard.
+
+### I'm having troubling with Hyperspeedcube 2?
+
+**Please do not ask Hactar for help building or using development builds of Hyperspeedcube 2** unless the build on Ko-fi is broken. Everything in the program is subject to change, and any time spent helping an individual user is time that could instead be spent writing documentation.
+
+### Where can I follow the latest development updates?
+
+See the [**Hyperspeedcube 2.0 Development Updates**][hsc-updates-thread] thread in #hyper-forum on the [Hypercubers Discord Server]. Once Hyperspeedcube 2.0 is ready for general use, there will be an announcement that pings the **@Hyperspeedcube Update** role (and possibly **@everyone**).
+
+[hsc-updates-thread]: https://discord.com/channels/852389089268858922/1096955261719162910
 
 ## Speedsolving
 
