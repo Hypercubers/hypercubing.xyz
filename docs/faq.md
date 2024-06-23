@@ -158,7 +158,7 @@ Melinda's 2^4^ is the only physical puzzle for sale. The physical 3^4^ and hyper
 
 ### Can I download 3D files for the physical 2×2×2×2?
 
-No. We do not make those files public so Melinda is able to retain control of her invention. If you want to create your own files modeling Melinda's physical 2^4^ and 3D print them, that is fine, but we ask that you do not make the files avaliable for download unless Melinda is OK with it.
+No. Melinda has put a _lot_ of work into her physical 2^4^ designs, and invested quite a bit of her own capital into selling prototypes at a loss and getting them mass-produced, so we respect her wishes to not make those files public. If you want to create your own files modeling Melinda's physical 2^4^ and 3D print them, that is fine, but we ask that you do not make the files avaliable for download unless Melinda is OK with it.
 
 ### What physical 4D puzzles have been built?
 
