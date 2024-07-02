@@ -260,7 +260,7 @@ Square-1 is fundamentally a bandaged dodecagonal prism. There are so many ways t
 
 ### 4D Skewb
 
-Again, there's lots of ways to generalize a skewb. If you just want cuts that look like a skewb, there's a few different puzzles that emulate that. If you want a half-cut vertex-turning hypercube, that's a thing too! It just doesn't "look like" a traditional skewb. For more 4D skewbs, including pictures, see [here](/puzzles/4d-skewb.md).
+There's so many ways to generalize a skewb to 4D that we have a [whole page full of them](/puzzles/4d-skewb.md)!
 
 ### 8-dimensional and higher
 
