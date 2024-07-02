@@ -49,6 +49,7 @@ hide: [navigation, toc]
     - [I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?](#i-dont-know-full-ollpllzblletc-can-i-still-get-fast-at-4d)
     - [What 4D algorithms are there?](#what-4d-algorithms-are-there)
 - [Does this puzzle exist?](#does-this-puzzle-exist)
+    - [2D Rubik's Cube](#2d-rubiks-cube)
     - [4D Square-1](#4d-square-1)
     - [4D Skewb](#4d-skewb)
     - [8-dimensional and higher](#8-dimensional-and-higher)
@@ -235,6 +236,25 @@ Absolutely! Most 4D speed methods are highly intuitive, and world-record times o
 There's so many cases for each step of the solve that creating a complete algorithm set is basically impossible, and there's so many options for moves that algorithm explorers are infeasible. Almost every algorithm we have is based on an algorithm from 3D, and the only search program we have is a sort of optimizer for one very specific kind of algorithm derived from 3D.
 
 ## Does this puzzle exist?
+
+### 2D Rubik's Cube
+
+Depending on how you define "2D Rubik's cube," it might or might not exist.
+
+A 3D Rubik's cube has 6 square faces and each face twists within its 2D plane (with 4 possible rotations). A 4D Rubik's cube has 8 cubic cells and each cell twists within its 3D plane (with 24 possible rotations). By analogy, a 2D Rubik's cube has 4 edges and each edge can be rotated with its 1D line ... but there's no way to do a rotation in 1D. So if twists have to be rotations, then a 2D Rubik's cube doesn't have any turns and so isn't a puzzle (or is a trivial one).
+
+Using different definitions, we can create a few different puzzles that could reasonably be called a 2D Rubik's cube:
+
+- If we allow reflections instead of rotations, we get the [Reflesquare], which generalizes to the [Reflecube].
+- If we allow translations instead of rotations, we get [Loopover].
+- If we allow circular cuts instead of flat cuts, we get various [MagicTile] puzzles, including some that are actually equivalent an ordinary the 3D Rubik's cube!
+
+[Reflesquare]: https://superliminal.com/cube/mc2d.html
+[Reflecube]: https://www.nan.ma/reflecube/
+[Loopover]: https://loopover.xyz/
+[MagicTile]: http://roice3.org/magictile/
+
+The Rubik's Cube doesn't generalize
 
 ### 4D Square-1
 
