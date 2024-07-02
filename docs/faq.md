@@ -247,14 +247,12 @@ Using different definitions, we can create a few different puzzles that could re
 
 - If we allow reflections instead of rotations, we get the [Reflesquare], which generalizes to the [Reflecube].
 - If we allow translations instead of rotations, we get [Loopover].
-- If we allow circular cuts instead of flat cuts, we get various [MagicTile] puzzles, including some that are actually equivalent an ordinary the 3D Rubik's cube!
+- If we allow circular cuts instead of flat cuts, we get various [MagicTile] puzzles, including some that are actually equivalent to an ordinary 3D Rubik's cube!
 
 [Reflesquare]: https://superliminal.com/cube/mc2d.html
 [Reflecube]: https://www.nan.ma/reflecube/
 [Loopover]: https://loopover.xyz/
 [MagicTile]: http://roice3.org/magictile/
-
-The Rubik's Cube doesn't generalize
 
 ### 4D Square-1
 
