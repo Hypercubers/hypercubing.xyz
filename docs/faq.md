@@ -241,7 +241,7 @@ There's so many cases for each step of the solve that creating a complete algori
 
 Depending on how you define "2D Rubik's cube," it might or might not exist.
 
-A 3D Rubik's cube has 6 square faces and each face twists within its 2D plane (with 4 possible rotations). A 4D Rubik's cube has 8 cubic cells and each cell twists within its 3D plane (with 24 possible rotations). By analogy, a 2D Rubik's cube has 4 edges and each edge can be rotated with its 1D line ... but there's no way to do a rotation in 1D. So if twists have to be rotations, then a 2D Rubik's cube doesn't have any turns and so isn't a puzzle (or is a trivial one).
+A 3D Rubik's cube has 6 square faces and each face twists within its 2D plane (with 4 possible rotations). A 4D Rubik's cube has 8 cubic cells and each cell twists within its 3D plane (with 24 possible rotations). By analogy, a 2D Rubik's cube has 4 edges and each edge can be rotated within its 1D line ... but there's no way to do a rotation in 1D. So if twists have to be rotations, then a 2D Rubik's cube doesn't have any turns and so isn't a puzzle (or is a trivial one).
 
 Using different definitions, we can create a few different puzzles that could reasonably be called a 2D Rubik's cube:
 
