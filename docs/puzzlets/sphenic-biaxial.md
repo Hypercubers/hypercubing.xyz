@@ -122,3 +122,29 @@ function update() {
 update();
 
 </script>
+
+
+
+
+
+
+test:
+
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  xmlns="http://www.w3.org/2000/svg">
+  <path
+    fill="#000000" stroke="#ff0000" stroke-width="3"
+    d="M 25 1.5 a 1 1 0 0 0 0 47 Z" />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 60 70"
+      to="360 60 70"
+      dur="10s"
+      repeatCount="indefinite" />
+  </path>
+</svg>
