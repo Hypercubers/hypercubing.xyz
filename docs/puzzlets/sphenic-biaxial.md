@@ -131,20 +131,41 @@ update();
 test:
 
 <svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
+  id="sim"
+  width="100%"
+  height="auto"
+  viewBox="-1 -1 101 51"
   xmlns="http://www.w3.org/2000/svg">
-  <path
-    fill="#000000" stroke="#ff0000" stroke-width="3"
-    d="M 25 1.5 a 1 1 0 0 0 0 47 Z" />
-    <animateTransform
-      attributeName="transform"
-      attributeType="XML"
-      type="rotate"
-      from="0 60 70"
-      to="360 60 70"
-      dur="10s"
-      repeatCount="indefinite" />
-  </path>
+  <rect width="98%" height="97%" style="stroke-width:1; stroke:gray;" rx="2" fill-opacity="0"/>
+  <circle r="15" cx="50" cy="25" fill="red" stroke="black" class="left" id="corcle"/>
+  <line x1="50" y1="25" x2="50" y2="10" stroke="black" id="line2" stroke-linecap="round"/>
+
 </svg>
+
+<script>
+    var svg = document.getElementById('sim');
+
+    var cols = ["orange", "red"];
+    var count = 0;
+    var target = 90;
+    var currentTargetAmount = 0;
+
+    function animate() {
+        currentTargetAmount++;
+        document.getElementById('line2').setAttribute("transform", "rotate(" + currentTargetAmount + " 50 25)");
+        if (currentTargetAmount != target) requestAnimationFrame(animate);
+        if (currentTargetAmount > target) currentTargetAmount = target;
+    }
+
+
+    document.getElementById('corcle').addEventListener('click', function(event) {
+        // document.getElementById('corcle').style.fill = cols[(count++)%2];
+        target += 90;
+        requestAnimationFrame(animate);
+    }, false);
+
+    
+    
+
+
+</script>
