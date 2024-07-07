@@ -29,7 +29,7 @@ The Sphenic Biaxial is a 2D puzzle meant to teach beginners about cycles, parity
 <script>
     var svg = document.getElementById('sim');
 
-    var Lbeads = ["bead0, bead1"];
+    var Lbeads = ["bead0", "bead1"];
     var Rbeads = ["bead1", "bead2", "bead3", "bead4", "bead5", "bead6", "bead7", "bead8"];
 
     var target = 0;
@@ -38,6 +38,7 @@ The Sphenic Biaxial is a 2D puzzle meant to teach beginners about cycles, parity
     var currentTargetAmount2 = 0;
 
     function animate() {
+        
         currentTargetAmount++;
         var LList = document.getElementsByClassName("L");
         for (var m = 0; m < LList.length; m++) {
@@ -49,18 +50,13 @@ The Sphenic Biaxial is a 2D puzzle meant to teach beginners about cycles, parity
             var temp = Lbeads[0];
             Lbeads[0] = Lbeads[1];
             Lbeads[1] = temp;
+
+            Rbeads[0] = Lbeads[1];
+
             document.getElementById(Lbeads[1]).classList.add("R");
             document.getElementById(Lbeads[0]).classList.remove("R");
-            console.log(document.getElementById(Lbeads[1]).classList);
-            printBeads();
+            document.getElementById(Rbeads[0]).classList.add("L");
         }
-    }
-
-    function printBeads() {
-        console.log("bead1: " );
-
-
-
     }
 
     function animate2() {
@@ -72,7 +68,7 @@ The Sphenic Biaxial is a 2D puzzle meant to teach beginners about cycles, parity
             RList[m].setAttribute("transform", "rotate(" + currentTargetAmount2 + " 60 25)");
         }
         if (currentTargetAmount2 != target2) requestAnimationFrame(animate2);
-        if (currentTargetAmount2 > target2) {
+        if (currentTargetAmount2 >= target2) {
             currentTargetAmount2 = target2;
             var temp = Rbeads[0];
             Rbeads[0] = Rbeads[7];
@@ -83,8 +79,10 @@ The Sphenic Biaxial is a 2D puzzle meant to teach beginners about cycles, parity
             Rbeads[3] = Rbeads[2];
             Rbeads[2] = Rbeads[1];
             Rbeads[1] = temp;
+            Lbeads[1] = Rbeads[0];
             document.getElementById(Rbeads[1]).classList.remove("L");
             document.getElementById(Rbeads[0]).classList.add("L");
+            document.getElementById(Lbeads[1]).classList.add("R");
         }
     }
 
@@ -92,11 +90,13 @@ The Sphenic Biaxial is a 2D puzzle meant to teach beginners about cycles, parity
     document.getElementById('Lcircle').addEventListener('click', function(event) {
         target += 180;
         requestAnimationFrame(animate);
+        console.log(Lbeads);
     }, false);
 
     document.getElementById('Rcircle').addEventListener('click', function(event) {
         target2 += 45;
         requestAnimationFrame(animate2);
+        console.log(Rbeads);
     }, false);
 
     
