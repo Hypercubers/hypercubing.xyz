@@ -101,6 +101,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 
 - [Nan Ma's puzzles](https://www.nan.ma/) (Reflecube, Lollipop, Clockwork Cube, and more)
 - [Akkei's physical 3^4^ program][akkei-phys]
+- [Rayzchen's 3to4++](https://github.com/rayzchen/3to4pp) (Physical 3^4^)
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
 - [MagmaMcFry's Quaternion Cube](https://magmamcfry.github.io/QuaternionCube/)
