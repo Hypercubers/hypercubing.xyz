@@ -44,4 +44,4 @@ Hypercubing is the hobby of solving twisty puzzles (such as the Rubik's cube) in
 
 The most well known 4D shape is the [hypercube](https://en.wikipedia.org/wiki/Tesseract) (also called the tesseract, 8-cell, octachoron, or 4-cube). It has 8 cubic sides that are called cells. Turning any of the cells involves rotating it like a cube to any of 24 orientations.
 
-The short article [Abstracting the Rubik's Cube](https://www.maa.org/sites/default/files/pdf/Mathhorizons/pdfs/AbstractingRubiks_MH_25.4.18.pdf) introduces a number of the hypercubing puzzles.
+The short article [Abstracting Rubik's Cube](http://roice3.org/papers/abstracting_rubiks_cube.pdf) introduces a number of the hypercubing puzzles.
