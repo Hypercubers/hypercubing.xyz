@@ -73,7 +73,7 @@ We can compute a lower bound of 51 in the STM. This works by showing that algori
 
 	We can describe turns on the \(3^4\) as happening on one of four axes, and with one of three layers. Each layer can be turned in 23 ways, so we have \(4 \times 3 \times 23 = 276\) turns measured as one move in the STM. After turning a layer, we want subsequent turns to be **noncancelling** (turning the same layer twice can be written as a single move), so we have \(276-23=253\) choices for subsequent turns.
 
-	From here, we can proceed without the Winning Ways improvement, where we find the number of positions reachable by 50 turns or fewer is at most
+	From here, we can proceed without the _Winning Ways_ improvement, where we find the number of positions reachable by 50 turns or fewer is at most
 
 	\[1 + 276 \times \sum_{k=0}^{49}253^k \approx 1.57 \times 10^{120} < \frac{\left(24!\times 2^{24}\right) \times \left(32! \times 6^{32}\right) \times (16! \times 12^{16})}{48} \approx 1.78 \times 10^{120}.\]
 
@@ -126,7 +126,7 @@ We can compute a lower bound of 51 in the STM. This works by showing that algori
 
 Below is an example of a similar argument used to derive a lower bound of 56 turns in the OBTM. Note that this argument is missing some optimizations that were applied in the STM lower bound derivation.
 
-??? abstract "OBTM Lower Bound, Winning Ways Method"
+??? abstract "OBTM Lower Bound, _Winning Ways_ Method"
 
 	Moves here will be measured using something equivalent (as far as this discussion is concerned) to OBTM. Our focus here is on positions that can be reached by algorithms of a certain length. Wide moves contribute to algorithm length in the same way that single cell turns do (wide move = single cell move + cube rotation, where cube rotations count as 0 moves), so we will make a simplification by restricting to single cell turns. There are 23 moves on each of the 8 cells, so 184 one-move algorithms are possible at any given time.
 
