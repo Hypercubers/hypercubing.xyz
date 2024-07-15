@@ -28,6 +28,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 - Macros are **not** allowed.
 - Piece filters are allowed.
 - All speedsolves require video evidence, such as a screen recording.
+    - The video must include scrambling the puzzle. When using Hyperspeedcube, the statusbar must be visible with the text "Scrambled fully."
     - A timer with precision of 0.01 seconds or better must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
     - Inspection time must not exceed 60 seconds. In other words, the solve timer must be started within 60 seconds of the puzzle being completely scrambled.
 - If using keyboard controls:
