@@ -90,12 +90,12 @@ The first official release was v0.1.0 in January 2022, featuring customizable ke
 
 Hyperspeedcube began to see widespread use after the addition of mouse controls and more advanced piece filters in August 2022, kickstarting the [hyperspeedsolving revolution](/history.md#2022-present-the-hyperspeedsolving-revolution). The web version was released in January 2023.
 
-Shortly after the web version was released, Hactar and Luna began reading the [MPU](/software/magicpuzzleultimate.md) source code, intending to make a tool to ease the process of writing MPU puzzle definitions. Instead, they were able to replicate MPU's puzzle generation algorithms, and Hactar set to work on a new puzzle simulator using this backend. Over the next year, they ported the algorithm to [Conformal Geometric Algebra][cga] in the hopes of supporting curved cuts. Puzzles would be defined using [Lua][lua], since it is a well-known programming language with a simple type system that is easy to embed, sandbox, and extend with custom types.
+Shortly after the web version was released, Hactar and Luna began reading the [MPU](/software/magicpuzzleultimate.md) source code, intending to make a tool to ease the process of writing MPU puzzle definitions. Instead, they were able to replicate MPU's puzzle generation algorithms, and Hactar set to work on a new puzzle simulator using this backend. Over the next year, they adapted the algorithm to use [Conformal Geometric Algebra][cga] in the hopes of supporting curved cuts, but this proved too challenging in higher dimensions. Together with Milo, they built a puzzle definition system using [Lua][lua], since it is a well-known programming language with a simple type system that is easy to embed, sandbox, and extend with custom types.
 
 [cga]: https://en.wikipedia.org/wiki/Conformal_geometric_algebra
 [lua]: https://en.wikipedia.org/wiki/Lua_(programming_language)
 
-The first dev build of the new version, Hyperspeedcube v2.0.0-pre.1, was released on July 16th, 2023, and supported Lua shape definitions but not twists. As of early 2024, HSC 2.0 is still in development.
+The first dev build of the new version, Hyperspeedcube v2.0.0-pre.1, was released on July 16th, 2023, and supported Lua shape definitions but not twists. As of mid-2024, HSC 2.0 is still in active development.
 
 ## Future updates
 
