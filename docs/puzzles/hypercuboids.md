@@ -21,10 +21,10 @@ Using the above notation, the $a_1 \times a_2 \times \dots \times a_n$ hypercubo
 
 For example, consider the $2 \times 3 \times 5 \times 7$ hypercuboid, in this case:  
 
-- $a_1$ =2, so $\bar{a}_1=0$,  
-- $a_2$ =3, so $\bar{a}_2=1$,  
-- $a_3$ =5, so $\bar{a}_3=3$,  
-- $a_4$ =7, so $\bar{a}_4=5$.    
+- $a_1 =2$, so $\bar{a}_1=0$,  
+- $a_2 =3$, so $\bar{a}_2=1$,  
+- $a_3 =5$, so $\bar{a}_3=3$,  
+- $a_4 =7$, so $\bar{a}_4=5$.    
 
 So there will be:  
 
