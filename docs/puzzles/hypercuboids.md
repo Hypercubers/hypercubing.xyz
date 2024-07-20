@@ -8,25 +8,16 @@ In a general context, we define a hypercuboid as an $n$-dimensional puzzle denot
 ### Structure
 A hypercuboid, as defined, is composed of $2n$ cells, each of which is $(n-1)$-dimensional.
 
-For a general element $a_i$, we will define  $\bar{a}_i= \max (0, a_i-2)$.
-
-Given $k>0$ and $n \geq 1$, the [elementary symmetric polynomial](https://en.wikipedia.org/wiki/Elementary_symmetric_polynomial) $e_k(x_1, x_2, \dots, x_n) = \sum_{Y} \prod_{y\in Y} y$, where $Y$ ranges over subsets of $\{x_1, \dots, x_k\}$ where $|Y| = k$. In other words, it is the sum of all terms, each of which are product of distinct $x_i$ taken $k$ at a time.
+Given $k \geq 0$ and $n \geq 1$, the [elementary symmetric polynomial](https://en.wikipedia.org/wiki/Elementary_symmetric_polynomial) $e_k(x_1, x_2, \dots, x_n) = \sum_{Y} \prod_{y\in Y} y$, where $Y$ ranges over subsets of $\{x_1, \dots, x_k\}$ where $|Y| = k$. In other words, it is the sum of all terms, each of which are product of distinct $x_i$ taken $k$ at a time.
 
 - For example: $e_1(x_1,x_2,x_3,x_4,x_5) = x_1 + x_2 + x_3 + x_4 +x_5$, i.e. the sum of terms of 1 element, chosen in $x_1, x_2, x_3, x_4, x_5$.   
 - Another example: $e_2(x_1,x_2,x_3,x_4) = x_1 x_2 + x_1 x_3 + x_1 x_4 + x_2 x_3 + x_2 x_4 + x_3 x_4$, i.e., the sum of the products of all possible unordered pairs made with $x_1, x_2, x_3, x_4$.
 
 Note that $e_k(x_1, \dots, x_n)$ has $\binom{n}{k}$ terms. From this, we can also see that $e_0(x_1, \dots, x_n)=1$.
 
-Using the above notation, the $a_1 \times a_2 \times \dots \times a_n$ hypercuboid has $2^k\cdot e_{n-k}(\bar{a}_1, \dots, \bar{a}_n)$ pieces which are $k$-colored.
+Using the above notation, the $a_1 \times a_2 \times \dots \times a_n$ hypercuboid, where $a_i > 1$, has $2^k\cdot e_{n-k}(a_1-2, \dots, a_n-2)$ pieces which are $k$-colored.
 
-For example, consider the $2 \times 3 \times 5 \times 7$ hypercuboid, in this case:  
-
-- $a_1 =2$, so $\bar{a}_1=0$,  
-- $a_2 =3$, so $\bar{a}_2=1$,  
-- $a_3 =5$, so $\bar{a}_3=3$,  
-- $a_4 =7$, so $\bar{a}_4=5$.    
-
-So there will be:  
+For example, consider the $2 \times 3 \times 5 \times 7$ hypercuboid.
 
 - For 1-colored pieces we have:  
   $2^1 \cdot e_3(0,1,3,5)=2^1\cdot (0\cdot1\cdot3 + 0\cdot 3 \cdot 5 + 1 \cdot 3 \cdot 5 + 0\cdot 1 \cdot5 )=$  
@@ -41,7 +32,9 @@ So there will be:
   $=8 \cdot 9=72$  pieces.
 
 - For 4-colored pieces we have:  
-  $2^4 \cdot e_0(0,1,3,5)=2^4\cdot 1=  16$ pieces.  
+  $2^4 \cdot e_0(0,1,3,5)=2^4\cdot 1=  16$ pieces. 
+
+If $a_1, \dots, a_m$ are all equal to $1$ and $a_{m+1} > 1$, the cuboid is a floppy cuboid. In this case, the number of $k$-colored pieces is equal to the number of $(k-2m)$-colored pieces on the $a_{m+1} \times \dots \times a_n$ hypercuboid, when $k \geq 2m$. This includes the case where $k = 2m$, in which case the floppy cuboid has pieces corresponding to the 0-colored pieces of the lower dimensional hypercuboid.
 
 
 ## 4D Hypercuboids
