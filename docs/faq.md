@@ -193,7 +193,7 @@ See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooti
 
 ### When will Hyperspeedcube 2 be ready?
 
-When it's done.
+When it's done. Hopefully within 2024.
 
 ### What features are planned for Hyperspeedcube 2?
 
