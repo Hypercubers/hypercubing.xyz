@@ -12,7 +12,7 @@ title: Welcome
 
 <div class="grid cards" markdown>
 
--   [:material-school:{.lg .middle} **Introduction to 4D**](intro-4d.md)
+-   [:material-school:{.lg .middle} **Introduction to 4D**](https://ciechanow.ski/tesseract/)
 
     Learn how the fourth dimension works
 
