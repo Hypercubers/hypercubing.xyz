@@ -41,9 +41,12 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Magic Cube 7D][mc7d]                       | [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^           |
 | [Magic Cube 5D][mc5d]                       |    [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^               |
 | [Magic Cube 4D VR][mc4d-vr]                 |                       :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                   |
-| [Flat Hypercube][flat]                      |   [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_k________} | {1-19}^{1-10}^          |
+| [Flat Hypercube][flat]                      |   [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_k________} | {1-19}^{1-10}^         |
 | [Gelatinbrain][gelatinbrain][^gelatinbrain] |               :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things     |
 | [pCubes][pCubes]                            |                                          %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle |
+| [Ultimate Magic Cube][umc]                  |                                          %platforms{w___} | %features{m___t___p_} | platonic 3D            |
+| [Ultimate Magic Cube 2][umc]                |                                          %platforms{w___} | %features{m___t_____} | platonic + misc 3D     |
+| [Twizzle Explorer][twizzle-alpha]           |                                          %platforms{___b} | %features{mk___M__p_} | many 3D puzzles        |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
@@ -62,6 +65,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [flat-src]: https://github.com/milojacquet/flat-hypercube
 [gelatinbrain]: https://github.com/Hypercubers/gelatinbrain/
 [pCubes]: https://twistypuzzles.com/forum/viewtopic.php?t=27054
+[umc]: http://www.ultimatemagiccube.com/
+[twizzle-alpha]: https://alpha.twizzle.net/explore/
 
 [^gelatinbrain]: Full name: gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)
 
