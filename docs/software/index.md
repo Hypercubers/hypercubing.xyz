@@ -46,7 +46,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [pCubes][pCubes]                            |                                          %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle |
 | [Ultimate Magic Cube][umc]                  |                                          %platforms{w___} | %features{m___t___p_} | platonic 3D            |
 | [Ultimate Magic Cube 2][umc]                |             :material-language-csharp: • %platforms{w___} | %features{m___t_____} | platonic + misc 3D     |
-| [Twizzle Explorer][twizzle-alpha]           |                                          %platforms{___b} | %features{mk___M__p_} | many 3D puzzles        |
+| [Twizzle Explorer][twizzle-alpha]           |                                          %platforms{___b} | %features{mk____T_p_} | many 3D puzzles        |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
