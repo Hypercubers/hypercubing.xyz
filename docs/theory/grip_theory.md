@@ -22,7 +22,7 @@ The complex 3×3×3 has 10 types of pieces, which include the core, centers, edg
 
 ### More puzzles
 
-This definition is immediately generalizable by replacing the set of grips and the grip group. For instance, using 12 grips and the grip group of a dodecahedron, we can create a megaminx, and by including all pieces, we can construct the complex megaminx, which has $2^{10} = 1024$ pieces of 96 types.
+This definition is immediately generalizable by replacing the set of grips and the grip group. For instance, using 12 grips and the grip group of a dodecahedron, we can create a megaminx, and by including all pieces, we can construct the complex megaminx, which has $2^{12} = 4096$ pieces of 96 types[^1].
 
 We can also take 8 grips, `R`, `U`, `F`, `O`, `L`, `D`, `B`, and `I`, with the grip group being the 192 symmetries of the hypercube. This allows us to construct the [3^4^](/puzzles/3x3x3x3.md). One notable feature of this group that is not present in the previous cases is that when we take two adjacent grips (e.g. `R` and `U`), there are non-identity elements of the grip group that fix both of these, even though there are also non-identity elements that only fix one of them. This means that [RKT](/techniques/rkt.md) is possible on this puzzle.
 
@@ -85,3 +85,5 @@ Constructing the 3×3×3 is even more geometrically intuitive than before. Now, 
 ### More layers
 
 Laminated puzzles, as the name suggests, are made of layers, so adding more layers is trivial. Moreover, even-layered puzzles can be constructed as naturally as odd-layered ones. This makes them a more natural description of these puzzles.
+
+[^1]: <https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/powers.pdf>
