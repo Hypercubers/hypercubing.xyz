@@ -40,7 +40,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 ### Blindsolving rules
 
 - Macros are allowed during solving.
-- Piece filters are allowed during memorization but not during solving.
+- Piece filters/highlightings are allowed during memorization but not during solving.
 - All blindsolves require video evidence of the solver that clearly shows the screen and that they are not cheating by using some external reference.
 - The solver does not need to be blindfolded, but the colors on the puzzle must be invisible during the solve.
 - Using software to compute a solution to the puzzle state is not allowed.
