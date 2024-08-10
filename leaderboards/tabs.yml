@@ -16,6 +16,7 @@
   - name: Physical
     contents:
     - {puz: phys_2x2x2x2, name: Physical 2×2×2×2, exclude: [program]}
+    - {puz: phys_3x3x3x3, name: Physical 3×3×3×3, exclude: [program]}
     - {puz: virt_phys_3x3x3x3, name: Physical Virtual 3×3×3×3}
   - name: Other
     contents:
