@@ -16,7 +16,7 @@ A piece of the [3×3×3](/puzzles/3x3x3.md) can be thought of as a subset of the
 
 These properties are redundant: suppose we call these $X, g, Y$ respectively. Then $Y = \{ x \cdot g \mid x \in X\}$, or simply $Y = X \cdot g$; and likewise and $X = Y \cdot g^{-1}$.
 
-When we perform a twist, we choose a face $f$, and a rotation $r$ of the cube that sends the chosen face to itself: $r \cdot f = f$. Then for each piece one of two things happen:
+When we perform a twist, we choose a face $f$, and a rotation $r$ of the cube that sends the chosen face to itself: $f \cdot r = f$. Then for each piece one of two things happen:
 
 - If the piece is currently incident with $f$, it gets acted on by $r$, sending $(X, g, Y) \mapsto (X, gr, Y \cdot r)$.
 - If the piece is currently not incident with $f$, it remains unchanged.
