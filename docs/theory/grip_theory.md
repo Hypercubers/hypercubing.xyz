@@ -56,9 +56,9 @@ $$(g, Y) \mapsto \begin{cases}
 (g, Y), & \text{if } f \notin Y. \\
 \end{cases}$$
 
-For instance, applying the twist with axis $U$ and transformation $(RFLB)$, which fixes $U$, to the piece from above, we get a new attitude
+For instance, applying the twist with axis $U$ and transformation $(R,F,L,B)$, which fixes $U$, to the piece from above, we get a new attitude
 
-$$(R,F,L,B) * (U,R)(L,D)(F,B) = (R,U,F)(L,D,B),$$
+$$(U,R)(L,D)(F,B) * (R,F,L,B) = (R,U,F)(L,D,B),$$
 
 and a new position
 
