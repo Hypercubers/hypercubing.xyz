@@ -61,6 +61,8 @@ There are several different algorithms for this, some of which gyro different ax
 - Take the right endcap off and put it on the left so it becomes the left endcap (this brings the puzzle back into the normal state)
 - `Rx2` `B2` `D2` `Lx2`
 
+It is not quite an entire gyro, but when computer generating scrambles (like from [this page](/puzzles/physical/2x2x2x2/scramble-generator.md)) you will come across `#`. This means to do a `U2` move, and then take the left endcap and move it to the right side of the puzzle (sometimes denoted `L->R`). The "endcap" here refers to the 4 pieces that form a square on one end of the puzzle, they are similar to the slabs, but aren't as large. These moves are not legal in solves by most standards.
+
 ## Expanded Canonical Moveset
 
 The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](/leaderboards/index.md). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2.md), but weren't allowed in the canonical moveset because people agreed not to for some reason.
