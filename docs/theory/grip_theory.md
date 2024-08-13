@@ -41,7 +41,7 @@ so the active grips follow the piece.
 
 The attitude of a piece with active grip set $Y$ can be decomposed into two components: the *orientation* of the piece, which is an element of the [stabilizer subgroup](https://en.wikipedia.org/wiki/Group_action#Orbits_and_stabilizers) $\operatorname{Stab}(Y)$; and the *position*, which is the set of active grips $Y$ itself. By the [orbit-stabilizer theorem](https://en.wikipedia.org/wiki/Group_action#Orbit-stabilizer_theorem) we can identify the orbit $X \cdot G$ (the possible positions of this piece) with the cosets in $G / \operatorname{Stab}(Y)$.
 
-For example, $(\{R, U\}, (U,R)(L,D)(F,B), \{R, U\})$ is an abstract description of the up-front edge in its solved position, but wrong orientation. We can verify its set of active grips:
+For example, $(\{R, U\}, (U,R)(L,D)(F,B), \{R, U\})$ is an abstract description of the up-right edge in its solved position, but wrong orientation. We can verify its set of active grips:
 
 $$\{R, U\} \cdot (U,R)(L,D)(F,B) = \{R, U\}.$$
 
