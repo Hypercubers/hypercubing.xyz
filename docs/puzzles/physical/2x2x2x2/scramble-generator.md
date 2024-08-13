@@ -1,8 +1,8 @@
 # Physical 2×2×2×2 Scramble Generator
 
 <p>Reminders:</p>
-    <p># is U2, L->R</p>
-    <p>Starting orientation is Green-Front, Orange-Left, White-Up, Pink-Out</p>
+    # is U2, L->R
+    Starting orientation is Green-Front, Orange-Left, White-Up, Pink-Out
 
 <p>Scrambles: <span id="demo2">5</span></p>
 <input type="range" min="1" max="20" value="5" class="slider" id="myRange">
