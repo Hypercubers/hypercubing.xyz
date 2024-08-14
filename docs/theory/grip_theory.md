@@ -51,9 +51,9 @@ $$\operatorname{Stab}(X) \hookrightarrow G \rightarrow G / \operatorname{Stab}(X
 
 Next, define a *twist* to be a pair of: a grip $f$ we twist around, or *axis*, and element of $\operatorname{Stab}(f)$, the *transformation*. Equivalently, we can choose an arbitrary transformation $r \in G$ first, and then an axis $f$ from the set $\Gamma^r$ of fixed points of $r$. As before, the action of a twist $(f, r)$ on a piece is:
 
-$$(X, g) \mapsto \begin{cases}
-(X, gr), & \text{if } f \in X \cdot g, \\
-(X, g), & \text{if } f \notin X \cdot g. \\
+$$(X, g, Y) \mapsto \begin{cases}
+(X, gr, Y \cdot r), & \text{if } f \in X \cdot g, \\
+(X, g, Y), & \text{if } f \notin X \cdot g. \\
 \end{cases}$$
 
 For instance, applying the twist with axis $U$ and transformation $(R,F,L,B)$, which fixes $U$, to the piece from above, we get a new attitude
