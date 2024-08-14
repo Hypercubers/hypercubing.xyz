@@ -72,11 +72,11 @@ We can similarly construct three more sets of pieces: the corners, with active g
 
 Above we have chosen some set of pieces $P$, a subset of $2^\Gamma$. Notably it is an invariant subset under the action of the grip group: $P \cdot G = P$. The state of the puzzle comprises of the states of all pieces, i.e. some set of triples $(X \in P, g \in G, Y \in P)$ such that $X \cdot g = Y$. This defines a relation between $P$, $P$, and $G$. Due to the redundancy, there are three ways to look at it:
 
-- A function from $X$ to $g$, indicating that the piece $X$ has attitude $g(X)$, and has active grips $Y(X) = X \cdot g(X)$.
-- A function from $Y$ to $g$, indicating that the piece whose active grips are $Y$ has attitude $g(Y)$ and its solved grips were $X(Y) = Y \cdot g(Y)^{-1}$.
+- A function from $X$ to $g$, called $a$, indicating that the piece $X$ has attitude $a(X)$, and has active grips $Y(X) = X \cdot a(X)$.
+- A function from $Y$ to $g$, also called $g$, indicating that the piece whose active grips are $Y$ has attitude $g(Y)$ and its solved grips were $X(Y) = Y \cdot g(Y)^{-1}$.
 - A permutation of $X$'s into $Y$'s, $\pi : P \to P$, together with a choice of $g$ at each fiber such that $\pi(X) = X \cdot g$.
 
-Denoting the set of such relations $G \wr P$, the first description allows us to straightforwardly define a group structure on it. If we treat elements of $G \wr P$ as functions from $P$ to $G$, then given $a, b \in G \wr P$, their product $ab$ is defined by:
+Denoting the set of such relations $G \wr P$, the first description allows us to straightforwardly define a group structure on it. If we treat elements of $G \wr P$ as functions from $P$ to $G$ in the first sense, then given $a, b \in G \wr P$, their product $ab$ is defined by:
 
 $$ab(X) = a(X) b(X \cdot a(X)).$$
 
