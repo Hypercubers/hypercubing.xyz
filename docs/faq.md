@@ -254,7 +254,7 @@ There's so many cases for each step of the solve that creating a complete algori
 
 First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since the recognition is easier, but solutions using triplets tend to be shorter; as far as we know, both are viable. If you're getting times in the 8-15 minute range, do slowsolves where you focus on efficient solutions to F2L pairs/triplets.
 
-!!! quotes "Hactar"
+!!! quote "Hactar"
 
     There's also things I'm already doing that make a big difference, that I think most other solvers aren't doing, from most to least significant:
 
