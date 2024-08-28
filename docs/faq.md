@@ -48,6 +48,8 @@ hide: [navigation, toc]
     - [Why not use speedrun.com?](#why-not-use-speedruncom)
     - [I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?](#i-dont-know-full-ollpllzblletc-can-i-still-get-fast-at-4d)
     - [What 4D algorithms are there?](#what-4d-algorithms-are-there)
+    - [How can I get faster at solving 3x3x3x3?](#how-can-i-get-faster-at-solving-3x3x3x3)
+    - [How could the 3x3x3x3 record be improved?](#how-could-the-3x3x3x3-record-be-improved)
 - [Does this puzzle exist?](#does-this-puzzle-exist)
     - [2D Rubik's Cube](#2d-rubiks-cube)
     - [4D Square-1](#4d-square-1)
@@ -104,6 +106,8 @@ Many 3D methods can just be scaled up and used on the 4D cube. Some notable meth
 - [CFOP](/methods/3x3x3x3/cfop.md)
 - [3-Block](/methods/3x3x3x3/3block.md) (4D FreeFOP)
 - [Octachoroux](/methods/3x3x3x3/octachoroux.md) (4D Roux)
+
+As of 2024, 3-Block is the most popular speedsolving method and what's used in the world record, but CFOP is also competitive.
 
 ### How do I start learning to solve 4D puzzles?
 
@@ -231,9 +235,44 @@ Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and we
 
 Absolutely! Most 4D speed methods are highly intuitive, and world-record times often use just 2-look OLL and PLL. Executing algorithms is a very negligible part of the solve compared to the massive amounts of pair or block building.
 
+!!! quote "Hactar (mid-2024)"
+
+    Ok I actually ran the numbers:
+
+    - My [2:05.30 WR solve had full-step 2-look OLL + 2-look PLL](<https://www.youtube.com/watch?v=PtXvGfoezWs&t=2m09s>) and took **8 seconds**
+    - My [1:56.42 WR solve had an easy full OLL (OCLL skip) + U perm (CPLL skip)](<https://www.youtube.com/watch?v=SrrmSdtOt14&t=2m02s>) and took **4 seconds**
+
+    Consider that the second solve is basically the _best case_ for a 2-look last layer (the goal of full OLL+PLL), using algorithms that have really nice RKT cancels and are easy to execute with my keybinds _and I've practiced them a ton_, but it was still only 4 seconds faster, which is ~2% of the total solve. Additionally, my experience is that it takes _much_ more practice to execute 4D algorithms at max speed with a keyboard compared to executing 3D algorithms at max speed on a 3^3.
+
+    Based on all that, I can confidently say **I don't think full OLL+PLL will ever be meaningfully better than RKT-canceled 2-look OLL + 2-look PLL,** with one exception: There's a handful of full OLL algorithms (namely the ones composed of fruruf and sune) that I think are worth using if you know them from 3D, but aren't at all crucial. I do use these during 4D solves when I recognize them, and with some effort we may be able to find a few more cases with easy cancels, but I don't think it's worth learning these just for 4D solves.
+
 ### What 4D algorithms are there?
 
 There's so many cases for each step of the solve that creating a complete algorithm set is basically impossible, and there's so many options for moves that algorithm explorers are infeasible. Almost every algorithm we have is based on an algorithm from 3D, and the only search program we have is a sort of optimizer for one very specific kind of algorithm derived from 3D.
+
+### How can I get faster at solving 3x3x3x3?
+
+First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since the recognition is easier, but solutions using triplets tend to be shorter; as far as we know, both are viable. If you're getting times in the 8-15 minute range, do slowsolves where you focus on efficient solutions to F2L pairs/triplets.
+
+!!! quotes "Hactar"
+
+    There's also things I'm already doing that make a big difference, that I think most other solvers aren't doing, from most to least significant:
+
+    - **1-key-per-move keybinds that prioritize `R` and `I` cells**. This is _more_ than 2x faster than default keybinds, because you do not need to time the _release_ of keys.
+    - **1-key-per-move RKTbinds with RKT cancels**. These two optimizations complement each other so well, because it spreads out the work among all your fingers.
+    - **Single keys for some 180-degree turns**, because repeated keys are slow! By adding keys for `x2` and `y2`, you can reorient a cell into any orientation with just two keypresses.
+    - **RKT-canceled triggers during F2L-3**. I leave debt on `U` and have muscle memory for common the RKT-canceled trigger `R (flip) U' R' (flip)` (where `(flip)` = `{1-2}Ozx2`), its inverse `(flip) R U (flip) R'`*, and their back and left-handed forms. This + `U` moves accounts for basically everything you do in F2L other than `R U2 R'`, which you can usually avoid or in worst case just `(flip) R (flip) U2 (flip) R' (flip)`.
+
+### How could the 3x3x3x3 record be improved?
+
+!!! quote "Hactar (mid-2024)"
+
+    After spending some time actually thinking about potential timesaves, and here's what I think would make a big difference, from most to least significant:
+
+    - **Lookahead during F2L-4**. This is essentially unexplored.
+    - **Optimal solutions for F2L-b cases**. My gut says this could save an average of ~3 moves per pair over my solutions during left block, and ~5 moves per pair during right block, which adds up to ~30 STM saved. I think there'd be some value in a comprehensive study of 3-block F2L cases and what techniques are effective in solving them, and research into the psychology of how to recognize them. For some examples of what I mean: I remember reading somewhere that on 3^3 it's better to find an F2L corner and _then_ search for the matching edge, rather than the other way around. I also know that once you find the edge, you can recognize its orientation to know whether you can solve the pair using just <R,U,F> or whether you need less-ergonomic moves. Figuring out and documenting these sort of tricks for 4D would help.
+
+    I think both of those improvements could save 15-30 seconds, bringing it from ~1:15 to ~0:45. I also feel like general lookahead/efficiency improvements in PLC might save 10-15 seconds but I can put my finger on exactly what they would be. I know my OLC _feels_ very variable during solves, but in practice I can brute-force pretty much anything into a valid final case by spending a second or two flipping one edge/corner.
 
 ## Does this puzzle exist?
 
