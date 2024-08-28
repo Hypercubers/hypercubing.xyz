@@ -256,7 +256,7 @@ First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since
 
 !!! quote "Hactar"
 
-    There's also things I'm already doing that make a big difference, that I think most other solvers aren't doing, from most to least significant:
+    From most to least significant:
 
     - **1-key-per-move keybinds that prioritize `R` and `I` cells**. This is _more_ than 2x faster than default keybinds, because you do not need to time the _release_ of keys.
     - **1-key-per-move RKTbinds with RKT cancels**. These two optimizations complement each other so well, because it spreads out the work among all your fingers.
@@ -267,7 +267,7 @@ First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since
 
 !!! quote "Hactar (mid-2024)"
 
-    After spending some time actually thinking about potential timesaves, and here's what I think would make a big difference, from most to least significant:
+    Here's what I think would make a big difference, from most to least significant:
 
     - **Lookahead during F2L-4**. This is essentially unexplored.
     - **Optimal solutions for F2L-b cases**. My gut says this could save an average of ~3 moves per pair over my solutions during left block, and ~5 moves per pair during right block, which adds up to ~30 STM saved. I think there'd be some value in a comprehensive study of 3-block F2L cases and what techniques are effective in solving them, and research into the psychology of how to recognize them. For some examples of what I mean: I remember reading somewhere that on 3^3 it's better to find an F2L corner and _then_ search for the matching edge, rather than the other way around. I also know that once you find the edge, you can recognize its orientation to know whether you can solve the pair using just <R,U,F> or whether you need less-ergonomic moves. Figuring out and documenting these sort of tricks for 4D would help.
