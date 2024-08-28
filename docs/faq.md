@@ -261,7 +261,7 @@ First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since
     - **1-key-per-move keybinds that prioritize `R` and `I` cells**. This is _more_ than 2x faster than default keybinds, because you do not need to time the _release_ of keys.
     - **1-key-per-move RKTbinds with RKT cancels**. These two optimizations complement each other so well, because it spreads out the work among all your fingers.
     - **Single keys for some 180-degree turns**, because repeated keys are slow! By adding keys for `x2` and `y2`, you can reorient a cell into any orientation with just two keypresses.
-    - **RKT-canceled triggers during F2L-3**. I leave debt on `U` and have muscle memory for common the RKT-canceled trigger `R (flip) U' R' (flip)` (where `(flip)` = `{1-2}Ozx2`), its inverse `(flip) R U (flip) R'`*, and their back and left-handed forms. This + `U` moves accounts for basically everything you do in F2L other than `R U2 R'`, which you can usually avoid or in worst case just `(flip) R (flip) U2 (flip) R' (flip)`.
+    - **RKT-canceled triggers during F2L-3**. I leave debt on `U` and have muscle memory for the common RKT-canceled trigger `R (flip) U' R' (flip)` (where `(flip)` = `{1-2}Ozx2`), its inverse `(flip) R U (flip) R'`*, and their back and left-handed forms. This + `U` moves accounts for basically everything you do in F2L other than `R U2 R'`, which you can usually avoid or in worst case just `(flip) R (flip) U2 (flip) R' (flip)`.
 
 ### How could the 3x3x3x3 record be improved?
 
