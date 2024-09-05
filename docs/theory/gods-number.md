@@ -12,11 +12,12 @@ There are three strategies we can use to estimate it:
 
 [cube20]: http://cube20.org/
 
-## Known Bounds Summary
-| Puzzle | Lower Bound | Upper Bound |
-| ------ | ----------- | ----------- |
-| 2^4^   | 15 STM      | 37 STM      |
-| 3^4^   | 51 STM      | 570 STM     |
+## Summary
+
+| Puzzle | Lower Bound | Upper Bound | Estimate |
+| ------ | ----------- | ----------- | -------- |
+| 2^4^   | 15 STM      | 37 STM      | ~20 ±5   |
+| 3^4^   | 51 STM      | 570 STM     | ~125 ±50 |
 
 ## 2×2×2×2
 
