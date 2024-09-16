@@ -1,7 +1,7 @@
 # Notation
 
 !!! warning
-    This page explains notation specifically for cell-turning n^4^ virtual puzzles. Notation pages for other puzzles coming soon™️...
+    This page explains notation specifically for cell-turning virtual hypercube puzzles. Notation pages for other puzzles coming soon™️...
 
 ## Cells
 
@@ -31,6 +31,11 @@ For the slice layers, we use `M` `E` `S` `P`, where P is the slice that follows 
 - `{2}RO` means to hold <kbd>2</kbd> while doing an RO move (essentially an M move).
 - `{2-3}UO'` means to hold <kbd>2</kbd> and <kbd>3</kbd> while doing a UO' move.
 - `{2-4}IF` means to hold <kbd>2</kbd>, <kbd>3</kbd>, and <kbd>4</kbd>
+
+## Algorithms
+
+A shorter notation was developed to write specific algorithms, such as [RKT cancels](\techniques\rkt). All letters besides `I` and `O` correspond to their -O variants. `R U R' U'` would mean `RO UO RO' UO'`. For the wide O cell flips, they are notated with 3D rotations, such as `{1-2}Oxz2`. Using 3D rotations in this way is totally arbitrary, and its only purpose is for execution.
+
 
 ## Rotations
 
