@@ -30,7 +30,7 @@ Generate an image of a physical 2×2×2×2 by inputting moves using [canonical m
     S = silver (gray)
     ```
     Piece/Sticker order:
-    `LUBO` `LUBI` `LUFO` `LDBO` `LDBI` `LDFI` `LDFO` `RUBI` `RUBO` `RUFO` `RUFI` `RDBI` `RDBO` `RDFI` `RDFO`
+    `LUBO` `LUBI` `LUFI` `LUFO` `LDBO` `LDBI` `LDFI` `LDFO` `RUBI` `RUBO` `RUFO` `RUFI` `RDBI` `RDBO` `RDFO` `RDFI`
 
     <label for="stickerinput">Input stickers by piece: (separated by line breaks)<br></label>
     <textarea id="stickerinput" name="stickerinput" rows="4" cols="50">
