@@ -14,21 +14,21 @@ A 1-dimensional turning axis is not always well-defined for higher-dimensional p
 ### Polytope elements
 
 For an $N$-dimensional polytope:
+(Some of these terms are from [Polytope - Wikipedia](https://en.m.wikipedia.org/wiki/Polytope#Elements))
 
 - **vertex** = rank 0, single point
 - **edge** = rank 1, line connecting two vertices
 - **face** = rank 2, polygon constructed from edges
 - **cell** = rank 3, polyhedron constructed from faces
 - ...
-- **$n$-face** = rank $n$, polytope constructed from rank $n-1$ elements
-- ...
+- **$N$-face** = rank $N$, polytope constructed from rank $N-1$ elements
+- **peak** = $N-3$ face
+- **ridge** = $N-2$ face
 - **facet** = rank $N-1$, polytope constructed from rank $N-2$ elements
 
 In 4D, we prefer **facet** rather than **cell**. In simple terms: on most puzzles, a **facet** is the thing with a single color.
 
 ### Pieces
-
-Some of these terms are from [Polytope - Wikipedia](https://en.m.wikipedia.org/wiki/Polytope#Elements).
 
 Basic definitions for an $N$-dimensional hypercubic puzzle:
 
