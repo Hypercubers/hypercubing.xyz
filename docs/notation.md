@@ -34,7 +34,7 @@ For the slice layers, we use `M` `E` `S` `P`, where P is the slice that follows 
 
 ## Algorithms
 
-A shorter notation was developed to write specific algorithms, such as [RKT cancels](\techniques\rkt). All letters besides `I` and `O` correspond to their -O variants. `R U R' U'` would mean `RO UO RO' UO'`. For the wide O cell flips, they are notated with 3D rotations, such as `{1-2}Oxz2`. Using 3D rotations in this way is totally arbitrary, and its only purpose is for execution.
+A shorter notation was developed to write specific algorithms, such as RKT cancels. All letters besides `I` and `O` correspond to their -O variants. `R U R' U'` would mean `RO UO RO' UO'`. For the wide O cell flips, they are notated with 3D rotations, such as `{1-2}Oxz2`. Using 3D rotations in this way is totally arbitrary, and its only purpose is for execution.
 
 
 ## Rotations
