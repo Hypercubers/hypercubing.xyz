@@ -17,6 +17,8 @@ To orient the 3c pieces, use RKT to set up the E slice of the last cell into a c
 
 To orient the 4c pieces, use RKT to set up OCLL cases, but this time you have to perform the OCLL alg with RKT. Again, it's possible to have just 1 4C left to orient, so be smart about your last setup and algorithm.
 
+ّFor 4c pices in 2^4, because of a lack of a need to preserve 2 and 3cs, something that can be done is grouping 4 unoriented corners together in a 1x1x2x2 block; then all 4 of these pieces can be oriented with just a U OLL case (F R U R' U' F') with big moves. Something similar can be done with the T and L OLL shapes as well. This way of orienting pieces is useful because not only are you solving more pieces at a time, but they don't take many moves to do so compared to doing the algs in RKT. If after reaching the OLL step, there are 5 4cs that are misoriented, it may be preferable do something else instead (solve a group of 3, and then 2), as you would want to avoid a monoflip.
+
 To orient 5c+ pieces, you have to use RKT to setup OCLL cases, and then do the algorithm using double/triple/etc RKT.
 
 For PLL, first permute the 2c pieces using U-perms or other EPLL algorithms. Then use RKT to permute the last layer like a lower dimensional puzzle using RKT.
