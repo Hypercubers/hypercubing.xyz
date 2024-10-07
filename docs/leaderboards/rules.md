@@ -26,7 +26,7 @@ These rules may be flexible, especially for new categories. For example, if you'
 These rules apply generally to speedsolving submissions unless the category has specific rules.
 
 - Macros are **not** allowed.
-    - Exception: macros consisting of a single move are allowed, provided that they are created during the solve or demonstrated in the video before the solve starts.
+    - Exception: macros consisting of a single move [STM][stm] are allowed, provided that they are created during the solve or demonstrated in the video before the solve starts.
 - Piece filters are allowed.
 - All speedsolves require video evidence, such as a screen recording.
     - The video must include scrambling the puzzle. When using Hyperspeedcube, the statusbar must be visible with the text "Scrambled fully."
