@@ -48,7 +48,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Ultimate Magic Cube 2][umc]                |                    :material-language-csharp: • %platforms{w___} | %features{m___t_____} | platonic + misc 3D      |
 | [Twizzle Explorer][twizzle]                 | [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
 | [IsoCubeSim][ics]                           |                      :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
-| [Geraniums Pot][gpot]                       | [:material-language-python:][gpot-src] • %platforms{wl__} | %faetures{m_______p_} | rotating-circle puzzles |
+| [Geraniums Pot][gpot]                       |        [:material-language-python:][gpot-src] • %platforms{wl__} | %features{m_______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
@@ -116,6 +116,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
 - [MagmaMcFry's Quaternion Cube](https://magmamcfry.github.io/QuaternionCube/)
+- [TwistyPuzzles by CasualCuber](https://casualcuber.bitbucket.io/)
 - [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
 
 [akkei-phys]: https://drive.google.com/drive/folders/1xBEKkGYIFKSAcIgJjPCIx_W0vdJawuZ0
