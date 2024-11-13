@@ -82,7 +82,7 @@ Before the Google Group or Discord server, there was a Yahoo Groups mailing list
 
 ### What program should I download?
 
-See the [software](/software/index.md) page for a list of hypercubing software and feature comparisons.
+For getting started, we recommend [Hyperspeedcube](https://hypercubing.xyz/software/hyperspeedcube/). See the [software](/software/index.md) page for a list of hypercubing software and feature comparisons.
 
 ### How do I learn to solve the 3×3×3×3?
 
