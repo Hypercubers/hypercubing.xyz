@@ -99,3 +99,18 @@ In earlier versions of hypercubing.xyz, individual letters such as R, F, etc. sh
 ## Mimcaf and Celse pign
 
 Many hypercubers play Minecraft and Celeste, and have adopted common misspellings of those games. [Akkei was the first to use "mimcaf"](https://discord.com/channels/852389089268858922/852389089872576525/1048776457444397136) on 2022-12-03, and [Rowan was the first to use the phrase "celse pign" on 2023-09-30](https://discord.com/channels/852389089268858922/861019555210723348/1157842745398923324) as a misspelling of "Celeste ping."
+
+## That may I can
+
+On 2024-11-09, OmnipotentEntity [sent the following message](https://discord.com/channels/852389089268858922/959587007754010644/1304808741719248956) in #offtopic-or-memes:
+
+> I don't often remember my dreams. Last night I dreamt that [xkcd] started including puns of the phrase "that may I can." And it was supposed to be a reference to something. And everyone but me got it, and no one would explain it to me.
+
+[xkcd]: https://xkcd.com/
+
+Several members then responded with various images punning on the phrase.
+
+![A soup can says "That May I"](https://assets.hypercubing.xyz/img/meme/thatmayican1.png){width=24.5%}
+![There is a stick figure for every month except for May, which has an open can](https://assets.hypercubing.xyz/img/meme/thatmayican2.png){width=24.5%}
+![A stick figure wearing a black hat is standing on a platform holding a closed can and saying "You may not" to a stick figure who is not on the platform and is reaching for the can](https://assets.hypercubing.xyz/img/meme/thatmayican3.jpg){width=24.5%}
+![An arrow labeled "THAT" pointing toward a can labeled "may I"](https://assets.hypercubing.xyz/img/meme/thatmayican4.png){width=24.5%}
