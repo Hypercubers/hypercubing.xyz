@@ -89,7 +89,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
-  - glightbox
+  - glightbox:
+      auto_caption: true
   - awesome-pages:
       strict: false
   - gen-files:
