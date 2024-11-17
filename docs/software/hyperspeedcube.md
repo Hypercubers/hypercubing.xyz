@@ -122,7 +122,7 @@ See [Hactar's website](https://ajfarkas.dev/hyperspeedcube/#future-plans) for mo
 
 #### Graphics debugging (early 2024)
 
-![](https://assets.hypercubing.xyz/img/virt/hsc/history/2024-01-08_debug1.png?width=817&height=671){width="19.5%"}
+![](https://assets.hypercubing.xyz/img/virt/hsc/history/2024-01-08_debug1.png){width="19.5%"}
 ![](https://assets.hypercubing.xyz/img/virt/hsc/history/2024-02-06_debug2.png){width="19.5%"}
 ![](https://assets.hypercubing.xyz/img/virt/hsc/history/2024-02-07_debug3.png){width="19.5%"}
 ![](https://assets.hypercubing.xyz/img/virt/hsc/history/2024-02-17_debug4.png){width="19.5%"}
