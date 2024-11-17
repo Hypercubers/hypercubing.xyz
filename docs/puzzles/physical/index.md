@@ -6,7 +6,7 @@
 !!! info inline end "Physical 3×3×3×3"
     ![Grant's physical 3×3×3×3](https://assets.hypercubing.xyz/img/phys/grant_3x3x3x3_render.png){width="100%"}
 
-Physical puzzles refer to higher dimensional puzzles that are physically built in real life (using only 3 dimensions). This involves clever designs, strange symmetry-abusing tricks, and lots and lots of magnets. Often, these puzzles are too impractical to use, defeating their sole purpose. For an explanation of how these puzzles work, see [the theory page](/theory/physical).
+Physical puzzles refer to higher dimensional puzzles that are physically built in real life (using only 3 dimensions). This involves clever designs, strange symmetry-abusing tricks, and lots and lots of magnets. Often, these puzzles are too impractical to use, defeating their sole purpose. For an explanation of how these puzzles work, see [the theory page](/theory/physical.md).
 
 For a documentary about the history of physical puzzles as of December 2022, see [Rowan's video](https://www.youtube.com/watch?v=QTc-rG-nunA).
 
