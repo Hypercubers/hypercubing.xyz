@@ -84,6 +84,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Magic Simplex 5D][ms5d]                    | [:material-language-csharp:][ms5d-src] • %platforms{w___} | %features{m_sftM_c__} | 5D simplex (+ recuts)    |
 | [Magic120Cell][m120c]                       |   [:material-language-cpp:][m120c-src] • %platforms{w___} | %features{m_sf_M_c__} | 120-cell (+ recolorings) |
 | [Nan Ma's 11-cell][11cell]                  |               :material-language-java: • %platforms{wla_} | %features{m__f_MTc__} | 11-cell                  |
+| [Twisty Prisms][twisty-prisms]              |                       :simple-scratch: • %platforms{___b} | %features{mk________} | certain 3D prisms        |
 
 [ms5d]: https://superliminal.com/andrey/ms5d/
 [ms5d-src]: https://superliminal.com/andrey/ms5d/Simplex5dSrc.zip
@@ -91,6 +92,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [m120c-src]: https://github.com/roice3/Magic120Cell
 [11cell]: https://superliminal.com/cube/ElevenCell.jar
 [mht633]: https://superliminal.com/andrey/mht633/
+[twisty-prisms]: https://staff.fim.uni-passau.de/kreuzer/TP/TwistyPrisms.html
 
 ### 1D and 2D puzzles
 
