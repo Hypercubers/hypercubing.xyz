@@ -32,10 +32,13 @@ For the slice layers, we use `M` `E` `S` `P`, where P is the slice that follows 
 - `{2-3}UO'` means to hold <kbd>2</kbd> and <kbd>3</kbd> while doing a UO' move.
 - `{2-4}IF` means to hold <kbd>2</kbd>, <kbd>3</kbd>, and <kbd>4</kbd>
 
+### Commutators
+
+Many algorithms are constructed using commutators and conjugates, so there is a compact notation for them using square brackets. See [Commutators - Notation](/techniques/commutators#notation).
+
 ## Algorithms
 
 A shorter notation was developed to write specific algorithms, such as RKT cancels. All letters besides `I` and `O` correspond to their -O variants. `R U R' U'` would mean `RO UO RO' UO'`. For the wide O cell flips, they are notated with 3D rotations, such as `{1-2}Oxz2`. Using 3D rotations in this way is totally arbitrary, and its only purpose is for execution.
-
 
 ## Rotations
 
@@ -50,7 +53,7 @@ To actually notate the rotations, write the letters of the 2 axes that form the 
 
 Note how we don't have to use the `'` prime symbol because you can just swap the letters (wy is the inverse of yw). You can also add a `2` to the end for double rotations, e.g. `wx2`, `yz2` etc.
 
-This makes it a really nice system because it only ever uses 2 letters, no matter how many dimensions. You can also use it on n^3^ puzzles in order for more multi-dimensional consistency: `xy` means move x+ to y+ (R to U [z' rotation]).
+This makes it a really nice system because it only ever uses 2 letters, no matter how many dimensions. You can also use it on n^3^ puzzles in order for more multi-dimensional consistency: `xy` means move x+ to y+ (R to U \[z' rotation]).
 
 ## Turn metrics
 
