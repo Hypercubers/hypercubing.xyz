@@ -17,7 +17,7 @@ Here are some example commutators that can be executed on a 3×3×3:
 - `[M', U2]` expands to `M' U2 M U2`, which cycles 3 edges on the M slice.
 - `[D: [M', U2]]` expands to `D (M' U2 M U2) D'`, which cycles 3 slightly different edges. Conjugates are often combined with commutators to influence different sets of pieces.
 - `[F: [R, U]]` expands to `[F: R U R' U']`, which expands further to `F (R U R' U') F'`.
-- `[D, [R, U]]` expands to `D (R U R' U') D' (U R U' R')`, which cycles 3 corners on the D layer.
+- `[D, [R, U]]` expands to `D (R U R' U') D' (U R U' R')`, which cycles 3 corners on the F layer.
 
 (Parentheses are added for readability but have no special meaning.)
 
