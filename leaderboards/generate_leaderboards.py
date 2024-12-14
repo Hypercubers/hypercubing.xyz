@@ -16,7 +16,9 @@ COLUMNS_ORDER = [
     'date',
     'program',
 ]
-COLUMNS_INFO = lambda event: {
+
+
+def COLUMNS_INFO(event): return {
     'event': ("Event", ':---'),
     'rank': ("Rank", '---:'),
     'solver': ("Name", ':--:'),
@@ -25,23 +27,24 @@ COLUMNS_INFO = lambda event: {
     'program': ("Program", ':--:'),
 }
 
-# it does some funny business
+
 def recode(s):
-    #return s.encode('cp1252').decode('utf8') # it worked on my machine :'
+    # return s.encode('cp1252').decode('utf8') # it worked on my machine :'
     return s
+
 
 def get_template(filename):
     with open(f'leaderboards/templates/{filename}') as f:
         return f.read()
 
 
-def format_time(duration) -> str: # duration: timedelta | int
+def format_time(duration) -> str:  # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
     def unit(s):
         return f'<small>{s}</small>'
 
     if isinstance(duration, int):
-        return f"{duration:,}".replace(',','\u2009')
+        return f"{duration:,}".replace(',', '\u2009')
 
     millis = int(duration.total_seconds() * 1000)
     seconds, millis = divmod(millis, 1000)
@@ -62,7 +65,7 @@ def format_time(duration) -> str: # duration: timedelta | int
         return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
     hours_str = f"{minutes:02}{unit('h')}"
 
-    return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',','\u2009')
+    return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
 
 
 class Solve:
@@ -80,8 +83,8 @@ class Solve:
         else:
             self.link = link
         self.time = parse_time(time)
-        #self.puzzle = puzzles[puzzle]
-        #self.format = formats[format]
+        # self.puzzle = puzzles[puzzle]
+        # self.format = formats[format]
         self.event = puzzles[puzzle]['events'][format]
         self.solver = solvers[solver]
         self.program = program
@@ -171,6 +174,7 @@ with open('leaderboards/solvers.yml') as file:
 with open('leaderboards/formats.yml') as file:
     formats = yaml.load(file.read(), Loader=yaml.Loader)
 
+
 def populate_puzzles(tab):
     if 'name' not in tab:
         raise Exception(f'tab {tab} has no name')
@@ -178,9 +182,10 @@ def populate_puzzles(tab):
         for subtab in tab['contents']:
             populate_puzzles(subtab)
     elif 'puz' in tab:
-        puzzles[tab['puz']] = {'name':recode(tab['name'])}
+        puzzles[tab['puz']] = {'name': recode(tab['name'])}
     else:
         raise Exception(f"missing 'contents' or 'puz' in tab {tab['name']}")
+
 
 # Load tabs and puzzles from YAML and create events
 with open('leaderboards/tabs.yml') as tabs_file:
@@ -189,7 +194,9 @@ with open('leaderboards/tabs.yml') as tabs_file:
     for tab in tab_config:
         populate_puzzles(tab)
     for puzzle in puzzles:
-        puzzles[puzzle]['events'] = {format: Event(puzzle, format, f'{puzzles[puzzle]["name"]} {formats[format]["name"]}') for format,data in formats.items()}
+        puzzles[puzzle]['events'] = {format: Event(puzzle, format, f'{puzzles[puzzle]["name"]} {
+                                                   formats[format]["name"]}') for format, data in formats.items()}
+
 
 def parse_time(s):
     if m := re.match(r'(\d+)mv', s):
@@ -269,7 +276,8 @@ def make_tabbed_leaderboards(tab_config, make_tab_contents, *, indent=0) -> str:
         elif 'format' in tab:
             tab_contents = make_tab_contents(tab, indent=indent)
         elif 'puz' in tab:
-            subtabs = [{**tab, 'format':f, **format} for f,format in formats.items()]
+            subtabs = [{**tab, 'format': f, **format}
+                       for f, format in formats.items()]
             tab_contents = make_tabbed_leaderboards(
                 subtabs,
                 make_tab_contents,
@@ -277,7 +285,6 @@ def make_tabbed_leaderboards(tab_config, make_tab_contents, *, indent=0) -> str:
             )
         else:
             raise Exception(f'not a valid tab {tab}')
-
 
         if not tab_contents:
             continue
