@@ -40,32 +40,33 @@ def get_template(filename):
 
 def format_time(duration) -> str:  # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
-    def unit(s):
-        return f'<small>{s}</small>'
+    # def unit(s):
+    #     return f'<small>{s}</small>'
 
-    if isinstance(duration, int):
-        return f"{duration:,}".replace(',', '\u2009')
+    # if isinstance(duration, int):
+    #     return f"{duration:,}".replace(',', '\u2009')
 
-    millis = int(round(duration.total_seconds() * 1000))
-    seconds, millis = divmod(millis, 1000)
-    millis_str = f"{millis:03}{unit('ms')}"
+    # millis = int(round(duration.total_seconds() * 1000))
+    # seconds, millis = divmod(millis, 1000)
+    # millis_str = f"{millis:03}{unit('ms')}"
 
-    minutes, seconds = divmod(seconds, 60)
-    if minutes == 0:
-        return f"{seconds}{unit('s')} {millis_str}"
-    seconds_str = f"{seconds:02}{unit('s')}"
+    # minutes, seconds = divmod(seconds, 60)
+    # if minutes == 0:
+    #     return f"{seconds}{unit('s')} {millis_str}"
+    # seconds_str = f"{seconds:02}{unit('s')}"
 
-    hours, minutes = divmod(int(minutes), 60)
-    if hours == 0:
-        return f"{minutes}{unit('m')} {seconds_str} {millis_str}"
-    minutes_str = f"{minutes:02}{unit('m')}"
+    # hours, minutes = divmod(int(minutes), 60)
+    # if hours == 0:
+    #     return f"{minutes}{unit('m')} {seconds_str} {millis_str}"
+    # minutes_str = f"{minutes:02}{unit('m')}"
 
-    days, hours = divmod(int(hours), 24)
-    if days == 0:
-        return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
-    hours_str = f"{minutes:02}{unit('h')}"
+    # days, hours = divmod(int(hours), 24)
+    # if days == 0:
+    #     return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+    # hours_str = f"{minutes:02}{unit('h')}"
 
-    return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
+    # return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
+    return duration
 
 
 class Solve:
@@ -200,20 +201,29 @@ with open('leaderboards/tabs.yml') as tabs_file:
 
 
 def parse_time(s):
-    if m := re.match(r'(\d+)mv', s):
-        return int(m[1])
-    m = re.match(
-        r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
+    # if m := re.match(r'(\d+)mv', s):
+    #     return int(m[1])
+    # m = re.match(
+    #     r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
+    # return timedelta(
+    #     days=int(m[1] or '0'),
+    #     hours=int(m[2] or '0'),
+    #     minutes=int(m[3] or '0'),
+    #     seconds=float(m[4]),
+    # )
+    timelist = s.split(":")
+    while len(timelist) != 4:
+        timelist.insert(0, '0')
     return timedelta(
-        days=int(m[1] or '0'),
-        hours=int(m[2] or '0'),
-        minutes=int(m[3] or '0'),
-        seconds=float(m[4]),
+        days=int(timelist[0]),
+        hours=int(timelist[1]),
+        minutes=int(timelist[2]),
+        seconds=float(timelist[3]),
     )
 
 
 # Load solves from CSV
-with open('leaderboards/solves.csv') as file:
+with open('leaderboards/test.csv') as file:
     reader = csv.reader(file)
     headers = [str.strip(s) for s in next(reader)]
     all_solves = [Solve(**dict(zip(headers, map(str.strip, line))))
