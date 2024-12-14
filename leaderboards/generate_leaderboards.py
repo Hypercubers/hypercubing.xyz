@@ -66,7 +66,16 @@ def format_time(duration) -> str:  # duration: timedelta | int
     # hours_str = f"{minutes:02}{unit('h')}"
 
     # return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
-    return duration
+
+    timestr = str(duration)
+    timestr = timestr[0:(len(timestr)-4)] # chop off the extra four 0's at the end
+
+    while timestr[0:1] == "0":  # while there are leading 0's to chop off
+        if timestr[0:2] == "0:":
+            timestr = timestr[2:len(timestr)]   # chop off "0:" (if the hours are empty) 
+        elif timestr[0:1] == "0":
+            timestr = timestr[1:len(timestr)]   # chop off leading 0 on minutes
+    return timestr
 
 
 class Solve:
