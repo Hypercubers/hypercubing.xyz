@@ -194,8 +194,9 @@ with open('leaderboards/tabs.yml') as tabs_file:
     for tab in tab_config:
         populate_puzzles(tab)
     for puzzle in puzzles:
-        puzzles[puzzle]['events'] = {format: Event(puzzle, format, f'{puzzles[puzzle]["name"]} {
-                                                   formats[format]["name"]}') for format, data in formats.items()}
+        puzzles[puzzle]['events'] = {
+            format: Event(puzzle, format, f'{puzzles[puzzle]["name"]} {formats[format]["name"]}') for format, data in formats.items()
+        }
 
 
 def parse_time(s):
