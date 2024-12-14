@@ -46,7 +46,7 @@ def format_time(duration) -> str:  # duration: timedelta | int
     if isinstance(duration, int):
         return f"{duration:,}".replace(',', '\u2009')
 
-    millis = int(duration.total_seconds() * 1000)
+    millis = int(round(duration.total_seconds() * 1000))
     seconds, millis = divmod(millis, 1000)
     millis_str = f"{millis:03}{unit('ms')}"
 
