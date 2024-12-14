@@ -75,7 +75,7 @@ def format_time(duration) -> str:  # duration: timedelta | int
             timestr = timestr[2:len(timestr)]   # chop off "0:" (if the hours are empty) 
         elif timestr[0:1] == "0":
             timestr = timestr[1:len(timestr)]   # chop off leading 0 on minutes
-    return timestr
+    return "<strong>" + timestr + "</strong>"
 
 
 class Solve:
