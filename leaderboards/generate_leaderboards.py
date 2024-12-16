@@ -43,8 +43,10 @@ def format_time(duration) -> str:  # duration: timedelta | int
 
     # converts duration into a string. Then it chops off leading 0's because a TimeDelta object has those for some reason 
     timestr = str(duration)
-    if (timestr.find(".") != -1):
+    if (timestr.find(".") != -1):   # if the string has a decimal point
         timestr = timestr[0:-4] # chop off the extra four 0's at the end if the time includes a non-integer number of seconds
+    if (timestr.find(".") == -1):   # if the string does not have a decimal point, add ".00" to the end
+        timestr += ".00"
 
     while timestr[0:1] == "0":  # while there are leading 0's to chop off
         timestr = timestr[1:len(timestr)]   # chop off leading 0
