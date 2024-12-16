@@ -40,36 +40,11 @@ def get_template(filename):
 
 def format_time(duration) -> str:  # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
-    # def unit(s):
-    #     return f'<small>{s}</small>'
 
-    # if isinstance(duration, int):
-    #     return f"{duration:,}".replace(',', '\u2009')
-
-    # millis = int(round(duration.total_seconds() * 1000))
-    # seconds, millis = divmod(millis, 1000)
-    # millis_str = f"{millis:03}{unit('ms')}"
-
-    # minutes, seconds = divmod(seconds, 60)
-    # if minutes == 0:
-    #     return f"{seconds}{unit('s')} {millis_str}"
-    # seconds_str = f"{seconds:02}{unit('s')}"
-
-    # hours, minutes = divmod(int(minutes), 60)
-    # if hours == 0:
-    #     return f"{minutes}{unit('m')} {seconds_str} {millis_str}"
-    # minutes_str = f"{minutes:02}{unit('m')}"
-
-    # days, hours = divmod(int(hours), 24)
-    # if days == 0:
-    #     return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
-    # hours_str = f"{minutes:02}{unit('h')}"
-
-    # return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
-
+    # converts duration into a string. Then it chops off leading 0's because a TimeDelta object has those for some reason 
     timestr = str(duration)
     if (timestr.find(".") != -1):
-        timestr = timestr[0:-4)] # chop off the extra four 0's at the end if the time includes a non-integer number of seconds
+        timestr = timestr[0:-4] # chop off the extra four 0's at the end if the time includes a non-integer number of seconds
 
     while timestr[0:1] == "0":  # while there are leading 0's to chop off
         timestr = timestr[1:len(timestr)]   # chop off leading 0
