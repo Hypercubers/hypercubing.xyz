@@ -114,12 +114,6 @@ class Solve:
             if self.rank is None:
                 return ''
             emoji = ''
-            # if 1 <= self.rank <= 3:
-            #     emoji = [
-            #         ':first_place: ',
-            #         ':second_place: ',
-            #         ':third_place: ',
-            #     ][self.rank-1]
             if self.rank == 1:
                 emoji = ':trophy-gold-hypercube: '
             elif self.rank == 2:
@@ -210,29 +204,20 @@ with open('leaderboards/tabs.yml') as tabs_file:
 
 
 def parse_time(s):
-    # if m := re.match(r'(\d+)mv', s):
-    #     return int(m[1])
-    # m = re.match(
-    #     r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
-    # return timedelta(
-    #     days=int(m[1] or '0'),
-    #     hours=int(m[2] or '0'),
-    #     minutes=int(m[3] or '0'),
-    #     seconds=float(m[4]),
-    # )
-    timelist = s.split(":")
-    while len(timelist) != 4:
-        timelist.insert(0, '0')
+    if m := re.match(r'(\d+)mv', s):
+        return int(m[1])
+    m = re.match(
+        r'(?:(\d+)d\s*)?(?:(\d+)h\s*)?(?:(\d+)m\s*)?(?:(\d+(?:\.\d+)?)s)', s)
     return timedelta(
-        days=int(timelist[0]),
-        hours=int(timelist[1]),
-        minutes=int(timelist[2]),
-        seconds=float(timelist[3]),
+        days=int(m[1] or '0'),
+        hours=int(m[2] or '0'),
+        minutes=int(m[3] or '0'),
+        seconds=float(m[4]),
     )
 
 
 # Load solves from CSV
-with open('leaderboards/test.csv') as file:
+with open('leaderboards/solves.csv') as file:
     reader = csv.reader(file)
     headers = [str.strip(s) for s in next(reader)]
     all_solves = [Solve(**dict(zip(headers, map(str.strip, line))))
