@@ -53,7 +53,8 @@ def format_time(duration) -> str:  # duration: timedelta | int
         if timestr[0:1] == ":":             # if next character is a colon
             timestr = timestr[1:len(timestr)]   # chop off colon
 
-    return "<strong>" + timestr + "</strong>"
+    return "<class='timetext'>" + timestr + "</>"
+    # return timestr
 
 
 class Solve:
