@@ -12,20 +12,8 @@ search:
 
 # Leaderboards
 
-World record database for higher dimensional twisty puzzle speedsolving! Verification is done by the moderator team of the Hypercubers Discord. Please read the [submission rules](rules.md) carefully before submitting a request to add your time.
-
-??? abstract "Other places that various records are kept:"
-    - [Magic Cube 4D Hall of Fame](https://superliminal.com/cube/halloffame.htm)
-    - [Magic Cube 4D Extended Records](http://wiki.superliminal.com/wiki/MC4D_Records)
-    - [Magic Cube 5D Hall of Insanity](http://www.gravitation3d.com/magiccube5d/hallofinsanity.html)
-    - [Magic Cube 7D Solvers](https://superliminal.com/andrey/mc7d/)
-    - [Magic 120 Cell Solvers](http://www.gravitation3d.com/magic120cell/index.html)
-    - [MagicTile Klein Bottle challenge](http://roice3.org/magictile/mathologer/)
-    - [Speedsolving Wiki List of Unofficial World Records](https://www.speedsolving.com/wiki/index.php?title=List_of_Unofficial_World_Records#High_Dimensional_Puzzles)
+World record database for higher dimensional twisty puzzle speedsolving!
 
 [:material-format-list-numbered: Rules](https://hypercubing.xyz/leaderboards/rules/){{.md-button .md-button--primary}}
 [:material-plus-circle: Submit](https://forms.gle/Y7Vpi3pb8989Ay8W8){{.md-button .md-button--primary}}
 
-
-
-Happy hypercubing!
