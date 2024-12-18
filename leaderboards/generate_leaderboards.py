@@ -118,7 +118,7 @@ class Solve:
         formatted_time = format_time(self.time)
         self._cell_contents = {
             'date': self.date,
-            'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a display=\'none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
+            'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a style=\'display: none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
             'solver': f'[{self.solver.name}]({self.solver.relative_file_path})',
