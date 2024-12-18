@@ -10,6 +10,7 @@ function LongTime() {
     } 
     document.getElementById("long-time-format").classList.add("md-button--primary"); 
     document.getElementById("wca-time-format").classList.remove("md-button--primary"); 
+    sessionStorage.setItem("timeFormat", "long");
 }
 
 function ShortTime() {
@@ -20,10 +21,23 @@ function ShortTime() {
     }  
     document.getElementById("long-time-format").classList.remove("md-button--primary"); 
     document.getElementById("wca-time-format").classList.add("md-button--primary"); 
+    sessionStorage.setItem("timeFormat", "short");
+    
 }
 
-document.addEventListener("DOMContentLoaded", (event) => {
-    for (var i = 0; i < shortList.length; i++) {
-        shortList[i].style.display = "none";
+
+
+document.addEventListener("DOMContentLoaded", load);
+document.addEventListener("hashchange", load);
+
+function load() {
+    console.log("loaded thing");
+    var format = sessionStorage.getItem("timeFormat");
+    if (format == "short") {
+        ShortTime();
+    } else {
+        LongTime();
     }
-});
+}
+
+load();
