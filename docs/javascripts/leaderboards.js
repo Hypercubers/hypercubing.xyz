@@ -4,6 +4,7 @@ function hide() {
     console.log(alist);
 }
 
-function msg(){  
-    alert("Hello Javatpoint");  
-   }  
+function LongTime() {
+    // switches to the long time format
+    console.log("switching to long time format on the leaderboards");
+}
