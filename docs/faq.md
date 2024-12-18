@@ -41,7 +41,7 @@ hide: [navigation, toc]
     - [What features are planned for Hyperspeedcube 2?](#what-features-are-planned-for-hyperspeedcube-2)
     - [Does Hyperspeedcube 2 have \[feature\] yet?](#does-hyperspeedcube-2-have-feature-yet)
     - [Can I download the latest development build?](#can-i-download-the-latest-development-build)
-    - [I'm having troubling with Hyperspeedcube 2?](#im-having-troubling-with-hyperspeedcube-2)
+    - [I'm having trouble with Hyperspeedcube 2?](#im-having-trouble-with-hyperspeedcube-2)
     - [Where can I follow the latest development updates?](#where-can-i-follow-the-latest-development-updates)
 - [Speedsolving](#speedsolving)
     - [What are the speedsolving records for 4D puzzles?](#what-are-the-speedsolving-records-for-4d-puzzles)
@@ -211,7 +211,7 @@ See [Hactar's website][ajfarkas-hsc2].
 
 You can access the latest development builds either by [donating to Hactar on Ko-fi](https://ko-fi.com/ajfarkas) (any amount one time should work) or [building it yourself from the source code](https://github.com/HactarCE/Hyperspeedcube/blob/main/BUILDING.md), which takes some time to set up but generally isn't too hard.
 
-### I'm having troubling with Hyperspeedcube 2?
+### I'm having trouble with Hyperspeedcube 2?
 
 **Please do not ask Hactar for help building or using development builds of Hyperspeedcube 2** unless the build on Ko-fi is broken. Everything in the program is subject to change, and any time spent helping an individual user is time that could instead be spent writing documentation.
 
