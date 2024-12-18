@@ -40,9 +40,27 @@ def get_template(filename):
 
 def format_time(duration) -> str:  # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
+
+    # gets the time in a short format (ex: 8:48:23.15)
+    # converts duration into a string. Then it chops off leading 0's because a TimeDelta object has those for some reason 
+    shortTime = str(duration)
+    if (shortTime.find(".") != -1):   # if the string has a decimal point
+        shortTime = shortTime[0:-4] # chop off the extra four 0's at the end if the time includes a non-integer number of seconds
+    if (shortTime.find(".") == -1):   # if the string does not have a decimal point, add ".00" to the end
+        shortTime += ".00"
+
+    while shortTime[0:1] == "0":  # while there are leading 0's to chop off
+        shortTime = shortTime[1:len(shortTime)]   # chop off leading 0
+        if shortTime[0:1] == ":":             # if next character is a colon
+            shortTime = shortTime[1:len(shortTime)]   # chop off colon
+
+    returnString = "<a class='shorttime'>" + shortTime + "</a><a class='longtime'>"
+
+    # code for geting time string in long format (ex: 8h 4m 32s 592ms)
     def unit(s):
         return f'<small>{s}</small>'
 
+    # this is if duration is actually FMC movecount, I think
     if isinstance(duration, int):
         return f"{duration:,}".replace(',', '\u2009')
 
@@ -52,20 +70,27 @@ def format_time(duration) -> str:  # duration: timedelta | int
 
     minutes, seconds = divmod(seconds, 60)
     if minutes == 0:
-        return f"{seconds}{unit('s')} {millis_str}"
+        longTime = f"{seconds}{unit('s')} {millis_str}"
+        return [longTime, shortTime]
     seconds_str = f"{seconds:02}{unit('s')}"
 
     hours, minutes = divmod(int(minutes), 60)
     if hours == 0:
-        return f"{minutes}{unit('m')} {seconds_str} {millis_str}"
+        longTime = f"{minutes}{unit('m')} {seconds_str} {millis_str}"
+        return [longTime, shortTime]
     minutes_str = f"{minutes:02}{unit('m')}"
 
     days, hours = divmod(int(hours), 24)
     if days == 0:
-        return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+        longTime = f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+        return [longTime, shortTime]
     hours_str = f"{minutes:02}{unit('h')}"
 
-    return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
+    longTime = f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
+    # return "<p class='shorttime'>" + shortTime + "</p><p class='longtime'>" + longTime + "</p>"
+    # return returnString + longTime + "</a>"
+    return [longTime, shortTime]
+
 
 
 class Solve:
@@ -93,7 +118,7 @@ class Solve:
         formatted_time = format_time(self.time)
         self._cell_contents = {
             'date': self.date,
-            'time': f'[{formatted_time}]({self.link})' if link else formatted_time,
+            'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a style=\'display: none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
             'solver': f'[{self.solver.name}]({self.solver.relative_file_path})',
@@ -104,12 +129,6 @@ class Solve:
             if self.rank is None:
                 return ''
             emoji = ''
-            # if 1 <= self.rank <= 3:
-            #     emoji = [
-            #         ':first_place: ',
-            #         ':second_place: ',
-            #         ':third_place: ',
-            #     ][self.rank-1]
             if self.rank == 1:
                 emoji = ':trophy-gold-hypercube: '
             elif self.rank == 2:
