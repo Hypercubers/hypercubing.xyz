@@ -1,10 +1,29 @@
-console.log("it is working");
-function hide() {
-    var alist = document.getElementsByClassName("timetext");
-    console.log(alist);
-}
+
+var shortList = document.getElementsByClassName("shorttime");
+var longList = document.getElementsByClassName("longtime");
 
 function LongTime() {
     // switches to the long time format
-    console.log("switching to long time format on the leaderboards");
+    for (var i = 0; i < shortList.length; i++) {
+        shortList[i].style.display = "none";
+        longList[i].style.display = "block";
+    } 
+    document.getElementById("long-time-format").classList.add("md-button--primary"); 
+    document.getElementById("wca-time-format").classList.remove("md-button--primary"); 
 }
+
+function ShortTime() {
+    // switches to the short time format
+    for (var i = 0; i < longList.length; i++) {
+        longList[i].style.display = "none";
+        shortList[i].style.display = "block";
+    }  
+    document.getElementById("long-time-format").classList.remove("md-button--primary"); 
+    document.getElementById("wca-time-format").classList.add("md-button--primary"); 
+}
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    for (var i = 0; i < shortList.length; i++) {
+        shortList[i].style.display = "none";
+    }
+});

@@ -25,7 +25,7 @@ World record database for higher dimensional twisty puzzle speedsolving!
 
 ??? note "View Options"
     | Time Format |  |
-    | ------- | - |
-    | Long | <input type="button" class="md-button md-button--primary" value="#m #s ###ms" onclick="LongTime()"/> |
-    | Short | <input type="button" class="md-button" value="#:##.##"/> |
+    | -------     | - |
+    | Long | <input type="button" id="long-time-format" class="md-button md-button--primary" value="#m #s ###ms" onclick="LongTime()"/> |
+    | WCA  | <input type="button" id="wca-time-format" class="md-button" value="#:##.##" onclick="ShortTime()"/> |
 
