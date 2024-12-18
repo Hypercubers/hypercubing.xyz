@@ -54,7 +54,7 @@ def format_time(duration) -> str:  # duration: timedelta | int
         if shortTime[0:1] == ":":             # if next character is a colon
             shortTime = shortTime[1:len(shortTime)]   # chop off colon
 
-    returnString = "<p class='shorttime'>" + shortTime + "</p><p class='longtime'>"
+    returnString = "<a class='shorttime'>" + shortTime + "</a><a class='longtime'>"
 
     # code for geting time string in long format (ex: 8h 4m 32s 592ms)
     def unit(s):
@@ -71,24 +71,25 @@ def format_time(duration) -> str:  # duration: timedelta | int
     minutes, seconds = divmod(seconds, 60)
     if minutes == 0:
         longTime = f"{seconds}{unit('s')} {millis_str}"
-        return returnString + longTime + "</p>"
+        return [longTime, shortTime]
     seconds_str = f"{seconds:02}{unit('s')}"
 
     hours, minutes = divmod(int(minutes), 60)
     if hours == 0:
         longTime = f"{minutes}{unit('m')} {seconds_str} {millis_str}"
-        return returnString + longTime + "</p>"
+        return [longTime, shortTime]
     minutes_str = f"{minutes:02}{unit('m')}"
 
     days, hours = divmod(int(hours), 24)
     if days == 0:
         longTime = f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
-        return returnString + longTime + "</p>"
+        return [longTime, shortTime]
     hours_str = f"{minutes:02}{unit('h')}"
 
     longTime = f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
     # return "<p class='shorttime'>" + shortTime + "</p><p class='longtime'>" + longTime + "</p>"
-    return returnString + longTime + "</p>"
+    # return returnString + longTime + "</a>"
+    return [longTime, shortTime]
 
 
 
@@ -117,7 +118,7 @@ class Solve:
         formatted_time = format_time(self.time)
         self._cell_contents = {
             'date': self.date,
-            'time': f'[{formatted_time}]({self.link})' if link else formatted_time,
+            'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
             'solver': f'[{self.solver.name}]({self.solver.relative_file_path})',
