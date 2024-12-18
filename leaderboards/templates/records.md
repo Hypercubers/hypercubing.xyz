@@ -9,7 +9,7 @@ search:
 <script src="/javascripts/leaderboards.js"></script>
 
 ??? note "View Options"
-    | Time Format |  |
-    | -------     | - |
-    | Long | <input type="button" id="long-time-format" class="md-button md-button--primary" value="#m #s ###ms" onclick="LongTime()"/> |
-    | WCA  | <input type="button" id="wca-time-format" class="md-button" value="#:##.##" onclick="ShortTime()"/> |
+    | Time Format |
+    | -------     |
+    | <input type="button" id="long-time-format" class="md-button md-button--primary" value="Long (1m 00s 000ms)" onclick="LongTime()"/> |
+    | <input type="button" id="wca-time-format" class="md-button" value="WCA (1:00.00)" onclick="ShortTime()"/> |
