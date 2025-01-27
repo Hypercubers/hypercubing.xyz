@@ -108,7 +108,7 @@ It is always possible to solve in one twist, but that twist may require multiple
 
 Neither can we! The purpose of solving partial scrambles is to gain confidence with how single turns work and how to control the software. 1-move scrambles are enough for this; solving 2-move or 3-move or 4-move scrambles is a fun challenge but will not bring you any closer to a full solve.
 
-**If you can confidently solve 1-move scrambles, them you're ready for a full scramble.**
+**If you can confidently solve 1-move scrambles, then you're ready for a full scramble.**
 
 ### What methods exist for the 3×3×3×3?
 
