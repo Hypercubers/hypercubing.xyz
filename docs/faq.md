@@ -20,6 +20,8 @@ hide: [navigation, toc]
 - [Virtual puzzles](#virtual-puzzles)
     - [What program should I download?](#what-program-should-i-download)
     - [How do I learn to solve 3×3×3×3?](#how-do-i-learn-to-solve-the-3333)
+    - [Is it always possible to solve a 1-move scramble in one move?](#is-it-always-possible-to-solve-a-1-move-scramble-in-one-move)
+    - [I can't solve a 4-move scramble!](#i-cant-solve-a-4-move-scramble)
     - [What methods exist for the 3×3×3×3?](#what-methods-exist-for-the-3333)
     - [Why not start with the physical 2×2×2×2?](#why-not-start-with-the-physical-2222)
     - [Why not start with the virtual 2×2×2×2?](#why-not-start-with-the-virtual-2222)
@@ -96,6 +98,17 @@ We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It'
 
 Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server].
 
+### Is it always possible to solve a 1-move scramble in one move?
+
+Well yes, but actually no. 
+
+It is always possible to solve in one twist, but that twist may require multiple clicks or holding down number keys to select inner layers. Don't worry about solving 1-move scrambles with one click, as long as you can solve them **confidently**. You want to be able to look at a 1-move scramble and immediately know exactly what to do to solve it, even if it takes multiple clicks.
+
+### I can't solve a 4-move scramble!
+
+Neither can we! The purpose of solving partial scrambles is to gain confidence with how single turns work and how to control the software. 1-move scrambles are enough for this; solving 2-move or 3-move or 4-move scrambles is a fun challenge but will not bring you any closer to a full solve.
+
+**If you can confidently solve 1-move scrambles, them you're ready for a full scramble.**
 
 ### What methods exist for the 3×3×3×3?
 
