@@ -34,7 +34,7 @@ For the slice layers, we use `M` `E` `S` `P`, where P is the slice that follows 
 
 ### Commutators
 
-Many algorithms are constructed using commutators and conjugates, so there is a compact notation for them using square brackets. See [Commutators - Notation](/techniques/commutators#notation).
+Many algorithms are constructed using commutators and conjugates, so there is a compact notation for them using square brackets. See [Commutators - Notation](/techniques/commutators.md#notation).
 
 ## Algorithms
 
