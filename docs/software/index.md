@@ -41,7 +41,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Magic Cube 7D][mc7d]                       |        [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^            |
 | [Magic Cube 5D][mc5d]                       |           [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^                |
 | [Magic Cube 4D VR][mc4d-vr]                 |                              :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                    |
-| [Flat Hypercube][flat]                      |          [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_ks_______} | {1-32k}^{1-32k}^        |
+| [Flat Hypercube][flat]                      |          [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_ksf___c__} | {1-32k}^{1-32k}^        |
 | [Gelatinbrain][gelatinbrain][^gelatinbrain] |                      :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things      |
 | [pCubes][pCubes]                            |                                                 %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle  |
 | [Ultimate Magic Cube][umc]                  |                                                 %platforms{w___} | %features{m___t___p_} | platonic 3D             |
