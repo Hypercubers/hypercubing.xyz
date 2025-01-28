@@ -6,12 +6,13 @@ These are open questions in Hypercubing puzzle theory. They are sometimes writte
     - How do we express them?
 - How do we simplify twist applications to pieces?
     - E.g., On 3^3^, `R U' R' F` applied to the DFR corner simplifies to the identity
-    - E.g., On 3^3, `D' L2 U R2` applied to the DFR corner simplifies to the identity
+    - E.g., On 3^3^, `D' L2 U R2` applied to the DFR corner simplifies to the identity
 - For a positive integer N, consider the symmetric [two-disk] puzzle with the lowest twist order that contains the N-acron. Consider the shallowest such puzzle (up to isomorphism) that still contains the N-acron. What is the order of `[R, L]`?
 - How do we rigorously define "N-acron" or "\<shape\>-acron"?
     - "N-acron" roughly means "piece with N grips symmetrically in a ring" but there's nuance
         - Do the grips need to be exchangeable?
         - What if there are 2N grips (as in non-symmetric [two-disk] puzzles)?
+- Special positions: what do they look like, are all paths through a puzzle's state space homotopic to a special path, and can this formalize 4D jumbling?
 
 ## Missing terminology
 
