@@ -1,4 +1,4 @@
-# Grip theory
+# Grip Theory
 
 Grip theory is a framework for analyzing many different kinds of twisty puzzles in a geometry-independent way. It was first developed on the TwistyPuzzles forum in 2009 in [this thread](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=15667). Grip theory was originally used to describe doctrinaire puzzles in 3D, but it can be extended to describe bandaged puzzles, jumbling puzzles, higher-dimensional puzzles, and more.
 
@@ -163,9 +163,9 @@ Suppose we have 7 grips, labeled `001`, `010`, `011`, `100`, `101`, `110`, and `
 
 Consider a set of grips $\mathbb{Z}^2$, whose grip group are the rotations and translations that preserve the lattice. A puzzle constructed like this would have infinitely many twists, and would be unwieldy. A way to simplify this puzzle is to restrict the axes that twists are allowed on. Now, a grip that is not under an allowed twist is called *stored*. For instance, if twists are only allowed with axes $(0,0)$ and $(1,0)$, you can make a selection of pieces to make a two-circle puzzle like the [Rashkey](https://twistypuzzles.com/cgi-bin/puzzle.cgi?pkey=1447). However, the complex Rashkey would still have uncountably many pieces, many of which can reach infinitely many attitudes. A solution to this is to only allow pieces with finite active grip sets. If the active grip set of a piece is finite and there are only a finite number of allowed axes, each with finitely many transformations corresponding to a turn, the piece can only reach finitely many attitudes, despite the infinitude of the grip group.
 
-### Bandaging
+### Blocked grips
 
-The 3×3×3 is a doctrinaire puzzle. If a corner {`R`, `U`, `F`} and edge {`R`, `U`} are bandaged together, the puzzle ceases to be doctrinaire. This can be implemented into grip theory by adding a new kind of grip to pieces: *bandaged grips*. Bandaged grips follow the attitude just like active grips. We remove the corner and edge above and replace them with a new piece with active grips {`R`, `U`} and bandaged grips {`F`}. When we apply a twist, if its axis would turn a piece along a bandaged grip, the entire twist is illegal in this state. This exactly mimics the bandaging of the 3×3×3, because by removing `F` from the set of active grips of the corner and the set of inactive grips of the edge, it prevent us from performing any twist that would only move one of the two pieces.
+The 3×3×3 is a doctrinaire puzzle. If a corner {`R`, `U`, `F`} and edge {`R`, `U`} are bandaged together, the puzzle ceases to be doctrinaire. This can be implemented into grip theory by adding a new kind of grip to pieces: *blocked grips*. Blocked grips follow the attitude just like active grips. We remove the corner and edge above and replace them with a new piece with active grips {`R`, `U`} and blocked grips {`F`}. When we apply a twist, if its axis would turn a piece along a blocked grip, the entire twist is illegal in this state. This exactly mimics the bandaging of the 3×3×3, because by removing `F` from the set of active grips of the corner and the set of inactive grips of the edge, it prevent us from performing any twist that would only move one of the two pieces.
 
 ### Jumbling
 
