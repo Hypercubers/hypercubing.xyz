@@ -41,7 +41,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 ### Blindsolving rules
 
 - Macros are allowed during solving.
-- Piece filters/highlightings are allowed during memorization but not during solving.
+- Piece filters/highlights are allowed during memorization but not during solving.
 - All blindsolves require video evidence of the solver that clearly shows the screen and that they are not cheating by using some external reference.
 - The solver does not need to be blindfolded, but the colors on the puzzle must be invisible during the solve.
 - Using software to compute a solution to the puzzle state is not allowed.
@@ -99,6 +99,6 @@ If you're thinking of writing a new program for speedsolving or suggesting a new
 [stm]: https://hypercubing.xyz/notation/#turn-metrics
 
 [^algsheets]: We can't stop you from using an algorithm reference, but it's not in the spirit of the competition and it'll probably slow you down.
-[^keybinds-ref]: If the program doesn't have a built-in keybinds reference (such as akkei's physical 3^4^ simulator) then you probably don't need one.
-[^alg-keybinds]: In particular, you should not be able to execute a meaningful algorithm by pressing a sequence of keys in a line on the keyboard. Keybinds should be laid out in a way that makes sense moreso than a way that is useful for an algorithm. A keybind set optimized for general RKT is fine. If you have a question about this, ask on the Discord.
+[^keybinds-ref]: If the program doesn't have a built-in keybinds reference (such as Akkei's physical 3^4^ simulator) then you probably don't need one.
+[^alg-keybinds]: In particular, you should not be able to execute a meaningful algorithm by pressing a sequence of keys in a line on the keyboard. Keybinds should be laid out in a way that makes more sense than a way that is useful for an algorithm. A keybind set optimized for general RKT is fine. If you have a question about this, ask on the Discord.
 [^grip]: You might hold a 3^3^ differently to execute `<M,U>` moves more efficiently compared to `<R,U,F>` moves. Similarly, a 4D creature might have a specialized grip on the 3^4^ for RKT compared to general moves.

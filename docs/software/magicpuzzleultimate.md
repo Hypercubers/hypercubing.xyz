@@ -283,7 +283,7 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
             Cuts 0.85
             ```
 
-        ??? info "Chamefered Tesseract"
+        ??? info "Chamfered Tesseract"
             ``` title="Chamfered Tesseract"
             Puzzle Chamfered_Tesseract
             Dim 4

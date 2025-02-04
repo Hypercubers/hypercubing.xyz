@@ -10,7 +10,7 @@ The technique has been independently discovered several times, but the term was 
 
 !!! note inline end "Other proposed names:"
     - SFM (Single Facet Manipulation)
-    - FRM (Facet Redution Method)
+    - FRM (Facet Reduction Method)
 
 The name RKT comes from the move set ```<RK,T*>``` on n^4^ puzzles (in the old notation, the Inside and Outside cells were called Top and Kata). In the new notation it should be called ROI, but the old name stuck.
 
@@ -19,7 +19,7 @@ The name RKT comes from the move set ```<RK,T*>``` on n^4^ puzzles (in the old n
 
 ## Doing moves with RKT (n^4^)
 
-RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's way to learn this is by "translating" 3D algorithms into RKT (although this is not the best way to think about how RKT works beacuse you can really perform any sequence of moves). Below is a simple 3 step guide to translate your algorithms into RKT.
+RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's way to learn this is by "translating" 3D algorithms into RKT (although this is not the best way to think about how RKT works because you can really perform any sequence of moves). Below is a simple 3 step guide to translate your algorithms into RKT.
 
 !!! example inline end "Example: Sune algorithm with RKT"
     Say you want to do the Sune algorithm ```R U R' U R U2 R'``` with RKT. The first step is to try and think of how you can execute the algorithm using only R moves and cube rotations. ```R U R' U R U2 R'``` becomes ```R z R z' R' z R z' R z R2 z' R'```. Now we replace R with RO, and cube rotations with I cell rotations: ```RO IF RO IF' RO' IF RO IF' RO IF RO2 IF' RO'```
