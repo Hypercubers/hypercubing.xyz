@@ -5,4 +5,4 @@ The Grant Rowan Connor Luna method, or GRCL (pronounced "gurkle") is a combinati
 ## Steps
 - Orient Both Cells using either Grant's method or Rowan's method (whatever looks better in that particular scramble)
 - Separate the oriented colours of both cells while orienting 2 layers on those cells by holding the puzzle vertically and using Luna's method
-- Permute both layers of both cell using Rowan's updated version of Connor's P4L algorithms
+- Permute both layers of both cells using Rowan's updated version of Connor's P4L algorithms
