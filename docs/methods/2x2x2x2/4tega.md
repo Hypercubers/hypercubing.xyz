@@ -25,4 +25,4 @@ Same as in Variant 1.
 Use RKT to orient both layers of both cells, just like OBL in 3D Ortega. This can be done using the OCLL algorithms.
 
 ### P4L/PBLBC
-Permtue all 4 layers of both cells at once using algorithms. Some algorithms can be found [here](https://docs.google.com/document/d/12CriaqJ1dYtAMpeY3c0dyLSCG9j37DEPKRWr4cl5i9U/edit?usp=sharing).
+Permute all 4 layers of both cells at once using algorithms. Some algorithms can be found on Rowan's [PBLBC algorithms sheet](https://docs.google.com/document/d/12CriaqJ1dYtAMpeY3c0dyLSCG9j37DEPKRWr4cl5i9U/edit?usp=sharing).

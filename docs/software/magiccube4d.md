@@ -13,13 +13,9 @@ Magic Cube 4D requires [Java](https://www.java.com/en/) to be installed. Once yo
 
 ## Alternative versions
 
-### Raynefork
-
-Raynefork is Raymond Zhao's version of MC4D, which has the updated default colour scheme (standard 3^3^ colours plus pink/purple), and some more options in the settings menu. It can be found from its GitHub [here](https://github.com/rzhao271/magiccube4d/releases/tag/v4.3.343-raynefork.2.1).
-
 ### Don's version
 
-Don's version contains some 2D puzzles, many 3D puzzles, and some interesting 4D puzzles. It also has a menu for 5D and 6D puzzles, however they don't work when you select them. Don's version can be downloaded from its GitHub [here](https://github.com/donhatch/donhatchsw.jar/blob/master/java1.8/donhatchsw.jar).
+Don's version contains some 2D puzzles, many 3D puzzles, and some interesting 4D puzzles. It also has a menu for 5D and 6D puzzles, however they don't work when you select them. Don's version can be downloaded directly from his [GitHub release](https://github.com/donhatch/donhatchsw.jar/blob/master/java1.8/donhatchsw.jar).
 
 
 ## Troubleshooting

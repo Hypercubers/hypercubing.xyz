@@ -13,7 +13,9 @@ Shortly after the Rubik's Cube was invented in 1974, people began thinking about
 
 ## 2002-Present: Mailing List Years
 
-In August 2003, the Hypercubing Yahoo Groups mailing list was created. Anyone could subscribe to the list and join the discussion via email. This greatly improved the speed of sharing knowledge. Many new people joined and discussed methods, puzzles, and even had some speedsolving competitions! It was moderately active, up until Yahoo groups began removing past content in 2019. Click [here](https://hypercubing-archive.gitlab.io/) to view an archive of all the past messages. After that, the Hypercubing Google Groups mailing list was created, with pretty much the same members and type of discussions as before. It wasn't until 2021 that a Discord server was created to speed up communication even more.
+In August 2003, the Hypercubing Yahoo Groups mailing list was created. Anyone could subscribe to the list and join the discussion via email. This greatly improved the speed of sharing knowledge. Many new people joined and discussed methods and puzzles, and even had some speedsolving competitions! It was moderately active until Yahoo groups began removing content in 2019. Nowadays, there is an [archive](https://hypercubing-archive.gitlab.io/) of the messages from the Yahoo Groups mailing list.
+
+After the end of the Hypercubing Yahoo Groups mailing list, the Hypercubing Google Groups mailing list was created, with pretty much the same members and type of discussions as before. It wasn't until 2021 that a Discord server was created to speed up communication even more.
 
 ## 2010-2017: Andrey's Influence
 
@@ -57,4 +59,4 @@ In early 2024, the first speedsolves of the 3^5^ were done. A lot of hypercubers
 - **2022 Dec 22:** First 3^4^ sub-3:00 by Hactar
 - **2023 May 13:** First 3^4^ sub-2:00 by Hactar
 
-[^1]: Read Andrey's biography [here](https://superliminal.com/andrey/biography.html)
+[^1]: Read [Andrey's biography](https://superliminal.com/andrey/biography.html)
