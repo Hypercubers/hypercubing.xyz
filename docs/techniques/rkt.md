@@ -70,7 +70,7 @@ RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering p
 
 RKT cancelling is a technique that reduces the move count of certain RKT algorithms and triggers by abusing symmetry of rotations. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for 3^4^ algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
 
-Consider `R U R' U'`. Conventional RKT rotates after every move, but we don't have to do that. We can build up multiple moves of RKT debt and then cancel them later:
+Consider `R U R' U'`. Conventional RKT rotates after every move, but we don't have to do that many rotations. We can build up multiple moves of RKT debt and then cancel them later:
 
 - `RO UO` — do `R U` using RKT, building up two moves of RKT debt (`R U`)
 - `IF RO'` — do `R'` using RKT, undoing the debt from `U`
@@ -86,7 +86,7 @@ If you squint, you might notice that this is a conjugate `[RO UO: IUR]`. This co
 
 Recall how in 3D you can replace a `U y'` with `Dw`. We can do the same thing here: replace `IUR` with `{1-2}OUR`, which is a rotation of the outer layers instead of the inner layers. Now it just looks like a normal algorithm with a flip thrown in the middle: `RO UO {1-2}OUR RO' UO'`. So we can notate it a little more simply: `R U {1-2}OUR R' U'`
 
-Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-2}OUR UO2 RO'`. This works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice how if you remove the rotations, the whole thing cancels out. (You don't need to expand the conjugates to see this.)
+Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-2}OUR UO2 RO'`. This algorithm works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice that if you remove all rotations from that conjugate, the whole thing cancels out.
 
 ### RKT Cancel Algorithms
 

@@ -18,7 +18,7 @@ These are open questions in Hypercubing puzzle theory. They are sometimes writte
 
 !!! warning "DO NOT just come up with new words for these"
 
-    We want terms that are meaningful and tie in well with the rest of the theory. Some of these concepts may be well-described by some combination of words, and it's challenging to come up with a good set of words that can be used to do that.
+    We want terms that are meaningful and tie in well with the rest of the theory. Some of these concepts may be well-described by some combination of words, but it's challenging to come up with a good combination of such words.
 
     In other words, we're looking for a ["basis"](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) for the space of concepts.
 

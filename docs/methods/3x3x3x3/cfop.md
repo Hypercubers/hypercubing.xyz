@@ -54,14 +54,14 @@ Use EOLL algorithms from 2-look OLL to orient the 2C pieces. This can always be 
 Use RKT on the last cell to set up the slice layers of the last cell into configurations that look like possible OCLL cases. Then use the OCLL algorithms to solve that case. This can always be done in 3 OCLL algorithms (or less)
 
 !!! warning "3c monotwist"
-    It's possible to have just 1 3c piece twisted in place. To avoid this, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have 5 left, you can't set it up into an H OCLL case, because that will solve 4/5, leaving you with 1 left. Instead, you can set it up into a Sune case, which would then leave you with 2 (which you can solve using a T or U case OCLL algorithm).
+    It's possible to have just one 3c piece twisted in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have five 3c pieces left, you can't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 3c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm.
 
 #### 4c OLL-4
 
 Use RKT on the last cell to set up the 4c pieces into possible OCLL cases. Rotate the last cell to U, such that your OCLL case is in the IU plane, then execute that algorithm **with RKT** on I.
 
 !!! warning "4c monoflip"
-    It's possible to have just 1 4c piece flipped in place. To avoid this, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have 5 left, you can't set it up into an H OCLL case, because that will solve 4/5, leaving you with 1 left. Instead, you can set it up into a Sune case, which would then leave you with 2 (which you can solve using a T or U case OCLL algorithm).
+    It's possible to have just one 4c piece flipped in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have five 4c pieces left, you can't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 4c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm.
 
 ### PLL-4
 
@@ -84,7 +84,7 @@ This is currently no known reliable way to recognize which case you have.
 From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a Roux First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
-    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/techniques/rkt.md) for algorithms.
+    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm. See [RKT](/techniques/rkt.md) for algorithms.
 
 !!! tip "RKT parity avoidance"
     You can avoid RKT parity by using 2-look PLL. When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, just solve the 3c with EPLL algorithms.

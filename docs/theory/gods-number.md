@@ -49,7 +49,7 @@ We can compute an upper bound of 37 in the STM by computing the worst-case move 
 
 ### Estimate
 
-[Hypersolve](https://github.com/ajtaurence/Hypersolve) typically produces solutions in the range of 20-30 STM. Note that this solver does not produce optimal solutions[^optimal], but based on this, God's number for 2^4^ is probably not higher than 20-30.
+[Hypersolve](https://github.com/ajtaurence/Hypersolve) typically produces solutions in the range of 20-30 STM. This solver does not produce optimal solutions[^optimal], but based on its results, God's number for 2^4^ is probably not higher than 20-30.
 
 [^optimal]: It does eventually converge on optimal solutions when run for a sufficient amount of time, but this amount of time is impractical for all but the simplest scrambles.
 

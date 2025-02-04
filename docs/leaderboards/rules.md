@@ -100,5 +100,5 @@ If you're thinking of writing a new program for speedsolving or suggesting a new
 
 [^algsheets]: We can't stop you from using an algorithm reference, but it's not in the spirit of the competition and it'll probably slow you down.
 [^keybinds-ref]: If the program doesn't have a built-in keybinds reference (such as Akkei's physical 3^4^ simulator) then you probably don't need one.
-[^alg-keybinds]: In particular, you should not be able to execute a meaningful algorithm by pressing a sequence of keys in a line on the keyboard. Keybinds should be laid out in a way that makes more sense than a way that is useful for an algorithm. A keybind set optimized for general RKT is fine. If you have a question about this, ask on the Discord.
+[^alg-keybinds]: You should not be able to execute a meaningful algorithm by pressing a sequence of keys in a line on the keyboard. Keybinds should be laid out in a way that makes more sense than a way that is useful for an algorithm. A keybind set optimized for general RKT is fine. If you have a question about these rules, ask on the [Hypercubers Discord server](https://discord.gg/xxFvfyx89p).
 [^grip]: You might hold a 3^3^ differently to execute `<M,U>` moves more efficiently compared to `<R,U,F>` moves. Similarly, a 4D creature might have a specialized grip on the 3^4^ for RKT compared to general moves.
