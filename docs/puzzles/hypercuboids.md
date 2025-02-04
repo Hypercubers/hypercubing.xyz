@@ -13,7 +13,7 @@ Given $k \geq 0$ and $n \geq 1$, the [elementary symmetric polynomial](https://e
 - For example: $e_1(x_1,x_2,x_3,x_4,x_5) = x_1 + x_2 + x_3 + x_4 +x_5$, i.e. the sum of terms of 1 element, chosen in $x_1, x_2, x_3, x_4, x_5$.   
 - Another example: $e_2(x_1,x_2,x_3,x_4) = x_1 x_2 + x_1 x_3 + x_1 x_4 + x_2 x_3 + x_2 x_4 + x_3 x_4$, i.e., the sum of the products of all possible unordered pairs made with $x_1, x_2, x_3, x_4$.
 
-Note that $e_k(x_1, \dots, x_n)$ has $\binom{n}{k}$ terms. From this, we can also see that $e_0(x_1, \dots, x_n)=1$.
+Note that $e_k(x_1, \dots, x_n)$ has $\binom{n}{k}$ terms. Then, we also see that $e_0(x_1, \dots, x_n)=1$.
 
 Using the above notation, the $a_1 \times a_2 \times \dots \times a_n$ hypercuboid, where $a_i > 1$, has $2^k\cdot e_{n-k}(a_1-2, \dots, a_n-2)$ pieces which are $k$-colored.
 

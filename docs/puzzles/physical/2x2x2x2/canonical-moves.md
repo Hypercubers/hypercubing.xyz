@@ -50,11 +50,11 @@ The remaining canonical twists involve picking up a 2x2x4 "slab" off the puzzle,
 
 ### Gyro
 
-If you try to scramble the puzzle with all the moves above, you will quickly notice that the 2 colours on the x-axis aren't mixing with the other colours. This is because the simple rotations and slab twists are restricting what we can do because of the symmetry of the physical puzzle. To fix this, we need a series of illegal moves that rotate the puzzle 4-dimensionally in a way that changes the x-axis. This is called the Gyro, and will allow us to access all the rest of the puzzle rotations (`xz` `zx` `yx` `xy` `xw` `wx`)
+If you try to scramble the puzzle with the moves above, you will quickly notice that the two colours on the x-axis aren't mixing with the other colours. This is because the reduced symmetry of the physical puzzle, relative to the virtual puzzle, restricts what we can do. As a result, we use a sequence of non-canonical moves that rotate the puzzle four-dimensionally in a way that changes the x-axis. This sequence of moves is called the Gyro, and will allow us to access all the rest of the puzzle rotations: `xz`, `zx`, `yx`, `xy`, `xw`, and `wx`.
 
 ![Rowan performing the Gyro algorithm](https://assets.hypercubing.xyz/img/phys/melinda_2x2x2x2_gyro.gif)
 
-There are several different algorithms for this, some of which gyro different axes. Melinda has several videos about different gyro algorithms, the shortest known one being 6 snaps. Below is a common gyro algorithm that several people in the community use.
+There are several different Gyro algorithms, some of which cycle different axes. Melinda has several videos about different gyro algorithms, the shortest known one being 6 snaps. Below is a common gyro algorithm that several people in the community use.
 
 - Take the left endcap off and put it on the right so it becomes the right endcap (this brings the puzzle into the inverted state)
 - `Ly` `Ry'`

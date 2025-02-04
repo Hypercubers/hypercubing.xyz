@@ -11,7 +11,7 @@ Completely new to twisty puzzles? Never solved a Rubik's Cube? Here's where to s
 
 [K-Card Game](https://masonhorne.github.io/k-Card-Game/) is a basic piece cycling puzzle using cards. Can you rearrange them into the correct order? After completing it a few times, try and lower your movecount to reach the optimal solution. Also notice how you're always just swapping 2 cards, and you need to do cycles of swaps to rearrange them correctly.
 
-[Loopover](https://loopover.xyz/) is similar to sliding puzzles (such as the infamous 15-puzzle) but there's no missing tile and the board loops over (hence the name). It might look overwhelming, but it's actually recommended to start with a 5x5 size board. After that, try a 4x4 board and discover the differences between odd and even size boards.
+[Loopover](https://loopover.xyz/) is similar to sliding puzzles (such as the infamous 15-puzzle) but there's no missing tile and the board loops over (hence the name). It might look overwhelming, but it's actually recommended to start with a 5x5 size board. After solving that puzzle, try a 4x4 board, and discover the differences between odd and even size boards.
 
 Now on to actual twisty puzzles. You only have 1 chance to try and solve a Rubik's Cube by yourself with no tutorial. Definitely give that a shot first if you're brave enough. Otherwise, look up some tutorials and try and get beginners 3D intuition manipulating the cube. If you don't yet own a Rubik's Cube, you can play with this interactive widget below, but it's very much recommended to get a physical puzzle and feel the geometry of it.
 

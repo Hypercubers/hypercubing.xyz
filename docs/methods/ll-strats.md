@@ -13,7 +13,7 @@ To orient 2c pieces, use [EOLL algorithms](https://www.speedsolving.com/wiki/ind
 To orient the 3c pieces, use RKT to set up the E slice of the last cell into a configuration that looks like a possible OCLL case. Then use OCLL algorithms to solve that case. 
 
 !!!warning "Avoiding monotwist/flip"
-    In higher dimensions, it's possible to have a single 3c+ piece twisted in place. To avoid this, make sure that your last OCLL algorithm setup will solve all of the remaining pieces of that piece type. For example if you have 5 left to orient, don't set up an alg that orients 4 because then you will be left over with 1. Instead, you can do an alg that orients 3, and then an alg that orients 2.
+    In higher dimensions, it's possible to have a single 3c+ piece twisted in place. To avoid this situation, make sure that your last OCLL algorithm setup will solve all of the remaining pieces of that piece type. For example if you have five pieces left to orient, don't set up an alg that orients four of them, because then you will be left with one. Instead, you can do an alg that orients three pieces, followed by an alg that orients two more.
 
 To orient the 4c pieces, use RKT to set up OCLL cases, but this time you have to perform the OCLL alg with RKT. Again, it's possible to have just 1 4C left to orient, so be smart about your last setup and algorithm.
 
