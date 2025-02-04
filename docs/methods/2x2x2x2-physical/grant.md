@@ -12,7 +12,7 @@ Grant's OBC Method uses only 3 gyros, making it much faster than Rowan's OBC Met
 
 Before starting the solve, inspect the puzzle for an opposite colour pair that you can easily get *exactly* 8 stickers from that pair to be on the y-axis. They can be in any spot, as long as they are pointing up or down.
 
-<object alt="Exactly 8 4c oriented to y-axis" data="https://hypercubing.xyz/assets/images/phys2222generator.svg?state=-SO----SR-SO--SR-SO-SO--SR--SR" height="300"></object>
+<object alt="Exactly eight 4c oriented to y-axis" data="https://hypercubing.xyz/assets/images/phys2222generator.svg?state=-SO----SR-SO--SR-SO-SO--SR--SR" height="300"></object>
 
 
 ### Getting 8 Oriented to Y-axis, then gyro
