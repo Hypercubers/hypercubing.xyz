@@ -4,7 +4,7 @@
 
 RKT is a technique that lets you treat a single cell of a (cell-turning) higher dimensional puzzle as if it were a lower dimensional puzzle. This is very useful to do moves that damage fewer pieces. For example: RKT lets you treat a side of a 3^4^ just like a 3^3^ cube, meaning that you can use all the 3D algorithms you already know to solve the full 4D puzzle.
 
-It has been invented independently several times, but was mainly popularized by Raymond Zhao in his article [here](https://rayzz.me/articles/hypercubing/rkt.html).
+The technique has been independently discovered several times, but the term was mainly popularized by Raymond Zhao, such as in his [article on RKT](https://rayzz.me/articles/hypercubing/rkt.html).
 
 ## Naming
 
