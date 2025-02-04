@@ -24,7 +24,7 @@ Markdown files should have lowercase names, with hyphens to separate words. Choo
 
 ### `.pages`
 
-Some folders have a `.pages` file in them, which changes the order of pages in the navigation sidebar on the left. This uses the [mkdocs-awesome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin). Most of the time, you shouldn't have to worry about this.
+Some folders have a `.pages` file in them, which changes the order of pages in the navigation sidebar on the left. This feature uses the [mkdocs-awesome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin).
 
 ## Syntax
 
