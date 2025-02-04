@@ -24,7 +24,7 @@ Using the same techniques from 3D, intuitively place the cross 2c pieces such th
 
 ### F2L-a
 
-Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitve setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
+Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitive setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
 
 Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
@@ -39,7 +39,7 @@ Find its respective 4C piece.
 - If they both have the same coloured sticker on the U cell, use RKT on the U cell to pair them up.
 - If the 4C is stuck in a slot in the D cell, bring the edge over the slot such that its colour on the I cell matches the 4C's colour on the I cell. Then use RKT to pair them up.
 - If the 3C is stuck in a slot in the middle layer, bring the 4C on top of it until its colour on the I cell matches the 3C's colour on the I cell. Then use RKT to pair them up.
-- If none of the above cases occured, then you kind of just have to fiddle around with it or pick a different pair to solve.
+- If none of the above cases occurred, then you kind of just have to fiddle around with it or pick a different pair to solve.
 
 Repeat for all 8 3c4c pairs of F2L-b.
 

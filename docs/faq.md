@@ -93,7 +93,7 @@ We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It'
 
 1. Learn how to solve a 3×3×3, ideally intuitively. There are plenty of tutorials online, although you should try it on your own first. It's a good challenge!
 2. Download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or use the [web version](https://hypercubing.xyz/hyperspeedcube/).
-3. Follow this video to get aquainted with the program:
+3. Follow this video to get acquainted with the program:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -177,7 +177,7 @@ Melinda's 2^4^ is the only physical puzzle for sale. The physical 3^4^ and hyper
 
 ### Can I download 3D files for the physical 2×2×2×2?
 
-No. Melinda has put a _lot_ of work into her physical 2^4^ designs, and invested quite a bit of her own capital into selling prototypes at a loss and getting them mass-produced, so we respect her wishes to not make those files public. If you want to create your own files modeling Melinda's physical 2^4^ and 3D print them, that is fine, but we ask that you do not make the files avaliable for download unless Melinda is OK with it.
+No. Melinda has put a _lot_ of work into her physical 2^4^ designs, and invested quite a bit of her own capital into selling prototypes at a loss and getting them mass-produced, so we respect her wishes to not make those files public. If you want to create your own files modeling Melinda's physical 2^4^ and 3D print them, that is fine, but we ask that you do not make the files available for download unless Melinda is OK with it.
 
 ### What physical 4D puzzles have been built?
 
@@ -325,9 +325,9 @@ Instead of rotating circles in 2D, you can rotate spheres in 3D. This is a more 
 
 ### How do I make a 4D \[thing\]?
 
-**:sparkles: Generalising Things to 4D: A Handy Guide :sparkles:**
+**:sparkles: Generalizing Things to 4D: A Handy Guide :sparkles:**
 
-1. Understand and define the thing you're generalising
+1. Understand and define the thing you're generalizing
 2. Find where your definitions reference or assume something dimension-specific
 3. Rewrite your definitions to avoid dimension-specific references or assumptions
 4. Find what 4D object fits your new definitions (there may be one, several, or none)

@@ -128,7 +128,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 Hypercubing on mobile devices is not recommended; however, if this is your only option, these apps are available for Android:
 
 - [Magic Cube 4D (Raynefork)](https://play.google.com/store/apps/details?id=me.rayzz.magiccube4d) (recommended)
-- <strike>[Magic Cube 4D](https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d)</strike> (superceded by Raynefork)
+- <strike>[Magic Cube 4D](https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d)</strike> (superseded by Raynefork)
 - [The Tesseract Puzzle](https://play.google.com/store/apps/details?id=com.MadMagics.OpenGL_Shaders)
 - [4D Hypercube Puzzle](https://play.google.com/store/apps/details?id=com.tesseract_game&hl=en_US&gl=US)
 

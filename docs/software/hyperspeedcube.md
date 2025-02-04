@@ -55,7 +55,7 @@ If none of the instructions below help, join the [Hypercubers Discord server][di
 
 ??? failure ""Hyperspeedcube crashed. A crash report has been saved to ...""
 
-    First, make sure your graphics drivers are up-to-date! This is the most common cause of Hyperespeedcube crashes. Here is a [video tutorial](https://www.youtube.com/watch?v=rkZvrzr5yKM) if you don't know how to do that.
+    First, make sure your graphics drivers are up-to-date! This is the most common cause of Hyperspeedcube crashes. Here is a [video tutorial](https://www.youtube.com/watch?v=rkZvrzr5yKM) if you don't know how to do that.
 
     If you still get an error message, then follow these steps:
 

@@ -52,7 +52,7 @@ This does not preclude other designs for a physical 2^6 that have not been devel
 
 ## Restricted 2^6^
 
-![Akkeis's restricted 2×2×2×2×2×2](https://assets.hypercubing.xyz/img/phys/akkei_2422.png){width="40%"}
+![Akkei's restricted 2×2×2×2×2×2](https://assets.hypercubing.xyz/img/phys/akkei_2422.png){width="40%"}
 
 There are several ways to restrict a 2^6^ to make it able to be made physical. One way is to make it a 2^5^×2^1^, which can be made physical out of two copies of the 2^5^ in the same way as the 2^4^×2^1^ was made out of the 2^4^. Another way is the 2^4^×2^2^, pictured above. Each piece of the 2^4^×2^2^ has four 4-stickers and two 2-stickers. The four 4-stickers can have an even permutation applied to them, or the two 2-stickers can be swapped and an odd permutation can be applied to the four 4-stickers. This enlarges the symmetry group of the piece from $A_4$ to $S_4$, the symmetric group on 4 points. Fortunately, octahedral symmetry acts on the four space diagonals of a cube by $S_4$, and one endpoint from each diagonal corresponds to the vertices of a tetrahedron, used for the stickers on the 2^4^. Therefore, the 4-stickers can be placed on opposite corners of a cube. The stickers on the periphery of the pieces correspond to the 2-stickers, which swap whenever the piece is rotated in a way that does not preserve the original tetrahedron, i.e. one that does an odd permutation. It may require one or more buffer layers.
 
