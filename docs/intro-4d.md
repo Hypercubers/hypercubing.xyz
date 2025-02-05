@@ -24,13 +24,13 @@ A hypercube (also known as a tesseract, 8-cell, octachoron, or 4-cube) is a shap
 
 But of course, there are many other shapes besides the tesseract. Check out these resources for a deeper understanding:
 
-- [Perfect Shapes in Higher Dimensions - Numberphile](https://www.youtube.com/embed/2s4TqVAbfz4?list=PLKwXjCUFqOBFC9sjYtijVALmZSJK8Djo1)
+- [Perfect Shapes in Higher Dimensions - Numberphile](https://www.youtube-nocookie.com/embed/2s4TqVAbfz4?list=PLKwXjCUFqOBFC9sjYtijVALmZSJK8Djo1)
 - [Regular polytope](https://en.wikipedia.org/wiki/Regular_polytope)
 - [Regular 4-polytope](https://en.wikipedia.org/wiki/Regular_4-polytope)
 
 ## Making puzzles out of shapes
 
-To make [twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle) out of higher dimensional shapes, you have to slice it up! Adding 2 evenly spaced planar cuts along each dimension, we get the 3×3×3×3, or 3^4^.
+To make [twisty puzzles](https://en.wikipedia.org/wiki/N-dimensional_sequential_move_puzzle) out of higher dimensional shapes, you have to slice it up! Adding two evenly spaced planar cuts along each dimension, we get the 3×3×3×3, or 3^4^.
 
 <center>![3×3×3×3 in Magic Cube 4D](https://assets.hypercubing.xyz/img/virt/mc4d_3x3x3x3.png){width="50%"}</center>
 
