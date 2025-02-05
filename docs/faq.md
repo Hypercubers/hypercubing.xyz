@@ -95,7 +95,7 @@ We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It'
 2. Download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or use the [web version](https://hypercubing.xyz/hyperspeedcube/).
 3. Follow this video to get acquainted with the program:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server].
 
@@ -199,11 +199,11 @@ See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooti
 
 ### How do I use keybinds in Hyperspeedcube?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yRt5DVqjnEo?si=UF-_6gf6VgM41Nnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yRt5DVqjnEo?si=UF-_6gf6VgM41Nnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### How do I use piece filters in Hyperspeedcube?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Hyperspeedcube 2
 
@@ -317,7 +317,7 @@ There's so many ways to generalize a skewb to 4D that we have a [whole page full
 
 ### 8-dimensional and higher
 
-Above 5 dimensions, cube puzzles aren't more difficult or interesting, just more tedious and computationally expensive. But there might be some wild hyperpuzzles yet to be discovered up there, say one based on the very special geometry of the [E8 Lattice](https://en.wikipedia.org/wiki/E8_lattice)!
+Above five dimensions, cube puzzles aren't more difficult or interesting, just more tedious and computationally expensive. But there might be some wild higher-dimensional puzzles yet to be discovered, say one based on the very special geometry of the [E8 Lattice](https://en.wikipedia.org/wiki/E8_lattice)!
 
 ### 3D Rubik's Clock
 

@@ -46,14 +46,14 @@ A shorter notation was developed to write specific algorithms, such as RKT cance
 
 First, we make a certain side from each axis be the "positive" side. There are standards for this in 3D (such as the [right-handed rule](https://en.wikipedia.org/wiki/Right-hand_rule)). On the x-axis, going to the right is positive and going left is negative. This makes `R` the positive side from the x-axis. The same goes for the other axes: `U`, and `F` are the positive sides in 3D. In 4D we add two new sides, and have to decide which one is positive and which one is negative. Because of the projection, the side that we can't see is closer to the 4D camera, making `O` the positive w-axis cell, and `I` the negative.
 
-To actually notate the rotations, write the letters of the 2 axes that form the plane that the puzzle is rotating in, in the order of which positive side on that axis goes to the positive side of the other axis. For example: rotating the positive y-axis side to the positive x-axis side (rotating U to R) would be written `yx` (and looks like `z` in 3D notation).
+To actually notate the rotations, write the letters of the two axes that form the plane that the puzzle is rotating in, in the order of which positive side on that axis goes to the positive side of the other axis. For example: rotating the positive y-axis side to the positive x-axis side (rotating U to R) would be written `yx` (and looks like `z` in 3D notation).
 
 - `yw`: bring +y to +w (rotate U to O)
 - `xz`: bring +x to +z (rotate R to F (this is called `y` in 3D rotation notation))
 
 Note how we don't have to use the `'` prime symbol because you can just swap the letters (wy is the inverse of yw). You can also add a `2` to the end for double rotations, e.g. `wx2`, `yz2` etc.
 
-This makes it a really nice system because it only ever uses 2 letters, no matter how many dimensions. You can also use it on n^3^ puzzles in order for more multi-dimensional consistency: `xy` means move x+ to y+ (R to U \[z' rotation]).
+This makes it a really nice system because it only ever uses two letters, no matter how many dimensions. You can also use it on n^3^ puzzles in order for more multi-dimensional consistency: `xy` means move x+ to y+ (R to U \[z' rotation]).
 
 ## Turn metrics
 
