@@ -919,8 +919,8 @@
 
 ## Summary
 
-1. **4-Cross** — Solve 4 out of the 6 cross pieces
-2. **Middle Block** — Solve 4 2c3c pairs betwen the 4 cross pieces
+1. **4-Cross** — Solve four out of the six cross pieces
+2. **Middle Block** — Solve four 2c3c pairs between the four cross pieces
 3. **Left Block** — Blockbuild or pair pieces to solve the Left Cell
 4. **Right Block** — Blockbuild or pair pieces to solve the Right Cell
 5. **OLL-4** - Orient LC 2c, 3c, and 4c pieces using 3D algorithms

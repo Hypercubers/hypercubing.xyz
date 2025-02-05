@@ -8,7 +8,7 @@
 Start by orienting a single side, using either colour from that side or its opposite side. This can easily be done without [RKT](/techniques/rkt.md) by using blockbuilding. Next, use 2^4^ OLC strategies to orient the other cell. Because the first cell isn't solved, you don't have to worry about messing it up, allowing you to save moves.
 
 ### Separate colors
-Separate the colors of the cells that are oriented, leaving you with 2 2^3^ solves.
+Separate the colors of the cells that are oriented, leaving you with two 2^3^ solves.
 
 ### Permute Both Cells
 Solve the first cell like a 2^3^ without RKT, then solve the other cell like a 2^3^, but using RKT.

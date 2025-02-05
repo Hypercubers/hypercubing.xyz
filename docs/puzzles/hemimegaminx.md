@@ -13,7 +13,7 @@ The puzzle can be constructed by identifying opposite faces on a megaminx. On th
 
 ## Permutations
 
-The 10 3cs of the hemimegaminx can be placed in any even permutation. Each 4c can be placed in $3!$ orientations, except the last, which can be placed in only $3$ orientations. The 15 2cs can be placed in any even permutation, and each one has $2$ orientations, except the last, whose orientation is determined by the other pieces. Thus, the number of permutations of the puzzle is
+The 10 3c pieces of the hemimegaminx can be placed in any even permutation. Each 4c can be placed in $3!$ orientations, except the last, which can be placed in only $3$ orientations. The 15 2c pieces can be placed in any even permutation, and each one has $2$ orientations, except the last, whose orientation is determined by the other pieces. Thus, the number of permutations of the puzzle is
 $\left[\frac{10!}{2} \cdot 3!^{9} \cdot 3\right] \cdot \left[\frac{15!}{2} \cdot 2^{14}\right] \approx 5.87 \cdot 10^{29}.$
 
 ## Physical version

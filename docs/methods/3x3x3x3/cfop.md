@@ -11,8 +11,8 @@
 ## Summary
 
 1. **Cross** — Build a cross by solving six 2c pieces on the O or D cell
-2. **F2L-a** — Join 12 2c+3c pairs together and insert them into the first two layers
-3. **F2L-b** — Join 8 3c+4c pairs together and insert them into the first two layers
+2. **F2L-a** — Join twelve 2c+3c pairs together and insert them into the first two layers
+3. **F2L-b** — Join eight 3c+4c pairs together and insert them into the first two layers
 4. **OLL-4** — Orient LC 2c, 3c, and 4c pieces using 3D EOLL and OCLL
 5. **PLL-4** — Permute 2c pieces of the LL using EPLL, then solve the rest like a 3^3^
 
@@ -24,7 +24,7 @@ Using the same techniques from 3D, intuitively place the cross 2c pieces such th
 
 ### F2L-a
 
-Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitive setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
+Find a pair of 2c and 3c pieces. Find a way to bring them onto the P slice using easy intuitive setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
 
 Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
@@ -33,21 +33,21 @@ Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
 ### F2L-b
 
-Find any 3C piece that doesn't have a U cell colour.
-Find its respective 4C piece.
+Find any 3c piece that doesn't have a U cell colour.
+Find its respective 4c piece.
 
 - If they both have the same coloured sticker on the U cell, use RKT on the U cell to pair them up.
-- If the 4C is stuck in a slot in the D cell, bring the edge over the slot such that its colour on the I cell matches the 4C's colour on the I cell. Then use RKT to pair them up.
-- If the 3C is stuck in a slot in the middle layer, bring the 4C on top of it until its colour on the I cell matches the 3C's colour on the I cell. Then use RKT to pair them up.
+- If the 4c is stuck in a slot in the D cell, bring the edge over the slot such that its colour on the I cell matches the 4c piece's colour on the I cell. Then use RKT to pair them up.
+- If the 3c is stuck in a slot in the middle layer, bring the 4c on top of it until its colour on the I cell matches the 3c piece's colour on the I cell. Then use RKT to pair them up.
 - If none of the above cases occurred, then you kind of just have to fiddle around with it or pick a different pair to solve.
 
-Repeat for all 8 3c4c pairs of F2L-b.
+Repeat for all eight 3c4c pairs of F2L-b.
 
 ### OLL-4
 
 #### 2c OLL-4
 
-Use EOLL algorithms from 2-look OLL to orient the 2C pieces. This can always be done in 2 EOLL algorithms (or less).
+Use EOLL algorithms from 2-look OLL to orient the 2c pieces. This can always be done in 2 EOLL algorithms (or less).
 
 #### 3c OLL-4
 
