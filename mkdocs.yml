@@ -86,11 +86,11 @@ extra_javascript:
   - javascripts/tablesort.js
   - javascripts/mathjax.js
   - javascripts/symbol_replace.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
-  - glightbox
+  - glightbox:
+      auto_caption: true
   - awesome-pages:
       strict: false
   - gen-files:
@@ -99,6 +99,7 @@ plugins:
   - redirects:
       redirect_maps:
         'discord.md': 'https://discord.gg/xxFvfyx89p'
+        'theory/grip_theory.md': 'theory/grip-theory.md'
 hooks:
   - hooks/feature_matrix.py
   - hooks/symbol_hooks.py

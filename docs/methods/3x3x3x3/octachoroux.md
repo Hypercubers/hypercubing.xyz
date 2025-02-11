@@ -18,13 +18,13 @@ This method is Rowan Fortier's attempt to bring the [Roux method](https://www.sp
 
 ### 1st Block
 
-Start with the "cross piece" of the 1st block. Then build four 2c3c and four 3c4c pairs around it, to complete the 1×2×3×3 block. No RKT is needed for this, as none of the other pieces have been solved yet.
+Start with the "cross piece" of the 1st block. Then build four 2c3c and four 3c4c pairs around it, to complete the 1×2×3×3 block. No RKT is needed for this step, as none of the other pieces have been solved yet.
 
 ### 2nd Block
 Use the free M slice to help you build the pairs to make the 2nd 1×2×3×3 block on the opposite side of the puzzle from the 1st block.
 
 ### CMLC
-Use the same strategies from [CFOP](/methods/3x3x3x3/cfop.md#4c-oll-4), but only for the 4C pieces. This step feels like solving the last cell of a 2^4^, except you have to use 3^4^ algorithms so that you don't mess up other pieces.
+Use the same strategies from [CFOP](/methods/3x3x3x3/cfop.md#4c-oll-4), but only for the 4c pieces. This step feels like solving the last cell of a 2^4^, except you have to use 3^4^ algorithms so that you don't mess up other pieces.
 
 ### L/R
 Insert the UR and UL 2c pieces using setup moves and EPLL algorithms. Now set up the 3c pieces that need to go to L/R into the IDF spot with the L/R colour on the I cell and the U colour on the D cell. Then move the spot where that L/R edge needs to go above that edge and insert that piece using the RKT algorithm of M D2 M' D2 (2RO' IF' RO2 IF 2RO IF' RO2 IF). Repeat this for all of the edges (pretty tedious).

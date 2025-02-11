@@ -2,8 +2,8 @@
   contents:
   - name: Hypercubes
     contents:
-    - {puz: 2x2x2x2, name: 2×2×2×2}
     - {puz: 3x3x3x3, name: 3×3×3×3}
+    - {puz: 2x2x2x2, name: 2×2×2×2}
     - {puz: 4x4x4x4, name: 4×4×4×4}
     - {puz: 5x5x5x5, name: 5×5×5×5}
     - {puz: 6x6x6x6, name: 6×6×6×6}
@@ -16,14 +16,15 @@
   - name: Physical
     contents:
     - {puz: phys_2x2x2x2, name: Physical 2×2×2×2, exclude: [program]}
-    - {puz: virt_phys_3x3x3x3, name: Physical Virtual 3×3×3×3}
+    - {puz: phys_3x3x3x3, name: Physical 3×3×3×3, exclude: [program]}
+    - {puz: virt_phys_3x3x3x3, name: Virtual Physical 3×3×3×3}
   - name: Other
     contents:
     - {puz: 3-layer_simplex, name: 3-Layer Simplex}
 - name: 5D
   contents:
-    - {puz: 2x2x2x2x2, name: 2×2×2×2×2}
     - {puz: 3x3x3x3x3, name: 3×3×3×3×3}
+    - {puz: 2x2x2x2x2, name: 2×2×2×2×2}
     - {puz: 4x4x4x4x4, name: 4×4×4×4×4}
 - name: MagicTile
   contents:

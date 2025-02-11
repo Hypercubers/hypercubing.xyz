@@ -4,13 +4,13 @@
 
 RKT is a technique that lets you treat a single cell of a (cell-turning) higher dimensional puzzle as if it were a lower dimensional puzzle. This is very useful to do moves that damage fewer pieces. For example: RKT lets you treat a side of a 3^4^ just like a 3^3^ cube, meaning that you can use all the 3D algorithms you already know to solve the full 4D puzzle.
 
-It has been invented independently several times, but was mainly popularized by Raymond Zhao in his article [here](https://rayzz.me/articles/hypercubing/rkt.html).
+The technique has been independently discovered several times, but the term was mainly popularized by Raymond Zhao, such as in his [article on RKT](https://rayzz.me/articles/hypercubing/rkt.html).
 
 ## Naming
 
 !!! note inline end "Other proposed names:"
     - SFM (Single Facet Manipulation)
-    - FRM (Facet Redution Method)
+    - FRM (Facet Reduction Method)
 
 The name RKT comes from the move set ```<RK,T*>``` on n^4^ puzzles (in the old notation, the Inside and Outside cells were called Top and Kata). In the new notation it should be called ROI, but the old name stuck.
 
@@ -19,7 +19,7 @@ The name RKT comes from the move set ```<RK,T*>``` on n^4^ puzzles (in the old n
 
 ## Doing moves with RKT (n^4^)
 
-RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's way to learn this is by "translating" 3D algorithms into RKT (although this is not the best way to think about how RKT works beacuse you can really perform any sequence of moves). Below is a simple 3 step guide to translate your algorithms into RKT.
+RKT lets us do any n^3^ sequence of moves on one side of an n^4^. The beginner's way to learn this is by "translating" 3D algorithms into RKT (although this is not the best way to think about how RKT works because you can really perform any sequence of moves). Below is a simple 3 step guide to translate your algorithms into RKT.
 
 !!! example inline end "Example: Sune algorithm with RKT"
     Say you want to do the Sune algorithm ```R U R' U R U2 R'``` with RKT. The first step is to try and think of how you can execute the algorithm using only R moves and cube rotations. ```R U R' U R U2 R'``` becomes ```R z R z' R' z R z' R z R2 z' R'```. Now we replace R with RO, and cube rotations with I cell rotations: ```RO IF RO IF' RO' IF RO IF' RO IF RO2 IF' RO'```
@@ -70,7 +70,7 @@ RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering p
 
 RKT cancelling is a technique that reduces the move count of certain RKT algorithms and triggers by abusing symmetry of rotations. HactarCE made a program called [RocKeT](https://github.com/HactarCE/rocket) to find cancels for 3^4^ algorithms. Often, it just involves inserting some flipping moves at certain points throughout the algorithm.
 
-Consider `R U R' U'`. Conventional RKT rotates after every move, but we don't have to do that. We can build up multiple moves of RKT debt and then cancel them later:
+Consider `R U R' U'`. Conventional RKT rotates after every move, but we don't have to do that many rotations. We can build up multiple moves of RKT debt and then cancel them later:
 
 - `RO UO` — do `R U` using RKT, building up two moves of RKT debt (`R U`)
 - `IF RO'` — do `R'` using RKT, undoing the debt from `U`
@@ -86,7 +86,7 @@ If you squint, you might notice that this is a conjugate `[RO UO: IUR]`. This co
 
 Recall how in 3D you can replace a `U y'` with `Dw`. We can do the same thing here: replace `IUR` with `{1-2}OUR`, which is a rotation of the outer layers instead of the inner layers. Now it just looks like a normal algorithm with a flip thrown in the middle: `RO UO {1-2}OUR RO' UO'`. So we can notate it a little more simply: `R U {1-2}OUR R' U'`
 
-Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-2}OUR UO2 RO'`. This works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice how if you remove the rotations, the whole thing cancels out. (You don't need to expand the conjugates to see this.)
+Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-2}OUR UO2 RO'`. This algorithm works because you can rewrite Sune using conjugates with rotations: `[R U: [R': z x2] [U: z x2]]`. Notice that if you remove all rotations from that conjugate, the whole thing cancels out.
 
 ### RKT Cancel Algorithms
 

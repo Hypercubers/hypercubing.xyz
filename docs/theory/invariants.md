@@ -1,6 +1,6 @@
 # Piece invariants
 
-Many puzzles exhibit a phenomenon where the position or orientation of some pieces are determined by the position or orientation of the other pieces. This can often be captured with an invariant, a function of position that does not change when moves are applied, and calculating the invariant can identify whether a position is valid or not. Invariants are useful when computing the total numer of positions of a puzzle.
+Many puzzles exhibit a phenomenon where the position or orientation of some pieces are determined by the position or orientation of the other pieces. This can often be captured with an invariant, a function of position that does not change when moves are applied, and calculating the invariant can identify whether a position is valid or not. Invariants are useful when computing the total number of positions of a puzzle.
 
 The most common kinds of invariants are permutation parity and total orientation.
 
@@ -14,7 +14,7 @@ Monoflip is a phenomenon where a single corner piece on the 3×3×3×3 can be fl
 
 The monoflip exists because the group of orientations of a single corner, ignoring others, is $A_4$, and its commutator subgroup is the Klein four-group $\mathbb{Z}_2 \times \mathbb{Z}_2$. Each element of this group corresponds to either the identity or a monoflip. Its quotient in $A_4$ is $\mathbb{Z}_3$, which represents an invariant analogous to total corner twist in 3D. This will allow us to prove that the orientation of the last corner, given that the other 15 are solved, must be identity or monoflip.
 
-First, we construct a particular set of 8 ridges by choosing two sets of 4 parallel ridges which are mutually orthogonal (for instance, choose two disjoint rings of 4 cells each, and select the ridges which lie between two cells of the same ring). We say these ridges are red. We can take two more sets of 8 ridges the same way both disjoint from the first one, and we call those ridges green and blue. Notice that if we perform a monoflip on a corner colored like this, the arrangement of colors does not change.
+First, we construct a particular set of 8 ridges by choosing two sets of 4 parallel ridges which are mutually orthogonal (for instance, choose two disjoint rings of 4 cells each, and select the ridges which lie between two cells of the same ring). We say these ridges are red. We can take two more sets of 8 ridges the same way, both disjoint from the first one, and we call those ridges green and blue. Notice that if we perform a monoflip on a corner under this coloring, the arrangement of colors does not change.
 
 If we pick a particular corner position, we can call its position even. Then, we specify that positions adjacent to even positions are odd, and positions adjacent to odd positions are even. This is well-defined and unique given our original choice. Coordinate-wise, if the coordinates of the corners are in $\{-1,1\}^4$, corners whose coordinates have product $1$ can be even and those with product $-1$ can be odd. Then, in any position of the 3×3×3×3, we define the variant of a particular corner based on two factors: the color in the solved position of where the red ridge of the corner is, and whether the position of the corner is even or odd.
 

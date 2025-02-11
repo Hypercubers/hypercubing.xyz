@@ -1,4 +1,4 @@
-# Hypercubing
+# Hypercubing.xyz
 
 Website for the Hypercubing community
 

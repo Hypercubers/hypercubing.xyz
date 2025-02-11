@@ -4,7 +4,7 @@ _Hactar, 2024-04-15_
 
 Neophyte Horatio had been studying hyperbolic tilings under Master Nikolai for nearly a month, and was learning well the ways of the petal, the fourfold corner, and orientability. He woke up to find an envelope outside his door containing a message from his mentor, Master Nikolai:
 
-<img src="https://assets.hypercubing.xyz/img/mt/behold.png" alt="Hyperbolic {8,6} 6-color tiling, face-turning" width="150" align="right">
+<img src="https://assets.hypercubing.xyz/img/virt/behold.png" alt="Hyperbolic {8,6} 6-color tiling, face-turning" width="150" align="right">
 
 > Neophyte Horatio,  
 > I have fallen ill and cannot attend your instruction today. Enclosed is a hyperbolic tiling which I am sure you have solved before. I expect you will have it solved by tomorrow.  

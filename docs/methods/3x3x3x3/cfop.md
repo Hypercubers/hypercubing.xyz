@@ -11,8 +11,8 @@
 ## Summary
 
 1. **Cross** — Build a cross by solving six 2c pieces on the O or D cell
-2. **F2L-a** — Join 12 2c+3c pairs together and insert them into the first two layers
-3. **F2L-b** — Join 8 3c+4c pairs together and insert them into the first two layers
+2. **F2L-a** — Join twelve 2c+3c pairs together and insert them into the first two layers
+3. **F2L-b** — Join eight 3c+4c pairs together and insert them into the first two layers
 4. **OLL-4** — Orient LC 2c, 3c, and 4c pieces using 3D EOLL and OCLL
 5. **PLL-4** — Permute 2c pieces of the LL using EPLL, then solve the rest like a 3^3^
 
@@ -24,7 +24,7 @@ Using the same techniques from 3D, intuitively place the cross 2c pieces such th
 
 ### F2L-a
 
-Find a pair of 2C and 3C pieces. Find a way to bring them onto the P slice using easy intuitve setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
+Find a pair of 2c and 3c pieces. Find a way to bring them onto the P slice using easy intuitive setups. Now, you should be able to pair them up using "normal" looking 3×3×3 moves.
 
 Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
@@ -33,35 +33,35 @@ Repeat this until you have solved all 12 2c3c pairs of F2L-a.
 
 ### F2L-b
 
-Find any 3C piece that doesn't have a U cell colour.
-Find its respective 4C piece.
+Find any 3c piece that doesn't have a U cell colour.
+Find its respective 4c piece.
 
 - If they both have the same coloured sticker on the U cell, use RKT on the U cell to pair them up.
-- If the 4C is stuck in a slot in the D cell, bring the edge over the slot such that its colour on the I cell matches the 4C's colour on the I cell. Then use RKT to pair them up.
-- If the 3C is stuck in a slot in the middle layer, bring the 4C on top of it until its colour on the I cell matches the 3C's colour on the I cell. Then use RKT to pair them up.
-- If none of the above cases occured, then you kind of just have to fiddle around with it or pick a different pair to solve.
+- If the 4c is stuck in a slot in the D cell, bring the edge over the slot such that its colour on the I cell matches the 4c piece's colour on the I cell. Then use RKT to pair them up.
+- If the 3c is stuck in a slot in the middle layer, bring the 4c on top of it until its colour on the I cell matches the 3c piece's colour on the I cell. Then use RKT to pair them up.
+- If none of the above cases occurred, then you kind of just have to fiddle around with it or pick a different pair to solve.
 
-Repeat for all 8 3c4c pairs of F2L-b.
+Repeat for all eight 3c4c pairs of F2L-b.
 
 ### OLL-4
 
 #### 2c OLL-4
 
-Use EOLL algorithms from 2-look OLL to orient the 2C pieces. This can always be done in 2 EOLL algorithms (or less).
+Use EOLL algorithms from 2-look OLL to orient the 2c pieces. This can always be done in 2 EOLL algorithms (or less).
 
 #### 3c OLL-4
 
 Use RKT on the last cell to set up the slice layers of the last cell into configurations that look like possible OCLL cases. Then use the OCLL algorithms to solve that case. This can always be done in 3 OCLL algorithms (or less)
 
 !!! warning "3c monotwist"
-    It's possible to have just 1 3c piece twisted in place. To avoid this, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have 5 left, you can't set it up into an H OCLL case, because that will solve 4/5, leaving you with 1 left. Instead, you can set it up into a Sune case, which would then leave you with 2 (which you can solve using a T or U case OCLL algorithm).
+    It's possible to have just one 3c piece twisted in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have five 3c pieces left, you can't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 3c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm.
 
 #### 4c OLL-4
 
 Use RKT on the last cell to set up the 4c pieces into possible OCLL cases. Rotate the last cell to U, such that your OCLL case is in the IU plane, then execute that algorithm **with RKT** on I.
 
 !!! warning "4c monoflip"
-    It's possible to have just 1 4c piece flipped in place. To avoid this, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have 5 left, you can't set it up into an H OCLL case, because that will solve 4/5, leaving you with 1 left. Instead, you can set it up into a Sune case, which would then leave you with 2 (which you can solve using a T or U case OCLL algorithm).
+    It's possible to have just one 4c piece flipped in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have five 4c pieces left, you can't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 4c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm.
 
 ### PLL-4
 
@@ -84,7 +84,7 @@ This is currently no known reliable way to recognize which case you have.
 From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CFOP method is recommended for this because you arrive at this step inspectionless, meaning that in a speedsolve, you don't really have the time to count Edge Orientation, or plan a Roux First Block. Finding 4 cross pieces is pretty easy inspectionless.
 
 !!! warning "RKT parity"
-    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm to correct this. See [RKT](/techniques/rkt.md) for algorithms.
+    If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm. See [RKT](/techniques/rkt.md) for algorithms.
 
 !!! tip "RKT parity avoidance"
     You can avoid RKT parity by using 2-look PLL. When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, just solve the 3c with EPLL algorithms.

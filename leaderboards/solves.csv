@@ -349,7 +349,7 @@ date,       link,                  time, program,   solver,             puzzle, 
 2024-04-24, NJHYnPmOq3c,      46m 19.15s, HSC,      rowan,              4x4x4x4, single
 2024-04-24, dIphYAbQ3BU,      33m 42.90s, HSC,      rowan,              4x4x4x4, single
 2024-04-26, GGKOSVbxZlA,      29m 07.38s, HSC,      hactar,             5x5x5x5, single
-2024-04-26, GlBOvjiA028,  15h 20m 24.49s, MPU,      luna,               4x4x4x4x4, single
+2024-04-26, GlBOvjiA028,  15h 20m 24.49s, MC7D,     luna,               4x4x4x4x4, single
 2024-04-29, iJXl5mew5YU,      26m 11.51s, HSC,      hactar,             5x5x5x5, single
 2024-05-02, yC3VmIp3jJQ,       5m 41.96s, HSC,      koen,               3x3x3x3, single
 2024-05-05, KKoIoJWRf2s,      22m 43.49s, HSC,      hactar,             5x5x5x5, single
@@ -427,7 +427,7 @@ date,       link,                  time, program,   solver,             puzzle, 
 2024-06-25, zAr0RXLH6Do,          39.82s, HSC,      bilal,              2x2x2x2, ao5
 2024-06-25, pRtvWojcFCM,   3h 01m 48.63s, MC7D,     rowan,              3x3x3x3x3, single
 2024-06-26, D26k9okZ6CA,      10m 50.95s, HSC,      bilal,              3x3x3x3, ao5
-2024-05-26, D26k9okZ6CA,       8m 56.53s, HSC,      bilal,              3x3x3x3, single
+2024-06-26, D26k9okZ6CA,       8m 36.53s, HSC,      bilal,              3x3x3x3, single
 2024-06-26, gqyE_F3td3g,   2h 43m 59.43s, MC7D,     luna,               3x3x3x3x3, single
 2024-06-26, uBNmmY7pTsE,   6h 40m 34.76s, MC7D,     vin,                3x3x3x3x3, single
 2024-06-26, 31Y2ljf3R1M,   2h 30m 30.48s, MC7D,     rowan,              3x3x3x3x3, single
@@ -446,3 +446,225 @@ date,       link,                  time, program,   solver,             puzzle, 
 2024-07-01, ClT2G84Ypnw,   1h 52m 29.73s, MC7D,     rowan,              3x3x3x3x3, single
 2024-07-02, w-ILUWNdAcg,      58m 41.41s, MPU,      tymofro,            2x2x2x2x2, single
 2024-07-02, qi5cOaLuIrA,      48m 22.31s, MPU,      tymofro,            2x2x2x2x2, single
+2024-05-23, oBGv937j2M0,       2m 03.18s, HSC,      hactar,             3x3x3x3, ao5
+2024-07-05, 7fbwTWp-nc0,          53.64s, HSC,      saturnb,            2x2x2x2, single
+2024-07-05, 56CPMYv5dM0,      13m 18.48s, HSC,      pistelli,           3x3x3x3, single
+2024-07-07, d3m67muJG_s,       4m 36.44s, HSC,      pkearth,            3x3x3x3, single
+2024-07-07, NtMFnvXRk-s,          44.15s, HSC,      pkearth,            2x2x2x2, single
+2024-07-08, SZ9shDSkGN4,          31.45s, HSC,      bilal,              2x2x2x2, single
+2024-07-10, y0zs-Bs2B3k,       8m 11.59s, HSC,      bilal,              3x3x3x3, single
+2024-07-10, y0zs-Bs2B3k,       8m 57.53s, HSC,      bilal,              3x3x3x3, ao5
+2024-07-10, 92tgWfyO_DQ,          38.78s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-12, YJqOGqYyWQg,       9m 04.99s, HSC,      saturnb,            3x3x3x3, single
+2024-07-12, ck0cLsGr15A,      28m 17.86s, HSC,      hana,               3x3x3x3, single
+2024-07-12, oapOYiZq5s8,          28.77s, HSC,      bilal,              2x2x2x2, single
+2024-07-13, -X9FTfoYhHA,       3m 45.20s, HSC,      pkearth,            3x3x3x3, single
+2024-07-13, CqE7ZtiSBPs,       7m 47.19s, HSC,      bilal,              3x3x3x3, single
+2024-07-13, lyHWt9QsW8c,       7m 57.35s, HSC,      saturnb,            3x3x3x3, single
+2024-07-14, pJf0bxkLZLI,      10m 53.61s, HSC,      hana,               3x3x3x3, single
+2024-07-14, oM7ZoYHJJOQ,          38.46s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-15, vthdD9N0pTA,       8m 28.71s, HSC,      hana,               3x3x3x3, single
+2024-07-15, dDyKKDErIGY,       6m 39.41s, HSC,      bilal,              3x3x3x3, ao5
+2024-07-15, dDyKKDErIGY,       6m 14.24s, HSC,      bilal,              3x3x3x3, single
+2024-07-15, zGyDcGgajnI,   1h 41m 52.48s, HSC,      bilal,              4x4x4x4, single
+2024-07-16, 8qVCwe0bNhw,   3h 20m 00.68s, MC7D,     vin,                3x3x3x3x3, single
+2024-07-15, EBrEaT5E9AQ,       6m 07.35s, HSC,      bilal,              3x3x3x3, single
+2024-07-15, mQhNSxCzymo,       5m 49.92s, HSC,      bilal,              3x3x3x3, single
+2024-07-15, r6ICkIz5QgE,          35.77s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-16, QgSG0QNEqsk,          31.31s, HSC,      adam,               2x2x2x2, ao5
+2024-07-16, QEBsGnrnS7c,       5m 48.74s, HSC,      bilal,              3x3x3x3, single
+2024-07-16, IiRHpCcxw7s,       8m 04.51s, HSC,      hana,               3x3x3x3, single
+2024-07-16, zgz6YSwTQIc,   2h 45m 09.53s, MC7D,     vin,                3x3x3x3x3, single
+2024-07-16, iPO63vJB3Bo,       7m 19.88s, HSC,      hana,               3x3x3x3, single
+2024-07-16, hBEAcIWtXA4,          34.81s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-16, p_8YYJoUjpI,       6m 49.21s, HSC,      hana,               3x3x3x3, single
+2024-07-16, xv8DWpEKQ54,          44.66s, HSC,      saturnb,            2x2x2x2, single
+2024-07-16, X7encSaqwpw,          34.27s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-16, 5Jv0O7NDi_g,       6m 33.53s, HSC,      hana,               3x3x3x3, single
+2024-07-16, a60UsmBgdeU,       6m 28.75s, HSC,      hana,               3x3x3x3, single
+2024-07-16, MjVRk5Mjf9Q,       5m 58.66s, HSC,      hana,               3x3x3x3, single
+2024-07-18, 6yK6GolNGZ8,   2h 36m 47.85s, MC7D,     vin,                3x3x3x3x3, single
+2024-07-19, tRlsaOCOJu4,       5m 46.34s, HSC,      hana,               3x3x3x3, single
+2024-07-19, yyRPL-k-ros,      19m 05.67s, HSC,      lorenzo,            3x3x3x3, single
+2024-07-20, 1PIPDzXTs68,       6m 03.63s, HSC,      hana,               3x3x3x3, ao5
+2024-07-20, 1PIPDzXTs68,       5m 20.85s, HSC,      hana,               3x3x3x3, single
+2024-07-21, KzRrqXvWgwc,       4m 19.04s, HSC,      hana,               3x3x3x3, single
+2024-07-20, qmcfAbxlUgc,      20m 17.51s, HSC,      starry,             3x3x3x3, single
+2024-07-21, 38WawBldyV4,       3m 24.49s, HSC,      pkearth,            3x3x3x3, single
+2024-07-22, Fm1dBBUwbLs,          33.64s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-22, PVww8kPylRk,       3m 16.53s, HSC,      pkearth,            3x3x3x3, single
+2024-07-22, 33R-XV2T0XI,       3m 37.45s, HSC,      pkearth,            3x3x3x3, ao5
+2024-07-22, CTL18w_P0tM,          27.61s, HSC,      bilal,              2x2x2x2, single
+2024-07-24, jp6avNb1fZ8,       4m 14.04s, HSC,      hana,               3x3x3x3, single
+2024-07-24, 2wH5N-l3h2c,          36.90s, HSC,      pkearth,            2x2x2x2, single
+2024-07-26, p3DsY-9Mb2s,       2m 58.39s, HSC,      edan,               3x3x3x3, single
+2024-07-26, S7rkq9_AlOE,       2m 58.63s, HSC,      pkearth,            3x3x3x3, single
+2024-07-22, BQyolccKzuQ,       9m 32.90s, HSC,      lorenzo,            3x3x3x3, single
+2024-07-26, 2-nBdJav20M,       2m 51.95s, HSC,      edan,               3x3x3x3, single
+2024-07-28, IkDqX2wQ9cE,          27.43s, HSC,      bilal,              2x2x2x2, single
+2024-07-28, hlRJo6TBKik,          33.33s, HSC,      bilal,              2x2x2x2, ao5
+2024-07-29, z2oc_AO-2Jw,      17m 21.08s, HSC,      pkearth,            4x4x4x4, single
+2024-07-31, C8ByQ-JbLbc,       3m 44.34s, HSC,      hana,               3x3x3x3, single
+2024-08-01, NMTRUd0wOmI,          28.76s, HSC,      pkearth,            2x2x2x2, single
+2024-08-01, kGOaKl9rOM8,          33.04s, HSC,      bilal,              2x2x2x2, ao5
+2024-08-01, RuuiG3_zNy0,          32.27s, HSC,      bilal,              2x2x2x2, ao5
+2024-08-03, UGpoE0RoHD8,          29.67s, HSC,      bilal,              2x2x2x2, ao5
+2024-08-04, EE4IM8hAt2k,      46m 15.86s, HSC,      pkearth,            5x5x5x5, single
+2024-08-04, C6yUjVocP2k,          26.64s, HSC,      bilal,              2x2x2x2, single
+2024-08-05, PSkPkEcAWOY,   1h 47m 49.66s, HSC,      pkmnhx,             4x4x4x4, single
+2024-08-06, F9iYf4om8ZM,      19m 40.53s, HSC,      pkmnhx,             3x3x3x3, single
+2024-08-06, HHY9gOnzm08,          26.03s, HSC,      bilal,              2x2x2x2, single
+2024-08-07, UCJDYBcuCRo,       3m 27.88s, HSC,      hana,               3x3x3x3, single
+2024-08-07, GtaZHRse5wI,          23.68s, HSC,      adam,               2x2x2x2, single
+2024-08-07, 5DkGWq7S97k,      13m 53.88s, HSC,      pkmnhx,             3x3x3x3, single
+2024-08-07, AvMbjW3tV-8,          52.23s, HSC,      rowan,              2x2x2x2, single
+2024-08-08, XiD2xbiGy3A,       3m 27.86s, HSC,      hana,               3x3x3x3, single
+2024-08-07, xPH68QBTRbw,      12m 12.18s, HSC,      pkmnhx,             3x3x3x3, single
+2024-07-28, nTSYJjxtg4Q,      56m 22.11s, -,        cubedude,           phys_3x3x3x3, single
+2024-08-08, uUIt8Rq4uNo,      11m 28.57s, HSC,      pkmnhx,             3x3x3x3, single
+2024-08-08, sxgg8vAXQR0,       7m 38.78s, HSC,      saturnb,            3x3x3x3, single
+2024-08-09, oiVYJYczxKU,      23m 32.99s, HSC,      pickle,             3x3x3x3, single
+2024-08-10, RVBV6WHCzQM,       4m 48.97s, HSC,      pkearth,            3x3x3x3, nf
+2024-08-10, ZV_jOaTjBXQ,      14m 49.79s, HSC,      pkearth,            4x4x4x4, single
+2024-08-10, wBpLPkfdu88,   1h 43m 49.67s, HSC,      pkearth,            6x6x6x6, single
+2024-08-11, _CCc0zQkGQE,       2m 49.79s, HSC,      pkearth,            3x3x3x3, single
+2024-08-11, eNbVimn3qfA,       2m 39.84s, HSC,      edan,               3x3x3x3, single
+2024-08-11, zc-ueLZ_W7U,          51.79s, HSC,      hana,               2x2x2x2, single
+2024-08-11, LVJfvjPVHjA,          24.23s, HSC,      bilal,              2x2x2x2, single
+2024-08-12, t-brIzc6498,       9m 45.95s, HSC,      pkmnhx,             3x3x3x3, single
+2024-08-12, wbV-7rfTVcM,      11m 41.36s, HSC,      pickle,             3x3x3x3, single
+2024-08-12, KsfLJr4YEbM,       6m 38.15s, HSC,      saturnb,            3x3x3x3, single
+2024-08-15, 7rd3QmM_cpw,          24.39s, HSC,      pkearth,            2x2x2x2, single
+2024-08-16, fg8blfmkkRc,          45.62s, HSC,      hana,               2x2x2x2, single
+2024-08-17, fG1_NzgsZGg,       3m 21.53s, HSC,      hana,               3x3x3x3, single
+2024-08-18, sBaiFSMX3fA,       4m 57.70s, HSC,      bilal,              3x3x3x3, single
+2024-08-19, vJzaqKGlNII,       3m 13.94s, HSC,      hana,               3x3x3x3, single
+2024-08-18, tWOsI5eacYQ,       9m 31.09s, HSC,      pickle,             3x3x3x3, single
+2024-08-20, 5TYeqgb9wz4,       8m 36.02s, HSC,      pickle,             3x3x3x3, single
+2024-08-21, aNYkD1qgaFE,       2m 57.88s, HSC,      hana,               3x3x3x3, single
+2024-08-22, m--Y3Vw-kZk,       7m 37.65s, HSC,      pickle,             3x3x3x3, single
+2024-08-23, ln9Vvz8iu-I,       4m 18.79s, HSC,      bilal,              3x3x3x3, single
+2024-08-23, ln9Vvz8iu-I,       4m 46.60s, HSC,      bilal,              3x3x3x3, ao5
+2024-08-24, OIuG6_-epM0,      37m 47.58s, HSC,      lorenzo,            4x4x4x4, single
+2024-08-26, JSAwgLe-quA,          33.13s, HSC,      pkearth,            2x2x2x2, ao5
+2024-08-25, QwTwlf71oAw,       6m 13.10s, HSC,      pickle,             3x3x3x3, single
+2024-08-26, pkfr79tQMdc,       2m 56.94s, HSC,      pkearth,            3x3x3x3, ao5
+2024-08-26, OX9EPvqK14Y,       2m 42.64s, HSC,      pkearth,            3x3x3x3, single
+2024-08-26, qbjMsa5MNNA,       5m 55.45s, HSC,      pickle,             3x3x3x3, single
+2024-08-26, 9ezwhiNEpLs,       6m 09.18s, HSC,      saturnb,            3x3x3x3, single
+2024-08-26, GGXjlxPX0RQ,       5m 25.61s, HSC,      pickle,             3x3x3x3, single
+2024-08-27, 7_VVAV5FdfI,       2m 37.72s, HSC,      pkearth,            3x3x3x3, single
+2024-08-28, ZyKgSwlFm2U,       2m 25.84s, HSC,      pkearth,            3x3x3x3, single
+2024-08-28, if0oCXMRvn8,          23.60s, HSC,      bilal,              2x2x2x2, single
+2024-08-28, Hp0X5t-ORvI,       5m 48.46s, HSC,      saturnb,            3x3x3x3, single
+2024-08-28, JwOSVS1z9Mo,          28.08s, HSC,      adam,               2x2x2x2, ao5
+2024-08-29, xMvxw2rjKws,          29.31s, HSC,      bilal,              2x2x2x2, ao5
+2024-08-30, tnbWk6mp8QE,      12m 19.98s, HSC,      pkearth,            4x4x4x4, single
+2024-08-31, Y2O2RP9WPrg,          29.16s, HSC,      pkearth,            2x2x2x2, ao5
+2024-08-31, uP2Qk581iJU,          22.60s, HSC,      pkearth,            2x2x2x2, single
+2024-08-31, lOy6bo-IksE,       2m 46.74s, HSC,      hana,               3x3x3x3, single
+2024-09-01, U8Z9p_q13aA,          28.03s, HSC,      pkearth,            2x2x2x2, ao5
+2024-09-01, psnpENIVAc4,          22.24s, HSC,      pkearth,            2x2x2x2, single
+2024-09-03, ug111Mtzc_Y,       7m 30.78s, HSC,      lorenzo,            3x3x3x3, single
+2024-09-05, JcEg3fOwwGg,          22.37s, HSC,      bilal,              2x2x2x2, single
+2024-09-06, Jij77_vPnwQ,          29.28s, HSC,      bilal,              2x2x2x2, ao5
+2024-09-06, lJld8u-LCoY,       2m 13.77s, HSC,      pkearth,            3x3x3x3, single
+2024-09-07, msZIsyaLE5M,          27.16s, HSC,      pkearth,            2x2x2x2, ao5
+2024-09-08, Ov3zPR8AOdc,          19.63s, HSC,      pkearth,            2x2x2x2, single
+2024-09-08, eWyhhs7PG5s,          26.88s, HSC,      pkearth,            2x2x2x2, ao5
+2024-09-08, RHrWgER6ZDI,       5m 22.34s, HSC,      saturnb,            3x3x3x3, single
+2024-09-04, cb1F7I9qRRM,       8m 48.58s, HSC,      pkmnhx,             3x3x3x3, single
+2024-09-11, KvHy5XuSuTU,          22.15s, HSC,      bilal,              2x2x2x2, single
+2024-09-10, lPSYgya2jAw,       4m 36.20s, HSC,      bilal,              3x3x3x3, ao5
+2024-09-10, lPSYgya2jAw,       4m 14.99s, HSC,      bilal,              3x3x3x3, single
+2024-09-08, Q1z6BzuY16c,       1m 06.25s,   -,      cubedude,           phys_2x2x2x2, ao5
+2024-09-13, Qve-KVUZ58U,       2m 26.91s, HSC,      pkearth,            3x3x3x3, ao5
+2024-09-06, LelK4k5Nvdo,          28.76s, HSC,      bilal,              2x2x2x2, ao5
+2024-09-07, T7djMVWWHak,          28.48s, HSC,      bilal,              2x2x2x2, ao5
+2024-09-14, LooXBLA9IOs,          25.38s, HSC,      pkearth,            2x2x2x2, ao5
+2024-09-14, QPl5uU-iKg0,       2m 11.53s, HSC,      pkearth,            3x3x3x3, single
+2024-09-14, bDKGJ_89Kpw,          56.54s, -,        cubedude,           phys_2x2x2x2, single
+2024-09-15, njrkbjfdSuw,       7m 17.38s, HSC,      pkmnhx,             3x3x3x3, single
+2024-09-17, iNMw3nY-FKE,          28.42s, HSC,      bilal,              2x2x2x2, ao5
+2024-09-17, nkr6tfaK24Y,          25.86s, HSC,      bilal,              2x2x2x2, ao5
+2024-09-17, _a8uKn2lGu4,       4m 12.15s, HSC,      bilal,              3x3x3x3, single
+2024-09-18, sUfL6vW1Z5w,       3m 54.56s, HSC,      bilal,              3x3x3x3, single
+2024-09-18, Xp4WbNgObHM,          22.12s, HSC,      bilal,              2x2x2x2, single
+2024-09-19, zxwIgA9tEig,          21.43s, HSC,      bilal,              2x2x2x2, single
+2024-09-19, t9Zs-J3YEZo,       3m 43.43s, HSC,      bilal,              3x3x3x3, single
+2024-09-22, wv0gHvruC8g,          53.03s, -,        cubedude,           phys_2x2x2x2, single
+2024-09-23, YC9w4yWsLQE,      22m 32.81s, MT,       ethandavis,         klein_quartic, single
+2024-09-26, vp6dVWmdwls,       3m 32.53s, HSC,      bilal,              3x3x3x3, single
+2024-10-01, tAgPI6YDu7E,          24.65s, HSC,      pkearth,            2x2x2x2, ao5
+2024-10-04, tTsHV2cwHXk,          39.38s, HSC,      hana,               2x2x2x2, single
+2024-10-09, sbF9DVDKf1E,       2m 38.34s, HSC,      hana,               3x3x3x3, single
+2024-10-14, 8Wv7f9aFoxg,       4m 58.94s, HSC,      saturnb,            3x3x3x3, single
+2024-10-19, C13joMPglNM,          20.10s, HSC,      bilal,              2x2x2x2, single
+2024-10-29, va_n1hNF-JA,       4m 44.95s, HSC,      josie,              3x3x3x3, single
+2024-11-02, oDjopG95Nfs,          27.07s, HSC,      hana,               2x2x2x2, single
+2024-11-05, ZNdXwNTmHLg,      14m 35.10s, HSC,      hana,               4x4x4x4, single
+2024-11-15, HXwvg3721wM,          24.81s, HSC,      bilal,              2x2x2x2, ao5
+2024-11-19, vLvTrBd9gtY,          19.67s, HSC,      bilal,              2x2x2x2, single
+2024-11-19, 5oTr0T0S7N4,       3m 41.68s, HSC,      josie,              3x3x3x3, single
+2024-11-25, Fc82rpAOGUs,       2m 37.72s, HSC,      hana,               3x3x3x3, single
+2024-12-02, AkspwP7sJlQ,       3m 36.12s, HSC,      josie,              3x3x3x3, single
+2024-12-03, XEpBTxd6_No,          18.79s, HSC,      bilal,              2x2x2x2, single
+2024-10-12, 244YViSe-WY,      10m 12.77s, MC4D,     kliu,               2x2x2x2, bld
+2024-12-07, TDz_2iUzB0g,       3m 21.95s, HSC,      josie,              3x3x3x3, single
+2024-12-09, GypvcgDXLCU,          24.43s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-09, rGaIwxK5tys,       3m 33.63s, HSC,      rowan,              3x3x3x3, single
+2024-12-09, ufyuqroauv0,       3m 25.85s, HSC,      rowan,              3x3x3x3, single
+2024-12-10, DGarT7uyIwE,       3m 25.05s, HSC,      rowan,              3x3x3x3, single
+2024-12-10, i4MyfeXNHs4,       3m 24.58s, HSC,      rowan,              3x3x3x3, single
+2024-12-11, beAUY_kzO4M,          23.71s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-12, qA4BV6RQGZs,       2m 30.03s, HSC,      hana,               3x3x3x3, single
+2024-12-13, jtpQR1Gwq18,          18.21s, HSC,      bilal,              2x2x2x2, single
+2024-12-13, qRTIkEQ5dEU,          16.31s, HSC,      bilal,              2x2x2x2, single
+2024-12-14, -u6STfm7oeI,       4m 25.82s, HSC,      saturnb,            3x3x3x3, single
+2024-12-16, QX9X-ZKk2KM,          23.53s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-17, lV_kY6NlgFw,          23.45s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-21, uLSYAbjj2AQ,          23.41s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-21, 6PZ8UU7heJo,          22.73s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-22, suWoO0aKVdA,          49.57s, -,        cubedude,           phys_2x2x2x2, single
+2024-12-23, 74RngltAGHU,       3m 28.96s, HSC,      nenri,              3x3x3x3, single
+2024-12-23, d_slVtr5if8,       3m 20.35s, HSC,      nenri,              3x3x3x3, single
+2024-12-24, 5TZEt8wcgrI,          31.58s, -,        cubedude,           phys_2x2x2x2, single
+2024-12-26, 4aO2EGDl4ls,          22.39s, HSC,      bilal,              2x2x2x2, ao5
+2024-12-27, LavEIkVXQLE,          59.89s, -,        cubedude,           phys_2x2x2x2, ao5
+2024-12-28, qu9EeirJkds,       2m 29.64s, HSC,      hana,               3x3x3x3, single
+2024-12-30, qFY6j7lAu1M,       9m 06.20s, HSC,      gstout,             3x3x3x3, single
+2024-12-31, 902oFaSYGdo,       3m 14.12s, HSC,      josie,              3x3x3x3, single
+2024-12-31, 6OUuA9mL7AY,       3m 07.21s, HSC,      josie,              3x3x3x3, single
+2025-01-02, S1mfwJeTyLs,       2m 59.81s, HSC,      nenri,              3x3x3x3, single
+2025-01-01, Nti2jYxaq3I,       3m 06.95s, HSC,      josie,              3x3x3x3, single
+2025-01-02, 1JWeSMu6zEs,       3m 06.88s, HSC,      josie,              3x3x3x3, single
+2025-01-02, 6wJ9fMFJCGM,       2m 55.67s, HSC,      josie,              3x3x3x3, single
+2025-01-03, 1hbKJDbvQd0,       2m 54.18s, HSC,      josie,              3x3x3x3, single
+2025-01-04, dRIqNq7OiDI,          21.84s, HSC,      bilal,              2x2x2x2, ao5
+2025-01-05, QVFqRnkALVM,          20.63s, HSC,      bilal,              2x2x2x2, ao5
+2025-01-08, nu8QztEdGLs,       2m 51.22s, HSC,      nenri,              3x3x3x3, single
+2025-01-12, WqHuBpiUg_k,       2m 43.49s, HSC,      nenri,              3x3x3x3, single
+2025-01-14, fgvPZZk83GM,       2m 22.71s, HSC,      hana,               3x3x3x3, single
+2025-01-14, jNKjZoHTH7k,       3m 23.43s, HSC,      rowan,              3x3x3x3, single
+2025-01-18, skN6skAe4ag,       2m 39.05s, HSC,      nenri,              3x3x3x3, single
+2025-01-18, mq-Mp5Mv4cg,       3m 10.89s, HSC,      rowan,              3x3x3x3, single
+2025-01-19, SF-Jeax9bII,       7m 17.25s, HSC,      vin,                3x3x3x3, single
+2025-01-19, O5jDGq5Mx1Q,       2m 52.08s, HSC,      josie,              3x3x3x3, single
+2025-01-22, uOOD6A1FPYc,       2m 50.96s, HSC,      josie,              3x3x3x3, single
+2025-01-22, lkU0M9Ad2io,       2m 32.00s, HSC,      josie,              3x3x3x3, single
+2025-01-22, _TY8LIE1hLQ,       3m 00.31s, HSC,      rowan,              3x3x3x3, single
+2025-01-23, VC8ptyFzTG4,   3h 00m 53.86s, HSC,      cubedude,           7x7x7x7, single
+2025-01-24, H2l1ETdKZhQ,      12m 28.54s, HSC,      cali,               3x3x3x3, single
+2025-01-22, MhKeXWYXi7E,      12m 09.88s, HSC,      jessica,            3x3x3x3, single
+2025-01-24, qOIvzOe5BkI,          20.49s, HSC,      bilal,              2x2x2x2, ao5
+2025-01-26, R7-6i1LyiHc,       8m 17.12s, HSC,      jessica,            3x3x3x3, single
+2025-01-26, ee8L51bDFH4,       2m 29.95s, HSC,      josie,              3x3x3x3, single
+2025-01-31, YDE-g3dp_TU,          20.18s, HSC,      bilal,              2x2x2x2, ao5
+2025-01-31, whEhoB2KpIM,          16.06s, HSC,      bilal,              2x2x2x2, single
+2025-01-31, AJZjTSM27bE,       2m 26.86s, HSC,      josie,              3x3x3x3, single
+2025-02-01, hDBiA3bfY34,      18m 47.49s, MT,       nenri,              klein_quartic, single
+2025-02-01, 4gBy8fQUZ28,      17m 28.64s, MT,       ethandavis,         klein_quartic, single
+2025-01-31, AxhN00XyUnM,       2m 10.38s, HSC,      nenri,              3x3x3x3, single
+2025-02-05, iw28pm_REmc,          15.43s, HSC,      bilal,              2x2x2x2, single
+2025-02-08, FzEFmGHZy8g,       2m 20.83s, HSC,      josie,              3x3x3x3, single
+2025-02-08, BUctHT8xS2c,       2m 17.40s, HSC,      josie,              3x3x3x3, single

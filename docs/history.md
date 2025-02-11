@@ -13,11 +13,13 @@ Shortly after the Rubik's Cube was invented in 1974, people began thinking about
 
 ## 2002-Present: Mailing List Years
 
-In August 2003, the Hypercubing Yahoo Groups mailing list was created. Anyone could subscribe to the list and join the discussion via email. This greatly improved the speed of sharing knowledge. Many new people joined and discussed methods, puzzles, and even had some speedsolving competitions! It was moderately active, up until Yahoo groups began removing past content in 2019. Click [here](https://hypercubing-archive.gitlab.io/) to view an archive of all the past messages. After that, the Hypercubing Google Groups mailing list was created, with pretty much the same members and type of discussions as before. It wasn't until 2021 that a Discord server was created to speed up communication even more.
+In August 2003, the Hypercubing Yahoo Groups mailing list was created. Anyone could subscribe to the list and join the discussion via email. This greatly improved the speed of sharing knowledge. Many new people joined and discussed methods and puzzles, and even had some speedsolving competitions! It was moderately active until Yahoo groups began removing content in 2019. Nowadays, there is an [archive](https://hypercubing-archive.gitlab.io/) of the messages from the Yahoo Groups mailing list.
+
+After the end of the Hypercubing Yahoo Groups mailing list, the Hypercubing Google Groups mailing list was created, with pretty much the same members and type of discussions as before. It wasn't until 2021 that a Discord server was created to speed up communication even more.
 
 ## 2010-2017: Andrey's Influence
 
-[Andrey Astrelin](https://superliminal.com/andrey/) was a Russian programmer that became known to the hypercubing community when he claimed to have programmed and solved a 3^4^ before MC4D was created in 1988. He had no proof for this, but was able to program a new simulator in only 129 lines of code, which certified his legitimacy. Andrey's main legacy came in the form of creating many programs for the community, including [Magic Puzzle Ultimate](/software/magicpuzzleultimate.md), Magic Cube 7D, Magic Simplex 5D, and Magic Hyperbolic Tile. These programs unlocked a massive amount of higher dimensional puzzles that were probably never seen or solved before, enriching the hypercubing community. Unfortunately Andrey passed away in 2017[^1], but his contributions to the hypercubing community will never be forgotten.
+[Andrey Astrelin](https://superliminal.com/andrey/) was a Russian programmer that became known to the hypercubing community when he claimed to have programmed and solved a 3^4^ before MC4D was created in 1988. He had no evidence for this claim, but was able to program a new simulator in only 129 lines of code, which certified his legitimacy. Andrey's main legacy came in the form of creating many programs for the community, including [Magic Puzzle Ultimate](/software/magicpuzzleultimate.md), Magic Cube 7D, Magic Simplex 5D, and Magic Hyperbolic Tile. These programs unlocked a massive amount of higher dimensional puzzles that were probably never seen or solved before, enriching the hypercubing community. Unfortunately Andrey passed away in 2017[^1], but his contributions to the hypercubing community will never be forgotten.
 
 ## 2017-Present: Making Physical 4D Puzzles
 
@@ -41,7 +43,7 @@ In late 2021, some speculation began as to if you could expand the physical 2^4^
 
 ## 2022-Present: The Hyperspeedsolving Revolution
 
-In late 2021 [Hactar](/leaderboards/solvers/hactar.md) began working on the [Hyperspeedcube](/software/hyperspeedcube.md) program, which was a massive upgrade over older programs like MC4D. Features like piece filters and customizable keybinds were instrumental to lowering solving times. November 2022 saw the beginning of the race for the 3^4^ world record. The record was traded almost exclusively by Grant and Hactar, smashing all the barriers from sub-10 minutes all the way down to sub-2! There were also a few smaller record races for bigger layered n^4^s.
+On 2021 Jun 10, Rowan Fortier created the Hypercubers Discord server, and in late 2021 [Hactar](/leaderboards/solvers/hactar.md) began working on the [Hyperspeedcube](/software/hyperspeedcube.md) program, which was a massive upgrade over older programs like MC4D. Features like piece filters and customizable keybinds were instrumental to lowering solving times. November 2022 saw the beginning of the race for the 3^4^ world record. The record was traded almost exclusively by Grant and Hactar, smashing all the barriers from sub-10 minutes all the way down to sub-2 minutes! There were also a few smaller record races for bigger layered n^4^s.
 
 In early 2024, the first speedsolves of the 3^5^ were done. A lot of hypercubers were waiting for HSC 2 to come out so they could use keybinds and better piece filters to solve in 5D, but using MC7D or MPU isn't that bad at all.
 
@@ -57,4 +59,4 @@ In early 2024, the first speedsolves of the 3^5^ were done. A lot of hypercubers
 - **2022 Dec 22:** First 3^4^ sub-3:00 by Hactar
 - **2023 May 13:** First 3^4^ sub-2:00 by Hactar
 
-[^1]: Read Andrey's biography [here](https://superliminal.com/andrey/biography.html)
+[^1]: Read [Andrey's biography](https://superliminal.com/andrey/biography.html)

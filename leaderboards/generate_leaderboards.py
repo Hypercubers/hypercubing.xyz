@@ -16,7 +16,9 @@ COLUMNS_ORDER = [
     'date',
     'program',
 ]
-COLUMNS_INFO = lambda event: {
+
+
+def COLUMNS_INFO(event): return {
     'event': ("Event", ':---'),
     'rank': ("Rank", '---:'),
     'solver': ("Name", ':--:'),
@@ -25,44 +27,70 @@ COLUMNS_INFO = lambda event: {
     'program': ("Program", ':--:'),
 }
 
-# it does some funny business
+
 def recode(s):
-    #return s.encode('cp1252').decode('utf8') # it worked on my machine :'
+    # return s.encode('cp1252').decode('utf8') # it worked on my machine :'
     return s
+
 
 def get_template(filename):
     with open(f'leaderboards/templates/{filename}') as f:
         return f.read()
 
 
-def format_time(duration) -> str: # duration: timedelta | int
+def format_time(duration) -> str:  # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
+
+    # gets the time in a short format (ex: 8:48:23.15)
+    # converts duration into a string. Then it chops off leading 0's because a TimeDelta object has those for some reason 
+    shortTime = str(duration)
+    if (shortTime.find(".") != -1):   # if the string has a decimal point
+        shortTime = shortTime[0:-4] # chop off the extra four 0's at the end if the time includes a non-integer number of seconds
+    if (shortTime.find(".") == -1):   # if the string does not have a decimal point, add ".00" to the end
+        shortTime += ".00"
+
+    while shortTime[0:1] == "0":  # while there are leading 0's to chop off
+        shortTime = shortTime[1:len(shortTime)]   # chop off leading 0
+        if shortTime[0:1] == ":":             # if next character is a colon
+            shortTime = shortTime[1:len(shortTime)]   # chop off colon
+
+    returnString = "<a class='shorttime'>" + shortTime + "</a><a class='longtime'>"
+
+    # code for geting time string in long format (ex: 8h 4m 32s 592ms)
     def unit(s):
         return f'<small>{s}</small>'
 
+    # this is if duration is actually FMC movecount, I think
     if isinstance(duration, int):
-        return f"{duration:,}".replace(',','\u2009')
+        return f"{duration:,}".replace(',', '\u2009')
 
-    millis = int(duration.total_seconds() * 1000)
+    millis = int(round(duration.total_seconds() * 1000))
     seconds, millis = divmod(millis, 1000)
     millis_str = f"{millis:03}{unit('ms')}"
 
     minutes, seconds = divmod(seconds, 60)
     if minutes == 0:
-        return f"{seconds}{unit('s')} {millis_str}"
+        longTime = f"{seconds}{unit('s')} {millis_str}"
+        return [longTime, shortTime]
     seconds_str = f"{seconds:02}{unit('s')}"
 
     hours, minutes = divmod(int(minutes), 60)
     if hours == 0:
-        return f"{minutes}{unit('m')} {seconds_str} {millis_str}"
+        longTime = f"{minutes}{unit('m')} {seconds_str} {millis_str}"
+        return [longTime, shortTime]
     minutes_str = f"{minutes:02}{unit('m')}"
 
     days, hours = divmod(int(hours), 24)
     if days == 0:
-        return f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+        longTime = f"{hours}{unit('h')} {minutes_str} {seconds_str} {millis_str}"
+        return [longTime, shortTime]
     hours_str = f"{minutes:02}{unit('h')}"
 
-    return f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',','\u2009')
+    longTime = f"{days:,}{unit('d')} {hours_str} {minutes_str} {seconds_str} {millis_str}".replace(',', '\u2009')
+    # return "<p class='shorttime'>" + shortTime + "</p><p class='longtime'>" + longTime + "</p>"
+    # return returnString + longTime + "</a>"
+    return [longTime, shortTime]
+
 
 
 class Solve:
@@ -80,8 +108,8 @@ class Solve:
         else:
             self.link = link
         self.time = parse_time(time)
-        #self.puzzle = puzzles[puzzle]
-        #self.format = formats[format]
+        # self.puzzle = puzzles[puzzle]
+        # self.format = formats[format]
         self.event = puzzles[puzzle]['events'][format]
         self.solver = solvers[solver]
         self.program = program
@@ -90,7 +118,7 @@ class Solve:
         formatted_time = format_time(self.time)
         self._cell_contents = {
             'date': self.date,
-            'time': f'[{formatted_time}]({self.link})' if link else formatted_time,
+            'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a style=\'display: none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
             'solver': f'[{self.solver.name}]({self.solver.relative_file_path})',
@@ -101,12 +129,6 @@ class Solve:
             if self.rank is None:
                 return ''
             emoji = ''
-            # if 1 <= self.rank <= 3:
-            #     emoji = [
-            #         ':first_place: ',
-            #         ':second_place: ',
-            #         ':third_place: ',
-            #     ][self.rank-1]
             if self.rank == 1:
                 emoji = ':trophy-gold-hypercube: '
             elif self.rank == 2:
@@ -171,6 +193,7 @@ with open('leaderboards/solvers.yml') as file:
 with open('leaderboards/formats.yml') as file:
     formats = yaml.load(file.read(), Loader=yaml.Loader)
 
+
 def populate_puzzles(tab):
     if 'name' not in tab:
         raise Exception(f'tab {tab} has no name')
@@ -178,9 +201,10 @@ def populate_puzzles(tab):
         for subtab in tab['contents']:
             populate_puzzles(subtab)
     elif 'puz' in tab:
-        puzzles[tab['puz']] = {'name':recode(tab['name'])}
+        puzzles[tab['puz']] = {'name': recode(tab['name'])}
     else:
         raise Exception(f"missing 'contents' or 'puz' in tab {tab['name']}")
+
 
 # Load tabs and puzzles from YAML and create events
 with open('leaderboards/tabs.yml') as tabs_file:
@@ -189,7 +213,10 @@ with open('leaderboards/tabs.yml') as tabs_file:
     for tab in tab_config:
         populate_puzzles(tab)
     for puzzle in puzzles:
-        puzzles[puzzle]['events'] = {format: Event(puzzle, format, f'{puzzles[puzzle]["name"]} {formats[format]["name"]}') for format,data in formats.items()}
+        puzzles[puzzle]['events'] = {
+            format: Event(puzzle, format, f'{puzzles[puzzle]["name"]} {formats[format]["name"]}') for format, data in formats.items()
+        }
+
 
 def parse_time(s):
     if m := re.match(r'(\d+)mv', s):
@@ -269,7 +296,8 @@ def make_tabbed_leaderboards(tab_config, make_tab_contents, *, indent=0) -> str:
         elif 'format' in tab:
             tab_contents = make_tab_contents(tab, indent=indent)
         elif 'puz' in tab:
-            subtabs = [{**tab, 'format':f, **format} for f,format in formats.items()]
+            subtabs = [{**tab, 'format': f, **format}
+                       for f, format in formats.items()]
             tab_contents = make_tabbed_leaderboards(
                 subtabs,
                 make_tab_contents,
@@ -277,7 +305,6 @@ def make_tabbed_leaderboards(tab_config, make_tab_contents, *, indent=0) -> str:
             )
         else:
             raise Exception(f'not a valid tab {tab}')
-
 
         if not tab_contents:
             continue

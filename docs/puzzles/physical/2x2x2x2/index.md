@@ -38,7 +38,7 @@ Because of all this recognition, many new people bought the puzzle, but it was s
     Read this section of [Melinda's website](https://superliminal.com/cube/2x2x2x2/#how).
 
 
-## How Does it Work?
+## How Does the Physical 2x2x2x2 Work?
 
 !!! example "Animations showing how the virtual and physical 2^4^ transform into each other"
     <center>
@@ -46,8 +46,8 @@ Because of all this recognition, many new people bought the puzzle, but it was s
     ![Physical to virtual 2×2×2×2 transformation 2](https://assets.hypercubing.xyz/img/phys/melinda_2x2x2x2_anim2.gif){width="40%"}
     </center>
 
-Each twist and rotation on the virtual 2^4^ is possible to do on the physical puzzle, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves.md) page for a more detailed explanation.
+Each twist and rotation on the virtual 2^4^ is possible to do on the physical 2^4^, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves.md) page for a more detailed explanation.
 
-Also see Melinda's [video](https://www.youtube.com/watch?v=DzRH8BOJL8Q) on the official canonical moves.
+Also see Melinda's [shorter video](https://www.youtube.com/watch?v=DzRH8BOJL8Q) on the official canonical moves.
 
-In December of 2017, Melinda made a [video](https://www.youtube.com/watch?v=_D4m1Kit3TI) fully explaining the puzzle, including its canonical moves, scrambling, and more.
+In December of 2017, Melinda made a [longer video](https://www.youtube.com/watch?v=_D4m1Kit3TI) fully explaining the puzzle, including its canonical moves, scrambling, and more.

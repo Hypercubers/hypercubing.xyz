@@ -14,21 +14,21 @@ A 1-dimensional turning axis is not always well-defined for higher-dimensional p
 ### Polytope elements
 
 For an $N$-dimensional polytope:
+(Some of these terms are from [Polytope - Wikipedia](https://en.m.wikipedia.org/wiki/Polytope#Elements))
 
 - **vertex** = rank 0, single point
 - **edge** = rank 1, line connecting two vertices
 - **face** = rank 2, polygon constructed from edges
 - **cell** = rank 3, polyhedron constructed from faces
 - ...
-- **$n$-face** = rank $n$, polytope constructed from rank $n-1$ elements
-- ...
+- **$N$-face** = rank $N$, polytope constructed from rank $N-1$ elements
+- **peak** = $N-3$ face
+- **ridge** = $N-2$ face
 - **facet** = rank $N-1$, polytope constructed from rank $N-2$ elements
 
 In 4D, we prefer **facet** rather than **cell**. In simple terms: on most puzzles, a **facet** is the thing with a single color.
 
 ### Pieces
-
-Some of these terms are from [Polytope - Wikipedia](https://en.m.wikipedia.org/wiki/Polytope#Elements).
 
 Basic definitions for an $N$-dimensional hypercubic puzzle:
 
@@ -57,7 +57,7 @@ An **action** is sequence of moves that preserves invariants of the stage. Usual
 There is no community consensus on the definitions of **parity**. Below are some proposed definitions:
 
 - **group theory parity** = a case where the puzzle is in an unexpected [coset](https://en.wikipedia.org/wiki/Coset) of a subgroup of index 2
-    - It is often more broady applied to a case where the puzzle is in an unexpected coset of a subgroup of any index.
+    - It is often more broadly applied to a case where the puzzle is in an unexpected coset of a subgroup of any index.
 - **cuber parity** = a case that is difficult to solve that the solver didn't expect
     - Melinda's definition: a local maximum, where the puzzle is largely solved but requires many moves to fix
     - Hactar's definition: a case which cannot be solved using the [actions](#actions) expected at this stage in the solve
@@ -120,9 +120,9 @@ The **base sticker** of a head is the sticker which will be facing the base axis
 
 ### Methods in higher dimensions
 
-In higher and higher dimensions, it gets annoying to have to say stuff like "permuting the last cell of the last cell of the..." etc. To avoid this, we simply add a hyphen and the rank of the thing you're solving at the end. Examples:
+In higher and higher dimensions, it gets annoying to have to say stuff like "permuting the last cell of the last cell of the..." etc. To avoid the verbosity, we simply add a hyphen and the rank of the thing you're solving at the end. Examples:
 
-- PLL-4 is the PLL step on a rank-4 object, which permutes a rank-3 object. With CFOP on 3^4^, it consists of permuting the 2c's, then permuting the rest like a 3^3^.
+- PLL-4 is the PLL step on a rank-4 object, which permutes a rank-3 object. With CFOP on 3^4^, it consists of permuting the 2c pieces, then permuting the rest like a 3^3^.
 - For F2L, you put the number before the letter at the end e.g. F2L-5a, F2L-6d, etc.
 - If you were solving a 3^6^ with pure CFOP and you were solving the F2L of the final cube with triple RKT, that would be F2L-3 of PLL-4 of PLL-5 of PLL-6.
 

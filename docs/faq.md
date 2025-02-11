@@ -19,8 +19,11 @@ hide: [navigation, toc]
     - [Where can I interact with other hypercubers?](#where-can-i-interact-with-other-hypercubers)
 - [Virtual puzzles](#virtual-puzzles)
     - [What program should I download?](#what-program-should-i-download)
-    - [How do I learn to solve 3×3×3×3?](#how-do-i-learn-to-solve-the-3333)
+    - [How do I learn to solve the 3×3×3×3?](#how-do-i-learn-to-solve-the-3333)
+    - [Is it always possible to solve a 1-move scramble in one move?](#is-it-always-possible-to-solve-a-1-move-scramble-in-one-move)
+    - [I can't solve a 4-move scramble!](#i-cant-solve-a-4-move-scramble)
     - [What methods exist for the 3×3×3×3?](#what-methods-exist-for-the-3333)
+    - [How do I start learning to solve 4D puzzles?](#how-do-i-start-learning-to-solve-4d-puzzles)
     - [Why not start with the physical 2×2×2×2?](#why-not-start-with-the-physical-2222)
     - [Why not start with the virtual 2×2×2×2?](#why-not-start-with-the-virtual-2222)
     - [What is God's number for \[puzzle\]?](#what-is-gods-number-for-puzzle)
@@ -36,18 +39,20 @@ hide: [navigation, toc]
     - [I get an error when I try to run Hyperspeedcube](#i-get-an-error-when-i-try-to-run-hyperspeedcube)
     - [How do I use keybinds in Hyperspeedcube?](#how-do-i-use-keybinds-in-hyperspeedcube)
     - [How do I use piece filters in Hyperspeedcube?](#how-do-i-use-piece-filters-in-hyperspeedcube)
-- [Hyperspeedcube 2](#hyperspeedcube-2)
+- [Hyperspeedcube 2](#hyperspeedcube)
     - [When will Hyperspeedcube 2 be ready?](#when-will-hyperspeedcube-2-be-ready)
     - [What features are planned for Hyperspeedcube 2?](#what-features-are-planned-for-hyperspeedcube-2)
     - [Does Hyperspeedcube 2 have \[feature\] yet?](#does-hyperspeedcube-2-have-feature-yet)
     - [Can I download the latest development build?](#can-i-download-the-latest-development-build)
-    - [I'm having troubling with Hyperspeedcube 2?](#im-having-troubling-with-hyperspeedcube-2)
+    - [I'm having trouble with Hyperspeedcube 2?](#im-having-trouble-with-hyperspeedcube-2)
     - [Where can I follow the latest development updates?](#where-can-i-follow-the-latest-development-updates)
 - [Speedsolving](#speedsolving)
     - [What are the speedsolving records for 4D puzzles?](#what-are-the-speedsolving-records-for-4d-puzzles)
     - [Why not use speedrun.com?](#why-not-use-speedruncom)
     - [I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?](#i-dont-know-full-ollpllzblletc-can-i-still-get-fast-at-4d)
     - [What 4D algorithms are there?](#what-4d-algorithms-are-there)
+    - [How can I get faster at solving 3x3x3x3?](#how-can-i-get-faster-at-solving-3x3x3x3)
+    - [How could the 3x3x3x3 record be improved?](#how-could-the-3x3x3x3-record-be-improved)
 - [Does this puzzle exist?](#does-this-puzzle-exist)
     - [2D Rubik's Cube](#2d-rubiks-cube)
     - [4D Square-1](#4d-square-1)
@@ -80,7 +85,7 @@ Before the Google Group or Discord server, there was a Yahoo Groups mailing list
 
 ### What program should I download?
 
-See the [software](/software/index.md) page for a list of hypercubing software and feature comparisons.
+For getting started, we recommend [Hyperspeedcube](https://hypercubing.xyz/software/hyperspeedcube/). See the [software](/software/index.md) page for a list of hypercubing software and feature comparisons.
 
 ### How do I learn to solve the 3×3×3×3?
 
@@ -88,12 +93,23 @@ We _highly_ recommend that you figure out how to solve the 3^4^ on your own. It'
 
 1. Learn how to solve a 3×3×3, ideally intuitively. There are plenty of tutorials online, although you should try it on your own first. It's a good challenge!
 2. Download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or use the [web version](https://hypercubing.xyz/hyperspeedcube/).
-3. Follow this video to get aquainted with the program:
+3. Follow this video to get acquainted with the program:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/drrTFs11sYQ?si=SC-PcLc7OWK0CR4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Once you feel comfortable solving 3^3^ from a full scramble and 3^4^ from a 1-move scramble, you know everything you need to do a full solve. If you get stuck, you can ask for help on the [Hypercubers Discord server].
 
+### Is it always possible to solve a 1-move scramble in one move?
+
+Well yes, but actually no. 
+
+It is always possible to solve in one twist, but that twist may require multiple clicks or holding down number keys to select inner layers. Don't worry about solving 1-move scrambles with one click, as long as you can solve them **confidently**. You want to be able to look at a 1-move scramble and immediately know exactly what to do to solve it, even if it takes multiple clicks.
+
+### I can't solve a 4-move scramble!
+
+Neither can we! The purpose of solving partial scrambles is to gain confidence with how single turns work and how to control the software. 1-move scrambles are enough for this; solving 2-move or 3-move or 4-move scrambles is a fun challenge but will not bring you any closer to a full solve.
+
+**If you can confidently solve 1-move scrambles, then you're ready for a full scramble.**
 
 ### What methods exist for the 3×3×3×3?
 
@@ -104,6 +120,8 @@ Many 3D methods can just be scaled up and used on the 4D cube. Some notable meth
 - [CFOP](/methods/3x3x3x3/cfop.md)
 - [3-Block](/methods/3x3x3x3/3block.md) (4D FreeFOP)
 - [Octachoroux](/methods/3x3x3x3/octachoroux.md) (4D Roux)
+
+As of 2024, 3-Block is the most popular speedsolving method and what's used in the world record, but CFOP is also competitive.
 
 ### How do I start learning to solve 4D puzzles?
 
@@ -159,7 +177,7 @@ Melinda's 2^4^ is the only physical puzzle for sale. The physical 3^4^ and hyper
 
 ### Can I download 3D files for the physical 2×2×2×2?
 
-No. Melinda has put a _lot_ of work into her physical 2^4^ designs, and invested quite a bit of her own capital into selling prototypes at a loss and getting them mass-produced, so we respect her wishes to not make those files public. If you want to create your own files modeling Melinda's physical 2^4^ and 3D print them, that is fine, but we ask that you do not make the files avaliable for download unless Melinda is OK with it.
+No. Melinda has put a _lot_ of work into her physical 2^4^ designs, and invested quite a bit of her own capital into selling prototypes at a loss and getting them mass-produced, so we respect her wishes to not make those files public. If you want to create your own files modeling Melinda's physical 2^4^ and 3D print them, that is fine, but we ask that you do not make the files available for download unless Melinda is OK with it.
 
 ### What physical 4D puzzles have been built?
 
@@ -181,11 +199,11 @@ See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooti
 
 ### How do I use keybinds in Hyperspeedcube?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yRt5DVqjnEo?si=UF-_6gf6VgM41Nnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yRt5DVqjnEo?si=UF-_6gf6VgM41Nnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### How do I use piece filters in Hyperspeedcube?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Hyperspeedcube 2
 
@@ -193,7 +211,7 @@ See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooti
 
 ### When will Hyperspeedcube 2 be ready?
 
-When it's done.
+When it's done. Hopefully before summer 2025.
 
 ### What features are planned for Hyperspeedcube 2?
 
@@ -207,7 +225,7 @@ See [Hactar's website][ajfarkas-hsc2].
 
 You can access the latest development builds either by [donating to Hactar on Ko-fi](https://ko-fi.com/ajfarkas) (any amount one time should work) or [building it yourself from the source code](https://github.com/HactarCE/Hyperspeedcube/blob/main/BUILDING.md), which takes some time to set up but generally isn't too hard.
 
-### I'm having troubling with Hyperspeedcube 2?
+### I'm having trouble with Hyperspeedcube 2?
 
 **Please do not ask Hactar for help building or using development builds of Hyperspeedcube 2** unless the build on Ko-fi is broken. Everything in the program is subject to change, and any time spent helping an individual user is time that could instead be spent writing documentation.
 
@@ -231,9 +249,44 @@ Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and we
 
 Absolutely! Most 4D speed methods are highly intuitive, and world-record times often use just 2-look OLL and PLL. Executing algorithms is a very negligible part of the solve compared to the massive amounts of pair or block building.
 
+!!! quote "Hactar (mid-2024)"
+
+    Ok I actually ran the numbers:
+
+    - My [2:05.30 WR solve had full-step 2-look OLL + 2-look PLL](<https://www.youtube.com/watch?v=PtXvGfoezWs&t=2m09s>) and took **8 seconds**
+    - My [1:56.42 WR solve had an easy full OLL (OCLL skip) + U perm (CPLL skip)](<https://www.youtube.com/watch?v=SrrmSdtOt14&t=2m02s>) and took **4 seconds**
+
+    Consider that the second solve is basically the _best case_ for a 2-look last layer (the goal of full OLL+PLL), using algorithms that have really nice RKT cancels and are easy to execute with my keybinds _and I've practiced them a ton_, but it was still only 4 seconds faster, which is ~2% of the total solve. Additionally, my experience is that it takes _much_ more practice to execute 4D algorithms at max speed with a keyboard compared to executing 3D algorithms at max speed on a 3^3.
+
+    Based on all that, I can confidently say **I don't think full OLL+PLL will ever be meaningfully better than RKT-canceled 2-look OLL + 2-look PLL,** with one exception: There's a handful of full OLL algorithms (namely the ones composed of fruruf and sune) that I think are worth using if you know them from 3D, but aren't at all crucial. I do use these during 4D solves when I recognize them, and with some effort we may be able to find a few more cases with easy cancels, but I don't think it's worth learning these just for 4D solves.
+
 ### What 4D algorithms are there?
 
 There's so many cases for each step of the solve that creating a complete algorithm set is basically impossible, and there's so many options for moves that algorithm explorers are infeasible. Almost every algorithm we have is based on an algorithm from 3D, and the only search program we have is a sort of optimizer for one very specific kind of algorithm derived from 3D.
+
+### How can I get faster at solving 3x3x3x3?
+
+First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since the recognition is easier, but solutions using triplets tend to be shorter; as far as we know, both are viable. If you're getting times in the 8-15 minute range, do slowsolves where you focus on efficient solutions to F2L pairs/triplets.
+
+!!! quote "Hactar"
+
+    From most to least significant:
+
+    - **1-key-per-move keybinds that prioritize `R` and `I` cells**. This is _more_ than 2x faster than default keybinds, because you do not need to time the _release_ of keys.
+    - **1-key-per-move RKTbinds with RKT cancels**. These two optimizations complement each other so well, because it spreads out the work among all your fingers.
+    - **Single keys for some 180-degree turns**, because repeated keys are slow! By adding keys for `x2` and `y2`, you can reorient a cell into any orientation with just two keypresses.
+    - **RKT-canceled triggers during F2L-3**. I leave debt on `U` and have muscle memory for the common RKT-canceled trigger `R (flip) U' R' (flip)` (where `(flip)` = `{1-2}Ozx2`), its inverse `(flip) R U (flip) R'`, and their back and left-handed forms. This + `U` moves accounts for basically everything you do in F2L other than `R U2 R'`, which you can usually avoid or in worst case just `(flip) R (flip) U2 (flip) R' (flip)`.
+
+### How could the 3x3x3x3 record be improved?
+
+!!! quote "Hactar (mid-2024)"
+
+    Here's what I think would make a big difference, from most to least significant:
+
+    - **Lookahead during F2L-4**. This is essentially unexplored.
+    - **Optimal solutions for F2L-b cases**. My gut says this could save an average of ~3 moves per pair over my solutions during left block, and ~5 moves per pair during right block, which adds up to ~30 STM saved. I think there'd be some value in a comprehensive study of 3-block F2L cases and what techniques are effective in solving them, and research into the psychology of how to recognize them. For some examples of what I mean: I remember reading somewhere that on 3^3 it's better to find an F2L corner and _then_ search for the matching edge, rather than the other way around. I also know that once you find the edge, you can recognize its orientation to know whether you can solve the pair using just <R,U,F> or whether you need less-ergonomic moves. Figuring out and documenting these sort of tricks for 4D would help.
+
+    I think both of those improvements could save 15-30 seconds, bringing it from ~1:15 to ~0:45. I also feel like general lookahead/efficiency improvements in PLC might save 10-15 seconds but I can't put my finger on exactly what they would be. I know my OLC _feels_ very variable during solves, but in practice I can brute-force pretty much anything into a valid final case by spending a second or two flipping one edge/corner.
 
 ## Does this puzzle exist?
 
@@ -264,7 +317,7 @@ There's so many ways to generalize a skewb to 4D that we have a [whole page full
 
 ### 8-dimensional and higher
 
-Above 5 dimensions, cube puzzles aren't more difficult or interesting, just more tedious and computationally expensive. But there might be some wild hyperpuzzles yet to be discovered up there, say one based on the very special geometry of the [E8 Lattice](https://en.wikipedia.org/wiki/E8_lattice)!
+Above five dimensions, cube puzzles aren't more difficult or interesting, just more tedious and computationally expensive. But there might be some wild higher-dimensional puzzles yet to be discovered, say one based on the very special geometry of the [E8 Lattice](https://en.wikipedia.org/wiki/E8_lattice)!
 
 ### 3D Rubik's Clock
 
@@ -272,9 +325,9 @@ Instead of rotating circles in 2D, you can rotate spheres in 3D. This is a more 
 
 ### How do I make a 4D \[thing\]?
 
-**:sparkles: Generalising Things to 4D: A Handy Guide :sparkles:**
+**:sparkles: Generalizing Things to 4D: A Handy Guide :sparkles:**
 
-1. Understand and define the thing you're generalising
+1. Understand and define the thing you're generalizing
 2. Find where your definitions reference or assume something dimension-specific
 3. Rewrite your definitions to avoid dimension-specific references or assumptions
 4. Find what 4D object fits your new definitions (there may be one, several, or none)

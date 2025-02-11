@@ -14,7 +14,7 @@
 
 ## Introduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hp935ysUNyI?si=gydPsJYiO3JNTK-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hp935ysUNyI?si=gydPsJYiO3JNTK-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## History
 
@@ -22,7 +22,7 @@ Based on some ideas for the 4D pyraminx, Dominik first created a paper model in 
 
 ## How does it work?
 
-The puzzle can be moved like a pyraminx but with some additional legal moves. The edges that are in the position of the trivial tips can't legally be twisted.
+The 4D pyraminx can be moved like a pyraminx but with some additional legal moves. The edges that are in the position of the trivial tips can't legally be twisted.
 
 There are a few ways to project a 5-cell into 3d space. In a vertex-first projection the "hidden" cell is on the "outside" of the others while in a cell-first projection it is on the "inside". My design for the 4D pyraminx represents the latter way. In a solved state we have 4 colors on the outside and one on the inside of the puzzle.
 
@@ -181,11 +181,11 @@ That’s all there is to the gyro and here we have all in one movement.
 
 Here is a link to a video of an example scramble and solve of the puzzle: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ouciU8p1Wto?si=a87n2elL-uVbK-Ih" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ouciU8p1Wto?si=a87n2elL-uVbK-Ih" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Also you can watch a tutorial of how to solve it here: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L4foSEUS0Go?si=6jUiO6Myl26xW2I9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L4foSEUS0Go?si=6jUiO6Myl26xW2I9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Notes for a solve
 

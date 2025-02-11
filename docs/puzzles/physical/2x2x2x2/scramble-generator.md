@@ -1,5 +1,16 @@
 # Physical 2×2×2×2 Scramble Generator
 
+See [Scramble notation](canonical-moves.md#scramble-notation). In particular, `#` represents a `Uy2` followed by a right-to-left restack.
+
+The starting orientation is:
+
+- R = red
+- U = white
+- F = green
+- O = pink
+
+---
+
 <p>Scrambles: <span id="demo2">5</span></p>
 <input type="range" min="1" max="20" value="5" class="slider" id="myRange">
 <br><br>

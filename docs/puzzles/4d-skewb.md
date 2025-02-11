@@ -18,7 +18,7 @@ In three dimensions, a plane perpendicular to the vertex axis passes through 1 c
 !!! example inline end "Skewb lookalike"
     ![Skewb lookalike](https://assets.hypercubing.xyz/img/virt/4d_skewb/skewb_lookalike.png)
 
-You can place a cut to pass between the layers of 4 and 6 corners. If you do this, you get two cuts per axis and three layers per axis. This puzzle has 16 vertex pieces, 64 X-centers, and 24 ridge pieces. Like the skewb, the vertex pieces are separated into two orbits, but this puzzle has a middle layer on each axis. The cut pattern on the cells of this puzzle resembles a 3D skewb with additional trivial tips. 
+You can place a cut that passes between the layers of four and six corners. Through this process, you get two cuts per axis and three layers per axis. This puzzle has 16 vertex pieces, 64 X-centers, and 24 ridge pieces. Like the skewb, the vertex pieces are separated into two orbits, but this puzzle has a middle layer on each axis. The cut pattern on the cells of this puzzle resembles a 3D skewb with additional trivial tips. 
 
 By rectifying the hypercube, the trivial tip cuts on the cut patterns of the cells are removed, meaning the cells look like cuboctahedral skewbs.
 
@@ -47,9 +47,9 @@ As before, the hypercube can be rectified, which removes the trivial tips from t
 
 ## Simplex-like
 
-The skewb can be constructed in a different way: take four axes corresponding to a tetrahedron, and cut perpendicular to each axis through the origin. The tetrahedron is the 3D simplex, so if you replace it with the 5-cell, the 4D simplex, you get a new puzzle in 4D. This puzzle has several types of pieces, but since the shape of the puzzle does not yet exist, we can't name them after their position. Thus, we will name the pieces by how many layers they are turned by. For the skewb, there are 4 pieces that are in one layer, 6 pieces that are in two layers, and 4 pieces that are in three layers. We will call these 1g, 2g, and 3g pieces. This 4D puzzle will have 5 1g pieces, 10 2g pieces, 10 3g pieces, and 5 4g pieces. The skewb has a symmetry (90° rotation of the puzzle) that swaps 1g and 3g pieces and sends 2g to 2g pieces, and like it, this 4D puzzle has a symmetry that swaps 1g and 4g pieces and swaps 2g and 3g pieces. Like the skewb, the cuts on this puzzle can each be offset in a consistent direction while preserving the functionality of the puzzle.
+The skewb can be constructed in a different way: take four axes corresponding to a tetrahedron, and cut perpendicular to each axis through the origin. The tetrahedron is the 3D simplex, so if you replace it with the 5-cell, the 4D simplex, you get a new puzzle in 4D. This puzzle has several types of pieces, but since the shape of the puzzle does not yet exist, we can't name them after their position. Thus, we will name the pieces by how many layers they are turned by. For the skewb, there are 4 pieces that are in one layer, 6 pieces that are in two layers, and 4 pieces that are in three layers. We will call these 1g, 2g, and 3g pieces. This 4D puzzle will have 5 1g pieces, 10 2g pieces, 10 3g pieces, and 5 4g pieces. The skewb has a symmetry (90° rotation of the puzzle) that swaps 1g and 3g pieces and sends 2g to 2g pieces. Similarly, the 4D equivalent has a symmetry that swaps 1g and 4g pieces and swaps 2g and 3g pieces. Like the skewb, the cuts on this puzzle can each be offset in a consistent direction while preserving the functionality of the puzzle.
 
-Constructing the skewb like this, we can describe how to construct its cubic shape. On each face of the cube, there is one 2g piece in its center. Thus, given our abstractly constructed skewb, we can construct a plane perpendicular to each 2g piece's axis of symmetry. The shape bounded by all 6 of these planes is a cube.
+Now, we can describe how to construct the skewb's cubic shape. On each face of the cube, there is one 2g piece in its center. Thus, given our abstractly constructed skewb, we can construct a plane perpendicular to each 2g piece's axis of symmetry. The shape bounded by all 6 of these planes is a cube.
 
 ### 2g carved simplex
 
@@ -65,7 +65,7 @@ Like in 3D, you can put a hyperplane perpendicular to the symmetry axis of each 
 
 You can also put hyperplanes perpendicular to the symmetry axis of both the 2g and 3g pieces. This gives the puzzle a 20-celled shape called the [bijungato-10-cell](https://polytope.miraheze.org/wiki/Bijungatodecachoron). On this puzzle, the 1g and 4g pieces are both 4c at tetrahedral vertices, and the 2g and 3g pieces are both 1c at the cell centers. Unlike the previous shape but like the skewb, full symmetry of the puzzle is reflected in the shape.
 
-Each cell of the puzzle either has two 1g and one 2g pieces, or two 4g and one 3g pieces. These two orbits of cells are only adjacent across the 2g-3g boundary. Because of this, this puzzle has multiple solved states, where each cell is a solid color, but the color schemes of the two orbits are rotated relative to each other.
+Each cell of the puzzle either has two 1g and one 2g pieces, or two 4g and one 3g pieces. These two orbits of cells are only adjacent across the 2g-3g boundary. Consequently, this puzzle has multiple solved states, where each cell is a solid color, but the color schemes of the two orbits are rotated relative to each other.
 
 ### 2g-3g carved simplex, hemi colors
 

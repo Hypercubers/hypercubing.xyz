@@ -1,6 +1,6 @@
 # God's Number
 
-**God's number** is the minimum number of moves that is sufficient to solve a twisty puzzle from any starting position. For 3×3×3, this has [been been proven][cube20] to be 20 HTM (or 26 QTM).
+**God's number** is the minimum number of moves that is sufficient to solve a twisty puzzle from any starting position. For 3×3×3, this has [been proven][cube20] to be 20 HTM (or 26 QTM).
 
 God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to prove $\sim 4.3 \times 10^{19}$ states reachable in 20 moves or less. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
 
@@ -12,11 +12,12 @@ There are three strategies we can use to estimate it:
 
 [cube20]: http://cube20.org/
 
-## Known Bounds Summary
-| Puzzle | Lower Bound | Upper Bound |
-| ------ | ----------- | ----------- |
-| 2^4^   | 15 STM      | 37 STM      |
-| 3^4^   | 51 STM      | 570 STM     |
+## Summary
+
+| Puzzle | Lower Bound | Upper Bound | Estimate |
+| ------ | ----------- | ----------- | -------- |
+| 2^4^   | 15 STM      | 37 STM      | ~20 ±5   |
+| 3^4^   | 51 STM      | 570 STM     | ~125 ±50 |
 
 ## 2×2×2×2
 
@@ -48,7 +49,7 @@ We can compute an upper bound of 37 in the STM by computing the worst-case move 
 
 ### Estimate
 
-[Hypersolve](https://github.com/ajtaurence/Hypersolve) typically produces solutions in the range of 20-30 STM. Note that this solver does not produce optimal solutions[^optimal], but based on this, God's number for 2^4^ is probably not higher than 20-30.
+[Hypersolve](https://github.com/ajtaurence/Hypersolve) typically produces solutions in the range of 20-30 STM. This solver does not produce optimal solutions[^optimal], but based on its results, God's number for 2^4^ is probably not higher than 20-30.
 
 [^optimal]: It does eventually converge on optimal solutions when run for a sufficient amount of time, but this amount of time is impractical for all but the simplest scrambles.
 
@@ -73,7 +74,7 @@ We can compute a lower bound of 51 in the STM. This works by showing that algori
 
 	We can describe turns on the \(3^4\) as happening on one of four axes, and with one of three layers. Each layer can be turned in 23 ways, so we have \(4 \times 3 \times 23 = 276\) turns measured as one move in the STM. After turning a layer, we want subsequent turns to be **noncancelling** (turning the same layer twice can be written as a single move), so we have \(276-23=253\) choices for subsequent turns.
 
-	From here, we can proceed without the Winning Ways improvement, where we find the number of positions reachable by 50 turns or fewer is at most
+	From here, we can proceed without the _Winning Ways_ improvement, where we find the number of positions reachable by 50 turns or fewer is at most
 
 	\[1 + 276 \times \sum_{k=0}^{49}253^k \approx 1.57 \times 10^{120} < \frac{\left(24!\times 2^{24}\right) \times \left(32! \times 6^{32}\right) \times (16! \times 12^{16})}{48} \approx 1.78 \times 10^{120}.\]
 
@@ -86,7 +87,7 @@ We can compute a lower bound of 51 in the STM. This works by showing that algori
 
 	A **primary** axis is a line through the core of a puzzle in any of the four cardinal directions. Primary axes have three **layers**, which we might label \(-1,\ 0,\) and \(1\). The white-yellow primary axis' three primary layers would correspond to the yellow cell (\(-y\)), white cell (\(y\)), and the slice between the white and yellow cells. A \textbf{secondary} axis is a line through the center of a facet and any of the pieces in that facet. Importantly, the secondary axis can be described using a single cardinal direction when it is through a ridge piece (the \(90^\circ\) degree cell turns and their doubles). A primary axis, secondary axis, and an angle which we turn by is enough to describe any turn in the STM.
 
-	We have just 253 noncancelling chocies for a second turn. Some of these second turns **commute** with a first turn, which means we will overcount postions reachable by two algorithms differing by the order of commuting turns. Noncancelling commuting pairs of turns can happen in two ways:
+	We have just 253 noncancelling choices for a second turn. Some of these second turns **commute** with a first turn, which means we will overcount positions reachable by two algorithms differing by the order of commuting turns. Noncancelling commuting pairs of turns can happen in two ways:
 
 	1. The first and second turns happen in the same primary axis and on different layers (for example, \(UO\ \ \{2\}UO' = \{2\}UO'\ \ UO\).\\
 
@@ -96,7 +97,7 @@ We can compute a lower bound of 51 in the STM. This works by showing that algori
 
 	Commuting cases of the second kind can only happen if the first turn's secondary axis goes through a ridge piece. There are \(108\) turns like this. The second turn's primary/secondary axes are determined by transposing the first turn's primary/secondary axes, and then can happen in one of three ways on one of three layers. So, we have \(\frac{9\times 108}{2}\) distinct new puzzle states reachable by two commuting moves of this second kind. NOTE: If the first turn is one of the \(276-108= 168\) other turns that cannot be followed by a commuting turn of the second kind, those nine second turns happen on a different primary axis and will neither cancel nor commute.
 
-	Now we can compute an upper bound on \(|T_2|\). There are \(\frac{44\times 276}{2}\) distinct new puzzle states reachable by two commuting moves of the first kind, and \(\frac{9\times 108}{2}\) distinct new puzzle states reachable by two commuting moves of the second kind. There are \(276-23-44-9=200\) noncancelling, noncommuting second turns. In total, we have \(|T_2| \leq \frac{44\times 276}{2} + \frac{9\times 108}{2} + 9\times 168 + 200\times 276 = 63,270\). As mentioned in the "NOTE", following one of the other 168 first moves (with secondary axis \textit{not} through a ridge peice) with one of those nine turns suggested by commuting case of the second kind will never cancel or commute, so we add \(9\times 168\) to complement the "leftovers" that were ignored in the \(\frac{9\times 108}{2}\) term.
+	Now we can compute an upper bound on \(|T_2|\). There are \(\frac{44\times 276}{2}\) distinct new puzzle states reachable by two commuting moves of the first kind, and \(\frac{9\times 108}{2}\) distinct new puzzle states reachable by two commuting moves of the second kind. There are \(276-23-44-9=200\) noncancelling, noncommuting second turns. In total, we have \(|T_2| \leq \frac{44\times 276}{2} + \frac{9\times 108}{2} + 9\times 168 + 200\times 276 = 63,270\). As mentioned in the "NOTE", following one of the other 168 first moves (with secondary axis \textit{not} through a ridge piece) with one of those nine turns suggested by commuting case of the second kind will never cancel or commute, so we add \(9\times 168\) to complement the "leftovers" that were ignored in the \(\frac{9\times 108}{2}\) term.
 
 	To complete the argument, we can derive a recurrence relation (more accurately a recurrence estimate) that gives an upper bound on the size of \(|T_{n+2}|\) in terms of \(|T_n|\) and \(|T_{n+1}|\).
 
@@ -126,7 +127,7 @@ We can compute a lower bound of 51 in the STM. This works by showing that algori
 
 Below is an example of a similar argument used to derive a lower bound of 56 turns in the OBTM. Note that this argument is missing some optimizations that were applied in the STM lower bound derivation.
 
-??? abstract "OBTM Lower Bound, Winning Ways Method"
+??? abstract "OBTM Lower Bound, _Winning Ways_ Method"
 
 	Moves here will be measured using something equivalent (as far as this discussion is concerned) to OBTM. Our focus here is on positions that can be reached by algorithms of a certain length. Wide moves contribute to algorithm length in the same way that single cell turns do (wide move = single cell move + cube rotation, where cube rotations count as 0 moves), so we will make a simplification by restricting to single cell turns. There are 23 moves on each of the 8 cells, so 184 one-move algorithms are possible at any given time.
 

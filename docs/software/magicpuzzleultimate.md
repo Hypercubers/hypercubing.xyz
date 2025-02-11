@@ -14,7 +14,7 @@ Some records for the shortest and first solutions of a puzzle are kept on the [S
 
 ## Virtual Puzzles
 
-While we're waiting for [Hyperspeedcube 2.0](/software/hyperspeedcube.md#future-updates) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other 4D puzzles.
+While we're waiting for [Hyperspeedcube 2.0](/software/hyperspeedcube.md#20) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other 4D puzzles.
 
 Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate ```Block```. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
 
@@ -283,7 +283,7 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
             Cuts 0.85
             ```
 
-        ??? info "Chamefered Tesseract"
+        ??? info "Chamfered Tesseract"
             ``` title="Chamfered Tesseract"
             Puzzle Chamfered_Tesseract
             Dim 4

@@ -24,7 +24,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
     - :material-keyboard: Keyboard controls
     - :material-keyboard-settings: Customizable keyboard controls
     - :material-magnify: Find/filter piece by color
-    - :material-eye: Filter pieces
+    - :material-eye: Find/filter pieces by type
     - :material-timer: Timer
     - :material-script-text-play: Macros
     - :material-form-textbox: Move input
@@ -32,18 +32,23 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
     - :material-pencil-plus: Custom puzzles
     - :material-virtual-reality: VR support
 
-| Program                                     |                                                 Platforms | Features              | Puzzles                |
-| ------------------------------------------- | --------------------------------------------------------: | --------------------- | ---------------------- |
-| [Hyperspeedcube][hsc]                       |    [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsf___c__} | {1-9}^{3-4}^           |
-| [Magic Cube 4D][mc4d]                       |   [:material-language-java:][mc4d-src] • %platforms{wla_} | %features{m____M_cp_} | 4D via Schläfli symbol |
-| [MagicTile][mt]                             |   [:material-language-csharp:][mt-src] • %platforms{wla_} | %features{m____M_cp_} | 2D tilings             |
-| [Magic Puzzle Ultimate][mpu]                |  [:material-language-csharp:][mpu-src] • %platforms{w___} | %features{m__ftM_cp_} | 3D+ doctrinaire        |
-| [Magic Cube 7D][mc7d]                       | [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^           |
-| [Magic Cube 5D][mc5d]                       |    [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^               |
-| [Magic Cube 4D VR][mc4d-vr]                 |                       :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                   |
-| [Flat Hypercube][flat]                      |   [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_k________} | {1-19}^{1-10}^          |
-| [Gelatinbrain][gelatinbrain][^gelatinbrain] |               :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things     |
-| [pCubes][pCubes]                            |                                          %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle |
+| Program                                     |                                                        Platforms | Features              | Puzzles                 |
+| ------------------------------------------- | ---------------------------------------------------------------: | --------------------- | ----------------------- |
+| [Hyperspeedcube][hsc]                       |           [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsf___c__} | {1-9}^{3-4}^            |
+| [Magic Cube 4D][mc4d]                       |          [:material-language-java:][mc4d-src] • %platforms{wla_} | %features{m____M_cp_} | 4D via Schläfli symbol  |
+| [MagicTile][mt]                             |          [:material-language-csharp:][mt-src] • %platforms{wla_} | %features{m____M_cp_} | 2D tilings              |
+| [Magic Puzzle Ultimate][mpu]                |         [:material-language-csharp:][mpu-src] • %platforms{w___} | %features{m__ftM_cp_} | 3D+ doctrinaire         |
+| [Magic Cube 7D][mc7d]                       |        [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^            |
+| [Magic Cube 5D][mc5d]                       |           [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^                |
+| [Magic Cube 4D VR][mc4d-vr]                 |                              :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                    |
+| [Flat Hypercube][flat]                      |          [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_Ksf___c__} | {1-32k}^{1-32k}^        |
+| [Gelatinbrain][gelatinbrain][^gelatinbrain] |                      :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things      |
+| [pCubes][pCubes]                            |                                                 %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle  |
+| [Ultimate Magic Cube][umc]                  |                                                 %platforms{w___} | %features{m___t___p_} | platonic 3D             |
+| [Ultimate Magic Cube 2][umc]                |                    :material-language-csharp: • %platforms{w___} | %features{m___t_____} | platonic + misc 3D      |
+| [Twizzle Explorer][twizzle]                 | [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
+| [IsoCubeSim][ics]                           |                      :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
+| [Geraniums Pot][gpot]                       |        [:material-language-python:][gpot-src] • %platforms{wl__} | %features{m_______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
@@ -62,6 +67,12 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [flat-src]: https://github.com/milojacquet/flat-hypercube
 [gelatinbrain]: https://github.com/Hypercubers/gelatinbrain/
 [pCubes]: https://twistypuzzles.com/forum/viewtopic.php?t=27054
+[umc]: http://www.ultimatemagiccube.com/
+[twizzle]: https://alpha.twizzle.net/explore/
+[twizzle-src]: https://github.com/cubing/cubing.js
+[ics]: https://mzrg.com/rubik/iso/
+[gpot]: https://github.com/grigorusha/GeraniumsPot/
+[gpot-src]: https://github.com/grigorusha/GeraniumsPot/
 
 [^gelatinbrain]: Full name: gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)
 
@@ -72,7 +83,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Magic Hyperbolic Tile][mht633]             |                                          %platforms{w___} | %features{m_sftM_c__} | {6,3,3} (7 quotients)    |
 | [Magic Simplex 5D][ms5d]                    | [:material-language-csharp:][ms5d-src] • %platforms{w___} | %features{m_sftM_c__} | 5D simplex (+ recuts)    |
 | [Magic120Cell][m120c]                       |   [:material-language-cpp:][m120c-src] • %platforms{w___} | %features{m_sf_M_c__} | 120-cell (+ recolorings) |
-| [Nan Ma's 11-cell][11cell]                  |               :material-language-java: • %platforms{wla_} | %features{m__f_MTcp_} | 11-cell                  |
+| [Nan Ma's 11-cell][11cell]                  |               :material-language-java: • %platforms{wla_} | %features{m__f_MTc__} | 11-cell                  |
+| [Twisty Prisms][twisty-prisms]              |                       :simple-scratch: • %platforms{___b} | %features{mk________} | certain 3D prisms        |
 
 [ms5d]: https://superliminal.com/andrey/ms5d/
 [ms5d-src]: https://superliminal.com/andrey/ms5d/Simplex5dSrc.zip
@@ -80,6 +92,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [m120c-src]: https://github.com/roice3/Magic120Cell
 [11cell]: https://superliminal.com/cube/ElevenCell.jar
 [mht633]: https://superliminal.com/andrey/mht633/
+[twisty-prisms]: https://staff.fim.uni-passau.de/kreuzer/TP/TwistyPrisms.html
 
 ### 1D and 2D puzzles
 
@@ -101,9 +114,11 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 
 - [Nan Ma's puzzles](https://www.nan.ma/) (Reflecube, Lollipop, Clockwork Cube, and more)
 - [Akkei's physical 3^4^ program][akkei-phys]
+- [Rayzchen's 3to4++](https://github.com/rayzchen/3to4pp) (Physical 3^4^)
 - [Arnaud Chéritat's Hungarian Rings](https://www.math.univ-toulouse.fr/~cheritat/AppletsDivers/AnneauxHongrois/)
 - [Magic Cube 3D](https://github.com/rzhao271/MC3D/releases/latest/)
 - [MagmaMcFry's Quaternion Cube](https://magmamcfry.github.io/QuaternionCube/)
+- [TwistyPuzzles by CasualCuber](https://casualcuber.bitbucket.io/)
 - [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
 
 [akkei-phys]: https://drive.google.com/drive/folders/1xBEKkGYIFKSAcIgJjPCIx_W0vdJawuZ0
@@ -113,7 +128,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 Hypercubing on mobile devices is not recommended; however, if this is your only option, these apps are available for Android:
 
 - [Magic Cube 4D (Raynefork)](https://play.google.com/store/apps/details?id=me.rayzz.magiccube4d) (recommended)
-- <strike>[Magic Cube 4D](https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d)</strike> (superceded by Raynefork)
+- <strike>[Magic Cube 4D](https://play.google.com/store/apps/details?id=com.superliminal.magiccube4d)</strike> (superseded by Raynefork)
 - [The Tesseract Puzzle](https://play.google.com/store/apps/details?id=com.MadMagics.OpenGL_Shaders)
 - [4D Hypercube Puzzle](https://play.google.com/store/apps/details?id=com.tesseract_game&hl=en_US&gl=US)
 
