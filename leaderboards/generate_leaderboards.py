@@ -1,7 +1,7 @@
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import timedelta
-from typing import List, Optional
+from typing import List, Optional, Tuple
 import csv
 import math
 import mkdocs_gen_files
@@ -374,7 +374,7 @@ def make_main_leaderboard_tab_contents(tab, *, indent=0):
 
 RANKED_FORMATS = ['single', 'bld']
 
-def kinch_score(solver: Solver) -> List[(Solver, float)]:
+def kinch_score(solver: Solver) -> List[Tuple[Solver, float]]:
     event_count = 0
     event_ratios_sum = 0
     for puz in puzzles.values():
@@ -387,10 +387,10 @@ def kinch_score(solver: Solver) -> List[(Solver, float)]:
                     event_ratios_sum += ev.best_solves[0].time / solve.time
     return 100 * event_ratios_sum / event_count
 
-def all_kinch_scores() -> List[(Solver, float)]:
+def all_kinch_scores() -> List[Tuple[Solver, float]]:
     return [(solver, kinch_score(solver)) for solver in solvers.values()]
 
-def all_parallel_sum_of_ranks_scores() -> List[(Solver, float)]:
+def all_parallel_sum_of_ranks_scores() -> List[Tuple[Solver, float]]:
     sum_of_inverse_ranks_by_solver = {solver: 0 for solver in solvers.values()}
     for puz in puzzles.values():
         for format in RANKED_FORMATS:
@@ -400,7 +400,7 @@ def all_parallel_sum_of_ranks_scores() -> List[(Solver, float)]:
                 sum_of_inverse_ranks_by_solver[solve.solver] += 1/rank
     return [(k, 1/v) for k, v in sum_of_inverse_ranks_by_solver.items()]
 
-def all_sum_of_ranks_scores() -> List[(Solver, float)]:
+def all_sum_of_ranks_scores() -> List[Tuple[Solver, float]]:
     sum_of_ranks_by_solver = {solver: 0 for solver in solvers.values()}
     for puz in puzzles.values():
         for format in RANKED_FORMATS:
