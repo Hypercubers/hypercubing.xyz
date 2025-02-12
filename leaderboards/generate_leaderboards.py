@@ -42,7 +42,7 @@ def format_time(duration) -> str:  # duration: timedelta | int
     # duration can be timedelta (time) or int (movecount for fmc)
 
     # gets the time in a short format (ex: 8:48:23.15)
-    # converts duration into a string. Then it chops off leading 0's because a TimeDelta object has those for some reason 
+    # converts duration into a string. Then it chops off leading 0's because a TimeDelta object has those for some reason
     shortTime = str(duration)
     if (shortTime.find(".") != -1):   # if the string has a decimal point
         shortTime = shortTime[0:-4] # chop off the extra four 0's at the end if the time includes a non-integer number of seconds
@@ -121,7 +121,7 @@ class Solve:
             'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a style=\'display: none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
-            'solver': f'[{self.solver.name}]({self.solver.relative_file_path})',
+            'solver': self.solver.link_markdown,
         }
 
     def cell_contents(self, header):
@@ -183,6 +183,10 @@ class Solver:
     def relative_file_path(self):
         return f'solvers/{self.user_id}.md'
 
+    @property
+    def link_markdown(self):
+        return f'[{self.name}]({self.relative_file_path})'
+
 
 # Load solvers from YAML
 with open('leaderboards/solvers.yml') as file:
@@ -218,7 +222,7 @@ with open('leaderboards/tabs.yml') as tabs_file:
         }
 
 
-def parse_time(s):
+def parse_time(s) -> timedelta:
     if m := re.match(r'(\d+)mv', s):
         return int(m[1])
     m = re.match(
@@ -320,7 +324,7 @@ def make_solvers_list(*, indent=0) -> str:
     pre = ' ' * indent
     s = ''
     for solver in sorted(solvers.values(), key=lambda s: s.name):
-        s += f'{pre}- [{solver.name}]({solver.relative_file_path})\n'
+        s += f'{pre}- {solver.link_markdown}\n'
     return s + '\n'
 
 
@@ -366,6 +370,71 @@ def make_main_leaderboard_tab_contents(tab, *, indent=0):
         indent=indent,
         exclude=exclude,
     )
+
+
+RANKED_FORMATS = ['single', 'bld']
+
+def kinch_score(solver: Solver) -> list[(Solver, float)]:
+    event_count = 0
+    event_ratios_sum = 0
+    for puz in puzzles.values():
+        for format in RANKED_FORMATS:
+            ev = puz['events'][format]
+            if ev.best_solves:
+                event_count += 1
+                solve = solver.get_best_solve_of(ev)
+                if solve:
+                    event_ratios_sum += ev.best_solves[0].time / solve.time
+    return 100 * event_ratios_sum / event_count
+
+def all_kinch_scores() -> list[(Solver, float)]:
+    return [(solver, kinch_score(solver)) for solver in solvers.values()]
+
+def all_parallel_sum_of_ranks_scores() -> list[(Solver, float)]:
+    sum_of_inverse_ranks_by_solver = {solver: 0 for solver in solvers.values()}
+    for puz in puzzles.values():
+        for format in RANKED_FORMATS:
+            ev = puz['events'][format]
+            for i, solve in enumerate(ev.best_solves):
+                rank = i+1
+                sum_of_inverse_ranks_by_solver[solve.solver] += 1/rank
+    return [(k, 1/v) for k, v in sum_of_inverse_ranks_by_solver.items()]
+
+def all_sum_of_ranks_scores() -> list[(Solver, float)]:
+    sum_of_ranks_by_solver = {solver: 0 for solver in solvers.values()}
+    for puz in puzzles.values():
+        for format in RANKED_FORMATS:
+            ev = puz['events'][format]
+            if ev.best_solves:
+                event_ranks = {solve.solver: i+1 for i, solve in enumerate(ev.best_solves)}
+                for solver in sum_of_ranks_by_solver:
+                    sum_of_ranks_by_solver[solver] += event_ranks.get(solver, len(ev.best_solves)+1)
+    return list(sum_of_ranks_by_solver.items())
+
+
+
+
+AGGREGATE_METRICS = [
+    ("Kinch Rank", -1, all_kinch_scores, '{:.3f}'),
+    ("Parallel Sum of Ranks", 1, all_parallel_sum_of_ranks_scores, '{:.3f}'),
+    ("Sum of Ranks", 1, all_sum_of_ranks_scores, '{}'),
+]
+
+
+def make_aggregate_page_contents():
+    s = ''
+    header_rows = [["Index", "Name", "Score"], [":--:", ":--:", "---:"]]
+
+    rows = solvers
+
+    for metric_name, metric_sort, metric_func, format_string in AGGREGATE_METRICS:
+        scores = metric_func()
+        scores.sort(key=lambda kv: (metric_sort * kv[1], kv[0].name))
+        rows = header_rows + [[str(i+1), solver.link_markdown, format_string.format(score)] for i, (solver, score) in enumerate(scores)]
+        s += f'=== "{metric_name}"\n'
+        s += make_table(rows, indent=4)
+
+    return s
 
 
 # Generate main leaderboards page
@@ -421,4 +490,10 @@ create_mkdocs_file_from_template(
     'leaderboards/records.md',
     'records.md',
     make_solves_table(WRs, indent=0, exclude=['rank']),
+)
+
+create_mkdocs_file_from_template(
+    'leaderboards/aggregate.md',
+    'aggregate.md',
+    make_aggregate_page_contents(),
 )
