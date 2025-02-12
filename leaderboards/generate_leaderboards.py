@@ -1,6 +1,7 @@
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import timedelta
+from datetime import date
 from typing import List, Optional, Tuple
 import csv
 import math
@@ -91,6 +92,24 @@ def format_time(duration) -> str:  # duration: timedelta | int
     # return returnString + longTime + "</a>"
     return [longTime, shortTime]
 
+def format_date(isodate) -> str:
+    diff =  date.today() - date.fromisoformat(isodate)
+    relative = ""
+    if diff.days < 0:
+        relative == "Tomorrow"
+    elif diff.days == 0:
+        relative = "Today"
+    elif diff.days == 1:
+        relative = "Yesterday"
+    elif diff.days >= 7 and diff.days < 365:
+        a = "" if int(diff.days)/7 == 1 else "s"
+        relative = f"{int(diff.days/7)} week{a} ago"
+    elif diff.days >= 365:
+        a = "" if int(diff.days)/365 == 1 else "s"
+        relative = f"{int(diff.days/365)} year{a} ago"
+    else: 
+        relative = f"{diff.days} days ago"
+    return [isodate, relative]
 
 
 class Solve:
@@ -116,8 +135,11 @@ class Solve:
         self.solver.solves_by_event[self.event.id].append(self)
         self.rank = None
         formatted_time = format_time(self.time)
+        formatted_date = format_date(self.date)
+
         self._cell_contents = {
-            'date': self.date,
+            # 'date': self.date,
+            'date': f'<p class=\'isodate\'>{formatted_date[0]}</p><p style=\'display: none\' class=\'relativedate\'>{formatted_date[1]}</p>',
             'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a style=\'display: none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
