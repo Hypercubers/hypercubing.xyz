@@ -417,6 +417,7 @@ KINCH_DESC = r"""
     $$\frac{1}{\#\text{events}}\sum_{e\in \text{events}}\left(100 \cdot \frac{\text{world record}_e}{\text{personal best}_e}\right)$$
 
     A person's event ratio for one event is the ratio of the world record divided by their personal best.
+
     A person's total [Kinch Rank](https://www.speedsolving.com/threads/all-round-rankings-kinchranks.53353/)
     is 100 times the average of their event ratios, including zeros for events they haven't participated in.
 """
