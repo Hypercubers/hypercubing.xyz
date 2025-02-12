@@ -413,11 +413,33 @@ def all_sum_of_ranks_scores() -> List[Tuple[Solver, float]]:
 
 
 
+KINCH_DESC = r"""
+    $$\frac{1}{\#\text{events}}\sum_{e\in \text{events}}\left(100 \cdot \frac{\text{world record}_e}{\text{personal best}_e}\right)$$
+
+    A person's event ratio for one event is the ratio of the world record divided by their personal best.
+    A person's total Kinch Score is 100 times the average of their event ratios,
+    including zeros for events they haven't participated in.
+"""
+PARALLEL_SUM_DESC = r"""
+    $$\left(\sum_{e\in \text{events}} \text{rank}_e^{-1}\right)^{-1}$$
+
+    A parallel sum is the reciprocal of the sum of reciprocals.
+
+    A person's Parallel Sum of Ranks is the parallel sum of their rank in every category,
+    including $\infty$ for events they haven't participated in.
+"""
+SUM_DESC = r"""
+    $$\sum_{e\in \text{events}} \text{rank}_e$$
+
+    A person's Sum of Ranks is the sum of their rank in every category.
+    When someone hasn't participated in an event, their rank is considered
+    to be equal to one plus the number of people who have participated.
+"""
 
 AGGREGATE_METRICS = [
-    ("Kinch Rank", -1, all_kinch_scores, '{:.3f}'),
-    ("Parallel Sum of Ranks", 1, all_parallel_sum_of_ranks_scores, '{:.3f}'),
-    ("Sum of Ranks", 1, all_sum_of_ranks_scores, '{}'),
+    ("Kinch Rank", KINCH_DESC, -1, all_kinch_scores, '{:.3f}'),
+    ("Parallel Sum of Ranks", PARALLEL_SUM_DESC, 1, all_parallel_sum_of_ranks_scores, '{:.3f}'),
+    ("Sum of Ranks", SUM_DESC, 1, all_sum_of_ranks_scores, '{}'),
 ]
 
 
@@ -427,11 +449,11 @@ def make_aggregate_page_contents():
 
     rows = solvers
 
-    for metric_name, metric_sort, metric_func, format_string in AGGREGATE_METRICS:
+    for metric_name, metric_desc, metric_sort, metric_func, format_string in AGGREGATE_METRICS:
         scores = metric_func()
         scores.sort(key=lambda kv: (metric_sort * kv[1], kv[0].name))
         rows = header_rows + [[str(i+1), solver.link_markdown, format_string.format(score)] for i, (solver, score) in enumerate(scores)]
-        s += f'=== "{metric_name}"\n'
+        s += f'=== "{metric_name}"\n{metric_desc}\n'
         s += make_table(rows, indent=4)
 
     return s
