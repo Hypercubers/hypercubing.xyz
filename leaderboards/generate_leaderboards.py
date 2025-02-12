@@ -427,13 +427,13 @@ PARALLEL_SUM_DESC = r"""
     A [parallel sum](https://en.wikipedia.org/wiki/Parallel_(operator))
     is the reciprocal of the sum of reciprocals.
 
-    A person's Parallel Sum of Ranks is the parallel sum of their rank in every category,
+    A person's Parallel Sum of Ranks is the parallel sum of their rank in every event,
     including $\infty$ for events they haven't participated in.
 """
 SUM_DESC = r"""
     $$\sum_{e\in \text{events}} \text{rank}_e$$
 
-    A person's Sum of Ranks is the sum of their rank in every category.
+    A person's Sum of Ranks is the sum of their rank in every event.
     When someone hasn't participated in an event, their rank is considered
     to be equal to one plus the number of people who have participated.
 """
