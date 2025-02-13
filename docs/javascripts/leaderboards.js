@@ -35,7 +35,7 @@ function RelativeDate() {
     } 
     document.getElementById("relative-date-format").classList.add("md-button--primary"); 
     document.getElementById("iso-date-format").classList.remove("md-button--primary"); 
-    // sessionStorage.setItem("timeFormat", "long");
+    sessionStorage.setItem("dateFormat", "relative");
 }
 
 function ISODate() {
@@ -46,7 +46,7 @@ function ISODate() {
     } 
     document.getElementById("iso-date-format").classList.add("md-button--primary"); 
     document.getElementById("relative-date-format").classList.remove("md-button--primary"); 
-    // sessionStorage.setItem("timeFormat", "long");
+    sessionStorage.setItem("dateFormat", "iso");
 }
 
 
@@ -54,12 +54,18 @@ document.addEventListener("DOMContentLoaded", load);
 document.addEventListener("hashchange", load);
 
 function load() {
-    console.log("loaded thing");
-    var format = sessionStorage.getItem("timeFormat");
-    if (format == "short") {
+    // load cookies for view options
+    var timeFormat = sessionStorage.getItem("timeFormat");
+    if (timeFormat == "short") {
         ShortTime();
     } else {
         LongTime();
+    }
+    var dateFormat = sessionStorage.getItem("dateFormat");
+    if (dateFormat == "relative") {
+        RelativeDate();
+    } else {
+        ISODate();
     }
 }
 
