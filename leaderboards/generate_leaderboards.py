@@ -101,11 +101,14 @@ def format_date(isodate) -> str:
         relative = "Today"
     elif diff.days == 1:
         relative = "Yesterday"
-    elif diff.days >= 7 and diff.days < 365:
-        a = "" if int(diff.days)/7 == 1 else "s"
+    elif diff.days >= 7 and diff.days < 30:
+        a = "s" if abs(int(diff.days)/7) != 1 else ""
         relative = f"{int(diff.days/7)} week{a} ago"
+    elif diff.days >= 30 and diff.days < 365:
+        a = "s" if abs(int(diff.days)/30.4) != 1 else ""
+        relative = f"{int(diff.days/30.4)} month{a} ago"
     elif diff.days >= 365:
-        a = "" if int(diff.days)/365 == 1 else "s"
+        a = "s" if abs(int(diff.days)/365) != 1 else ""
         relative = f"{int(diff.days/365)} year{a} ago"
     else: 
         relative = f"{diff.days} days ago"
