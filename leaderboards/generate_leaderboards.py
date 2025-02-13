@@ -96,19 +96,19 @@ def format_date(isodate) -> str:
     diff =  date.today() - date.fromisoformat(isodate)
     relative = ""
     if diff.days < 0:
-        relative == "Tomorrow"
+        relative = "Tomorrow"
     elif diff.days == 0:
         relative = "Today"
     elif diff.days == 1:
         relative = "Yesterday"
     elif diff.days >= 7 and diff.days < 30:
-        a = "s" if abs(int(diff.days)/7) != 1 else ""
+        a = "s" if diff.days >= 7*2 else ""
         relative = f"{int(diff.days/7)} week{a} ago"
-    elif diff.days >= 30 and diff.days < 365:
-        a = "s" if abs(int(diff.days)/30.4) != 1 else ""
+    elif diff.days >= 30.4 and diff.days < 365:
+        a = "s" if diff.days >= 30.4*2 else ""
         relative = f"{int(diff.days/30.4)} month{a} ago"
     elif diff.days >= 365:
-        a = "s" if abs(int(diff.days)/365) != 1 else ""
+        a = "s" if diff.days >= 365*2 else ""
         relative = f"{int(diff.days/365)} year{a} ago"
     else: 
         relative = f"{diff.days} days ago"
