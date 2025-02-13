@@ -142,7 +142,7 @@ class Solve:
 
         self._cell_contents = {
             # 'date': self.date,
-            'date': f'<p class=\'isodate\'>{formatted_date[0]}</p><p style=\'display: none\' class=\'relativedate\'>{formatted_date[1]}</p>',
+            'date': f'<span class=\'isodate\'>{formatted_date[0]}</span><span style=\'display: none\' class=\'relativedate\'>{formatted_date[1]}</span>',
             'time': f'<a class=\'longtime\' href={self.link}>{formatted_time[0]}</a><a style=\'display: none\' class=\'shorttime\' href={self.link}>{formatted_time[1]}</a>' if link else formatted_time,
             'event': self.event.name,
             'program': self.program,
