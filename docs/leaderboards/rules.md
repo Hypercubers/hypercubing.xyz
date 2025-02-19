@@ -32,6 +32,7 @@ These rules apply generally to speedsolving submissions unless the category has 
     - The video must include scrambling the puzzle. When using Hyperspeedcube, the statusbar must be visible with the text "Scrambled fully."
     - A timer with precision of 0.01 seconds or better must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
     - Inspection time must not exceed 60 seconds. In other words, the solve timer must be started within 60 seconds of the puzzle being completely scrambled.
+    - If any moves are executed on the solved puzzle shortly after the timer stops, the moderators may retime or reject the solve at their discretion.
 - If using keyboard controls:
     - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
     - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
