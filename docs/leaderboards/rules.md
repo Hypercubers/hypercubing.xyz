@@ -14,7 +14,6 @@ These rules may be flexible, especially for new categories. For example, if you'
 - The puzzle must be solved from a full scramble.
     - No twists may be applied between the puzzle being scrambled and the timer starting, or else the solve counts as a [DNF]. Full-puzzle rotations, including gyros, are allowed.
     - When the timer is stopped the puzzle must be solved, or else the solve counts as a [DNF].
-    - Twists may be applied after the timer is stopped, but these moves are discounted.
 - Spectators may commentate, but must not help the solver.
 - Algorithm reference sheets are strongly discouraged.[^algsheets]
 - Reversing the scramble is not allowed; the solution must be novel.
