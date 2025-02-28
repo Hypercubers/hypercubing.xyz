@@ -253,7 +253,7 @@ Absolutely! Most 4D speed methods are highly intuitive, and world-record times o
 
     Ok I actually ran the numbers:
 
-    - My [2:05.30 WR solve had full-step 2-look OLL + 2-look PLL](<https://www.youtube.com/watch?v=PtXvGfoezWs&t=2m09s>) and took **8 seconds**
+    - My [2:05.30 PB solve had full-step 2-look OLL + 2-look PLL](<https://www.youtube.com/watch?v=PtXvGfoezWs&t=2m09s>) and took **8 seconds**
     - My [1:56.42 WR solve had an easy full OLL (OCLL skip) + U perm (CPLL skip)](<https://www.youtube.com/watch?v=SrrmSdtOt14&t=2m02s>) and took **4 seconds**
 
     Consider that the second solve is basically the _best case_ for a 2-look last layer (the goal of full OLL+PLL), using algorithms that have really nice RKT cancels and are easy to execute with my keybinds _and I've practiced them a ton_, but it was still only 4 seconds faster, which is ~2% of the total solve. Additionally, my experience is that it takes _much_ more practice to execute 4D algorithms at max speed with a keyboard compared to executing 3D algorithms at max speed on a 3^3.
