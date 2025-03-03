@@ -101,6 +101,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
 - [Slidysim](https://www.slidysim.com/)
 - [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
+- [Sphenic Biaxe](https://hypercubing.xyz/sphenic-biaxe/)
 
 ### Complex & laminated puzzles
 
