@@ -31,3 +31,4 @@ For a documentary about the history of physical puzzles as of December 2022, see
 - Markk's duoprisms
 - {5}×{4} duoprism
 - Akkei's 2×2×2×2×2
+- [2^6^ using 64 skewbs](https://www.youtube.com/watch?v=C_Wq42L-12M)
