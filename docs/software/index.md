@@ -147,6 +147,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 - [RocKeT](https://github.com/HactarCE/rocket), for finding RKT cancels for 3D algorithms
 - [Hypersolve](https://github.com/ajtaurence/Hypersolve), for generating short 2^4^ solutions and scrambles
 - [hscfilter](https://milojacquet.com/hscfilter), for generating HSC1 filter strings
+- [mousekeybinds](https://github.com/TheCubeDude/mousekeybinds), for adding keyboard controls to mouse-controlled programs
 
 ## Games
 
