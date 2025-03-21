@@ -43,6 +43,7 @@
 *[MPUlt]: Magic Puzzle Ultimate
 *[MT]: MagicTile
 *[MHT]: Magic Hyperbolic Tile
+*[MKB]: Mouse Key Binds
 
 <!-- Turn metrics -->
 *[ATM]: Axial Turn Metric
