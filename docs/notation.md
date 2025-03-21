@@ -26,7 +26,9 @@ Twists are notated based on which piece you click on to do the turn, with the fi
 - `IUR` means to left click the I sticker of the IUR piece (edge twists are symmetrical, so it doesn't matter if you left or right click).
 - `FRUI` means to right click the F sticker of the FRUI piece.
 
-For the slice layers, we use `M` `E` `S` `P`, where P is the slice that follows `O` (although with notation for n^5^ puzzles beginning to be fleshed out, P may end up being used by the new 5D sides of Posterior/Anterior). Wide moves are tricky, as we are now using the letter `w` for the 4th dimension axis. One way to get around this is to write the numbers you hold down on the keyboard (in MC4D/MPU etc) while clicking on a piece. On a 3-layered puzzle, holding down 2 does a slice move, and holding down 1 and 2 will do a wide move.
+For the slice layers, we use `M` `E` `S` `P`, where P is the slice between `I` and `O` (although with n^5^ notation now using P for Posterior, this may be changed in the future). Each slice follows twists the same direction as which side on the axis it is closer to in the alphabet. For example, `M` follows `L` because it is closer to `L` than `R` in the alphabet. This means that `E` follows `D`, `S` follows `F`, and `P` follows `O`.
+
+Wide moves are tricky, as we are now using the letter `w` for the 4th dimension axis. One way to get around this is to write the numbers you hold down on the keyboard (in MC4D/MPU etc) while clicking on a piece. On a 3-layered puzzle, holding down 2 does a slice move, and holding down 1 and 2 will do a wide move.
 
 - `{2}RO` means to hold <kbd>2</kbd> while doing an RO move (essentially an M move).
 - `{2-3}UO'` means to hold <kbd>2</kbd> and <kbd>3</kbd> while doing a UO' move.
@@ -39,6 +41,8 @@ Many algorithms are constructed using commutators and conjugates, so there is a 
 ## Algorithms
 
 A shorter notation was developed to write specific algorithms, such as RKT cancels. All letters besides `I` and `O` correspond to their -O variants. `R U R' U'` would mean `RO UO RO' UO'`. For the wide O cell flips, they are notated with 3D rotations, such as `{1-2}Oxz2`. Using 3D rotations in this way is totally arbitrary, and its only purpose is for execution.
+
+There is also a notation where you put a star after the name of a cell to mean that you twist it in any direction, such as `R*`.
 
 ## Rotations
 
