@@ -71,9 +71,9 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.superfences:
       custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - sane_lists
@@ -89,15 +89,14 @@ plugins:
   - search
   - glightbox:
       auto_caption: true
-  - awesome-pages:
-      strict: false
+  - awesome-nav
   - gen-files:
       scripts:
-      - leaderboards/generate_leaderboards.py
+        - leaderboards/generate_leaderboards.py
   - redirects:
       redirect_maps:
-        'discord.md': 'https://discord.gg/xxFvfyx89p'
-        'theory/grip_theory.md': 'theory/grip-theory.md'
+        "discord.md": "https://discord.gg/xxFvfyx89p"
+        "theory/grip_theory.md": "theory/grip-theory.md"
 hooks:
   - hooks/feature_matrix.py
   - hooks/symbol_hooks.py
