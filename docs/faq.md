@@ -51,6 +51,7 @@ hide: [navigation, toc]
     - [Why not use speedrun.com?](#why-not-use-speedruncom)
     - [I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?](#i-dont-know-full-ollpllzblletc-can-i-still-get-fast-at-4d)
     - [What 4D algorithms are there?](#what-4d-algorithms-are-there)
+    - [4D Sexy Move](#4d-sexy-move)
     - [How can I get faster at solving 3x3x3x3?](#how-can-i-get-faster-at-solving-3x3x3x3)
     - [How could the 3x3x3x3 record be improved?](#how-could-the-3x3x3x3-record-be-improved)
 - [Does this puzzle exist?](#does-this-puzzle-exist)
@@ -263,6 +264,10 @@ Absolutely! Most 4D speed methods are highly intuitive, and world-record times o
 ### What 4D algorithms are there?
 
 There's so many cases for each step of the solve that creating a complete algorithm set is basically impossible, and there's so many options for moves that algorithm explorers are infeasible. Almost every algorithm we have is based on an algorithm from 3D, and the only search program we have is a sort of optimizer for one very specific kind of algorithm derived from 3D.
+
+### 4D Sexy Move
+
+In 2022, Rowan made a 3^4^ [Beginner's Method Tutorial video](https://www.youtube.com/watch?v=h4n_QdZGXf8). In an attempt to make it as simple to learn as possible, he taught a "4D Sexy Move" as an algorithm, when in reality it was an application of a technique called [RKT](https://hypercubing.xyz/techniques/rkt/). This lead to a lot of people having limited understanding of the puzzle and why certain things worked. Some people joined the discord server and talked about the 4D Sexy Move like it was some magical algorithm, when it was actually just a certain thing you can do with a general technique that can do more than a single algorithm.
 
 ### How can I get faster at solving 3x3x3x3?
 
