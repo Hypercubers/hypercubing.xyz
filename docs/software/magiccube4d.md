@@ -2,10 +2,10 @@
 
 Magic Cube 4D (MC4D) was one of the first ever programs capable of simulating higher dimensional twisty puzzles. It was first released in 1988 and was developed by Melinda Green, Don Hatch, Jay Berkenbilt, and Roice Nelson.
 
-<center>
-![3×3×3×3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
-
-<small> 3^4^ puzzle in Magic Cube 4D </small> </center>
+<figure markdown="span">
+  ![3×3×3×3 puzzle in Magic Cube 4D](https://superliminal.com/cube/cube_transp.gif)
+  <figcaption>3^4^ puzzle in Magic Cube 4D</figcaption>
+</figure>
 
 ## Download/installation
 

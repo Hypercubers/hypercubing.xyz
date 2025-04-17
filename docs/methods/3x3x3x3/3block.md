@@ -932,7 +932,9 @@
 
 Solve the four 2c cross pieces in a ring in the M slice. Leave the L and R cross pieces unsolved.
 
-<center>![4-cross](https://assets.hypercubing.xyz/img/virt/3block/4cross.png){width="50%"}</center>
+<figure markdown="span">
+  ![4-cross](https://assets.hypercubing.xyz/img/virt/3block/4cross.png){width="50%"}
+</figure>
 
 ### Middle Block
 
@@ -941,19 +943,25 @@ Solve the four 2c cross pieces in a ring in the M slice. Leave the L and R cross
 
 Create and insert 4 F2L-a (2c3c) pairs into the 4/6 cross. This will solve 2/3 of the M slice. Because the Left and Right cells don't have their cross pieces, you can use them to aid with building and inserting the pairs.
 
-<center>![Middle block](https://assets.hypercubing.xyz/img/virt/3block/middle_block.png){width="50%"}</center>
+<figure markdown="span">
+  ![Middle block](https://assets.hypercubing.xyz/img/virt/3block/middle_block.png){width="50%"}
+</figure>
 
 ### Left Block
 
 Solve the Left cell. This is done in 3 blocks, hence the name of the method. The first block consists of the cross edge, followed by two 2c3c F2L-a pairs that are opposite of each other. This solves the middle column of the left cell. The final two blocks consist of a 2c3c pair, and two 3c4c pairs.
 
-<center>![Left block](https://assets.hypercubing.xyz/img/virt/3block/left_block.png){width="50%"}</center>
+<figure markdown="span">
+  ![Left block](https://assets.hypercubing.xyz/img/virt/3block/left_block.png){width="50%"}
+</figure>
 
 ### Right Block
 
 Solve the Right cell. This is also done by breaking it up into the 3 blocks, except now you don't have an empty opposite cell to aid you in making pairs. You could just solve the cross edge, and then finish the whole solve using [CFOP](/methods/3x3x3x3/cfop.md) style F2L and Last Cell. You can also do it the 3 blocks way, except having less freedom means that it is slightly trickier to set up the correct cases.
 
-<center>![Right block](https://assets.hypercubing.xyz/img/virt/3block/right_block.png){width="50%"}</center>
+<figure markdown="span">
+  ![Right block](https://assets.hypercubing.xyz/img/virt/3block/right_block.png){width="50%"}
+</figure>
 
 ### Last Layer
 

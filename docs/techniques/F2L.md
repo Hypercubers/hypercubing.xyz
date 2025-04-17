@@ -2,7 +2,7 @@
 
 <center>
 <div style="width:200px; height:219px">
-    <script>AnimCube3("config=../../assets/animcube/AnimCube3.txt&facelets=lllllllllwwwwwwwwwLRRLRRLRRlooloolooLLLBBBBBBlgglgglgg")</script>   
+    <script>AnimCube3("config=../../assets/animcube/AnimCube3.txt&facelets=lllllllllwwwwwwwwwLRRLRRLRRlooloolooLLLBBBBBBlgglgglgg")</script>
 </div>
 </center>
 

@@ -34,10 +34,8 @@ The design of the puzzle is simple: two copies of the physical 2^4^, where the l
 It is not impossible to design a piece with 5 stickers that supports all even permutations of its stickers. The symmetry group of this piece is called $A_5$, the alternating group on 5 points, and it is isomorphic to the symmetry of the icosahedron. It is not obvious whether there are actually 5 objects permuted by this group, but there are: the 5 tetrahedra of the compound of 5 tetrahedra, or the 5 cubes of the compound of 5 cubes. Any even permutation of the 5 components of either shape can be realized as a rotation of the whole shape.
 
 !!! example "The compounds of 5 tetrahedra and 5 cubes[^1]"
-    <center>
     ![Compound of 5 tetrahedra](https://assets.hypercubing.xyz/img/phys/shapes/compound_of_five_tetrahedra.png){width="40%"}
     ![Compound of 5 cubes](https://assets.hypercubing.xyz/img/phys/shapes/compound_of_five_cubes.png){width="40%"}
-    </center>
 
 Observe that in the compound of 5 cubes, if you take one cube as fixed, the other four cubes each share one pair of opposite vertices with it. In particular, the arrangement of these 4 other cubes has the same symmetry as the 4 stickers of the piece of the physical 2^4^, or the 4 exchangeable stickers of the restricted 2^5^. Thus, by designing a piece based on this object, the true physical 2^5^ can be implemented that shares all the moves of the restricted 2^5^, along with one new gyro move. Because of the complexity of the puzzle, the gyro is very difficult to execute.
 

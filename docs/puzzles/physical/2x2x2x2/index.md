@@ -41,10 +41,8 @@ Because of all this recognition, many new people bought the puzzle, but it was s
 ## How Does the Physical 2x2x2x2 Work?
 
 !!! example "Animations showing how the virtual and physical 2^4^ transform into each other"
-    <center>
     ![Physical to virtual 2×2×2×2 transformation 1](https://assets.hypercubing.xyz/img/phys/melinda_2x2x2x2_anim1.gif){width="40%"}
     ![Physical to virtual 2×2×2×2 transformation 2](https://assets.hypercubing.xyz/img/phys/melinda_2x2x2x2_anim2.gif){width="40%"}
-    </center>
 
 Each twist and rotation on the virtual 2^4^ is possible to do on the physical 2^4^, albeit with certain moves requiring some extra setup. See the [canonical moves](/puzzles/physical/2x2x2x2/canonical-moves.md) page for a more detailed explanation.
 
