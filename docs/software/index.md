@@ -121,7 +121,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [MagmaMcFry's Quaternion Cube](https://magmamcfry.github.io/QuaternionCube/)
 - [TwistyPuzzles by CasualCuber](https://casualcuber.bitbucket.io/)
 - [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
-- [Melinda's Quantum Loopover](https://superliminal.com/misc/Quantum%20Loopover.html)
+- [Quantum Loopover by Nan Ma and Melinda Green](https://www.nan.ma/QuantumLoopover/)
 
 [akkei-phys]: https://drive.google.com/drive/folders/1xBEKkGYIFKSAcIgJjPCIx_W0vdJawuZ0
 
