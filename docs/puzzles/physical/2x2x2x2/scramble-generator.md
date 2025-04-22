@@ -1,6 +1,6 @@
 # Physical 2×2×2×2 Scramble Generator
 
-See [Scramble notation](canonical-moves.md#scramble-notation). In particular, `#` represents a `Uy2` followed by a right-to-left restack.
+See [Scramble notation](canonical-moves.md#scramble-notation). In particular, `#` represents a `Uy2` followed by a left-to-right restack.
 
 The starting orientation is:
 
