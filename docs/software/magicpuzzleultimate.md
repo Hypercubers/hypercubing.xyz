@@ -4,7 +4,7 @@
 
 [Download MPU](https://superliminal.com/andrey/mpu/MPUlt.zip){ .md-button .md-button--primary }
 
-<figure>
+<figure markdown="span">
   ![32-cell in MPU](https://assets.hypercubing.xyz/img/virt/mpu_32cell.png)
   <figcaption>32-cell puzzle in MPU</figcaption>
 </figure>
@@ -19,8 +19,8 @@ While we're waiting for [Hyperspeedcube 2.0](/software/hyperspeedcube.md#20) to 
 
 Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate ```Block```. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
 
-
 ### Puzzle Definitions
+
 ??? abstract "3D Puzzles"
 
     ??? info "3x3x3"
@@ -363,7 +363,6 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
             Cuts 0.75 -0.75
             ```
 
-
 ??? abstract "5D Puzzles"
 
     ??? abstract "Penteract Family"
@@ -480,6 +479,7 @@ If you figure out the notation, you can try adding your own puzzles. You define 
 For some definitions of various hypercuboids, see [hypercuboids](https://hypercubing.xyz/puzzles/hypercuboids/).
 
 There is also a general formula for 4D duoprism puzzles, made by Luna:
+
 ``` title="{p}x{q}"
 Puzzle {p}x{q}
 Dim 4
