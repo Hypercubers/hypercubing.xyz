@@ -87,4 +87,4 @@ From here, you use RKT to solve the rest of the puzzle like a whole 3^3^. The CF
     If the "top face" of the LL is 180 degrees off from the rest of the puzzle, you have to use a special 4D algorithm. See [RKT](/techniques/rkt.md) for algorithms.
 
 !!! tip "RKT parity avoidance"
-    You can avoid RKT parity by using 2-look PLL. When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the UIFR spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, just solve the 3c with EPLL algorithms.
+    You can avoid RKT parity by using 2-look PLL. When you get to PLL, correct any RKT debt you have. Then put the solved LL corner in the IUFL spot. Now you can do whichever A-perm you have (clockwise or anticlockwise). Finally, just solve the 3c with EPLL algorithms.
