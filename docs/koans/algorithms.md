@@ -14,6 +14,6 @@ Later that day, Master Nazir found Nima still struggling on the same monotwist c
 
 "Cherto has given you an algorithm?" Master Nazir peered over her shoulder. "I see you struggle with the application of Cherto's algorithm. Did they explain the derivation of this algorithm to you?" Nima responded that they had not. Master Nazir left the room, leaving Nima to her struggles.
 
-Shortly after, Master Nazir returned with Neophyte Cherto. Cherto watched Nima diligently applying their algorithm to the hemimegaminx in front of her, unaware of its origins.
+Shortly after, Master Nazir returned with Neophyte Cherto. Cherto watched Nima diligently applying their algorithm to the hemimegaminx in front of her, unaware of its 4-dimensional origins.
 
 _At that moment, Cherto was enlightened._
