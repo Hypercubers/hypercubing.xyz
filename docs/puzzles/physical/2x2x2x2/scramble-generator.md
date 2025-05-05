@@ -12,7 +12,7 @@ The starting orientation is:
 ---
 
 <p>Scrambles: <span id="demo2">5</span></p>
-<input type="range" min="1" max="20" value="5" class="slider" id="myRange">
+<input type="range" min="1" max="50" value="5" class="slider" id="myRange">
 <br><br>
 <button onclick="myFunction()" style="background-color: #e7e7e7; color: black; padding: 8px 8px; border-radius: 12px;">Generate Scrambles</button>
 !!! Scrambles
@@ -268,7 +268,7 @@ function turn(input,turnNum)
     }
 }
 function myFunction() {
-    var scrambleLength = [16, 14, 12];
+    var scrambleLength = [18, 16, 14];
     var Lphysmoves = ["Ly", "Ly'", "Ly2", "Lx2", "Lz2", "Lx2,y", "Lx2,y'", "Lx", "Lx,y", "Lx,y'", "Lx,y2", "Lx'", "Lx',y", "Lx',y'", "Lx',y2", "Lz", "Lz,y", "Lz,y'", "Lz,y2", "Lz'", "Lz',y", "Lz',y'", "Lz',y2", ""];
     var Rphysmoves = ["Ry", "Ry'", "Ry2", "Rx2", "Rz2", "Rx2,y", "Rx2,y'", "Rx", "Rx,y", "Rx,y'", "Rx,y2", "Rx'", "Rx',y", "Rx',y'", "Rx',y2", "Rz", "Rz,y", "Rz,y'", "Rz,y2", "Rz'", "Rz',y", "Rz',y'", "Rz',y2", ""];
     var message_text = "";
