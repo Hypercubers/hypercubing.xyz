@@ -149,6 +149,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 - [Hypersolve](https://github.com/ajtaurence/Hypersolve), for generating short 2^4^ solutions and scrambles
 - [hscfilter](https://milojacquet.com/hscfilter), for generating HSC1 filter strings
 - [mousekeybinds](https://github.com/TheCubeDude/mousekeybinds), for adding keyboard controls to mouse-controlled programs
+- [Discrete Hopf Fibration](https://www.inf.fu-berlin.de/inst/ag-ti/software/DiscreteHopfFibration/), for exploring swirlchora to build puzzles from
 
 ## Games
 
