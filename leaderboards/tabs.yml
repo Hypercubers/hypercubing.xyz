@@ -30,6 +30,7 @@
   contents:
   - {puz: hemimegaminx, name: Hemimegaminx}
   - {puz: klein_quartic, name: Canon-Cut Klein Quartic}
+  - {puz: dyck_map, name: Canon-Cut Dyck Map}
 - name: Misc
   contents:
   - {puz: 3x3x3_1d, name: 3×3×3 in 2D projection with 1D Vision}
