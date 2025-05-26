@@ -21,11 +21,16 @@
   - name: Other
     contents:
     - {puz: 3-layer_simplex, name: 3-Layer Simplex}
-- name: 5D
+- name: 5D+
   contents:
-    - {puz: 3x3x3x3x3, name: 3×3×3×3×3}
-    - {puz: 2x2x2x2x2, name: 2×2×2×2×2}
-    - {puz: 4x4x4x4x4, name: 4×4×4×4×4}
+    - name: 5D
+      contents:
+      - {puz: 3x3x3x3x3, name: 3×3×3×3×3}
+      - {puz: 2x2x2x2x2, name: 2×2×2×2×2}
+      - {puz: 4x4x4x4x4, name: 4×4×4×4×4}
+    - name: 6D
+      contents:
+      - {puz: 3x3x3x3x3x3, name: 3×3×3×3×3×3}
 - name: MagicTile
   contents:
   - {puz: hemimegaminx, name: Hemimegaminx}
