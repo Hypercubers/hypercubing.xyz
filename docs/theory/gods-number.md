@@ -2,7 +2,7 @@
 
 **God's number** is the minimum number of moves that is sufficient to solve a twisty puzzle from any starting position. For 3×3×3, this has [been proven][cube20] to be 20 HTM (or 26 QTM).
 
-God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to prove $\sim 4.3 \times 10^{19}$ states reachable in 20 moves or less. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial 4D puzzle for which God's number is known, let alone remotely possible to compute.**
+God's number for 3^3^ took [lots of creative mathematical work and 35 years of CPU time][cube20] to prove $\sim 4.3 \times 10^{19}$ states reachable in 20 moves or less. For comparison, the 2^4^ has $\sim 3.4 \times 10^{27}$ states and 4^3^ has $\sim 7.4 \times 10^{45}$ states. **There isn't a single nontrivial facet-turning 4D+ hypercube for which God's number is known, let alone remotely possible to compute.**
 
 There are three strategies we can use to estimate it:
 
