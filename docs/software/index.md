@@ -102,6 +102,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [Slidysim](https://www.slidysim.com/)
 - [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
 - [Sphenic Biaxe](https://hypercubing.xyz/sphenic-biaxe/)
+- [circleguy](https://github.com/henrydukepickle/circleguy)
 
 ### Complex & laminated puzzles
 
@@ -156,6 +157,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 This is not a complete list of 4D games. This is specifically 4D software that hypercubers often recommend for understanding 4D geometry better.
 
 - [4D Blocks](https://www.urticator.net/blocks/)
+- [Tesserxel](https://wxyhly.github.io/tesserxel/examples/) (4D physics)
 
 ## Visualizations
 
