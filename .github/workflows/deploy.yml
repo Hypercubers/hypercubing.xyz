@@ -20,6 +20,11 @@ jobs:
           repository: Hypercubers/sphenic-biaxe
           ref: gh-pages
           path: docs/sphenic-biaxe
+      - uses: actions/checkout@v4
+        with:
+          repository: henryduke/circleguy
+          ref: gh-pages
+          path: docs/circleguy
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
