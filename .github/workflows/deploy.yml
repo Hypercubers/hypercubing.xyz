@@ -22,7 +22,7 @@ jobs:
           path: docs/sphenic-biaxe
       - uses: actions/checkout@v4
         with:
-          repository: henryduke/circleguy
+          repository: henrydukepickle/circleguy
           ref: gh-pages
           path: docs/circleguy
       - name: Set up Python 3.12
