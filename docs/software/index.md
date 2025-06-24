@@ -49,6 +49,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Twizzle Explorer][twizzle]                 | [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
 | [IsoCubeSim][ics]                           |                      :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
 | [Geraniums Pot][gpot]                       |        [:material-language-python:][gpot-src] • %platforms{wl__} | %features{m_______p_} | rotating-circle puzzles |
+| [circleguy]                                 |     [:material-language-rust:][circleguy-src] • %platforms{wlab} | %features{m_______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
@@ -73,6 +74,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [ics]: https://mzrg.com/rubik/iso/
 [gpot]: https://github.com/grigorusha/GeraniumsPot/
 [gpot-src]: https://github.com/grigorusha/GeraniumsPot/
+[circleguy]: https://github.com/henrydukepickle/circleguy
+[circleguy-src]: https://github.com/henrydukepickle/circleguy
 
 [^gelatinbrain]: Full name: gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)
 
@@ -102,7 +105,6 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [Slidysim](https://www.slidysim.com/)
 - [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
 - [Sphenic Biaxe](https://hypercubing.xyz/sphenic-biaxe/)
-- [circleguy](https://github.com/henrydukepickle/circleguy)
 
 ### Complex & laminated puzzles
 
