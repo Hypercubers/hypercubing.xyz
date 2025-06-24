@@ -49,7 +49,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Twizzle Explorer][twizzle]                 | [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
 | [IsoCubeSim][ics]                           |                      :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
 | [Geraniums Pot][gpot]                       |        [:material-language-python:][gpot-src] • %platforms{wl__} | %features{m_______p_} | rotating-circle puzzles |
-| [circleguy]                                 |     [:material-language-rust:][circleguy-src] • %platforms{wlab} | %features{m_______p_} | rotating-circle puzzles |
+| [circleguy]                                 |     [:material-language-rust:][circleguy-src] • %platforms{w__b} | %features{m_______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
