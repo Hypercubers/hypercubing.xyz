@@ -17,13 +17,13 @@ hide: [navigation, toc]
     - [Isn't the 4th dimension time?](#isnt-the-4th-dimension-time)
     - [How can we visualize 4D?](#how-can-we-visualize-4d)
     - [Where can I interact with other hypercubers?](#where-can-i-interact-with-other-hypercubers)
+    - [How do I start hypercubing?](#how-do-i-start-hypercubing)
 - [Virtual puzzles](#virtual-puzzles)
     - [What program should I download?](#what-program-should-i-download)
     - [How do I learn to solve the 3×3×3×3?](#how-do-i-learn-to-solve-the-3333)
     - [Is it always possible to solve a 1-move scramble in one move?](#is-it-always-possible-to-solve-a-1-move-scramble-in-one-move)
     - [I can't solve a 4-move scramble!](#i-cant-solve-a-4-move-scramble)
     - [What methods exist for the 3×3×3×3?](#what-methods-exist-for-the-3333)
-    - [How do I start learning to solve 4D puzzles?](#how-do-i-start-learning-to-solve-4d-puzzles)
     - [Why not start with the physical 2×2×2×2?](#why-not-start-with-the-physical-2222)
     - [Why not start with the virtual 2×2×2×2?](#why-not-start-with-the-virtual-2222)
     - [What is God's number for \[puzzle\]?](#what-is-gods-number-for-puzzle)
@@ -82,6 +82,12 @@ Our eyes see only a 2D projection of the 3D world, and we're able to reconstruct
 
 Before the Google Group or Discord server, there was a Yahoo Groups mailing list. Those messages are [archived here](https://archive.hypercubing.xyz/).
 
+### How do I start hypercubing? 
+
+We recommend starting by [figuring out how to solve the 3×3×3×3](#how-do-i-learn-to-solve-the-3333). This will build lots of core concepts useful for understanding and solving other puzzles.
+
+If you don't get know how to solve a 3D Rubik's cube, we recommend starting with that first.
+
 ## Virtual puzzles
 
 ### What program should I download?
@@ -123,10 +129,6 @@ Many 3D methods can just be scaled up and used on the 4D cube. Some notable meth
 - [Octachoroux](/methods/3x3x3x3/octachoroux.md) (4D Roux)
 
 As of 2024, 3-Block is the most popular speedsolving method and what's used in the world record, but CFOP is also competitive.
-
-### How do I start learning to solve 4D puzzles?
-
-First, download [Hyperspeedcube](https://ajfarkas.dev/hyperspeedcube/) or MC4D and start experimenting with the 3^4^! Try to solve one-move scrambles and keep practicing that until you're comfortable. Once you can solve one-move scrambles with ease, pick a [method](/methods/index.md) to learn.
 
 ### Why not start with the physical 2×2×2×2?
 
