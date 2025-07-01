@@ -309,7 +309,7 @@ Using different definitions, we can create a few different puzzles that could re
 - If we allow translations instead of rotations, we get [Loopover].
 - If we allow circular cuts instead of flat cuts, we get various [MagicTile] puzzles, including some that are actually equivalent to an ordinary 3D Rubik's cube!
 
-[Reflesquare]: https://superliminal.com/cube/mc2d.html
+[Reflesquare]: https://superliminal.com/cube/3x3/
 [Reflecube]: https://www.nan.ma/reflecube/
 [Loopover]: https://loopover.xyz/
 [MagicTile]: http://roice3.org/magictile/
