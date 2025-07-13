@@ -39,6 +39,7 @@ hide: [navigation, toc]
     - [I get an error when I try to run Hyperspeedcube](#i-get-an-error-when-i-try-to-run-hyperspeedcube)
     - [How do I use keybinds in Hyperspeedcube?](#how-do-i-use-keybinds-in-hyperspeedcube)
     - [How do I use piece filters in Hyperspeedcube?](#how-do-i-use-piece-filters-in-hyperspeedcube)
+    - [Why does Hyperspeedcube drop my keystrokes?](#why-does-hyperspeedcube-drop-my-keystrokes)
 - [Hyperspeedcube 2](#hyperspeedcube)
     - [When will Hyperspeedcube 2 be ready?](#when-will-hyperspeedcube-2-be-ready)
     - [What features are planned for Hyperspeedcube 2?](#what-features-are-planned-for-hyperspeedcube-2)
@@ -207,6 +208,10 @@ See [Hyperspeedcube - Troubleshooting](/software/hyperspeedcube.md#troubleshooti
 ### How do I use piece filters in Hyperspeedcube?
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LAYXy5mh3FI?si=eYL7jVnbXy_oU8Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Why does Hyperspeedcube drop my keystrokes?
+
+If you are pressing multiple keys at once, your keyboard may not detect subsequent ones. This is called "keyboard ghosting" and it is a limitation found in the hardware of many computers keyboards. Microsoft has an [excellent post explaining why it happens](https://www.microsoft.com/applied-sciences/projects/anti-ghosting), and an [interactive test](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) you can use to see if that's your issue.
 
 ## Hyperspeedcube 2
 
