@@ -4,18 +4,18 @@ title: Submit
 
 # Hypercubing Leaderboard Submission Form
 
-<div id="submitted-text">
+<div id="submitted-text" style="display: none">
     <p>Thank you for your submission to the Hypercubing.xyz leaderboard! A moderator will review this at some point.</p>
 </div>
 
 <form onsubmit="webhook();return false;" id="submission-form">
     <div>
         <label for="name">Username: </label>
-        <input type="text" name="name" placeholder="name" class="submit-form" id="nameInput">
+        <input required="true" type="text" name="name" placeholder="name" class="submit-form" id="nameInput">
     </div>
     <div>
         <label for="date">Date of solve: </label>
-        <input type="date" id="dateInput">
+        <input required="true" type="date" id="dateInput">
     </div>
     <div>
         <label for="puzzles">Puzzle: </label>
@@ -68,27 +68,55 @@ title: Submit
     </div>
     <div style="display: flex;">
         <label for ="t_0-hour">Time: </label>
-        <input type="number" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
+        <input required="true" type="number" id="hour" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
         <div>h</div>
-        <input type="number" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
+        <input required="true" type="number" id="minute" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
         <div>m</div>
-        <input type="number" name="t_0-second" maxlength="2" min="0" max="59" autocomplete="off" value="">
+        <input required="true" type="number" id="second" name="t_0-second" maxlength="2" min="0" max="59" autocomplete="off" value="">
         <div>s</div>
-        <input type="number" name="t_0-millisecond" maxlength="3" min="0" max="999" autocomplete="off" value="">
+        <input required="true" type="number" id="millisecond" name="t_0-millisecond" maxlength="3" min="0" max="999" autocomplete="off" value="">
         <div>ms</div>
     </div>
     <div>
         <label for="link">Video link: </label>
-        <input type="text" id="linkInput">
+        <input required="true" type="text" id="linkInput">
     </div>
-    <button type="submit" class="md-button md-button--primary">Submit</button>
+    <button id="submit-button" disabled type="submit" class="md-button">Submit</button>
 
 </form>
 
 
 <script>
+
+    // call checkIntupValidity every 1/4 second
+    setInterval(checkInputValidity, 250);
+
+    function checkInputValidity() {
+        var validName = document.getElementById('nameInput').value !== "";
+        var validDate = document.getElementById('dateInput').value !== "";
+        var validLink = document.getElementById('linkInput').value !== "";
+        var validTime = validateTime();
+
+        if (validName && validDate && validLink && validTime) {
+            document.getElementById('submit-button').classList.add("md-button--primary");
+            document.getElementById('submit-button').disabled = false;
+        } else {
+            document.getElementById('submit-button').classList.remove("md-button--primary");
+            document.getElementById('submit-button').disabled = true;
+        }
+        
+    }
+
+    function validateTime() {
+        var validHour = document.getElementById('hour').value !== "";
+        var validMinute = document.getElementById('minute').value !== "";
+        var validSecond = document.getElementById('second').value !== "";
+        var validMs = document.getElementById('millisecond').value !== "";
+
+        return (validHour && validMinute && validSecond && validMs);
+    }
+
     function webhook() {
-        console.log("submitted!");
         var hook = new XMLHttpRequest();
 
         hook.open('POST', 'https://discord.com/api/webhooks/1394188268685492264/PfgjTildULXqqd8FTKInL4FbclHmpCOwe8XMrTMSeKkpxR9jGrJwU5PXiAMkfQ2hHD80');
@@ -98,13 +126,38 @@ title: Submit
         var name = document.getElementById('nameInput').value;
         var date = document.getElementById('dateInput').value;
         var link = document.getElementById('linkInput').value;
+        var puzzle = document.getElementById('puzzles').value;
+        var format = document.getElementById('formats').value;
+        var program = document.getElementById('programs').value;
+
+        var hour = document.getElementById('hour').value;
+        var minute = document.getElementById('minute').value;
+        var second = document.getElementById('second').value;
+        var millisecond = document.getElementById('millisecond').value;
+
+        var timeText = "" + hour + "h " + minute + "m " + second + "." + millisecond + "s";
+
+        if (hour === "0") {
+            timeText = "" + minute + "m " + second + "." + millisecond + "s";
+        }
+        if (hour === "0" && minute === "0") {
+            timeText = "" + second + "." + millisecond + "s";
+        } 
+        if (hour === "0" && minute === "0" && second === "0") {
+            timeText = "0." + millisecond + "s";
+        }
+        
+        
+        
 
         var content = {
-            content: ("**New Submission:** `" + date + ", " + link + ", " + name + "`")
+            content: ("**" + name + "** just submitted a **[" + timeText + " " + puzzle + " " + format + "](" + link + ")** to the leaderboard form! \n Details: `" + date + ", " + link + ", " + timeText + ", " + program + ", " + name + ", " + puzzle + ", " + format + "`")
         }
 
         hook.send(JSON.stringify(content));
+        console.log("submitted!");
 
+        // hide the form, and show the thanks for submitting message
         document.getElementById('submission-form').style.display = "none";
         document.getElementById('submitted-text').style.display = "block";
     }
