@@ -4,14 +4,18 @@ title: Submit
 
 # Hypercubing Leaderboard Submission Form
 
-<form>
+<div id="submitted-text">
+    <p>Thank you for your submission to the Hypercubing.xyz leaderboard! A moderator will review this at some point.</p>
+</div>
+
+<form onsubmit="webhook();return false;" id="submission-form">
     <div>
         <label for="name">Username: </label>
-        <input type="text" name="name" placeholder="name" class="submit-form">
+        <input type="text" name="name" placeholder="name" class="submit-form" id="nameInput">
     </div>
     <div>
         <label for="date">Date of solve: </label>
-        <input type="date">
+        <input type="date" id="dateInput">
     </div>
     <div>
         <label for="puzzles">Puzzle: </label>
@@ -75,7 +79,7 @@ title: Submit
     </div>
     <div>
         <label for="link">Video link: </label>
-        <input type="text">
+        <input type="text" id="linkInput">
     </div>
     <button type="submit" class="md-button md-button--primary">Submit</button>
 
@@ -83,6 +87,26 @@ title: Submit
 
 
 <script>
+    function webhook() {
+        console.log("submitted!");
+        var hook = new XMLHttpRequest();
 
+        hook.open('POST', 'https://discord.com/api/webhooks/1394188268685492264/PfgjTildULXqqd8FTKInL4FbclHmpCOwe8XMrTMSeKkpxR9jGrJwU5PXiAMkfQ2hHD80');
+
+        hook.setRequestHeader('Content-type', 'application/json');
+
+        var name = document.getElementById('nameInput').value;
+        var date = document.getElementById('dateInput').value;
+        var link = document.getElementById('linkInput').value;
+
+        var content = {
+            content: ("**New Submission:** `" + date + ", " + link + ", " + name + "`")
+        }
+
+        hook.send(JSON.stringify(content));
+
+        document.getElementById('submission-form').style.display = "none";
+        document.getElementById('submitted-text').style.display = "block";
+    }
 
 </script>
