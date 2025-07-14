@@ -21,7 +21,7 @@ World record database for higher dimensional twisty puzzle speedsolving!
 
 
 [:material-format-list-numbered: Rules](https://hypercubing.xyz/leaderboards/rules/){{.md-button .md-button--primary}}
-[:material-plus-circle: Submit](https://hypercubing.xyz/leaderboards/submit/submit/){{.md-button .md-button--primary}}
+[:material-plus-circle: Submit](/leaderboards/submit/submit/){{.md-button .md-button--primary}}
 
 ??? note "View Options"
     | Time Format | Date Format |
