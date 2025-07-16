@@ -98,12 +98,8 @@ title: Submit
         var validTime = validateTime();
 
         if (validName && validDate && validLink && validTime) {
-            // document.getElementById('submit-button').classList.add("md-button--primary");
-            // document.getElementById('submit-button').disabled = false;
             document.getElementById('submit-button').style.display = "block";
         } else {
-            // document.getElementById('submit-button').classList.remove("md-button--primary");
-            // document.getElementById('submit-button').disabled = true;
             document.getElementById('submit-button').style.display = "none";
         }
         
