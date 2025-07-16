@@ -81,7 +81,7 @@ title: Submit
         <label for="link">Video link: </label>
         <input required="true" type="text" id="linkInput">
     </div>
-    <button id="submit-button" disabled type="submit" class="md-button">Submit</button>
+    <button id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
 
 </form>
 
@@ -98,11 +98,13 @@ title: Submit
         var validTime = validateTime();
 
         if (validName && validDate && validLink && validTime) {
-            document.getElementById('submit-button').classList.add("md-button--primary");
-            document.getElementById('submit-button').disabled = false;
+            // document.getElementById('submit-button').classList.add("md-button--primary");
+            // document.getElementById('submit-button').disabled = false;
+            document.getElementById('submit-button').style.display = "block";
         } else {
-            document.getElementById('submit-button').classList.remove("md-button--primary");
-            document.getElementById('submit-button').disabled = true;
+            // document.getElementById('submit-button').classList.remove("md-button--primary");
+            // document.getElementById('submit-button').disabled = true;
+            document.getElementById('submit-button').style.display = "none";
         }
         
     }
@@ -151,7 +153,7 @@ title: Submit
         
 
         var content = {
-            content: ("**" + name + "** just submitted a **[" + timeText + " " + puzzle + " " + format + "](" + link + ")** to the leaderboard form! \n Details: `" + date + ", " + link + ", " + timeText + ", " + program + ", " + name + ", " + puzzle + ", " + format + "`")
+            content: ("**" + name + "** just submitted a **[" + timeText + " " + puzzle + " " + format + "](" + link + ")** to the leaderboard form! \nDetails: `" + date + ", " + link + ", " + timeText + ", " + program + ", " + name + ", " + puzzle + ", " + format + "`")
         }
 
         hook.send(JSON.stringify(content));
