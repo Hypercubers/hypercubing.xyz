@@ -79,7 +79,7 @@ title: Submit
 </form>
 
 !!! info "Verification"
-    All runs are verified by a team of moderators to ensure they comply with our rules. Make ensure the above information is accurate before submitting.
+    All runs are verified by a team of moderators to ensure they comply with our rules. Please ensure the above information is accurate before submitting.
 
 <button onclick="webhook();return false;" id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
 
