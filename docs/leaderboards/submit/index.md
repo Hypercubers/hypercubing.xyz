@@ -11,11 +11,11 @@ title: Submit
 <form onsubmit="webhook();return false;" id="submission-form">
     <div>
         <label for="name">Username: </label>
-        <input required="true" type="text" name="name" placeholder="name" class="submit-form" id="nameInput">
+        <input class="submit-input" required="true" type="text" name="name" placeholder="name" id="nameInput">
     </div>
     <div>
         <label for="date">Date of solve: </label>
-        <input required="true" type="date" id="dateInput">
+        <input class="submit-input" required="true" type="date" id="dateInput">
     </div>
     <div>
         <label for="puzzles">Puzzle: </label>
@@ -68,18 +68,18 @@ title: Submit
     </div>
     <div style="display: flex;">
         <label for ="t_0-hour">Time: </label>
-        <input required="true" type="number" id="hour" value="0" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="hour" value="0" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
         <div>h</div>
-        <input required="true" type="number" id="minute" value="0" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="minute" value="0" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
         <div>m</div>
-        <input required="true" type="number" id="second" value="0" name="t_0-second" maxlength="2" min="0" max="59" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="second" value="0" name="t_0-second" maxlength="2" min="0" max="59" autocomplete="off" value="">
         <div>s</div>
-        <input required="true" type="number" id="millisecond" value="0" name="t_0-millisecond" maxlength="3" min="0" max="999" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="millisecond" value="0" name="t_0-millisecond" maxlength="3" min="0" max="999" autocomplete="off" value="">
         <div>ms</div>
     </div>
     <div>
         <label for="link">Video link: </label>
-        <input required="true" placeholder="https://www.youtube.com/watch?v=QTc-rG-nunA" type="text" id="linkInput">
+        <input class="submit-input" required="true" placeholder="https://www.youtube.com/watch?v=QTc-rG-nunA" type="text" id="linkInput">
     </div>
     <button id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
 
