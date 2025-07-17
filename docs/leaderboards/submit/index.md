@@ -60,6 +60,8 @@ title: Submit
             <option value="MC7D">Magic Cube 7D</option>
             <option value="MT">Magic Tile</option>
             <option value="AKKEI-SIM">Akkei's 3^4 sim</option>
+            <option value="FH">Flat Hypercube</option>
+            <option value="QMINX">qminx</option>
             <option value="-">None (physical puzzle)</option>
         </select>
     </div>
