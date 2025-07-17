@@ -50,6 +50,7 @@ title: Submit
             <option value="ao5">Average of 5</option>
             <option value="nf">No filters single solve</option>
             <option value="bld">Blindfolded single solve</option>
+            <option value="oh">One handed single solve</option>
         </select>
     </div>
     <div>
@@ -66,25 +67,25 @@ title: Submit
             <option value="-">None (physical puzzle)</option>
         </select>
     </div>
-    <div style="display: flex;">
+    <div style="display: flex; flex-direction: row; align-items: center;">
         <label for ="t_0-hour">Time: </label>
         <input class="submit-input" required="true" type="number" id="hour" value="0" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
         <div>h</div>
         <input class="submit-input" required="true" type="number" id="minute" value="0" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
         <div>m</div>
-        <input class="submit-input" required="true" type="number" id="second" value="0" name="t_0-second" maxlength="2" min="0" max="59" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="second" value="0.000" name="t_0-second" maxlength="2" min="0" max="59" step="0.001" autocomplete="off" value="">
         <div>s</div>
-        <input class="submit-input" required="true" type="number" id="millisecond" value="0" name="t_0-millisecond" maxlength="3" min="0" max="999" autocomplete="off" value="">
-        <div>ms</div>
     </div>
     <div>
         <label for="link">Video link: </label>
-        <input class="submit-input" required="true" placeholder="https://www.youtube.com/watch?v=QTc-rG-nunA" type="text" id="linkInput">
+        <input class="submit-input" required="true" placeholder="https://youtu.be/watch?v=QTc-rG-nunA" type="text" id="linkInput">
     </div>
-    <button id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
-
 </form>
 
+!!! info "Verification"
+    All runs are verified by a team of moderators to ensure they comply with our rules.
+
+<button id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
 
 <script>
 
@@ -109,9 +110,8 @@ title: Submit
         var validHour = document.getElementById('hour').value !== "";
         var validMinute = document.getElementById('minute').value !== "";
         var validSecond = document.getElementById('second').value !== "";
-        var validMs = document.getElementById('millisecond').value !== "";
 
-        return (validHour && validMinute && validSecond && validMs);
+        return (validHour && validMinute && validSecond);
     }
 
     function webhook() {
@@ -131,19 +131,15 @@ title: Submit
         var hour = document.getElementById('hour').value;
         var minute = document.getElementById('minute').value;
         var second = document.getElementById('second').value;
-        var millisecond = document.getElementById('millisecond').value;
 
-        var timeText = "" + hour + "h " + minute + "m " + second + "." + millisecond + "s";
+        var timeText = "" + hour + "h " + minute + "m " + second + "s";
 
         if (hour === "0") {
-            timeText = "" + minute + "m " + second + "." + millisecond + "s";
+            timeText = "" + minute + "m " + second + "s";
         }
         if (hour === "0" && minute === "0") {
-            timeText = "" + second + "." + millisecond + "s";
+            timeText = "" + second + "s";
         } 
-        if (hour === "0" && minute === "0" && second === "0") {
-            timeText = "0." + millisecond + "s";
-        }
         
         
         
