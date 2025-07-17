@@ -4,11 +4,7 @@ title: Submit
 
 # Hypercubing Leaderboard Submission Form
 
-<div id="submitted-text" style="display: none">
-    <p>Thank you for your submission to the Hypercubing.xyz leaderboard! A moderator will review this at some point.</p>
-</div>
-
-<form onsubmit="webhook();return false;" id="submission-form">
+<form id="submission-form">
     <div>
         <label for="name">Username: </label>
         <input class="submit-input" required="true" type="text" name="name" placeholder="name" id="nameInput">
@@ -69,11 +65,11 @@ title: Submit
     </div>
     <div style="display: flex; flex-direction: row; align-items: center;">
         <label for ="t_0-hour">Time: </label>
-        <input class="submit-input" required="true" type="number" id="hour" value="0" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="hour" placeholder="0" value="0" name="t_0-hour" maxlength="3" min="0" max="23" autocomplete="off" value="">
         <div>h</div>
-        <input class="submit-input" required="true" type="number" id="minute" value="0" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="minute" placeholder="0" value="0" name="t_0-minute" maxlength="2" min="0" max="59" autocomplete="off" value="">
         <div>m</div>
-        <input class="submit-input" required="true" type="number" id="second" value="0.000" name="t_0-second" maxlength="2" min="0" max="59" step="0.001" autocomplete="off" value="">
+        <input class="submit-input" required="true" type="number" id="second" placeholder="0.000" value="0.000" name="t_0-second" maxlength="6" min="0.0" max="59.999" step="0.001" autocomplete="off" value="">
         <div>s</div>
     </div>
     <div>
@@ -83,9 +79,9 @@ title: Submit
 </form>
 
 !!! info "Verification"
-    All runs are verified by a team of moderators to ensure they comply with our rules.
+    All runs are verified by a team of moderators to ensure they comply with our rules. Make ensure the above information is accurate before submitting.
 
-<button id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
+<button onclick="webhook();return false;" id="submit-button" type="submit" class="md-button md-button--primary">Submit</button>
 
 <script>
 
@@ -107,11 +103,16 @@ title: Submit
     }
 
     function validateTime() {
-        var validHour = document.getElementById('hour').value !== "";
-        var validMinute = document.getElementById('minute').value !== "";
-        var validSecond = document.getElementById('second').value !== "";
+        var h = document.getElementById('hour').value;
+        var m = document.getElementById('minute').value;
+        var s = document.getElementById('second').value;
+        // console.log(""+h+" "+m+" "+s);
 
-        return (validHour && validMinute && validSecond);
+        var hReg = /[0-9]{1,2}/;
+        var mReg = /[0-9]{1,2}/;
+        var sReg = /[0-9]{1,2}\.[0-9]{1,3}/;
+
+        return (hReg.test(h) && mReg.test(m) && sReg.test(s));
     }
 
     function webhook() {
@@ -144,16 +145,15 @@ title: Submit
         
         
 
-        var content = {
+        var DiscordMessage = {
             content: ("**" + name + "** just submitted a **[" + timeText + " " + puzzle + " " + format + "](" + link + ")** to the leaderboard form! \nDetails: `" + date + ", " + link + ", " + timeText + ", " + program + ", " + name + ", " + puzzle + ", " + format + "`")
         }
 
-        hook.send(JSON.stringify(content));
+        hook.send(JSON.stringify(DiscordMessage));
         console.log("submitted!");
 
-        // hide the form, and show the thanks for submitting message
-        document.getElementById('submission-form').style.display = "none";
-        document.getElementById('submitted-text').style.display = "block";
+        // send the user to the confirmation page
+        window.location.href = 'https://hypercubing.xyz/leaderboards/submit/confirmation';
     }
 
 </script>
