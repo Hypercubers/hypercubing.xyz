@@ -101,7 +101,6 @@ title: Submit
         } else {
             document.getElementById('submit-button').style.display = "none";
         }
-        
     }
 
     function validateTime() {
@@ -142,20 +141,22 @@ title: Submit
         }
         if (hour === "0" && minute === "0") {
             timeText = "" + second + "s";
-        } 
-        
-        
-        
+        }
 
         var DiscordMessage = {
             content: ("**" + name + "** just submitted a **[" + timeText + " " + puzzle + " " + format + "](" + link + ")** to the leaderboard form! \nDetails: `" + date + ", " + link + ", " + timeText + ", " + program + ", " + name + ", " + puzzle + ", " + format + "`")
         }
 
-        hook.send(JSON.stringify(DiscordMessage));
-        console.log("submitted!");
+        hook.onload = function() {
+            console.log("submitted!");
 
-        // send the user to the confirmation page
-        window.location.href = 'https://hypercubing.xyz/leaderboards/submit/confirmation';
+            // send the user to the confirmation page
+            window.location.href = 'https://hypercubing.xyz/leaderboards/submit/confirmation';
+        };
+        hook.onerror = function() {
+            console.log("error submitting request");
+        }
+        hook.send(JSON.stringify(DiscordMessage));
     }
 
 </script>
