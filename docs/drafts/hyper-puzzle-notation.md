@@ -22,7 +22,7 @@ Parts of the guide are notated as falling into one of these three categories.
 
 ### BNF
 
-Syntax descriptions in this document use a modified for mof [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form). Here are the conventions we use:
+Syntax descriptions in this document use a modified form of [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form). Here are the conventions we use:
 
 - `symbol?` is an optional `symbol`
 - `symbol+` is at least one of `symbol`
