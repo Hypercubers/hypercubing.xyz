@@ -18,24 +18,32 @@ Parts of the guide are notated as falling into one of these three categories.
 
 [^hsc2]: Most puzzle programs store log files using internal IDs; Hyperspeedcube uses plaintext notation to leave room for changing how puzzles are generated in ways that may result in different ID assignments. In other words, log file compatibility should _not_ depend the implementation details of the puzzle generator and simulator; therefore every puzzle needs some stable plaintext notation scheme, ideally one that is usable by humans as well.
 
-## Move syntax
+## Syntax
 
-This section uses [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form). Summary:
+### EBNF
+
+Syntax descriptions in this document use [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form). Summary:
 
 - `symbol?` is an optional `symbol`
 - `symbol+` is at least one of `symbol`
 - `symbol*` is zero or more of `symbol`
 - `a | b` is either `a` or `b`
-- `[1-9]` is any of the digits `123456789`
-- `[0-9]` is any of the digits `0123456789`
-- `letter` is any character from the Unicode "Letter" [character classes](https://www.compart.com/en/unicode/category)
-    - If implemented in a language without support for Unicode character classes, it MUST:
-        - Include the following:
-            - `ABCDEFGHIJKLMNOPQRSTUVWXYZ` (uppercase Latin)
-            - `abcdefghijklmnopqrstuvwxyz` (lowercase Latin)
-            - `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ` (subset of uppercase Greek)
-            - `αβγδεζηθικλμνξοπρστυφχψω` (subset of lowercase Greek)
-        - Exclude all non-letter Unicode characters (particularly non-alphabetic ASCII characters: control codes, whitespace, punctuation, and numbers)
+- `"~"` is the literal character `~` (and similarly for another other string of characters)
+
+We use the following character classes:
+
+- `[1-9]` is one of the digits `123456789`
+- `[0-9]` is one of the digits `0123456789`
+- `letter` SHOULD be one character from the Unicode "Letter" [character classes](https://www.compart.com/en/unicode/category)
+    - It MUST include the following:
+        - `ABCDEFGHIJKLMNOPQRSTUVWXYZ` (uppercase Latin)
+        - `abcdefghijklmnopqrstuvwxyz` (lowercase Latin)
+        - `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ` (subset of uppercase Greek)
+        - `αβγδεζηθικλμνξοπρστυφχψω` (subset of lowercase Greek)
+    - It MUST exclude all non-letter Unicode characters (particularly non-alphabetic ASCII characters: control codes, whitespace, punctuation, and numbers)
+- `space` is one character from the set ` ` (space, U+0020), horizontal tab (U+0009), carriage return (U+000D), or newline (U+000A)
+
+### Move syntax
 
 ```
 underscore = "_"
@@ -49,7 +57,7 @@ dot = "."
 arrow = "->"
 at-sign = "@"
 
-positive-int = [1-9][0-9]*
+positive-int = [1-9] [0-9]*
 int = hyphen? positive-int
 
 move-family = (letter | underscore)+
@@ -80,7 +88,7 @@ Examples of transforms:
 - `[R->L]` on 3^3 is ambiguous
 - `[R->L,U->F]` on 3^3 describes a 180-degree rotation that takes `R` to `L` and takes `U` to `F`
 
-### Examples of moves
+#### Examples of moves
 
 - `R`
 - `R'`
@@ -96,11 +104,9 @@ Examples of transforms:
 - `@[U->R]` = `z`
 - `@F` = `z`
 
-## Move sequence syntax
+### Move sequence syntax
 
 ```
-single-space = " "
-space = single-space+
 prefix-symbol = "" | "!" | "&" | "^"
 
 repeatable-unit = move |
@@ -111,7 +117,7 @@ repeatable-unit = move |
 
 repeated-unit = repeatable-unit multiplier
 
-move-sequence = space? (repeated-unit (space repeated-unit)*)? space?
+move-sequence = space* (repeated-unit (space+ repeated-unit)*)? space*
 
 group = prefix-symbol "(" move-sequence ")"
 conjugate = "[" move-sequence ":" move-sequence "]"
@@ -123,19 +129,19 @@ Notes:
 - `.` as a repeatable unit indicates a pause _(**descriptive** from other communities for solve reconstructions)_
 - `[A, B]` and `[A: B]` are [commutator notation](https://www.speedsolving.com/wiki/index.php/Commutators_and_Conjugates) _(**descriptive**)_
 
-Additionally, `//` and any characters after it are ignored. (This can be used to add comments.) _(**descriptive**)_
+Additionally, `//` and any characters after it are ignored. (This can be used to add comments.) _(**descriptive** from other communities for solve reconstructions)_
 
 Group prefix symbols:
 
-- `&` = simultaneous move group (animate simultaneously; undo/redo in one step) _(**proactive descriptive**)_
-- `!` = macro (animate quickly or skip animation; undo/redo in one step) _(**proactive descriptive**)_
+- `&` = simultaneous move group (animate simultaneously; undo/redo in one step) _(**prescriptive**)_
+- `!` = macro (animate quickly or skip animation; undo/redo in one step) _(**prescriptive**)_
 - `^` = NISS (do not execute normally; execute inverse at end) _(**prescriptive** from Lucas Garron for 3D FMC)_
 
 Note that the parens are required after group prefix symbols. `^[R, U]` and `^R` are INVALID and must instead be written as `^([R, U])` and `^(R)` respectively.
 
-## Conventions
+## Move family conventions
 
-This section defines common conventions for puzzle notation. These should be considered when developing notation for new puzzles. These are not strict rules.
+This section defines common conventions for move families. These should be considered when developing notation for new puzzles. These are not strict rules.
 
 - Uppercase Latin alphabet: `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 - Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (excluded letters that are similar to Latin letters)
