@@ -192,7 +192,7 @@ The unused letters here are reserved for specific puzzles or for execution notat
 
 _This section is **speculative**._
 
-The uppercase letters `A`-`Z` are often used in order to name things. If there are more than 26 names needed, a single letter from the Uppercase Greek alphabet may be added as a prefix, in the order `ΓΔΘΛΞΠΣΦΨΩ`:
+The uppercase letters `A`-`Z` are often used to name elements in an ordered sequence, such as the rectangular faces of a polygonal prism. If there are more than 26 names needed, a single letter from the uppercase Greek alphabet may be added as a prefix, in the order `ΓΔΘΛΞΠΣΦΨΩ`:
 
 | Letter sequence | Number |
 | --------------- | ------ |
@@ -208,7 +208,9 @@ The uppercase letters `A`-`Z` are often used in order to name things. If there a
 | ...             | ...    |
 | ΩZ              | 286    |
 
-The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.
+The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.[^hundredagonal-duoprism]
+
+[^hundredagonal-duoprism]: This puzzle was created as a joke but has actually been solved. It has 104 cells, which in this proposal would be named `αA`, `αB`, ..., `αΘU`, `αΘV`, `γA`, `γB`, `γC`, `γD`
 
 ### Lowercase Latin alphabet (semantic)
 
@@ -308,23 +310,30 @@ _This section is **speculative**._
 
 ## Rationale
 
-### Why support non-ASCII letters?
+### Why use Greek letters?
 
 _The use of non-ASCII letters is largely **speculative**._
 
-In high dimensions, non-ASCII letters become useful.
+In high dimensions, Greek letters become useful.
 
+- Greek letters provide an extension to the Latin alphabet with more nuanced aesthetics, aiding readability.
+    - Greek uppercase letters fit in well with Latin uppercase letters.
+    - Greek lowercase letters contrast very strongly with Latin uppercase letters.
+        - Small lowercase letters provide a good set of prefixes.
+        - Large lowercase letters are reserved for future use.
 - We want to avoid lowercase letters, because this conflicts with 3D conventions that use lowercase letters for wide moves or inner moves. We also want to avoid uppercase letters with existing uses (M, E, S, P, x, y, z, w, v).
     - This is partially a compatibility concern, but mostly a psychological semantic one. Humans reading lowercase letters may have misconceptions about their uses based on uses in other cubing notation.
+- Greek letters allow us to keep facet names [prefix-free](https://en.wikipedia.org/wiki/Prefix_code) while still using single-character names for sequences of 26 elements of fewer.
+    - Using only the Latin alphabet, we would get `A`, `B`, ..., `Z`, `AA` (not prefix-free!)
+    - We could force names to be 2 letters long when there's more than 26 of them, but now the rule becomes more complicated.
+    - This especially simplifies code to generate these puzzles; `generate_nth_uppercase_name()` is now a pure function depending only on `n` and not the total number of names.
 - We want to preserve uppercase letters for ad-hoc definitions, both for nonrigorous communication between humans and for rigorous move input.
-- Writing non-ASCII moves manually is likely to be extremely rare outside a handful of people.
+- Writing moves manually using Greek letters is likely to be extremely rare outside a handful of people.
+    - E.g., Duoprisms have ASCII execution notation for a common subset of moves.
 - Flat Hypercube already uses greek letters for hypercubes of dimension 6+:
 - We want to preserve certain letters for mathematical notation.
     - E.g., $G$ for the grip group
     - E.g., $S$ for "$S$-doctrinaire"
-- Greek letters provide an extension to the Latin alphabet with more nuanced aesthetics, aiding readability.
-    - Greek uppercase letters fit in well with Latin uppercase letters
-    - Greek lowercase letters contrast very strongly with Latin uppercase letters
 
 ### Why curly-brace layer sets?
 
