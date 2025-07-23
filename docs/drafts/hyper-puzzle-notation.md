@@ -188,6 +188,11 @@ _This section is **descriptive**._
 
 The unused letters here are reserved for specific puzzles or for execution notation.
 
+Possible **prescriptive** uses:
+
+- For megaminx, prefix `P` meaning "para-"
+- For icosahedron, `P` meaning "portside" and `S` meaning "starboard"
+
 ### Uppercase alphabet (sequential)
 
 _This section is **speculative**._
