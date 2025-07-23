@@ -58,11 +58,12 @@ arrow = "->"
 at-sign = "@"
 
 positive-int = [1-9] [0-9]*
+nonnegative-int = "0" | positive-int
 int = hyphen? positive-int
 
 move-family = (letter | underscore)+
 
-multiplier = positive-int? apostrophe?
+multiplier = nonnegative-int? apostrophe?
 layer-range = int (dotdot int)?
 uninverted-layer-mask = "" |
                         positive-int (hyphen positive-int)? |
