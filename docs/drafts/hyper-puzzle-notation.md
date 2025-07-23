@@ -41,7 +41,8 @@ We use the following character classes:
         - `ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ` (subset of uppercase Greek)
         - `αβγδεζηθικλμνξοπρστυφχψω` (subset of lowercase Greek)
     - It MUST exclude all non-letter Unicode characters (particularly non-alphabetic ASCII characters: control codes, whitespace, punctuation, and numbers)
-- `space` is one character from the set ` ` (space, U+0020), horizontal tab (U+0009), carriage return (U+000D), or newline (U+000A)
+- `space` is ` ` (space, U+0020)
+- `space-or-newline` is one character from the set ` ` (space, U+0020), horizontal tab (U+0009), carriage return (U+000D), or newline (U+000A)
 
 ### Move syntax
 
@@ -73,9 +74,12 @@ transform-constraint = move-family |
                        move-family arrow move-family |
 transform = "[" transform-constraint (comma transform-constraint)* "]"
 
+sq1-move = "/" |
+           "(" space* int space* "," space* int space* ")"
+
 twist = layer-mask move-family transform? multiplier
 rotation = at-sign (move-family | transform) multiplier
-move = twist | rotation
+move = twist | rotation | sq1-move
 ```
 
 Notes:
@@ -118,7 +122,7 @@ repeatable-unit = move |
 
 repeated-unit = repeatable-unit multiplier
 
-move-sequence = space* (repeated-unit (space+ repeated-unit)*)? space*
+move-sequence = space-or-newline* (repeated-unit (space-or-newline+ repeated-unit)*)? space-or-newline*
 
 group = prefix-symbol "(" move-sequence ")"
 conjugate = "[" move-sequence ":" move-sequence "]"
@@ -417,3 +421,8 @@ _Execution notation is **descriptive**. The term "execution notation" itself is 
 - Exact layer range semantics
     - Do layers have to be in order? `1-3R` vs. `3-1R`, `{1..3}R` vs. `{3..1}R`
     - Should we allow open ranges, such as `{2..}`, `{..3}`, `{..-2}`, or `{-1..}`? What are the semantics there?
+- How to support [Square-1 notation](https://www.speedsolving.com/wiki/index.php/Square-1_notation)?
+    - Should spaces be allowed? (after `(`, before `,`, after `,`, before `)`)
+    - Lucas Garron uses a preprocessor that converts a sq1 move sequence to special move families; e.g., `(3, -2) /` converts to `U_SQ_3 D_SQ_2' _SLASH_`
+    - If this is incorporated into the EBNF grammar, then the grammar is no longer LR(1).
+    - If this is done as a preprocessor step, then now it's harder to trace spans back to the original string.
