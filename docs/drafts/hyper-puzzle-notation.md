@@ -180,18 +180,24 @@ _This section is **descriptive**._
 | S      | Standing (3D slice)     |
 | T      | "Top" (generalized F2L) |
 | U      | Up (2D+), 6th axis      |
-| V      | 5th axis                |
-| W      | 4th axis                |
-| X      | 1st axis                |
-| Y      | 2nd axis                |
-| Z      | 3rd axis                |
+| V      |                         |
+| W      |                         |
+| X      |                         |
+| Y      |                         |
+| Z      |                         |
 
-The unused letters here are reserved for specific puzzles or for execution notation.
+The unused letters here are reserved for execution notation, for variable names, for ad-hoc notation, or for specific puzzles (e.g., `X` and `Y` in 120-cell notation).
 
-Possible **prescriptive** uses:
+Other possible **prescriptive** uses:
 
 - For megaminx, prefix `P` meaning "para-"
 - For icosahedron, `P` meaning "portside" and `S` meaning "starboard"
+
+Other possible **speculative** uses:
+
+- For 120-cell, `X` and `Y`[^120cell]
+
+[^120cell]: The facets of the 120-cell can be divided into eight 15-cell clusters, each containing 12 facets corresponding to faces of a dodecahedron plus three extra ones. Those three extra ones are called `I` ("In"), `X` and `Y`. Each cluster corresponds to one facet of a hypercube.
 
 ### Uppercase alphabet (sequential)
 
