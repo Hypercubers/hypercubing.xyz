@@ -291,14 +291,13 @@ First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since
 
 ### How could the 3x3x3x3 record be improved?
 
-!!! quote "Hactar (mid-2024)"
+!!! quote "Hactar (mid-2025)"
 
     Here's what I think would make a big difference, from most to least significant:
 
-    - **Lookahead during F2L-4**. This is essentially unexplored.
-    - **Optimal solutions for F2L-b cases**. My gut says this could save an average of ~3 moves per pair over my solutions during left block, and ~5 moves per pair during right block, which adds up to ~30 STM saved. I think there'd be some value in a comprehensive study of 3-block F2L cases and what techniques are effective in solving them, and research into the psychology of how to recognize them. For some examples of what I mean: I remember reading somewhere that on 3^3 it's better to find an F2L corner and _then_ search for the matching edge, rather than the other way around. I also know that once you find the edge, you can recognize its orientation to know whether you can solve the pair using just <R,U,F> or whether you need less-ergonomic moves. Figuring out and documenting these sort of tricks for 4D would help.
-
-    I think both of those improvements could save 15-30 seconds, bringing it from ~1:15 to ~0:45. I also feel like general lookahead/efficiency improvements in PLC might save 10-15 seconds but I can't put my finger on exactly what they would be. I know my OLC _feels_ very variable during solves, but in practice I can brute-force pretty much anything into a valid final case by spending a second or two flipping one edge/corner.
+    - **Orientation recognition during F2L-b** ("clockwise strats"). This enables more efficient F2L-b solutions and guarantees that every case can be solved in one look.
+    - **Optimal last-4-corners on OLC**. There's probably few enough cases that it's feasible to enumerate all of them and memorize the best solution for each one.
+    - **Lookahead during F2L-b**. I already do this a little bit, but there's room for improvement.
 
 ## Does this puzzle exist?
 
