@@ -21,6 +21,7 @@
   - name: Other
     contents:
     - {puz: 3-layer_simplex, name: 3-Layer Simplex}
+    - {puz: 11_cell, name: 11-cell}
 - name: 5D+
   contents:
     - name: 5D
