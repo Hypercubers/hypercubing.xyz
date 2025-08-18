@@ -44,6 +44,7 @@
 *[MT]: MagicTile
 *[MHT]: Magic Hyperbolic Tile
 *[MKB]: Mouse Key Binds
+*[NM11C]: Nan Ma's 11-Cell
 
 <!-- Turn metrics -->
 *[ATM]: Axial Turn Metric
