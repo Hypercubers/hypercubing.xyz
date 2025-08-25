@@ -55,7 +55,7 @@ Harder to memorize (but much lower in movecount) is this 9-mover RKT parity alg:
 - [3^4^ Commutators List by Alvin (RKT parity algs are near the bottom)](https://docs.google.com/spreadsheets/d/1fCAhsGl0Ttf7B_ncS8m2Mq_TkPZX2VCaFw23XGSzAKo/edit#gid=0)
 - [PLL + RKT parity algs by Eff](https://docs.google.com/spreadsheets/d/1oHNpWKSnR0p6PMiwQT5IciE2f7Wmw2cC-Kfol0XrzG4/edit)
 
-On 2^4^, the algorithm is shorter because it doesn't have to worry about messing up other pieces besides corners. A commonly used one is ```R2 B2 R2 U R2 B2 R2 U'```<sub>RKT</sub>.
+On 2^4^, shorter algorithms are possible because there is no need to worry about messing up other pieces besides corners. A commonly used one is ```R2 B2 R2 U R2 B2 R2 U'```<sub>RKT</sub>.
 
 On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of a cell is off by 180°. An intuitive way to solve this is to do the 2^4^ RKT parity algorithm with wide moves, and then the normal 3^4^ RKT parity algorithm. It can also be avoided by just lining up your slice the same way you line up centers in 3D before finishing last 4 edges (when using freeslice).
 
