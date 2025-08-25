@@ -87,7 +87,7 @@ Before the Google Group or Discord server, there was a Yahoo Groups mailing list
 
 We recommend starting by [figuring out how to solve the 3×3×3×3](#how-do-i-learn-to-solve-the-3333). This will build lots of core concepts useful for understanding and solving other puzzles.
 
-If you don't get know how to solve a 3D Rubik's cube, we recommend starting with that first.
+If you don't yet know how to solve a 3D Rubik's cube, we recommend starting with that first.
 
 ## Virtual puzzles
 
