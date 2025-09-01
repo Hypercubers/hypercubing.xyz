@@ -14,7 +14,7 @@ Parts of the guide are notated as falling into one of these three categories.
 
 - **Descriptive** notation is probably very difficult to change because it is already in use in conversation, learning resources, and file formats.
 - **Prescriptive** notation is somewhat difficult to change because it will probably start being used shortly after this draft has been published.
-- **Speculative** notation is relatively easy to change because it will probably not see use until some future time, particularly when [Hyperspeedcube 2](github.com/HactarCE/Hyperspeedcube) supports such puzzles.[^hsc2]
+- **Speculative** notation is relatively easy to change because it will probably not see use until some future time, particularly when [Hyperspeedcube 2](https://github.com/HactarCE/Hyperspeedcube) supports such puzzles.[^hsc2]
 
 [^hsc2]: Most puzzle programs store log files using internal IDs; Hyperspeedcube uses plaintext notation to leave room for changing how puzzles are generated in ways that may result in different ID assignments. In other words, log file compatibility should _not_ depend the implementation details of the puzzle generator and simulator; therefore every puzzle needs some stable plaintext notation scheme, ideally one that is usable by humans as well.
 
