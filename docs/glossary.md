@@ -46,6 +46,74 @@ We prefer words rather than 1c, 2c, etc. because the words generalize better to 
 - **twist** or **move** or **turn** = movement of pieces that changes the puzzle state
 - **rotation** or **full-puzzle rotation** = rotation of the whole puzzle that does not change its state
 
+## Puzzle state
+
+- A puzzle's **state graph** is the [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) of all its states. Each state of the puzzle has a node, and the nodes are connected by single moves.
+- A piece's **attitude** is the transformation from its solved state to its current state. For example, each piece on 3×3×3 has 24 possible attitudes.
+- A piece's attitude can be decomposed into its **permutation**, the component that affects its grip signature, and its **orientation**, the component that does not. For example, each corner on a 3×3×3 has 8 permutations and 3 orientations.
+- Pieces are **indistinguishable** if swapping them never affects whether the puzzle is solved. For example, the blue center pieces on a standard 4×4×4 are all indistinguishable.
+- Pieces are **distinguishable** if swapping them can affect whether the puzzle is solved.
+- Piece orientations are **indistinguishable** if changing one orientation to the other never affects whether the puzzle is solved. For example, each center on a standard 3×3×3 has 4 orientations, all of which are indistinguishable.
+- Piece orientations are **distinguishable** if changing one orientation to the other can affect whether the puzzle is solved.
+
+Revealing information that distinguishes indistinguishable pieces or orientations makes them no longer distinguishable, thus changes the puzzle.
+
+## Puzzle properties
+
+### Algebraic properties
+
+- A move is **blocked** in a particular puzzle state if there is some feature of the puzzle preventing the move from being applied. Generally this is because there is a piece that is partially inside and partially outside of the region affected by the move.
+- **Bandaging** is the process of combining pieces in order to block moves.
+- **Unbandaging** is the process of splitting pieces in order to make more moves possible.
+- A puzzle is **doctrinaire** or **fully unbandaged** if every move is always accessible.
+- A puzzle is **bandaged** if it is not doctrinaire, but can be finitely unbandaged to a doctrinaire puzzle.
+- A puzzle is **jumbling** if it has infinitely many [grips](/theory/grip-theory.md). For finite puzzles, this simpler definition is equivalent: A puzzle is **jumbling** if it cannot be finitely unbandaged to a doctrinaire puzzle.
+
+### Visual modifications
+
+- A **sticker mod** of a puzzle is a modification that involves changing the coloring of a puzzle. A sticker mod may have different indistinguishable pieces than the original puzzle.
+- A **shape mod** of a puzzle is a modification that involves changing the shape of the puzzle without changing the behavior of pieces. A shape mod may have different indistinguishable pieces than the original puzzle. A shape mod sometimes requires modifying the coloring as well.
+- A puzzle is **shapeshifting** if the visible shape of the puzzle depends on its state.
+
+Note that shapeshifting has nothing to do with algebraic properties (doctrinaire/bandaging/jumbling).
+
+- Any puzzle can be made shapeshifting by changing the shape of one of the pieces.
+- Any single-core twisty puzzle can be made non-shapeshifting by carving it from a sphere.
+
+### Constructions
+
+- A **solid** is a construction of a puzzle by cutting a finite polytope, possibly with some pieces removed.
+- A **tiling** is a construction of a puzzle by cutting a filled space, typically with no pieces removed.
+- A **soup** is a construction of a puzzle by adding objects to an initially empty space.
+
+### Completions
+
+- A **real** puzzle is one with all interior pieces. For example, a real 7×7×7 has $7^3=343$ pieces, compared to $7^3-5^3=218$ pieces for a standard 7×7×7.
+- A **complex** puzzle is one with a piece for each possible grip signature using the [grip-theoretic construction](/theory/grip-theory.md). These puzzles have $2^n$ pieces, where $n$ is the number of grips on the puzzle.
+- A **laminated** puzzle is one with a piece for each possible grip signature using a [laminated construction](/theory/grip-theory.md). A laminated puzzle is a subset of the complex puzzle.
+- A **multi** puzzle is one with pieces from several different cut depths. An example is the [Multidodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2384). A multi puzzle is a subset of the laminated puzzle.
+- A **circle** puzzle is one with circles carved into the faces, where pieces inside one or more of the circles do not turn with their face. A circle where all circles behave equivalently is a subset of the complex puzzle. For example, see this [video of a circle 3×3×3](https://www.youtube.com/watch?v=hUX91tXNyeE&t=55s).
+- A **super** puzzle is one where all orientations are distinguishable.
+
+Real, complex, and laminated puzzles are often implicitly super. For example, the super real 5×5×5 has 125 pieces, all distinguishable (and with all distinguishable attitudes). It is equivalent to the [double circle real 5×5×5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4823) ([video](https://www.youtube.com/watch?v=WRFNPoAimbM)).
+
+### Cut depths
+
+Cut depth terminology varies by community. Listed here are the definitions we use in hypercubing.
+
+- A **shallow** cut is any cut equivalent to the shallowest possible cut. An example is the [Megaminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=650).
+- A **deep** cut is any cut deeper than a shallow cut.
+- A **half** cut is a cut that passes through the center of the puzzle into two identical halves. An example is the [Pentultimate](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1741).
+- A **to-adjacent** cut is a cut that passes through the center of an adjacent face. An example is the [Pyraminx Crystal](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=652). A to-adjacent cut is exactly the depth required to not have axis pieces (pieces that turn with exactly one grip).
+- A **deeper-than-adjacent** cut is any cut deeper than a to-adjacent cut. An example is the [Curvy Starminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4344) or [Litestarminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=11394).
+- A **deeper-than-origin** cut is any cut deeper than a half cut.
+
+### Other cut types
+
+- A cut is **accessible** if there is some move that separates pieces along it.
+- A **stored** cut is one that is not accessible from the solved state of the puzzle. For example, the extra cuts present on a [Curvy Copter Plus](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1687) are stored cuts; compare to the [Curvy Copter](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1574), which has no stored cuts.
+- A **wedge cut** is a cut comprised of multiple cut planes, where twists are parallel to both planes. This is only possible in 4D+. An example is the wedge-turning 3^4^.
+
 ## Solving
 
 ### Actions
@@ -126,35 +194,10 @@ In higher and higher dimensions, it gets annoying to have to say stuff like "per
 - For F2L, you put the number before the letter at the end e.g. F2L-5a, F2L-6d, etc.
 - If you were solving a 3^6^ with pure CFOP and you were solving the F2L of the final cube with triple RKT, that would be F2L-3 of PLL-4 of PLL-5 of PLL-6.
 
-
-
-## Puzzle descriptors
+## To-do
 
 !!! warning "This section is a work-in-progress."
 
-- Solid vs. tiling vs. soup
-- Doctrinaire
-- Reduced
-- Bandaged
-- Unbandaged
-- Shapeshifting
 - Sliding vs. twisting
-- Circle
-- Super
-- Real
-- Complex
-- Stickermod
-- Shapemod
 - Cuboid terms (tower, brick, floppy, domino, pancake)
 - Other common puzzle families: weirdling, bubbloid, rotate-gap, sliding-gap (15-puzzle), loopover
-
-### Cut depth
-
-!!! warning "This section is a work-in-progress."
-
-- Shallow cut
-- Half cut
-- Deep cut
-    - Deeper than adjacent
-    - Deeper than origin
-- Semideep cut?
