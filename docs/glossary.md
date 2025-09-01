@@ -95,7 +95,7 @@ Note that shapeshifting has nothing to do with algebraic properties (doctrinaire
 - A **circle** puzzle is one with circles carved into the faces, where pieces inside one or more of the circles do not turn with their face. A circle where all circles behave equivalently is a subset of the complex puzzle. For example, see this [video of a circle 3×3×3](https://www.youtube.com/watch?v=hUX91tXNyeE&t=55s).
 - A **super** puzzle is one where all orientations are distinguishable.
 
-Real, complex, and laminated puzzles are often implicitly super. For example, the super real 5×5×5 has 125 pieces, all distinguishable (and with all distinguishable attitudes). It is equivalent to the [double circle real 5×5×5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4823) ([video](https://www.youtube.com/watch?v=WRFNPoAimbM)).
+Real, complex, and laminated puzzles are often implicitly super. For example, the super real 5×5×5 has 125 pieces, all distinguishable (and with all distinguishable attitudes). It is equivalent to the [Double Circle Real 5×5×5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4823) ([video](https://www.youtube.com/watch?v=WRFNPoAimbM)).
 
 ### Cut depths
 
@@ -106,7 +106,7 @@ Cut depth terminology varies by community. Listed here are the definitions we us
 - A **half** cut is a cut that passes through the center of the puzzle into two identical halves. An example is the [Pentultimate](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1741).
 - A **to-adjacent** cut is a cut that passes through the center of an adjacent face. An example is the [Pyraminx Crystal](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=652). A to-adjacent cut is exactly the depth required to not have axis pieces (pieces that turn with exactly one grip).
 - A **deeper-than-adjacent** cut is any cut deeper than a to-adjacent cut. An example is the [Curvy Starminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4344) or [Litestarminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=11394).
-- A **deeper-than-origin** cut is any cut deeper than a half cut.
+- A **deeper-than-origin** cut is any cut deeper than a half cut. An example is [Deeper Madness](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4007), especially [compared to Shallower Madness](https://youtu.be/YiKXHgn_5Yo). Another example is the [Enabler Cube](https://www.youtube.com/watch?v=n4uppWjWDlo).
 
 ### Other cut types
 
