@@ -53,8 +53,8 @@ hide: [navigation, toc]
     - [I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?](#i-dont-know-full-ollpllzblletc-can-i-still-get-fast-at-4d)
     - [What 4D algorithms are there?](#what-4d-algorithms-are-there)
     - [4D Sexy Move](#4d-sexy-move)
-    - [How can I get faster at solving 3x3x3x3?](#how-can-i-get-faster-at-solving-3x3x3x3)
-    - [How could the 3x3x3x3 record be improved?](#how-could-the-3x3x3x3-record-be-improved)
+    - [How can I get faster at solving 3×3×3×3?](#how-can-i-get-faster-at-solving-3x3x3x3)
+    - [How could the 3×3×3×3 record be improved?](#how-could-the-3x3x3x3-record-be-improved)
 - [Does this puzzle exist?](#does-this-puzzle-exist)
     - [2D Rubik's Cube](#2d-rubiks-cube)
     - [4D Square-1](#4d-square-1)
@@ -276,7 +276,7 @@ There's so many cases for each step of the solve that creating a complete algori
 
 In 2022, Rowan made a 3^4^ [Beginner's Method Tutorial video](https://www.youtube.com/watch?v=h4n_QdZGXf8). In an attempt to make it as simple to learn as possible, he taught a "4D Sexy Move" as an algorithm, when in reality it was an application of a technique called [RKT](https://hypercubing.xyz/techniques/rkt/). This lead to a lot of people having limited understanding of the puzzle and why certain things worked. Some people joined the discord server and talked about the 4D Sexy Move like it was some magical algorithm, when it was actually just a certain thing you can do with a general technique that can do more than a single algorithm.
 
-### How can I get faster at solving 3x3x3x3?
+### How can I get faster at solving 3×3×3×3?
 
 First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since the recognition is easier, but solutions using triplets tend to be shorter; as far as we know, both are viable. If you're getting times in the 8-15 minute range, do slowsolves where you focus on efficient solutions to F2L pairs/triplets.
 
@@ -289,7 +289,7 @@ First, learn [3-Block](/methods/3x3x3x3/3block.md)! Pairs are more popular since
     - **Single keys for some 180-degree turns**, because repeated keys are slow! By adding keys for `x2` and `y2`, you can reorient a cell into any orientation with just two keypresses.
     - **RKT-canceled triggers during F2L-3**. I leave debt on `U` and have muscle memory for the common RKT-canceled trigger `R (flip) U' R' (flip)` (where `(flip)` = `{1-2}Ozx2`), its inverse `(flip) R U (flip) R'`, and their back and left-handed forms. This + `U` moves accounts for basically everything you do in F2L other than `R U2 R'`, which you can usually avoid or in worst case just `(flip) R (flip) U2 (flip) R' (flip)`.
 
-### How could the 3x3x3x3 record be improved?
+### How could the 3×3×3×3 record be improved?
 
 !!! quote "Hactar (mid-2025)"
 
