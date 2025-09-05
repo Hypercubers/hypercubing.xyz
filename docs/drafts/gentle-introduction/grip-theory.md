@@ -7,13 +7,13 @@
 }
 </style>
 
-!!! warning "This page is under construction"
+!!! warning "This whole page is under construction"
 
-Now that you understand the fundamentals of [group theory](group-theory.md), we can introduce grip theory. At its core it's very simple, but there are a lot of extensions that allow us to model more complicated puzzles.
+Now that you understand the fundamentals of [group theory](group-theory.md), we can introduce grip theory. At its core, grip theory is very simple, but there are a lot of extensions that allow us to model more complicated puzzles.
 
 ## Grips
 
-- A **grip** is a thing you can turn. Every puzzle has a **grip set**, denoted using $\Gamma$ (the Greek letter gamma).
+- A **grip** is a thing you can turn. Every puzzle has a **grip set**, denoted using $\Gamma$ (capital gamma).
 - The **grip group** is a permutation group that acts on the grip set, denoted using $G$.
 
 !!! info
@@ -23,7 +23,8 @@ Now that you understand the fundamentals of [group theory](group-theory.md), we 
 On a 3×3×3:
 
 - The grip set is $\{ R, L, U, D, F, B \}$.
-- The grip group is the group of rotations of a cube, and it acts on the grip set in the same way that it acts on the faces of the cube.
+- The grip group is the group of rotations of a cube.
+- The grip group acts on the set of grips the same way it acts on the faces of a cube.
 
 This is already enough to construct cube rotations. For example, a `y` rotation applies the 4-cycle $(RFLB)$ to the grip set.
 
@@ -59,16 +60,20 @@ On most puzzles we care about, all valid twists exist. In other words, any grip 
 
 ## Pieces
 
-A **grip signature** is a subset of a puzzle's grips.
-
-Surprisingly, a grip signature is the only thing we need in order to describe how a piece behaves.
-
-- A **piece** is a a thing that moves around. On a 3^3^, there are 27 pieces.
+- A **piece** is a a thing that moves around. On a 3^3^, there are 27 pieces. Every puzzle has a set of pieces.
+- A **grip signature** is a subset of a puzzle's grips.
 - Each piece has a **grip signature**, which is a subset of the 6 grips that determines which twists affect the piece. For example, the grip signature of the RUF corner is $\{ R, U, F \}$.
 
 The grip signature tells us which twists affect which pieces.
 
-- A **twist** is a permutation of the grip set. For example, the $U$ twist is a 4-cycle $(R F L B)$.
+Surprisingly, a grip signature is the only thing we need in order to describe how a piece behaves.
+
+## Applying twists
+
+To apply a twist $g[\sigma]$ to a puzzle:
+
+1. Take every piece that has the grip $g$ in its grip signature.
+2. 
 
 !!! warning "The rest of this page is under construction"
 
