@@ -97,8 +97,6 @@ Here's a more complex example, the Sune algorithm: `RO UO RO' {1-2}OUR UO RO {1-
 - See [Commutator notation](https://hypercubing.xyz/techniques/commutators/) first.
 - Single letter moves are the "big 3d" moves. (`R` = `RO`, `U` = `UO`, etc.)
 
-- TODO: explain xyz notation and `{1-2}O` notation in [notation](/notation.md) page. put a big caveat that its purpose is for execution, and it's totally arbitrary as far as what's actually going on with the puzzle.
-
 ??? info "4^4^ edge swap parity"
 
     | Image                                                                                                                                      | Description             | RKT Cancel Algorithm             |
