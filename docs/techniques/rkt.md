@@ -2,7 +2,7 @@
 
 !!! warning "You must know 3^4^ [notation](/notation.md) in order for this page to make sense!"
 
-RKT is a technique that lets you treat a single cell of a (cell-turning) higher dimensional puzzle as if it were a lower dimensional puzzle. This is very useful to do moves that damage fewer pieces. For example: RKT lets you treat a side of a 3^4^ just like a 3^3^ cube, meaning that you can use all the 3D algorithms you already know to solve the full 4D puzzle.
+RKT is a technique that lets you treat a single cell of a (cell-turning) higher dimensional puzzle as if it were a lower dimensional puzzle. This is very useful because it allows us to do moves that damage fewer pieces. For example: RKT lets you treat a side of a 3^4^ just like a 3^3^ cube, meaning that you can use all the 3D moves, techniques, and algorithms you already know to solve the full 4D puzzle.
 
 The technique has been independently discovered several times, but the term was mainly popularized by Raymond Zhao, such as in his [article on RKT](https://rayzz.me/articles/hypercubing/rkt.html).
 
@@ -61,7 +61,7 @@ On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of
 
 ## Debt
 
-RKT Debt is when the R cell isn't aligned with the rest of the puzzle aftering performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/cfop.md) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
+RKT Debt is when the R cell isn't aligned with the rest of the puzzle after performing an algorithm or sequence of moves with RKT. For example: after executing a T perm algorithm with RKT the R cell will be misaligned by 90°. RKT Debt always has to be "paid back" at some point during the solve. During complicated setup moves for fancy inserts, RKT debt can be used as "ammo". That is, undoing the debt in a useful way to help solve the puzzle. An easy way for beginners to "avoid" debt is to just do a move on a layer that you don't care about messing up at that point in the solve. For example: in a [CFOP](/methods/3x3x3x3/cfop.md) solve during the final F2L-b pair insertion, you could do any U* move that fixes the debt.
 
 ## Cancels
 
@@ -82,7 +82,7 @@ But we can do even better!
 - `IUR` — swap `R` with `U`
 - `UO' RO'` — do `R' U'` using RKT (because we swapped `R` and `U`), undoing the debt from `R U`
 
-If you squint, you might notice that this is a conjugate `[RO UO: IUR]`. This corresponds to the fact that `R U R' U'` can be written as a conjugate where one part is a pure rotation: `[R U: z x2]`. When executing this algorithm, we apply it to `I` _with_ the rotation (so it's equivalent to `R U R' U'`) and to the outer layers _without_ the rotation (so `[RU: _]` expands to `R U U' R'`, which completely cancels out). This is the fundamental theory behind how to do RKT cancels: by rewriting algorithms as conjugates and commutators with pure rotations.
+You might notice that this is a conjugate `[RO UO: IUR]`. This corresponds to the fact that `R U R' U'` can be written as a conjugate where one part is a pure rotation: `[R U: z x2]`. When executing this algorithm, we apply it to `I` _with_ the rotation (so it's equivalent to `R U R' U'`) and to the outer layers _without_ the rotation (so `[RU: _]` expands to `R U U' R'`, which completely cancels out). This is the fundamental theory behind how to do RKT cancels: by rewriting algorithms as conjugates and commutators with pure rotations.
 
 Recall how in 3D you can replace a `U y'` with `Dw`. We can do the same thing here: replace `IUR` with `{1-2}OUR`, which is a rotation of the outer layers instead of the inner layers. Now it just looks like a normal algorithm with a flip thrown in the middle: `RO UO {1-2}OUR RO' UO'`. So we can notate it a little more simply: `R U {1-2}OUR R' U'`
 
@@ -139,10 +139,10 @@ RKT can be done by using 2 opposite sides (e.g. `RO` and `LO` turns) as well as 
 
 ## Higher Dimensional RKT
 
-The term Double/Triple/Quadruple/etc... RKT is used to refer to *using* RKT to *do* RKT in 5D+ puzzles. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do Double RKT. This generalizes to any number of dimensions, but the movecount doubles each time, making it impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](/techniques/commutators.md).
+The term 2RKT or Double RKT is used to refer to *using* RKT to *do* RKT in 5D puzzles. This keeps generalizing to higher dimensions as Triple/Quadruple/3RKT/4RKT. Because RKT lets us treat a single side of an n^d^ like an n^d-1^, using RKT on the 3^5^ lets us treat a single 4D cell as a 3^4^. And if you know how to use RKT to treat a 3^4^ like a 3^3^, then you can do 2RKT. The movecount doubles with each dimension, making it more and more impractical. This is why bigger n^d^ puzzles are mostly solved using [commutators](/techniques/commutators.md).
 
 ## RKT in 3D
 
-If RKT treats a single layer of an n^d^ puzzle like an n^d-1^ puzzle, then technically the last step of the 3^3^ [Roux method](https://www.speedsolving.com/wiki/index.php?title=Roux_method) counts as RKT. The last step of Roux is to permute the M-slice like a 3^2^ (with mirroring moves allowed).
+If RKT treats a single layer of an n^d^ puzzle like an n^d-1^ puzzle, then there is a sense in which the last step of the 3^3^ [Roux method](https://www.speedsolving.com/wiki/index.php?title=Roux_method) counts as RKT. The last step of Roux is to permute the M-slice like a 3^2^ (with mirroring moves allowed).
 
 Another thing that "feels like RKT" is solving 3×3×n cuboids where $n>3$. A typical strategy for these is to solve from the innermost layers to the outermost layers, treating it as several nested 3×3×2 puzzles. Doing an R2 on the whole puzzle does an R2 to each of the subpuzzles.
