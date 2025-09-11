@@ -92,6 +92,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Nan Ma's 11-cell][11cell]                  |               :material-language-java: • %platforms{wla_} | %features{m__f_MTc__} | 11-cell                  |
 | [Twisty Prisms][twisty-prisms]              |                       :simple-scratch: • %platforms{___b} | %features{mk________} | certain 3D prisms        |
 | [qCubes and qMinx]                          |         :material-language-javascript: • %platforms{___b} | %features{_k____T___} | cubes, (hemi)dodecahedra |
+| [Zasharan2's physical 2^4^][zasharan phys]  |         :material-language-javascript: • %platforms{___b} | %features{_K___M_c__} | Physical 2x2x2x2         |
 
 [ms5d]: https://superliminal.com/andrey/ms5d/
 [ms5d-src]: https://superliminal.com/andrey/ms5d/Simplex5dSrc.zip
@@ -101,6 +102,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [mht633]: https://superliminal.com/andrey/mht633/
 [twisty-prisms]: https://staff.fim.uni-passau.de/kreuzer/TP/TwistyPrisms.html
 [qCubes and qMinx]: https://mzrg.com/js/
+[zasharan phys]: https://zasharan2.github.io/2x2x2x2/
 
 ### 1D and 2D puzzles
 
