@@ -28,7 +28,7 @@ These rules apply generally to speedsolving submissions unless the category has 
 - Macros are **not** allowed.
     - Exception: macros consisting of a single move [STM][stm] are allowed, provided that they are created during the solve or demonstrated in the video before the solve starts.
 - Piece filters are allowed.
-- All speedsolves require video evidence, such as a screen recording.
+- All speedsolves require video evidence, such as an uninterrupted screen recording.
     - The video must include scrambling the puzzle. When using Hyperspeedcube, the statusbar must be visible with the text "Scrambled fully."
     - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
         - Exceptions may be made for certain puzzle programs (such as Nan Ma's 11-cell) that have an integrated timer. On-screen timer is still recommended.
@@ -40,6 +40,14 @@ These rules apply generally to speedsolving submissions unless the category has 
     - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
 - Log file is not required, but you should still save your PBs!
 - Using software to compute a solution to the puzzle state is not allowed.
+
+### Average rules
+
+- Average of 5 is computed according to [WCA regulations 9f8 and 9f9](https://www.worldcubeassociation.org/regulations/#9f8).
+- The screen recording must be uninterrupted for the entire average.
+- There must not be excessive time (>30 minutes) between solves.
+- Scrambles must not be rejected between attempts.
+    - If any scramble is rejected (not solved), it counts as a DNS (Did Not Start).
 
 ### Blindsolving rules
 
