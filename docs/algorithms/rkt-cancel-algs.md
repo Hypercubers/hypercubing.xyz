@@ -5,7 +5,7 @@
     You do not need to learn RKT cancel algs to solve any puzzle. RKT can and should be done completely intuitively unless you are already speedsolving at a high level and wish to improve this step.
 
 - See [Notation](https://hypercubing.xyz/theory/notation/) and [Commutator notation](https://hypercubing.xyz/techniques/commutators/) first.
-- Single letter moves are the "Big 3D" moves. (`R` = `RO`, `U` = `UO`, etc.)
+- Single letters represent "Big 3D" moves. (`R` = `RO`, `U` = `UO`, etc.)
 
 ## RKT Cancel Algorithms
 
