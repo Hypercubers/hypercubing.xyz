@@ -15,6 +15,14 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | -------------------------------- |
 | ![4^4 edge swap parity](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=4&view=plan&bg=t&fc=yyyyyyyyyyyyyyyyrbbrrrrrrrrrrrrrbrrb) | UF and UR edges swapped | `[f' l': [[r' U' l': D2], Iy2]]` |
 
+### F2L triggers
+
+| Image                                                                                                                                      | Description             | 2RKT Cancel Algorithm             |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | -------------------------------- |
+| ![Made Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RUR%27) | Made Insert | `R {1-2}Ozx2 U' R' {1-2}Ozx2` |
+| ![Split Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RU%27R%27) | Split Insert | `{1-2}Ozx2 R U {1-2}Ozx2 R'` |
+| ![Double Sexy](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=URU%27R%27URU%27R%27) | Double Sexy | `R U R' U' {1-2}Ozx2 R U R' U' {1-2}Ozx2` |
+
 ### EOLL
 
 | Image                                                                                                                                     | Name     | RKT Cancel Algorithm                              |
