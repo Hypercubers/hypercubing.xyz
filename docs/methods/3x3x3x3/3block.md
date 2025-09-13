@@ -219,6 +219,57 @@
         - preset_name: End
           visible_pieces: ffffffffffffffffffff
         ```
+    === "Josie's filters (pink cross) (hides more)"
+        ```yaml
+        - preset_name: centers
+        visible_pieces: "000200080a5010004000"
+        - preset_name: cross
+        visible_pieces: "000200080a5010284280"
+        - preset_name: mid back
+        visible_pieces: "00000008424090294284"
+        - preset_name: mid front
+        visible_pieces: "00000009424294294294"
+        - preset_name: left cross
+        visible_pieces: "000000094a4294296294"
+        - preset_name: left mid
+        visible_pieces: "00000004080800102040"
+        - preset_name: left back a
+        visible_pieces: "00000004082800102140"
+        - preset_name: left back b
+        visible_pieces: "00000004282840902142"
+        - preset_name: left front a
+        visible_pieces: "00000004292840942142"
+        - preset_name: left front b
+        visible_pieces: "00000084292942942942"
+        - preset_name: right cross
+        visible_pieces: "0000008429394294a942"
+        - preset_name: right mid
+        visible_pieces: "00000000101020408001"
+        - preset_name: right back a
+        visible_pieces: "00000000109020408401"
+        - preset_name: right back b
+        visible_pieces: "00000000909021428409"
+        - preset_name: right front a
+        visible_pieces: "00000000949021429409"
+        - preset_name: right front b
+        visible_pieces: "00000002949429429429"
+        - preset_name: olc 2c
+        visible_pieces: "01471400000000000000"
+        - preset_name: olc 3c
+        visible_pieces: "aaa8aa20000000000000"
+        - preset_name: olc 4c
+        visible_pieces: "54104150000000000000"
+        - preset_name: plc 2c
+        visible_pieces: "014714080a5010004000"
+        - preset_name: plc cross
+        visible_pieces: "01459e20000000000000"
+        - preset_name: plc f2l
+        visible_pieces: "00efff70000000000000"
+        - preset_name: plc ll
+        visible_pieces: "ffffff70000000000000"
+        - preset_name: end
+        visible_pieces: "ffffffffffffffffffff"
+        ```
 
 ??? abstract "HSC Piece filters (4^4^, 5^4^, 6^4^, 7^4^)"
     These are all Hactar's filters, which use pink cross.
