@@ -45,10 +45,19 @@
 
 ### CPLL
 
+To avoid RKT parity
+
+- solve your RKT debt.
+- if you have an adjacent corner swap, put the solved LL corner in IUFL and do the respective A-perm.
+- if you have a diagonal corner swap,
+    - if the IUFR corner belongs in IUBR, do a Iy.
+    - so now the IUFR corner belongs in IUFL.
+    - do Na-perm.
+
 | Image                                                                                                | Name | RKT Cancel Algorithm                                                 |
 | ---------------------------------------------------------------------------------------------------- | ---- | -------------------------------------------------------------------- |
 | ![Aa CPLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&case=R%27FR%27B2RF%27R%27B2R2) | Aa   | `(Ix) R' U {1-2}Oz R' D2 R {1-2}Oz' U' R' D2 {1-2}Oz' R2` |
-| ![Ab CPLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&alg=R%27FR%27B2RF%27R%27B2R2)  | Ab   | ` (Ix) R2 {1-2}Oz D2 R U {1-2}Oz R' D2 R {1-2}Oz' U' R`         |
+| ![Ab CPLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&alg=R%27FR%27B2RF%27R%27B2R2)  | Ab   | `(Ix) R2 {1-2}Oz D2 R U {1-2}Oz R' D2 R {1-2}Oz' U' R`         |
 | ![Na CPLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&case=RU%27LU2R%27UL%27RU%27LU2R%27UL%27)     | Na | `R U' L U2 R' U L' {1-2}Oy2 R U' L U2 R' U L'`     |
 | TODO      | Nb   |     |
 
@@ -60,7 +69,6 @@
 | ![Ua EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&alg=R2URUR%27U%27R%27U%27R%27UR%27) | Ua   | `R U' {1-2}Ozx2 R U R U R {1-2}Ozx2 U' R' U' R2`                                                                      |
 | ![Z EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&alg=M2U%27M2U%27M%27U2M2U2M%27)      | Z    | `(R U' R U R U R U' R' U' R2) Iy2 (R2 U R U R' U' R' U' R' U R') Iy2`<br>alternate: `M2 U' M U2 M' Iy2 M U2 M' U M2` |
 | ![H EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&alg=M2UM2U2M2UM2)                    | H    | `M2 U' M2 U2 M Iy2 M' U2 M Iy2 M U M2`<br>alternate: `R2 U2 R U2 {1-2}Ozx2 R2 U2 R2 {1-2}Ozx2 U2 R U2 R2`     |
-
 
 ## 2RKT Cancel Algorithms
 
