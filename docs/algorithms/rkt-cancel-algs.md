@@ -19,8 +19,8 @@
 
 | Image                                                                                                                                      | Description             | 2RKT Cancel Algorithm             |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | -------------------------------- |
-| ![Made Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RUR%27) | Made Insert | `R {1-2}Ozx2 U' R' {1-2}Ozx2` |
-| ![Split Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RU%27R%27) | Split Insert | `{1-2}Ozx2 R U {1-2}Ozx2 R'` |
+| ![Made Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RUR%27) | Made Insert | `R {1-2}Ozx2 U' R' {1-2}Ozx2 U` |
+| ![Split Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RU%27R%27) | Split Insert | `{1-2}Ozx2 R U {1-2}Ozx2 R' U'` |
 | ![Double Sexy](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=URU%27R%27URU%27R%27) | Double Sexy | `R U R' U' {1-2}Ozx2 R U R' U' {1-2}Ozx2` |
 
 ### EOLL
