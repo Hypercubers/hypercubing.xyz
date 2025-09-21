@@ -219,7 +219,7 @@ If you are pressing multiple keys at once, your keyboard may not detect subseque
 
 ### When will Hyperspeedcube 2 be ready?
 
-When it's done. Hopefully before summer 2025.
+When it's done. Hopefully before the end of 2025.
 
 ### What features are planned for Hyperspeedcube 2?
 
