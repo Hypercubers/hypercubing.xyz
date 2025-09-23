@@ -1,9 +1,11 @@
 # Notation
 
-!!! warning
-    This page explains notation specifically for cell-turning virtual hypercube puzzles. Notation pages for other puzzles coming soon™️...
 
-## Cells
+This page explains notation specifically for cell-turning virtual n^d^ puzzles.
+
+## 4D Notation
+
+### Cells
 
 !!! info inline end "Yellow cell rotating"
     <video autoplay loop muted width="300">
@@ -12,13 +14,13 @@
 
 Each side of an n^4^ hypercube is called a *cell*, and consists of a cubic grid of n^3^ stickers. Because each side is cubic, they can be rotated with cubic symmetry. A cube has 24 different possible orientations, meaning that each side of a 4D puzzle can be oriented in 24 different ways.
 
-There are 8 cells, six of them using the same letters as that in the 3^3^: `U` (up), `D` (down), `F` (front), `B` (back), `R` (right), `L` (left). The one that you can see on the inside is called `I` (inside), and the one opposite of that (which is hidden) is called `O` (outside). This means we use the letters `R` `L` `U` `D` `F` `B` `O` `I`.
+There are eight cells, six of them using the same letters as that of the 3^3^: `U` (up), `D` (down), `F` (front), `B` (back), `R` (right), `L` (left). The one that you can see on the inside is called `I` (inside), and the one opposite of that (which is hidden) is called `O` (outside). This means we use the letters `R` `L` `U` `D` `F` `B` `O` `I`.
 
-## Pieces
+### Pieces
 
 Cell-turning hypercubes have 4 different types of pieces (with some slight variations for big hypercubes). These are the 1c (1-colored) centers, 2c ridges, 3c edges, and 4c corners. You can label each piece based on which cells it is on. The 3c piece that has stickers on the `I`nside, `R`ight, and `U`p cells would be called the `IUR` piece.
 
-## Twists
+### Twists
 
 Twists are notated based on which piece you click on to do the turn, with the first letter determining which sticker of that piece to click on. For example:
 
@@ -34,17 +36,17 @@ Wide moves are tricky, as we are now using the letter `w` for the 4th dimension 
 - `{2-3}UO'` means to hold <kbd>2</kbd> and <kbd>3</kbd> while doing a UO' move.
 - `{2-4}IF` means to hold <kbd>2</kbd>, <kbd>3</kbd>, and <kbd>4</kbd>
 
-### Commutators
+#### Commutators
 
 Many algorithms are constructed using commutators and conjugates, so there is a compact notation for them using square brackets. See [Commutators - Notation](/techniques/commutators.md#notation).
 
-## Algorithms
+### Algorithms
 
 A shorter notation was developed to write specific algorithms, such as RKT cancels. All letters besides `I` and `O` correspond to their -O variants. `R U R' U'` would mean `RO UO RO' UO'`. For the wide O cell flips, they are notated with 3D rotations, such as `{1-2}Oxz2`. Using 3D rotations in this way is totally arbitrary, and its only purpose is for execution.
 
 There is also a notation where you put a star after the name of a cell to mean that you twist it in any direction, such as `R*`.
 
-## Rotations
+### Rotations
 
 3D notation for rotations doesn't really generalize to higher dimensions. For example, we call an `x` rotation x because it rotates the puzzle "around the x-axis". However, this is unhelpful because rotations don't actually happen around an axis. Instead it's better to think of rotations as happening within a 2D plane. When you're doing an `x`, the whole puzzle is really being rotated within the zy plane. And writing rotations like this generalizes to higher dimensions, so that is what we use.
 
@@ -59,7 +61,7 @@ Note how we don't have to use the `'` prime symbol because you can just swap the
 
 This makes it a really nice system because it only ever uses two letters, no matter how many dimensions. You can also use it on n^3^ puzzles in order for more multi-dimensional consistency: `xy` means move x+ to y+ (R to U \[z' rotation]).
 
-## Turn metrics
+### Turn metrics
 
 There are many different ways to count the number of twists performed during a solve. All of these metrics (besides ETM) have their own Quarter Turn counterparts, where twists are broken up into 90° twists. For example, a 180° face twist takes two 90° twists, while a 120° edge twist takes three. Listed below are the metrics used by HSC. STM is used the most, but others are sometimes relevant.
 
@@ -94,3 +96,23 @@ There are many different ways to count the number of twists performed during a s
     - Any move that counts as 1 STM is possible with 1 or 2 MC4DTM moves.[^2ct]
 
 [^2ct]: This is due to the 2-click theorem.^\[citation needed]^
+
+
+## 5D+ Notation
+
+Below is a table of the standardized letters for each pair of cells up to 10 dimensions. The 5D cell names are `A` (anterior) and `P` (posterior). The rest of them are just Greek letters, with no names for the side.
+
+| Side (+)| Side (-) | Axis name |
+| --      | --       | --        |
+| R       | L        | x         |
+| U       | D        | y         |
+| F       | B        | z         |
+| O       | I        | w         |
+| A       | P        | v         |
+| Γ       | Δ        | u         |
+| Θ       | Λ        | t         |
+| Ξ       | Π        | s         |
+| Σ       | Φ        | r         |
+| Ψ       | Ω        | q         |
+
+In 5+ dimensions, using 2 letters (eg. `RO`) is no longer enough information to determine the twist because a cell could be rotated in more than 1 plane simultaneously. This means that we have to break up a cell's twists into all 90 or 180 degree moves. For the moves of each cell, we use the 4D puzzle rotation notation. For example, `Rzy` means to do a twist of the `R` cell that rotates its current positive `z`-axis to the positive `y`-axis. You can put a 2 at the end for a 180 degree twist. Finally, slice layers use the layer mask notation instead of new letters for each slice (eg. `{1-2}Γyw2`). 
