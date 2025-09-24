@@ -27,7 +27,9 @@ These rules apply generally to speedsolving submissions unless the category has 
 
 - Macros are **not** allowed.
     - Exception: macros consisting of a single move [STM][stm] are allowed, provided that they are created during the solve or demonstrated in the video before the solve starts.
-- Piece filters are allowed.
+- Unless otherwise specified by the category, piece filters are allowed.
+    - Changing the color scheme mid-solve is considered equivalent to using piece filters.
+- Changing view settings mid-solve is allowed, even for no-filters categories.
 - All speedsolves require video evidence, such as an uninterrupted screen recording.
     - The video must include scrambling the puzzle. When using Hyperspeedcube, the statusbar must be visible with the text "Scrambled fully."
     - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
