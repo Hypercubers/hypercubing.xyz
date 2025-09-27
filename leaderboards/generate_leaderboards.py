@@ -22,7 +22,7 @@ COLUMNS_ORDER = [
 def COLUMNS_INFO(event): return {
     'event': ("Event", ':---'),
     'rank': ("Rank", '---:'),
-    'solver': ("Name", ':--:'),
+    'solver': ("Name", ':--'),
     'time': (formats[event.format]['header'], '---:'),
     'date': ("Date", ':--:'),
     'program': ("Program", ':--:'),
