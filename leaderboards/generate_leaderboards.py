@@ -142,16 +142,18 @@ class Solve:
 
         if self.program == 'MT':
             self.program = 'MT :programs-MT:{.lb-program-icon}'
-        if self.program == 'HSC':
+        elif self.program == 'HSC':
             self.program = 'HSC :programs-HSC1:{.lb-program-icon}'
-        if self.program == 'MPU':
+        elif self.program == 'MPU':
             self.program = 'MPU :programs-MPU:{.lb-program-icon}'
-        if self.program == 'MC7D':
+        elif self.program == 'MC7D':
             self.program = 'MC7D :programs-MC7D:{.lb-program-icon}'
-        if self.program == 'MC7D-KB':
+        elif self.program == 'MC7D-KB':
             self.program = 'MC7D-KB :programs-MC7D:{.lb-program-icon}'
-        if self.program == 'MC7D+MKB':
+        elif self.program == 'MC7D+MKB':
             self.program = 'MC7D+MKB :programs-MC7D:{.lb-program-icon}'
+        elif self.program == 'MC4D':
+            self.program = 'MC4D :programs-MC4D:{.lb-program-icon}'
 
 
         self._cell_contents = {
