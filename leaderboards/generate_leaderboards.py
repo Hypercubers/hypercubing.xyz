@@ -25,7 +25,7 @@ def COLUMNS_INFO(event): return {
     'solver': ("Name", ':--'),
     'time': (formats[event.format]['header'], '---:'),
     'date': ("Date", ':--:'),
-    'program': ("Program", ':--:'),
+    'program': ("Program", '---:'),
 }
 
 
@@ -139,6 +139,20 @@ class Solve:
         self.rank = None
         formatted_time = format_time(self.time)
         formatted_date = format_date(self.date)
+
+        if self.program == 'MT':
+            self.program = 'MT :programs-MT:{.lb-program-icon}'
+        if self.program == 'HSC':
+            self.program = 'HSC :programs-HSC1:{.lb-program-icon}'
+        if self.program == 'MPU':
+            self.program = 'MPU :programs-MPU:{.lb-program-icon}'
+        if self.program == 'MC7D':
+            self.program = 'MC7D :programs-MC7D:{.lb-program-icon}'
+        if self.program == 'MC7D-KB':
+            self.program = 'MC7D-KB :programs-MC7D:{.lb-program-icon}'
+        if self.program == 'MC7D+MKB':
+            self.program = 'MC7D+MKB :programs-MC7D:{.lb-program-icon}'
+
 
         self._cell_contents = {
             # 'date': self.date,
