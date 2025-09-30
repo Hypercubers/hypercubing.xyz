@@ -47,17 +47,26 @@ Another popular way to do RKT is to use wide O cell turns (instead of normal I c
 RKT parity is a state you can get to that appears to rotate a single layer of a cell by 180°.
 If you try and fix this with RKT, then the outer layers will be off by 180°. This means that you must use an algorithm (or intuition) to solve it.
 
-You can use a 3D supercube algorithm that rotates the U center 180° (`(R U R' U)5`, or `(L R U2 R' L' U)2`).
+There are several 3D supercube algorithms that rotate the U center 180°, which can be executed using RKT to fix RKT parity:
 
-Harder to memorize (but much lower in movecount) is this 9-mover RKT parity alg:
-`IU UR IU' IF' UO' IF RF UR RF' UIR`, found by Tetrian22.
+- `(R U R' U)5` (40 STM)
+- `(L R U2 R' L' U)2` (20 STM)
 
-- [3^4^ Commutators List by Alvin (RKT parity algs are near the bottom)](https://docs.google.com/spreadsheets/d/1fCAhsGl0Ttf7B_ncS8m2Mq_TkPZX2VCaFw23XGSzAKo/edit#gid=0)
-- [PLL + RKT parity algs by Eff](https://docs.google.com/spreadsheets/d/1oHNpWKSnR0p6PMiwQT5IciE2f7Wmw2cC-Kfol0XrzG4/edit)
+There is also a 9 STM 4D algorithm that solves RKT parity. Here are a few variants of it:
+
+- Tetrian22's variant for U debt: `[IU: UR] [IF': UO'] [RF: UR RF'] (UIR)`
+- Hactar's variant for R debt: `[RO: IU] [RF: IR'] [DF': IU] (IDR)`
+
+### Other puzzles
 
 On 2^4^, shorter algorithms are possible because there is no need to worry about messing up other pieces besides corners. A commonly used one is ```R2 B2 R2 U R2 B2 R2 U'```<sub>RKT</sub>.
 
 On bigger n^4^ puzzles (where $n>3$), it can look like a single _slice_ layer of a cell is off by 180°. An intuitive way to solve this is to do the 2^4^ RKT parity algorithm with wide moves, and then the normal 3^4^ RKT parity algorithm. It can also be avoided by just lining up your slice the same way you line up centers in 3D before finishing last 4 edges (when using freeslice).
+
+### External resources
+
+- [3^4^ Commutators List by Alvin (RKT parity algs are near the bottom)](https://docs.google.com/spreadsheets/d/1fCAhsGl0Ttf7B_ncS8m2Mq_TkPZX2VCaFw23XGSzAKo/edit#gid=0)
+- [PLL + RKT parity algs by Eff](https://docs.google.com/spreadsheets/d/1oHNpWKSnR0p6PMiwQT5IciE2f7Wmw2cC-Kfol0XrzG4/edit)
 
 ## Debt
 
