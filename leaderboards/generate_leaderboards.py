@@ -140,20 +140,17 @@ class Solve:
         formatted_time = format_time(self.time)
         formatted_date = format_date(self.date)
 
-        if self.program == 'MT':
-            self.program = 'MT :programs-MT:{.lb-program-icon}'
-        elif self.program == 'HSC':
-            self.program = 'HSC :programs-HSC1:{.lb-program-icon}'
-        elif self.program == 'MPU':
-            self.program = 'MPU :programs-MPU:{.lb-program-icon}'
-        elif self.program == 'MC7D':
-            self.program = 'MC7D :programs-MC7D:{.lb-program-icon}'
-        elif self.program == 'MC7D-KB':
-            self.program = 'MC7D-KB :programs-MC7D:{.lb-program-icon}'
-        elif self.program == 'MC7D+MKB':
-            self.program = 'MC7D+MKB :programs-MC7D:{.lb-program-icon}'
-        elif self.program == 'MC4D':
-            self.program = 'MC4D :programs-MC4D:{.lb-program-icon}'
+        program_icons = {
+        'MT': 'MT',
+        'HSC': 'HSC1',
+        'MPU': 'MPU',
+        'MC7D': 'MC7D',
+        'MC7D-KB': 'MC7D',
+        'MC7D+MKB': 'MC7D',
+        'MC4D': 'MC4D',
+        }
+        if self.program in program_icons:
+            self.program = f'{self.program} :programs-{program_icons[self.program]}:{{.lb-program-icon}}'
 
 
         self._cell_contents = {
