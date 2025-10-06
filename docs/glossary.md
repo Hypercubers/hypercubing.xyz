@@ -86,6 +86,30 @@ Note that shapeshifting has nothing to do with algebraic properties (doctrinaire
 - A **tiling** is a construction of a puzzle by cutting a filled space, typically with no pieces removed.
 - A **soup** is a construction of a puzzle by adding objects to an initially empty space.
 
+### Physicality
+
+These definitions are bespoke to the hypercubing community, and have been refined over time as we discover more strange cases. Unlike most other terms on this page, these do not have rigid definitions; they may change as more possibilities are discovered.
+
+The exact assignment of "physical" and "mechanical" is a historical quirk inherited from Melinda's "physical" 2^4^.
+
+- The **geometric rank** of a puzzle is the rank of its geometry; that is, the dimension of its stickers/facets plus one. Examples:
+    - The Rubik's cube has rank 3.
+    - 3^4^ has rank 4.
+    - MagicTile puzzles all have rank 3.
+    - Circle puzzles have rank 3.
+    - Loopover has rank 3.
+    - Reflesquare has rank 2.
+- A **virtual** puzzle is one simulated on a computer. In hypercubing, this is the closest we can get to the true form of the puzzle.
+- A **mechanical** puzzle is one that uses a physical mechanism in a number of dimensions that is the geometric rank of the puzzle, typically using geometric constraints to hold pieces together. For example, a mechanical 3^4^ uses 4 dimensions. A mechanical circle puzzle uses 3 dimensions. The typical Rubik's cube is a mechanical 3^3^.
+    - A mechanical puzzle may exist in geometry other than 3D Euclidian space; one may talk about a mechanical face-turning Klein Quartic puzzle in quotiented H3 or H2xE space.
+- A **physical** puzzle is one that is built in a dimension lower than its geometric rank, typically ([but not always](https://www.youtube.com/watch?v=C_Wq42L-12M)) using rigid pieces. For example, Melinda's physical 2^4^ uses 3D space. A physical 2^5^ may use 3D or 4D space. A physical 3^3^ uses 2D. All known physical higher-dimensional puzzles are [documented in this wiki](/puzzles/physical.md).
+    - A physical puzzle must have the same state space and allowed moves as the original, although some moves may take multiple steps to achieve.
+- A move is **accessible** on a physical puzzle if it can be performed in one or very few actions.
+    - A good physical puzzle has many accessible moves.
+- A **gyro** is a multi-step action on a physical puzzle that changes the accessible moves. Gyros often correspond to higher-dimensional rotations.
+- A **half gyro** or **partial gyro** is a multi-step action on a physical puzzle that performs an inaccessible move.
+- A **virtual physical** ("virt phys") puzzle is a computer simulation of a physical puzzle.
+
 ### Completions
 
 - A **real** puzzle is one with all interior pieces. For example, a real 7×7×7 has $7^3=343$ pieces, compared to $7^3-5^3=218$ pieces for a standard 7×7×7.
