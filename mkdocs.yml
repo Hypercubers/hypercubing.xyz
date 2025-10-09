@@ -97,6 +97,8 @@ plugins:
       redirect_maps:
         "discord.md": "https://discord.gg/xxFvfyx89p"
         "theory/grip_theory.md": "theory/grip-theory.md"
+        "leaderboards/index.md": "https://lb.hypercubing.xyz"
+        "leaderboards/rules.md": "leaderboard-rules.md"
 hooks:
   - hooks/feature_matrix.py
   - hooks/symbol_hooks.py

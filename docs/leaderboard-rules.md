@@ -1,5 +1,5 @@
 ---
-title: Rules
+title: Leaderboard Rules
 ---
 
 # Hypercubing Leaderboard Submission Rules

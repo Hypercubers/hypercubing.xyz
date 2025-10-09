@@ -247,7 +247,7 @@ See the [**Hyperspeedcube 2.0 Development Updates**][hsc-updates-thread] thread 
 
 ### What are the speedsolving records for 4D puzzles?
 
-See the [leaderboards](/leaderboards/index.md). To get on the leaderboard, read the [submission guidelines](/leaderboards/rules.md) and submit a video of your solve to [this form](https://forms.gle/Y7Vpi3pb8989Ay8W8).
+See the [leaderboards](/leaderboards/index.md). To get on the leaderboard, read the [submission rules](/leaderboard-rules.md) and submit a video of your solve to [the solve submission form](https://lb.hypercubing.xyz/submit-solve). You will have to sign into the leaderboards using either a Discord account (which must be a member of the [Hypercubers Discord Server]) or an email address.
 
 ### Why not use speedrun.com?
 
