@@ -25,10 +25,6 @@ These rules may be flexible, especially for new categories. For example, if you'
 
 These rules apply generally to speedsolving submissions unless the category has specific rules.
 
-- Macros are **not** allowed.
-    - Exception: macros consisting of a single move [STM][stm] are allowed, provided that they are created during the solve or demonstrated in the video before the solve starts.
-- Unless otherwise specified by the category, piece filters are allowed.
-    - Changing the color scheme mid-solve is considered equivalent to using piece filters.
 - Changing view settings mid-solve is allowed, even for no-filters categories.
 - All speedsolves require video evidence, such as an uninterrupted screen recording.
     - The video must include scrambling the puzzle. When using Hyperspeedcube, the statusbar must be visible with the text "Scrambled fully."
@@ -42,6 +38,17 @@ These rules apply generally to speedsolving submissions unless the category has 
     - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
 - Log file is not required, but you should still save your PBs!
 - Using software to compute a solution to the puzzle state is not allowed.
+
+### Filters
+
+- Filter presets may be defined during the solve or beforehand.
+- Changing sticker colors mid-solve or during inspection is considered equivalent to using piece filters.
+- Highlighting or hiding pieces based on their current location does **not** count as piece filters, and so **is allowed in no-filters categories**.
+
+### Macros
+
+- Macros consisting of a single move [STM][stm] do **not** count as macros, and so **are allowed in no-macros categories**, provided that they are created during the solve or demonstrated in the video before the solve starts.
+- Macros consisting of more than a single move must be defined during the speedsolve.
 
 ### Average rules
 
