@@ -69,6 +69,17 @@ These rules apply generally to speedsolving submissions unless the category has 
     - Final time = memorization time + solving time.
     - Writing anything down isn't allowed.
 
+### One Handed Solving
+
+- During the solve, you must use only one hand to operate the puzzle. You cannot use the assistance of other body parts. Penalty: disqualification of the attempt (DNF).
+   - You cannot switch hands during the solve, once you turn the puzzle with one hand, you cannot use the other hand for the rest of the attempt.
+- You may use both hands during inspection.
+- Physical:
+   - Usage of the table or other surfaces as a support is allowed.
+   - You may scramble the puzzle with both hands
+- Virtual:
+   - Submissions must show video of the keyboard/mouse being operated by only one hand during the duration of the attempt.
+
 ### Real-life puzzle rules
 
 - All real-life puzzle solves must have video evidence that shows the puzzle fully in frame throughout the solve and shows the entire scrambling and solving process as well as the timer.
