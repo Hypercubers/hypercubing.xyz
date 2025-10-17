@@ -28,7 +28,7 @@ Syntax descriptions in this document use a modified form of [EBNF](https://en.wi
 - `symbol+` is at least one of `symbol`
 - `symbol*` is zero or more of `symbol`
 - `a | b` is either `a` or `b`
-- `"~"` is the literal character `~` (and similarly for another other string of characters)
+- `"~"` is the literal character `~` (and similarly for other strings of characters)
 
 We use the following character classes:
 
@@ -149,11 +149,11 @@ Note that the parens are required after group prefix symbols. `^[R, U]` and `^R`
 This section defines common conventions for move families. These should be considered when developing notation for new puzzles. These are not strict rules.
 
 - Uppercase Latin alphabet: `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
-- Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (excluded letters that are similar to Latin letters)
+- Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (Greek letters that are similar to Latin letters have been excluded)
 - Lowercase Latin alphabet: `abcdefghijklmnopqrstuvwyxz`
 - Lowercase Greek alphabet
     - Large lowercase: `βδζθλξ`
-    - Small lowercase: `αεηκμπτφχψω` (excluding letters that are similar to Latin letters)
+    - Small lowercase: `αεηκμπτφχψω` (Greek letters that are similar to Latin letters have been excluded)
 
 Other Greek letters are recommended to NOT be used because they are too similar in appearance to Latin letters.
 
@@ -356,7 +356,7 @@ _Curly-brace layer sets are **descriptive**._
 
 It is a very common convention in hypercubing software to hold down any set of number keys to apply a "layer mask" to a move. Given that individual moves may require many characters to write (such as `I[F->B,U->R]`) it is very awkward to require duplicating this many times.
 
-- E.g., Suppose we want to write the 7^4 move `{1,3,5,7}IUR` using only ridge turns. (This is a contrived example because we _do_ have a way to write edge turns on n^4, but no some puzzles these moves can only be easily written using simultaneous move notation.) With layer sets, we can write `&({1,3,5,7}IF {1,3,5,7}IR2)`; without layer sets, we must write `&(IF 3IF 5IF 7IF IR2 3IR2 5IR2 7IR2)`.
+- E.g., Suppose we want to write the 7^4 move `{1,3,5,7}IUR` using only ridge turns. (This is a contrived example because we _do_ have a way to write edge turns on n^4, but on some puzzles these moves can only be easily written using simultaneous move notation.) With layer sets, we can write `&({1,3,5,7}IF {1,3,5,7}IR2)`; without layer sets, we must write `&(IF 3IF 5IF 7IF IR2 3IR2 5IR2 7IR2)`.
     - We _could_ write it the long way, but we lose important semantics and it becomes much less readable.
     - Transform notation makes this problem even worse: `{1,3,5,7}I[U->R,F->B]` vs. `&(I[U->R,F->B] 3I[U->R,F->B] 5I[U->R,F->B] 7I[U->R,F->B])`
     - Any layer mask can be used for a single move in hypercubing software, and we treat it as a single move! It should be possible to express concisely in notation
