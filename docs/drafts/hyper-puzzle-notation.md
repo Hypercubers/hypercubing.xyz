@@ -413,6 +413,9 @@ _Execution notation is **descriptive**. The term "execution notation" itself is 
     - E.g., `@[R-U>L]` equivalent to `@F2'` (as opposed to `[R->L,U->D]` which unambiguously describes a transformation but does not specify the direction of rotation)
     - This doesn't matter for getting to a puzzle state, but does matter for animation in software.
 - Allow spaces in transforms? `[R->F,U->D]` vs. `[R -> F, U -> D]`
+- Multiple transforms on the same axis
+    - especially useful for jumbling puzzles. options include but are not limited to: `&(R' Rh)` (currently the only one allowed), `R'+h`, `R1'+h`, `R(1' h)`, `R(1'+h)`
+    - especially powerful and important with complex layer masks
 - `*` for wildcard (machines do not need to be able to parse this, but it should be documented for humans)
     - layer mask wildcard: `*Rw`
     - partial move family wildcard: `*O` or `~I*`
@@ -426,3 +429,4 @@ _Execution notation is **descriptive**. The term "execution notation" itself is 
     - Lucas Garron uses a preprocessor that converts a sq1 move sequence to special move families; e.g., `(3, -2) /` converts to `U_SQ_3 D_SQ_2' _SLASH_`
     - If this is incorporated into the EBNF grammar, then the grammar is no longer LR(1).
     - If this is done as a preprocessor step, then now it's harder to trace spans back to the original string.
+- Should the syntax support megaminx scrambling notation? (`R++`, `R--`, `D++`, `D--`)
