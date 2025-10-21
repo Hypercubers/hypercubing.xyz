@@ -65,7 +65,7 @@ Revealing information that distinguishes indistinguishable pieces or orientation
 - A move is **blocked** in a particular puzzle state if there is some feature of the puzzle preventing the move from being applied. Generally this is because there is a piece that is partially inside and partially outside of the region affected by the move.
 - **Bandaging** is the process of combining pieces in order to block moves.
 - **Unbandaging** is the process of splitting pieces in order to make more moves possible.
-- A puzzle is **doctrinaire** or **fully unbandaged** if every move is always accessible.
+- A puzzle is **doctrinaire** or **fully unbandaged** if every move is always accessible (not blocked).
 - A puzzle is **bandaged** if it is not doctrinaire, but can be finitely unbandaged to a doctrinaire puzzle.
 - A puzzle is **jumbling** if it has infinitely many [grips](/theory/grip-theory.md). For finite puzzles, this simpler definition is equivalent: A puzzle is **jumbling** if it cannot be finitely unbandaged to a doctrinaire puzzle.
 
