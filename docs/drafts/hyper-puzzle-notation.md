@@ -77,7 +77,7 @@ This also allows writing moves in an abstract or puzzle-general way.
 
     - It's not used for anything else in notation.
     - It's unlikely to be useful for anything else.
-    - If it is ever useful for anything else, this is only a very narrow context in which it is useful.
+    - If it is ever useful for anything else, this is only a very narrow context in which it is already used.
     - It's already used to introduce constraints in set-builder notation: $\{ x | x < 5 \}$.
     - Comma `,` and colon `:` are already used for [commutators](#commutator) and [conjugates](#conjugate).
 
@@ -162,7 +162,7 @@ Because conjugates are a kind of [node](#node), they can also have a [multiplier
 
 ### Multiplier
 
-A **multiplier** is an optional positive integer and an optional apostrophe, pronounced "prime," which negates the multiplier. `2`, `'`, `2'`, and `42'` are all multipliers.
+A **multiplier** is an optional positive integer and an optional apostrophe `'`, pronounced "prime," which negates the multiplier. `2`, `'`, `2'`, and `42'` are all multipliers.
 
 ### Comment
 
@@ -189,11 +189,11 @@ Physical 2x2x2x2 scrambling uses the move `#`. This cannot be used with layer ma
 This section defines common conventions for axes and move families. These should be considered when developing notation for new puzzles. These are not strict rules.
 
 - Uppercase Latin alphabet: `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
-- Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (Greek letters that are similar to Latin letters have been excluded)
+- Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (Greek letters that are visually similar to Latin letters have been excluded)
 - Lowercase Latin alphabet: `abcdefghijklmnopqrstuvwyxz`
 - Lowercase Greek alphabet
     - Large lowercase: `βδζθλξ`
-    - Small lowercase: `αεηκμπτφχψω` (Greek letters that are similar to Latin letters have been excluded)
+    - Small lowercase: `αεηκμπτφχψω` (Greek letters that are visually similar to Latin letters have been excluded)
 
 Other Greek letters are recommended to NOT be used because they are too similar in appearance to Latin letters.
 
@@ -299,7 +299,7 @@ In 5D, two axis letters may be used after an axis name for [execution notation](
 
 ### Lowercase Greek alphabet (sequential)
 
-For when there are multiple Latin groups, they can be distinguished using a small lowercase Greek prefix. For example:
+For when there are multiple sets of axes assigned Latin letters, they can be distinguished using a small lowercase Greek prefix. For example:
 
 | Group | Names                 |
 | ----- | --------------------- |
