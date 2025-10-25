@@ -60,7 +60,7 @@ Different puzzles can use bracketed transforms in different ways. There are two 
 
 On some puzzles, a single move is most efficiently written as a composition of two moves on the same axis. For example, `Rj` represents the small jumbling angle ~70.5287794°, so `R[1 j']` is equivalent to `&(R Rj')`.
 
-??? question "Why is this necessary?"
+??? question "Why are sequential transforms necessary?"
 
     Consider a complex layer mask, like `{1,3,5,7}` (common for checkerboards). Without sequential transforms, we must duplicate the layer mask: `{1,3,5,7}R {1,3,5,7}Rj'`. With sequential transforms, we can write `{1,3,5,7}R[1 j']`.
 
@@ -72,7 +72,7 @@ This also allows writing moves in an abstract or puzzle-general way.
 
 - Example: `R[F->U]` represents an `R` move on 3^3^ and FTO, and an analogous move on all higher-dimensional 3^n^
 
-??? question "Why pipe?"
+??? question "Why `|`?"
 
     - It's not used for anything else in notation.
     - It's unlikely to be useful for anything else.
@@ -86,8 +86,6 @@ This also allows writing moves in an abstract or puzzle-general way.
       - `I[R->U | F]`
       - `I[R->U | F->F]`
       - some symbol before `F`
-
-^[pipe]: symbol,
 
 #### Rotation
 
@@ -106,7 +104,7 @@ Because moves are a kind of [node](#node), they can also be have a [multiplier](
 
 ??? question "Why `@`?"
 
-    - `@` is a mnemonic for "all."
+    - It's a mnemonic for "all."
     - It looks round, like a rotation.
     - It's not already in use, and is unlikely to be used for anything else.
 
