@@ -127,7 +127,7 @@ A **group** is a sequence of moves surrounded by parentheses `()`, with an optio
   - A simple group may affect animation speed slightly or not at all.
 - **Macro groups**, which represent moves done using a macro in software.
   - Macro groups have `!` as a prefix symbol. Example: `!(R U R' U')`
-  - A macro group's move count should be equivalent to the moves on their own.[^macro-etm]
+  - A macro group's move count should be equivalent to the moves on their own.
   - A macro group should animate very quickly or not at all.
 - **Simultaneous groups**, which represent moves done simultaneously.
   - Simultaneous groups have `&` as a prefix symbol. Example: `&(U D2)`
