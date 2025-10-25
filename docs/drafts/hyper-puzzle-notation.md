@@ -31,15 +31,15 @@ Because moves are a kind of [node](#node), they can also have a [multiplier](#mu
 A layer mask is an optional tilde `~` optionally followed by one of the following:
 
 - Positive integer.
-  - Example: `3R` means "`R` on the 3rd layer"
+    - Example: `3R` means "`R` on the 3rd layer"
 - Range of positive integers separated by `-`.
-  - Example: `2-4R` means "`R` on layers 2, 3, and 4"
+    - Example: `2-4R` means "`R` on layers 2, 3, and 4"
 - Curly braces with positive and negative integers and ranges separated by `..`.
-  - Example: `{2..4}R` means "`R` on layers 2, 3, and 4" (equivalent to `2-4R`)
-  - Example: `{1,3..5,7}R` means "`R` on layers 1, 3, 4, 5, and 7"
-  - Example: `{1..-1}R` means "`R` on all layers"
-  - Example: `{2..-2}D` is one generalization of `E` to NxNxN puzzles with many layers
-  - Example: `{3,-2}R` means "`R` on layer 3 and the 2nd layer from the other side"
+    - Example: `{2..4}R` means "`R` on layers 2, 3, and 4" (equivalent to `2-4R`)
+    - Example: `{1,3..5,7}R` means "`R` on layers 1, 3, 4, 5, and 7"
+    - Example: `{1..-1}R` means "`R` on all layers"
+    - Example: `{2..-2}D` is one generalization of `E` to NxNxN puzzles with many layers
+    - Example: `{3,-2}R` means "`R` on layer 3 and the 2nd layer from the other side"
 
 Reversed ranges are the same: `{1..-1}` is the same as `{-1..1}` and `1-3` is the same as `3-1`.
 
@@ -122,21 +122,21 @@ Because pause are a kind of [node](#node), they can also have a [multiplier](#mu
 A **group** is a sequence of moves surrounded by parentheses `()`, with an optional symbol before the opening parenthesis. There are four kinds of groups:
 
 - **Simple groups**, which represent a logical grouping
-  - Simple groups have no prefix symbol. Example: `(R U R' U')`
-  - A simple group's move count should be equivalent to the moves on their own.
-  - A simple group may affect animation speed slightly or not at all.
+    - Simple groups have no prefix symbol. Example: `(R U R' U')`
+    - A simple group's move count should be equivalent to the moves on their own.
+    - A simple group may affect animation speed slightly or not at all.
 - **Macro groups**, which represent moves done using a macro in software.
-  - Macro groups have `!` as a prefix symbol. Example: `!(R U R' U')`
-  - A macro group's move count should be equivalent to the moves on their own.
-  - A macro group should animate very quickly or not at all.
+    - Macro groups have `!` as a prefix symbol. Example: `!(R U R' U')`
+    - A macro group's move count should be equivalent to the moves on their own.
+    - A macro group should animate very quickly or not at all.
 - **Simultaneous groups**, which represent moves done simultaneously.
-  - Simultaneous groups have `&` as a prefix symbol. Example: `&(U D2)`
-  - A simultaneous group should count as 1 [ETM][metrics].
-  - A simultaneous group should animate simultaneously if possible. It may animate sequentially, but should take the same amount of time as a single move.
+    - Simultaneous groups have `&` as a prefix symbol. Example: `&(U D2)`
+    - A simultaneous group should count as 1 [ETM][metrics].
+    - A simultaneous group should animate simultaneously if possible. It may animate sequentially, but should take the same amount of time as a single move.
 - **NISS groups**, which represent moves done on the inverse puzzle state.
-  - NISS groups have `^` as a prefix symbol. Example: `^(U F' D2)`
-  - A NISS group's move count should be equivalent to the moves on their own.
-  - A NISS group's moves may be animated inverted before the scramble (most useful while constructing a solution) or inverted after the forwards solution (most useful while viewing a completed solution). These two might not be equivalent if the combined scramble + forwards solution + NISS solution is not the identity.
+    - NISS groups have `^` as a prefix symbol. Example: `^(U F' D2)`
+    - A NISS group's move count should be equivalent to the moves on their own.
+    - A NISS group's moves may be animated inverted before the scramble (most useful while constructing a solution) or inverted after the forwards solution (most useful while viewing a completed solution). These two might not be equivalent if the combined scramble + forwards solution + NISS solution is not the identity.
 
 Simultaneous groups may not contain any groups. All other groups may contain any group inside them.
 
