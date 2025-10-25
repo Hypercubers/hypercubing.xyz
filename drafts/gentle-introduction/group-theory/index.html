@@ -1,0 +1,5107 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://hypercubing.xyz/drafts/gentle-introduction/group-theory/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Group Theory - Hypercubing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+<script src="/assets/animcube/AnimCube2.js"></script>
+<script src="/assets/animcube/AnimCube3.js"></script>
+<script src="/assets/animcube/AnimCube4.js"></script>
+
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#group-theory" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Hypercubing" class="md-header__button md-logo" aria-label="Hypercubing" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Hypercubing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Group Theory
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="purple" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Hypercubers/hypercubing.xyz" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Hypercubers/hypercubing.xyz
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Wiki
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../leaderboards/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Leaderboards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../discord/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Discord
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Hypercubing" class="md-nav__button md-logo" aria-label="Hypercubing" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Hypercubing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Hypercubers/hypercubing.xyz" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Hypercubers/hypercubing.xyz
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Wiki
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Wiki
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../intro-4d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction to 4D
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../external-links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    External Links
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../history/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    History
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboard-rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Leaderboard Rules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../notation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../progression/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Progression
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Videos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_11" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../algorithms/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Algorithms
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_11" id="__nav_1_11_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_11">
+            <span class="md-nav__icon md-icon"></span>
+            Algorithms
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../algorithms/rkt-cancel-algs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    RKT Cancel Algorithms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_12" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../koans/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Koans
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_12" id="__nav_1_12_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_12">
+            <span class="md-nav__icon md-icon"></span>
+            Koans
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/adaptability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Adaptability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/algorithms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Applications of Algorithms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/behold/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Behold!
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/projection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/soup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Soup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/square-prism/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Square Prism
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../koans/twice-spun/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Twice Spun
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_13" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../methods/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Methods
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_13" id="__nav_1_13_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_13">
+            <span class="md-nav__icon md-icon"></span>
+            Methods
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_13_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_13_1" id="__nav_1_13_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2x2x2x2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_13_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_13_1">
+            <span class="md-nav__icon md-icon"></span>
+            2x2x2x2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2/4tega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4tega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2/cell-by-cell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cell by Cell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2/orozco/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Orozco
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_13_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_13_2" id="__nav_1_13_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    3x3x3x3
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_13_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_13_2">
+            <span class="md-nav__icon md-icon"></span>
+            3x3x3x3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/3x3x3x3/3block/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3-Block
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/3x3x3x3/cfop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CFOP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/3x3x3x3/octachoroux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Octachoroux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_13_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_13_3" id="__nav_1_13_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Physical 2x2x2x2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_13_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_13_3">
+            <span class="md-nav__icon md-icon"></span>
+            Physical 2x2x2x2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2-physical/grant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grant's OBC Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2-physical/grcl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GRCL Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2-physical/luna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Luna's Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2-physical/p4l/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    P4L
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/2x2x2x2-physical/rowan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rowan's OBC Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/big-cube-reduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reduction (Big Cube)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/dimensional-reduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reduction (Dimensional)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/drbelt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DRBelt (Physical 3x3x3x3)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/general-cfop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Generalized CFOP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../methods/ll-strats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Last Layer Strategies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_14" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../puzzles/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Puzzles
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_14" id="__nav_1_14_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_14">
+            <span class="md-nav__icon md-icon"></span>
+            Puzzles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_14_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../puzzles/physical/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Physical puzzles
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_14_1" id="__nav_1_14_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_14_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_14_1">
+            <span class="md-nav__icon md-icon"></span>
+            Physical puzzles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/1x2x2x2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tymon&rsquo;s 1×2×2×2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/1x2x2x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tymon&rsquo;s 1×2×2×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/1x2x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tymon&rsquo;s 1×2×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/1x3x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tymon&rsquo;s 1×3×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x2x2x2x2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2×2×2×2×2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x2x2x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grant&rsquo;s 2×2×2×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x2x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grant&rsquo;s 2×2×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x3x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grant&rsquo;s 2×3×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/3x3x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grant&rsquo;s 3×3×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/4d-pyraminx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dominik&rsquo;s 4D Pyraminx
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/restricted-2x2x2x2x2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Restricted 2×2×2×2×2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_14_1_13" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../puzzles/physical/2x2x2x2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Melinda's 2x2x2x2
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_14_1_13" id="__nav_1_14_1_13_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_1_14_1_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_14_1_13">
+            <span class="md-nav__icon md-icon"></span>
+            Melinda's 2x2x2x2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x2x2x2/canonical-moves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Canonical Moves
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x2x2x2/image-generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Physical 2×2×2×2 Image Generator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/physical/2x2x2x2/scramble-generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Physical 2×2×2×2 Scramble Generator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/3x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/2x2x2x2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2×2×2×2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/3x3x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3×3×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/nxnxnxn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    N×N×N×N
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/3x3x3x3x3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3×3×3×3×3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/4d-skewb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4D Skewb
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/hemimegaminx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hemimegaminx
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../puzzles/hypercuboids/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hypercuboids
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_15" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../software/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_15" id="__nav_1_15_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_15">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/hyperspeedcube/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hyperspeedcube
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/magiccube4d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Cube 4D
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/magicpuzzleultimate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Magic Puzzle Ultimate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_16" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../techniques/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Techniques
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_16" id="__nav_1_16_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_16">
+            <span class="md-nav__icon md-icon"></span>
+            Techniques
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../techniques/commutators/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commutators
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../techniques/F2L/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    F2L
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../techniques/rkt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    RKT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_17" id="__nav_1_17_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Theory
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_17">
+            <span class="md-nav__icon md-icon"></span>
+            Theory
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../theory/gods-number/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    God&rsquo;s Number
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../theory/grip-theory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grip Theory
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../theory/invariants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Piece invariants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../theory/open-questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Open Questions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../theory/physical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Physical puzzles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../jokes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jokes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../leaderboards/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Leaderboards
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Leaderboards
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/aggregate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aggregate Stats
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/history/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record History
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/other-leaderboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Other Leaderboards
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/records/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Records
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Solvers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Solvers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/adam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Adam Marcellus Kelly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/akkei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Akkei
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/alvin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Alvin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/hactar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Andrew Farkas (Hactar)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/asa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Asa Kaplan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/bilal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bilal Mourad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/bruh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    bruuhbrruh
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/cali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cali Kerschen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/connor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Connor Lindsay
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/danielcohen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Daniel Cohen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/edan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Edan Maor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/battistin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Emanuele Battistin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/emca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Emma-Marie Cadet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/ethandavis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethan Davis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/weill/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Freya
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/gstout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gabe Stout
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/godly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Godly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/grant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grant Staten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/hana/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hana (Curun1r)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/pickle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Henry Pickle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/hyperespy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hyperespy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/jackcai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jack Cai
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/jessica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jessica Chen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/josie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Josie Elliston
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/kevin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    K3v1N
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/kliu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kevin Liu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/koen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Koen R.
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/cubedude/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logan Maciejewski (The Cube Dude)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/lorenzo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lorenzo1098
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/luna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Luna Harran
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/markk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/messil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Messil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/milojacquet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Milo Jacquet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/minidog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Minidog06
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/myigiter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Murat Emre Yiğiter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/nenri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nenri
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/origamist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Normal Origamist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/olaf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Olaf Niechcial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/pkearth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PKEarth
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/rayzchen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ray Chen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/rowan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rowan Fortier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/saturnb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Saturnb
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/yuste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sebastian Yuste
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/starry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Starryninja
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/stella/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stella
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/tetrian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tetrian
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/void/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Void
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/gray/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TheGrayCuber
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/pkmnhx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trey Bowen (Pkmnhx43)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/tymofro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tymon Fro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/vigoprins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vigo Prins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/vin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/pistelli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vincent Pistelli
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/voytxt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vojtěch Křižan (voytxt)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leaderboards/solvers/ysinx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    y=sin(x)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cyclic-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cyclic groups
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isomorphism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Isomorphism
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commutative-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commutative groups
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subgroups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subgroups
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cosets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cosets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permutation-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permutation groups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Permutation groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cycle-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cycle notation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#group-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Group actions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples-using-puzzles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples using puzzles
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/Hypercubers/hypercubing.xyz/edit/main/docs/drafts/gentle-introduction/group-theory.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="group-theory">Group Theory<a class="headerlink" href="#group-theory" title="Permanent link">&para;</a></h1>
+<style>
+.green { color: #00c853; }
+.red { color: #ff5252; }
+.rot45 { transform: rotate(45deg) }
+.spoiler:not(:hover) {
+    color: black;
+    background: black;
+}
+</style>
+
+<p>A <strong>group</strong> is a set of <strong>elements</strong> that can be composed using an <strong>operation</strong> to get a new element.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Notation</p>
+<ul>
+<li><span class="arithmatex">\(G\)</span> is often a <strong>group</strong>.</li>
+<li>Lowercase letters are often <strong>group elements</strong>.<ul>
+<li><span class="arithmatex">\(e\)</span> is often the <strong>identity element</strong> (defined below).</li>
+</ul>
+</li>
+<li>Depending on the group, composing two elements <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> sometimes uses a symbol (like <span class="arithmatex">\(a + b\)</span> or <span class="arithmatex">\(a \times b\)</span>) and sometimes uses no symbol (like <span class="arithmatex">\(ab\)</span>).</li>
+<li>The <strong>inverse</strong> (defined below) of an element <span class="arithmatex">\(a\)</span> is written <span class="arithmatex">\(a^{-1}\)</span>.</li>
+</ul>
+</div>
+<p>The <strong>order</strong> of a group is the number of elements it has. The order of a group may be infinite.</p>
+<p>There are four <strong>group axioms</strong>, which are the requirements in order for something to be a group:</p>
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 19c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0-18c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2M6 16c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m-3-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m3-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m12 12c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m3-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m-3-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"/></svg></span> <strong>Closure</strong></p>
+<hr />
+<p><span class="arithmatex">\(ab \in G\)</span> <small>(for all <span class="arithmatex">\(a,b \in G\)</span>)</small></p>
+<p><em>Composing two elements in the group must give a new element in the group.</em></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></span> <strong>Identity</strong></p>
+<hr />
+<p><span class="arithmatex">\(ea = ae = a\)</span> <small>(for all <span class="arithmatex">\(a \in G\)</span>)</small></p>
+<p><em>There is some <strong>identity element</strong> <span class="arithmatex">\(e\)</span> in the group that has no effect on other elements.</em></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5 7a6.5 6.5 0 0 1 6.5 6.5 6.5 6.5 0 0 1-6.5 6.5H10v-2h3.5c2.5 0 4.5-2 4.5-4.5S16 9 13.5 9H7.83l3.08 3.09L9.5 13.5 4 8l5.5-5.5 1.42 1.41L7.83 7zM6 18h2v2H6z"/></svg></span> <strong>Inverse</strong></p>
+<hr />
+<p><span class="arithmatex">\(a a^{-1} = a^{-1} a = e\)</span> <small>(for all <span class="arithmatex">\(a \in G\)</span>)</small></p>
+<p><em>Every element has an inverse element in the group. Composing an element with its inverse on either side results in the identity element.</em></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.62 3C19.13 5.27 20 8.55 20 12c0 3.44-.87 6.72-2.38 9L16 19.96c1.26-1.89 2-4.83 2-7.96s-.74-6.08-2-7.97zM6.38 3 8 4.04C6.74 5.92 6 8.87 6 12s.74 6.08 2 7.96L6.38 21C4.87 18.73 4 15.45 4 12s.87-6.73 2.38-9"/></svg></span> <strong>Associativity</strong></p>
+<hr />
+<p><span class="arithmatex">\((ab)c = a(bc)\)</span> <small>(for all <span class="arithmatex">\(a,b,c \in G\)</span>)</small></p>
+<p><em>Parentheses have no effect when composing elements, so we can just write <span class="arithmatex">\(abc\)</span>.</em></p>
+</li>
+</ul>
+</div>
+<p>There are lots of structures in mathematics that obey these rules, so if we prove facts using only the group axioms then we know those facts will be true in a lot of different domains.</p>
+<div class="admonition example">
+<p class="admonition-title">Examples of groups</p>
+<div class="admonition success">
+<p class="admonition-title">Integer addition</p>
+<p>Addition on integers is an infinite group. The elements are integers and the operation is addition <span class="arithmatex">\(a + b\)</span>.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Adding two integers results in an integer.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> <span class="arithmatex">\(0 + a = a + 0 = a\)</span></li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> The inverse of an integer is its negative. <span class="arithmatex">\(a + (-a) = (-a) + a = 0\)</span></li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((a + b) + c = a + (b + c)\)</span></li>
+</ul>
+</div>
+<p>Before opening the other examples, ask yourself:</p>
+<ul>
+<li>What are the <strong>elements</strong>?</li>
+<li>What is the <strong>order</strong>?</li>
+<li>What is the <strong>operation</strong>?</li>
+<li>Which ones of the four group axioms does it obey?</li>
+</ul>
+<p>A structure is a group only if it obeys all four of the group axioms.</p>
+<details class="failure">
+<summary>Integer subtraction</summary>
+<p>Subtraction on integers is not a group.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Subtracting two integers results in an integer.</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> <strong>Identity:</strong> <span class="arithmatex">\(a - 0 = a\)</span>, but <span class="arithmatex">\(0 - a \ne a\)</span></li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> The inverse of an integer is itself. <span class="arithmatex">\(a - a = 0\)</span></li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((a - b) - c \ne a - (b - c)\)</span></li>
+</ul>
+</details>
+<details class="failure">
+<summary>Integer multiplication</summary>
+<p>Multiplication on integers is not group.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Multiplying two integers results in an integer.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> <span class="arithmatex">\(a \times 1 = 1 \times a = a\)</span></li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> <strong>Inverse:</strong> There is no integer <span class="arithmatex">\(b\)</span> such that <span class="arithmatex">\(0 \times b = b \times 0 = 1\)</span></li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((a \times b) \times c = a \times (b \times c)\)</span></li>
+</ul>
+</details>
+<details class="success">
+<summary>Nonzero rational multiplication</summary>
+<p>Multiplication on nonzero rational numbers is an infinite group. The elements are rational numbers <span class="arithmatex">\(\frac a b\)</span> where <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> are nonzero integers, and the operation is multiplication.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Multiplying two rational numbers <span class="arithmatex">\(\frac a b\)</span> and <span class="arithmatex">\(\frac c d\)</span> results in a rational number <span class="arithmatex">\(\frac{a c}{b d}\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> <span class="arithmatex">\(\frac a b \times 1 = 1 \times \frac a b = \frac a b\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> The inverse of a rational number <span class="arithmatex">\(\frac a b\)</span> is <span class="arithmatex">\(\frac b a\)</span>. <span class="arithmatex">\(\frac a b \times \frac b a = 1\)</span>.<ul>
+<li>We can&rsquo;t include zero because it would have no inverse.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\(\left( \frac a b \times \frac c d \right) \times \frac p q = \frac a b \times \left( \frac c d \times \frac p q \right)\)</span></li>
+</ul>
+</details>
+<details class="success">
+<summary>Rotations of a square</summary>
+<p>The rotations of a square are a finite group of order 4. It has 4 elements:</p>
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> Identity (do-nothing transformation)</li>
+<li>three rotations (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> 90° clockwise, <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 4.07V1L8.45 5.55 13 10V6.09c2.84.48 5 2.94 5 5.91s-2.16 5.43-5 5.91v2.02c3.95-.49 7-3.85 7-7.93s-3.05-7.44-7-7.93M7.1 18.32c1.16.9 2.51 1.44 3.9 1.61V17.9c-.87-.15-1.71-.49-2.46-1.03zM6.09 13H4.07c.17 1.39.72 2.73 1.62 3.89l1.41-1.42c-.52-.75-.87-1.59-1.01-2.47m1.02-4.47L5.7 7.11C4.8 8.27 4.24 9.61 4.07 11h2.02c.14-.87.49-1.72 1.02-2.47"/></svg></span> 90° counterclockwise, and
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 11h5l-1.5-1.5 1.42-1.42L21.84 12l-3.92 3.92-1.42-1.42L18 13h-5v5l1.5-1.5 1.42 1.42L12 21.84l-3.92-3.92L9.5 16.5 11 18v-5H6l1.5 1.5-1.42 1.42L2.16 12l3.92-3.92L7.5 9.5 6 11h5V6L9.5 7.5 8.08 6.08 12 2.16l3.92 3.92L14.5 7.5 13 6z"/></svg></span> 180° rotation)</li>
+</ul>
+<p>The operation is doing one rotation and then the other. For example, a 90° clockwise rotation composed with a 180° rotation results in a 90° counterclockwise rotation.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Doing one transformation after another is equivalent to doing just one transformation.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> The identity transformation has no effect when composed with another transformation.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> Every transformation has an inverse, and composing a transformation with its inverse results in the identity.<ul>
+<li>The identity transformation it its own inverse.</li>
+<li>The inverse of each 90° rotation is the other 90° rotation.</li>
+<li>The inverse of the 180° rotation is itself.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((a b) c = a (b c)\)</span></li>
+</ul>
+</details>
+<details class="success">
+<summary>Rotations and reflections of a square</summary>
+<p>The rotations and reflections of a square are a finite group of order 8. It has 8 elements:</p>
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> Identity (do-nothing transformation)</li>
+<li>three rotations (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> 90° clockwise, <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 4.07V1L8.45 5.55 13 10V6.09c2.84.48 5 2.94 5 5.91s-2.16 5.43-5 5.91v2.02c3.95-.49 7-3.85 7-7.93s-3.05-7.44-7-7.93M7.1 18.32c1.16.9 2.51 1.44 3.9 1.61V17.9c-.87-.15-1.71-.49-2.46-1.03zM6.09 13H4.07c.17 1.39.72 2.73 1.62 3.89l1.41-1.42c-.52-.75-.87-1.59-1.01-2.47m1.02-4.47L5.7 7.11C4.8 8.27 4.24 9.61 4.07 11h2.02c.14-.87.49-1.72 1.02-2.47"/></svg></span> 90° counterclockwise, and
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 11h5l-1.5-1.5 1.42-1.42L21.84 12l-3.92 3.92-1.42-1.42L18 13h-5v5l1.5-1.5 1.42 1.42L12 21.84l-3.92-3.92L9.5 16.5 11 18v-5H6l1.5 1.5-1.42 1.42L2.16 12l3.92-3.92L7.5 9.5 6 11h5V6L9.5 7.5 8.08 6.08 12 2.16l3.92 3.92L14.5 7.5 13 6z"/></svg></span> 180° rotation)</li>
+<li>four reflections (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> horizontal, <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> vertical, and <span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> <span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> two diagonals)</li>
+</ul>
+<p>The operation is doing one rotation after the other. For example, a horizontal reflection composed with a 90° counterclockwise rotation results in a diagonal reflection.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Doing one transformation after another is equivalent to doing just one transformation.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> The identity transformation has no effect when composed with another transformation.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> Every transformation has an inverse, and composing a transformation with its inverse results in the identity.<ul>
+<li>The identity transformation it its own inverse.</li>
+<li>The inverse of each 90° rotation is the other 90° rotation.</li>
+<li>The inverse of the 180° rotation is itself.</li>
+<li>Each reflection is its own inverse.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((a b) c = a (b c)\)</span></li>
+</ul>
+</details>
+<details class="success">
+<summary>Rotations of a cube</summary>
+<p>The symmetry-preserving rotations of a cube are a finite group of order 24. It has 24 elements:</p>
+<ul>
+<li>identity (do-nothing transformation)</li>
+<li>six 90° rotations around a face</li>
+<li>three 180° rotations around a face</li>
+<li>six 180° rotations around an edge</li>
+<li>eight 120° rotations around a vertex</li>
+</ul>
+<p>The operation is doing one rotation and then the other. For example, a 90° rotation clockwise around the top face composed with a 90° clockwise rotation around the front face results in a 120° clockwise rotation around the top-front-right vertex.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Doing one transformation after another is equivalent to doing just one transformation.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> The identity transformation has no effect when composed with another transformation.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> Every transformation has an inverse, and composing a transformation with its inverse results in the identity.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((a b) c = a (b c)\)</span></li>
+</ul>
+</details>
+<details class="success">
+<summary>Trivial group</summary>
+<p>The <strong>trivial group</strong> containing only the element <span class="arithmatex">\(e\)</span> is a group.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> The only composition is <span class="arithmatex">\(ee = e\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> The identity is <span class="arithmatex">\(e\)</span>. <span class="arithmatex">\(ee = e\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> <span class="arithmatex">\(e^{-1} = e\)</span>, so <span class="arithmatex">\(ee^{-1} = e^{-1}e = ee = e\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((e e) e = e (e e)\)</span> because (and I cannot stress this enough) <span class="arithmatex">\(ee = e\)</span>.</li>
+</ul>
+</details>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Group elements are not orientations</p>
+<p>A common misconception is that the orientations of a cube (or other shape) are group elements. Although there is a one-to-one correspondence between transformations and orientations, they are different kinds of objects. There is not an obvious way to compose orientations, so they are not group elements. Transformations, on the other hand, can be composed.</p>
+<p>There is a connection between transformations and orientations, which we&rsquo;ll explore later in the <a href="#group-actions">Group actions</a> section.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Composing transformations is like composing functions</p>
+<p>If you&rsquo;re familiar with function composition, you&rsquo;ll know that <span class="arithmatex">\((f \circ g \circ h)(x) = f(g(h(x)))\)</span>. To apply all three functions, you have to do <span class="arithmatex">\(h\)</span> first and then <span class="arithmatex">\(g\)</span> and then <span class="arithmatex">\(f\)</span>. Composing transformations works the same way: to apply <span class="arithmatex">\(ab\)</span>, we apply <span class="arithmatex">\(b\)</span> first and then <span class="arithmatex">\(a\)</span>.</p>
+<p>Consider a square. If <span class="arithmatex">\(a =\)</span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> (90° clockwise rotation) and <span class="arithmatex">\(b =\)</span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> (horizontal reflection), then to apply <span class="arithmatex">\(ab\)</span> we apply <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> (horizontal reflection) first and then <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> (90° clockwise rotation). The end result is <span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> (diagonal reflection that swaps the top-left and bottom-right corners).</p>
+<p>When composing transformations, read the sequence right-to-left, like function application.</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Exercises</p>
+<p>Find a piece of paper and a writing utensil. A marker or sharpie that bleeds through paper will work best. Write a capital letter <code>F</code> on one side of the paper and write a mirrored letter <code>F</code> on the other side of the paper, tracing over the original <code>F</code>.</p>
+<ol>
+<li>
+<p>Apply each of the 8 elements of the group of rotations and reflections of a square to your piece of paper and see what happens.</p>
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> Identity</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> 90° clockwise rotation</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 4.07V1L8.45 5.55 13 10V6.09c2.84.48 5 2.94 5 5.91s-2.16 5.43-5 5.91v2.02c3.95-.49 7-3.85 7-7.93s-3.05-7.44-7-7.93M7.1 18.32c1.16.9 2.51 1.44 3.9 1.61V17.9c-.87-.15-1.71-.49-2.46-1.03zM6.09 13H4.07c.17 1.39.72 2.73 1.62 3.89l1.41-1.42c-.52-.75-.87-1.59-1.01-2.47m1.02-4.47L5.7 7.11C4.8 8.27 4.24 9.61 4.07 11h2.02c.14-.87.49-1.72 1.02-2.47"/></svg></span> 90° counterclockwise rotation</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 11h5l-1.5-1.5 1.42-1.42L21.84 12l-3.92 3.92-1.42-1.42L18 13h-5v5l1.5-1.5 1.42 1.42L12 21.84l-3.92-3.92L9.5 16.5 11 18v-5H6l1.5 1.5-1.42 1.42L2.16 12l3.92-3.92L7.5 9.5 6 11h5V6L9.5 7.5 8.08 6.08 12 2.16l3.92 3.92L14.5 7.5 13 6z"/></svg></span> 180° rotation</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> Horizontal reflection (flip the paper while holding the middle of the top and bottom edges)</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> Vertical reflection (flip the paper while holding the middle of the left and right edges)</li>
+<li><span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> TL-DR diagonal reflection (flip the paper while holding the top-right and bottom-left corners)</li>
+<li><span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> TR-DL diagonal reflection (flip the paper while holding the top-left and bottom-right corners)</li>
+</ul>
+</li>
+<li>
+<p>Apply each of these compositions using your piece of paper and determine the resulting transformation:</p>
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 4.07V1L8.45 5.55 13 10V6.09c2.84.48 5 2.94 5 5.91s-2.16 5.43-5 5.91v2.02c3.95-.49 7-3.85 7-7.93s-3.05-7.44-7-7.93M7.1 18.32c1.16.9 2.51 1.44 3.9 1.61V17.9c-.87-.15-1.71-.49-2.46-1.03zM6.09 13H4.07c.17 1.39.72 2.73 1.62 3.89l1.41-1.42c-.52-.75-.87-1.59-1.01-2.47m1.02-4.47L5.7 7.11C4.8 8.27 4.24 9.61 4.07 11h2.02c.14-.87.49-1.72 1.02-2.47"/></svg></span> and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 4.07V1L8.45 5.55 13 10V6.09c2.84.48 5 2.94 5 5.91s-2.16 5.43-5 5.91v2.02c3.95-.49 7-3.85 7-7.93s-3.05-7.44-7-7.93M7.1 18.32c1.16.9 2.51 1.44 3.9 1.61V17.9c-.87-.15-1.71-.49-2.46-1.03zM6.09 13H4.07c.17 1.39.72 2.73 1.62 3.89l1.41-1.42c-.52-.75-.87-1.59-1.01-2.47m1.02-4.47L5.7 7.11C4.8 8.27 4.24 9.61 4.07 11h2.02c.14-.87.49-1.72 1.02-2.47"/></svg></span> (90° rotation counterclockwise <span class="arithmatex">\(\times\)</span> 90° rotation counterclockwise)<br />
+  Answer <span class="spoiler"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 11h5l-1.5-1.5 1.42-1.42L21.84 12l-3.92 3.92-1.42-1.42L18 13h-5v5l1.5-1.5 1.42 1.42L12 21.84l-3.92-3.92L9.5 16.5 11 18v-5H6l1.5 1.5-1.42 1.42L2.16 12l3.92-3.92L7.5 9.5 6 11h5V6L9.5 7.5 8.08 6.08 12 2.16l3.92 3.92L14.5 7.5 13 6z"/></svg></span> 180° rotation</span></li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 11h5l-1.5-1.5 1.42-1.42L21.84 12l-3.92 3.92-1.42-1.42L18 13h-5v5l1.5-1.5 1.42 1.42L12 21.84l-3.92-3.92L9.5 16.5 11 18v-5H6l1.5 1.5-1.42 1.42L2.16 12l3.92-3.92L7.5 9.5 6 11h5V6L9.5 7.5 8.08 6.08 12 2.16l3.92 3.92L14.5 7.5 13 6z"/></svg></span> and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 11h5l-1.5-1.5 1.42-1.42L21.84 12l-3.92 3.92-1.42-1.42L18 13h-5v5l1.5-1.5 1.42 1.42L12 21.84l-3.92-3.92L9.5 16.5 11 18v-5H6l1.5 1.5-1.42 1.42L2.16 12l3.92-3.92L7.5 9.5 6 11h5V6L9.5 7.5 8.08 6.08 12 2.16l3.92 3.92L14.5 7.5 13 6z"/></svg></span> (180° rotation <span class="arithmatex">\(\times\)</span> 180° rotation)<br />
+  Answer <span class="spoiler"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> identity</span></li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> and <span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> (horizontal reflection <span class="arithmatex">\(\times\)</span> TR-DL diagonal reflection)<br />
+<em>Remember that transformations compose right-to-left.</em><br />
+  Answer: <span class="spoiler"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> 90° clockwise rotation</span></li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> (horizontal reflection <span class="arithmatex">\(\times\)</span> identity)<br />
+  Answer: <span class="spoiler"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> horizontal reflection</span></li>
+<li><span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45 17.45 1 12l5.45-5.45 1.41 1.41L4.83 11h14.34l-3.03-3.04 1.41-1.41L23 12l-5.45 5.45-1.41-1.41L19.17 13H4.83l3.03 3.04z"/></svg></span> (TR-DL diagonal reflection <span class="arithmatex">\(\times\)</span> horizontal reflection)<br />
+  Answer: <span class="spoiler"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 4.07V1L8.45 5.55 13 10V6.09c2.84.48 5 2.94 5 5.91s-2.16 5.43-5 5.91v2.02c3.95-.49 7-3.85 7-7.93s-3.05-7.44-7-7.93M7.1 18.32c1.16.9 2.51 1.44 3.9 1.61V17.9c-.87-.15-1.71-.49-2.46-1.03zM6.09 13H4.07c.17 1.39.72 2.73 1.62 3.89l1.41-1.42c-.52-.75-.87-1.59-1.01-2.47m1.02-4.47L5.7 7.11C4.8 8.27 4.24 9.61 4.07 11h2.02c.14-.87.49-1.72 1.02-2.47"/></svg></span> 90° counterclockwise rotation</span></li>
+<li><span class="twemoji rot45"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.89 15.5 1.42 1.39c.9-1.16 1.45-2.5 1.62-3.89h-2.02c-.14.87-.48 1.72-1.02 2.5M13 17.9v2.02c1.39-.17 2.74-.71 3.9-1.61l-1.44-1.44c-.75.54-1.59.89-2.46 1.03m6.93-6.9a7.9 7.9 0 0 0-1.62-3.89l-1.42 1.42c.54.75.88 1.6 1.02 2.47m-2.36-5.45L11 1v3.07C7.06 4.56 4 7.92 4 12s3.05 7.44 7 7.93v-2.02c-2.84-.48-5-2.94-5-5.91s2.16-5.43 5-5.91V10z"/></svg></span> (TR-DL diagonal reflection <span class="arithmatex">\(\times\)</span> 90° clockwise rotation)<br />
+  Answer: <span class="spoiler"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.45 17.55 12 23l-5.45-5.45 1.41-1.41L11 19.17V4.83L7.96 7.86 6.55 6.45 12 1l5.45 5.45-1.41 1.41L13 4.83v14.34l3.04-3.03z"/></svg></span> vertical reflection</span></li>
+</ul>
+</li>
+</ol>
+</div>
+<h2 id="cyclic-groups">Cyclic groups<a class="headerlink" href="#cyclic-groups" title="Permanent link">&para;</a></h2>
+<p><span class="arithmatex">\(\mathbb{Z}_n\)</span> is the <strong>cyclic group of order <span class="arithmatex">\(n\)</span></strong>. Its elements are usually written using the integers <span class="arithmatex">\(0,1,\dots,n-1\)</span>. To compose two elements, add the numbers and add or subtract <span class="arithmatex">\(n\)</span> to get back within the set. This is called <strong>modular arithmetic</strong>, and the &ldquo;add or subtract <span class="arithmatex">\(n\)</span>&rdquo; step is a specific way of taking the remainder after division called the <strong>modulo operation</strong>.<sup id="fnref:modulo"><a class="footnote-ref" href="#fn:modulo">1</a></sup></p>
+<div class="admonition example">
+<p class="admonition-title">Examples of cyclic groups</p>
+<div class="admonition success">
+<p class="admonition-title">Minutes on a clock</p>
+<p>Clocks use the cyclic group of order 60 to track minutes. The only valid minutes are the numbers <span class="arithmatex">\(00,01,\dots,59\)</span>.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> Adding minutes past <span class="arithmatex">\(59\)</span> wraps back around to <span class="arithmatex">\(0\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> <span class="arithmatex">\(a + 0 = 0 + a = a\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> The inverse of an element <span class="arithmatex">\(a\)</span> is <span class="arithmatex">\(60-a\)</span> because <span class="arithmatex">\(a + (60 - a) = 60\)</span>, which wraps around to <span class="arithmatex">\(0\)</span>.<ul>
+<li>For example: <span class="arithmatex">\(19 + (60-19) = 19 + 41 = 60\)</span></li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> Addition is associative, and the modulo operation doesn&rsquo;t change this.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Cyclic group of order 5</p>
+</div>
+<p>The cyclic group of order 5 contains five elements: <span class="arithmatex">\(\{ 0,1,2,3,4 \}\)</span>.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Closure:</strong> The only composition is <span class="arithmatex">\(ee = e\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Identity:</strong> The identity is <span class="arithmatex">\(e\)</span>. <span class="arithmatex">\(ee = e\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Inverse:</strong> <span class="arithmatex">\(e^{-1} = e\)</span>, so <span class="arithmatex">\(ee^{-1} = e^{-1}e = ee = e\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <strong>Associativity:</strong> <span class="arithmatex">\((e e) e = e (e e)\)</span> because (and I cannot stress this enough) <span class="arithmatex">\(ee = e\)</span>.</li>
+</ul>
+</div>
+<h2 id="isomorphism">Isomorphism<a class="headerlink" href="#isomorphism" title="Permanent link">&para;</a></h2>
+<p>Two groups are <strong>isomorphic</strong> if you can make a two-way map elements between them relabel the elements of one group to get the other group such that composition still works the same way. To be more precise: if your mapping is <span class="arithmatex">\(f\)</span>, then applying the mapping before composition has to be equivalent to applying the mapping after composition: <span class="arithmatex">\(f(a)f(b) = f(ab)\)</span>.</p>
+<p>If two groups are isomorphic, we often say that they are &ldquo;the same group.&rdquo; The labeling of the elements in a group is just a useful tool to let us talk about them; it doesn&rsquo;t actually matter for the correctness of the math.</p>
+<div class="admonition question">
+<p class="admonition-title">Exercise</p>
+<p>Find a mapping between the group of rotations of a square (identity, 90° clockwise, 90° counterclockwise, and 180°) and the cyclic group of order 4 <span class="arithmatex">\(\{ 0,1,2,3 \}\)</span>.</p>
+</div>
+<h2 id="commutative-groups">Commutative groups<a class="headerlink" href="#commutative-groups" title="Permanent link">&para;</a></h2>
+<p>A group is <strong>commutative</strong> if <span class="arithmatex">\(a b = b a\)</span> is always true for any elements <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span>. A commutative group is also called an <strong>abelian group</strong>.</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Integer addition is commutative because <span class="arithmatex">\(a + b = b + a\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Nonzero rational multiplication is commutative because <span class="arithmatex">\(a \times b = b \times a\)</span>.</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> The rotation group of a cube is not commutative because these two sequences give different results:<ul>
+<li>A 90° clockwise rotation around the <strong>top</strong> face followed by a 90° clockwise rotation around the <strong>front</strong> face results in a 120° clockwise rotation around the top-front-<strong>right</strong> vertex.</li>
+<li>A 90° clockwise rotation around the <strong>front</strong> face followed by a 90° clockwise rotation around the <strong>top</strong> face results in a 120° clockwise rotation around the top-front-<strong>left</strong> vertex.</li>
+</ul>
+</li>
+</ul>
+<div class="admonition question">
+<p class="admonition-title">Exercises</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Prove that the group of <strong>rotations</strong> of a square is commutative by showing that for all 16 possible combinations of elements <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span>, <span class="arithmatex">\(a b = b a\)</span>.</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> Prove that the group of <strong>rotations and reflections</strong> of a square is <strong>not</strong> commutative by finding two elements <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> such that <span class="arithmatex">\(a b \ne b a\)</span>.</li>
+</ul>
+</div>
+<h2 id="generators">Generators<a class="headerlink" href="#generators" title="Permanent link">&para;</a></h2>
+<p>A <strong>generatoring set</strong> for a group is a <a href="../set-theory/#subsets">subset</a> of the elements that can <strong>generate</strong> any element in the group using composition and inverses.</p>
+<div class="admonition example">
+<p class="admonition-title">Examples of generating sets for the integers under addition</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <span class="arithmatex">\(\{ 1 \}\)</span> is a generating set for the integers under addition.<ul>
+<li>We can invert <span class="arithmatex">\(1\)</span> to get <span class="arithmatex">\(-1\)</span>.</li>
+<li>We can compose <span class="arithmatex">\(1\)</span> with <span class="arithmatex">\(-1\)</span> to get <span class="arithmatex">\(1 + (-1) = 0\)</span>.</li>
+<li>We can compose <span class="arithmatex">\(1\)</span> with itself to get <span class="arithmatex">\(1 + 1 = 2\)</span>.</li>
+<li>We can compose <span class="arithmatex">\(2\)</span> with <span class="arithmatex">\(1\)</span> to get <span class="arithmatex">\(2 + 1 = 3\)</span>.</li>
+<li>etc.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <span class="arithmatex">\(\{ -1 \}\)</span> is a generating set for the integers under addition.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <span class="arithmatex">\(\{ 1, 16, -544 \}\)</span> is a generating set for the integers under addition. (We don&rsquo;t have to use <span class="arithmatex">\(16\)</span> and <span class="arithmatex">\(-544\)</span>.)</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> <span class="arithmatex">\(\{ 2 \}\)</span> is not a generating set for the integers under addition because there is no way to generate <span class="arithmatex">\(1\)</span>.</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> <span class="arithmatex">\(\{ 4, 17 \}\)</span> is a generating set for the integers under addition.<ul>
+<li>We can generate <span class="arithmatex">\(1\)</span> as <span class="arithmatex">\(17 + (-4) + (-4) + (-4) + (-4)\)</span>.</li>
+<li>We can generate all the other elements using <span class="arithmatex">\(1\)</span>.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Examples of generating sets for the nonzero rationals under multiplication</p>
+<ul>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> A finite set can&rsquo;t generate all the nonzero rationals under multiplication.<ul>
+<li>For example, the set <span class="arithmatex">\(\{ 2, 3 \}\)</span> can&rsquo;t generate any multiple of <span class="arithmatex">\(5\)</span>.</li>
+</ul>
+</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> A set with only positive numbers can&rsquo;t generate the whole group, because it can&rsquo;t generate negative numbers.<ul>
+<li>Multiplying two positive numbers always results in a positive number.</li>
+<li>The inverse of a positive number is still positive.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> The <a href="../set-theory/#union">union</a> of <span class="arithmatex">\(\{ -1 \}\)</span> with the set of the prime numbers is a generating set for the nonzero rationals under multiplication.<ul>
+<li>For example, we can generate <span class="arithmatex">\(-\frac{22}{7}\)</span> as <span class="arithmatex">\((-1) \times 2 \times 11 \times 7^{-1}\)</span>.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Exercises</p>
+<p>For each of the following groups, find one of the smallest possible generating sets and prove that it is a generating set by constructing every element in the group:</p>
+<ul>
+<li>Rotations of a square (4 elements total; smallest generating set should have 1 element)</li>
+<li>Rotations &amp; reflections of a square (8 elements total; smallest generating set should have 2 elements)</li>
+<li><strong>Challenge:</strong> rotations of a cube (24 elements total; smallest generating set should have 2 elements)</li>
+</ul>
+</div>
+<p>Every group generates itself. In other words, the set of all a group&rsquo;s elements <em>is</em> a generating set for the group.</p>
+<h2 id="subgroups">Subgroups<a class="headerlink" href="#subgroups" title="Permanent link">&para;</a></h2>
+<p>A <strong>subgroup</strong> is a group whose elements are a subset of another group. The operation of a subgroup has to be the same as the operation of the original group.</p>
+<div class="admonition example">
+<p class="admonition-title">Examples of subgroups</p>
+<ul>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> The rotations of a square are a subgroup of the rotations &amp; reflections of a square.</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> The reflections of a square are not a subgroup of the rotations &amp; reflections of a square.<ul>
+<li>There is no identity element.</li>
+<li>Composing two reflections may result in a rotation, which is not a reflection.</li>
+</ul>
+</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> The positive integers are not a subgroup of the integers under addition.<ul>
+<li>The positive integers are not a group because there are no inverses.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> The even integers (positive and negative) are a subgroup of integers under addition.</li>
+<li><span class="twemoji red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span> The odd integers are not a subgroup of the integers under addition.<ul>
+<li>There is no identity element.</li>
+<li>Adding two odd integers results in an even integer.</li>
+</ul>
+</li>
+<li><span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> In general, the positive and negative multiples of any integer <span class="arithmatex">\(n\)</span> are a subgroup of integers under addition.</li>
+<li>The trivial group <span class="arithmatex">\(\{ e \}\)</span> is a subgroup of every group.<ul>
+<li>Even if the identity element is named something other than <span class="arithmatex">\(e\)</span> (like <span class="arithmatex">\(1\)</span> or <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span>) it is still equivalent in structure.</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Just like a <a href="../set-theory/#subsets">proper subset</a> is a subset that is not equal to the original set, a <strong>proper subgroup</strong> is a subgroup that is not equal to the original group.</p>
+<div class="admonition warning">
+<p class="admonition-title">The rest of this page is under construction</p>
+</div>
+<h2 id="cosets">Cosets<a class="headerlink" href="#cosets" title="Permanent link">&para;</a></h2>
+<p>Once you have a </p>
+<ul>
+<li>right cosets (because right action)</li>
+</ul>
+<h2 id="permutation-groups">Permutation groups<a class="headerlink" href="#permutation-groups" title="Permanent link">&para;</a></h2>
+<ul>
+<li>function notation to apply a permutation to an element</li>
+</ul>
+<h3 id="cycle-notation">Cycle notation<a class="headerlink" href="#cycle-notation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>if an element stays in the same place, don&rsquo;t write it</li>
+</ul>
+<h2 id="group-actions">Group actions<a class="headerlink" href="#group-actions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Given an initial orientation, there is a one-to-one correspondence between transformations and orientations. Also, transformations tell you how to change one orientation into another. We&rsquo;ll learn more about this in <a href="#group-actions">group actions</a>.</li>
+</ul>
+<h2 id="examples-using-puzzles">Examples using puzzles<a class="headerlink" href="#examples-using-puzzles" title="Permanent link">&para;</a></h2>
+<!-- n^4 piece types -->
+<!-- 4D stages and alg sets -->
+<!-- 3D stages and alg sets -->
+<!-- 3D methods -->
+<!-- Software -->
+<!-- Turn metrics -->
+<!-- Misc. -->
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:modulo">
+<p>Taking the remainder of <span class="arithmatex">\((-7) \div 3\)</span> would usually result in <span class="arithmatex">\(-1\)</span> because <span class="arithmatex">\(-7 = 3 \times (-2) + (-1)\)</span>, but <span class="arithmatex">\(-7 \pmod 3\)</span> is <span class="arithmatex">\(2\)</span> because the result must be one of <span class="arithmatex">\(\{ 0,1,2 \}\)</span> and <span class="arithmatex">\(-7 = 3 \times (-3) + 2\)</span>.&#160;<a class="footnote-backref" href="#fnref:modulo" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Hypercubers" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/xxFvfyx89p" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.follow", "content.action.edit", "content.code.copy", "navigation.indexes", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="../../../javascripts/symbol_replace.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
