@@ -138,7 +138,7 @@ A **group** is a sequence of moves surrounded by parentheses `()`, with an optio
     - A NISS group's move count should be equivalent to the moves on their own.
     - A NISS group's moves may be animated inverted before the scramble (most useful while constructing a solution) or inverted after the forwards solution (most useful while viewing a completed solution). These two might not be equivalent if the combined scramble + forwards solution + NISS solution is not the identity.
 
-Simultaneous groups may not contain any groups. All other groups may contain any group inside them.
+Simultaneous groups must not contain any groups. All other groups may contain any group inside them.
 
 Because groups are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
 
