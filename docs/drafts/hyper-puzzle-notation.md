@@ -24,7 +24,7 @@ A **move** is a [node](#node) representing a twist or rotation of the puzzle. It
 - [Family](#family) (required)
 - [Bracketed transform](#bracketed-transform) (optional)
 
-Because moves are a kind of [node](#node), they can also be have a [multiplier](#multiplier) after.
+Because moves are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
 
 ##### Layer mask
 
@@ -35,6 +35,7 @@ A layer mask is an optional tilde `~` optionally followed by one of the followin
 - Range of positive integers separated by `-`.
   - Example: `2-4R` means "`R` on layers 2, 3, and 4"
 - Curly braces with positive and negative integers and ranges separated by `..`.
+  - Example: `{2..4}R` means "`R` on layers 2, 3, and 4" (equivalent to `2-4R`)
   - Example: `{1,3..5,7}R` means "`R` on layers 1, 3, 4, 5, and 7"
   - Example: `{1..-1}R` means "`R` on all layers"
   - Example: `{2..-2}D` is one generalization of `E` to NxNxN puzzles with many layers
@@ -48,13 +49,13 @@ A **move family** is a string of uppercase or lowercase Latin or Greek letters.
 
 Move families on 3^3^ include `R`, `F`, `Rw`, `x`, etc. Move families on 3^4^ include `R`, `RO`, `LDBI`, `wz`, etc. Move families on 3^5^ include `U`, `A`, `Azx`, etc.
 
-A move family often represents a complete move (as is the case on 3^3^), but not always. On 3^4^ and 3^5^, move families such as `R` is requires a [bracketed transform](#bracketed-transform) afterward to specify a complete move.
+A move family often represents a complete move (as is the case on 3^3^), but not always. On 3^4^ and 3^5^, move families such as `R` require a [bracketed transform](#bracketed-transform) afterward to specify a complete move.
 
 ##### Bracketed transform
 
-A bracketed transform consists is a set of square brackets `[]` with contents inside consisting of letters, numbers, and symbols (not allowing more square brackets `[]`).
+A bracketed transform is a set of square brackets `[]` with contents inside consisting of letters, numbers, and symbols (not allowing more square brackets `[]`).
 
-Different puzzles can use bracketed transforms in different ways. There are two common ways most puzzles will use them: [sequential transforms](#sequential-transforms) and [transform constraints](#transform-constraints).
+Different puzzles can use bracketed transforms in different ways. There are two common ways most puzzles use them: [sequential transforms](#sequential-transforms) and [transform constraints](#transform-constraints).
 
 ###### Sequential transforms
 
@@ -98,9 +99,9 @@ A [rotation](#rotation) is a [node](#node) representing a rotation of the whole 
 Examples:
 
 - `@R` is a rotation that moves like an `R` move.
-- `@[F->U]` is a rotation that takes
+- `@[F->U]` is a rotation that takes `F` to `U`.
 
-Because moves are a kind of [node](#node), they can also be have a [multiplier](#multiplier) after.
+Because rotations are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
 
 ??? question "Why `@`?"
 
@@ -113,6 +114,8 @@ Because moves are a kind of [node](#node), they can also be have a [multiplier](
 A **pause** is a [node](#node) representing a pause. It is written using `.`.
 
 Pauses are sometimes used for reconstruction of speedsolves.
+
+Because pause are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
 
 #### Group
 
@@ -137,6 +140,8 @@ A **group** is a sequence of moves surrounded by parentheses `()`, with an optio
 
 Simultaneous groups may not contain any groups. All other groups may contain any group inside them.
 
+Because groups are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
+
 ??? question "Why don't macros count as 1 ETM?"
 
     Historically, hypercubing fewest-moves has effectively used ETM in whatever program, subject to the types of moves that program allowed. E.g., "MC4DTM" is a shorthand for "ETM, using only moves accessible in MC4D." This is a common concept that we want to have a name for.
@@ -147,9 +152,13 @@ Simultaneous groups may not contain any groups. All other groups may contain any
 
 A **commutator** is two sequences of moves in square brackets separated by a comma. Example: `[A, B]`. It is equivalent to `A B A' B'`.
 
+Because commutators are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
+
 #### Conjugate
 
 A **conjugate** is two sequences of moves in square brackets separated by a comma. Example: `[A: B]`. It is equivalent to `A B A'`.
+
+Because conjugates are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
 
 ### Multiplier
 
