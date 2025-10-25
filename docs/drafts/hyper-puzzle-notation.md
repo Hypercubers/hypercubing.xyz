@@ -331,7 +331,7 @@ These can also serve as letters or letter pairs for when a handful of additional
 Keybinds for high-dimensional puzzles typically assign short (1-2 letter) uppercase names to axes and short (1-2 letter) lowercase names to **twist directions**. An axis and a twist direction can be combined to specify a move.
 
 Examples:
-- 3^4 uses the letters `x`, `y`, and `z` after an axis name to specify a twist.
+- 3^4^ uses the letters `x`, `y`, and `z` after an axis name to specify a twist.
 - Polygonal duoprisms reuse the hypercube letters `I`, `U`, `D`, `F`, `R`, `L` (all except `O` and `B`)
 
 ### Jumbling notation
@@ -369,7 +369,7 @@ In high dimensions, Greek letters become useful.
 
 It is a very common convention in hypercubing software to hold down any set of number keys to apply a "layer mask" to a move. Given that individual moves may require many characters to write (such as `I[F->B,U->R]`) it is very awkward to require duplicating this many times.
 
-- E.g., Suppose we want to write the 7^4 move `{1,3,5,7}IUR` using only ridge turns. (This is a contrived example because we _do_ have a way to write edge turns on n^4, but on some puzzles these moves can only be easily written using simultaneous move notation.) With layer sets, we can write `&({1,3,5,7}IF {1,3,5,7}IR2)`; without layer sets, we must write `&(IF 3IF 5IF 7IF IR2 3IR2 5IR2 7IR2)`.
+- E.g., Suppose we want to write the 7^4^ move `{1,3,5,7}IUR` using only ridge turns. (This is a contrived example because we _do_ have a way to write edge turns on n^4^, but on some puzzles these moves can only be easily written using simultaneous move notation.) With layer sets, we can write `&({1,3,5,7}IF {1,3,5,7}IR2)`; without layer sets, we must write `&(IF 3IF 5IF 7IF IR2 3IR2 5IR2 7IR2)`.
     - We _could_ write it the long way, but we lose important semantics and it becomes much less readable.
     - Transform notation makes this problem even worse: `{1,3,5,7}I[U->R,F->B]` vs. `&(I[U->R,F->B] 3I[U->R,F->B] 5I[U->R,F->B] 7I[U->R,F->B])`
     - Any layer mask can be used for a single move in hypercubing software, and we treat it as a single move! It should be possible to express concisely in notation
@@ -379,8 +379,8 @@ It is a very common convention in hypercubing software to hold down any set of n
 
 ### Why invert layer masks?
 
-- Complex 3^3 has an anti-`R` move (equivalent to `&(R x')`) that is _distinct_ from `Lw` (which does not exist) because `R` and `L` are no longer opposites.
-    - Technically you could do `2R` by assuming the 6-axis 2-layer laminated construction but that's very unintuitive and does not generalize to ordinary 3^3.
+- Complex 3^3^ has an anti-`R` move (equivalent to `&(R x')`) that is _distinct_ from `Lw` (which does not exist) because `R` and `L` are no longer opposites.
+    - Technically you could do `2R` by assuming the 6-axis 2-layer laminated construction but that's very unintuitive and does not generalize to ordinary 3^3^.
 - RKT cancels use "everything except `I`" extensively
     - E.g., `~IUR` for "the UR flip," which appears _constantly_ in RKT cancel algorithms.
 - Another tool for notation that is generic with respect to number of layers in the puzzle.
@@ -401,7 +401,7 @@ It is a very common convention in hypercubing software to hold down any set of n
 ### Why use `@` for whole-puzzle rotations?
 
 - `~` on its own is more useful to mean "all except the first layer"
-    - e.g., `~IUR` for the very common "UR flip" in RKT cancels on 3^4 (otherwise expressed as `{2..-1}IUR` or `{1..-2}OUR`)
+    - e.g., `~IUR` for the very common "UR flip" in RKT cancels on 3^4^ (otherwise expressed as `{2..-1}IUR` or `{1..-2}OUR`)
 - `*` is already used colloquially as a wildcard.
     - e.g., "You can do RKT using either `<RO*, I*>` or `<*O, ~I*>`."
 - `@` has the mnemonic "all"
@@ -411,7 +411,7 @@ It is a very common convention in hypercubing software to hold down any set of n
 - Execution notation is usually optimized for particular puzzles and particular viewpoints.
     - Execution notation often lacks access to certain moves.
 - Execution notation might be more compact or require fewer symbols, making it easier to translate to/from keybinds.
-- Execution notation may provide a way to translate moves between puzzles; e.g., `Uy` has meaning on both 3^4 and polygonal duoprisms even though these puzzles are very different.
+- Execution notation may provide a way to translate moves between puzzles; e.g., `Uy` has meaning on both 3^4^ and polygonal duoprisms even though these puzzles are very different.
 - Execution notation can be defined ad-hoc.
 
 ## Rust data structure
