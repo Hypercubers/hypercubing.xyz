@@ -34,7 +34,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 
 | Program                                           |                                                        Platforms | Features              | Puzzles                 |
 | ------------------------------------------------- | ---------------------------------------------------------------: | --------------------- | ----------------------- |
-| [Hyperspeedcube][hsc]                             |           [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsf___c__} | {1-9}^{3-4}^            |
+| [Hyperspeedcube][hsc]                             |           [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsft__c__} | {1-9}^{3-4}^            |
 | [Magic Cube 4D][mc4d]                             |          [:material-language-java:][mc4d-src] • %platforms{wla_} | %features{m____M_cp_} | 4D via Schläfli symbol  |
 | [MagicTile][mt]                                   |          [:material-language-csharp:][mt-src] • %platforms{wla_} | %features{m____M_cp_} | 2D tilings              |
 | [Magic Puzzle Ultimate][mpu]                      |         [:material-language-csharp:][mpu-src] • %platforms{w___} | %features{m__ftM_cp_} | 3D+ doctrinaire         |
