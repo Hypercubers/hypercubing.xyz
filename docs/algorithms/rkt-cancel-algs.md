@@ -17,7 +17,7 @@
 
 ### F2L triggers
 
-| Image                                                                                                                                      | Description             | 2RKT Cancel Algorithm             |
+| Image                                                                                                                                      | Description             | RKT Cancel Algorithm             |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | -------------------------------- |
 | ![Made Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RUR%27) | Made Insert | `R {1-2}Ozx2 U' R' {1-2}Ozx2 U` |
 | ![Split Insert](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&pzl=3&bg=t&alg=RU%27R%27) | Split Insert | `{1-2}Ozx2 R U {1-2}Ozx2 R' U'` |
@@ -78,7 +78,7 @@ To avoid RKT parity
 
 ### OCLL
 
-| Image                                                                                                                                     | Name     | RKT Cancel Algorithm                              |
+| Image                                                                                                                                     | Name     | 2RKT Cancel Algorithm                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------- |
 | ![H OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&fc=lmlmmmlmllllllllllmlmllllllllllllllllllllllllmlm)        | H        | `R U2 {1-2}Azx2 R' U' {1-2}Ozx2 R U {1-2}Azx2 R' U' {1-2}Ozx2 R U' R'`          |
 | ![U OCLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&fc=mmmmmmlmllllllllllmlmlllllllllllllllllllllllllll)        | U        | `(R U R' {1-2}Azx2 U R {1-2}Azx2 U2 R') Iy (R U2 {1-2}Azx2 R' U' {1-2}Azx2 R U' R') Iy'`  |
@@ -87,6 +87,6 @@ To avoid RKT parity
 
 ### EPLL
 
-| Image                                                                                                              | Name | RKT Cancel Algorithm                                                                                        |
+| Image                                                                                                              | Name | 2RKT Cancel Algorithm                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------- |
 | ![Z EPLL](http://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&alg=M2U%27M2U%27M%27U2M2U2M%27)      | Z    | `(R U' {1-2}Azx2R U R U R {1-2}Azx2 U' R' U' R2) Iy2 (R2 U R U {1-2}Azx2 R' U' R' U' R' {1-2}Azx2 U R') Iy2`|
