@@ -331,8 +331,10 @@ These can also serve as letters or letter pairs for when a handful of additional
 Keybinds for high-dimensional puzzles typically assign short (1-2 letter) uppercase names to axes and short (1-2 letter) lowercase names to **twist directions**. An axis and a twist direction can be combined to specify a move.
 
 Examples:
+
 - 3^4^ uses the letters `x`, `y`, and `z` after an axis name to specify a twist.
-- Polygonal duoprisms reuse the hypercube letters `I`, `U`, `D`, `F`, `R`, `L` (all except `O` and `B`)
+- n^5^ and higher dimensions use two of the letters `x`, `y`, `z`, `w`, `v`, etc. after an axis name to specify a twist
+- Polygonal duoprisms reuse the hypercube letters `I`, `U`, `D`, `F`, `R`, `L` (all except `O` and `B`) to refer to a useful subset of axes.
 
 ### Jumbling notation
 
@@ -361,9 +363,6 @@ In high dimensions, Greek letters become useful.
 - Writing moves manually using Greek letters is likely to be extremely rare outside a handful of people.
     - E.g., Duoprisms have ASCII execution notation for a common subset of moves.
 - Flat Hypercube already uses greek letters for hypercubes of dimension 6+:
-- We want to preserve certain letters for mathematical notation.
-    - E.g., $G$ for the grip group
-    - E.g., $S$ for "$S$-doctrinaire"
 
 ### Why curly-brace layer sets?
 
