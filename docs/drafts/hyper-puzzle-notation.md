@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Hyper Puzzle Notation
 
 [metrics]: https://hypercubing.xyz/notation/#turn-metrics

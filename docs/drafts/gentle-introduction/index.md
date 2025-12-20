@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # A Gentle Introduction
 
 !!! warning "This series is under construction"

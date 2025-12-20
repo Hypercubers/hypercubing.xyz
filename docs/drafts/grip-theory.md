@@ -1,4 +1,7 @@
-
+---
+search:
+  exclude: true
+---
 
 ### RKT rank
 
