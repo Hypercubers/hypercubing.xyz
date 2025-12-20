@@ -13,7 +13,7 @@ Magic Cube 4D requires [Java](https://www.java.com/en/) to be installed. Once yo
 
 ### Configuration
 
-To change the puzzle's cell colors, you will have to configure a facecolors.txt file in the same directory as the MC4D jar file.
+To change a puzzle's cell colors, you will have to add a facecolors.txt file to the same directory as the MC4D jar file and list colors within that file.
 See the [MC4D FAQ](https://superliminal.com/cube/faq.html#Q16) or the [Hypercubing Message Archive](https://archive.hypercubing.xyz/messages/0730.html) for more details.
 
 ## Alternative versions
