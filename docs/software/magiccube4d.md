@@ -7,9 +7,14 @@ Magic Cube 4D (MC4D) was one of the first ever programs capable of simulating hi
   <figcaption>3^4^ puzzle in Magic Cube 4D</figcaption>
 </figure>
 
-## Download/installation
+## Download and installation
 
 Magic Cube 4D requires [Java](https://www.java.com/en/) to be installed. Once you have Java, go to the [Superliminal website](https://superliminal.com/cube/) and click on the `Click here to download MagicCube4D` button. Save the executable `mc4d-4-3-343.jar` file somewhere you will remember, as this file is how you open the program.
+
+### Configuration
+
+To change a puzzle's cell colors, you will have to add a facecolors.txt file to the same directory as the MC4D jar file and list colors within that file.
+See the [MC4D FAQ](https://superliminal.com/cube/faq.html#Q16) or the [Hypercubing Message Archive](https://archive.hypercubing.xyz/messages/0730.html) for more details.
 
 ## Alternative versions
 
