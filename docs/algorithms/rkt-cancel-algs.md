@@ -27,7 +27,7 @@
 
 | Image                                                                                                                                     | Name     | RKT Cancel Algorithm                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------- |
-| ![Dots EOLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&fc=llllmlllllmllllllllmllllllllmllllllllmlmllllllmlm)   | Dots     | `F (R U R' U') F' 2Oy2 Fw (R U R' U') Fw'`        |
+| ![Dots EOLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&fc=llllmlllllmllllllllmllllllllmllllllllmlmllllllmlm)   | Dots     | `F (R U R' U') F' Iy2 F (U R U' R') F'`        |
 | ![L EOLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&fc=lmlmmlllllmllllllllmllllllllllllllllllllllllllll)   | L     | `F ({1-2}Ozx2 U R {1-2}Ozx2 U' R') F'`        |
 | ![Line EOLL](https://cube.rider.biz/visualcube.php?fmt=svg&size=75&view=plan&bg=t&fc=lllmmmlllllllllllllmllllllllllllllllllllllllllml)   | Line     | `F (R U {1-2}Ozx2 R' U' {1-2}Ozx2) F'`        |
 
