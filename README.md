@@ -9,4 +9,4 @@ Website for the Hypercubing community
 3. Clone this repo and open a terminal in it
 4. `python3 -m pip install -r requirements.txt --user`
 5. `python3 check_links.py` to check for broken links
-5. `python3 -m mkdocs serve`
+6. `python3 -m mkdocs serve`
