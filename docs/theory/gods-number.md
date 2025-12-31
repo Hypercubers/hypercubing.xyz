@@ -222,11 +222,13 @@ Hactar computed a generous upper bound of 570 STM using CFOP.
 
 ## Estimate
 
-We do not have a near-optimal 3^4^ solver. Good FMC speedsolves average 200 STM, so God's number is probably lower than that.
+Good FMC speedsolves average 200 STM, so God's number is probably lower than that.
+
+The best 3^4^ solver program we have is [robodoan](https://github.com/HactarCE/robodoan), which is able to reliably compute a 60-75 STM solution to F2L using incremental blockbuilding.
 
 ## Conclusion
 
-God's number for 3^4^ is definitely between 56 and 570 inclusive, and probably $\sim 125 \pm 50$^\[citation\ needed]^.
+God's number for 3^4^ is definitely between 56 and 570 inclusive, and probably $\sim 80 \pm 25$^\[citation\ needed]^.
 
 !!! question "Could this be improved?"
 
