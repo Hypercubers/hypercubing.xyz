@@ -17,7 +17,7 @@ There are three strategies we can use to estimate it:
 | Puzzle | Lower Bound | Upper Bound | Estimate |
 | ------ | ----------- | ----------- | -------- |
 | 2^4^   | 15 STM      | 37 STM      | ~20 ±5   |
-| 3^4^   | 51 STM      | 570 STM     | ~125 ±50 |
+| 3^4^   | 51 STM      | 570 STM     | ~80 ±25  |
 
 ## 2×2×2×2
 
@@ -222,9 +222,9 @@ Hactar computed a generous upper bound of 570 STM using CFOP.
 
 ## Estimate
 
-Good FMC speedsolves average 200 STM, so God's number is probably lower than that.
+Good FMC solves average 200 STM, so God's number is probably lower than that.
 
-The best 3^4^ solver program we have is [robodoan](https://github.com/HactarCE/robodoan), which is able to reliably compute a 60-75 STM solution to F2L using incremental blockbuilding.
+The best 3^4^ solver program we have is [robodoan](https://github.com/HactarCE/robodoan), which is able to reliably compute a 60-75 STM solution to F2L using incremental blockbuilding, though it doesn't solve LL.
 
 ## Conclusion
 
