@@ -45,7 +45,7 @@ These twists can be difficult to perform for speedsolving, so most people tend t
 !!! example inline end "U2 twist"
     ![U2 move on physical 2×2×2×2](https://assets.hypercubing.xyz/img/phys/melinda_2x2x2x2_canonical_U2.png)
 
-The remaining canonical twists involve picking up a 2x2x4 "slab" off the puzzle, and rotating it 180 degrees in the same plane. These slabs you can pick up are the U, F, D, and B cells. Because the slabs can only be turned 180 degrees those moves will just be referred to as `U2` `F2` `D2` `B2`
+The remaining canonical twists involve picking up a 1×2×4 "slab" off the puzzle, and rotating it 180 degrees in the same plane. These slabs you can pick up are the U, F, D, and B cells. Because the slabs can only be turned 180 degrees those moves will just be referred to as `U2` `F2` `D2` `B2`
 
 
 ### Gyro
