@@ -138,6 +138,23 @@ Cut depth terminology varies by community. Listed here are the definitions we us
 - A **stored** cut is one that is not accessible from the solved state of the puzzle. For example, the extra cuts present on a [Curvy Copter Plus](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1687) are stored cuts; compare to the [Curvy Copter](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1574), which has no stored cuts.
 - A **wedge cut** is a cut comprised of multiple cut planes, where twists are parallel to both planes. This is only possible in 4D+. An example is the wedge-turning 3^4^.
 
+## Piece types
+
+- A piece with zero grips is the **core**.
+- A piece with one grip is an **axle** or **axis piece**.
+- An **acron** is a piece such that: if the twists of the puzzle allow exchanging two grips, then those two grips are indistinguishable on the piece. More formally: A piece with a symmetric grip signature $X$ is an **acron** if, for any two grips $x_1, x_2 \in X$, if there exists an element $g$ from the grip group such that $x_1 \cdot g = x_2$ then there is an $h$ that setwise stabilizes $X$ such that $x_1 \cdot h = x_2$.
+    - An **n-acron** is an acron with _n_-fold rotational symmetry.
+    - An **axle** is a 1-acron.
+    - A **sphene** is an acron with 2 grips.
+- An **anti-$X$** is the piece with the complement of the grips of $X$.
+    - The **anticore** has every grip.
+
+Examples:
+
+- 3^4^ contains axles (centers), sphenes/diacrons (edges), triacrons (ridges), and tetrahedracrons (corners)
+- Sphenic biaxe always contains sphenes but not diacrons
+- FTO contains sphenes/diacrons (edges), 4-acrons (corners), and a "triangle" piece that does not yet have a formal name
+
 ## Solving
 
 ### Actions
