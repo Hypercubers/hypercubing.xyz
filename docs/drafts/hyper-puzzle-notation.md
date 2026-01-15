@@ -198,7 +198,7 @@ This section defines common conventions for axes and move families. These should
 - Lowercase Latin alphabet: `abcdefghijklmnopqrstuvwyxz`
 - Lowercase Greek alphabet
     - Large lowercase: `βδζθλξ`
-    - Small lowercase: `αγεηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
+    - Small lowercase: `εηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
 
 Other Greek letters are recommended to NOT be used because they are too similar in appearance to Latin letters.
 
@@ -257,7 +257,7 @@ The uppercase letters `A`-`Z` are often used to name elements in an ordered sequ
 
 The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.[^hundredagonal-duoprism]
 
-[^hundredagonal-duoprism]: This puzzle was created as a joke but has actually been solved. It has 104 cells, which in this proposal would be named `αA`, `αB`, ..., `αΘU`, `αΘV`, `γA`, `γB`, `γC`, `γD`
+[^hundredagonal-duoprism]: This puzzle was created as a joke but has actually been solved. It has 104 cells, which in this proposal would be named `εA`, `εB`, ..., `εΘU`, `εΘV`, `ηA`, `ηB`, `ηC`, `ηD`
 
 ### Lowercase Latin alphabet (semantic)
 
@@ -308,9 +308,11 @@ For when there are multiple sets of axes assigned Latin letters, they can be dis
 
 | Group | Names                 |
 | ----- | --------------------- |
-| 1     | `αA`, `αB`, `αC`, ... |
-| 2     | `γA`, `γB`, `γC`, ... |
-| 3     | `εA`, `εB`, `εC`, ... |
+| 1     | `εA`, `εB`, `εC`, ... |
+| 2     | `ηA`, `ηB`, `ηC`, ... |
+| 3     | `κA`, `κB`, `κC`, ... |
+
+Opposite sets take from the other end of the list. For example, the opposite of `η` is `ψ`.
 
 ### Cube axes
 
