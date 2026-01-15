@@ -198,7 +198,7 @@ This section defines common conventions for axes and move families. These should
 - Lowercase Latin alphabet: `abcdefghijklmnopqrstuvwyxz`
 - Lowercase Greek alphabet
     - Large lowercase: `βδζθλξ`
-    - Small lowercase: `αγεηκμπτφχψω` (Greek letters that are visually similar to Latin letters have been excluded)
+    - Small lowercase: `αγεηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
 
 Other Greek letters are recommended to NOT be used because they are too similar in appearance to Latin letters.
 
