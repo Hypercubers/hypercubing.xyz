@@ -31,7 +31,7 @@ These rules apply generally to speedsolving submissions unless the category has 
     - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
         - Exceptions may be made for certain puzzle programs (such as Nan Ma's 11-cell) that have an integrated timer. On-screen timer is still recommended.
         - The timer should have precision of 0.01 seconds or better. If it has less precision, it will be rounded up to the worst possible time with that precision a la [WCA regulation A7c+](https://www.worldcubeassociation.org/regulations/#A7c+).
-    - Inspection time must not exceed 60 seconds. In other words, the solve timer must be started within 60 seconds of the puzzle being completely scrambled.
+    - Inspection time over 60 seconds counts towards solve time. In other words, the timer starts on the first move or after 60 seconds of inspection, whichever happens first.
     - If any moves are executed on the solved puzzle shortly after the timer stops, the moderators may retime or reject the solve at their discretion.
 - If using keyboard controls:
     - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
