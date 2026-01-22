@@ -31,7 +31,7 @@ These rules apply generally to speedsolving submissions unless the category has 
     - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
         - Exceptions may be made for certain puzzle programs (such as Nan Ma's 11-cell) that have an integrated timer. On-screen timer is still recommended.
         - The timer should have precision of 0.01 seconds or better. If it has less precision, it will be rounded up to the worst possible time with that precision a la [WCA regulation A7c+](https://www.worldcubeassociation.org/regulations/#A7c+).
-    - Inspection time over 60 seconds counts towards solve time. In other words, the timer starts on the first move or after 60 seconds of inspection, whichever happens first.
+    - Inspection time over 60 seconds counts towards solve time. In other words, the timer starts on the first move[^timer] or after 60 seconds of inspection, whichever happens first.
     - If any moves are executed on the solved puzzle shortly after the timer stops, the moderators may retime or reject the solve at their discretion.
 - If using keyboard controls:
     - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
@@ -134,6 +134,7 @@ If you're thinking of writing a new program for speedsolving or suggesting a new
 [stm]: https://hypercubing.xyz/notation/#turn-metrics
 
 [^algsheets]: We can't stop you from using an algorithm reference, but it's not in the spirit of the competition and it'll probably slow you down.
+[^timer]: If a built-in timer that starts automatically after the first move is not available, a self-supplied timer from the compeitior may be used instead, and the time starts when the compeitior manually starts the timer.
 [^keybinds-ref]: If the program doesn't have a built-in keybinds reference (such as Akkei's physical 3^4^ simulator) then you probably don't need one.
 [^alg-keybinds]: You should not be able to execute a meaningful algorithm by pressing a sequence of keys in a line on the keyboard. Keybinds should be laid out in a way that makes more sense than a way that is useful for an algorithm. A keybind set optimized for general RKT is fine. If you have a question about these rules, ask on the [Hypercubers Discord server](https://discord.gg/xxFvfyx89p).
 [^grip]: You might hold a 3^3^ differently to execute `<M,U>` moves more efficiently compared to `<R,U,F>` moves. Similarly, a 4D creature might have a specialized grip on the 3^4^ for RKT compared to general moves.
