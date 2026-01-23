@@ -8,11 +8,11 @@ Assume each facet is at distance $1$ from the origin. Then each vertex is at dis
 
 | Name        | Cut distance                   | Piece types       |
 | ----------- | ------------------------------ | ----------------- |
-| 4-Simplex D | $(-\frac{1}{4}, 1)$            | 1g + 2g + 3g + 4g |
+| 4-Simplex D | $\left(-\frac{1}{4}, 1\right)$            | 1g + 2g + 3g + 4g |
 | 4-Simplex C | $-\frac{1}{4}$                 | 2g + 3g + 4g      |
-| 4-Simplex B | $(-\frac{2}{3}, -\frac{1}{4})$ | 2g + 3g + 4g + 5g |
-| 4-Simplex A | $(-\frac{3}{2}, -\frac{2}{3}]$ | 3g + 4g + 5g      |
-|             | $(-4, -\frac{3}{2}]$           | 4g + 5g           |
+| 4-Simplex B | $\left(-\frac{2}{3}, -\frac{1}{4}\right)$ | 2g + 3g + 4g + 5g |
+| 4-Simplex A | $\left(-\frac{3}{2}, -\frac{2}{3}\right]$ | 3g + 4g + 5g      |
+|             | $\left(-4, -\frac{3}{2}\right]$           | 4g + 5g           |
 
 ### Piece types
 
@@ -31,8 +31,8 @@ Each facet-turning cut distance $d_v$ is equivalent to the facet-turning cut_dep
 
 | Name        | Cut distance                 | Piece types       |
 | ----------- | ---------------------------- | ----------------- |
-|             | $[\frac{3}{2}, 4)$           | 0g + 1g           |
-| 4-Simplex A | $[\frac{2}{3}, \frac{3}{2})$ | 0g + 1g + 2g      |
-| 4-Simplex B | $(\frac{1}{4}, \frac{2}{3})$ | 0g + 1g + 2g + 3g |
+|             | $\left[\frac{3}{2}, 4\right)$           | 0g + 1g           |
+| 4-Simplex A | $\left[\frac{2}{3}, \frac{3}{2}\right)$ | 0g + 1g + 2g      |
+| 4-Simplex B | $\left(\frac{1}{4}, \frac{2}{3}\right)$ | 0g + 1g + 2g + 3g |
 | 4-Simplex C | $\frac{1}{4}$                | 1g + 2g + 3g      |
-| 4-Simplex D | $(-1, \frac{1}{4})$          | 1g + 2g + 3g + 4g |
+| 4-Simplex D | $\left(-1, \frac{1}{4}\right)$          | 1g + 2g + 3g + 4g |
