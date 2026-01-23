@@ -28,35 +28,36 @@ These rules apply generally to speedsolving submissions unless the category has 
 - Changing view settings mid-solve is allowed, even for no-filters categories.
 - Using software to compute a solution to the puzzle state is not allowed.
 
-### Speedsolving rules for Hyperspeedcube 2
-
-- Speedsolves of the following puzzles must have [video evidence](#video-evidence):
-    - 3^4^ faster than 2m30s
-    - 2^4^ faster than 30 seconds
-    - 4^4^ faster than 10 minutes
-    - 5^4^ faster than 20 minutes
-- If there is no video evidence, then speedsolves must have a replay file that is timestamped and includes an online scramble. Ensure that "Online mode" is enabled in the settings and that the end screen says "This solve is timestamped."
-    - Moderator discretion applies for handling timestamping latency. High network latency may invalidate solves; consider [screen recording](#video-evidence) as a backup if this is undesirable.
-- Inspection time over 60 seconds counts towards solve time. In other words: the timer starts on the first move or after 60 seconds of inspection, whichever happens first.
-
-### Speedsolving rules for other software or physical puzzles
-
-- All speedsolves must have [video evidence](#video-evidence).
-- If using keyboard controls:
-    - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
-    - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
-- Log file is not required, but you should still save your PBs!
-- Inspection time must not exceed 60 seconds. In other words, the solve timer must be started within 60 seconds of the puzzle being completely scrambled.
+- Most puzzles require an [HSC2 replay file](#replay-files) OR [video evidence](#video-evidence). Both may be supplied.
+- Certain categories are particularly competitive and thus require [video evidence](#video-evidence). For these categories, an HSC2 replay file is recommended but optional. This applies to the following categories:
+    - 3^4^ single or average faster than 2m30s
+    - 2^4^ single or average faster than 30 seconds
+    - 4^4^ single or average faster than 10 minutes
+    - 5^4^ single or average faster than 20 minutes
+    - All blindfolded or one-handed solves
+- Inspection time must not exceed 60 seconds. Penalty: disqualification of the attempt (DNF).
+    - When using HSC2, solve time starts automatically after 60 seconds of inspection to avoid a DNF.
+    - In other software or when solving physical puzzles, the solve will be rejected if inspection time exceeds 60 seconds.
 - If any moves are executed on the solved puzzle shortly after the timer stops, the moderators may retime or reject the solve at their discretion.
+
+### Replay files
+
+- Replay files must use an "online mode" scramble, which contains a timestamped signature from a [randomness beacon](https://csrc.nist.gov/projects/interoperable-randomness-beacons).
+- Replay files must be timestamped at the end of the solve. In HSC2, ensure that the end screen says "This solve is timestamped."
+    - Moderator discretion applies for handling timestamping latency. High network latency may invalidate solves; consider [screen recording](#video-evidence) as a backup if this is undesirable.
 
 ### Video evidence
 
+- If using keyboard controls:
+    - If possible, a keybinds reference must be visible during the solve.[^keybinds-ref]
+    - The keybinds should not be hyperoptimized for specific algorithms.[^alg-keybinds]
 - For virtual puzzles, screen recordings are preferred.
 - The video must be hosted permanently, such as on YouTube. It may be unlisted.
 - The video must include scrambling the puzzle. When using Hyperspeedcube 1, the statusbar must be visible with the text "Scrambled fully."
 - A timer must be visible on the screen during the solve. Timers built into the puzzle software are preferred.
     - Exceptions may be made for certain puzzle programs (such as Nan Ma's 11-cell) that have an integrated timer. On-screen timer is still recommended.
     - The timer should have precision of 0.01 seconds or better. If it has less precision, it will be rounded up to the worst possible time with that precision a la [WCA regulation A7c+](https://www.worldcubeassociation.org/regulations/#A7c+).
+- Submitting a log file or replay file is not required, but is recommended.
 
 ### Filters
 
