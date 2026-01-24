@@ -73,6 +73,57 @@ Note that $\phi = \frac{1 + \sqrt 5}{2}$.
 | Pentultimate center | 6 (F U R L DR DL) |
 | Pentultimate corner | 6 (F U R L DR BR) |
 
+### Icosahedron
+
+#### Facet-turning cut depths
+
+Assume each facet is at distance $1$ from the origin. Thus each cut is in the range $[0, 1)$.
+
+Note that $\phi = \dfrac{1 + \sqrt 5}{2}$.
+
+| Name            | Cut distance                                            | Piece types                                                                         |
+| --------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Radiolarian 1.5 | $\left( \frac{\sqrt{5}}{3}, 1 \right)$                  | 1g, 2g, 3g, 4g (Wing), 5g (Corner)                                                  |
+| Radiolarian 2   | $\frac{\sqrt{5}}{3}$                                    | 2g, 3g, 4g (Wing), 5g (Corner)                                                      |
+| Radiolarian 3   | $\left( \frac{1}{\phi}, \frac{\sqrt{5}}{3} \right)$     | 2g, 3g, 4g (Wing), 4g (Center), 5g (Corner)                                         |
+| Radiolarian 4   | $\frac{1}{\phi}$                                        | 3g, 4g (Wing), 4g (Center), 5g (Corner)                                             |
+| Radiolarian 4.5 | $\left( \frac{4+\sqrt{5}}{11}, \frac{1}{\phi} \right)$  | 3g, 4g (Wing), 4g (Center), 5g (Corner), 5g (Petal), 6g (Edge)                      |
+| Radiolarian 5   | $\frac{4+\sqrt{5}}{11} = \frac{\phi^2}{2+\phi^2}$       | 4g (Wing), 4g (Center), 5g (Corner), 5g (Petal), 6g (Edge)                          |
+| Radiolarian 6   | $\left( \frac{4+\sqrt{5}}{11}, \frac{1}{\phi} \right)$  | 4g (Wing), 4g (Center), 5g (Corner), 5g (Petal), 6g (Edge), 6g (Petal)              |
+| Radiolarian 7   | $5 - 2\sqrt(5)$                                         | 4g (Center), 5g (Corner), 5g (Petal), 6g (Edge), 6g (Petal)                         |
+| Radiolarian 8   | $\left[ \frac{3-\sqrt{5}}{2}, 5 - 2\sqrt{5} \right)$    | 4g (Center), 5g (Corner), 5g (Petal), 6g (Edge), 6g (Petal), 7g                     |
+| Radiolarian 8.5 | $\left( \frac{1}{3}, \frac{3-\sqrt{5}}{2} \right)$      | 4g (Center), 5g (Corner), 5g (Petal), 6g (Edge), 6g (Petal), 7g, 8g (Edge)          |
+| Radiolarian 9   | $\frac{1}{3}$                                           | 5g (Corner), 6g (Petal), 7g, 8g (Edge)                                              |
+| Radiolarian 10  | $\left( \frac{1}{\phi^3}, \frac{1}{3} \right)$          | 6g (Petal), 7g, 8g (Edge), 8g (Kite), 9g (Petal), 10g (Center)                      |
+| Radiolarian 11  | $\frac{1}{\phi^3} = \sqrt{5}-2$                         | 7g, 8g (Edge), 8g (Kite), 9g (Petal), 10g (Center)                                  |
+| Radiolarian 12  | $\left( 1-\frac{2}{\sqrt{5}}, \frac{1}{\phi^3} \right)$ | 7g, 8g (Edge), 8g (Kite), 9g (Petal), 9g (Wing), 10g (Center), 10g (Corner)         |
+| Radiolarian 13  | $1-\frac{2}{\sqrt{5}}$                                  | 8g (Edge), 8g (Kite), 9g (Petal), 9g (Wing), 10g (Center), 10g (Corner)             |
+| Radiolarian 14  | $\left( 0, 1-\frac{2}{\sqrt{5}} \right)$                | 8g (Edge), 8g (Kite), 9g (Petal), 9g (Wing), 10g (Center), 10g (Corner), 10g (Wing) |
+| Radiolarian 15  | $0$                                                     | 10g (Center), 10g (Corner), 10g (Wing)                                              |
+
+##### Piece types
+
+| Name                    | Grips |
+| ----------------------- | ----- |
+| Core                    | 0     |
+| Stationary Center       | 1     |
+| Shallow Edge            | 2     |
+| Shallow Corner          | 5     |
+| Shallow Petal           | 3     |
+| Shallow Corner Petal    | 4     |
+| Shallow Moving Center   | 4     |
+| Intermediate Edge       | 6     |
+| Shallow Center Adjacent | 5     |
+| Shallow Corner Adjacent | 6     |
+| Edge Wing               | 7     |
+| Deep Edge               | 8     |
+| Deep Center             | 10    |
+| Deep Center Adjacent    | 9     |
+| Kite                    | 8     |
+| Deep Corner             | 10    |
+| Deep Edge Wing          | 9     |
+| Deep Corner Petal       | 10    |
+
 ## 4D puzzles
 
 ### 4-Simplex
