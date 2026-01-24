@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome! If you'd like to contribute, join the [#wiki](https://discord.com/channels/852389089268858922/1020129101614420081) channel on the Discord server and ask what you can do to help or let us know what changes you want to make.
+Welcome! If you'd like to contribute, join the [#hypercubing-xyz](https://discord.com/channels/852389089268858922/1020129101614420081) channel on the Discord server and ask what you can do to help or let us know what changes you want to make.
 
 If you aren't familiar with creating pull requests on GitHub, see [this quick video tutorial](https://www.youtube.com/watch?v=jRLGobWwA3Y).
 
