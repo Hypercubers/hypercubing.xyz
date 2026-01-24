@@ -2,6 +2,46 @@
 
 ## 3D puzzles
 
+### Tetrahedron
+
+The tetrahedron is self-dual, so every vertex-turning tetrahedron has an identical facet-turning tetrahedron (and vice versa).
+
+#### Facet-turning cut depths
+
+Assume each facet is at distance $1$ from the origin. Then each vertex is at distance $-3$ along the same vector. Thus each cut is in the range $(-3, 1)$.
+
+| Common Name               | Technical Name | Cut distance                      | Piece types  |
+| ------------------------- | -------------- | --------------------------------- | ------------ |
+| Halpern-Meier Tetrahedron | 4-Simplex C    | $\left( -\frac{1}{3}, 1 \right)$  | 1g + 2g + 3g |
+| Tetraminx                 | 4-Simplex B    | $-\frac{1}{3}$                    | 2g + 3g      |
+|                           | 4-Simplex A    | $\left( -1, -\frac{1}{3} \right)$ | 2g + 3g + 4g |
+| 2-Layer Pyraminx          |                | $\left( -3, -1 \right]$           | 3g + 4g      |
+
+##### Piece types
+
+| Name     | Grips |
+| -------- | ----- |
+| Core     | 0     |
+| Center   | 1     |
+| Edge     | 2     |
+| Corner   | 3     |
+| Anticore | 4     |
+
+#### Vertex-turning cut depths
+
+Each facet-turning cut distance $d_v$ is equivalent to the facet-turning cut_depth $d_f = -d_v$. Thus each each cut is in the range $(-1, 3)$.
+
+| Common Name               | Technical Name | Cut distance                     | Piece types  |
+| ------------------------- | -------------- | -------------------------------- | ------------ |
+| 2-Layer Pyraminx          |                | $\left[ 1, 3 \right)$            | 0g + 1g      |
+|                           | 4-Simplex A    | $\left( \frac{1}{3}, 1 \right)$  | 0g + 1g + 2g |
+| Tetraminx                 | 4-Simplex B    | $\frac{1}{3}$                    | 1g + 2g      |
+| Halpern-Meier Tetrahedron | 4-Simplex C    | $\left( -1, \frac{1}{3} \right)$ | 1g + 2g + 3g |
+
+#### 4-Simplex Pyraminx
+
+The 3-Layer 4-Simplex Pyraminx is a combination of the 2-Layer 4-Simplex Pyraminx with 4-Simplex A.
+
 ### Dodecahedron
 
 #### Facet-turning cut depths
