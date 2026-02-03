@@ -19,7 +19,7 @@ Syntax is the same across all puzzles, so that a move sequence may be unambiguou
 
 A **node** is a unit of notation.
 
-All node types (except [exceptions](#exceptions) for specific puzzles) can be repeated and/or inverted using a [multiplier](#multiplier) immediately after them.
+Some nodes are **repeatable**, which means that they can be repeated and/or  inverted using a [multiplier](#multiplier) immediately after them.
 
 #### Move
 
@@ -29,7 +29,7 @@ A **move** is a [node](#node) representing a twist or rotation of the puzzle. It
 - [Family](#family) (required)
 - [Bracketed transform](#bracketed-transform) (optional)
 
-Because moves are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
+Moves are repeatable.
 
 ##### Layer mask
 
@@ -58,7 +58,7 @@ A move family often represents a complete move (as is the case on 3^3^), but not
 
 ##### Bracketed transform
 
-A bracketed transform is a set of square brackets `[]` with contents inside consisting of letters, numbers, and symbols (not allowing more square brackets `[]`).
+A bracketed transform is a set of square brackets `[]` with contents inside consisting of letters, numbers, symbols from the set `'-<>|`, and spaces (no other whitespace). Other symbols may be added to this list in the future.
 
 Different puzzles can use bracketed transforms in different ways. There are two common ways most puzzles use them: [sequential transforms](#sequential-transforms) and [transform constraints](#transform-constraints).
 
@@ -106,7 +106,7 @@ Examples:
 - `@R` is a rotation that moves like an `R` move.
 - `@[F->U]` is a rotation that takes `F` to `U`.
 
-Because rotations are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
+Rotations are repeatable.
 
 ??? question "Why `@`?"
 
@@ -120,16 +120,16 @@ A **pause** is a [node](#node) representing a pause. It is written using `.`.
 
 Pauses are sometimes used for reconstruction of speedsolves.
 
-Because pause are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
+Pauses are _not_ repeatable.
 
 #### Group
 
-A **group** is a sequence of moves surrounded by parentheses `()`, with an optional symbol before the opening parenthesis. There are four kinds of groups:
+A **group** is a sequence of nodes surrounded by parentheses `()`, with an optional symbol before the opening parenthesis. There are four kinds of groups:
 
 - **Simple groups**, which represent a logical grouping
     - Simple groups have no prefix symbol. Example: `(R U R' U')`
     - A simple group's move count should be equivalent to the moves on their own.
-    - A simple group may affect animation speed slightly or not at all.
+    - A simple group should affect animation speed slightly or not at all.
 - **Macro groups**, which represent moves done using a macro in software.
     - Macro groups have `!` as a prefix symbol. Example: `!(R U R' U')`
     - A macro group's move count should be equivalent to the moves on their own.
@@ -153,29 +153,19 @@ Because groups are a kind of [node](#node), they can also have a [multiplier](#m
 
     In software where a single move may take multiple mouse clicks or keypresses, ETM is already detached from the number of interactions, which is really the important metric for speedsolving.
 
+Groups are repeatable.
+
 #### Commutator
 
 A **commutator** is two sequences of moves in square brackets separated by a comma. Example: `[A, B]`. It is equivalent to `A B A' B'`.
 
-Because commutators are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
+Commutators are repeatable.
 
 #### Conjugate
 
 A **conjugate** is two sequences of moves in square brackets separated by a comma. Example: `[A: B]`. It is equivalent to `A B A'`.
 
-Because conjugates are a kind of [node](#node), they can also have a [multiplier](#multiplier) after them.
-
-### Multiplier
-
-A **multiplier** is an optional positive integer and an optional apostrophe `'`, pronounced "prime," which negates the multiplier. `2`, `'`, `2'`, and `42'` are all multipliers.
-
-### Comment
-
-A **line comment** starts with `//` and extends to the next newline. Line comments have no effect on the puzzle.
-
-### Exceptions
-
-Certain puzzles use special notation.
+Commutators are repeatable.
 
 #### Square-1
 
@@ -185,9 +175,13 @@ Square-1 moves are of the form `(n, d)` (where `n` and `d` are signed integers) 
 
 Megaminx scrambling uses the moves `R++`, `R--`, `D++`, and `D--`. These cannot be used with layer masks, transforms, or multipliers.
 
-#### Physical 2x2x2x2 scrambling
+### Multiplier
 
-Physical 2x2x2x2 scrambling uses the move `#`. This cannot be used with layer masks, transforms, or multipliers.
+A **multiplier** is an optional positive integer and an optional apostrophe `'`, pronounced "prime," which negates the multiplier. `2`, `'`, `2'`, and `42'` are all multipliers.
+
+### Comment
+
+A **line comment** starts with `//` and extends to the next newline. Line comments have no effect on the puzzle.
 
 ## Conventions
 
@@ -237,28 +231,6 @@ The unused letters here are reserved for execution notation, for variable names,
 
 [^120cell]: The facets of the 120-cell can be divided into eight 15-cell clusters, each containing 12 facets corresponding to faces of a dodecahedron plus three extra ones. Those three extra ones are called `I` ("In"), `X` and `Y`. Each cluster corresponds to one facet of a hypercube.
 
-### Uppercase alphabet (sequential)
-
-The uppercase letters `A`-`Z` are often used to name elements in an ordered sequence, such as the rectangular faces of a polygonal prism. If there are more than 26 names needed, a single letter from the uppercase Greek alphabet may be added as a prefix, in the order `ΓΔΘΛΞΠΣΦΨΩ`:
-
-| Letter sequence | Number |
-| --------------- | ------ |
-| A               | 1      |
-| B               | 2      |
-| ...             | ...    |
-| Z               | 26     |
-| ΓA              | 27     |
-| ΓB              | 28     |
-| ...             | ...    |
-| ΓZ              | 52     |
-| ΔA              | 53     |
-| ...             | ...    |
-| ΩZ              | 286    |
-
-The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.[^hundredagonal-duoprism]
-
-[^hundredagonal-duoprism]: This puzzle was created as a joke but has actually been solved. It has 104 cells, which in this proposal would be named `εA`, `εB`, ..., `εΘU`, `εΘV`, `ηA`, `ηB`, `ηC`, `ηD`
-
 ### Lowercase Latin alphabet (semantic)
 
 - Specialty uses in 3D notation (`rludfb`, `mes`)
@@ -302,6 +274,30 @@ In 4D+, two axis letters indicates a rotation in that plane from one axis to the
 
 In 5D, two axis letters may be used after an axis name for [execution notation](#execution-notation).
 
+### Sequential alphabet
+
+The letters `A`-`Z` are often used to name elements in an ordered sequence, such as the rectangular faces of a polygonal prism. If there are more than 26 names needed, letters from the uppercase Greek alphabet may be added as a prefix, using a base-10 [bijective numeration](https://en.wikipedia.org/wiki/Bijective_numeration) with the digits `ΓΔΘΛΞΠΣΦΨΩ`:
+
+| Letter sequence | Number |
+| --------------- | ------ |
+| A               | 1      |
+| B               | 2      |
+| ...             | ...    |
+| Z               | 26     |
+| ΓA              | 27     |
+| ΓB              | 28     |
+| ...             | ...    |
+| ΓZ              | 52     |
+| ΔA              | 53     |
+| ...             | ...    |
+| ΩZ              | 286    |
+
+When multiple sets of uppercase letters are needed, they may be distinguished using a lowercase Latin letter as a prefix. If more than 26 prefixes are needed, they may be preceeded by a bijective numeration similar to the uppercaes letters.
+
+The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.[^hundredagonal-duoprism] It has 104 cells, which in this proposal would be named `aA`, `aB`, ..., `aΘU`, `aΘV`, `bA`, `bB`, `bC`, `bD`
+
+[^hundredagonal-duoprism]: This puzzle was created as a joke but has actually been solved.
+
 ### Lowercase Greek alphabet (sequential)
 
 For when there are multiple sets of axes assigned Latin letters, they can be distinguished using a small lowercase Greek prefix. For example:
@@ -312,7 +308,20 @@ For when there are multiple sets of axes assigned Latin letters, they can be dis
 | 2     | `ηA`, `ηB`, `ηC`, ... |
 | 3     | `κA`, `κB`, `κC`, ... |
 
-Opposite sets take from the other end of the list. For example, the opposite of `η` is `ψ`.
+### Lowercase Greek alphabet (semantic)
+
+The large lowercase Greek letters are reserved for semantic uses. Currently, only `β` has a use. Others are reserved for future use.
+
+| Letter | Use      |
+| ------ | -------- |
+| `β`    | Opposite |
+| `δ`    |          |
+| `ζ`    |          |
+| `θ`    |          |
+| `λ`    |          |
+| `ξ`    |          |
+
+For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` comes after small lowercase Greek letters but before uppercase Greek letters.
 
 ### Cube axes
 
