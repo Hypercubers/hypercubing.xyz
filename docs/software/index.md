@@ -91,7 +91,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Magic Simplex 5D][ms5d]                   | [:material-language-csharp:][ms5d-src] • %platforms{w___} | %features{m_sftM_c__} | 5D simplex (+ recuts)    |
 | [Magic120Cell][m120c]                      |   [:material-language-cpp:][m120c-src] • %platforms{w___} | %features{m_sf_M_c__} | 120-cell (+ recolorings) |
 | [Nan Ma's 11-cell][11cell]                 |               :material-language-java: • %platforms{wla_} | %features{m__f_MTc__} | 11-cell                  |
-| [Eleven Cell 3D][elevencell3D]             |      [:simple-scala:][elevencell3Dsrc] • %platforms{wla_} | %features{m_________} | 11-cell                  |
+| [Eleven Cell 3D][elevencell3d]             |     [:simple-scala:][elevencell3d-src] • %platforms{wla_} | %features{m_________} | 11-cell                  |
 | [Twisty Prisms][twisty-prisms]             |                       :simple-scratch: • %platforms{___b} | %features{mk________} | certain 3D prisms        |
 | [qCubes and qMinx]                         |         :material-language-javascript: • %platforms{___b} | %features{_k____T___} | cubes, (hemi)dodecahedra |
 | [Zasharan2's physical 2^4^][zasharan phys] |         :material-language-javascript: • %platforms{___b} | %features{_K___M_c__} | Physical 2x2x2x2         |
@@ -101,8 +101,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [m120c]: http://www.gravitation3d.com/magic120cell/
 [m120c-src]: https://github.com/roice3/Magic120Cell
 [11cell]: https://superliminal.com/cube/ElevenCell.jar
-[elevencell3D]: https://github.com/SuperSnowman16/ElevenCell3D/releases/latest
-[elevencell3Dsrc]: https://github.com/SuperSnowman16/ElevenCell3D/
+[elevencell3d]: https://github.com/SuperSnowman16/ElevenCell3D/releases/latest
+[elevencell3d-src]: https://github.com/SuperSnowman16/ElevenCell3D/
 [mht633]: https://superliminal.com/andrey/mht633/
 [twisty-prisms]: https://staff.fim.uni-passau.de/kreuzer/TP/TwistyPrisms.html
 [qCubes and qMinx]: https://mzrg.com/js/
