@@ -50,7 +50,7 @@ Reversed ranges are the same: `{1..-1}` is the same as `{-1..1}` and `1-3` is th
 
 ##### Family
 
-A **move family** is a string of uppercase or lowercase Latin or Greek letters.
+A **move family** is a string of uppercase or lowercase Latin or Greek letters and underscores.
 
 Move families on 3^3^ include `R`, `F`, `Rw`, `x`, etc. Move families on 3^4^ include `R`, `RO`, `LDBI`, `wz`, etc. Move families on 3^5^ include `U`, `A`, `Azx`, etc.
 
