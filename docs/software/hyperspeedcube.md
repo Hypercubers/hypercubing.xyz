@@ -118,7 +118,7 @@ See [Hactar's website](https://ajfarkas.dev/hyperspeedcube/#future-plans) for mo
 ![Hypercuboid twisted in an incorrect way (2022-10-13)](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-10-13_janky_cuboid.png?width=817&height=671){width="24.5%"}
 ![3D Jing's pyraminx puzzle, with a popup saying that the program crashed (2022-10-13)](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-10-13_jing_crash.png){width="24.5%"}
 ![{3}×{5} duoprism (2022-10-13)](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-11-18_duoprism.png){width="24.5%"}
-![Uncolored 120-cell puzzle](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-11-18_120_cell.png){width="24.5%"}
+![Uncolored 120-cell](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-11-18_120_cell.png){width="24.5%"}
 
 #### Graphics debugging (early 2024)
 
