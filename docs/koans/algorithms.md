@@ -6,7 +6,7 @@ Neophyte Cherto toiled into the late hours of the night, eager to complete their
 
 As Cherto approached the end of the Orientation of the Last Cell of their 3x3x3x3, they found that only a single piece was twisted in place. Cherto, being wise in the ways of Isolation and the construction of [Commutators](/techniques/commutators.md), was easily able to solve this case. They carefully noted the sequence of moves they had performed, added it to their guide, and then continued on.
 
-Some days later, another disciple came upon Cherto and addressed them. "I am Neophyte Nima. I have nearly solved my puzzle, save for a single 3-color piece twisted in place. Its stickers are permuted in a cycle, and I cannot seem to rotate it without rotating another piece. Master Nazir said that you had recently solved this case and suggested that I learn from the solution from you."
+Some days later, another disciple came upon Cherto and addressed them. "I am Neophyte Nima. I have nearly solved my puzzle, save for a single 3-color piece twisted in place. Its stickers are permuted in a cycle, and I cannot seem to rotate it without rotating another piece. Master Nazir said that you had recently solved this case and suggested that I learn the solution from you."
 
 Cherto excitedly withdrew the latest draft of their solution guide and began copying their algorithm onto a slip of parchment for Nima to read. They began: `U R2 ...`
 
