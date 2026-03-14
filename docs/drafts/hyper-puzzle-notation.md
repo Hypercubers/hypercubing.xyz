@@ -294,7 +294,7 @@ The large lowercase Greek letters are reserved for opposite axis sets. Occasiona
 | `λ`    |              |
 | `ξ`    |              |
 
-For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` comes after lowercase Latin letters but before uppercase Greek/Latin letters.
+For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` is between the lowercase Latin sequence (if any) and the uppercase Latin sequence. For example, `aβA`, not `βaA`.
 
 ### Cube axes
 
