@@ -279,28 +279,22 @@ The {100}x{4} duoprism serves as an example of a puzzle that requires more than 
 
 ### Lowercase Greek alphabet (sequential)
 
-For when there are multiple sets of axes assigned Latin letters, they can be distinguished using a small lowercase Greek prefix. For example:
-
-| Group | Names                 |
-| ----- | --------------------- |
-| 1     | `εA`, `εB`, `εC`, ... |
-| 2     | `ηA`, `ηB`, `ηC`, ... |
-| 3     | `κA`, `κB`, `κC`, ... |
+Lowercase Greek letters are currently unused.
 
 ### Lowercase Greek alphabet (semantic)
 
-The large lowercase Greek letters are reserved for semantic uses. Currently, only `β` has a use. Others are reserved for future use.
+The large lowercase Greek letters are reserved for opposite axis sets. Occasionally, a puzzle will have multiple sets of opposite axes. For example, each face of the Klein Quartic tiling has 2 opposite axes.
 
-| Letter | Use      |
-| ------ | -------- |
-| `β`    | Opposite |
-| `δ`    |          |
-| `ζ`    |          |
-| `θ`    |          |
-| `λ`    |          |
-| `ξ`    |          |
+| Letter | Use          |
+| ------ | ------------ |
+| `β`    | 1st opposite |
+| `δ`    | 2nd opposite |
+| `ζ`    | ...          |
+| `θ`    |              |
+| `λ`    |              |
+| `ξ`    |              |
 
-For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` comes after small lowercase Greek letters but before uppercase Greek letters.
+For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` comes after lowercase Latin letters but before uppercase Greek/Latin letters.
 
 ### Cube axes
 
