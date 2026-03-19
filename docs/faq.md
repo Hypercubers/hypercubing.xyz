@@ -260,7 +260,7 @@ Since then, we've added so much puzzles and so many categories (filters, macros,
 
 For any new puzzle (especially 3^4^) I recommend the following:
 
-1. Become comfortable with the default mouse controls for the puzzle. Mouse controls typically correspond directly to the notation we use and are the easiest things to understand. Until you are confident with mouse controls, there is no point trying to speedsolve a puzzle.
+1. Become comfortable with the default mouse controls for the puzzle. Mouse controls typically correspond directly to the notation we use and are easier to learn than keybinds. Until you are confident with mouse controls, I do not recommend trying to speedsolve a puzzle.
 2. Become comfortable with the default keyboard controls for the puzzle, if they exist. These are generally designed to be easy to learn, and will be faster than mouse controls. The default keybinds in Hyperspeedcube are updated over time with user feedback to make them easier to learn.
 3. _Only once you are confident solving with the default mouse and keyboard controls,_ I recommend designing your own keybinds that prioritize speed. In particular, try to bind common moves to single keys, and use different keybind sets for different stages of the solve. For example, I (Hactar) use three keybind sets when solving 3^4^: the defaults (for 4-cross), a set that provides single keys for `<I*, R*, UF*, DF*, FU*, BU*>` that I use for most of the solve, and an RKT set that provides single keys for RKT moves and [cancels](/techniques/rkt.md#cancels).
 
