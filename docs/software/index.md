@@ -8,9 +8,9 @@ We recommend [Hyperspeedcube][hsc] to get started.
 
 If you want macro support (recorded sequences of moves) or other 4D puzzles, [Magic Cube 4D][mc4d] is a good option.
 
-- For 5D+ puzzles: [Magic Cube 5D][mc5d], [Magic Cube 7D][mc7d], and [Magic Puzzle Ultimate][mpu]
+- For 5D+ puzzles: [Magic Cube 5D][mc5d], [Magic Cube 7D with Keybinds][mc7d-kb], and [Magic Puzzle Ultimate][mpu]
 - For puzzles in non-Euclidean geometries: [MagicTile][mt]
-- For 3D puzzles: [pCubes][pcubes]
+- For 3D puzzles: [Hydropyrum][hydropyrum] (small/curated selection, runs in browser) or [pCubes][pcubes] (larger selection, Windows-only)
 
 For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS apps](#ios-apps).
 
@@ -39,7 +39,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [MagicTile][mt]                                   |             [:material-language-csharp:][mt-src] • %platforms{wla_} | %features{m____M_cp_} | 2D tilings              |
 | [Magic Puzzle Ultimate][mpu]                      |            [:material-language-csharp:][mpu-src] • %platforms{w___} | %features{m__ftM_cp_} | 3D+ doctrinaire         |
 | [Magic Cube 7D][mc7d]                             |           [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^            |
-| [Magic Cube 7D with Keybinds][mc7d-kb][^mc7d-mac] |        [:material-language-csharp:][mc7d-kb-src] • %platforms{w_a_} | %features{mKsftM_c__} | {2-5}^{4-7}^            |
+| [MC7D-KB][mc7d-kb][^mc7d-mac]                     |        [:material-language-csharp:][mc7d-kb-src] • %platforms{w_a_} | %features{mKsftM_c__} | {2-5}^{4-7}^            |
 | [Magic Cube 5D][mc5d]                             |              [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^                |
 | [Magic Cube 4D VR][mc4d-vr]                       |                                 :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                    |
 | [Flat Hypercube][flat]                            |             [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_Ksf___c__} | {1-32k}^{1-32k}^        |
