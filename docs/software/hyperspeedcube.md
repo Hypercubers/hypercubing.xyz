@@ -75,6 +75,10 @@ If none of the instructions below help, join the [Hypercubers Discord server][di
 
 #### Linux
 
+??? failure ""interface 'wl_surface' has no event 2""
+
+    Try `WINIT_UNIX_BACKEND=x11 ./hyperspeedcube`.
+
 Check that you have up-to-date graphics drivers installed. If that doesn't help, you're on your own.
 
 If there's any changes you make to the Hyperspeedcube source code to get it working, [please open an issue or PR on GitHub](https://github.com/HactarCE/Hyperspeedcube). If you're able to make an package for HSC for your package manager, please let me know either on Discord or GitHub Issues.
