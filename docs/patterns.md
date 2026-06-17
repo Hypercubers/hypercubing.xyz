@@ -53,3 +53,25 @@ A photo gallery of patterns on some higher dimensional puzzles.
 </figure>
 
 </div>
+
+## 6D Patterns
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+    ![Checkerboard pattern on 5^6 in MC7D](https://assets.hypercubing.xyz/img/pattern/MC7D_555555_checkerboard.png)
+    <figcaption>Checkerboard pattern on 5^6^ in MC7D</figcaption>
+</figure>
+
+</div>
+
+## 7D Patterns
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+    ![Checkerboard pattern on 5^7 in MC7D](https://assets.hypercubing.xyz/img/pattern/MC7D_5555555_checkerboard.png)
+    <figcaption>Checkerboard pattern on 5^7^ in MC7D</figcaption>
+</figure>
+
+</div>
