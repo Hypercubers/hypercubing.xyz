@@ -169,7 +169,7 @@ See [God's Number](/theory/gods-number.md).
 The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See these links:
 
 - [Physical Puzzles](/puzzles/physical/index.md) on this site
-- [Physical Puzzle](http://wiki.superliminal.com/wiki/Physical_Puzzle) on the Superliminal Wiki
+- [Physical Puzzle](http://superliminal.com/cube/wiki/Physical_Puzzle.html) on the Superliminal Wiki
 - [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA)
 
 ### How can I buy a physical 2×2×2×2?

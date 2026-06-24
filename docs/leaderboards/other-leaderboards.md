@@ -8,7 +8,7 @@ title: Other Leaderboards
 [Magic Cube 4D Hall of Fame](https://superliminal.com/cube/halloffame.htm)
 - The original Hall of Fame. New submissions are no longer accepted due to reaching 500 solvers.
 
-[Magic Cube 4D Extended Records](http://wiki.superliminal.com/wiki/MC4D_Records)
+[Magic Cube 4D Extended Records](http://superliminal.com/cube/wiki/MC4D_Records.html)
 - Records for many other puzzles found in [MC4D](/software/magiccube4d.md).
 
 [Magic Cube 5D Hall of Insanity](http://www.gravitation3d.com/magiccube5d/hallofinsanity.html)

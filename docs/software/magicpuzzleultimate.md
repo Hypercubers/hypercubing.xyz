@@ -11,7 +11,7 @@
 
 ## Records
 
-Some records for the shortest and first solutions of a puzzle are kept on the [Superliminal Wiki page](http://wiki.superliminal.com/wiki/MPUlt_Records).
+Some records for the shortest and first solutions of a puzzle are kept on the [Superliminal Wiki page](http://superliminal.com/cube/wiki/MPUlt_Records.html).
 
 ## Virtual Puzzles
 
