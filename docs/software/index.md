@@ -163,15 +163,23 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 
 ## Tools
 
+### Geometry
+
 - [Orb](https://milojacquet.com/twisty/orb), for planning puzzle cut depths
 - [Dynamic Orbit Tracing Simulator (DOTS)](https://b10101101.github.io/DOTS-advanced/DOTS___v1.8.7_standalone.html), for designing circle puzzles
+- [Discrete Hopf Fibration](https://www.inf.fu-berlin.de/inst/ag-ti/software/DiscreteHopfFibration/), for exploring swirlchora to build puzzles from
+
+### Search
+
 - [RocKeT](https://github.com/HactarCE/rocket), for finding RKT cancels for 3D algorithms
 - [Hypersolve](https://github.com/ajtaurence/Hypersolve), for generating short 2^4^ solutions and scrambles
+
+### Other
+
 - [hscfilter](https://milojacquet.com/hscfilter), for generating HSC1 filter strings
 - [Hyperscrambler](https://github.com/JosieElliston/hyperscrambler), for generating custom HSC1 scrambles
 - [mousekeybinds](https://github.com/TheCubeDude/mousekeybinds), for adding keyboard controls to mouse-controlled programs
 - [Grippy](https://github.com/HactarCE/grippy), for analyzing algorithms using [grip theory](/theory/grip-theory.md)
-- [Discrete Hopf Fibration](https://www.inf.fu-berlin.de/inst/ag-ti/software/DiscreteHopfFibration/), for exploring swirlchora to build puzzles from
 
 ## Games
 
