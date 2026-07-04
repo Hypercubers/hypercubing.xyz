@@ -141,6 +141,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [TwistyPuzzles by CasualCuber](https://casualcuber.bitbucket.io/)
 - [Banderson's "sus non-associative puzzle"](https://github.com/lopidoff/sus-non-ass-puzzle-family)
 - [Quantum Loopover by Nan Ma and Melinda Green](https://www.nan.ma/QuantumLoopover/)
+- [INVOLUTE — Interactive Sporadic Group Puzzles and Point Clouds by QuirkyCubes (Chandler)](https://involute.chandler.io/)
 
 [akkei-phys]: https://drive.google.com/drive/folders/1xBEKkGYIFKSAcIgJjPCIx_W0vdJawuZ0
 
@@ -168,6 +169,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 - [Orb](https://milojacquet.com/twisty/orb), for planning puzzle cut depths
 - [Dynamic Orbit Tracing Simulator (DOTS)](https://b10101101.github.io/DOTS-advanced/DOTS___v1.8.7_standalone.html), for designing circle puzzles
 - [Discrete Hopf Fibration](https://www.inf.fu-berlin.de/inst/ag-ti/software/DiscreteHopfFibration/), for exploring swirlchora to build puzzles from
+- [Puzzle Explorer](https://puzzle-explorer.chandler.io/) by QuirkyCubes (Chandler)
 
 ### Search
 
