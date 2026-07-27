@@ -32,8 +32,6 @@ Puzzles are organized into a nested menu structure.
 
 ### Puzzle definitions
 
-This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate `Block`. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
-
 - `Puzzle <string>` begins a puzzle. It takes the name of the puzzle.
 - `Dim <number>` sets the number of dimensions.
 - `NAxis <number>` sets the number of axis orbits. It takes a **number**.
