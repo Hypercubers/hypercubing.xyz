@@ -13,13 +13,55 @@
 
 Some records for the shortest and first solutions of a puzzle are kept on the [Superliminal Wiki page](http://superliminal.com/cube/wiki/MPUlt_Records.html).
 
-## Virtual Puzzles
+## Puzzle file format
 
-While we're waiting for [Hyperspeedcube 2.0](/software/hyperspeedcube.md#20) to release, Magic Puzzle Ultimate is a great program to get your feet wet in the world of other 4D puzzles.
+All puzzles in MagicPuzzleUltimate are stored in `MPUlt_puzzles.txt`, which is in the same directory as the EXE.
 
-Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzzles.txt``` file. This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate ```Block```. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
+### Syntax
 
-### Puzzle Definitions
+Each nonempty line is contains a **statement**, which consists of a **command** followed by any number of **values**. Commands and values within a statement are separated by spaces. Values may be **strings** (unquoted text with no spaces), **numbers** (floating-point), **vectors** (comma-separated numbers with no spaces), or **transforms** (slash-separated vectors with no spaces).
+
+A transform is represented as a list of vectors, each specifying the normal vector of a mirror plane. These mirrors are composed to form arbitrary isometries that fix the origin. The vectors do not need to be normalized; e.g., `1,0,0` and `2,0,0` define equivalent transforms.
+
+### Menu structure
+
+Puzzles are organized into a nested menu structure.
+
+- `Block <string>` begins a (sub)menu. It takes the name of the menu.
+- `EndBlock` ends a (sub)menu. It takes no values.
+
+### Puzzle definitions
+
+This file is a big list of all the puzzles in the program. Now you can copy & paste the puzzles that you want below under their appropriate `Block`. Just save the file, reopen MPUlt, and the puzzle you added will be in the menu.
+
+- `Puzzle <string>` begins a puzzle. It takes the name of the puzzle.
+- `Dim <number>` sets the number of dimensions.
+- `NAxis <number>` sets the number of axis orbits. It takes a **number**.
+- `Faces <vector list>` defines the pole vectors[^facet-pole] of the facets. Each vector defines an orbit by the pole of one facet in that orbit.
+- `Simplified` is optional and removes pieces of the puzzle that do not correspond to polytope elements.
+- `Group <transform list>` defines the symmetry group used for `Faces`, `Axis`, `Twists`, and `Cuts`. It takes a list of generators for the symmetry group.
+- `Axis <vector>` defines an axis orbit by the vector of one axis in that orbit.
+- `Twists <transform list>` defines the twists for an axis orbit, using the axis specified by `Axis` as a reference point. It takes a list of **transforms**, each of which defines one unique twist.
+- `Cuts <number list>` defines the cut depths for an axis, which are distances from the origin along the axis vector in descending order.
+- `FixedMask <number>` is unknown. It may have something to do with layer masks
+- A blank line ends a puzzle definition.
+
+`Axis`, `Twists`, and `Cuts` must be repeated the number of times specified by `NAxis`.
+
+[^facet-pole]: The **pole vector** of a plane is the vector from the origin to the closest point on the plane. The pole vector of a plane is normal to the plane and has magnitude equal to the distance of the plane from the origin. A plane that does not contain the origin always has a unique pole vector, and a nonzero pole vector always corresponds to a unique plane.
+
+??? question "Unknowns that other community members may know the answers to"
+
+    - What does `FixedMask` do?
+    - Is the above description of `Simplified` accurate?
+    - Is `NAxis 0` valid?
+    - Why are negative cut depths sometimes included for symmetric puzzles?
+    - Do cut depths need to be sorted in descending order?
+    - If the axis vector is not normalized, does that affect the cut depths?
+
+### Example puzzles
+
+For some definitions of various hypercuboids, see [hypercuboids](https://hypercubing.xyz/puzzles/hypercuboids/).
 
 ??? abstract "3D Puzzles"
 
@@ -472,13 +514,7 @@ Open the location where your ```MPUlt``` folder is. Next, open the ```MPUlt_puzz
             Cuts 0
             ```
 
-### Making your own puzzles
-
-If you figure out the notation, you can try adding your own puzzles. You define the symmetry group, rotational axes, cutting planes, possible twists and puzzle boundary.
-
-For some definitions of various hypercuboids, see [hypercuboids](https://hypercubing.xyz/puzzles/hypercuboids/).
-
-There is also a general formula for 4D duoprism puzzles, made by Luna:
+Below is also a general formula for 4D polygonal duoprism puzzles, made by Luna:
 
 ``` title="{p}x{q}"
 Puzzle {p}x{q}
