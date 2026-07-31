@@ -50,7 +50,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [Hydropyrum][hydropyrum][^hydropyrum]             | [:material-language-javascript:][hydropyrum-src] • %platforms{___b} | %features{m_______p_} | symmetric 3D + jumbling |
 | [Twizzle Explorer][twizzle]                       |    [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
 | [IsoCubeSim][ics]                                 |                         :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
-| [Geraniums Pot][gpot]                             |           [:material-language-python:][gpot-src] • %platforms{wl__} | %features{m_______p_} | rotating-circle puzzles |
+| [Twisty Puzzles 2D][tp2d][^tp2d]                  |       [:material-language-typescript:][tp2d-src] • %platforms{___b} | %features{m___t_____} | rotating-circle puzzles |
+| [Geraniums Pot][gpot][^wine]                      |           [:material-language-python:][gpot-src] • %platforms{wla_} | %features{m_______p_} | rotating-circle puzzles |
 | [circleguy]                                       |        [:material-language-rust:][circleguy-src] • %platforms{w__b} | %features{m_______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
@@ -78,6 +79,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [twizzle]: https://alpha.twizzle.net/explore/
 [twizzle-src]: https://github.com/cubing/cubing.js
 [ics]: https://mzrg.com/rubik/iso/
+[tp2d]: https://twistypuzzles2d.vercel.app/
+[tp2d-src]: https://github.com/gloomyswan/twisty-puzzles-2d
 [gpot]: https://github.com/grigorusha/GeraniumsPot/
 [gpot-src]: https://github.com/grigorusha/GeraniumsPot/
 [circleguy]: https://github.com/henrydukepickle/circleguy
@@ -86,6 +89,8 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [^gelatinbrain]: Full name: gelatinbrain's Virtual Magic Polyhedra (permutationpuzzles)
 [^hydropyrum]: Official name is unclear; its author, hydropyrum, describes it as "a simulator of twisty puzzles that uses exact arithmetic to compute all moves without roundoff error"
 [^mc7d-mac]: Runs on macOS via Wine; download here: [MC7D-KB wine wrapper made by thatcomputerguy](https://cloud.hypercubing.xyz/s/YfGpM3rMoAEMrtC)
+[^tp2d]: Web port of Geraniums Pot
+[^wine]: Runs on macOS via Wine
 
 ## Specific puzzles
 
