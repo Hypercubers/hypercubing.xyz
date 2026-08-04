@@ -170,8 +170,8 @@ This section defines common conventions for axes and move families. These should
 - Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (Greek letters that are visually similar to Latin letters have been excluded)
 - Lowercase Latin alphabet: `abcdefghijklmnopqrstuvwyxz`
 - Lowercase Greek alphabet
-    - Large lowercase: `βδζθλξ`
-    - Small lowercase: `εηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
+    - Tall lowercase: `βδζθλξ`
+    - Short lowercase: `εηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
 
 Other Greek letters are recommended to NOT be used because they are too similar in appearance to Latin letters.
 
@@ -271,7 +271,7 @@ The letters `A`-`Z` are often used to name elements in an ordered sequence, such
 | ...             | ...    |
 | ΩZ              | 286    |
 
-When multiple sets of uppercase letters are needed, they may be distinguished using a lowercase Latin letter as a prefix. If more than 26 prefixes are needed, they may be preceeded by a bijective numeration similar to the uppercaes letters.
+When multiple sets of uppercase letters are needed, they may be distinguished using a lowercase Latin letter as a prefix. If more than 26 prefixes are needed, they may be preceded by a bijective numeration similar to the uppercase letters.
 
 The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.[^hundredagonal-duoprism] It has 104 cells, which in this proposal would be named `aA`, `aB`, ..., `aΘU`, `aΘV`, `bA`, `bB`, `bC`, `bD`
 
@@ -340,8 +340,8 @@ In high dimensions, Greek letters become useful.
 - Greek letters provide an extension to the Latin alphabet with more nuanced aesthetics, aiding readability.
     - Greek uppercase letters fit in well with Latin uppercase letters.
     - Greek lowercase letters contrast very strongly with Latin uppercase letters.
-        - Small lowercase letters provide a good set of prefixes.
-        - Large lowercase letters are reserved for future use.
+        - Short lowercase letters provide a good set of prefixes.
+        - Tall lowercase letters are reserved for future use.
 - We want to avoid lowercase letters, because this conflicts with 3D conventions that use lowercase letters for wide moves or inner moves. We also want to avoid uppercase letters with existing uses (M, E, S, P, x, y, z, w, v).
     - This is partially a compatibility concern, but mostly a psychological semantic one. Humans reading lowercase letters may have misconceptions about their uses based on uses in other cubing notation.
 - Greek letters allow us to keep facet names [prefix-free](https://en.wikipedia.org/wiki/Prefix_code) while still using single-character names for sequences of 26 elements of fewer.
@@ -351,7 +351,7 @@ In high dimensions, Greek letters become useful.
 - We want to preserve uppercase letters for ad-hoc definitions, both for nonrigorous communication between humans and for rigorous move input.
 - Writing moves manually using Greek letters is likely to be extremely rare outside a handful of people.
     - E.g., Duoprisms have ASCII execution notation for a common subset of moves.
-- Flat Hypercube already uses greek letters for hypercubes of dimension 6+:
+- Flat Hypercube already uses Greek letters for hypercubes of dimension 6+:
 
 ### Why curly-brace layer sets?
 
