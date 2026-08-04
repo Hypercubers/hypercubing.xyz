@@ -52,7 +52,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 | [IsoCubeSim][ics]                                 |                         :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
 | [Twisty Puzzles 2D][tp2d][^tp2d]                  |       [:material-language-typescript:][tp2d-src] • %platforms{___b} | %features{m___t_____} | rotating-circle puzzles |
 | [Geraniums Pot][gpot][^wine]                      |           [:material-language-python:][gpot-src] • %platforms{wla_} | %features{m_______p_} | rotating-circle puzzles |
-| [circleguy]                                       |        [:material-language-rust:][circleguy-src] • %platforms{w__b} | %features{m_______p_} | rotating-circle puzzles |
+| [circleguy]                                       |        [:material-language-rust:][circleguy-src] • %platforms{wl_b} | %features{mK______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
