@@ -1,3 +1,3 @@
-How did you get here?
+<!-- This page should redirect -->
 
-This page is supposed to redirect to the [Discord server](https://discord.gg/xxFvfyx89p).
+Join the [Hypercubing Discord server](https://discord.gg/xxFvfyx89p).
