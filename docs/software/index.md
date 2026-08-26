@@ -32,27 +32,27 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
     - :material-pencil-plus: Custom puzzles
     - :material-virtual-reality: VR support
 
-| Program                                           |                                                           Platforms | Features              | Puzzles                 |
-| ------------------------------------------------- | ------------------------------------------------------------------: | --------------------- | ----------------------- |
-| [Hyperspeedcube][hsc]                             |              [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsft__c__} | {1-9}^{3-4}^            |
-| [Magic Cube 4D][mc4d]                             |             [:material-language-java:][mc4d-src] • %platforms{wla_} | %features{m____M_cp_} | 4D via Schläfli symbol  |
-| [MagicTile][mt]                                   |             [:material-language-csharp:][mt-src] • %platforms{wla_} | %features{m____M_cp_} | 2D tilings              |
-| [Magic Puzzle Ultimate][mpu]                      |            [:material-language-csharp:][mpu-src] • %platforms{w___} | %features{m__ftM_cp_} | 3D+ doctrinaire         |
-| [Magic Cube 7D][mc7d]                             |           [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^            |
-| [MC7D-KB][mc7d-kb][^mc7d-mac]                     |        [:material-language-csharp:][mc7d-kb-src] • %platforms{w_a_} | %features{mKsftM_c__} | {2-7}^{4-7}^            |
-| [Magic Cube 5D][mc5d]                             |              [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^                |
-| [Magic Cube 4D VR][mc4d-vr]                       |                                 :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                    |
-| [Flat Hypercube][flat]                            |             [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_Ksf___c__} | {1-32k}^{1-32k}^        |
-| [Gelatinbrain][gelatinbrain][^gelatinbrain]       |                         :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things      |
-| [pCubes][pCubes]                                  |                                                    %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle  |
-| [Ultimate Magic Cube][umc]                        |                                                    %platforms{w___} | %features{m___t___p_} | platonic 3D             |
-| [Ultimate Magic Cube 2][umc]                      |                       :material-language-csharp: • %platforms{w___} | %features{m___t_____} | platonic + misc 3D      |
-| [Hydropyrum][hydropyrum][^hydropyrum]             | [:material-language-javascript:][hydropyrum-src] • %platforms{___b} | %features{m_______p_} | symmetric 3D + jumbling |
-| [Twizzle Explorer][twizzle]                       |    [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
-| [IsoCubeSim][ics]                                 |                         :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
-| [Twisty Puzzles 2D][tp2d][^tp2d]                  |       [:material-language-typescript:][tp2d-src] • %platforms{___b} | %features{m___t_____} | rotating-circle puzzles |
-| [Geraniums Pot][gpot][^wine]                      |           [:material-language-python:][gpot-src] • %platforms{wla_} | %features{m_______p_} | rotating-circle puzzles |
-| [circleguy]                                       |        [:material-language-rust:][circleguy-src] • %platforms{wl_b} | %features{mK______p_} | rotating-circle puzzles |
+| Program                                     |                                                           Platforms | Features              | Puzzles                 |
+| ------------------------------------------- | ------------------------------------------------------------------: | --------------------- | ----------------------- |
+| [Hyperspeedcube][hsc]                       |              [:material-language-rust:][hsc-src] • %platforms{wlab} | %features{mKsft__c__} | {1-9}^{3-4}^            |
+| [Magic Cube 4D][mc4d]                       |             [:material-language-java:][mc4d-src] • %platforms{wla_} | %features{m____M_cp_} | 4D via Schläfli symbol  |
+| [MagicTile][mt]                             |             [:material-language-csharp:][mt-src] • %platforms{wla_} | %features{m____M_cp_} | 2D tilings              |
+| [Magic Puzzle Ultimate][mpu]                |            [:material-language-csharp:][mpu-src] • %platforms{w___} | %features{m__ftM_cp_} | 3D+ doctrinaire         |
+| [Magic Cube 7D][mc7d]                       |           [:material-language-csharp:][mc7d-src] • %platforms{w___} | %features{m_sftM_c__} | {3-5}^{4-7}^            |
+| [MC7D-KB][mc7d-kb][^mc7d-mac]               |        [:material-language-csharp:][mc7d-kb-src] • %platforms{w_a_} | %features{mKsftM_c__} | {2-7}^{4-7}^            |
+| [Magic Cube 5D][mc5d]                       |              [:material-language-cpp:][mc5d-src] • %platforms{w___} | %features{m_sf_M_c__} | {2-7}^5^                |
+| [Magic Cube 4D VR][mc4d-vr]                 |                                 :material-unity: • %platforms{wl__} | %features{_________v} | 3^4^                    |
+| [Flat Hypercube][flat]                      |             [:material-language-rust:][flat-src] • %platforms{wla_} | %features{_Ksf___c__} | {1-32k}^{1-32k}^        |
+| [Gelatinbrain][gelatinbrain][^gelatinbrain] |                         :material-language-java: • %platforms{wla_} | %features{m_____T___} | many cursed things      |
+| [pCubes][pCubes]                            |                                                    %platforms{w___} | %features{m___t___p_} | nearly every 3D puzzle  |
+| [Ultimate Magic Cube][umc]                  |                                                    %platforms{w___} | %features{m___t___p_} | platonic 3D             |
+| [Ultimate Magic Cube 2][umc]                |                       :material-language-csharp: • %platforms{w___} | %features{m___t_____} | platonic + misc 3D      |
+| [Hydropyrum][hydropyrum][^hydropyrum]       | [:material-language-javascript:][hydropyrum-src] • %platforms{___b} | %features{m_______p_} | symmetric 3D + jumbling |
+| [Twizzle Explorer][twizzle]                 |    [:material-language-javascript:][twizzle-src] • %platforms{___b} | %features{mk____T_p_} | many 3D puzzles         |
+| [IsoCubeSim][ics]                           |                         :material-language-java: • %platforms{wla_} | %features{m___t___p_} | AxBxC, N-layer megaminx |
+| [Twisty Puzzles 2D][tp2d][^tp2d]            |       [:material-language-typescript:][tp2d-src] • %platforms{___b} | %features{m___t_____} | rotating-circle puzzles |
+| [Geraniums Pot][gpot][^wine]                |           [:material-language-python:][gpot-src] • %platforms{wla_} | %features{m_______p_} | rotating-circle puzzles |
+| [circleguy]                                 |        [:material-language-rust:][circleguy-src] • %platforms{wl_b} | %features{mK______p_} | rotating-circle puzzles |
 
 [hsc]: /software/hyperspeedcube.md
 [hsc-src]: https://github.com/HactarCE/Hyperspeedcube
@@ -170,6 +170,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 ### Geometry
 
 - [Orb](https://milojacquet.com/twisty/orb), for planning puzzle cut depths
+- [Twisty Vision](https://www.brandonenright.net/twistyvision.html), also for planning cut depths, with both planar and conical cuts
 - [Dynamic Orbit Tracing Simulator (DOTS)](https://b10101101.github.io/DOTS-advanced/DOTS___v1.8.7_standalone.html), for designing circle puzzles
 - [Discrete Hopf Fibration](https://www.inf.fu-berlin.de/inst/ag-ti/software/DiscreteHopfFibration/), for exploring swirlchora to build puzzles from
 - [Puzzle Explorer](https://puzzle-explorer.chandler.io/) by QuirkyCubes (Chandler)
