@@ -12,9 +12,9 @@ Assume each facet is at distance $1$ from the origin. Then each vertex is at dis
 
 | Common Name               | Technical Name | Cut distance                      | Piece types  |
 | ------------------------- | -------------- | --------------------------------- | ------------ |
-| Halpern-Meier Tetrahedron | 4-Simplex C    | $\left( -\frac{1}{3}, 1 \right)$  | 1g + 2g + 3g |
-| Tetraminx                 | 4-Simplex B    | $-\frac{1}{3}$                    | 2g + 3g      |
-|                           | 4-Simplex A    | $\left( -1, -\frac{1}{3} \right)$ | 2g + 3g + 4g |
+| Halpern-Meier Tetrahedron | Tetrahedron C  | $\left( -\frac{1}{3}, 1 \right)$  | 1g + 2g + 3g |
+| Tetraminx                 | Tetrahedron B  | $-\frac{1}{3}$                    | 2g + 3g      |
+|                           | Tetrahedron A  | $\left( -1, -\frac{1}{3} \right)$ | 2g + 3g + 4g |
 | 2-Layer Pyraminx          |                | $\left( -3, -1 \right]$           | 3g + 4g      |
 
 ##### Piece types
@@ -34,13 +34,13 @@ Each facet-turning cut distance $d_v$ is equivalent to the facet-turning cut_dep
 | Common Name               | Technical Name | Cut distance                     | Piece types  |
 | ------------------------- | -------------- | -------------------------------- | ------------ |
 | 2-Layer Pyraminx          |                | $\left[ 1, 3 \right)$            | 0g + 1g      |
-|                           | 4-Simplex A    | $\left( \frac{1}{3}, 1 \right)$  | 0g + 1g + 2g |
-| Tetraminx                 | 4-Simplex B    | $\frac{1}{3}$                    | 1g + 2g      |
-| Halpern-Meier Tetrahedron | 4-Simplex C    | $\left( -1, \frac{1}{3} \right)$ | 1g + 2g + 3g |
+|                           | Tetrahedron A    | $\left( \frac{1}{3}, 1 \right)$  | 0g + 1g + 2g |
+| Tetraminx                 | Tetrahedron B    | $\frac{1}{3}$                    | 1g + 2g      |
+| Halpern-Meier Tetrahedron | Tetrahedron C    | $\left( -1, \frac{1}{3} \right)$ | 1g + 2g + 3g |
 
-#### 4-Simplex Pyraminx
+#### Pyraminx
 
-The 3-Layer 4-Simplex Pyraminx is a combination of the 2-Layer 4-Simplex Pyraminx with 4-Simplex A.
+The 3-Layer Pyraminx is a combination of the 2-Layer Pyraminx with Tetrahedron A.
 
 ### Dodecahedron
 

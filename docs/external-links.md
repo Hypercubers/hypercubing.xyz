@@ -4,9 +4,9 @@
 
 - [Hypercubing Leaderboards] — Hypercubing leaderboards, [started](https://github.com/Hypercubers/hypercubing.xyz/commit/8cb5a8c72eaf2faab345ace67904f4f9d27de77d) at the beginning of 2023 and redone in 2025.
 - [Magic Cube 4D Hall of Fame](https://superliminal.com/cube/halloffame.htm) — Original Hall of Fame, listing the first known solves of hypercube puzzles and some FMC records. New solvers are no longer accepted since reaching 500 solvers.
-- [MC4D Records - Superliminal Wiki](http://wiki.superliminal.com/wiki/MC4D_Records) — Records for many other puzzles found in [MC4D](/software/magiccube4d.md).
-- [MPUlt Records - Superliminal Wiki](http://wiki.superliminal.com/wiki/MPUlt_Records)
-- [MagicTile Records - Superliminal Wiki](http://wiki.superliminal.com/wiki/MagicTile_v2_Solutions)
+- [MC4D Records - Superliminal Wiki](http://superliminal.com/cube/wiki/MC4D_Records.html) — Records for many other puzzles found in [MC4D](/software/magiccube4d.md).
+- [MPUlt Records - Superliminal Wiki](http://superliminal.com/cube/wiki/MPUlt_Records.html)
+- [MagicTile Records - Superliminal Wiki](http://superliminal.com/cube/wiki/MagicTile_v2_Solutions.html)
 - [Magic Cube 5D Hall of Insanity](http://www.gravitation3d.com/magiccube5d/hallofinsanity.html) — List of all known solvers of 2^5^-7^5^ and FMC records.
 - [Magic Cube 7D Solvers](https://superliminal.com/andrey/mc7d/) — List of all known solvers of 6D and 7D puzzles in MC7D.
 - [Magic 120 Cell Solvers](http://www.gravitation3d.com/magic120cell/index.html) — List of all known solvers of 120-cell puzzles in M120C or MPU.

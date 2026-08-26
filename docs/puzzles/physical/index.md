@@ -16,13 +16,13 @@ For a documentary about the history of physical puzzles as of December 2022, see
 - [Grant's 2×2×2×3](/puzzles/physical/2x2x2x3.md)
 - [Grant's 2×2×3×3](/puzzles/physical/2x2x3x3.md)
 - [Grant's 2×3×3×3](/puzzles/physical/2x3x3x3.md)
-- Grant's 1×1×1×1
 - [Grant's 3×3×3×3](/puzzles/physical/3x3x3x3.md)
 - [Dominik's 4D Pyraminx](/puzzles/physical/4d-pyraminx.md)
 - [Tymon's 1×2×2×2](/puzzles/physical/1x2x2x2.md)
 - [Tymon's 1×2×2×3](/puzzles/physical/1x2x2x3.md)
 - [Tymon's 1×2×3×3](/puzzles/physical/1x2x3x3.md)
 - [Tymon's 1×3×3×3](/puzzles/physical/1x3x3x3.md)
+- [1×1×1×1](/puzzles/physical/1x1x1x1.md)
 
 ## Designs that haven't been built yet
 

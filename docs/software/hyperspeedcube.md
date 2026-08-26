@@ -75,6 +75,10 @@ If none of the instructions below help, join the [Hypercubers Discord server][di
 
 #### Linux
 
+??? failure ""interface 'wl_surface' has no event 2""
+
+    Try `WINIT_UNIX_BACKEND=x11 ./hyperspeedcube`.
+
 Check that you have up-to-date graphics drivers installed. If that doesn't help, you're on your own.
 
 If there's any changes you make to the Hyperspeedcube source code to get it working, [please open an issue or PR on GitHub](https://github.com/HactarCE/Hyperspeedcube). If you're able to make an package for HSC for your package manager, please let me know either on Discord or GitHub Issues.
@@ -118,7 +122,7 @@ See [Hactar's website](https://ajfarkas.dev/hyperspeedcube/#future-plans) for mo
 ![Hypercuboid twisted in an incorrect way (2022-10-13)](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-10-13_janky_cuboid.png?width=817&height=671){width="24.5%"}
 ![3D Jing's pyraminx puzzle, with a popup saying that the program crashed (2022-10-13)](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-10-13_jing_crash.png){width="24.5%"}
 ![{3}×{5} duoprism (2022-10-13)](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-11-18_duoprism.png){width="24.5%"}
-![Uncolored 120-cell puzzle](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-11-18_120_cell.png){width="24.5%"}
+![Uncolored 120-cell](https://assets.hypercubing.xyz/img/virt/hsc/history/2022-11-18_120_cell.png){width="24.5%"}
 
 #### Graphics debugging (early 2024)
 

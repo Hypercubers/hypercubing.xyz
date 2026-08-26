@@ -50,6 +50,7 @@ hide: [navigation, toc]
 - [Speedsolving](#speedsolving)
     - [What are the speedsolving records for 4D puzzles?](#what-are-the-speedsolving-records-for-4d-puzzles)
     - [Why not use speedrun.com?](#why-not-use-speedruncom)
+    - [What keybinds should I use for hypercubing?](#what-keybinds-should-i-use-for-hypercubing)
     - [I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?](#i-dont-know-full-ollpllzblletc-can-i-still-get-fast-at-4d)
     - [What 4D algorithms are there?](#what-4d-algorithms-are-there)
     - [4D Sexy Move](#4d-sexy-move)
@@ -168,7 +169,7 @@ See [God's Number](/theory/gods-number.md).
 The physical 4D puzzles are puzzles that are perfectly analogous to the virtual 4D puzzles, but implemented in the physical world. See these links:
 
 - [Physical Puzzles](/puzzles/physical/index.md) on this site
-- [Physical Puzzle](http://wiki.superliminal.com/wiki/Physical_Puzzle) on the Superliminal Wiki
+- [Physical Puzzle](http://superliminal.com/cube/wiki/Physical_Puzzle.html) on the Superliminal Wiki
 - [Rowan Fortier's video about the history of physical hypercubes](https://www.youtube.com/watch?v=QTc-rG-nunA)
 
 ### How can I buy a physical 2×2×2×2?
@@ -252,6 +253,18 @@ See the [leaderboards](/leaderboards/index.md). To get on the leaderboard, read 
 ### Why not use speedrun.com?
 
 Speedrun.com does not allow "generic Rubik's Cube simulators." We applied and were rejected.
+
+Since then, we've added so much puzzles and so many categories (filters, macros, etc) that the UI on speedrun.com would be unwieldy anyway, and a custom leaderboard enables automatic verification which is essential for lowering the workload on our moderation team.
+
+### What keybinds should I use for hypercubing? 
+
+For any new puzzle (especially 3^4^) I recommend the following:
+
+1. Become comfortable with the default mouse controls for the puzzle. Mouse controls typically correspond directly to the notation we use and are easier to learn than keybinds. Until you are confident with mouse controls, I do not recommend trying to speedsolve a puzzle.
+2. Become comfortable with the default keyboard controls for the puzzle, if they exist. These are generally designed to be easy to learn, and will be faster than mouse controls. The default keybinds in Hyperspeedcube are updated over time with user feedback to make them easier to learn.
+3. _Only once you are confident solving with the default mouse and keyboard controls,_ I recommend designing your own keybinds that prioritize speed. In particular, try to bind common moves to single keys, and use different keybind sets for different stages of the solve. For example, I (Hactar) use three keybind sets when solving 3^4^: the defaults (for 4-cross), a set that provides single keys for `<I*, R*, UF*, DF*, FU*, BU*>` that I use for most of the solve, and an RKT set that provides single keys for RKT moves and [cancels](/techniques/rkt.md#cancels).
+
+Experienced hypercubers may disregard this advice, particular in 5D+.
 
 ### I don't know full OLL/PLL/ZBLL/etc. Can I still get fast at 4D?
 

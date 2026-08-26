@@ -27,7 +27,7 @@ A **move** is a [node](#node) representing a twist or rotation of the puzzle. It
 
 - [Layer mask](#layer-mask) (optional)
 - [Family](#family) (required)
-- [Bracketed transform](#bracketed-transform) (optional)
+- [Constraint set](#constraint-set) (optional)
 
 Moves are repeatable.
 
@@ -50,48 +50,27 @@ Reversed ranges are the same: `{1..-1}` is the same as `{-1..1}` and `1-3` is th
 
 ##### Family
 
-A **move family** is a string of uppercase or lowercase Latin or Greek letters.
+A **move family** is a string of uppercase or lowercase Latin or Greek letters and underscores.
 
 Move families on 3^3^ include `R`, `F`, `Rw`, `x`, etc. Move families on 3^4^ include `R`, `RO`, `LDBI`, `wz`, etc. Move families on 3^5^ include `U`, `A`, `Azx`, etc.
 
-A move family often represents a complete move (as is the case on 3^3^), but not always. On 3^4^ and 3^5^, move families such as `R` require a [bracketed transform](#bracketed-transform) afterward to specify a complete move.
+A move family often represents a complete move (as is the case on 3^3^), but not always. On 3^4^ and 3^5^, move families such as `R` require a [constraint set](#constraint-set) afterward to specify a complete move.
 
-##### Bracketed transform
+##### Constraint set
 
-A bracketed transform is a set of square brackets `[]` with contents inside consisting of letters, numbers, symbols from the set `'-<>|`, and spaces (no other whitespace). Other symbols may be added to this list in the future.
+A constraint set is a set of curly braces `{}` containing zero or more comma-separated constraints with optional whitespace around them. There are three kinds of constraints:
 
-Different puzzles can use bracketed transforms in different ways. There are two common ways most puzzles use them: [sequential transforms](#sequential-transforms) and [transform constraints](#transform-constraints).
+- `A -> B`, which indicates that `A` must transform to `B`
+- `A <> B`, which indicates that `A` must transform to `B` and that `B` must transform to `A`
+- `A`, which indicates that `A` must transform to itself
 
-###### Sequential transforms
+`A` and `B` here may be any move families.
 
-On some puzzles, a single move is most efficiently written as a composition of two moves on the same axis. For example, `Rj` represents the small jumbling angle ~70.5287794°, so `R[1 j']` is equivalent to `&(R Rj')`.
-
-??? question "Why are sequential transforms necessary?"
-
-    Consider a complex layer mask, like `{1,3,5,7}` (common for checkerboards). Without sequential transforms, we must duplicate the layer mask: `{1,3,5,7}R {1,3,5,7}Rj'`. With sequential transforms, we can write `{1,3,5,7}R[1 j']`.
-
-###### Transform constraints
-
-On some puzzles, moves can only be written using a list of constraints separated by `|`, where each constraint is two axes separated by `->`. For example, `I[F->U | R->P]` represents a [double rotation](https://en.wikipedia.org/wiki/Rotations_in_4-dimensional_Euclidean_space#Double_rotations) twist on 3^5^. When a transform is underconstrained, the "simplest" transform that matches the constraints is typically correct. (This should only be used for moves where there is an obvious answer.)
+For example, `I{F->U, R->P}` represents a [double rotation](https://en.wikipedia.org/wiki/Rotations_in_4-dimensional_Euclidean_space#Double_rotations) twist on 3^5^. When a transform is underconstrained, the "simplest" transform that matches the constraints is typically correct. (This should only be used for moves where there is an obvious answer.)
 
 This also allows writing moves in an abstract or puzzle-general way.
 
-- Example: `R[F->U]` represents an `R` move on 3^3^ and FTO, and an analogous move on all higher-dimensional 3^n^
-
-??? question "Why `|`?"
-
-    - It's not used for anything else in notation.
-    - It's unlikely to be useful for anything else.
-    - If it is ever useful for anything else, this is only a very narrow context in which it is already used.
-    - It's already used to introduce constraints in set-builder notation: $\{ x | x < 5 \}$.
-    - Comma `,` and colon `:` are already used for [commutators](#commutator) and [conjugates](#conjugate).
-
-??? warning "Open questions"
-
-    - How to write a fixed axis? Possibilities:
-      - `I[R->U | F]`
-      - `I[R->U | F->F]`
-      - some symbol before `F`
+- Example: `R{F->U}` represents an `R` move on 3^3^ and FTO, and an analogous move on all higher-dimensional 3^n^
 
 #### Rotation
 
@@ -99,12 +78,12 @@ A [rotation](#rotation) is a [node](#node) representing a rotation of the whole 
 
 - `@`
 - [Family](#family) (optional)
-- [Bracketed transform](#bracketed-transform) (optional)
+- [Constraint set](#constraint-set) (optional)
 
 Examples:
 
 - `@R` is a rotation that moves like an `R` move.
-- `@[F->U]` is a rotation that takes `F` to `U`.
+- `@{F->U}` is a rotation that takes `F` to `U`.
 
 Rotations are repeatable.
 
@@ -169,11 +148,11 @@ Commutators are repeatable.
 
 #### Square-1
 
-Square-1 moves are of the form `(n, d)` (where `n` and `d` are signed integers) and `/`. These cannot be used with layer masks, transforms, or multipliers.
+Square-1 moves are of the form `(n, d)` (where `n` and `d` are signed integers) and `/`. These cannot be used with layer masks, constraint sets, or multipliers.
 
 #### Megaminx scrambling
 
-Megaminx scrambling uses the moves `R++`, `R--`, `D++`, and `D--`. These cannot be used with layer masks, transforms, or multipliers.
+Megaminx scrambling uses the moves `R++`, `R--`, `D++`, and `D--`. These cannot be used with layer masks, constraint sets, or multipliers.
 
 ### Multiplier
 
@@ -191,8 +170,8 @@ This section defines common conventions for axes and move families. These should
 - Uppercase Greek alphabet: `ΓΔΘΛΞΠΣΦΨΩ` (Greek letters that are visually similar to Latin letters have been excluded)
 - Lowercase Latin alphabet: `abcdefghijklmnopqrstuvwyxz`
 - Lowercase Greek alphabet
-    - Large lowercase: `βδζθλξ`
-    - Small lowercase: `εηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
+    - Tall lowercase: `βδζθλξ`
+    - Short lowercase: `εηκμπτφψω` (Greek letters that are visually similar to Latin letters have been excluded)
 
 Other Greek letters are recommended to NOT be used because they are too similar in appearance to Latin letters.
 
@@ -292,7 +271,7 @@ The letters `A`-`Z` are often used to name elements in an ordered sequence, such
 | ...             | ...    |
 | ΩZ              | 286    |
 
-When multiple sets of uppercase letters are needed, they may be distinguished using a lowercase Latin letter as a prefix. If more than 26 prefixes are needed, they may be preceeded by a bijective numeration similar to the uppercaes letters.
+When multiple sets of uppercase letters are needed, they may be distinguished using a lowercase Latin letter as a prefix. If more than 26 prefixes are needed, they may be preceded by a bijective numeration similar to the uppercase letters.
 
 The {100}x{4} duoprism serves as an example of a puzzle that requires more than 26 sequential names.[^hundredagonal-duoprism] It has 104 cells, which in this proposal would be named `aA`, `aB`, ..., `aΘU`, `aΘV`, `bA`, `bB`, `bC`, `bD`
 
@@ -300,28 +279,22 @@ The {100}x{4} duoprism serves as an example of a puzzle that requires more than 
 
 ### Lowercase Greek alphabet (sequential)
 
-For when there are multiple sets of axes assigned Latin letters, they can be distinguished using a small lowercase Greek prefix. For example:
-
-| Group | Names                 |
-| ----- | --------------------- |
-| 1     | `εA`, `εB`, `εC`, ... |
-| 2     | `ηA`, `ηB`, `ηC`, ... |
-| 3     | `κA`, `κB`, `κC`, ... |
+Lowercase Greek letters are currently unused.
 
 ### Lowercase Greek alphabet (semantic)
 
-The large lowercase Greek letters are reserved for semantic uses. Currently, only `β` has a use. Others are reserved for future use.
+The large lowercase Greek letters are reserved for opposite axis sets. Occasionally, a puzzle will have multiple sets of opposite axes. For example, each face of the Klein Quartic tiling has 2 opposite axes.
 
-| Letter | Use      |
-| ------ | -------- |
-| `β`    | Opposite |
-| `δ`    |          |
-| `ζ`    |          |
-| `θ`    |          |
-| `λ`    |          |
-| `ξ`    |          |
+| Letter | Use          |
+| ------ | ------------ |
+| `β`    | 1st opposite |
+| `δ`    | 2nd opposite |
+| `ζ`    | ...          |
+| `θ`    |              |
+| `λ`    |              |
+| `ξ`    |              |
 
-For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` comes after small lowercase Greek letters but before uppercase Greek letters.
+For example, `βA` is the axis opposite from `A`, on a puzzle where there is otherwise no convenient semantic name for the axis opposite from `A`. In this usage, `β` is between the lowercase Latin sequence (if any) and the uppercase Latin sequence. For example, `aβA`, not `βaA`.
 
 ### Cube axes
 
@@ -367,8 +340,8 @@ In high dimensions, Greek letters become useful.
 - Greek letters provide an extension to the Latin alphabet with more nuanced aesthetics, aiding readability.
     - Greek uppercase letters fit in well with Latin uppercase letters.
     - Greek lowercase letters contrast very strongly with Latin uppercase letters.
-        - Small lowercase letters provide a good set of prefixes.
-        - Large lowercase letters are reserved for future use.
+        - Short lowercase letters provide a good set of prefixes.
+        - Tall lowercase letters are reserved for future use.
 - We want to avoid lowercase letters, because this conflicts with 3D conventions that use lowercase letters for wide moves or inner moves. We also want to avoid uppercase letters with existing uses (M, E, S, P, x, y, z, w, v).
     - This is partially a compatibility concern, but mostly a psychological semantic one. Humans reading lowercase letters may have misconceptions about their uses based on uses in other cubing notation.
 - Greek letters allow us to keep facet names [prefix-free](https://en.wikipedia.org/wiki/Prefix_code) while still using single-character names for sequences of 26 elements of fewer.
@@ -378,19 +351,27 @@ In high dimensions, Greek letters become useful.
 - We want to preserve uppercase letters for ad-hoc definitions, both for nonrigorous communication between humans and for rigorous move input.
 - Writing moves manually using Greek letters is likely to be extremely rare outside a handful of people.
     - E.g., Duoprisms have ASCII execution notation for a common subset of moves.
-- Flat Hypercube already uses greek letters for hypercubes of dimension 6+:
+- Flat Hypercube already uses Greek letters for hypercubes of dimension 6+:
 
 ### Why curly-brace layer sets?
 
-It is a very common convention in hypercubing software to hold down any set of number keys to apply a "layer mask" to a move. Given that individual moves may require many characters to write (such as `I[F->B,U->R]`) it is very awkward to require duplicating this many times.
+It is a very common convention in hypercubing software to hold down any set of number keys to apply a "layer mask" to a move. Given that individual moves may require many characters to write (such as `I{F->B,U->R}`) it is very awkward to require duplicating this many times.
 
 - E.g., Suppose we want to write the 7^4^ move `{1,3,5,7}IUR` using only ridge turns. (This is a contrived example because we _do_ have a way to write edge turns on n^4^, but on some puzzles these moves can only be easily written using simultaneous move notation.) With layer sets, we can write `&({1,3,5,7}IF {1,3,5,7}IR2)`; without layer sets, we must write `&(IF 3IF 5IF 7IF IR2 3IR2 5IR2 7IR2)`.
     - We _could_ write it the long way, but we lose important semantics and it becomes much less readable.
-    - Transform notation makes this problem even worse: `{1,3,5,7}I[U->R,F->B]` vs. `&(I[U->R,F->B] 3I[U->R,F->B] 5I[U->R,F->B] 7I[U->R,F->B])`
-    - Any layer mask can be used for a single move in hypercubing software, and we treat it as a single move! It should be possible to express concisely in notation
+    - Transform notation makes this problem even worse: `{1,3,5,7}I{U->R,F->B}` vs. `&(I{U->R,F->B} 3I{U->R,F->B} 5I{U->R,F->B} 7I{U->R,F->B})`
+    - Any layer mask can be used for a single move in hypercubing software, and we treat it as a single move! It should be possible to express concisely in notation.
 - Checkerboard patterns on big cubes are a major example where this problem appears.
 - Negative numbers count from the other side (generalized big cube algorithms!)
     - Generic middle slice on big cubes: `~{1,-1}R` or `{2..-2}R`
+
+### Why curly-brace constraint sets?
+
+- `[]` is already used for commutator notation.
+    - A previous draft used `A[B->C|D->E]`, but `|` implies "or" semantics when we want "and" semantics.
+- `{}` has consistent semantics with layer sets: unordered set of elements.
+    - Easy for a computer to parse the difference (different position)
+    - Easy for a human to parse the difference (numbers vs. letters)
 
 ### Why invert layer masks?
 
@@ -407,10 +388,10 @@ It is a very common convention in hypercubing software to hold down any set of n
     - This doesn't generalize at all in higher dimensions.
     - This doesn't generalize to many shapes; e.g., most edges and all vertices on a polygonal prism do not correspond to rotations that preserve the puzzle symmetry.
 - Syntax for rotations using arbitrary transforms is unclear.
-    - `U[R->F]v`?
-    - `Uv[R->F]`?
-    - `v[R->F]`
-    - `[R->F]v`?
+    - `U{R->F}v`?
+    - `Uv{R->F}`?
+    - `v{R->F}`
+    - `{R->F}v`?
 - Lowercase `v` may refer to the 5th dimension, particularly in execution notation. (e.g., `xv` for the rotation from +X to +V)
 
 ### Why use `@` for whole-puzzle rotations?
@@ -491,42 +472,31 @@ pub enum GroupKind {
 pub struct Move {
     pub layer_mask: LayerMask,
     pub family: String,
-    pub transform: Option<BracketedTransformSeq>,
+    pub constraint_set: Option<ConstraintSet>,
 }
 
 pub struct Rotation {
     pub family: Option<String>,
-    pub transform: Option<BracketedTransformSeq>,
+    pub constraint_set: Option<ConstraintSet>,
 }
 
-pub struct BracketedTransformSeq {
-    /// Sequence of transforms. Each transform can be parsed into a `FamilySuffix` or `ConstraintSet` using [`bracketed_transform_util`] (generally only one will be used depending on the puzzle).
-    pub transform_sequence: Vec<String>,
+
+pub struct ConstraintSet {
+    pub constraints: Vec<Constraint>,
 }
 
-mod bracketed_transform_util {
-    pub struct FamilySuffix {
-        pub family_suffix: String,
-        pub multiplier: Option<i32>,
+pub enum Constraint {
+    FromTo {
+        element_start: String,
+        element_end: String,
     }
-
-    pub struct ConstraintSet {
-        pub constraints: Vec<Constraint>,
-    }
-    pub enum Constraint {
-        Fixed {
-            pub element: String,
-        },
-        Moving {
-            pub element_start: String,
-            pub element_end: String,
-        },
-    }
-}
-
-impl BracketedTransform {
-    pub fn as_family_suffix() -> Option<(String, i32)>;
-    pub fn as_constraints() -> Option<ConstraintSet>;
+    Swap {
+        element_1: String,
+        element_2: String,
+    },
+    Fixed {
+        element: String,
+    },
 }
 
 pub struct LayerMask {
