@@ -110,12 +110,12 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [m120c]: http://www.gravitation3d.com/magic120cell/
 [m120c-src]: https://github.com/roice3/Magic120Cell
 [11cell]: https://superliminal.com/cube/ElevenCell.jar
-<<<<<<< HEAD
-[elevencell3D]: https://github.com/SuperSnowman16/ElevenCell3D/releases/latest
-[elevencell3Dsrc]: https://github.com/SuperSnowman16/ElevenCell3D/
-=======
+[elevencell3d]: https://github.com/SuperSnowman16/ElevenCell3D/releases/latest
+[elevencell3d-src]: https://github.com/SuperSnowman16/ElevenCell3D/
+[mht633]: https://superliminal.com/andrey/mht633/
 [twisty-prisms]: https://staff.fim.uni-passau.de/kreuzer/TP/TwistyPrisms.html
 [qCubes and qMinx]: https://mzrg.com/js/
+[zasharan phys]: https://zasharan2.github.io/2x2x2x2/
 
 ### 1D and 2D puzzles
 
@@ -170,6 +170,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 ### Geometry
 
 - [Orb](https://milojacquet.com/twisty/orb), for planning puzzle cut depths
+- [Twisty Vision](https://www.brandonenright.net/twistyvision.html), also for planning cut depths, with both planar and conical cuts
 - [Dynamic Orbit Tracing Simulator (DOTS)](https://b10101101.github.io/DOTS-advanced/DOTS___v1.8.7_standalone.html), for designing circle puzzles
 - [Discrete Hopf Fibration](https://www.inf.fu-berlin.de/inst/ag-ti/software/DiscreteHopfFibration/), for exploring swirlchora to build puzzles from
 - [Puzzle Explorer](https://puzzle-explorer.chandler.io/) by QuirkyCubes (Chandler)
