@@ -10,7 +10,7 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 - The **grip signature** of a piece is the status of each grip. In particular, the **current grip signature** of a piece is its grip signature in whatever state the puzzle is in right now. As a piece moves around, its current grip signature changes.
 - In casual conversation, we say that a piece **has** a grip if that grip is active for the piece.
 - The **solved grip signature** or **initial grip signature** of a piece is the grip signature it in its solved position.
-- A **puzzle** is defined by a grip group (e.g., rotations of a cube), a set of axes that are permuted by a grip group (e.g., faces of a cube), and a set of pieces. Each piece is defined by its initial grip signature, which dictates how it moves around.
+- A **puzzle** is defined by a grip group (e.g., rotations of a cube), a set of axes that are permuted[^acted-on] by a grip group (e.g., faces of a cube), and a set of pieces. Each piece is defined by its initial grip signature, which dictates how it moves around.
 - A **puzzle state** is just an attitude for each piece.
 - The current grip signature of each piece can be determined by transforming each member of its initial grip set by the current attitude of the piece.
 - To apply a twist to a puzzle: take all the pieces that are active on that grip and update each piece's attitude by composing it with the twist rotation. In other words: rotate all the pieces on that grip.
@@ -23,6 +23,7 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 [^inverting]: And inverting them.
 [^transformations]: Actually the grip group doesn't have to consist of transformations of space. The important thing is just that the grip group permutes grips.
 [^reachable]: Not all attitudes may be reachable, particularly in bandaged puzzles or if you've chosen a larger grip group than necessary (e.g., describing an FTO using octahedral symmetry instead of tetrahedral symmetry).
+[^acted-on]: This is called a [group action](https://en.wikipedia.org/wiki/Group_action).
 
 ## Bonus round: bandaging
 
@@ -56,4 +57,4 @@ Grip theory technically works for everything, but some puzzles have more structu
 - To apply a twist to a puzzle: take all the pieces that are active on any of the layers of the twist and update each piece's attitude by composing it with the twist rotation. In other words: rotate[^rotations][^transformations] all the pieces in those layers.
 
 [^pointwise]: Pointwise-stabilizes, so each layer stays where it is.
-[^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)).
+[^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)), where each axis is a block for the action of the grip group on layers.
