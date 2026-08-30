@@ -1,4 +1,4 @@
-# Piece invariants
+# Piece Invariants
 
 Many puzzles exhibit a phenomenon where the position or orientation of some pieces are determined by the position or orientation of the other pieces. This can often be captured with an invariant, a function of position that does not change when moves are applied, and calculating the invariant can identify whether a position is valid or not. Invariants are useful when computing the total number of positions of a puzzle.
 
