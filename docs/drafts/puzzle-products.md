@@ -147,4 +147,4 @@ Axis subgroups are also nice because they capture more structure than twist subs
 
 Let's use axis subgroups. Let $H_a$ be the subgroup of an axis $a$.
 
-We can define the subgroup of a product axis $H_{a_\alpha}$ in the product puzzle to be $H_{a_\alpha} \times G_\beta$; likewise $H_{b_\beta}$ in the product puzzle is $G_\alpha \times H_{b_\beta}$.
+We can define the subgroup of a product axis $H_{a_\alpha}$ in the product puzzle to be $H_{a_\alpha} \times G_\beta$; likewise $H_{a_\beta}$ in the product puzzle is $G_\alpha \times H_{a_\beta}$.
