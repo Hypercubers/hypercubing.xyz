@@ -16,7 +16,7 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 - To apply a twist to a puzzle: take all the pieces that are active on that grip and update each piece's attitude by composing it with the twist rotation. In other words: rotate all the pieces on that grip.
 
 [^solved-position]: This definition only works for super cubes, where all pieces and attitudes are distinguishable. It's possible to handle indistinguishable pieces/orientations by instead saying the attitude is the set of all indistinguishable rotations.
-[^grip] Actually a grip is just anything that can be permuted by elements from the grip group.
+[^grip]: Actually a grip is just anything that can be permuted by elements from the grip group.
 [^turnable]: Some grips might not actually be turnable because they are always blocked. In particular, jumbling puzzles have infinitely many grips but (usually) only finitely many of them can ever be twisted.
 [^group]: Actually a [group](https://en.wikipedia.org/wiki/Group_(mathematics)).
 [^rotations]: And reflections, sometimes.
@@ -56,4 +56,4 @@ Grip theory technically works for everything, but some puzzles have more structu
 - To apply a twist to a puzzle: take all the pieces that are active on any of the layers of the twist and update each piece's attitude by composing it with the twist rotation. In other words: rotate[^rotations][^transformations] all the pieces in those layers.
 
 [^pointwise]: Pointwise-stabilizes, so each layer stays where it is.
-[^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory))
+[^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)).
