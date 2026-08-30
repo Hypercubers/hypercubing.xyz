@@ -1,6 +1,4 @@
-# Grip Theory
-
-Grip theory is a framework for analyzing many different kinds of twisty puzzles in a geometry-independent way. It was first developed on the TwistyPuzzles forum in 2009 in [this thread](https://twistypuzzles.com/forum/viewtopic.php?f=1&t=15667). Grip theory was originally used to describe doctrinaire puzzles in 3D, but it can be extended to describe bandaged puzzles, jumbling puzzles, higher-dimensional puzzles, and more.
+# Formal Introduction to Grip Theory
 
 ## Basic grip theory
 
