@@ -64,7 +64,7 @@ We typically sticker puzzles using **stickers**, which are partitioned into **co
 
 Colors are simple. If $C$ is the set of colors on a puzzle, then $C_{\alpha \times \beta} = C_\alpha \sqcup C_\beta$.
 
-Stickers are more complicated. If $S_p$ is the set of stickers for a piece $p$, then $S_\{p_\alpha \times p_\beta\} = S_{p_\alpha} \sqcup S_{p_\beta}$. In other words: the set of stickers for a piece in the product puzzle is the disjoint union of the stickers for each corresponding piece in the factor puzzles.
+Stickers are more complicated. If $S_p$ is the set of stickers for a piece $p$, then $S_{p_\alpha \times p_\beta} = S_{p_\alpha} \sqcup S_{p_\beta}$. In other words: the set of stickers for a piece in the product puzzle is the disjoint union of the stickers for each corresponding piece in the factor puzzles.
 
 ## Example: canon-cut FT pentagonal prism
 
@@ -129,16 +129,22 @@ We could say that the FT pentagonal prism is the _rotational subpuzzle_ of produ
 
 We could define the **rotational subpuzzle** of a puzzle as the puzzle with only the orientation-preserving elements of the grip group, and everything else the same. This works for our pentagonal prism example; however, it does not work for puzzles such as the [Hemimegaminx](/puzzles/hemimegaminx.md) and [Klein Bottle Rubik](https://www.youtube.com/watch?v=DvZnh7-nslo), which are constructed in non-orientable spaces. The grip group for each of those puzzles has no subgroup we can choose that will contain only rotational twists.
 
-## Option 2: Add a twist subset
+### Option 2: Add a twist subset
 
 We could add a **twist subset** for the whole puzzle. This is a subset of possible twists that are actually allowed to be performed.
 
 Then the **rotational subpuzzle** of a puzzle is simply one where the set of twists has had all the reflections removed. This works!
 
-## Option 3: Add axis subgroups
+### Option 3: Add axis subgroups
 
 Alternatively, we could add an **axis subgroup** to each axis, which is a subgroup of the stabilizer of the axis in the grip group from which twists on that axis must be constructed. I.e., it's some subgroup that keeps the axis fixed.
 
 Then the **rotational subpuzzle** is the puzzle where all the axis subgroups have had reflections removed. This works!
 
 Axis subgroups are also nice because they capture more structure than twist subsets: for example, they enforce that composing two twists on an axis always results in another twist.
+
+## New definition, using axis subgroups
+
+Let's use axis subgroups. Let $H_a$ be the subgroup of an axis $a$.
+
+We can define the subgroup of a product axis $H_{a_\alpha}$ in the product puzzle to be $H_{a_\alpha} \times G_\beta$; likewise $H_{b_\beta}$ in the product puzzle is $G_\alpha \times H_{b_\beta}$.
