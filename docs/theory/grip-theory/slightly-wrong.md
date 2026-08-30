@@ -2,9 +2,11 @@
 
 Grip Theory is actually really simple if you hide all the complicated stuff in footnotes.
 
+## Basics
+
 - The **attitude** of a piece is its current rotation compared to the solved[^solved-position] position.
 - A **grip** is a region of space[^grip] you can[^turnable] turn.
-- A **twist** consists of a grip and a rotation that keeps that grip fixed (the rotation "stabilizes" the grip).
+- A **twist** consists of a grip and a rotation[^rotations] that keeps that grip fixed (the rotation "stabilizes" the grip).
 - The **grip group** is the set[^group] of all the twist rotations[^rotations] and the rotations you can get by composing[^inverting] them (doing one and then the other).[^transformations] The grip group is the set of possible[^reachable] **attitudes** of a piece.
 - A grip is **active** on a piece if the piece is currently affected by twists on that grip. Otherwise the grip is **inactive** on that piece. I call this the **status** of the grip.
 - The **grip signature** of a piece is the status of each grip. In particular, the **current grip signature** of a piece is its grip signature in whatever state the puzzle is in right now. As a piece moves around, its current grip signature changes.
@@ -19,21 +21,27 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 [^grip]: Actually a grip is just anything that can be permuted by elements from the grip group.
 [^turnable]: Some grips might not actually be turnable because they are always blocked. In particular, jumbling puzzles have infinitely many grips but (usually) only finitely many of them can ever be twisted.
 [^group]: Actually a [group](https://en.wikipedia.org/wiki/Group_(mathematics)).
-[^rotations]: And reflections, sometimes.
+[^rotations]: Or reflection(s), sometimes.
 [^inverting]: And inverting them.
 [^transformations]: Actually the grip group doesn't have to consist of transformations of space. The important thing is just that the grip group permutes grips.
 [^reachable]: Not all attitudes may be reachable, particularly in bandaged puzzles or if you've chosen a larger grip group than necessary (e.g., describing an FTO using octahedral symmetry instead of tetrahedral symmetry).
 [^acted-on]: This is called a [group action](https://en.wikipedia.org/wiki/Group_action).
 
-## Bonus round: bandaging
+## Bandaging
+
+We can modify these definitions to support bandaged puzzles:
 
 - Besides "active" and "inactive," a grip may be **blocked** on a piece. When a grip is blocked on any piece then that grip cannot be turned.
 
-## Bonus round: fudging
+## Fudging
+
+We can modify these definitions to support fudged puzzles:
 
 - Just make up a permutation group for your grips. It doesn't have to match up with geometry.
 
-## Bonus round: jumbling
+## Jumbling
+
+We can modify these definitions to support jumbling puzzles:
 
 - Oops, our twist rotations (or some composition of them) forms an irrational angle.
 - Now our grip group has infinitely many rotations.
@@ -42,9 +50,9 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 
 [^reasonable]: For any reasonable puzzle, anyway.
 
-## Bonus round: lamination
+## Lamination
 
-Grip theory technically works for everything, but some puzzles have more structure. For these, we have **Laminated Theory**, which is more advanced. While Grip Theory and Laminated Theory are both capable of describing the same puzzles, sometimes they fit more nicley into one framework or the other.
+Grip theory technically works for everything, but some puzzles have more structure. For these, we have **Laminated Theory**, which is more advanced. While Grip Theory and Laminated Theory are both capable of describing the same puzzles, sometimes they fit more nicley into one framework or the other. Laminated Theory differs from Grip Theory in the following ways:
 
 - When grips have the same stabilizer (e.g., `R` and `L` on 3x3x3) then we can define them instead as distinct **layers** on an **axis**.
     - Even though we usually think of the 3x3x3 as having 3 layers, for Laminated Theory it's more useful to think of it as having 9 layers: `R`/`M`/`L`, `U`/`E`/`D`, `F`/`S`/`B`.
