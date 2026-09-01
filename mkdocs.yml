@@ -156,6 +156,13 @@ plugins:
         "leaderboards/solvers/messil.md": "https://lb.hypercubing.xyz/solver?id=56"
         "leaderboards/solvers/voytxt.md": "https://lb.hypercubing.xyz/solver?id=57"
         "leaderboards/solvers/emca.md": "https://lb.hypercubing.xyz/solver?id=58"
+        "puzzles/hemimegaminx.md": "puzzles/tilings/hemimegaminx.md"
+        "puzzles/2x2x2x2.md": "puzzles/4d-plus/2x2x2x2.md"
+        "puzzles/3x3x3x3.md": "puzzles/4d-plus/3x3x3x3.md"
+        "puzzles/3x3x3x3x3.md": "puzzles/4d-plus/3x3x3x3x3.md"
+        "puzzles/4d-skewb.md": "puzzles/4d-plus/4d-skewb.md"
+        "puzzles/hypercuboids.md": "puzzles/4d-plus/hypercuboids.md"
+        "puzzles/nxnxnxn.md": "puzzles/4d-plus/nxnxnxn.md"
 hooks:
   - hooks/feature_matrix.py
   - hooks/symbol_hooks.py

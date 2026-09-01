@@ -1,7 +1,7 @@
 # Hemimegaminx
 
 !!! info inline end "Hemimegaminx"
-    ![Hemimegaminx in MagicTile](https://assets.hypercubing.xyz/img/virt/mt_hemimega.png)
+    ![Hemimegaminx in MagicTile](https://assets.hypercubing.xyz/img/virt/tilings/mt_hemimega.png)
 
     **Shape:** [Hemi-dodecahedron](https://polytope.miraheze.org/wiki/Hemidodecahedron)
 
