@@ -16,6 +16,8 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 - A **puzzle state** is just an attitude for each piece.
 - The current grip signature of each piece can be determined by transforming each member of its initial grip set by the current attitude of the piece.
 - To apply a twist to a puzzle: take all the pieces that are active on that grip and update each piece's attitude by composing it with the twist rotation. In other words: rotate all the pieces on that grip.
+- A piece is **solved** when its attitude is the identity element (do-nothing rotation[^rotations]) of the grip group.[^super]
+- The puzzle is **solved** when all its pieces are solved.
 
 [^solved-position]: This definition only works for super cubes, where all pieces and attitudes are distinguishable. It's possible to handle indistinguishable pieces/orientations by instead saying the attitude is the set of all indistinguishable rotations.
 [^grip]: Actually a grip is just anything that can be permuted by elements from the grip group.
@@ -26,22 +28,23 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 [^transformations]: Actually the grip group doesn't have to consist of transformations of space. The important thing is just that the grip group permutes grips.
 [^reachable]: Not all attitudes may be reachable, particularly in bandaged puzzles or if you've chosen a larger grip group than necessary (e.g., describing an FTO using octahedral symmetry instead of tetrahedral symmetry).
 [^acted-on]: This is called a [group action](https://en.wikipedia.org/wiki/Group_action).
+[^super]: This only works for super puzzles. See [Indistinguishables](#indistinguishables) for non-super puzzles.
 
 ## Bandaging
 
-We can modify these definitions to support bandaged puzzles:
+We can modify these definitions to model bandaged puzzles:
 
 - Besides "active" and "inactive," a grip may be **blocked** on a piece. When a grip is blocked on any piece then that grip cannot be turned.
 
 ## Fudging
 
-We can modify these definitions to support fudged puzzles:
+We can modify these definitions to model fudged puzzles:
 
 - Just make up a permutation group for your grips. It doesn't have to match up with geometry.
 
 ## Jumbling
 
-We can modify these definitions to support jumbling puzzles:
+We can modify these definitions to model jumbling puzzles:
 
 - Oops, our twist rotations (or some composition of them) forms an irrational angle.
 - Now our grip group has infinitely many rotations.
@@ -52,7 +55,7 @@ We can modify these definitions to support jumbling puzzles:
 
 ## Lamination
 
-Grip theory technically works for everything, but some puzzles have more structure. For these, we have **Laminated Theory**, which is more advanced. While Grip Theory and Laminated Theory are both capable of describing the same puzzles, sometimes they fit more nicley into one framework or the other. Laminated Theory differs from Grip Theory in the following ways:
+Grip theory technically works for everything, but some puzzles have more structure. For these, we have **Laminated Theory**, which is more advanced. While Grip Theory and Laminated Theory are both capable of describing the same puzzles, sometimes they fit more nicely into one framework or the other. Laminated Theory differs from Grip Theory in the following ways:
 
 - When grips have the same stabilizer (e.g., `R` and `L` on 3x3x3) then we can define them instead as distinct **layers** on an **axis**.
     - Even though we usually think of the 3x3x3 as having 3 layers, for Laminated Theory it's more useful to think of it as having 9 layers: `R`/`M`/`L`, `U`/`E`/`D`, `F`/`S`/`B`.
@@ -67,3 +70,23 @@ Grip theory technically works for everything, but some puzzles have more structu
 [^layers]: Technically, layers are just arbitrary symbols; they don't need to correspond to regions in space.
 [^pointwise]: Pointwise-stabilizes the set of layers, so each layer stays where it is.
 [^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)), where each axis is a block for the action of the grip group on layers.
+
+## Position and orientation
+
+In both Laminated and Grip Theory, a piece may have multiple attitudes with the same grip signature. In this case, we can split[^quotient] the attitude into two components: **position** and **orientation**.
+
+- The **position** of a piece is the component of its attitude that affects its grip signature.
+- The **orientation** of a piece is the component of its attitude that does _not_ affect its grip signature.
+- The number of orientations times the number of positions always equals the number of attitudes.
+    - E.g., 3x3x3 corner piece has 8 positions $\times$ 3 orientations $=$ 24 attitudes.
+
+[^quotient]: Actually [quotient](https://en.wikipedia.org/wiki/Quotient_group).
+
+## Indistinguishables
+
+So far, we've only covered _super_ puzzles, where all pieces and orientations are distinguishable. We can modify this to model indistinguishable orientations (such as 3x3x3 centers) and indistinguishable pieces (such as 4x4x4 centers):
+
+- Instead of having a single attitude, a piece has a _set_ of attitudes, representing a superposition of all indistinguishable attitudes.
+    - The attitude set contains an element for each possible solved state of the piece. For example, a 4x4x4 center always has 4 elements in its attitude set, since there are 4 distinct attitudes it can take while still appearing solved.
+    - The grip signature of a piece is never in a superposition; the grip signature is fully determined by a piece's physical location on the puzzle.
+- A piece is **solved** when its set of attitudes contains the identity element of the grip group.
