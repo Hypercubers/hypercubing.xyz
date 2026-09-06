@@ -214,7 +214,9 @@ Lamination supports jumbling puzzles using infinitely many axes, similar to the 
 
 ### Equivalence
 
-Any puzzle expressed using laminated theory can be expressed using grip theory using a single grip for each layer. The grip group transforms the grips of the grip theory puzzle in the same way that it transforms the layers of the laminated puzzle.
+Any puzzle expressed using non-blocking-layers laminated theory can be expressed using grip theory using a single grip for each layer. The grip group transforms the grips of the grip theory puzzle in the same way that it transforms the layers of the laminated puzzle.
+
+Puzzles using the blocking-layers formulation of laminated theory may require a grip for every possible subset of layers on each axis. For example, consider a 4×4×4 with the FUR corner bandaged to the adjacent FU wing. This piece has the same active grips as the FUR corner ordinarily would, except that any grip containing the outer layer `F` without the inner layer `f`, or the inner layer `f` without the outer layer `F`, is blocked.
 
 Any puzzle expressed using grip theory can be expressed using laminated theory using a single axis with two layers for each grip. The layers correspond to "active" and "inactive" on the corresponding grip, and the set containing both layers is used to represent "blocked" grips.
 
