@@ -8,7 +8,7 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 - A **grip** is a region of space[^grip] you can[^turnable] turn.
 - A **twist** consists of a grip and a rotation[^rotations] that keeps that grip fixed (the rotation "stabilizes" the grip).
 - The **grip group** is the set[^group] of all the twist rotations[^rotations] and the rotations you can get by composing[^inverting] them (doing one and then the other).[^transformations] The grip group is the set of possible[^reachable] **attitudes** of a piece.
-- A grip is **active** on a piece if the piece is currently affected by twists on that grip. Otherwise the grip is **inactive** on that piece. I call this the **status** of the grip.
+- A grip is **active** on a piece if the piece is currently affected by twists on that grip. Otherwise the grip is **inactive** on that piece. We call this the **status** of the grip.
 - The **grip signature** of a piece is the status of each grip. In particular, the **current grip signature** of a piece is its grip signature in whatever state the puzzle is in right now. As a piece moves around, its current grip signature changes.
 - In casual conversation, we say that a piece **has** a grip if that grip is active for the piece.
 - The **solved grip signature** or **initial grip signature** of a piece is the grip signature it in its solved position.
