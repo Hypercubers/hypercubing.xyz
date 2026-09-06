@@ -201,10 +201,19 @@ Constructing the 3×3×3 is even more geometrically intuitive than before. Now, 
 
 Laminated puzzles, as the name suggests, are made of layers, so adding more layers is trivial. Moreover, even-layered puzzles can be constructed as naturally as odd-layered ones. This makes them a more natural description of these puzzles.
 
+### Blocking layers
+
+As described, lamination only supports doctrinaire puzzles. Lamination may be modified as follows to support blocking layers and twists of multiple layers at once:
+
+- Instead of assigning only one layer per axis to each piece, a piece has a set of layers overall, containing at least one layer per axis.
+- Instead of a twist having a layer $\lambda$, it has a layer set $\Lambda$.
+
+Then a twist on an axis $a$ is blocked if any piece has at least one layer on $a$ in $\Lambda$ _and_ at least one layer on $a$ _not_ in $\Lambda$.
+
 ### Equivalence
 
 Any puzzle expressed using laminated theory can be expressed using grip theory using a single grip for each layer. The grip group transforms the grips of the grip theory puzzle in the same way that it transforms the layers of the laminated puzzle.
 
-Any puzzle expressed using grip theory can be expressed using laminated theory using a single axis with two layers for each grip. The layers correspond to "active" and "inactive" on the corresponding grip.
+Any puzzle expressed using grip theory can be expressed using laminated theory using a single axis with two layers for each grip. The layers correspond to "active" and "inactive" on the corresponding grip, and the set containing both layers is used to represent "blocked" grips.
 
 [^1]: <https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/powers.pdf>

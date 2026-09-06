@@ -59,9 +59,9 @@ Grip theory technically works for everything, but some puzzles have more structu
     - The layers of an axis must be disjoint and typically fill all of space.[^layers]
 - Instead of permuting grips, the grip group permutes layers.
     - It must permute the layers in a way that can be reduced to permuting axes.[^block-system] In other words: if an element of the grip group takes a layer on axis `A` to a layer on axis `B`, then it must take _all_ layers of axis `A` to layers on axis `B`.
-- Instead of having an active/inactive/blocked status on each grip, a grip signature has a set of active layers. (All other layers are inactive.)
+- Instead of having an active/inactive/blocked status on each grip, a grip signature has a set of active layers. (All other layers are inactive.) The set must contain at least one layer on each axis.
 - Instead of being defined as a rotation on a grip, a twist is defined as a rotation on a set of layers within one axis that stabilizes[^pointwise] those layers.
-- A twist is **blocked** if there is any piece whose grip signature contains at least one layer (on the twist's axis) that _is_ affected by the twist _and_ at least one layer (on the twist's axis) that _is not_ affected by the twist.
+- A twist is **blocked** if there is any piece whose grip signature contains at least one layer (on the twist's axis) that _is_ affected by the twist _and_ at least one layer (on the twist's axis) that _is not_ affected by the twist. This generalizes the notion of "blocked" grip status from before.
 - To apply a twist to a puzzle: take all the pieces that are active on any of the layers of the twist and update each piece's attitude by composing it with the twist rotation. In other words: rotate[^rotations][^transformations] all the pieces in those layers.
 
 [^layers]: Technically, layers are just arbitrary symbols; they don't need to correspond to regions in space.
