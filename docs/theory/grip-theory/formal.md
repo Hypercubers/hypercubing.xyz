@@ -201,7 +201,7 @@ Constructing the 3×3×3 is even more geometrically intuitive than before. Now, 
 
 Laminated puzzles, as the name suggests, are made of layers, so adding more layers is trivial. Moreover, even-layered puzzles can be constructed as naturally as odd-layered ones. This makes them a more natural description of these puzzles.
 
-### Blocking layers
+### Blocking layers and jumbling
 
 As described, lamination only supports doctrinaire puzzles. Lamination may be modified as follows to support blocking layers and twists of multiple layers at once:
 
@@ -209,6 +209,8 @@ As described, lamination only supports doctrinaire puzzles. Lamination may be mo
 - Instead of a twist having a layer $\lambda$, it has a layer set $\Lambda$.
 
 Then a twist on an axis $a$ is blocked if any piece has at least one layer on $a$ in $\Lambda$ _and_ at least one layer on $a$ _not_ in $\Lambda$.
+
+Lamination supports jumbling puzzles using infinitely many axes, similar to the infinitely many grips required in grip theory.
 
 ### Equivalence
 
