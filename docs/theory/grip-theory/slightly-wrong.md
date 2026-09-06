@@ -56,7 +56,7 @@ Grip theory technically works for everything, but some puzzles have more structu
 
 - When grips have the same stabilizer (e.g., `R` and `L` on 3x3x3) then we can define them instead as distinct **layers** on an **axis**.
     - Even though we usually think of the 3x3x3 as having 3 layers, for Laminated Theory it's more useful to think of it as having 9 layers: `R`/`M`/`L`, `U`/`E`/`D`, `F`/`S`/`B`.
-    - The layers of an axis must be disjoint and must fill all of space.
+    - The layers of an axis must be disjoint and typically fill all of space.[^layers]
 - Instead of permuting grips, the grip group permutes layers.
     - It must permute the layers in a way that can be reduced to permuting axes.[^block-system] In other words: if an element of the grip group takes a layer on axis `A` to a layer on axis `B`, then it must take _all_ layers of axis `A` to layers on axis `B`.
 - Instead of having an active/inactive/blocked status on each grip, a grip signature has a set of active layers. (All other layers are inactive.)
@@ -64,5 +64,6 @@ Grip theory technically works for everything, but some puzzles have more structu
 - A twist is **blocked** if there is any piece whose grip signature contains at least one layer (on the twist's axis) that _is_ affected by the twist _and_ at least one layer (on the twist's axis) that _is not_ affected by the twist.
 - To apply a twist to a puzzle: take all the pieces that are active on any of the layers of the twist and update each piece's attitude by composing it with the twist rotation. In other words: rotate[^rotations][^transformations] all the pieces in those layers.
 
-[^pointwise]: Pointwise-stabilizes, so each layer stays where it is.
+[^layers]: Technically, layers are just arbitrary symbols; they don't need to correspond to regions in space.
+[^pointwise]: Pointwise-stabilizes the set of layers, so each layer stays where it is.
 [^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)), where each axis is a block for the action of the grip group on layers.
