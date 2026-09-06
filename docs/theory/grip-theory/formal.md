@@ -183,13 +183,13 @@ Of particular note are puzzles using automorphisms of the transforms, as these p
 
 ## Lamination
 
-Lamination is a restriction and generalization of grip theory. It allows fewer types of pieces than are described by grip theory, but the pieces it describes are closer to those of actual puzzles. It has multiple related interpretations.
+Lamination can be seen either as a generalization or as a restriction of grip theory. As a restriction, it allows fewer types of pieces than are described by grip theory, but the pieces it describes are closer to those of actual puzzles. It has multiple related interpretations.
 
 ### Group action interpretation
 
-Suppose, as above, there is a grip group that acts on the set of grips. We now select a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)) of this action, and each block is called an *axis*. Now, instead of a piece having a selection of active grips, a piece will have a *layer* on each axis, where a layer is an assignment of a symbol (WLOG element of $\mathbb{Z}$) to each grip in that axis. Then, a twist still has an axis, but now it has a selected layer within that axis, as well as a transformation, an element of the grip group, that pointwise stabilizes the axis. A *laminated* puzzle is one that, given a selection of axes an selection of layers on each axis, contains a piece for every combination of layers. In this way, it is similar to complex puzzles.
+Suppose, as above, there is a grip group that acts on the set of grips. We now select a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)) of this action, and each block is called an *axis*. Now, instead of a piece having a selection of active grips, a piece will have a *layer* on each axis, where a layer is an assignment of a symbol (WLOG element of $\mathbb{Z}$) to each grip in that axis. Then, a twist still has an axis, but now it has a selected layer within that axis, as well as a transformation, an element of the grip group, that pointwise stabilizes the axis. A *laminated* puzzle is one that, given a selection of axes and a selection of layers on each axis, contains a piece for every combination of layers. In this way, it is similar to complex puzzles.
 
-For instance, to construct a 3×3×3, first start with the 6 grips `R`, `U`, `F`, `L`, `D`, and `B`. Then, let the axes be `x` = {`R`, `L`}, `y` = {`U`, `D`}, and `z` = {`F`, `B`}. We can choose a set of layers for each axis: the layers of `x` will be the assignments {`R`↦0, `L`↦0}, {`R`↦1, `L`↦0}, and {`R`↦0, `L`↦1}, and similarly for `y` and `z`. Since there are 3 layers per axis and 3 axes, the laminated 3×3×3 has $3^3 = 27$ pieces, exactly as many as a 3×3×3. In fact, the laminated 3×3×3 is exactly the super 3×3×3.
+For instance, to construct a 3×3×3, first start with the 6 grips `R`, `U`, `F`, `L`, `D`, and `B`. Then, let the axes be `x` = {`R`, `L`}, `y` = {`U`, `D`}, and `z` = {`F`, `B`}. We can choose a set of layers for each axis: the layers of `x` will be the assignments {`R`↦0, `L`↦0} (corresponding to `M`), {`R`↦1, `L`↦0} (corresponding to `R`), and {`R`↦0, `L`↦1} (corresponding to `L`), and similarly for `y` and `z`. Since there are 3 layers per axis and 3 axes, the laminated 3×3×3 has $3^3 = 27$ pieces, exactly as many as a 3×3×3. In fact, the laminated 3×3×3 is exactly the super 3×3×3.
 
 ### Representation interpretation
 
@@ -200,5 +200,11 @@ Constructing the 3×3×3 is even more geometrically intuitive than before. Now, 
 ### More layers
 
 Laminated puzzles, as the name suggests, are made of layers, so adding more layers is trivial. Moreover, even-layered puzzles can be constructed as naturally as odd-layered ones. This makes them a more natural description of these puzzles.
+
+### Equivalence
+
+Any puzzle expressed using laminated theory can be expressed using grip theory using a single grip for each layer. The grip group transforms the grips of the grip theory puzzle in the same way that it transforms the layers of the laminated puzzle.
+
+Any puzzle expressed using grip theory can be expressed using laminated theory using a single axis with two layers for each grip. The layers correspond to "active" and "inactive" on the corresponding grip.
 
 [^1]: <https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/powers.pdf>
