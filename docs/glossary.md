@@ -42,7 +42,7 @@ We prefer words rather than 1c, 2c, etc. because the words generalize better to 
 
 ### Moves
 
-- **axis** or **turning axis** = ray start from the center of the puzzle, around which puzzle elements rotate during twists
+- **axis** or **turning axis** = ray (typically starting from the puzzle center) or line around which puzzle elements rotate during twists
 - **twist** or **move** or **turn** = movement of pieces that changes the puzzle state
 - **rotation** or **full-puzzle rotation** = rotation of the whole puzzle that does not change its state
 
@@ -181,25 +181,25 @@ None of these definitions are satisfactory. According to most of these definitio
 
 **F2L** is a very general solving strategy that works by building a small block of pieces and then inserting the block into its solved position. F2L stands for "first two layers" because it was originally developed to solve the first two layers of 3^3^, but in hypercubing we use it for many other puzzles.
 
-#### F2L axes
+#### F2L grips
 
-- **free** axes = axes which affect only unsolved pieces; can be turned freely
-- **side** axes = axes which affect some unsolved pieces and some solved pieces; can be turned, but must be turned back to restore solved pieces
-- **base** axes = non-free and non-side axis that is not completely solved; usually mostly solved, rarely turned during F2L
-- **top** axis = the free axis currently being worked on
+- **free** grips = grips which affect only unsolved pieces; can be turned freely
+- **side** grips = grips which affect some unsolved pieces and some solved pieces; can be turned, but must be turned back to restore solved pieces
+- **base** grips = non-free and non-side grip that is not completely solved; usually mostly solved, rarely turned during F2L
+- **top** grip = the free grip currently being worked on
 
 !!! example "Examples"
-    - In F2L on a 3^3^, `D` is the only base axis, `U` is the top axis (the only free axis), and `R`, `L`, `F`, & `B` are all side axes.
-    - When beginning F2L on a megaminx there are, 6 free axes, 5 side axes, and 1 base axis.
-    - Near the end of F2L on a megaminx there are, 1 free axis, 5 side axes, and 5 base axes.
+    - In F2L on a 3^3^, `D` is the only base grip, `U` is the top grip (the only free grip), and `R`, `L`, `F`, & `B` are all side grips.
+    - When beginning F2L on a megaminx there are, 6 free grips, 5 side grips, and 1 base grip.
+    - Near the end of F2L on a megaminx there are, 1 free grip, 5 side grips, and 5 base grips.
 
-We use the letter `T` to represent the top axis, `R` & `F` to represent intersecting side axes, and `R` & `L` to represent non-intersecting side axes.
+We use the letter `T` to represent the top grip, `R` & `F` to represent intersecting side grips, and `R` & `L` to represent non-intersecting side grips.
 
 #### F2L blocks
 
-An **F2L block** or **pair** is a group of pieces that is **paired** and solved as one unit. There's usually a **head** and **body**, where the head intersects with more twisting axes than the body.
+An **F2L block** or **pair** is a group of pieces that is **paired** and solved as one unit. There's usually a **head** and **body**, where the head intersects with more twisting grips than the body.
 
-The **base sticker** of a head is the sticker which will be facing the base axis when it is solved. The **facing** direction of the head of a block is whatever direction its base sticker is facing. The facing direction of the body of a block is the same as the head, when they are paired. This notion of which direction a head or body faces gives a way to describe edge orientation before the pieces have been paired, which is helpful especially in 4D+ where edge orientation is otherwise difficult to define.
+The **base sticker** of a head is the sticker which will be facing the base grip when it is solved. The **facing** direction of the head of a block is whatever direction its base sticker is facing. The facing direction of the body of a block is the same as the head, when they are paired. This notion of which direction a head or body faces gives a way to describe edge orientation before the pieces have been paired, which is helpful especially in 4D+ where edge orientation is otherwise difficult to define.
 
 !!! example "Examples"
     - On the 3^3^ an F2L pair consists of a corner (the head) and an edge (the body).
@@ -212,8 +212,8 @@ The **base sticker** of a head is the sticker which will be facing the base axis
 
 - **breaking the base** = unsolving some pieces that were solved
 - **restoring the base** = re-solving some pieces
-- **push** = a twist of a side axis that breaks the base and puts new pieces on top
-- **pull** = a twist of a side axis that restores the base and puts new pieces on top
+- **push** = a twist of a side grip that breaks the base and puts new pieces on top
+- **pull** = a twist of a side grip that restores the base and puts new pieces on top
 - **overpush** = push again after pushing (e.g., R U **R** U R2')
 - **overpull** = push as a continuation of a pull (e.g., R U **R2'** U' R)
 - **push pair** = formation of a pair via a push
