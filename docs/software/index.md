@@ -185,7 +185,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 - [hscfilter](https://milojacquet.com/hscfilter), for generating HSC1 filter strings
 - [Hyperscrambler](https://github.com/JosieElliston/hyperscrambler), for generating custom HSC1 scrambles
 - [mousekeybinds](https://github.com/TheCubeDude/mousekeybinds), for adding keyboard controls to mouse-controlled programs
-- [Grippy](https://github.com/HactarCE/grippy), for analyzing algorithms using [grip theory](/theory/grip-theory.md)
+- [Grippy](https://github.com/HactarCE/grippy), for analyzing algorithms using [grip theory](/theory/grip-theory/index.md)
 
 ## Games
 

@@ -18,7 +18,7 @@ The [4th dimension](https://en.wikipedia.org/wiki/Four-dimensional_space) is a s
 
 Puzzles are (usually) based on physical geometric shapes, so you have to understand what 4D shapes there are. 4D shapes have sides, or cells, that take the form of 3D shapes, and enclose some amount of "hypervolume". As the most popular 4D puzzles are the [hypercubes](/puzzles/index.md), so it's important to at least understand its geometry.
 
-A hypercube (also known as a tesseract, 8-cell, octachoron, or 4-cube) is a shape with 8 cubic sides. 3 sides meet at each edge, giving it the [Schläfli symbol](https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol) {$4,3,3$}. Watch the animation below, as the tesseract unfolds itself into its 3-dimensional net.
+A hypercube (also known as a tesseract, 8-cell, octachoron, or 4-cube) is a shape with 8 cubic sides. 3 sides meet at each edge, giving it the [Schläfli symbol](https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol) $\{4,3,3\}$. Watch the animation below, as the tesseract unfolds itself into its 3-dimensional net.
 
 ![4D tesseract unfolding into its 3D net of 8 cubes](https://upload.wikimedia.org/wikipedia/commons/e/ef/Net_of_tesseract.gif){height="300"}
 

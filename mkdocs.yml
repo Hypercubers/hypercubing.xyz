@@ -93,7 +93,7 @@ plugins:
   - redirects:
       redirect_maps:
         "discord.md": "https://discord.gg/xxFvfyx89p"
-        "theory/grip_theory.md": "theory/grip-theory.md"
+        "theory/grip_theory.md": "theory/grip-theory/index.md"
         "leaderboards/index.md": "https://lb.hypercubing.xyz"
         "leaderboards/rules.md": "leaderboard-rules.md"
         "leaderboards/aggregate.md": "https://lb.hypercubing.xyz"

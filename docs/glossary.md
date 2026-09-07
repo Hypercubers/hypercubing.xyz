@@ -67,7 +67,7 @@ Revealing information that distinguishes indistinguishable pieces or orientation
 - **Unbandaging** is the process of splitting pieces in order to make more moves possible.
 - A puzzle is **doctrinaire** or **fully unbandaged** if every move is always accessible (not blocked).
 - A puzzle is **bandaged** if it is not doctrinaire, but can be finitely unbandaged to a doctrinaire puzzle.
-- A puzzle is **jumbling** if it has infinitely many [grips](/theory/grip-theory.md). For finite puzzles, this simpler definition is equivalent: A puzzle is **jumbling** if it cannot be finitely unbandaged to a doctrinaire puzzle.
+- A puzzle is **jumbling** if it has infinitely many [grips](/theory/grip-theory/index.md). For finite puzzles, this simpler definition is equivalent: A puzzle is **jumbling** if it cannot be finitely unbandaged to a doctrinaire puzzle.
 
 ### Visual modifications
 
@@ -113,8 +113,8 @@ The exact assignment of "physical" and "mechanical" is a historical quirk inheri
 ### Completions
 
 - A **real** puzzle is one with all interior pieces. For example, a real 7×7×7 has $7^3=343$ pieces, compared to $7^3-5^3=218$ pieces for a standard 7×7×7.
-- A **complex** puzzle is one with a piece for each possible grip signature using the [grip-theoretic construction](/theory/grip-theory.md). These puzzles have $2^n$ pieces, where $n$ is the number of grips on the puzzle.
-- A **laminated** puzzle is one with a piece for each possible grip signature using a [laminated construction](/theory/grip-theory.md). A laminated puzzle is a subset of the complex puzzle.
+- A **complex** puzzle is one with a piece for each possible grip signature using the [grip-theoretic construction](/theory/grip-theory/index.md). These puzzles have $2^n$ pieces, where $n$ is the number of grips on the puzzle.
+- A **laminated** puzzle is one with a piece for each possible grip signature using a [laminated construction](/theory/grip-theory/index.md). A laminated puzzle is a subset of the complex puzzle.
 - A **multi** puzzle is one with pieces from several different cut depths. An example is the [Multidodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2384). A multi puzzle is a subset of the laminated puzzle.
 - A **circle** puzzle is one with circles carved into the faces, where pieces inside one or more of the circles do not turn with their face. A circle where all circles behave equivalently is a subset of the complex puzzle. For example, see this [video of a circle 3×3×3](https://www.youtube.com/watch?v=hUX91tXNyeE&t=55s).
 - A **super** puzzle is one where all orientations are distinguishable.
