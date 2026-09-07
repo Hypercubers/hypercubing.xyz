@@ -1,7 +1,5 @@
 nav:
+- 4D+: 4d-plus
 - physical
-- 3x3x3.md
-- 2x2x2x2.md
-- 3x3x3x3.md
-- nxnxnxn.md
-- "*"
+- circle
+- tilings
