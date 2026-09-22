@@ -151,7 +151,7 @@ Cut depth terminology varies by community. Listed here are the definitions we us
 
 Examples:
 
-- 3^4^ contains axles (centers), sphenes/diacrons (edges), triacrons (ridges), and tetrahedracrons (corners)
+- 3^4^ contains axles (centers), sphenes/diacrons (ridges), triacrons (edges), and tetrahedracrons (corners)
 - Sphenic biaxe always contains sphenes but not diacrons
 - FTO contains sphenes/diacrons (edges), 4-acrons (corners), and a "triangle" piece that does not yet have a formal name
 
