@@ -179,6 +179,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 
 - [RocKeT](https://github.com/HactarCE/rocket), for finding RKT cancels for 3D algorithms
 - [Hypersolve](https://github.com/ajtaurence/Hypersolve), for generating short 2^4^ solutions and scrambles
+- [robodoan](https://github.com/HactarCE/robodoan/), for generating short solutions to 3^4^ F2L
 
 ### Other
 
