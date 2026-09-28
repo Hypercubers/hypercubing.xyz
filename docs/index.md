@@ -47,3 +47,5 @@ The most well known 4D shape is the [hypercube](https://en.wikipedia.org/wiki/Te
 Another definition of hypercubing is "beyond cubing." This includes all manner of exotic twisty puzzles beyond the handful of puzzles solved by most speedcubers.
 
 The short article [Abstracting Rubik's Cube](http://roice3.org/papers/abstracting_rubiks_cube.pdf) introduces a number of the hypercubing puzzles.
+
+Hypercubing discussion also occurs on the [Hypercubing Google Group](https://groups.google.com/g/hypercubing), the continuation of the mailing list on which much of the earlier discussion took place.
