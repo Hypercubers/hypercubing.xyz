@@ -6,8 +6,8 @@
 *[5c]: 5-colored
 
 <!-- 4D stages and alg sets -->
-*[FC]: First Cell
 *[LC]: Last Cell
+*[F2L]: First 2 Layers
 *[F2L-a]: 2c+3c pairs
 *[F2L-b]: 3c+4c pairs
 *[OLC]: Orientation of the Last Cell

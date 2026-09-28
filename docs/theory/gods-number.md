@@ -8,7 +8,7 @@ There are three strategies we can use to estimate it:
 
 1. Setting a **lower bound** using the branching factor of move sequences
 2. Setting an **upper bound** by analyzing the worst-case solution of every stage in a given method
-3. **Estimation** by measuring move counts produced by a near-optimal solver
+3. **Estimation** by measuring move counts produced by a near-optimal [solver](/history/computer-assisted.md)
 
 [cube20]: http://cube20.org/
 
