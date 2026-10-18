@@ -227,8 +227,8 @@ The unused letters here are reserved for execution notation, for variable names,
 | g      |                                                      |
 | h      | Half turn (jumbling)                                 |
 | i      |                                                      |
-| j      | First jumble angle                                   |
-| k      | Second jumble angle                                  |
+| j      | Jumbling turn                                        |
+| k      |                                                      |
 | l      | `2Lw`                                                |
 | m      | `{2..-2}M`                                           |
 | n      |                                                      |
@@ -328,8 +328,13 @@ Examples:
 ### Jumbling notation
 
 - `h` indicates half of a doctrinaire turn (common on Bagua and mixup cubes)
-- `j` indicates some other jumbling angle
-- `k` indicates a second jumbling angle, for when `j` is already taken
+- `j` indicates a jumbling angle that is not half of a doctrinaire turn
+
+When there are multiple unique jumbling angles that are not half of a doctrinaire turn, they are labeled `ja`, `jb`, ... using the lowercase Latin letters. If there are more than 26 jumbling angles, subsequent ones use an uppercase Greek prefix: after `jz` is `jΓa`, `jΓb`, ... `jΓz`, `jΔa`, etc.
+
+Jumbling labels may be assigned to angles in any order. Generally, shallower jumbling angles should be assigned lower names.
+
+Note that `jj` is a valid jumbling angle. (It is the tenth jumbling angle.)
 
 ## Rationale
 
