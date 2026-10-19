@@ -54,14 +54,14 @@ Use EOLL algorithms from 2-look OLL to orient the 2c pieces. This can always be 
 Use RKT on the last cell to set up the slice layers of the last cell into configurations that look like possible OCLL cases. Then use the OCLL algorithms to solve that case. This can always be done in 3 OCLL algorithms (or less)
 
 !!! warning "3c monotwist"
-    It's possible to have just one 3c piece twisted in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have five 3c pieces left, you can't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 3c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm.
+    It's possible to have just one 3c piece twisted in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 3c pieces. For example if you have five 3c pieces left, you shouldn't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 3c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm. If you don't avoid monotwist, you can instead use the algorithm `(IFL LFO IFL RFI)2`.
 
 #### 4c OLL-4
 
 Use RKT on the last cell to set up the 4c pieces into possible OCLL cases. Rotate the last cell to U, such that your OCLL case is in the IU plane, then execute that algorithm **with RKT** on I.
 
 !!! warning "4c monoflip"
-    It's possible to have just one 4c piece flipped in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have five 4c pieces left, you can't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 4c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm.
+    It's possible to have just one 4c piece flipped in place. To avoid this situation, make sure that your last OCLL algorithm will solve **all** of the 4c pieces. For example if you have five 4c pieces left, you shouldn't set it up into an H OCLL case, because that will leave you with one unoriented 3c piece. Instead, you can set up three of the 4c pieces into a Sune case, which would then leave you with two unsolved pieces. You can then solve those two pieces using a T or U case OCLL algorithm. If you don't avoid monoflip, you can instead use the algorithm `[DL: ([RO, UO] {1-2}ODL)2]`.
 
 ### PLL-4
 
