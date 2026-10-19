@@ -67,7 +67,7 @@ Use RKT on the last cell to set up the 4c pieces into possible OCLL cases. Rotat
 
 #### 2c PLL-4
 
-It is always possible to solve 2c permutation using just U-perms, but many cases have faster methods. There are seven cases for 2c PLL-4:
+It is always possible to solve 2c permutation using (at most) two U-perms, but some cases have faster algorithms. There are seven cases for 2c PLL-4:
 
 - **Solved**
 - **Adjacent swap** - Do a 90-degree twist of I to turn this case into a 3-cycle, then use a 3D U-perm algorithm to solve it, such as `M2 U M U2 M' U M2` (7 STM) to cycle IL → IF → IR.
@@ -77,7 +77,7 @@ It is always possible to solve 2c permutation using just U-perms, but many cases
 - **Double adjacent swap (right-handed)** - Use `[[RU, IU] IR2 RU, IDR]` = `(RU IU RD IFR RU) IDR (RD IFR RU ID RD) (IUR)` (11 STM + 1 move offset) to swap IF ↔ IU and IR ↔ IB.
 - **Double adjacent swap (left-handed)** - Use `[[RU, IU] IR2 RU, IUR]` = `(RU IU RD IFR RU) IUR (RD IFR RU ID RD) (IDR)` (11 STM + 1 move offset) to swap IF ↔ ID and IR ↔ IB.
 
-This is currently no known reliable way to recognize which case you have.
+To recognize what case you have, solve two 2cs to reduce the number of cases, then recognize what case you have. For details, see [Josie's tutorial](https://docs.google.com/spreadsheets/d/1RpUclkyQMlSdKMwSus2CPe4oMRTdDIOLw7nuX_aIO94).
 
 #### PLL-3
 
