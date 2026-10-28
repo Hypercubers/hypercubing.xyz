@@ -73,7 +73,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 [flat-src]: https://github.com/milojacquet/flat-hypercube
 [gelatinbrain]: https://github.com/Hypercubers/gelatinbrain/
 [pCubes]: https://twistypuzzles.com/forum/viewtopic.php?t=27054
-[umc]: http://www.ultimatemagiccube.com/
+[umc]: https://web.archive.org/web/20250125144410/http://ultimatemagiccube.com/
 [hydropyrum]: https://hydropyrum.github.io/puzzle/
 [hydropyrum-src]: https://github.com/hydropyrum/puzzle
 [twizzle]: https://alpha.twizzle.net/explore/
@@ -122,7 +122,7 @@ For hypercubing on mobile devices, see [Android apps](#android-apps) or [iOS app
 - [k-Card Game](https://masonhorne.github.io/k-Card-Game/)
 - [Loopover](https://loopover.xyz/)
 - [Heav's Relocation Puzzle](https://github.com/heav-4/relocation)
-- [Slidysim](https://www.slidysim.com/)
+- [Slidysim](https://play.slidysim.com/)
 - [Luna's "Green" (generalization of Lights Out and Green The Board)](https://github.com/Sonicpineapple/Green)
 - [Sphenic Biaxe](https://hypercubing.xyz/sphenic-biaxe/)
 

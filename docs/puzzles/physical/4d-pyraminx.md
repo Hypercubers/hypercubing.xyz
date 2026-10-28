@@ -18,7 +18,7 @@
 
 ## History
 
-Based on some ideas for the 4D pyraminx, Dominik first created a paper model in mid-December of 2023. After some suggestions from Melinda Green he created the prototype with magnets which was the first functioning version of this design. In April 2024 he finished an improved 3d printed version of the puzzle. 
+Based on some ideas for the 4D pyraminx, Dominik first created a paper model in mid-December of 2023. After some suggestions from Melinda Green he created the prototype with magnets which was the first functioning version of this design. In April 2024 he finished an improved 3d printed version of the puzzle.
 
 ## How does it work?
 
