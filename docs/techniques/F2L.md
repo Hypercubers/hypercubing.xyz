@@ -13,7 +13,7 @@ First 2 Layers (F2L) is a solving technique for cubes and some other puzzles tha
 
 **Dimensional Analogy**
 
-In 3D F2L, whenever you twist a side axis, a 1x1x3 block of pieces (containing the F2L slot) goes to the top layer (essentially a 1D line). In 4 dimensions, 2 adjacent sides intersect at a 2D plane. So when you do a twist you're bringing a 1x1x3x3 block to the top layer, which contains **3** F2L pairs: that being two F2L-b slots and an F2L-a slot. This makes inserting a single pair trickier, because now you need to use more moves to not disturb the other two subslots.
+In 3D F2L, whenever you twist a side grip, a 1x1x3 block of pieces (containing the F2L slot) goes to the top layer (essentially a 1D line). In 4 dimensions, 2 adjacent sides intersect at a 2D plane. So when you do a twist you're bringing a 1x1x3x3 block to the top layer, which contains **3** F2L pairs: that being two F2L-b slots and an F2L-a slot. This makes inserting a single pair trickier, because now you need to use more moves to not disturb the other two subslots.
 
 Continuing this analogy into 5D, you bring a whole 3D cube's worth of F2L slots to the top (1x1x3x3x3) that you mustn't disturb while inserting a single pair. This pattern continues for higher and higher dimensions, meaning that it gets trickier to insert a single pair. Pro solvers of higher dimensional puzzles will wait until they have 3 (or multiples of 3) pairs, then pairs all those pairs into a gigapair, and then insert that gigapair like inserting a lower dimensional pair.
 
@@ -29,12 +29,12 @@ For more terms, see [the glossary](https://hypercubing.xyz/glossary/).
 
 Regardless of dimension and type of pair, they are broken down into the following categories:
 
-1. both in top, head facing side axes
-2. both in top, head facing top axis
-3. body in slot, head in top facing side axis
-4. body in slot, head in top facing top axis
-5. head in slot facing side axis, body in top
-6. head in slot facing base axis, body in top
+1. both in top, head facing side grips
+2. both in top, head facing top grip
+3. body in slot, head in top facing side grip
+4. body in slot, head in top facing top grip
+5. head in slot facing side grip, body in top
+6. head in slot facing base grip, body in top
 7. both stuck in slot
 
 

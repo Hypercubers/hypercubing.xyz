@@ -1,21 +1,29 @@
 # Slightly Wrong Explanation of Grip Theory
 
-Grip Theory is actually really simple if you hide all the complicated stuff in footnotes.
+The standard way to model a Rubik's cube or other twisty puzzle is either as a permutation of stickers, or split as a permutation for each piece type and an orientation for each piece. This is effective for most simple puzzles, but breaks down when we consider bandaged or jumbling puzzles. It also does not offer much insight into solving strategies, such as blockbuilding or commutator construction using piece isolation. (Note that solving strategies are outside the scope of this document.)
+
+Grip Theory (and its extension, Laminated Theory) provide an alternative approach. Instead of modeling the behavior of the puzzle as a whole, we model the behavior of individual pieces on their own, and then simply combine them to get the whole puzzle. This has proven to be a very effective way to model all sorts of twisty puzzles, draw analogies between them, and develop and describe solving strategies.
+
+Grip Theory has a reputation for being complicated, but it's actually really simple if you hide all the complicated stuff in footnotes.
 
 ## Basics
 
-- The **attitude** of a piece is its current rotation compared to the solved[^solved-position] position.
+Imagine a 3x3x3 Rubik's cube not as 54 stickers, but as 27 1x1x1 cubes, each with all six colors. Imagine placing a black dot on each sticker that existed on the original puzzle; so center pieces have 1 dot, edge pieces have 2 dots, corner pieces have 3 dots, and the core has no dots. Instead of thinking about how these 27 cubes exchange with each other, imagine that each one rotates on its own. The faces with dots tell you where it belongs on the combined puzzle.
+
+- The **attitude** of a piece is its current rotation relative to its solved state[^solved-position].
 - A **grip** is a region of space[^grip] you can[^turnable] turn.
 - A **twist** consists of a grip and a rotation[^rotations] that keeps that grip fixed (the rotation "stabilizes" the grip).
 - The **grip group** is the set[^group] of all the twist rotations[^rotations] and the rotations you can get by composing[^inverting] them (doing one and then the other).[^transformations] The grip group is the set of possible[^reachable] **attitudes** of a piece.
-- A grip is **active** on a piece if the piece is currently affected by twists on that grip. Otherwise the grip is **inactive** on that piece. I call this the **status** of the grip.
+- A grip is **active** on a piece if the piece is inside the region of the grip, and **inactive** if the piece is outside. We call this the **status** of the grip.
 - The **grip signature** of a piece is the status of each grip. In particular, the **current grip signature** of a piece is its grip signature in whatever state the puzzle is in right now. As a piece moves around, its current grip signature changes.
 - In casual conversation, we say that a piece **has** a grip if that grip is active for the piece.
 - The **solved grip signature** or **initial grip signature** of a piece is the grip signature it in its solved position.
-- A **puzzle** is defined by a grip group (e.g., rotations of a cube), a set of axes that are permuted[^acted-on] by a grip group (e.g., faces of a cube), and a set of pieces. Each piece is defined by its initial grip signature, which dictates how it moves around.
+- A **puzzle** is defined by a grip group (e.g., rotations of a cube), a set of grips that are permuted[^acted-on] by a grip group (e.g., faces of a cube), and a set of pieces. Each piece is defined by its initial grip signature, which dictates how it moves around.
 - A **puzzle state** is just an attitude for each piece.
 - The current grip signature of each piece can be determined by transforming each member of its initial grip set by the current attitude of the piece.
 - To apply a twist to a puzzle: take all the pieces that are active on that grip and update each piece's attitude by composing it with the twist rotation. In other words: rotate all the pieces on that grip.
+- A piece is **solved** when its attitude is the identity element (do-nothing rotation[^rotations]) of the grip group.[^super]
+- The puzzle is **solved** when all its pieces are solved.
 
 [^solved-position]: This definition only works for super cubes, where all pieces and attitudes are distinguishable. It's possible to handle indistinguishable pieces/orientations by instead saying the attitude is the set of all indistinguishable rotations.
 [^grip]: Actually a grip is just anything that can be permuted by elements from the grip group.
@@ -26,22 +34,39 @@ Grip Theory is actually really simple if you hide all the complicated stuff in f
 [^transformations]: Actually the grip group doesn't have to consist of transformations of space. The important thing is just that the grip group permutes grips.
 [^reachable]: Not all attitudes may be reachable, particularly in bandaged puzzles or if you've chosen a larger grip group than necessary (e.g., describing an FTO using octahedral symmetry instead of tetrahedral symmetry).
 [^acted-on]: This is called a [group action](https://en.wikipedia.org/wiki/Group_action).
+[^super]: This only works for super puzzles. See [Indistinguishables](#indistinguishables) for non-super puzzles.
+
+!!! example "3x3x3 Rubik's Cube"
+
+    - There are 24 possible attitudes, corresponding to the 24 rotations of a cube, but not all are reachable for every piece.
+        - Corners: 8 positions times 3 orientations = 24 reachable attitudes
+        - Edges: 12 positions times 2 orientations = 24 reachable attitudes
+        - Centers: 1 position each times 4 orientations = 4 reachable attitudes each
+        - Core: 1 position times 1 orientation = 1 reachable attitude
+    - There are 6 grips, corresponding to the 6 faces of the cube
+    - The grip group has 24 elements, corresponding to the 24 rotations of a cube
+    - The active grips of the URF corner is $\{ U, R, F \}$.
+    - The active grips of the UF edge is $\{ U, F \}$.
+    - The active grips of the F center is $\{ F \}$.
+    - The active grips of the core is $\{\}$ (empty set).
+    - Suppose we do the move sequence `R U R' U'`. The piece that started at URF (initial active grips $\{ U, R, F \}$) is now at DRF (current active grips $\{ D, R, F \}$). Its attitude is a `z` rotation (90-degree rotation around Z that cycles $U \to R \to D \to L \to U$).
 
 ## Bandaging
 
-We can modify these definitions to support bandaged puzzles:
+We can modify these definitions to model bandaged puzzles:
 
-- Besides "active" and "inactive," a grip may be **blocked** on a piece. When a grip is blocked on any piece then that grip cannot be turned.
+- Instead of just "active" and "inactive," a grip may be **blocked** in the grip signature of a piece. This happens when the piece straddles the grip, with part of it inside the region and part of it outside.
+- When a grip is blocked on any piece then that grip cannot be turned.
 
 ## Fudging
 
-We can modify these definitions to support fudged puzzles:
+We can modify these definitions to model fudged puzzles:
 
 - Just make up a permutation group for your grips. It doesn't have to match up with geometry.
 
 ## Jumbling
 
-We can modify these definitions to support jumbling puzzles:
+We can modify these definitions to model jumbling puzzles:
 
 - Oops, our twist rotations (or some composition of them) forms an irrational angle.
 - Now our grip group has infinitely many rotations.
@@ -52,17 +77,38 @@ We can modify these definitions to support jumbling puzzles:
 
 ## Lamination
 
-Grip theory technically works for everything, but some puzzles have more structure. For these, we have **Laminated Theory**, which is more advanced. While Grip Theory and Laminated Theory are both capable of describing the same puzzles, sometimes they fit more nicley into one framework or the other. Laminated Theory differs from Grip Theory in the following ways:
+Grip theory technically works for everything, but some puzzles have more structure. For these, we have **Laminated Theory**, which is more advanced. While Grip Theory and Laminated Theory are both capable of describing the same puzzles, sometimes they fit more nicely into one framework or the other. Laminated Theory differs from Grip Theory in the following ways:
 
 - When grips have the same stabilizer (e.g., `R` and `L` on 3x3x3) then we can define them instead as distinct **layers** on an **axis**.
     - Even though we usually think of the 3x3x3 as having 3 layers, for Laminated Theory it's more useful to think of it as having 9 layers: `R`/`M`/`L`, `U`/`E`/`D`, `F`/`S`/`B`.
-    - The layers of an axis must be disjoint and must fill all of space.
+    - The layers of an axis must be disjoint and typically fill all of space.[^layers]
 - Instead of permuting grips, the grip group permutes layers.
     - It must permute the layers in a way that can be reduced to permuting axes.[^block-system] In other words: if an element of the grip group takes a layer on axis `A` to a layer on axis `B`, then it must take _all_ layers of axis `A` to layers on axis `B`.
-- Instead of having an active/inactive/blocked status on each grip, a grip signature has a set of active layers. (All other layers are inactive.)
+- Instead of having an active/inactive/blocked status on each grip, a grip signature has a set of active layers. (All other layers are inactive.) The set must contain at least one layer on each axis.
 - Instead of being defined as a rotation on a grip, a twist is defined as a rotation on a set of layers within one axis that stabilizes[^pointwise] those layers.
-- A twist is **blocked** if there is any piece whose grip signature contains at least one layer (on the twist's axis) that _is_ affected by the twist _and_ at least one layer (on the twist's axis) that _is not_ affected by the twist.
+- A twist is **blocked** if there is any piece whose grip signature contains at least one layer (on the twist's axis) that _is_ affected by the twist _and_ at least one layer (on the twist's axis) that _is not_ affected by the twist. This generalizes the notion of "blocked" grip status from before.
 - To apply a twist to a puzzle: take all the pieces that are active on any of the layers of the twist and update each piece's attitude by composing it with the twist rotation. In other words: rotate[^rotations][^transformations] all the pieces in those layers.
 
-[^pointwise]: Pointwise-stabilizes, so each layer stays where it is.
+[^layers]: Technically, layers are just arbitrary symbols; they don't need to correspond to regions in space.
+[^pointwise]: Pointwise-stabilizes the set of layers, so each layer stays where it is.
 [^block-system]: This is called a [block system](https://en.wikipedia.org/wiki/Block_(permutation_group_theory)), where each axis is a block for the action of the grip group on layers.
+
+## Position and orientation
+
+In both Laminated and Grip Theory, a piece may have multiple attitudes with the same grip signature. In this case, we can split[^quotient] the attitude into two components: **position** and **orientation**.
+
+- The **position** of a piece is the component of its attitude that affects its grip signature.
+- The **orientation** of a piece is the component of its attitude that does _not_ affect its grip signature.
+- The number of orientations times the number of positions always equals the number of attitudes.
+    - E.g., 3x3x3 corner piece has 8 positions $\times$ 3 orientations $=$ 24 attitudes.
+
+[^quotient]: Actually [quotient](https://en.wikipedia.org/wiki/Quotient_group).
+
+## Indistinguishables
+
+So far, we've only covered _super_ puzzles, where all pieces and orientations are distinguishable. We can modify this to model indistinguishable orientations (such as 3x3x3 centers) and indistinguishable pieces (such as 4x4x4 centers):
+
+- Instead of having a single attitude, a piece has a _set_ of attitudes, representing a superposition of all indistinguishable attitudes.
+    - The attitude set contains an element for each possible solved state of the piece. For example, a 4x4x4 center always has 4 elements in its attitude set, since there are 4 distinct attitudes it can take while still appearing solved.
+    - The grip signature of a piece is never in a superposition; the grip signature is fully determined by a piece's physical location on the puzzle.
+- A piece is **solved** when its set of attitudes contains the identity element of the grip group.
