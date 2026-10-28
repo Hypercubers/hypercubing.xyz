@@ -81,13 +81,13 @@ On 2025-09-24, Hactar and Luna Harran completed a 125 STM solve using [robodoan]
     Attached is a 125 STM solve Luna Harran and I did in 4 stages:
 
     1. **F2L (63 STM, automatic)** - We generated 5 scrambles using MC4D, loaded them into robodoan, and manually reviewed several of the generated solutions. The shortest F2L solution was 61 STM, but it had a poor OLC. We found one that was 63 STM and had a decent OLC (orient last cell).
-    2. **OLC (21 STM, manual)** - We solved OLC using 2 algorithm executions, including a [slice RKT-canceled](/docs/techniques/rkt.md#cancels) fat sune and a 6-move 4D OLC algorithm.
-    3. **2cPLC (8 STM, manual)** - We solved 2cPLC (permute last cell) using an [adjacent 3-cycle](/docs/methods/3x3x3x3/cfop.md#2c-pll-4) that canceled into the last OLC algorithm.
+    2. **OLC (21 STM, manual)** - We solved OLC using 2 algorithm executions, including a [slice RKT-canceled](/techniques/rkt.md#cancels) fat sune and a 6-move 4D OLC algorithm.
+    3. **2cPLC (8 STM, manual)** - We solved 2cPLC (permute last cell) using an [adjacent 3-cycle](/methods/3x3x3x3/cfop.md#2c-pll-4) that canceled into the last OLC algorithm.
     4. **PLC (33 STM, computer-assisted)** - We entered the final cube state into [Cube Explorer] to get a 3D solution and then manually found a decent RKT-cancel for it.
 
     \[...]
 
-    I'd like to thank Luna Harran for her help with teaching me the [grip-theoretic foundations of blockbuilding](/docs/theory/grip-theory/index.md) and with tuning the search parameters.
+    I'd like to thank Luna Harran for her help with teaching me the [grip-theoretic foundations of blockbuilding](/theory/grip-theory/index.md) and with tuning the search parameters.
 
 ## 2^4
 

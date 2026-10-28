@@ -178,7 +178,7 @@ If you're able to connect an external mouse & keyboard, the [web version of Hype
 
 ### Search
 
-See [Computer-Assisted Solving](/docs/history/computer-assisted.md) for more info about computer-assisted solvers, including Cube Explorer, MagicCubeNdSolve, Hypersolve, robodoan.
+See [Computer-Assisted Solving](/history/computer-assisted.md) for more info about computer-assisted solvers, including Cube Explorer, MagicCubeNdSolve, Hypersolve, robodoan.
 
 - [RocKeT](https://github.com/HactarCE/rocket), for finding RKT cancels for 3D algorithms
 

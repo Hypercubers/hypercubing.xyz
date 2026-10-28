@@ -57,7 +57,7 @@ In the following sections, we will denote some of these cells using the classic 
 
 ### Some notable 4D hypercuboids
 
-In some cases an idea of a possible solution method provided by [Ema](/leaderboards/solvers/battistin.md) will be present but not spoiled.
+In some cases an idea of a possible solution method provided by [Ema](https://lb.hypercubing.xyz/solver?id=27) will be present but not spoiled.
 
 #### 1×3×3×3
 | Puzzle | 4c pieces | 3c pieces | 2c pieces | 1c pieces | 

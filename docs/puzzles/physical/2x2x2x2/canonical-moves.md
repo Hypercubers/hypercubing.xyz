@@ -63,7 +63,7 @@ There are several different Gyro algorithms, some of which cycle different axes.
 
 ## Expanded Canonical Moveset
 
-The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](/leaderboards/index.md). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2.md), but weren't allowed in the canonical moveset because people agreed not to for some reason.
+The expanded canonical moveset is what is accepted for the [Hypercubing.xyz leaderboards](https://lb.hypercubing.xyz/). These moves all correspond perfectly with twists on the [virtual puzzle](/puzzles/2x2x2x2.md), but weren't allowed in the canonical moveset because people agreed not to for some reason.
 
 ### Extra slab twists
 

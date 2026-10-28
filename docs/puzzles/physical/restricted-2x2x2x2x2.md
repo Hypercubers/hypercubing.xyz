@@ -13,7 +13,7 @@
 
 The restricted 2×2×2×2×2 or 2^5^ (also called the physical domino reduced 2×2×2×2×2) is a physical puzzle that represents the state space of a virtual 2^5^ puzzle, with one of the axes only being able to do 180 degree turns. This puzzle is like the 5D equivalent of scrambling a 2^3^ with only `<U,D,R2,F2,L2,B2>`, which makes the solve way easier than the non-restricted version.
 
-The first known restricted 2^5^ was made by [Grant Staten](/leaderboards/solvers/grant.md) which he showed off in a [YouTube video](https://www.youtube.com/watch?v=rmTx-YI9NWM). [Hyperespy](/leaderboards/solvers/hyperespy.md) also made a version using foldable paper cubes to cover the pieces.
+The first known restricted 2^5^ was made by [Grant Staten](https://lb.hypercubing.xyz/solver?id=7) which he showed off in a [YouTube video](https://www.youtube.com/watch?v=rmTx-YI9NWM). [Hyperespy](https://lb.hypercubing.xyz/solver?id=9) also made a version using foldable paper cubes to cover the pieces.
 
 ![Hyperespy's Restricted 2×2×2×2×2](https://assets.hypercubing.xyz/img/phys/restricted_22222_espy.png){width=60%}
 
