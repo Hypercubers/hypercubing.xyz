@@ -121,6 +121,10 @@ The exact assignment of "physical" and "mechanical" is a historical quirk inheri
 
 Real, complex, and laminated puzzles are often implicitly super. For example, the super real 5×5×5 has 125 pieces, all distinguishable (and with all distinguishable attitudes). It is equivalent to the [Double Circle Real 5×5×5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4823) ([video](https://www.youtube.com/watch?v=WRFNPoAimbM)).
 
+### Subsets
+
+- A **simplified** puzzle is one with only the pieces corresponding to polytope elements. For example, while the full Shallow-Cut FT 600-Cell contains 35 piece types with a total of 177,120 pieces (excluding the core), the _Simplified_ Shallow-Cut FT 600-cell only contains 4 piece types (centers, ridges, edges, and corners) with a total of 2,640 pieces.
+
 ### Cut depths
 
 Cut depth terminology varies by community. Listed here are the definitions we use in hypercubing.

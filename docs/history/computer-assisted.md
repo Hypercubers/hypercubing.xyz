@@ -14,8 +14,11 @@ Other contributions (e.g., algorithmic and solving-method innovations) are noted
 [robodoan]: https://github.com/HactarCE/robodoan/
 [Cube Explorer]: https://kociemba.org/cube.htm
 [Flat Hypercube]: https://github.com/milojacquet/flat-hypercube/
+[mpult-full600-solver]: https://github.com/nanma80/mpult-full600-solver
 
 [^kociemba]: Herbert Kociemba authored [Cube Explorer], used to find optimal or near-optimal 3^3^ solutions.
+
+
 
 ## 3^4
 
@@ -105,18 +108,40 @@ On 2025-09-24, Hactar and Luna Harran completed a 125 STM solve using [robodoan]
 
 On 2023-06-10, Anderson Taurence, author of [Hypersolve](#hypersolve), posted a 19-move solution to a random-state scramble found using Hypersolve in "only a few minutes" to the Hypercubers Discord server.
 
+## Other puzzles
+
+### 600-Cell
+
+On 2026-10-26, Nan Ma posted the first ever solution to the full non-[simplified](/glossary.md#subsets) Shallow-Cut 600-Cell, generated using [mpult-full600-solver](#mpult-full600-solver), a program he built using AI assistance. The methodology and rationale for AI use is described in the email submission.
+
+!!! quote "Email from Nan Ma to the hypercubing mailing list"
+
+    The approach is close to what I might do myself if I had an unlimited amount of time. There was an exploration phase which happens once, followed by a reusable solving phase for each scramble. \[...] The movable pieces form 35 piece orbits.
+
+    For each orbit, Codex searched for useful algorithms, such as three-cycles and orientation changes. It then constructed a solver that uses those algorithms, with setup moves, to solve the entire orbit. It also determined an order for solving the orbits, accounting for the side effects that an algorithm for one orbit has on other orbits. The chosen order, algorithms, routing tables, and orientation data are saved in the solver's code and supporting files; they do not need to be rediscovered for a new scramble.
+
+    \[...]
+
+    Having an AI solve a puzzle can take away the fun of solving it yourself. But the full 600-cell has roughly two orders of magnitude more pieces than what people have solved (thousands of pieces, as far as I know). The sheer size keeps it outside the human experience for 15 years. I would rather see it solved by a machine than leave it unsolved. For me, this feels like a proper use of AI in puzzles.
+
+    \[...]
+
+    Back in 2011, I reacted to Andrey's full 600-cell puzzle by saying, "The day the 600-cell is solved is the end of the world." It is solved, and the world is quite different now.
+
+    Thank you, Andrey!
+
 ## Software
 
 ### Cube Explorer
 
-[Cube Explorer] is a Pascal program that finds a complete solution to a 3^3^ puzzle. It uses a 2-phase method, where each phase is solved using [IDS] with pruning tables. For a full scramble, it typically finds a solution of 18-21 moves within a few seconds on modern hardware. The first version was written by Herbert Kociemba at least as early as 2001[^cube-explorer-2001], although an early implementation of the 2-phase algorithm probably dates back to 1995[^cube-explorer-1995] at the latest.
+[Cube Explorer] is a Pascal program that finds complete solutions to a 3^3^ puzzle. It uses a 2-phase method, where each phase is solved using [IDS] with pruning tables. For a full scramble, it typically finds a solution of 18-21 moves within a few seconds on modern hardware. The first version was written by Herbert Kociemba at least as early as 2001[^cube-explorer-2001], although an early implementation of the 2-phase algorithm probably dates back to 1995[^cube-explorer-1995] at the latest.
 
 [^cube-explorer-2001]: https://github.com/hkociemba/CubeExplorer/blob/master/readme.txt
 [^cube-explorer-1995]: https://cube20.org/
 
 ### MagicCubeNdSolve
 
-[MagicCubeNdSolve] is a Java program that finds complete solutions to _any_ n^d puzzle. It solves each piece type individually, first permuting and then orienting pieces. It runs very quickly (<0.1 seconds for 3^4^ on modern hardware) but produces relatively long solutions. It was written by Don Hatch circa 2006[^mcnds-2006]. It takes input as a [Flat Hypercube]-style projection and outputs moves using a generic 3-letter notation.
+[MagicCubeNdSolve] is a Java program that constructs a complete solution to _any_ n^d puzzle. It solves each piece type individually, first permuting and then orienting pieces. It runs very quickly (<0.1 seconds for 3^4^ on modern hardware) but produces relatively long solutions. It was written by Don Hatch circa 2006[^mcnds-2006]. It takes input as a [Flat Hypercube]-style projection and outputs moves using a generic 3-letter notation.
 
 [^mcnds-2006]: The source code and web page both have a last-modified date of June 8, 2006. It's possible the program was written earlier.
 
@@ -302,3 +327,11 @@ For more details, see the (possibly outdated) [documentation from January 2023](
 [^robodoan-etm]: In rare cases robodoan will fail to cancel moves that could be canceled, but typically robodoan ETM = STM.
 
 [IDA*]: https://en.wikipedia.org/wiki/Iterative_deepening_A*
+
+### mpult-full600-solver
+
+[mpult-full600-solver] is a C# + Python program that constructs a complete solution to the full (non-[simplified](/glossary.md#subsets)) Shallow-Cut FT 600-Cell by solving each of 35 orbits individually using chained 3-cycles. It was built by Nan Ma using AI assistance. (See the [600-Cell](#600-cell) section for his rationale for AI use.)
+
+!!! quote "Email from Nan Ma to the hypercubing mailing list"
+
+    On my computer, a typical run takes about seven minutes to generate the full solution by the Python command and about five minutes to execute the macros in MPUlt. A solution contains about eight million moves, or roughly 45 moves per piece, which is comparable to a 3-cycle based approach for smaller 4D puzzles.
