@@ -16,7 +16,7 @@ There are three strategies we can use to estimate it:
 
 | Puzzle | Lower Bound | Upper Bound | Estimate |
 | ------ | ----------- | ----------- | -------- |
-| 2^4^   | 15 STM      | 37 STM      | ~20 ±5   |
+| 2^4^   | 15 STM      | 29 STM      | ~20 ±5   |
 | 3^4^   | 51 STM      | 570 STM     | ~80 ±25  |
 
 ## 2×2×2×2
@@ -41,11 +41,7 @@ We can compute a lower bound of 15 in the STM by computing a bound on the number
 
 ### Upper bound
 
-We can compute an upper bound of 37 in the STM by computing the worst-case move count of a known method.
-
-??? abstract "Derivation"
-
-    [Hypersolve](https://github.com/ajtaurence/Hypersolve) uses a method that has a worst-case of 39 STM. Furthermore, it has been shown that all cases with move counts more than 37 STM are avoidable. Therefore God's number is at most 37 STM.
+We proved an upper bound of 29 in the STM by splitting the solution into two stages that take at most 7 and 22 moves, respectively. We used puzzle symmetries to reduce the number of cases and exhaustive search to verify the bounds. The proof and search code are written in Lean. See the [repository](https://github.com/ajtaurence/2x2x2x2-gods-number-stm-29-upper-bound) for more details.
 
 ### Estimate
 
@@ -55,12 +51,22 @@ We can compute an upper bound of 37 in the STM by computing the worst-case move 
 
 ### Conclusion
 
-God's number for 2^4^ is definitely between 15 and 37 inclusive, and probably around $\sim 20 \pm 5$.
+God's number for 2^4^ is definitely between 15 and 29 inclusive, and probably around $\sim 20 \pm 5$.
 
 !!! question "Could this be improved?"
 
-    - A better method or lots of compute time might improve slightly on the upper bound. More worst-case scenarios can be checked for avoidability.
-    - Unless there is some fundamental breakthrough in our understanding of computation, there's likely no way to improve on the lower bound. If you're an expert in quantum computing then perhaps you can devise some clever quantum algorithm to help, but as of 2023 quantum computers haven't solved a single real-world problem faster than a classical computer so we remain skeptical.
+	There are several concrete ideas worth exploring that could improve these bounds.
+
+	**Upper bound**
+
+	- Examine rare worst-case scenarios and prove them individually.
+	- Optimize the connection between the two solution stages. Currently we add the two worst-case bounds together but how often do these actually occur together?
+    - Search for alternative subgroups that make search cheaper and/or allow more symmetries.
+
+	**Lower bound**
+
+	- Enumerate positions up to a small depth and keep one shortest move sequence per position, breaking ties by a fixed ordering. Every short block of a longer sequence chosen the same way must appear in that list, giving a recurrence that upper-bounds how many positions can be reached within a given depth.
+	- Run the same recurrence but keep separate counts for different patterns, such as the positions and orientations of a few selected corners. If a bucket contains more full puzzle states than the number of sequences that can reach it within the tested depth, some state in that bucket must take more moves.
 
 ## 3×3×3×3
 
