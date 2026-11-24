@@ -2,6 +2,8 @@
 
 Since building [physical representations](/puzzles/physical/index.md) of higher-dimensional puzzles is challenging, we use computer software to simulate them.
 
+If you are using macOS or Linux, you can download all of the major hypercubing programs at once via the [Hypercubing Definitive Edition](https://github.com/JosieElliston/hypercubing-definitive-edition/).
+
 ## What program should I download?
 
 We recommend [Hyperspeedcube][hsc] to get started.
